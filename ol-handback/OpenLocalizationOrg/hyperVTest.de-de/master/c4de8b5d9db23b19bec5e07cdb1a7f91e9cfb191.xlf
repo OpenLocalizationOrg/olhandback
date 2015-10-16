@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="f338a051-25be-4ae3-b226-4702c2337679" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="f338a051-25be-4ae3-b226-4702c2337679" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="1c3daab5-fd7f-47a7-b83d-8693eea94008">
+        <trans-unit id="b3a99ddf-8d49-43d3-b97f-612871f3548e" xml:space="preserve">
+          <source>ms.ContentId: B9414110-BEFD-423F-9AD8-AFD5EE612CDA
+title: Step 8: Experiment with Windows PowerShell</source>
+          <target state="translated">MS. ContentId: B9414110-BEFD-423F-9AD8-AFD5EE612CDA
+Titel: Schritt 8: experimentieren Sie mit Windows PowerShell</target>
+          
+        </trans-unit>
+        <trans-unit id="67edfde5-d049-462c-9592-7cf53599be85" xml:space="preserve">
+          <source>Step 8: Experiment with Windows PowerShell</source>
+          <target state="translated">Schritt 8: Experimentieren Sie mit WindowsPowerShell</target>
+          
+        </trans-unit>
+        <trans-unit id="9b30aef6-839a-4203-ab37-85fb20a8462c" xml:space="preserve">
+          <source>Now that you have walked through the basics of deploying Hyper-V, creating virtual machines and managing these virtual machines, let’s explore how you can automate many of these activities with PowerShell.</source>
+          <target state="translated">Nun, da Sie die Grundlagen der Bereitstellung von Hyper-V, virtuelle Computer erstellen und verwalten diese virtuellen Computer durchlaufen haben, betrachten wir wie diesen Aktivitäten mit PowerShell automatisiert werden können.</target>
+          
+        </trans-unit>
+        <trans-unit id="0c3c2dec-72f5-4345-81c1-243b2f15e9d3" xml:space="preserve">
+          <source>Return a list of Hyper-V commands</source>
+          <target state="translated">Zurückgeben einer Liste von Hyper-V-Befehle</target>
+          
+        </trans-unit>
+        <trans-unit id="e3602129-e233-4677-a0c2-3a8dcd2a2fe4" xml:space="preserve">
+          <source>Click on the Windows start button, type <bpt id="89695fc1-4afe-4580-af86-834753df9f6c">&lt;strong&gt;</bpt>PowerShell<ept id="89695fc1-4afe-4580-af86-834753df9f6c">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">Klicken Sie auf die Windows-Start-Taste, Typ <bpt id="89695fc1-4afe-4580-af86-834753df9f6c">&lt;strong&gt;</bpt>PowerShell<ept id="89695fc1-4afe-4580-af86-834753df9f6c">&lt;/strong&gt;</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="41b0787e-11b9-4efb-ba90-0c1c9b2d170a" xml:space="preserve">
+          <source>Run the following command to display a searchable list of PowerShell commands available with the Hyper-V PowerShell Module.</source>
+          <target state="translated">Führen Sie den folgenden Befehl aus, um eine durchsuchbare Liste mit PowerShell-Befehle zur Verfügung, mit dem Hyper-V-PowerShell-Modul anzuzeigen.</target>
+          
+        </trans-unit>
+        <trans-unit id="09ce630e-29f1-4a56-9729-5a7ce488519d" xml:space="preserve">
+          <source>To list all virtual machines in a powered off state, run the following command.</source>
+          <target state="translated">Listen Sie alle virtuellen Computer in einen funktionsfähigen Status, off, führen Sie den folgenden Befehl.</target>
+          
+        </trans-unit>
+        <trans-unit id="98559afc-bc6b-44fe-8ed6-a25842c6edba" xml:space="preserve">
+          <source>This command is a copy of the command from step 2 with the filter changed from ‘Running’ to ‘Off’.</source>
+          <target state="translated">Mit diesem Befehl wird eine Kopie des Befehls aus Schritt 2 mit dem Filter aus 'Running' auf 'Off' geändert.</target>
+          
+        </trans-unit>
+        <trans-unit id="3b5f3604-a3ee-4be4-a48f-924e2962884b" xml:space="preserve">
+          <source>Start and shut down virtual machines</source>
+          <target state="translated">Starten und Herunterfahren von virtuellen Maschinen</target>
+          
+        </trans-unit>
+        <trans-unit id="f41b8bc0-d633-4d4e-b0bf-6b3dd0dff645" xml:space="preserve">
+          <source>To start a particular virtual machine, run the following command with name of the virtual machine:</source>
+          <target state="translated">Um einen bestimmten virtuellen Computer zu starten, führen Sie den folgenden Befehl mit dem Namen des virtuellen Computers:</target>
+          
+        </trans-unit>
+        <trans-unit id="95935857-49af-498f-ab92-d99f413a4acb" xml:space="preserve">
+          <source>To start all currently powered off virtual machines, get a list of those machines and pipe the list to the 'start-vm' command:</source>
+          <target state="translated">Um alle momentan ausgeschaltet für virtuelle Computer zu starten, erhalten Sie eine Liste dieser Computer und übergeben Sie die Liste an den Befehl "Start-Vm":</target>
+          
+        </trans-unit>
+        <trans-unit id="275e3bae-a7df-45dd-bf65-9a919fbb4a3f" xml:space="preserve">
+          <source>Wrap up and References</source>
+          <target state="translated">Wrappen und Verweise</target>
+          
+        </trans-unit>
+        <trans-unit id="6d822dae-4d4a-41da-97e3-a792c0c9dd18" xml:space="preserve">
+          <source>This document has shown some simple steps to explorer the Hyper-V PowerShell module as well as some sample scenarios.</source>
+          <target state="translated">Dieses Dokument hat einige einfache Schritte zum Explorer das Hyper-V-PowerShell-Modul sowie einige Beispielszenarios gezeigt.</target>
+          
+        </trans-unit>
+        <trans-unit id="a687e32d-8641-48b1-a5c1-8d5c54447e4a" xml:space="preserve">
+          <source>For more information on the Hyper-V PowerShell module, see the <bpt id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId1">&lt;linkText&gt;</bpt>Hyper-V Cmdlets in Windows PowerShell reference<ept id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId2">&lt;title&gt;</bpt><ept id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">Weitere Informationen über die Hyper-V-PowerShell-Modul, finden Sie unter der <bpt id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId1">&lt;linkText&gt;</bpt>Hyper-V-Cmdlets in Windows PowerShell-Referenz<ept id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId2">&lt;title&gt;</bpt><ept id="613fb3ad-ca91-454c-a211-7fd6e89de52fCapsExtId2">&lt;/title&gt;</ept>.</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
