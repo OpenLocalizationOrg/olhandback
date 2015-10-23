@@ -9,17 +9,17 @@
         <trans-unit id="99088ac8-51c6-492c-a801-8567fc99a639" xml:space="preserve">
           <source>ms.ContentId: 1ab7bfe1-da35-4ff1-916f-936fedf536a0
 title: Setup Windows Containers in Azure</source>
-          <target state="translated">ms。ContentId: 1ab7bfe1-da35-4ff1-916f-936fedf536a0
+          <target state="translated">ms.ContentId: 1ab7bfe1-da35-4ff1-916f-936fedf536a0
 タイトル: Azure で Windows コンテナーのセットアップ</target>
           
         </trans-unit>
         <trans-unit id="cb17ff41-deef-4ab2-a419-04b6007fcfd1" xml:space="preserve">
           <source>Preparing Microsoft Azure for Windows Server Containers</source>
-          <target state="translated">テストPreparing Microsoft Azure for Windows Server Containersテスト終わり</target>
+          <target state="translated">Microsoft Azure for Windows Server Containers の準備</target>
         </trans-unit>
         <trans-unit id="a42e2ad1-3bec-42c1-b724-7d8f5b6d8fd8" xml:space="preserve">
           <source>This is a test edit!!!</source>
-          <target state="translated">テストThis is a test edit!!!テスト終わり</target>
+          <target state="translated">これはテストエディットです!!!</target>
         </trans-unit>
         <trans-unit id="7e66ccc4-4ff4-4807-9766-ea01076e2eb1" xml:space="preserve">
           <source>Before creating and managing Windows Server Containers in Azure you will need to deploy a Windows Server 2016 Technical Preview image which has been pre-configured with the Windows Server Containers feature.</source>
@@ -38,7 +38,7 @@ title: Setup Windows Containers in Azure</source>
         </trans-unit>
         <trans-unit id="2f527f45-516d-4d9e-aec6-8a4a120d3dee" xml:space="preserve">
           <source>Run Windows Server Containers in <bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;linkText&gt;</bpt>a new Hyper-V virtual machine<ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;title&gt;</bpt><ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;/title&gt;</ept>.</source>
-          <target state="translated">テストRun Windows Server Containers in <bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;linkText&gt;</bpt>a new Hyper-V virtual machine<ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;title&gt;</bpt><ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;/title&gt;</ept>.テスト終わり</target>
+          <target state="translated">テストだよ～Run Windows Server Containers in <bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;linkText&gt;</bpt>a new Hyper-V virtual machine<ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;title&gt;</bpt><ept id="5bab1d27-a973-4a6d-9df1-889e5df97f8aCapsExtId2">&lt;/title&gt;</ept>.テスト終わり</target>
         </trans-unit>
         <trans-unit id="884b0b4f-d5d4-4178-998e-c30b3b1c8a93" xml:space="preserve">
           <source>Run Windows Server Containers in <bpt id="7e0b0809-0c08-47f5-b400-f921f052c333CapsExtId1">&lt;linkText&gt;</bpt>an existing virtual machine<ept id="7e0b0809-0c08-47f5-b400-f921f052c333CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7e0b0809-0c08-47f5-b400-f921f052c333CapsExtId2">&lt;title&gt;</bpt><ept id="7e0b0809-0c08-47f5-b400-f921f052c333CapsExtId2">&lt;/title&gt;</ept></source>

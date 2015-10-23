@@ -22,11 +22,11 @@ title: About Windows Server Containers</target>
         </trans-unit>
         <trans-unit id="4f3833d8-9f54-4805-9cba-6c1dc9061802" xml:space="preserve">
           <source>Applications fuel innovation in the cloud and mobile era.</source>
-          <target state="translated">Applications fuel innovation in the cloud and mobile era.</target>
+          <target state="translated">テストApplications fuel innovation in the cloud and mobile era.</target>
         </trans-unit>
         <trans-unit id="d141ccdc-e368-4dd6-93a8-89c570d6f663" xml:space="preserve">
           <source>Containers, and the ecosystem that is developing around them, will empower software developers to create the next generation of applications experiences.</source>
-          <target state="translated">Containers, and the ecosystem that is developing around them, will empower software developers to create the next generation of applications experiences.</target>
+          <target state="translated">テストContainers, and the ecosystem that is developing around them, will empower software developers to create the next generation of applications experiences.</target>
         </trans-unit>
         <trans-unit id="8506a55c-9656-460e-9857-7cd1fa507322" xml:space="preserve">
           <source>Watch a short overview: <bpt id="1981ae7e-ab30-446b-9483-886d0e672ca5CapsExtId1">&lt;linkText&gt;</bpt>Windows-based containers: Modern app development with enterprise-grade control<ept id="1981ae7e-ab30-446b-9483-886d0e672ca5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="1981ae7e-ab30-446b-9483-886d0e672ca5CapsExtId2">&lt;title&gt;</bpt><ept id="1981ae7e-ab30-446b-9483-886d0e672ca5CapsExtId2">&lt;/title&gt;</ept>.</source>
