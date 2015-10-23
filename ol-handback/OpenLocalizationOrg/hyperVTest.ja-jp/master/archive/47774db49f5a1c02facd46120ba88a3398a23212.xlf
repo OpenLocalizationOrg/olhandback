@@ -9,12 +9,12 @@
         <trans-unit id="f337af02-c9fc-47ed-bbc0-41ea222804b8" xml:space="preserve">
           <source>ms.ContentId: 95FE9554-3968-4EED-B65D-E03F06A7598D
 title: Step 3: Create a virtual switch</source>
-          <target state="translated">ms.ContentId: 95FE9554-3968-4EED-B65D-E03F06A7598D
-タイトル: ステップ 3: バーチャルスウィッチの作成</target>
+          <target state="translated">テストms.ContentId: 95FE9554-3968-4EED-B65D-E03F06A7598D
+title: Step 3: Create a virtual switchテスト終わり</target>
         </trans-unit>
         <trans-unit id="3b446832-d2e0-4f66-9fba-8594086a43b1" xml:space="preserve">
           <source>Step 3: Create a virtual switch</source>
-          <target state="translated">ステップ 3: バーチャルスウィッチの作成</target>
+          <target state="translated">テストStep 3: Create a virtual switchテスト終わり</target>
         </trans-unit>
         <trans-unit id="71378732-4169-4950-9a21-14f1873b433a" xml:space="preserve">
           <source>A virtual switch allows you to create a network connection for your virtual machine.</source>
