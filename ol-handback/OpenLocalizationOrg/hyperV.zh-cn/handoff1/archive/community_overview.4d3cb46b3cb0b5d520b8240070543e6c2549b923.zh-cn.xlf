@@ -1,129 +1,129 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-us" target-language="zh-cn" original="foo.file" tool-id="fb2d552f-7db5-462f-9f35-7ff5d6945b9c" product-name="foo" product-version="1.0" build-num="1">
+  <file datatype="xml" source-language="en-us" target-language="zh-cn" original="foo.file" tool-id="164641b4-07ce-44f2-ae3c-e2833f173dc7" product-name="foo" product-version="1.0" build-num="1">
     <header>
-      <tool tool-id="fb2d552f-7db5-462f-9f35-7ff5d6945b9c" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
-      <olfilehash xmlns="">f8d11d3ae6fb0042b3062da5568ada44291246d3</olfilehash>
+      <tool tool-id="164641b4-07ce-44f2-ae3c-e2833f173dc7" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">609e38f0f23d40cb00dda447854b9bfa5545aa68</olfilehash>
     </header>
     <body>
-      <group id="f98b837e-adf7-42f9-9784-a4b3ae420214">
-        <trans-unit id="bc2b7048-ca38-4374-99f2-4cd5a4f42a2b" xml:space="preserve">
+      <group id="e037eaa7-835e-463c-a47a-3f01e5ec64f6">
+        <trans-unit id="d21c85fb-0d8f-4bdb-ad0d-e8d2a65c763c" xml:space="preserve">
           <source>ms.ContentId: 2b4ba69c-51a0-465c-a464-dca696cda744 
 title: Community Resources</source>
           <target state="new">ms.ContentId: 2b4ba69c-51a0-465c-a464-dca696cda744 
 title: Community Resources</target>
         </trans-unit>
-        <trans-unit id="82df0162-3305-45a6-8337-2b5183f22d36" xml:space="preserve">
-          <source>Community Resources test3</source>
-          <target state="new">Community Resources 测试3</target>
+        <trans-unit id="360179a9-0a6b-4ef9-8e48-7bc1bd3d33cd" xml:space="preserve">
+          <source>Community Resources test4</source>
+          <target state="new">Community Resources 测试4</target>
         </trans-unit>
-        <trans-unit id="f49102e5-09b3-4e68-b832-be3720ec00a6" xml:space="preserve">
+        <trans-unit id="b678b9a8-a4b4-48af-8a88-a2b942afdc25" xml:space="preserve">
           <source>Check out resources available to the user community.</source>
           <target state="new">Check out resources available to the user community.</target>
         </trans-unit>
-        <trans-unit id="af57225f-fec3-4774-9eee-77301870f833" xml:space="preserve">
-          <source>There is also a lot to see on the <bpt id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId1">&lt;linkText&gt;</bpt>Docker community<ept id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId2">&lt;title&gt;</bpt><ept id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId2">&lt;/title&gt;</ept> pages.</source>
-          <target state="new">There is also a lot to see on the <bpt id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId1">&lt;linkText&gt;</bpt>Docker community<ept id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId2">&lt;title&gt;</bpt><ept id="97f2d752-5890-4542-a09a-4b015068a49aCapsExtId2">&lt;/title&gt;</ept> pages.</target>
+        <trans-unit id="e125ab09-4aa5-4704-9c77-52b55a625510" xml:space="preserve">
+          <source>There is also a lot to see on the <bpt id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId1">&lt;linkText&gt;</bpt>Docker community<ept id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId2">&lt;title&gt;</bpt><ept id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId2">&lt;/title&gt;</ept> pages.</source>
+          <target state="new">There is also a lot to see on the <bpt id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId1">&lt;linkText&gt;</bpt>Docker community<ept id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId2">&lt;title&gt;</bpt><ept id="a2e4b83f-f2f0-4ebe-a4f4-aaa5f6560d95CapsExtId2">&lt;/title&gt;</ept> pages.</target>
         </trans-unit>
-        <trans-unit id="7383b423-c64e-4b34-92d8-6b4eaf28ec56" xml:space="preserve">
+        <trans-unit id="80e35597-f27a-4242-9acf-e92fa2e37a6d" xml:space="preserve">
           <source>Contribute</source>
           <target state="new">Contribute</target>
         </trans-unit>
-        <trans-unit id="f1f336f3-9a9f-45f7-af82-b1d6f1ebb4b9" xml:space="preserve">
-          <source><bpt id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId1">&lt;linkText&gt;</bpt>Docker for Windows<ept id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId2">&lt;title&gt;</bpt><ept id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId2">&lt;/title&gt;</ept> on GitHub</source>
-          <target state="new"><bpt id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId1">&lt;linkText&gt;</bpt>Docker for Windows<ept id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId2">&lt;title&gt;</bpt><ept id="324dd91b-f852-4bca-82a7-3f08673e66a3CapsExtId2">&lt;/title&gt;</ept> on GitHub</target>
+        <trans-unit id="e68f1f50-f3d7-45cf-8810-fcfcae9da0b6" xml:space="preserve">
+          <source><bpt id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId1">&lt;linkText&gt;</bpt>Docker for Windows<ept id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId2">&lt;title&gt;</bpt><ept id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId2">&lt;/title&gt;</ept> on GitHub</source>
+          <target state="new"><bpt id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId1">&lt;linkText&gt;</bpt>Docker for Windows<ept id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId2">&lt;title&gt;</bpt><ept id="37514d9b-22c3-4191-ac33-0a2a9834efb9CapsExtId2">&lt;/title&gt;</ept> on GitHub</target>
         </trans-unit>
-        <trans-unit id="2e0b9e4e-0692-41dc-93b2-e797caeaf828" xml:space="preserve">
-          <source><bpt id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId1">&lt;linkText&gt;</bpt>This documentation site and samples<ept id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId2">&lt;title&gt;</bpt><ept id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId2">&lt;/title&gt;</ept> on GitHub</source>
-          <target state="new"><bpt id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId1">&lt;linkText&gt;</bpt>This documentation site and samples<ept id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId2">&lt;title&gt;</bpt><ept id="babeb07f-4252-4a80-b682-f6376bd1abb9CapsExtId2">&lt;/title&gt;</ept> on GitHub</target>
+        <trans-unit id="3b93fa1c-76b1-4a84-98c3-1c46bec594b7" xml:space="preserve">
+          <source><bpt id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId1">&lt;linkText&gt;</bpt>This documentation site and samples<ept id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId2">&lt;title&gt;</bpt><ept id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId2">&lt;/title&gt;</ept> on GitHub</source>
+          <target state="new"><bpt id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId1">&lt;linkText&gt;</bpt>This documentation site and samples<ept id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId2">&lt;title&gt;</bpt><ept id="1fd44db4-5b1a-490b-a609-e6bd3a29dc3aCapsExtId2">&lt;/title&gt;</ept> on GitHub</target>
         </trans-unit>
-        <trans-unit id="b3d1c814-ff58-4b05-b2e6-d1eb18841a87" xml:space="preserve">
+        <trans-unit id="d271052c-3b01-40e8-b241-f7d0d7b05bc2" xml:space="preserve">
           <source>User Forums</source>
           <target state="new">User Forums</target>
         </trans-unit>
-        <trans-unit id="32a996e1-55f1-4b9d-a8c1-cad6c976697d" xml:space="preserve">
-          <source><bpt id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId1">&lt;linkText&gt;</bpt>Windows Containers forum<ept id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId2">&lt;title&gt;</bpt><ept id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId1">&lt;linkText&gt;</bpt>Windows Containers forum<ept id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId2">&lt;title&gt;</bpt><ept id="e08d012d-f21d-432c-9db0-f7d2dfc892a7CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="f1450cd8-a94b-4662-91da-95dec4b49eec" xml:space="preserve">
+          <source><bpt id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId1">&lt;linkText&gt;</bpt>Windows Containers forum<ept id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId1">&lt;/linkText&gt;</ept><bpt id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId2">&lt;title&gt;</bpt><ept id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId1">&lt;linkText&gt;</bpt>Windows Containers forum<ept id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId1">&lt;/linkText&gt;</ept><bpt id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId2">&lt;title&gt;</bpt><ept id="3dffe1ff-874a-4ca1-aef8-22170c241971CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="4b911b45-5be0-4a27-9a81-2761d5d9fefe" xml:space="preserve">
-          <source><bpt id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId1">&lt;linkText&gt;</bpt>TechNet forum<ept id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId1">&lt;/linkText&gt;</ept><bpt id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId2">&lt;title&gt;</bpt>TechNet Forums<ept id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId1">&lt;linkText&gt;</bpt>TechNet forum<ept id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId1">&lt;/linkText&gt;</ept><bpt id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId2">&lt;title&gt;</bpt>TechNet Forums<ept id="31db76a3-d287-4bc6-a70d-3b6851080eccCapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="1ab96983-26d5-4e83-ab4c-a03328d9693b" xml:space="preserve">
+          <source><bpt id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId1">&lt;linkText&gt;</bpt>TechNet forum<ept id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId1">&lt;/linkText&gt;</ept><bpt id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId2">&lt;title&gt;</bpt>TechNet Forums<ept id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId1">&lt;linkText&gt;</bpt>TechNet forum<ept id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId1">&lt;/linkText&gt;</ept><bpt id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId2">&lt;title&gt;</bpt>TechNet Forums<ept id="c64ed00e-7278-4a84-8494-5e71ef3f7dd8CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="5477b09f-f42d-4148-9ee8-b19c260fa30f" xml:space="preserve">
-          <source><bpt id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId1">&lt;linkText&gt;</bpt>Azure forum<ept id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId1">&lt;/linkText&gt;</ept><bpt id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId2">&lt;title&gt;</bpt><ept id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId1">&lt;linkText&gt;</bpt>Azure forum<ept id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId1">&lt;/linkText&gt;</ept><bpt id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId2">&lt;title&gt;</bpt><ept id="437f4d08-7fb6-4a2c-ae1a-bf28accbace2CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="d759d8dd-0652-4e36-a866-1f9a05d7e2ef" xml:space="preserve">
+          <source><bpt id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId1">&lt;linkText&gt;</bpt>Azure forum<ept id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId2">&lt;title&gt;</bpt><ept id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId1">&lt;linkText&gt;</bpt>Azure forum<ept id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId2">&lt;title&gt;</bpt><ept id="46fe72a5-e5c4-410a-93b8-09c7b2d83b7dCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="b72f11a8-d2ed-4d7f-8fe3-ae14b9088a22" xml:space="preserve">
+        <trans-unit id="3ce7d0a7-34d6-428c-b9ae-360fd9d63626" xml:space="preserve">
           <source>Featured content</source>
           <target state="new">Featured content</target>
         </trans-unit>
-        <trans-unit id="cca5f0e6-8520-49f5-a190-e0ff0b2579dc" xml:space="preserve">
-          <source><bpt id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId1">&lt;linkText&gt;</bpt>Announcing Windows Server 2016 Containers Preview<ept id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId2">&lt;title&gt;</bpt><ept id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId1">&lt;linkText&gt;</bpt>Announcing Windows Server 2016 Containers Preview<ept id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId2">&lt;title&gt;</bpt><ept id="f7fd363a-d46e-443c-bceb-85ae10b62229CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="2854484e-6ca0-4181-b520-57c846c6470b" xml:space="preserve">
+          <source><bpt id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId1">&lt;linkText&gt;</bpt>Announcing Windows Server 2016 Containers Preview<ept id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId2">&lt;title&gt;</bpt><ept id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId1">&lt;linkText&gt;</bpt>Announcing Windows Server 2016 Containers Preview<ept id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId2">&lt;title&gt;</bpt><ept id="e1a41aa2-a5ad-4a39-a1ea-7197586d2c5bCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="fdeeaef8-7b70-4e26-b1e9-43267eaea05e" xml:space="preserve">
-          <source><bpt id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId1">&lt;linkText&gt;</bpt>Docker -Introducing the Technical Preview of Docker Enging for Windows Server 2016<ept id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId1">&lt;/linkText&gt;</ept><bpt id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId2">&lt;title&gt;</bpt><ept id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId1">&lt;linkText&gt;</bpt>Docker -Introducing the Technical Preview of Docker Enging for Windows Server 2016<ept id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId1">&lt;/linkText&gt;</ept><bpt id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId2">&lt;title&gt;</bpt><ept id="43bf432b-e58c-4d07-9be2-6b2d120f1324CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="75dde16e-0561-4bca-b706-7886682fa143" xml:space="preserve">
+          <source><bpt id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId1">&lt;linkText&gt;</bpt>Docker -Introducing the Technical Preview of Docker Enging for Windows Server 2016<ept id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId1">&lt;/linkText&gt;</ept><bpt id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId2">&lt;title&gt;</bpt><ept id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId1">&lt;linkText&gt;</bpt>Docker -Introducing the Technical Preview of Docker Enging for Windows Server 2016<ept id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId1">&lt;/linkText&gt;</ept><bpt id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId2">&lt;title&gt;</bpt><ept id="77618a6b-ed04-423b-bab1-382b2a723cdfCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="2508df14-3f8c-4b19-b215-e17feacd6fb9" xml:space="preserve">
-          <source><bpt id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId1">&lt;linkText&gt;</bpt>Containers 101 Video<ept id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId2">&lt;title&gt;</bpt><ept id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId1">&lt;linkText&gt;</bpt>Containers 101 Video<ept id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId2">&lt;title&gt;</bpt><ept id="f8768a00-1acf-4d7d-8ea2-b72dfebfcc60CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="a0629e9a-e160-48b8-93d0-bc67ceead52b" xml:space="preserve">
+          <source><bpt id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId1">&lt;linkText&gt;</bpt>Containers 101 Video<ept id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId1">&lt;/linkText&gt;</ept><bpt id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId2">&lt;title&gt;</bpt><ept id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId1">&lt;linkText&gt;</bpt>Containers 101 Video<ept id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId1">&lt;/linkText&gt;</ept><bpt id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId2">&lt;title&gt;</bpt><ept id="762b8e8e-b7ee-486d-a42b-f844878e1aaaCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="643b8a09-5e94-425c-8455-847bf304016c" xml:space="preserve">
-          <source><bpt id="11333749-2d4c-464b-b097-8a396999c158CapsExtId1">&lt;linkText&gt;</bpt>Containers: Docker, Windows and Trends<ept id="11333749-2d4c-464b-b097-8a396999c158CapsExtId1">&lt;/linkText&gt;</ept><bpt id="11333749-2d4c-464b-b097-8a396999c158CapsExtId2">&lt;title&gt;</bpt><ept id="11333749-2d4c-464b-b097-8a396999c158CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="11333749-2d4c-464b-b097-8a396999c158CapsExtId1">&lt;linkText&gt;</bpt>Containers: Docker, Windows and Trends<ept id="11333749-2d4c-464b-b097-8a396999c158CapsExtId1">&lt;/linkText&gt;</ept><bpt id="11333749-2d4c-464b-b097-8a396999c158CapsExtId2">&lt;title&gt;</bpt><ept id="11333749-2d4c-464b-b097-8a396999c158CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="c38dca0f-42d6-498a-86ca-cb7989168d3a" xml:space="preserve">
+          <source><bpt id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId1">&lt;linkText&gt;</bpt>Containers: Docker, Windows and Trends<ept id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId1">&lt;/linkText&gt;</ept><bpt id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId2">&lt;title&gt;</bpt><ept id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId1">&lt;linkText&gt;</bpt>Containers: Docker, Windows and Trends<ept id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId1">&lt;/linkText&gt;</ept><bpt id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId2">&lt;title&gt;</bpt><ept id="bd18ff0a-33ce-4dc7-8522-9004c20b5732CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="260310f5-28d2-4be7-90e0-85f0602bb89d" xml:space="preserve">
+        <trans-unit id="965d96d6-f265-4d39-bbe9-ef5e0296d6d1" xml:space="preserve">
           <source>Blogs</source>
           <target state="new">Blogs</target>
         </trans-unit>
-        <trans-unit id="21c39b2d-ef7c-441f-8de1-e396c1d756e5" xml:space="preserve">
-          <source><bpt id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId1">&lt;linkText&gt;</bpt>Channel 9 - The Containers Channel<ept id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId2">&lt;title&gt;</bpt><ept id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId1">&lt;linkText&gt;</bpt>Channel 9 - The Containers Channel<ept id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId2">&lt;title&gt;</bpt><ept id="22f148ef-2411-4da6-8e91-0dd7f125d83dCapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="02b90cc8-fd43-44bd-a783-b0fb6a1a1953" xml:space="preserve">
+          <source><bpt id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId1">&lt;linkText&gt;</bpt>Channel 9 - The Containers Channel<ept id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId2">&lt;title&gt;</bpt><ept id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId1">&lt;linkText&gt;</bpt>Channel 9 - The Containers Channel<ept id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId2">&lt;title&gt;</bpt><ept id="e7c44a86-2ec1-4b2c-ab71-67075ec77996CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="64047f33-6abb-40e4-8305-e9a61609eacf" xml:space="preserve">
-          <source><bpt id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId1">&lt;linkText&gt;</bpt>Server &amp; Cloud blog<ept id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId2">&lt;title&gt;</bpt><ept id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId1">&lt;linkText&gt;</bpt>Server &amp; Cloud blog<ept id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId2">&lt;title&gt;</bpt><ept id="3516bd2c-b53f-4fbb-a92b-ca95ce4cebb5CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="d1885dcf-6047-427a-8ead-c664df64d825" xml:space="preserve">
+          <source><bpt id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId1">&lt;linkText&gt;</bpt>Server &amp; Cloud blog<ept id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId1">&lt;/linkText&gt;</ept><bpt id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId2">&lt;title&gt;</bpt><ept id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId1">&lt;linkText&gt;</bpt>Server &amp; Cloud blog<ept id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId1">&lt;/linkText&gt;</ept><bpt id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId2">&lt;title&gt;</bpt><ept id="34178741-bfea-4aca-a49a-c6519b6022b1CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="290b61cb-cc33-4df5-9dc6-b8ea93e8b677" xml:space="preserve">
-          <source><bpt id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId1">&lt;linkText&gt;</bpt>Azure blog<ept id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId2">&lt;title&gt;</bpt><ept id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId1">&lt;linkText&gt;</bpt>Azure blog<ept id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId2">&lt;title&gt;</bpt><ept id="2e9bbf6b-d744-4d8f-be9b-e0742f4085a6CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="c7de0db3-8770-41b4-a0e8-5c76bcc826ec" xml:space="preserve">
+          <source><bpt id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId1">&lt;linkText&gt;</bpt>Azure blog<ept id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId2">&lt;title&gt;</bpt><ept id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId1">&lt;linkText&gt;</bpt>Azure blog<ept id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId2">&lt;title&gt;</bpt><ept id="2e625b67-f8bb-4255-bec0-bc45318fc6b0CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="3d966a7b-b78d-4566-a4e4-1e852071cbe1" xml:space="preserve">
+        <trans-unit id="223fb314-d6fb-43eb-8502-da7cf9c3de42" xml:space="preserve">
           <source>Presentations</source>
           <target state="new">Presentations</target>
         </trans-unit>
-        <trans-unit id="378b0ec0-fd85-4ea0-9910-ac8bf30d177c" xml:space="preserve">
-          <source><bpt id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Day One Keynote Presentation<ept id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId2">&lt;title&gt;</bpt><ept id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Day One Keynote Presentation<ept id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId2">&lt;title&gt;</bpt><ept id="369fd9df-ce57-49c6-9639-ffaf36a2b1b9CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="4c9d60f9-2252-4731-8b86-1b52d6eb792f" xml:space="preserve">
+          <source><bpt id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Day One Keynote Presentation<ept id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId1">&lt;/linkText&gt;</ept><bpt id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId2">&lt;title&gt;</bpt><ept id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Day One Keynote Presentation<ept id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId1">&lt;/linkText&gt;</ept><bpt id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId2">&lt;title&gt;</bpt><ept id="98149ead-5315-4446-b59f-21e2b73aad79CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="e9925322-cde2-4e31-bea7-525ae1ec6964" xml:space="preserve">
-          <source><bpt id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Windows Containers: What, Why and How<ept id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId1">&lt;/linkText&gt;</ept><bpt id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId2">&lt;title&gt;</bpt><ept id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Windows Containers: What, Why and How<ept id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId1">&lt;/linkText&gt;</ept><bpt id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId2">&lt;title&gt;</bpt><ept id="44e26f4c-02f9-47c0-aeed-324ad2683526CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="612519a4-f1f4-4a58-9642-6b6aaf93f650" xml:space="preserve">
+          <source><bpt id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Windows Containers: What, Why and How<ept id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId2">&lt;title&gt;</bpt><ept id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Windows Containers: What, Why and How<ept id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId2">&lt;title&gt;</bpt><ept id="b73657d8-e87d-433f-b83e-2d6b16e7f55dCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="1a38af1b-acbd-467d-bcbf-577357056fe1" xml:space="preserve">
-          <source><bpt id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Thinking in Containers: Building a Scalable, Next-Gen Application with Docker on Azure<ept id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId2">&lt;title&gt;</bpt><ept id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Thinking in Containers: Building a Scalable, Next-Gen Application with Docker on Azure<ept id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId2">&lt;title&gt;</bpt><ept id="84c5f89e-e9fc-42f3-a5b1-36dac62de92fCapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="28b5c238-8747-41fd-9fbd-9c6b22a5fe73" xml:space="preserve">
+          <source><bpt id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Thinking in Containers: Building a Scalable, Next-Gen Application with Docker on Azure<ept id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId1">&lt;/linkText&gt;</ept><bpt id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId2">&lt;title&gt;</bpt><ept id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Thinking in Containers: Building a Scalable, Next-Gen Application with Docker on Azure<ept id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId1">&lt;/linkText&gt;</ept><bpt id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId2">&lt;title&gt;</bpt><ept id="96c8bd2e-42b3-4e52-847c-4c09abef8396CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="2d5426f1-4432-4d6e-b341-0687318b6f22" xml:space="preserve">
-          <source><bpt id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Deploying Complex Open Source Workloads on Azure<ept id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId1">&lt;/linkText&gt;</ept><bpt id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId2">&lt;title&gt;</bpt><ept id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Deploying Complex Open Source Workloads on Azure<ept id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId1">&lt;/linkText&gt;</ept><bpt id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId2">&lt;title&gt;</bpt><ept id="1c710424-8124-4d72-9a06-b2146ca85765CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="fc571c7d-6103-4aaf-86ba-2129cbf33568" xml:space="preserve">
+          <source><bpt id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Deploying Complex Open Source Workloads on Azure<ept id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId2">&lt;title&gt;</bpt><ept id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId1">&lt;linkText&gt;</bpt>Build 2015 - Deploying Complex Open Source Workloads on Azure<ept id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId2">&lt;title&gt;</bpt><ept id="b702c5c6-3e16-41d0-97e4-2b551f11c8bbCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="f218cd42-1ce8-4467-bbe4-3e86c3a58673" xml:space="preserve">
+        <trans-unit id="df42db5c-05f9-47fe-870b-a6b79025913d" xml:space="preserve">
           <source>Articles</source>
           <target state="new">Articles</target>
         </trans-unit>
-        <trans-unit id="28585d2e-8ced-482c-afc6-525ba139388f" xml:space="preserve">
-          <source><bpt id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId1">&lt;linkText&gt;</bpt>Virtual Machines and Containers in Azure<ept id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId2">&lt;title&gt;</bpt><ept id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId1">&lt;linkText&gt;</bpt>Virtual Machines and Containers in Azure<ept id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId2">&lt;title&gt;</bpt><ept id="24605122-ff16-4780-bd2a-af4a276d515fCapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="a434f8a9-618e-4abe-abe7-389088af162b" xml:space="preserve">
+          <source><bpt id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId1">&lt;linkText&gt;</bpt>Virtual Machines and Containers in Azure<ept id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId1">&lt;/linkText&gt;</ept><bpt id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId2">&lt;title&gt;</bpt><ept id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId1">&lt;linkText&gt;</bpt>Virtual Machines and Containers in Azure<ept id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId1">&lt;/linkText&gt;</ept><bpt id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId2">&lt;title&gt;</bpt><ept id="51ba041b-e94e-476b-9b47-61458f68b632CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="1c4cb07e-46d8-45c6-b56c-6719d7d4f5cf" xml:space="preserve">
-          <source><bpt id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId1">&lt;linkText&gt;</bpt>New Windows Server containers and Azure support for Docker<ept id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId2">&lt;title&gt;</bpt><ept id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId1">&lt;linkText&gt;</bpt>New Windows Server containers and Azure support for Docker<ept id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId2">&lt;title&gt;</bpt><ept id="2700c5db-459e-4e1c-bf56-2a259c9aede9CapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="d1cbb9dd-c499-4599-af30-fb1f780c9e17" xml:space="preserve">
+          <source><bpt id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId1">&lt;linkText&gt;</bpt>New Windows Server containers and Azure support for Docker<ept id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId1">&lt;/linkText&gt;</ept><bpt id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId2">&lt;title&gt;</bpt><ept id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId1">&lt;linkText&gt;</bpt>New Windows Server containers and Azure support for Docker<ept id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId1">&lt;/linkText&gt;</ept><bpt id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId2">&lt;title&gt;</bpt><ept id="c31fab1e-ecf1-431d-a8c5-2a0e37e3c47eCapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
-        <trans-unit id="5a2bf7f3-7427-4134-8c15-0990baed66ef" xml:space="preserve">
-          <source><bpt id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId1">&lt;linkText&gt;</bpt>Microsoft Announces New Container Technologies for the Next Generation Cloud<ept id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId2">&lt;title&gt;</bpt><ept id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId2">&lt;/title&gt;</ept></source>
-          <target state="new"><bpt id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId1">&lt;linkText&gt;</bpt>Microsoft Announces New Container Technologies for the Next Generation Cloud<ept id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId2">&lt;title&gt;</bpt><ept id="d30a6c6b-ce25-4c24-9b29-bc95f913a38dCapsExtId2">&lt;/title&gt;</ept></target>
+        <trans-unit id="cbe81576-fd09-43d6-b2cf-4461e54675e5" xml:space="preserve">
+          <source><bpt id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId1">&lt;linkText&gt;</bpt>Microsoft Announces New Container Technologies for the Next Generation Cloud<ept id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId2">&lt;title&gt;</bpt><ept id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId1">&lt;linkText&gt;</bpt>Microsoft Announces New Container Technologies for the Next Generation Cloud<ept id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId2">&lt;title&gt;</bpt><ept id="a591c1d9-ab25-4a8e-a4e0-b3efba9b60f6CapsExtId2">&lt;/title&gt;</ept></target>
         </trans-unit>
       </group>
     </body>
