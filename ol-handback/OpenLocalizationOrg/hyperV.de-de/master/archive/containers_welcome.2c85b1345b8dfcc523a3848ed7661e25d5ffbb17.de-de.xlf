@@ -15,7 +15,7 @@ title: Containers Welcome</target>
         </trans-unit>
         <trans-unit id="ecab10c5-8f59-452a-80ad-38cf2bde101d" xml:space="preserve">
           <source>Hello World</source>
-          <target state="new">xx xxx</target>
+          <target state="new">Hello World</target>
         </trans-unit>
         <trans-unit id="172f64c7-84a2-4be9-8916-c54fcee482b9" xml:space="preserve">
           <source>Windows Containers</source>

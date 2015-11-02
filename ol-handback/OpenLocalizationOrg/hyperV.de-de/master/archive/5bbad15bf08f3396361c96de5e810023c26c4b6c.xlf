@@ -14,11 +14,11 @@ title: Containers Welcome</target>
         </trans-unit>
         <trans-unit id="c5571c9a-c383-4db2-9eb0-6ba9978ab667" xml:space="preserve">
           <source>Hello</source>
-          <target state="new">你好 世界</target>
+          <target state="new">Hello</target>
         </trans-unit>
         <trans-unit id="30f1450d-58ad-42f4-8a10-7f3578a11ac0" xml:space="preserve">
           <source>Windows Containers</source>
-          <target state="new">Windows 容器</target>
+          <target state="new">Windows Containers</target>
         </trans-unit>
         <trans-unit id="008afaa3-27f4-44da-8e13-721feb7f2eb2" xml:space="preserve">
           <source>Windows containers provide operating system level virtualization that allow you to run multiple isolated applications on one container host.</source>

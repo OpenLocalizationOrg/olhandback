@@ -15,7 +15,7 @@ title: Community Resources</target>
         </trans-unit>
         <trans-unit id="1a1ff860-d848-4157-a00c-66c52a065b1b" xml:space="preserve">
           <source>Community Resources test2</source>
-          <target state="new">Community Resources 测试2</target>
+          <target state="new">Community Resources test2</target>
         </trans-unit>
         <trans-unit id="7d54e602-f309-409c-8c6a-9cb9215500e8" xml:space="preserve">
           <source>Check out resources available to the user community.</source>
