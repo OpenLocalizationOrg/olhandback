@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="93c8986c-fa22-41b3-8e16-b449db484a8a" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="93c8986c-fa22-41b3-8e16-b449db484a8a" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">f0a28c4f0a7ae280a0e4c4a5dfda3bfa27ef7a88</olfilehash>
+    </header>
+    <body>
+      <group id="e1ca4c13-98d2-4f5f-aa3b-24ac87b499cd">
+        <trans-unit id="541d8d8e-d1fe-4d05-a407-7349e790863d" xml:space="preserve">
+          <source>.NET Compiler Platform ("Roslyn") Overview</source>
+          <target state="translated">Übersicht über die .NET Compiler Platform ("Roslyn")</target>         
+        </trans-unit>
+        <trans-unit id="be82fa53-7dab-42f2-8cec-c61688e57242" xml:space="preserve">
+          <source>In this document</source>
+          <target state="translated">Inhalt dieses Dokuments</target>         
+        </trans-unit>
+        <trans-unit id="0d1253cf-3704-4f86-919a-9c72664728dc" xml:space="preserve">
+          <source><bpt id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId1">&lt;linkText&gt;</bpt>Introduction<ept id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId1">&lt;/linkText&gt;</ept><bpt id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId2">&lt;title&gt;</bpt><ept id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId1">&lt;linkText&gt;</bpt>Einführung<ept id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId1">&lt;/linkText&gt;</ept><bpt id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId2">&lt;title&gt;</bpt><ept id="74a7140f-7dcd-4230-a570-bda120be9e47CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="90b967d8-fc70-47cf-947e-6565ce76844d" xml:space="preserve">
+          <source><bpt id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId1">&lt;linkText&gt;</bpt>Exposing the Compiler APIs<ept id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId2">&lt;title&gt;</bpt><ept id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId1">&lt;linkText&gt;</bpt>Verfügbarmachen der Compiler-APIs<ept id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId2">&lt;title&gt;</bpt><ept id="a82de10c-16fe-4a77-9d55-dfacda6c1df8CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="a602f9dc-96f6-44ff-a827-679cafb42280" xml:space="preserve">
+          <source><bpt id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId1">&lt;linkText&gt;</bpt>Compiler Pipeline Functional
+Areas<ept id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId2">&lt;title&gt;</bpt><ept id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId1">&lt;linkText&gt;</bpt>Funktionale Compilerpipeline
+Bereiche<ept id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId2">&lt;title&gt;</bpt><ept id="7143dc89-2fcc-45b7-8a99-4813aaa0fd01CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="f1f4a8ec-b7b2-470d-8f70-021a0d99bd13" xml:space="preserve">
+          <source><bpt id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId1">&lt;linkText&gt;</bpt>API Layers<ept id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId2">&lt;title&gt;</bpt><ept id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId1">&lt;linkText&gt;</bpt>API-Ebenen<ept id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId2">&lt;title&gt;</bpt><ept id="e2e6f0e0-0f6e-4bf9-aa74-302be65a60e5CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="2acb6ad1-59a3-4e6b-9d77-77f87341fc7d" xml:space="preserve">
+          <source><bpt id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId1">&lt;linkText&gt;</bpt>Compiler APIs<ept id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId1">&lt;/linkText&gt;</ept><bpt id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId2">&lt;title&gt;</bpt><ept id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId1">&lt;linkText&gt;</bpt>Compiler-APIs<ept id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId1">&lt;/linkText&gt;</ept><bpt id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId2">&lt;title&gt;</bpt><ept id="94a8a172-595d-4831-a4cf-60b793b1b1dbCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="75ad1d76-f776-4469-9977-32c2da2e7568" xml:space="preserve">
+          <source><bpt id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId1">&lt;linkText&gt;</bpt>Workspaces APIs<ept id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId1">&lt;/linkText&gt;</ept><bpt id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId2">&lt;title&gt;</bpt><ept id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId1">&lt;linkText&gt;</bpt>Arbeitsbereiche-APIs<ept id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId1">&lt;/linkText&gt;</ept><bpt id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId2">&lt;title&gt;</bpt><ept id="bc01d231-3ae1-4421-ad73-5a91058be876CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="f59fed2b-7441-4ca9-bf78-abef96eedaa9" xml:space="preserve">
+          <source><bpt id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId1">&lt;linkText&gt;</bpt>Working with Syntax<ept id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId2">&lt;title&gt;</bpt><ept id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId1">&lt;linkText&gt;</bpt>Arbeiten mit der Syntax<ept id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId2">&lt;title&gt;</bpt><ept id="6e702d82-5788-4a65-b336-e5a40bab06c9CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="d80e886f-2906-4fc7-8362-0d111cf51465" xml:space="preserve">
+          <source><bpt id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId1">&lt;linkText&gt;</bpt>Syntax Trees<ept id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId2">&lt;title&gt;</bpt><ept id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId1">&lt;linkText&gt;</bpt>Syntaxstrukturen<ept id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId1">&lt;/linkText&gt;</ept><bpt id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId2">&lt;title&gt;</bpt><ept id="c22c8698-ca39-49b2-9acb-dc02bf530d4fCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="78e86955-1ea0-4d50-bc3a-fc418bdafd9e" xml:space="preserve">
+          <source><bpt id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId1">&lt;linkText&gt;</bpt>Syntax Nodes<ept id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId2">&lt;title&gt;</bpt><ept id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId1">&lt;linkText&gt;</bpt>Syntax von Knoten<ept id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId2">&lt;title&gt;</bpt><ept id="9633eeb9-9ded-40fe-8eaa-b4b74cb05ec6CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="fd20826f-2546-46cf-8d8c-6f932dd3368e" xml:space="preserve">
+          <source><bpt id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId1">&lt;linkText&gt;</bpt>Syntax Tokens<ept id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId2">&lt;title&gt;</bpt><ept id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId1">&lt;linkText&gt;</bpt>Syntax von Token<ept id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId2">&lt;title&gt;</bpt><ept id="dc514dd5-65e3-4b06-a293-156d3d59735aCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="e76875b6-dfab-4c31-8749-c88576fcd50c" xml:space="preserve">
+          <source><bpt id="59086966-148d-4e74-94b3-71792a57320bCapsExtId1">&lt;linkText&gt;</bpt>Syntax Trivia<ept id="59086966-148d-4e74-94b3-71792a57320bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="59086966-148d-4e74-94b3-71792a57320bCapsExtId2">&lt;title&gt;</bpt><ept id="59086966-148d-4e74-94b3-71792a57320bCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="59086966-148d-4e74-94b3-71792a57320bCapsExtId1">&lt;linkText&gt;</bpt>Faszinierende Syntax<ept id="59086966-148d-4e74-94b3-71792a57320bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="59086966-148d-4e74-94b3-71792a57320bCapsExtId2">&lt;title&gt;</bpt><ept id="59086966-148d-4e74-94b3-71792a57320bCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="4cd012a8-37aa-40cf-b669-76335896fe1a" xml:space="preserve">
+          <source><bpt id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId1">&lt;linkText&gt;</bpt>Spans<ept id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId1">&lt;/linkText&gt;</ept><bpt id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId2">&lt;title&gt;</bpt><ept id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId1">&lt;linkText&gt;</bpt>Spannen<ept id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId1">&lt;/linkText&gt;</ept><bpt id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId2">&lt;title&gt;</bpt><ept id="00a98d3c-6e41-47c6-a3b6-02e0d111ff89CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="dbb60abc-dedf-4561-86b2-51d87986ecee" xml:space="preserve">
+          <source><bpt id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId1">&lt;linkText&gt;</bpt>Kinds<ept id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId2">&lt;title&gt;</bpt><ept id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId1">&lt;linkText&gt;</bpt>Arten<ept id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId2">&lt;title&gt;</bpt><ept id="975050fa-08e4-49f2-847f-2d1bce0a79c9CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="cf879cca-79c5-437f-a407-13f151a6ab85" xml:space="preserve">
+          <source><bpt id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId1">&lt;linkText&gt;</bpt>Errors<ept id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId1">&lt;/linkText&gt;</ept><bpt id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId2">&lt;title&gt;</bpt><ept id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId1">&lt;linkText&gt;</bpt>Fehler<ept id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId1">&lt;/linkText&gt;</ept><bpt id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId2">&lt;title&gt;</bpt><ept id="dce3b5e8-f92d-42fb-ab39-6c06202a53ceCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="da5897f0-6535-4a42-9c39-2d8a76aec82c" xml:space="preserve">
+          <source><bpt id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId1">&lt;linkText&gt;</bpt>Working with Semantics<ept id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId2">&lt;title&gt;</bpt><ept id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId1">&lt;linkText&gt;</bpt>Arbeiten mit Semantik<ept id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId1">&lt;/linkText&gt;</ept><bpt id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId2">&lt;title&gt;</bpt><ept id="e138cc42-bb52-4b5d-921c-1be5c3ec186dCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="78e36258-02e5-4c8f-8b7f-3ede641bfd21" xml:space="preserve">
+          <source><bpt id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId1">&lt;linkText&gt;</bpt>Compilation<ept id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId2">&lt;title&gt;</bpt><ept id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId1">&lt;linkText&gt;</bpt>Kompilierung<ept id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId2">&lt;title&gt;</bpt><ept id="f0f485e3-23ce-4f9f-b2cc-304f96e56947CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="fa7ce934-88e2-4a0e-b846-2faf53417bf5" xml:space="preserve">
+          <source><bpt id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId1">&lt;linkText&gt;</bpt>Symbols<ept id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId1">&lt;/linkText&gt;</ept><bpt id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId2">&lt;title&gt;</bpt><ept id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId1">&lt;linkText&gt;</bpt>Symbole<ept id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId1">&lt;/linkText&gt;</ept><bpt id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId2">&lt;title&gt;</bpt><ept id="0169eb20-77cf-453c-b3ec-0a1727f25c00CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="e5c79f4e-fc17-4839-b62d-9a139580fe08" xml:space="preserve">
+          <source><bpt id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId1">&lt;linkText&gt;</bpt>Semantic Model<ept id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId2">&lt;title&gt;</bpt><ept id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId1">&lt;linkText&gt;</bpt>Semantikmodell<ept id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId2">&lt;title&gt;</bpt><ept id="c291d996-70cb-4855-8f6c-3099e4e7e4f3CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="357d9a66-8df3-4be9-8232-7171b118ff94" xml:space="preserve">
+          <source><bpt id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId1">&lt;linkText&gt;</bpt>Working with a Workspace<ept id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId2">&lt;title&gt;</bpt><ept id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId1">&lt;linkText&gt;</bpt>Arbeiten mit einem Arbeitsbereich<ept id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId1">&lt;/linkText&gt;</ept><bpt id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId2">&lt;title&gt;</bpt><ept id="6729bac8-f68a-45c5-9038-7ee04ba9b5d3CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="13f3c200-4b04-4cfa-8fff-160ab39e76fb" xml:space="preserve">
+          <source><bpt id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId1">&lt;linkText&gt;</bpt>Workspace<ept id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId2">&lt;title&gt;</bpt><ept id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId1">&lt;linkText&gt;</bpt>Arbeitsbereich<ept id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId2">&lt;title&gt;</bpt><ept id="f135116a-a2af-44f8-be22-5f692edb7db7CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="17b07c38-2e05-4d86-b6fd-ab34e7947f8b" xml:space="preserve">
+          <source><bpt id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId1">&lt;linkText&gt;</bpt>Solutions, Projects and
+Documents<ept id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId1">&lt;/linkText&gt;</ept><bpt id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId2">&lt;title&gt;</bpt><ept id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId1">&lt;linkText&gt;</bpt>Projektmappen, Projekte und
+Dokumente<ept id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId1">&lt;/linkText&gt;</ept><bpt id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId2">&lt;title&gt;</bpt><ept id="cd6ce7ab-39a3-47f7-997f-1e355b49bcbdCapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="e2a2bde5-3019-4e4f-967b-21f7c3039abc" xml:space="preserve">
+          <source>Introduction</source>
+          <target state="translated">Einführung</target>         
+        </trans-unit>
+        <trans-unit id="6679275b-ca53-4db4-af20-b5e8963b65f7" xml:space="preserve">
+          <source>Traditionally, compilers are black boxes -- source code goes in one end,
+magic happens in the middle, and object files or assemblies come out the
+other end.</source>
+          <target state="translated">In der Vergangenheit werden schwarze Felder - Quellcode in einem Ende geht,
+Geheimnis liegt in der Mitte und Objektdateien oder Assemblys stammen die
+andere Ende.</target>         
+        </trans-unit>
+        <trans-unit id="3191f3c7-858d-4447-8cb7-db4ae2219c0e" xml:space="preserve">
+          <source>As compilers perform their magic, they build up deep
+understanding of the code they are processing, but that knowledge is
+unavailable to anyone but the compiler implementation wizards.</source>
+          <target state="translated">Compiler ihre Magic ausführen, erstellen sie umfassende
+Verstehen des Codes diese verarbeitet werden, aber dieses Wissen ist.
+für andere Personen als die Compiler-Implementierung-Assistenten nicht verfügbar.</target>         
+        </trans-unit>
+        <trans-unit id="418e04d2-fa07-4224-85d4-645148f367c6" xml:space="preserve">
+          <source>The
+information is promptly forgotten after the translated output is
+produced.</source>
+          <target state="translated">Die
+Informationen vergessen wird sofort, nachdem die konvertierte Ausgabe ist
+erzeugt wurde.</target>         
+        </trans-unit>
+        <trans-unit id="11565035-30ed-43bc-bcdc-f345e915fc48" xml:space="preserve">
+          <source>For decades, this world view has served us well, but it is no longer
+sufficient.</source>
+          <target state="translated">Seit Jahrzehnten dieser Sichtweise hat uns gut bedient, aber es ist nicht mehr
+ausreichend.</target>         
+        </trans-unit>
+        <trans-unit id="b798c3f9-e36b-45ed-81e5-3ffa51d2f2f5" xml:space="preserve">
+          <source>Increasingly we rely on integrated development environment
+(IDE) features such as IntelliSense, refactoring, intelligent rename,
+“Find all references,” and “Go to definition” to increase our
+productivity.</source>
+          <target state="translated">Bauen wir zunehmend auf IDE
+(IDE) von Features wie z. B. IntelliSense, Umgestaltung, intelligente umbenennen
+"Alle Verweise suchen" und "Gehe zu Definition" erhöhen unsere
+die Produktivität.</target>         
+        </trans-unit>
+        <trans-unit id="05280652-55cd-416b-a35b-72db4e960b89" xml:space="preserve">
+          <source>We rely on code analysis tools to improve our code quality
+and code generators to aid in application construction.</source>
+          <target state="translated">Wir benötigen Codeanalysetools können Sie die Qualität des Codes zu verbessern.
+und Code-Generatoren zur Unterstützung bei der Erstellung der Anwendung.</target>         
+        </trans-unit>
+        <trans-unit id="db415880-273d-421d-b58b-99441cc84667" xml:space="preserve">
+          <source>As these tools
+get smarter, they need access to more and more of the deep code
+knowledge that only compilers possess.</source>
+          <target state="translated">Wie diese tools
+Intelligenter erhalten, müssen sie auf zu mehr und mehr Tiefe Code zugreifen
+Kenntnisse, die nur für Compiler besitzen.</target>         
+        </trans-unit>
+        <trans-unit id="ef96ea8c-4bc9-4206-ad36-40f9b6b6cd04" xml:space="preserve">
+          <source>This is the core mission of the
+.NET Compiler Platform (“Roslyn”): opening up the black boxes and
+allowing tools and end users to share in the wealth of information
+compilers have about our code.</source>
+          <target state="translated">Dies ist der Kern-Auftrag, der die
+.NET Compiler Platform ("Roslyn"): Öffnen Sie die schwarzen Felder und
+Tools und Endbenutzer mit der Fülle von Informationen ermöglichen
+Compiler sind über unseren Code.</target>         
+        </trans-unit>
+        <trans-unit id="04fb8801-0188-4b8b-92e4-902cfa2accd7" xml:space="preserve">
+          <source>Instead of being opaque source-code-in
+and object-code-out translators, through the .NET Compiler Platform
+(“Roslyn”), compilers become platforms—APIs that you can use for code
+related tasks in your tools and applications.</source>
+          <target state="translated">Statt deckend Source Code in
+und Objekt-Code-Out-Übersetzer über das .NET Compiler Platform
+("Roslyn")-Compiler Plattformen werden – APIs, mit denen Sie für Code
+Verwandte Aufgaben in Ihre Tools und Programme.</target>         
+        </trans-unit>
+        <trans-unit id="52188e32-a107-49c4-a6b8-e9b6775ae82c" xml:space="preserve">
+          <source>The transition to compilers as platforms dramatically lowers the barrier
+to entry for creating code focused tools and applications.</source>
+          <target state="translated">Der Übergang zu Compiler als Plattformen deutlich gesenkt die Barriere
+Eintrag für das Erstellen von Code gezielten Tools und Programme.</target>         
+        </trans-unit>
+        <trans-unit id="38475af4-b7f4-4117-827a-eac11caf441b" xml:space="preserve">
+          <source>It creates
+many opportunities for innovation in areas such as meta-programming,
+code generation and transformation, interactive use of the C\# and VB
+languages, and embedding of C\# and VB in domain specific languages.</source>
+          <target state="translated">Es wird erstellt
+neue Chancen für Innovationen in Bereichen wie z. B. Metaprogrammierung
+Generierung von Code und interaktive Transformation verwenden, von der C\- und VB
+Sprachen und Einbetten von C\- und VB in domänenspezifische Sprachen.</target>         
+        </trans-unit>
+        <trans-unit id="bae075f5-ee18-4020-a38d-b828c0ae99d8" xml:space="preserve">
+          <source>The .NET Compiler Platform (“Roslyn”) SDK Preview includes the latest
+drafts of new language object models for code generation, analysis, and
+refactoring.</source>
+          <target state="translated">Die SDK-Vorschau für .NET Compiler Platform ("Roslyn") enthält die neuesten
+Entwürfe von neuen Sprache Objektmodelle für die Generierung von Code, Analyse und
+Umgestaltung.</target>         
+        </trans-unit>
+        <trans-unit id="dea401dc-a680-4357-8735-c83ce5a6bc0e" xml:space="preserve">
+          <source>We hope to include drafts of API support for scripting and
+interactive use of C\# and Visual Basic in a future preview.</source>
+          <target state="translated">Wir hoffen, dass gehören Entwürfe von API-Unterstützung für Skripting und
+Interaktive Verwendung von C\- und Visual Basic in einer zukünftigen Vorschau.</target>         
+        </trans-unit>
+        <trans-unit id="f8100776-63ef-4a3c-b081-3a2ee5ba44ed" xml:space="preserve">
+          <source>This
+document provides a conceptual overview of the .NET Compiler Platform
+(“Roslyn”).</source>
+          <target state="translated">Dies
+Dokument bietet eine Übersicht der Compiler
+("Roslyn").</target>         
+        </trans-unit>
+        <trans-unit id="a89d5ab0-0fd4-4c7b-b999-edfc5fc081ab" xml:space="preserve">
+          <source>Further details can be found in the walkthroughs and samples
+included in the SDK Preview.</source>
+          <target state="translated">Weitere Details finden Sie in den exemplarischen Vorgehensweisen und Beispiele
+in der Vorschau SDK enthalten.</target>         
+        </trans-unit>
+        <trans-unit id="e17cc810-e6aa-457a-b460-95973ed67466" xml:space="preserve">
+          <source>Exposing the Compiler APIs</source>
+          <target state="translated">Verfügbarmachen der Compiler-APIs</target>         
+        </trans-unit>
+        <trans-unit id="10324e47-9c9e-406c-a962-8a907d037795" xml:space="preserve">
+          <source>Compiler Pipeline Functional Areas</source>
+          <target state="translated">Funktionsbereiche des Compiler-Pipeline</target>         
+        </trans-unit>
+        <trans-unit id="aed2a4a0-76de-49cf-bb2c-e2b707ce8357" xml:space="preserve">
+          <source>The .NET Compiler Platform (“Roslyn”) exposes the C\# and Visual Basic
+compiler’s code analysis to you as a consumer by providing an API layer
+that mirrors a traditional compiler pipeline.</source>
+          <target state="translated">Die .NET Compiler Platform ("Roslyn") verfügbar macht, die C\- und Visual Basic
+Compilers-Codeanalyse für Sie als Consumer durch die Bereitstellung einer API-Schicht
+spiegelt eine traditionelle compilerpipeline.</target>         
+        </trans-unit>
+        <trans-unit id="91cb980b-465c-4a02-bbbf-6c8281fe4f83" xml:space="preserve">
+          <source><bpt id="fa605dca-73c5-450d-bc14-a2ba22b7a15a">&lt;linkText&gt;</bpt>image<ept id="fa605dca-73c5-450d-bc14-a2ba22b7a15a">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="fa605dca-73c5-450d-bc14-a2ba22b7a15a">&lt;linkText&gt;</bpt>Bild<ept id="fa605dca-73c5-450d-bc14-a2ba22b7a15a">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="6bfe399d-79fa-4f6d-93ac-d20a8010ce9e" xml:space="preserve">
+          <source>Each phase of this pipeline is now a separate component.</source>
+          <target state="translated">Jede Phase der diese Pipeline ist jetzt eine separate Komponente.</target>         
+        </trans-unit>
+        <trans-unit id="68dd7b9e-6644-4e53-b32c-3b9a5d35aff4" xml:space="preserve">
+          <source>First the parse
+phase, where source is tokenized and parsed into syntax that follows the
+language grammar.</source>
+          <target state="translated">Zuerst die Analyse
+Phase, wobei Quelle zerlegt und in der Syntax, die folgt analysiert die
+Grammatik.</target>         
+        </trans-unit>
+        <trans-unit id="d73b9775-0583-45ad-a2e5-1c2990f6a379" xml:space="preserve">
+          <source>Second the declaration phase, where declarations from
+source and imported metadata are analyzed to form named symbols.</source>
+          <target state="translated">Zweite Phase der Deklaration, in denen Deklarationen aus
+Quell- und importierte Metadaten werden zum Formular mit dem Namen Symbole analysiert.</target>         
+        </trans-unit>
+        <trans-unit id="c88f43a5-7756-40ab-969e-241348170a88" xml:space="preserve">
+          <source>Next
+the bind phase, where identifiers in the code are matched to symbols.</source>
+          <target state="translated">Weiter
+der Bind-Phase, die Bezeichner im Code, in dem Symbole zugeordnet sind.</target>         
+        </trans-unit>
+        <trans-unit id="dc957769-bc6c-4a85-ae47-9d109e3667ab" xml:space="preserve">
+          <source>Finally, the emit phase, where all the information built up by the
+compiler is emitted as an assembly.</source>
+          <target state="translated">Schließlich der Emit-Phase, in dem alle Informationen, durch erstellt die
+Compiler wird als Assembly ausgegeben.</target>         
+        </trans-unit>
+        <trans-unit id="8001900f-b6cc-4cc2-a97a-baf10272b517" xml:space="preserve">
+          <source><bpt id="b81c2199-b85d-49b3-b1fb-9bb78c43922b">&lt;linkText&gt;</bpt>image<ept id="b81c2199-b85d-49b3-b1fb-9bb78c43922b">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="b81c2199-b85d-49b3-b1fb-9bb78c43922b">&lt;linkText&gt;</bpt>Bild<ept id="b81c2199-b85d-49b3-b1fb-9bb78c43922b">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="a9aac114-1032-432b-9634-cf7d697679f0" xml:space="preserve">
+          <source>Corresponding to each of those phases, an object model is surfaced that
+allows access to the information at that phase.</source>
+          <target state="translated">Für jede dieser Phasen ein Objektmodell verfügbar gemacht wird,
+ermöglicht den Zugriff auf die Informationen in dieser Phase.</target>         
+        </trans-unit>
+        <trans-unit id="cfd14b2c-caaa-419d-9ee6-fa62b36f3c3b" xml:space="preserve">
+          <source>The parsing phase is
+exposed as a syntax tree, the declaration phase as a hierarchical symbol
+table, the binding phase as a model that exposes the result of the
+compiler’s semantic analysis and the emit phase as an API that produces
+IL byte codes.</source>
+          <target state="translated">Die Analysephase ist.
+die Deklaration Phase als hierarchische Symbol als eine Syntaxstruktur verfügbar gemacht
+Tabelle, die Bindung Phase als ein Modell, das das Ergebnis des macht die
+semantische Analysen des Compilers und der Emit-Phase als eine API, die erzeugt
+IL-Byte-Codes.</target>         
+        </trans-unit>
+        <trans-unit id="3e986eeb-5359-4e92-b6a2-c890dc216a42" xml:space="preserve">
+          <source><bpt id="97eb4056-0b86-47a8-b9ae-490427365fe2">&lt;linkText&gt;</bpt>image<ept id="97eb4056-0b86-47a8-b9ae-490427365fe2">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="97eb4056-0b86-47a8-b9ae-490427365fe2">&lt;linkText&gt;</bpt>Bild<ept id="97eb4056-0b86-47a8-b9ae-490427365fe2">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="d8932796-05fb-4611-ac50-a9e93eb64751" xml:space="preserve">
+          <source>Each compiler combines these components together as a single end-to-end
+whole.</source>
+          <target state="translated">Jeder Compiler kombiniert diese Komponenten zusammen als eine einzige End-to-end
+insgesamt.</target>         
+        </trans-unit>
+        <trans-unit id="6713de60-ecd0-443c-bb5f-e76141403d42" xml:space="preserve">
+          <source>To ensure that the public Compiler APIs are sufficient for building
+world-class IDE features, the language services that will be used to
+power the C\# and VB experiences in Visual Studio vNext have been
+rebuilt using them.</source>
+          <target state="translated">Um sicherzustellen, dass die öffentlichen Compiler-APIs zum Erstellen von ausreichen
+Erstklassige IDE-Features, die Language-Dienste, die verwendet werden können
+Schalten Sie die C\- und VB-Funktionen in Visual Studio vNext wurden
+neu erstellt, deren Verwendung.</target>         
+        </trans-unit>
+        <trans-unit id="cf320b47-31d3-4dcb-8b4d-9531ef5bcf50" xml:space="preserve">
+          <source>For instance, the code outlining and formatting
+features use the syntax trees, the Object Browser and navigation
+features use the symbol table, refactorings and Go to Definition use the
+semantic model, and Edit and Continue uses all of these, including the
+Emit API.</source>
+          <target state="translated">Zum Beispiel den Code Gliedern und Formatierung
+Funktionen verwenden, die Syntaxstrukturen, den Objektbrowser und navigation
+Funktionen verwenden die Symboltabelle Refactoringoptionen und Gehe zu Definition verwenden die
+Semantikmodell, und bearbeiten und Fortfahren verwendet diese, einschließlich der
+Reflektionsausgabe-API.</target>         
+        </trans-unit>
+        <trans-unit id="a862664f-c85f-4c95-9796-3474705603c9" xml:space="preserve">
+          <source>These experiences may be previewed on Visual Studio 2013
+through the “Roslyn” End-User Preview.</source>
+          <target state="translated">Dies können in Visual Studio 2013 Vorschau angezeigt werden soll
+durch die Endbenutzer-Vorschau "Roslyn".</target>         
+        </trans-unit>
+        <trans-unit id="71d9e653-a10c-4a51-a23f-10565b2c1990" xml:space="preserve">
+          <source>This preview is required in order
+to build and test applications build on top of the .NET Compiler
+Platform (“Roslyn”) SDK meant for integration into Visual Studio though
+the .NET Compiler Platform (“Roslyn”) APIs can be used in your own
+applications independently of Visual Studio without requiring the
+End-User Preview.</source>
+          <target state="translated">Diese Vorschau ist erforderlich
+zum Erstellen und Testen Anwendungsentwicklung über den Compiler für .NET
+Platform ("Roslyn") SDK für die Integration in Visual Studio jedoch vorgesehen
+die .NET Compiler Platform ("Roslyn") APIs können in Ihren eigenen verwendet werden
+Clientanwendungen unabhängig von Visual Studio ohne die
+Vorschau für Endbenutzer.</target>         
+        </trans-unit>
+        <trans-unit id="fbf0eec6-1eb0-4442-bad7-53eb23f09e76" xml:space="preserve">
+          <source>API Layers</source>
+          <target state="translated">API-Ebenen</target>         
+        </trans-unit>
+        <trans-unit id="d30a027e-a4c9-43d8-a5ff-d4aeee14bfc5" xml:space="preserve">
+          <source>The .NET Compiler Platform (“Roslyn”) consists of two main layers of
+APIs – the Compiler APIs and Workspaces APIs.</source>
+          <target state="translated">Die .NET Compiler Platform ("Roslyn") besteht aus zwei Hauptschichten der
+APIs – die Compiler-APIs und Arbeitsbereiche-APIs.</target>         
+        </trans-unit>
+        <trans-unit id="38b8d0c3-4417-4f29-a896-7e5ebcb72bde" xml:space="preserve">
+          <source><bpt id="3dcd080e-9529-4908-a121-5ab49196b02e">&lt;linkText&gt;</bpt>image<ept id="3dcd080e-9529-4908-a121-5ab49196b02e">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="3dcd080e-9529-4908-a121-5ab49196b02e">&lt;linkText&gt;</bpt>Bild<ept id="3dcd080e-9529-4908-a121-5ab49196b02e">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="3a5fdac8-0bd4-4a85-9c6c-1987fb66a8cb" xml:space="preserve">
+          <source>Compiler APIs</source>
+          <target state="translated">Compiler-APIs</target>         
+        </trans-unit>
+        <trans-unit id="825cac19-c91e-4b0f-b008-e2a464069a0a" xml:space="preserve">
+          <source>The compiler layer contains the object models that correspond with
+information exposed at each phase of the compiler pipeline, both
+syntactic and semantic.</source>
+          <target state="translated">Die Compiler-Ebene enthält die Objektmodelle, die entsprechen
+Informationen zur Verfügung gestellt, in jeder Phase der Pipeline Compiler sowohl
+syntaktische und semantische.</target>         
+        </trans-unit>
+        <trans-unit id="f3ff546a-be93-4f7a-a224-c8ce0183e704" xml:space="preserve">
+          <source>The compiler layer also contains an immutable
+snapshot of a single invocation of a compiler, including assembly
+references, compiler options, and source code files.</source>
+          <target state="translated">Die Compiler-Schicht enthält auch eine unveränderliche
+Übersicht über einen einzelnen Aufruf eines Compilers, einschließlich der assembly
+Verweise, Compileroptionen und Quellcodedateien.</target>         
+        </trans-unit>
+        <trans-unit id="8749d4ed-5940-496f-9df3-5ef265b95dab" xml:space="preserve">
+          <source>There are two
+distinct APIs that represent the C\# language and the Visual Basic
+language.</source>
+          <target state="translated">Es gibt zwei
+DISTINCT-APIs, die die C\-Programmiersprache und Visual Basic darstellen
+die Sprache.</target>         
+        </trans-unit>
+        <trans-unit id="df559e79-ba0f-42b5-849d-4f0e934f0bfe" xml:space="preserve">
+          <source>These two APIs are similar in shape but tailored for
+high-fidelity to each individual language.</source>
+          <target state="translated">Diese beiden APIs in Form vergleichbar sind, aber speziell für die
+High-Fidelity-von der jeweiligen Sprache.</target>         
+        </trans-unit>
+        <trans-unit id="f76a8066-cc33-4e68-a1a0-189ef65a7f92" xml:space="preserve">
+          <source>This layer has no
+dependencies on Visual Studio components.</source>
+          <target state="translated">Diese Schicht hat keine
+Abhängigkeiten von Visual Studio-Komponenten.</target>         
+        </trans-unit>
+        <trans-unit id="a06686b1-6d19-42d0-9566-20ec06c113f4" xml:space="preserve">
+          <source>Diagnostic APIs</source>
+          <target state="translated">Diagnose-APIs</target>         
+        </trans-unit>
+        <trans-unit id="f160ff3c-7c94-4aa5-968a-0d78a0ad3b9c" xml:space="preserve">
+          <source>As part of their analysis the compiler may produce a set of diagnostics
+covering everything from syntax, semantic, and definite assignment
+errors to various warnings and informational diagnostics.</source>
+          <target state="translated">Als Teil ihrer Analyse kann der Compiler eine Reihe von Diagnosetests erzeugen.
+die alles von Syntax, Semantik und definitive Zuweisung
+Fehler in verschiedenen Warnungen und informationsdiagnosen.</target>         
+        </trans-unit>
+        <trans-unit id="354d4b5d-3f97-49db-91b0-b457d2cecee6" xml:space="preserve">
+          <source>The Compiler
+API layer exposes diagnostics through an extensible API allowing for
+user-defined analyzers to be plugged into a Compilation and user-defined
+diagnostics, such as those produced by tools like StyleCop or FxCop, to
+be produced alongside compiler-defined diagnostics.</source>
+          <target state="translated">Der Compiler
+API-Schicht verfügbar macht, Diagnose mit einer erweiterbaren API ermöglicht
+Benutzerdefinierte Analyzer in einer Kompilierung angeschlossen und benutzerdefinierte
+Diagnose, darunter solchen, die durch Tools wie StyleCop oder FxCop, um
+zusammen mit den vom Compiler definierten Diagnose erstellt werden.</target>         
+        </trans-unit>
+        <trans-unit id="ed10ea6d-61ff-4641-aef9-9421892d1f5e" xml:space="preserve">
+          <source>Producing
+diagnostics in this way has the benefit of integrating naturally with
+tools such as MSBuild and Visual Studio which depend on diagnostics for
+experiences such as halting a build based on policy and showing live
+squiggles in the editor and suggesting code fixes.</source>
+          <target state="translated">Erzeugen
+Diagnose auf diese Weise hat den Vorteil, natürlich integrieren
+Tools wie MSBuild und Visual Studio die Diagnose für abhängen
+wie Anhalten eines Builds auf Basis der Richtlinie und live anzeigen
+Wellenlinien im Editor und vorschlagen Code behebt.</target>         
+        </trans-unit>
+        <trans-unit id="8c8d2e96-13c8-43dc-8cbc-722893b6c28d" xml:space="preserve">
+          <source>Scripting APIs</source>
+          <target state="translated">Skripting APIs</target>         
+        </trans-unit>
+        <trans-unit id="6f0ad8ec-9cb3-4537-9f03-dea71191c17e" xml:space="preserve">
+          <source>As a part of the compiler layer, the team prototyped hosting/scripting
+APIs for executing code snippets and accumulating a runtime execution
+context.</source>
+          <target state="translated">Als Teil der Compiler-Ebene das Team Prototyp hosting/scripting
+APIs für Codeausschnitte ausführen und Sammeln von Animationswerten während einer Ausführung zur Laufzeit
+wird.</target>         
+        </trans-unit>
+        <trans-unit id="1ac81063-a9ff-4eb8-bc38-aaf4fea58937" xml:space="preserve">
+          <source>The REPL used these APIs, but neither the REPL nor the
+Scripting APIs are part of the .NET Compiler Platform project currently.</source>
+          <target state="translated">Die Textgröße für Replikation verwendet diese APIs, aber weder die Textgröße für Replikation noch die
+Skripting APIs sind Teil des Projekts .NET Compiler Platform derzeit an.</target>         
+        </trans-unit>
+        <trans-unit id="5fb1fe8c-98f9-44cb-bf05-f86fff8b4022" xml:space="preserve">
+          <source>The team is reviewing these designs before re-introducing these
+components.</source>
+          <target state="translated">Das Team wird diese Entwürfe vor der Einführung dieser erneut überprüfen
+Komponenten.</target>         
+        </trans-unit>
+        <trans-unit id="59f0479b-c206-4374-a64e-3fff3fe49aab" xml:space="preserve">
+          <source>Workspaces APIs</source>
+          <target state="translated">Arbeitsbereiche-APIs</target>         
+        </trans-unit>
+        <trans-unit id="87a0ede0-d80f-41a7-9a6e-e938f93d6639" xml:space="preserve">
+          <source>The Workspaces layer contains the Workspace API, which is the starting
+point for doing code analysis and refactoring over entire solutions.</source>
+          <target state="translated">Die Arbeitsbereiche Ebene enthält die Arbeitsbereich-API, die zum Starten
+Zeigen Sie zum Ausführen der Codeanalyse und refactoring über vollständige Lösungen.</target>         
+        </trans-unit>
+        <trans-unit id="0a89eac5-4348-43bb-9a91-2214190302c9" xml:space="preserve">
+          <source>It
+assists you in organizing all the information about the projects in a
+solution into single object model, offering you direct access to the
+compiler layer object models without needing to parse files, configure
+options or manage project to project dependencies.</source>
+          <target state="translated">Es
+unterstützt Sie beim Organisieren alle Informationen über die Projekte in einer
+Lösung in einzelnen Objektmodell bietet Ihnen direkten Zugriff auf die
+Konfigurieren von Compiler Ebenenmodellen Objekt ohne Dateien analysieren
+Optionen oder Abhängigkeiten von Projekt zu Projekt verwalten.</target>         
+        </trans-unit>
+        <trans-unit id="beaf3d97-554d-429d-b2ae-d8a24d888372" xml:space="preserve">
+          <source>In addition, the Workspaces layer surfaces a set of commonly used APIs
+used when implementing code analysis and refactoring tools that function
+within a host environment like the Visual Studio IDE, such as the Find
+All References, Formatting, and Code Generation APIs.</source>
+          <target state="translated">Darüber hinaus Flächen eine Reihe von häufig verwendeten APIs die Arbeitsbereiche-Ebene
+Beim Implementieren der Codeanalyse und Umgestaltung dieser Funktion Tools verwendet
+innerhalb einer hostumgebung wie der Visual Studio-IDE, z. B. das Suchen
+Alle Verweise, Formatierung und Code Generation-APIs.</target>         
+        </trans-unit>
+        <trans-unit id="db873d32-6082-494f-a5da-c7bee2930be4" xml:space="preserve">
+          <source>This layer has no dependencies on Visual Studio components.</source>
+          <target state="translated">Diese Schicht hat keine Abhängigkeiten auf Visual Studio-Komponenten.</target>         
+        </trans-unit>
+        <trans-unit id="e3bff565-fc51-4e77-89e3-a6e3b28b8599" xml:space="preserve">
+          <source>Working with Syntax</source>
+          <target state="translated">Arbeiten mit der Syntax</target>         
+        </trans-unit>
+        <trans-unit id="a64645dd-315b-47bc-a964-9a9c0be5d986" xml:space="preserve">
+          <source>The most fundamental data structure exposed by the Compiler APIs is the
+syntax tree.</source>
+          <target state="translated">Ist die grundlegendste Datenstruktur verfügbar gemacht werden, indem die Compiler-APIs der
+Syntaxstruktur.</target>         
+        </trans-unit>
+        <trans-unit id="0b1b2785-aa3e-415c-9d2e-a98738d31d2e" xml:space="preserve">
+          <source>These trees represent the lexical and syntactic structure
+of source code.</source>
+          <target state="translated">Diese Strukturen darstellen, die lexikalische und syntaktische-Struktur
+der Quellcode.</target>         
+        </trans-unit>
+        <trans-unit id="f9cb3410-8f96-46b9-a6d8-61f043055270" xml:space="preserve">
+          <source>They serve two important purposes:</source>
+          <target state="translated">Sie haben zwei wichtige Funktionen:</target>         
+        </trans-unit>
+        <trans-unit id="00a5bf8d-6d95-4c64-a278-facfe0c2403b" xml:space="preserve">
+          <source>To allow tools - such as an IDE, add-ins, code analysis tools, and
+refactorings - to see and process the syntactic structure of source
+code in a user’s project.</source>
+          <target state="translated">Tools - ermöglichen, wie z. B. eine IDE-add-ins Codeanalysetools, und
+Refactoringoptionen - anzeigen und verarbeiten die syntaktische Struktur
+der Code im Projekt eines Benutzers.</target>         
+        </trans-unit>
+        <trans-unit id="e6ae0da5-2cc8-4cd0-a4cf-3680a66772cc" xml:space="preserve">
+          <source>To enable tools - such as refactorings and an IDE - to create,
+modify, and rearrange source code in a natural manner without having
+use direct text edits.</source>
+          <target state="translated">Aktivieren von Tools wie Refactoringoptionen und einer IDE - Erstellung
+Ändern und Neuanordnen von Quellcode auf natürliche Weise ohne
+Verwenden Sie die direkte Textbearbeitungsvorgänge.</target>         
+        </trans-unit>
+        <trans-unit id="e7931fb3-6337-4885-b11f-892b0c045afb" xml:space="preserve">
+          <source>By creating and manipulating trees, tools can
+easily create and rearrange source code.</source>
+          <target state="translated">Erstellen und Bearbeiten von Strukturen, können tools
+Erstellen und Ändern von Quellcode.</target>         
+        </trans-unit>
+        <trans-unit id="68c0f65d-f1ab-4e55-ad6e-1ff2113383a7" xml:space="preserve">
+          <source>Syntax Trees</source>
+          <target state="translated">Syntaxstrukturen</target>         
+        </trans-unit>
+        <trans-unit id="ad875669-d48c-4d50-a36e-96ce2e8d3f51" xml:space="preserve">
+          <source>Syntax trees are the primary structure used for compilation, code
+analysis, binding, refactoring, IDE features, and code generation.</source>
+          <target state="translated">Syntaxstrukturen sind die primäre Struktur verwendet für die Kompilierung von code
+Analyse, binden, Umgestaltung, IDE-Features und Generieren von Code.</target>         
+        </trans-unit>
+        <trans-unit id="17c2fa82-f95e-4546-b5f5-632daa2b0c34" xml:space="preserve">
+          <source>No
+part of the source code is understood without it first being identified
+and categorized into one of many well-known structural language
+elements.</source>
+          <target state="translated">Nein
+ohne ihn zuerst zu identifizierenden ist Teil des Quellcodes angesehen.
+und in einer von vielen bekannten strukturelle Sprache kategorisierte
+Elemente.</target>         
+        </trans-unit>
+        <trans-unit id="72c45b87-f54c-4073-bb4c-2d3579665b74" xml:space="preserve">
+          <source>Syntax trees have three key attributes.</source>
+          <target state="translated">Syntaxstrukturen müssen drei wichtige Attribute.</target>         
+        </trans-unit>
+        <trans-unit id="e247b412-f59c-4e2b-a317-617c8b3a40cc" xml:space="preserve">
+          <source>The first attribute is that
+syntax trees hold all the source information in full fidelity.</source>
+          <target state="translated">Das erste Attribut ist
+Syntaxstrukturen halten die Quellinformationen Geschäftsnachrichten.</target>         
+        </trans-unit>
+        <trans-unit id="1a484a79-d8fa-47f2-9413-cef18ce7d47d" xml:space="preserve">
+          <source>This
+means that the syntax tree contains every piece of information found in
+the source text, every grammatical construct, every lexical token, and
+everything else in between including whitespace, comments, and
+preprocessor directives.</source>
+          <target state="translated">Dies
+bedeutet, dass die Syntaxstruktur Informationen in jedes Datenelement enthält
+den Quelltext, alle grammatischen Konstrukt, jede Lexikalischer Token und
+alles zwischen Leerzeichen, Kommentare und
+Präprozessordirektiven.</target>         
+        </trans-unit>
+        <trans-unit id="11116d00-ce0b-459f-bf5a-53633e79ae46" xml:space="preserve">
+          <source>For example, each literal mentioned in the
+source is represented exactly as it was typed.</source>
+          <target state="translated">Beispielsweise jedes Literal gemäß der
+Quelle wird dargestellt, wie er eingegeben wurde.</target>         
+        </trans-unit>
+        <trans-unit id="74b5ac2a-581b-471c-8fc3-f034cc3dc3e3" xml:space="preserve">
+          <source>The syntax trees also
+represent errors in source code when the program is incomplete or
+malformed, by representing skipped or missing tokens in the syntax tree.</source>
+          <target state="translated">Die Syntax auch Strukturen
+Fehler im Quellcode darstellen, wenn das Programm nicht vollständig ist oder
+Ungültige durch, die übersprungene oder fehlende Token in der Syntaxstruktur darstellt.</target>         
+        </trans-unit>
+        <trans-unit id="92841574-d608-431d-991b-fd5a050de530" xml:space="preserve">
+          <source>This enables the second attribute of syntax trees.</source>
+          <target state="translated">Dadurch wird das zweite Attribut Syntaxstrukturen.</target>         
+        </trans-unit>
+        <trans-unit id="3bf96316-64c1-42eb-bea4-319d491a67ef" xml:space="preserve">
+          <source>A syntax tree
+obtained from the parser is completely round-trippable back to the text
+it was parsed from.</source>
+          <target state="translated">Syntax-Struktur
+der Parser abgerufenes ist vollständig roundtripfähige wieder auf den text
+Es wurde von analysiert.</target>         
+        </trans-unit>
+        <trans-unit id="96de74eb-09ef-437f-9d58-5d998e8e3fd3" xml:space="preserve">
+          <source>From any syntax node, it is possible to get the text
+representation of the sub-tree rooted at that node.</source>
+          <target state="translated">Von einem beliebigen Knoten Syntax ist es möglich, den Text abrufen
+Darstellung der Teilstruktur Stamm an diesem Knoten.</target>         
+        </trans-unit>
+        <trans-unit id="718e30bd-109c-4ec4-932e-7bbcf8c2a43a" xml:space="preserve">
+          <source>This means that
+syntax trees can be used as a way to construct and edit source text.</source>
+          <target state="translated">Dies bedeutet, dass
+Syntaxstrukturen können als eine Möglichkeit zum Erstellen und Bearbeiten von Quelltext verwendet werden.</target>         
+        </trans-unit>
+        <trans-unit id="f87765a2-e961-4d82-9250-3b30e12322c2" xml:space="preserve">
+          <source>By
+creating a tree you have by implication created the equivalent text, and
+by editing a syntax tree, making a new tree out of changes to an
+existing tree, you have effectively edited the text.</source>
+          <target state="translated">Von
+Erstellen einer Struktur spezifischsten erstellt haben den entsprechenden Text ein, und
+Bearbeiten einer Syntaxstruktur, erstellen eine neue Struktur von Änderungen an einer
+vorhandene Struktur Sie effektiv den Text bearbeitet haben.</target>         
+        </trans-unit>
+        <trans-unit id="924e61aa-a141-4db4-bfbc-f74228a27aab" xml:space="preserve">
+          <source>The third attribute of syntax trees is that they are immutable and
+thread-safe.</source>
+          <target state="translated">Das dritte Syntaxstrukturen-Attribut ist, dass sie unveränderlich sind und
+Thread-sicher.</target>         
+        </trans-unit>
+        <trans-unit id="b079e1a0-32cf-45b2-b375-4dbba1b8206d" xml:space="preserve">
+          <source>This means that after a tree is obtained, it is a snapshot
+of the current state of the code, and never changes.</source>
+          <target state="translated">Dies bedeutet, dass nach eine Struktur abgerufen wird, eine Momentaufnahme ist
+des aktuellen Status des Codes und nie geändert wird.</target>         
+        </trans-unit>
+        <trans-unit id="fac32060-5f91-4d44-be33-7dd4433d1cda" xml:space="preserve">
+          <source>This allows
+multiple users to interact with the same syntax tree at the same time in
+different threads without locking or duplication.</source>
+          <target state="translated">Auf diese Weise können
+mehrere Benutzer gleichzeitig in derselben Syntaxstruktur interagieren
+andere Threads ohne Sperren oder Duplizierung.</target>         
+        </trans-unit>
+        <trans-unit id="58a0bdd6-e191-4518-9512-145f028a6f40" xml:space="preserve">
+          <source>Because the trees are
+immutable and no modifications can be made directly to a tree, factory
+methods help create and modify syntax trees by creating additional
+snapshots of the tree.</source>
+          <target state="translated">Da die Strukturen sind
+unveränderlich und keine Änderungen wird direkt an eine Struktur Factory
+Erstellen und Ändern von Syntaxstrukturen durch Erstellen weiterer Methoden-Hilfe
+Momentaufnahmen der Struktur.</target>         
+        </trans-unit>
+        <trans-unit id="3e953011-67b5-44ce-92e4-be31541d77c9" xml:space="preserve">
+          <source>The trees are efficient in the way they reuse
+underlying nodes, so the new version can be rebuilt fast and with little
+extra memory.</source>
+          <target state="translated">Die Strukturen sind effizient, die sie wiederverwenden
+zugrunde liegende Knoten, damit die neue Version schnell und mit wenig neu erstellt werden können
+zusätzlicher Speicher.</target>         
+        </trans-unit>
+        <trans-unit id="e25a8f60-1e03-4546-ac0a-ea21ef1e0659" xml:space="preserve">
+          <source>A syntax tree is literally a tree data structure, where non-terminal
+structural elements parent other elements.</source>
+          <target state="translated">Syntax-Struktur gibt es buchstäblich einer Baumstruktur, nicht-terminal
+die strukturellen Elemente übergeordnete andere Elemente.</target>         
+        </trans-unit>
+        <trans-unit id="d8877904-0559-4b60-9fc4-bb2dbd6a42c0" xml:space="preserve">
+          <source>Each syntax tree is made up
+of nodes, tokens, and trivia.</source>
+          <target state="translated">Jede Syntaxstruktur besteht aus
+der Knoten, Token und faszinierende.</target>         
+        </trans-unit>
+        <trans-unit id="4d1c4d34-1c0a-4228-900f-cce390300e80" xml:space="preserve">
+          <source>Syntax Nodes</source>
+          <target state="translated">Syntax von Knoten</target>         
+        </trans-unit>
+        <trans-unit id="f531c045-110e-4b0b-b626-6333c5521ddc" xml:space="preserve">
+          <source>Syntax nodes are one of the primary elements of syntax trees.</source>
+          <target state="translated">Syntax Knoten gehören die Hauptelemente des Syntaxstrukturen.</target>         
+        </trans-unit>
+        <trans-unit id="23a7eae6-e9e1-4cc9-af64-ecc73f771dcb" xml:space="preserve">
+          <source>These
+nodes represent syntactic constructs such as declarations, statements,
+clauses, and expressions.</source>
+          <target state="translated">Diese
+Knoten darzustellen Syntaktische Konstrukte wie Deklarationen, Anweisungen,
+Klauseln und Ausdrücken.</target>         
+        </trans-unit>
+        <trans-unit id="8723c354-c5bd-4d2f-9f56-5c36910f5eb1" xml:space="preserve">
+          <source>Each category of syntax nodes is represented
+by a separate class derived from SyntaxNode.</source>
+          <target state="translated">Jede Kategorie Syntax Knoten dargestellt wird.
+durch eine separate Klasse, die von SyntaxNode abgeleitet werden.</target>         
+        </trans-unit>
+        <trans-unit id="93bb7788-f62b-4099-9d3b-0ba54c2f2040" xml:space="preserve">
+          <source>The set of node classes is
+not extensible.</source>
+          <target state="translated">Ist der Knotenklassen
+nicht erweiterbar.</target>         
+        </trans-unit>
+        <trans-unit id="b87c4bb0-9bed-49b8-a2d2-397f805c69ea" xml:space="preserve">
+          <source>All syntax nodes are non-terminal nodes in the syntax tree, which means
+they always have other nodes and tokens as children.</source>
+          <target state="translated">Alle Syntax Knoten sind nicht-Terminal-Knoten in der Syntaxstruktur, d. h.
+Sie haben immer andere Knoten und Token als untergeordnete Elemente.</target>         
+        </trans-unit>
+        <trans-unit id="35b507da-3024-42bd-9838-88c8d1d228e9" xml:space="preserve">
+          <source>As a child of
+another node, each node has a parent node that can be accessed through
+the Parent property.</source>
+          <target state="translated">Als untergeordnetes Element
+ein anderer Knoten jeder Knoten verfügt über einen übergeordneten Knoten, der über zugegriffen werden kann
+Die Parent-Eigenschaft.</target>         
+        </trans-unit>
+        <trans-unit id="3e620a6a-3bf4-4c78-9cb9-9b25fc1e0473" xml:space="preserve">
+          <source>Because nodes and trees are immutable, the parent
+of a node never changes.</source>
+          <target state="translated">Da Knoten und Strukturen unveränderlich sind das übergeordnete Element
+ändert sich nie eines Knotens.</target>         
+        </trans-unit>
+        <trans-unit id="cd42578f-b0f7-443a-acc4-ac279065c498" xml:space="preserve">
+          <source>The root of the tree has a null parent.</source>
+          <target state="translated">Der Stamm der Struktur wurde als übergeordnetes Element null.</target>         
+        </trans-unit>
+        <trans-unit id="474dadc1-3e38-49c2-aae5-5de66964b518" xml:space="preserve">
+          <source>Each node has a ChildNodes method, which returns a list of child nodes
+in sequential order based on its position in the source text.</source>
+          <target state="translated">Jeder Knoten verfügt über eine ChildNodes-Methode, die eine Liste der untergeordneten Knoten zurückgibt
+in sequenzieller Reihenfolge basierend auf der Position des Quelltexts.</target>         
+        </trans-unit>
+        <trans-unit id="caaba864-0f6e-43e0-a79d-12f3eae4bd65" xml:space="preserve">
+          <source>This list
+does not contain tokens.</source>
+          <target state="translated">Diese Liste
+enthält keine Token.</target>         
+        </trans-unit>
+        <trans-unit id="97078872-736c-42cc-9dd8-c2066af9b65c" xml:space="preserve">
+          <source>Each node also has a collection of Descendant
+methods - such as DescendantNodes, DescendantTokens, or DescendantTrivia</source>
+          <target state="translated">Jeder Knoten besitzt außerdem eine Auflistung von Nachfolger
+SQLServer: Zugriffsmethoden – z. B. DescendantNodes, DescendantTokens oder DescendantTrivia</target>         
+        </trans-unit>
+        <trans-unit id="69cbdb8f-e3e3-4bb4-8250-8d46bce607f2" xml:space="preserve">
+          <source>that represent a list of all the nodes, tokens, or trivia that exist
+in the sub-tree rooted by that node.</source>
+          <target state="translated">eine Liste aller Knoten, Token oder faszinierende, die vorhanden darstellen
+in der Teilstruktur, die von diesem Knoten als Stammknoten.</target>         
+        </trans-unit>
+        <trans-unit id="946a424e-134c-49fa-be57-5e8e9d0071d1" xml:space="preserve">
+          <source>In addition, each syntax node subclass exposes all the same children
+through strongly typed properties.</source>
+          <target state="translated">Zusätzlich stellt jede Syntax Knoten Unterklasse dieselben untergeordneten Elemente
+über stark typisierte Eigenschaften.</target>         
+        </trans-unit>
+        <trans-unit id="ea068e2d-c24c-47cf-953e-b447b2cf3716" xml:space="preserve">
+          <source>For example, a BinaryExpressionSyntax
+node class has three additional properties specific to binary operators:
+Left, OperatorToken, and Right.</source>
+          <target state="translated">Angenommen, ein BinaryExpressionSyntax
+Node-Klasse hat drei zusätzliche Eigenschaften, die speziell für binäre Operatoren:
+Links, OperatorToken und rechts.</target>         
+        </trans-unit>
+        <trans-unit id="310918b9-34ab-4a43-be96-e4771164c7d6" xml:space="preserve">
+          <source>The type of Left and Right is
+ExpressionSyntax, and the type of OperatorToken is SyntaxToken.</source>
+          <target state="translated">Der Typ des Links und rechts
+ExpressionSyntax und den Typ des OperatorToken ist SyntaxToken.</target>         
+        </trans-unit>
+        <trans-unit id="2b9f370f-50f0-419d-a4b3-184a1e4a5408" xml:space="preserve">
+          <source>Some syntax nodes have optional children.</source>
+          <target state="translated">Einige Knoten Syntax über optionale untergeordnete Elemente verfügen.</target>         
+        </trans-unit>
+        <trans-unit id="d53f1a8d-73ac-4d67-8ddb-f07410b8fe7d" xml:space="preserve">
+          <source>For example, an
+IfStatementSyntax has an optional ElseClauseSyntax.</source>
+          <target state="translated">Angenommen, ein
+IfStatementSyntax ist eine optionale ElseClauseSyntax.</target>         
+        </trans-unit>
+        <trans-unit id="65561f34-ace7-4184-930e-dcae99e32142" xml:space="preserve">
+          <source>If the child is not
+present, the property returns null.</source>
+          <target state="translated">Wenn das untergeordnete Element nicht
+vorhanden, die Eigenschaft gibt Null zurück.</target>         
+        </trans-unit>
+        <trans-unit id="6cfa4a0c-d4ca-4615-94e1-105e5c7f7ba0" xml:space="preserve">
+          <source>Syntax Tokens</source>
+          <target state="translated">Syntax von Token</target>         
+        </trans-unit>
+        <trans-unit id="21fddfa2-652c-4044-a8a5-4313a535d30b" xml:space="preserve">
+          <source>Syntax tokens are the terminals of the language grammar, representing
+the smallest syntactic fragments of the code.</source>
+          <target state="translated">Syntax-Token sind die Terminals der Language-Grammatik darstellt
+die kleinste syntaktische Fragmente des Codes.</target>         
+        </trans-unit>
+        <trans-unit id="5fa77e86-372a-4a1f-a16d-852548e357c4" xml:space="preserve">
+          <source>They are never parents of
+other nodes or tokens.</source>
+          <target state="translated">Sie werden nie übergeordneten Elementen von
+andere Knoten oder Token.</target>         
+        </trans-unit>
+        <trans-unit id="c9d9ce20-efb5-4b18-836d-1c0a4f465c2b" xml:space="preserve">
+          <source>Syntax tokens consist of keywords, identifiers,
+literals, and punctuation.</source>
+          <target state="translated">Syntax von Token bestehen Schlüsselwörter, Bezeichner,
+Literale und Satzzeichen.</target>         
+        </trans-unit>
+        <trans-unit id="c4405816-e8ed-4eb6-9ca6-4e4f2abd7b85" xml:space="preserve">
+          <source>For efficiency purposes, the SyntaxToken type is a CLR value type.</source>
+          <target state="translated">Aus Gründen der Effizienz ist der SyntaxToken-Typ ein CLR-Werttyp.</target>         
+        </trans-unit>
+        <trans-unit id="382342c7-6b57-4256-a301-f7ddd0b43fc6" xml:space="preserve">
+          <source>Therefore, unlike syntax nodes, there is only one structure for all
+kinds of tokens with a mix of properties that have meaning depending on
+the kind of token that is being represented.</source>
+          <target state="translated">Im Gegensatz zu Syntax-Knoten also nur eine Struktur für alle
+Arten von Token mit einer Kombination aus Eigenschaften verfügen, d. h. abhängig
+die Art des Tokens, die dargestellt wird.</target>         
+        </trans-unit>
+        <trans-unit id="0867fbfa-22e1-42aa-a344-88aa510720ff" xml:space="preserve">
+          <source>For example, an integer literal token represents a numeric value.</source>
+          <target state="translated">Ein Integer-literal-Token stellt beispielsweise einen numerischen Wert.</target>         
+        </trans-unit>
+        <trans-unit id="eea04522-34f7-46c1-b8cc-ed2d4cb6c7c9" xml:space="preserve">
+          <source>In
+addition to the raw source text the token spans, the literal token has a
+Value property that tells you the exact decoded integer value.</source>
+          <target state="translated">In
+Zusätzlich zu der reine Text des Tokens umfasst, hat das Literale-Token ein
+Value-Eigenschaft, die den genauen Aufschluss decodiert Integer-Wert.</target>         
+        </trans-unit>
+        <trans-unit id="af713840-669c-4a7e-8f15-b170de814277" xml:space="preserve">
+          <source>This
+property is typed as Object because it may be one of many primitive
+types.</source>
+          <target state="translated">Dies
+-Eigenschaft wird als Objekt typisiert, da es eine der vielen primitiver Typ ist
+Typen.</target>         
+        </trans-unit>
+        <trans-unit id="5e73e67b-7be5-4da6-ac65-6256a6a71099" xml:space="preserve">
+          <source>The ValueText property tells you the same information as the Value
+property; however this property is always typed as String.</source>
+          <target state="translated">Die Eigenschaft ValueText weist die gleiche Informationen wie der Wert
+Eigenschaft. Diese Eigenschaft ist jedoch immer als Zeichenfolge angegeben werden.</target>         
+        </trans-unit>
+        <trans-unit id="1910c8cc-5411-47ba-a99d-dbf72b72177c" xml:space="preserve">
+          <source>An identifier
+in C\# source text may include Unicode escape characters, yet the syntax
+of the escape sequence itself is not considered part of the identifier
+name.</source>
+          <target state="translated">Ein Bezeichner
+in C\ # kann Quelltext Unicode-Escape-Zeichen, aber die Syntax enthalten.
+der Escapesequenz wird selbst nicht Teil des Bezeichners betrachtet.
+Der Name.</target>         
+        </trans-unit>
+        <trans-unit id="fda1d56c-01c6-493a-a35c-854437506792" xml:space="preserve">
+          <source>So although the raw text spanned by the token does include the
+escape sequence, the ValueText property does not.</source>
+          <target state="translated">Ja, obwohl der unformatierte Text, der von dem Token umfasst beinhalten die
+Escape-Sequenz, die ValueText-Eigenschaft wird nicht verwendet.</target>         
+        </trans-unit>
+        <trans-unit id="01f9aca3-4845-4b94-b1ab-b0a15ee63b36" xml:space="preserve">
+          <source>Instead, it includes
+the Unicode characters identified by the escape.</source>
+          <target state="translated">Vielmehr enthält Sie
+die Unicode-Zeichen, die durch das Escapezeichen identifiziert.</target>         
+        </trans-unit>
+        <trans-unit id="efa6b420-14b5-4177-9846-d910680169d6" xml:space="preserve">
+          <source>Syntax Trivia</source>
+          <target state="translated">Faszinierende Syntax</target>         
+        </trans-unit>
+        <trans-unit id="984e884d-1fa9-4cfd-8ee3-e0f333306a8c" xml:space="preserve">
+          <source>Syntax trivia represent the parts of the source text that are largely
+insignificant for normal understanding of the code, such as whitespace,
+comments, and preprocessor directives.</source>
+          <target state="translated">Syntax faszinierende darstellen, die Teile des Quelltexts größtenteils
+bedeutungslose normal zu verstehen und den Code, z. B. Leerzeichen,
+Kommentare und Präprozessordirektiven.</target>         
+        </trans-unit>
+        <trans-unit id="4c2939b9-4e77-408c-87ad-1f7e5e8398fa" xml:space="preserve">
+          <source>Because trivia are not part of the normal language syntax and can appear
+anywhere between any two tokens, they are not included in the syntax
+tree as a child of a node.</source>
+          <target state="translated">Da faszinierende nicht Teil der normalen Sprachsyntax sind und angezeigt werden können
+überall werden zwischen jedem zwei Token, sie nicht in der Syntax enthalten
+die Struktur als untergeordnetes Element eines Knotens.</target>         
+        </trans-unit>
+        <trans-unit id="27b971ae-0b8b-4b9c-a4e8-60181652f2b3" xml:space="preserve">
+          <source>Yet, because they are important when
+implementing a feature like refactoring and to maintain full fidelity
+with the source text, they do exist as part of the syntax tree.</source>
+          <target state="translated">Noch, da sie wichtige wann sind
+implementieren eine Funktion wie die Umgestaltung und Geschäftsnachrichten zu verwalten.
+mit den Quelltext sind sie als Teil der Syntaxstruktur vorhanden.</target>         
+        </trans-unit>
+        <trans-unit id="5b6ec19b-3e03-4e24-bffb-fa799c71e89c" xml:space="preserve">
+          <source>You can access trivia by inspecting a token’s LeadingTrivia or
+TrailingTrivia collections.</source>
+          <target state="translated">Sie können faszinierende zugreifen, indem Sie ein Token LeadingTrivia überprüfen oder
+TrailingTrivia-Auflistungen.</target>         
+        </trans-unit>
+        <trans-unit id="e7d495cd-d75a-4edb-840d-18e71efcb7ac" xml:space="preserve">
+          <source>When source text is parsed, sequences of
+trivia are associated with tokens.</source>
+          <target state="translated">Wenn Quelltext analysiert wird, Sequenzen
+Faszinierende werden Token zugeordnet.</target>         
+        </trans-unit>
+        <trans-unit id="3343c05b-c3a6-4d6b-9d21-65c33c4f5f8d" xml:space="preserve">
+          <source>In general, a token owns any trivia
+after it on the same line up to the next token.</source>
+          <target state="translated">Im Allgemeinen besitzt faszinierende ein token
+nach dem in der gleichen Zeile auf das nächste Token.</target>         
+        </trans-unit>
+        <trans-unit id="5b44f04b-4e14-4db7-a299-a09cf1009359" xml:space="preserve">
+          <source>Any trivia after that
+line is associated with the following token.</source>
+          <target state="translated">Alle faszinierende danach
+Zeile, die das folgende Token zugeordnet ist.</target>         
+        </trans-unit>
+        <trans-unit id="f9eb9deb-cb90-47c7-9e96-88486d7028c7" xml:space="preserve">
+          <source>The first token in the
+source file gets all the initial trivia, and the last sequence of trivia
+in the file is tacked onto the end-of-file token, which otherwise has
+zero width.</source>
+          <target state="translated">Das erste Token in der
+Quelldatei erhält alle anfänglichen Themen- und der letzten Sequenz von faszinierende
+in die Datei wird auf das End-of-File-Token übernommen die andernfalls hat
+0 (null) Breite.</target>         
+        </trans-unit>
+        <trans-unit id="0407a001-57f8-415c-b43e-d48da03f99c4" xml:space="preserve">
+          <source>Unlike syntax nodes and tokens, syntax trivia do not have parents.</source>
+          <target state="translated">Im Gegensatz zu Syntax Knoten und Token Syntax faszinierende Eltern keinen.</target>         
+        </trans-unit>
+        <trans-unit id="2b19d20e-c9d5-4b2b-98ac-3b0777e431fa" xml:space="preserve">
+          <source>Yet,
+because they are part of the tree and each is associated with a single
+token, you may access the token it is associated with using the Token
+property.</source>
+          <target state="translated">Noch
+Da sie Teil der Struktur und jeweils eine einzelne zugeordnet ist
+Token können Sie Zugriff auf das Token, das sie mit dem Token zugeordnet ist
+-Eigenschaft veranschaulicht.</target>         
+        </trans-unit>
+        <trans-unit id="63602f8e-308f-43c3-a7b1-538253d5e160" xml:space="preserve">
+          <source>Like syntax tokens, trivia are value types.</source>
+          <target state="translated">Wie die Syntax-Tokens sind faszinierende Werttypen.</target>         
+        </trans-unit>
+        <trans-unit id="07d0b86c-999a-4544-b3c6-53286c08aa42" xml:space="preserve">
+          <source>The single SyntaxTrivia type
+is used to describe all kinds of trivia.</source>
+          <target state="translated">Der Typ der einzelnen SyntaxTrivia
+wird verwendet, um alle Arten von faszinierende beschreiben.</target>         
+        </trans-unit>
+        <trans-unit id="8b4a959c-70d8-4ff9-acd5-b6f934094c2e" xml:space="preserve">
+          <source>Spans</source>
+          <target state="translated">Spannen</target>         
+        </trans-unit>
+        <trans-unit id="1959b6f0-dc0b-4ca3-811f-3caea742d75a" xml:space="preserve">
+          <source>Each node, token, or trivia knows its position within the source text
+and the number of characters it consists of.</source>
+          <target state="translated">Jeder Knoten, Token oder faszinierende weiß, dessen Position innerhalb des Quelltexts
+und die Anzahl der Zeichen, denen er enthält.</target>         
+        </trans-unit>
+        <trans-unit id="b014d875-3490-4ff7-b0bb-b7c554aaa658" xml:space="preserve">
+          <source>A text position is
+represented as a 32-bit integer, which is a zero-based Unicode character
+index.</source>
+          <target state="translated">Ist eine Textposition
+als 32-Bit-Ganzzahl, also eine nullbasierte Unicode-Zeichen dargestellt wird.
+Index.</target>         
+        </trans-unit>
+        <trans-unit id="5306502e-b852-4574-aedd-e794162b5877" xml:space="preserve">
+          <source>A TextSpan object is the beginning position and a count of
+characters, both represented as integers.</source>
+          <target state="translated">Ein Objekt TextSpan ist die Anfangsposition und die Anzahl der
+Zeichen, die sowohl als ganze Zahlen dargestellt werden.</target>         
+        </trans-unit>
+        <trans-unit id="db17a338-f6fd-4882-b98d-9f4b10632970" xml:space="preserve">
+          <source>If TextSpan has a zero length,
+it refers to a location between two characters.</source>
+          <target state="translated">Wenn TextSpan eine Länge von 0 (null) aufweist,
+er verweist auf eine Position zwischen zwei Zeichen.</target>         
+        </trans-unit>
+        <trans-unit id="e0eeb5f9-db0d-4f33-a475-ec802ec8caba" xml:space="preserve">
+          <source>Each node has two TextSpan properties: Span and FullSpan.</source>
+          <target state="translated">Jeder Knoten verfügt über zwei TextSpan Eigenschaften: Spanne und FullSpan.</target>         
+        </trans-unit>
+        <trans-unit id="ecc2b901-c59f-457b-aa36-2cffb7f2a7dd" xml:space="preserve">
+          <source>The Span property is the text span from the start of the first token in
+the node’s sub-tree to the end of the last token.</source>
+          <target state="translated">Span-Eigenschaft wird vom Beginn des ersten Tokens in den Textabschnitt
+Teilstruktur der Knoten am Ende der letzten Token.</target>         
+        </trans-unit>
+        <trans-unit id="120af9e2-9970-4b10-b54f-f095ee47b3a8" xml:space="preserve">
+          <source>This span does not
+include any leading or trailing trivia.</source>
+          <target state="translated">Dieser Spanne nicht
+alle führenden oder nachgestellten faszinierende einschließen</target>         
+        </trans-unit>
+        <trans-unit id="b0f57256-0ade-4152-b9b7-1d5a5deaf488" xml:space="preserve">
+          <source>The FullSpan property is the text span that includes the node’s normal
+span, plus the span of any leading or trailing trivia.</source>
+          <target state="translated">Die FullSpan-Eigenschaft ist der Textabschnitt, der dem Knoten Normal enthält
+Spanne sowie die Spanne der führenden oder nachgestellten faszinierende.</target>         
+        </trans-unit>
+        <trans-unit id="456ce71a-bd43-4f70-9ee5-99688a23ee8a" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Zum Beispiel:</target>         
+        </trans-unit>
+        <trans-unit id="c7f28cd0-b888-4a59-834e-b18d549f5d99" xml:space="preserve">
+          <source>The statement node inside the block has a span indicated by the single
+vertical bars (|).</source>
+          <target state="translated">Der Anweisung Knoten innerhalb des Blocks wurde ein SPAN-Tag angegeben, die von den einzelnen
+senkrechte Striche (|).</target>         
+        </trans-unit>
+        <trans-unit id="57c093c3-a0a6-424b-9157-205a27e85da8" xml:space="preserve">
+          <source>It includes the characters +throw new Exception(“Not
+right.”);+.</source>
+          <target state="translated">Es enthält die Zeichen + new Exception ("nicht auslösen
+rechts."). +.</target>         
+        </trans-unit>
+        <trans-unit id="8c0a2498-725e-405b-86fe-8d39e4431ba5" xml:space="preserve">
+          <source>The full span is indicated by the double vertical bars (||).</source>
+          <target state="translated">Die vollständige Spanne wird durch die zwei senkrechte Striche (|) angezeigt.</target>         
+        </trans-unit>
+        <trans-unit id="c0e3d390-0a0d-4be4-918c-5fcdf74ebafc" xml:space="preserve">
+          <source>It includes the same characters as the span and the characters
+associated with the leading and trailing trivia.</source>
+          <target state="translated">Es enthält die gleichen Zeichen wie die Spanne und die Zeichen
+die führende und nachfolgende faszinierende zugeordnet ist.</target>         
+        </trans-unit>
+        <trans-unit id="41e6acdb-6b95-494e-af83-5b1779a4768b" xml:space="preserve">
+          <source>Kinds</source>
+          <target state="translated">Arten</target>         
+        </trans-unit>
+        <trans-unit id="c47b37cc-6072-43a5-8d1b-58cd3c185dca" xml:space="preserve">
+          <source>Each node, token, or trivia has a RawKind property, of type
+System.Int32, that identifies the exact syntax element represented.</source>
+          <target state="translated">Jeder Knoten, Token oder faszinierende hat nur eine RawKind-Eigenschaft des Typs
+System. Int32, der identifiziert das genaue Syntax-Element dargestellt.</target>         
+        </trans-unit>
+        <trans-unit id="560eaaba-56f7-41bb-a04e-709a58586b7f" xml:space="preserve">
+          <source>This
+value can be cast to a language-specific enumeration; each language, C\#
+or VB, has a single SyntaxKind enumeration that lists all the possible
+nodes, tokens, and trivia elements in the grammar.</source>
+          <target state="translated">Dies
+Wert kann in einer Enumeration sprachspezifische umgewandelt werden. jede Sprache C\ #
+oder VB, verfügt über einen einzigen SyntaxKind-Enumeration, die alle möglichen auflistet
+Knoten, Token und faszinierende Elemente in der Grammatik.</target>         
+        </trans-unit>
+        <trans-unit id="af71cefb-d960-428b-be3a-52de4d639742" xml:space="preserve">
+          <source>This conversion can
+be done automatically by accessing the CSharpSyntaxKind() or
+VisualBasicSyntaxKind() extension methods.</source>
+          <target state="translated">Diese Konvertierung kann
+durch den Zugriff auf die CSharpSyntaxKind() automatisch ausgeführt werden oder
+Erweiterungsmethoden für VisualBasicSyntaxKind().</target>         
+        </trans-unit>
+        <trans-unit id="9416a984-7042-481a-bd46-4d4dd4964f30" xml:space="preserve">
+          <source>The RawKind property allows for easy disambiguation of syntax node types
+that share the same node class.</source>
+          <target state="translated">Einfach zur Klärung der syntaxknotentypen ermöglicht die RawKind-Eigenschaft
+die die gleichen Knotenklasse gemeinsam nutzen.</target>         
+        </trans-unit>
+        <trans-unit id="07e5bd21-c24d-437d-80cc-938dc252c0b9" xml:space="preserve">
+          <source>For tokens and trivia, this property is
+the only way to distinguish one type of element from another.</source>
+          <target state="translated">Bei Token und faszinierende ist diese Eigenschaft
+die einzige Möglichkeit, einen Typ von Element voneinander zu unterscheiden.</target>         
+        </trans-unit>
+        <trans-unit id="914ca3e8-7345-47d8-a843-7c80309dc623" xml:space="preserve">
+          <source>For example, a single BinaryExpressionSyntax class has Left,
+OperatorToken, and Right as children.</source>
+          <target state="translated">Beispielsweise hat eine einzelne BinaryExpressionSyntax Klasse verlassen,
+OperatorToken und rechts als untergeordnete Elemente.</target>         
+        </trans-unit>
+        <trans-unit id="cdcebad2-cf7d-4a08-bf83-77c17502de4e" xml:space="preserve">
+          <source>The Kind property distinguishes
+whether it is an AddExpression, SubtractExpression, or
+MultiplyExpression kind of syntax node.</source>
+          <target state="translated">Kind-Eigenschaft unterscheidet.
+ist ein AddExpression, SubtractExpression, oder
+MultiplyExpression-Art der Syntax-Knoten.</target>         
+        </trans-unit>
+        <trans-unit id="26cff898-7879-409d-86a0-cda9e765df0c" xml:space="preserve">
+          <source>Errors</source>
+          <target state="translated">Fehler</target>         
+        </trans-unit>
+        <trans-unit id="09b93433-efd3-4547-bbfd-6c8acbb91788" xml:space="preserve">
+          <source>Even when the source text contains syntax errors, a full syntax tree
+that is round-trippable to the source is exposed.</source>
+          <target state="translated">Selbst, wenn der Quelltext Syntaxfehler, eine vollständige Syntax-Struktur enthält
+d. h. roundtripfähige an der Quelle verfügbar gemacht.</target>         
+        </trans-unit>
+        <trans-unit id="f02cc361-c1fc-4d09-b374-3e9e91e41738" xml:space="preserve">
+          <source>When the parser
+encounters code that does not conform to the defined syntax of the
+language, it uses one of two techniques to create a syntax tree.</source>
+          <target state="translated">Wenn der Parser
+erkennt Code, der nicht die definierten Syntax entspricht der
+Sprache, wird eine der beiden folgenden Verfahren eine Syntaxstruktur erstellen.</target>         
+        </trans-unit>
+        <trans-unit id="6b70690d-4c2e-42f6-afed-199fc6641070" xml:space="preserve">
+          <source>First, if the parser expects a particular kind of token, but does not
+find it, it may insert a missing token into the syntax tree in the
+location that the token was expected.</source>
+          <target state="translated">Erst, wenn der Parser eine bestimmte Art von Token erwartet, nicht aber
+Suchen, kann es ein Token fehlt in der Syntaxstruktur in Einfügen der
+Speicherort, dass das Token wurde erwartet.</target>         
+        </trans-unit>
+        <trans-unit id="b6612889-c408-4e64-bda5-5dfdc9a7c5c2" xml:space="preserve">
+          <source>A missing token represents the
+actual token that was expected, but it has an empty span, and its
+IsMissing property returns true.</source>
+          <target state="translated">Stellt ein Token fehlt die
+tatsächliche token, wurde erwartet, aber es hat einen leeren Bereich, und die zugehörige
+IsMissing-Eigenschaft gibt true zurück.</target>         
+        </trans-unit>
+        <trans-unit id="7750a402-e9a0-406a-888f-995ec173c587" xml:space="preserve">
+          <source>Second, the parser may skip tokens until it finds one where it can
+continue parsing.</source>
+          <target state="translated">Der Parser kann Zweitens Token überspringen, bis er ein solches findet, wo er kann
+Analyse wird fortgesetzt.</target>         
+        </trans-unit>
+        <trans-unit id="ff8b3569-0061-42dd-b570-86e4e3862264" xml:space="preserve">
+          <source>In this case, the skipped tokens that were skipped are
+attached as a trivia node with the kind SkippedTokens.</source>
+          <target state="translated">In diesem Fall werden die übersprungenen Token, die übersprungen wurden
+als eine faszinierende Knoten mit der Art SkippedTokens angefügt.</target>         
+        </trans-unit>
+        <trans-unit id="d10f55be-c11f-4ac1-8eb7-3df7d1c944ad" xml:space="preserve">
+          <source>Working with Semantics</source>
+          <target state="translated">Arbeiten mit Semantik</target>         
+        </trans-unit>
+        <trans-unit id="646b7720-ddbd-4104-a895-3b6190154829" xml:space="preserve">
+          <source>Syntax trees represent the lexical and syntactic structure of source
+code.</source>
+          <target state="translated">Syntaxstrukturen stellen die lexikalische und syntaktische Struktur der Datenquelle dar.
+Code.</target>         
+        </trans-unit>
+        <trans-unit id="1d01baac-82ec-43b0-a017-51217e004272" xml:space="preserve">
+          <source>Although this information alone is enough to describe all the
+declarations and logic in the source, it is not enough information to
+identify what is being referenced.</source>
+          <target state="translated">Obwohl diese Informationen sind ausreichend, um alle beschreiben ist die
+Deklarationen und Logik in der Quelle, ist es nicht genügend Informationen, um
+Ermitteln Sie, was darauf verwiesen wird.</target>         
+        </trans-unit>
+        <trans-unit id="25326182-fa8c-46cd-8e09-2e2d7c2d3ae7" xml:space="preserve">
+          <source>For example, many types, fields, methods, and local variables with the
+same name may be spread throughout the source.</source>
+          <target state="translated">Z. B. viele Typen, Felder, Methoden und lokale Variablen mit der
+in der Quelle kann denselben Namen verteilt werden.</target>         
+        </trans-unit>
+        <trans-unit id="20e50366-ec5b-45c3-aa53-7fafc5597ae0" xml:space="preserve">
+          <source>Although each of these is
+uniquely different, determining which one an identifier actually refers
+to often requires a deep understanding of the language rules.</source>
+          <target state="translated">Obwohl jedes dieser Elemente stellt
+Ein Bezeichner verweist eine Bestimmung eindeutig verschiedene
+Um erfordert häufig ein tiefes Verständnis der Regeln.</target>         
+        </trans-unit>
+        <trans-unit id="14b3f885-2537-4275-b512-b02017c1173d" xml:space="preserve">
+          <source>There are program elements represented in source code, and programs can
+also refer to previously compiled libraries, packaged in assembly files.</source>
+          <target state="translated">Programmelemente, die im Quellcode dargestellt sind, und können Programme
+Außerdem finden Sie vorher kompilierte Bibliotheken, die in Assemblydateien verpackt.</target>         
+        </trans-unit>
+        <trans-unit id="6fc293c7-6179-4761-b4fe-ed59b76bdf8f" xml:space="preserve">
+          <source>Although no source code is available for assemblies and therefore no
+syntax nodes or trees, programs can still refer to elements inside them.</source>
+          <target state="translated">Obwohl kein Quellcode für Assemblys und daher nicht verfügbar ist
+Syntax-Knoten oder Strukturen, können Programme weiterhin auf Elemente darin verweisen.</target>         
+        </trans-unit>
+        <trans-unit id="0be8b675-a646-4362-87b3-8d4be622305e" xml:space="preserve">
+          <source>In addition to a syntactic model of the source code, a semantic model
+encapsulates the language rules, giving you an easy way to make these
+distinctions.</source>
+          <target state="translated">Zusätzlich zu einem syntaktische Modell des Quellcodes, ein Semantikmodell
+Kapselt die Sprachregeln bietet Ihnen eine einfache Möglichkeit, diese erstellen
+Unterschiede.</target>         
+        </trans-unit>
+        <trans-unit id="df9fc013-b105-4c4b-93ff-eba226e8e9dc" xml:space="preserve">
+          <source>Compilation</source>
+          <target state="translated">Kompilierung</target>         
+        </trans-unit>
+        <trans-unit id="99c22e94-6c7c-498b-8378-6612d0e1128d" xml:space="preserve">
+          <source>A compilation is a representation of everything needed to compile a C\#
+or Visual Basic program, which includes all the assembly references,
+compiler options, and source files.</source>
+          <target state="translated">Eine Kompilierung ist eine Darstellung der alles C\ # kompilieren
+oder Visual Basic-Programm, das die Assemblyverweise enthält,
+Compileroptionen und Quelldateien.</target>         
+        </trans-unit>
+        <trans-unit id="3b1392e5-941e-47d1-9aef-fca341e05b04" xml:space="preserve">
+          <source>Because all this information is in one place, the elements contained in
+the source code can be described in more detail.</source>
+          <target state="translated">Da alle diese Informationen an einem Ort, die Elemente in
+der Quellcode kann noch ausführlicher beschrieben werden.</target>         
+        </trans-unit>
+        <trans-unit id="bd1dde63-cc43-4992-a0dd-3a76e4e2e2cd" xml:space="preserve">
+          <source>The compilation
+represents each declared type, member, or variable as a symbol.</source>
+          <target state="translated">Die Kompilierung
+stellt jeden deklarierten Typ, Member oder Variable als Symbol dar.</target>         
+        </trans-unit>
+        <trans-unit id="acd260bc-01a6-45d0-8a9c-297d33d19812" xml:space="preserve">
+          <source>The
+compilation contains a variety of methods that help you find and relate
+the symbols that have either been declared in the source code or
+imported as metadata from an assembly.</source>
+          <target state="translated">Die
+Kompilierung enthält eine Vielzahl von Methoden, mit denen Sie suchen und verknüpfen
+die Symbole, die entweder im Quellcode deklariert wurden oder
+als Metadaten aus einer Assembly importiert.</target>         
+        </trans-unit>
+        <trans-unit id="2c6ea485-7575-469b-b9da-180781a3cd5a" xml:space="preserve">
+          <source>Similar to syntax trees, compilations are immutable.</source>
+          <target state="translated">Ähnlich wie bei Syntaxstrukturen Kompilierungen unveränderlich sind.</target>         
+        </trans-unit>
+        <trans-unit id="66c46719-c38e-4331-b05d-a27cea2b1274" xml:space="preserve">
+          <source>After you create a
+compilation, it cannot be changed by you or anyone else you might be
+sharing it with.</source>
+          <target state="translated">Nach dem Erstellen einer
+Kompilierung durch Sie oder andere Personen Sie möglicherweise nicht geändert werden
+Freigabe mit.</target>         
+        </trans-unit>
+        <trans-unit id="4631d0c6-28c1-4976-825e-921ca60a91d4" xml:space="preserve">
+          <source>However, you can create a new compilation from an
+existing compilation, specifying a change as you do so.</source>
+          <target state="translated">Sie können jedoch eine neue Kompilierung von erstellen ein
+vorhandene Kompilierung eine Änderung angeben, wie Sie dies tun.</target>         
+        </trans-unit>
+        <trans-unit id="fd40b635-5d56-43fe-a8fd-55b0cb1b4a27" xml:space="preserve">
+          <source>For example, you
+might create a compilation that is the same in every way as an existing
+compilation, except it may include an additional source file or assembly
+reference.</source>
+          <target state="translated">Angenommen, Sie
+eine Kompilierung erstellen, die in jeder Hinsicht wie ein vorhandener ist
+Kompilierung, es sei denn möglicherweise eine zusätzliche Quelldatei oder die Assembly einschließen.
+Verweis.</target>         
+        </trans-unit>
+        <trans-unit id="58124f09-b0b0-4e34-b19d-f3a357fa7246" xml:space="preserve">
+          <source>Symbols</source>
+          <target state="translated">Symbole</target>         
+        </trans-unit>
+        <trans-unit id="4394b094-04b4-4b44-a03c-9814a06fce48" xml:space="preserve">
+          <source>A symbol represents a distinct element declared by the source code or
+imported from an assembly as metadata.</source>
+          <target state="translated">Ein Symbol für ein distinct-Element deklariert, indem der Quellcode oder
+aus einer Assembly als Metadaten importiert.</target>         
+        </trans-unit>
+        <trans-unit id="e5af1156-3d1f-408f-9167-7b831c1a82f8" xml:space="preserve">
+          <source>Every namespace, type, method,
+property, field, event, parameter, or local variable is represented by a
+symbol.</source>
+          <target state="translated">Jeder Namespace, Typ, Methode
+Eigenschaft, Feld, Ereignis, Parameter oder lokalen Variablen wird dargestellt, indem ein
+Symbol.</target>         
+        </trans-unit>
+        <trans-unit id="1cb48450-75bd-4651-b901-3630377441bf" xml:space="preserve">
+          <source>A variety of methods and properties on the Compilation type help you
+find symbols.</source>
+          <target state="translated">Eine Reihe von Methoden und Eigenschaften für den Typ der Kompilierung können Sie
+Suchen von Symbolen.</target>         
+        </trans-unit>
+        <trans-unit id="7915add5-c043-4a63-af77-0660ae874816" xml:space="preserve">
+          <source>For example, you can find a symbol for a declared type by
+its common metadata name.</source>
+          <target state="translated">Beispielsweise können Sie ein Symbol für einen deklarierten Typ von suchen.
+der allgemeine Metadatenname.</target>         
+        </trans-unit>
+        <trans-unit id="7b41a7cc-bbc0-468a-80e7-69a466393563" xml:space="preserve">
+          <source>You can also access the entire symbol table as
+a tree of symbols rooted by the global namespace.</source>
+          <target state="translated">Sie können auch die gesamte Symboltabelle als zugreifen.
+eine Struktur von Symbolen, die als Stamm aufweisen, durch den globalen Namespace.</target>         
+        </trans-unit>
+        <trans-unit id="cf81af4d-9f51-46d0-8328-e375e4369d4e" xml:space="preserve">
+          <source>Symbols also contain additional information that the compiler determined
+from the source or metadata, such as other referenced symbols.</source>
+          <target state="translated">Symbole enthalten auch zusätzlichen Informationen, den der Compiler bestimmt.
+von der Quelle oder Metadaten, wie z. B. andere Symbole verwiesen wird.</target>         
+        </trans-unit>
+        <trans-unit id="75306eec-82d1-4682-b1d1-0b234b4a9e50" xml:space="preserve">
+          <source>Each kind
+of symbol is represented by a separate interface derived from ISymbol,
+each with its own methods and properties detailing the information the
+compiler has gathered.</source>
+          <target state="translated">Jeder Art
+des Symbols wird durch eine separate Schnittstelle abgeleitet ISymbol dargestellt,
+Jeder mit eigenen Methoden und Eigenschaften, die die Detailinformationen der
+Compiler erfasst hat.</target>         
+        </trans-unit>
+        <trans-unit id="3d45d3a2-2015-40db-bcdf-e5e109694a92" xml:space="preserve">
+          <source>Many of these properties directly reference other
+symbols.</source>
+          <target state="translated">Viele dieser Eigenschaften verweisen direkt auf andere
+Symbole.</target>         
+        </trans-unit>
+        <trans-unit id="752cef82-92fd-49ef-a1c3-f3038ab22c05" xml:space="preserve">
+          <source>For example, the ReturnType property of the IMethodSymbol class
+tells you the actual type symbol that the method declaration referenced.</source>
+          <target state="translated">Zum Beispiel die ReturnType-Eigenschaft der IMethodSymbol-Klasse
+das tatsächliche Typ-Symbol, das die Methodendeklaration verwiesen wird.</target>         
+        </trans-unit>
+        <trans-unit id="37e312e6-169a-4229-8fe9-76184dc4a8b9" xml:space="preserve">
+          <source>Symbols present a common representation of namespaces, types, and
+members, between source code and metadata.</source>
+          <target state="translated">Symbole stellen eine allgemeine Darstellung des Namespaces, Typen und
+Elemente zwischen Quellcode und Metadaten.</target>         
+        </trans-unit>
+        <trans-unit id="643f6e99-2ac4-4a68-9cdf-156b76147381" xml:space="preserve">
+          <source>For example, a method that
+was declared in source code and a method that was imported from metadata
+are both represented by an IMethodSymbol with the same properties.</source>
+          <target state="translated">Angenommen, eine Methode, die
+im Quellcode und eine Methode, die Metadaten importiert wurde deklariert wurde
+Beide werden durch eine IMethodSymbol mit denselben Eigenschaften dargestellt.</target>         
+        </trans-unit>
+        <trans-unit id="f554bac5-3500-40c0-a715-5832006f0714" xml:space="preserve">
+          <source>Symbols are similar in concept to the CLR type system as represented by
+the System.Reflection API, yet they are richer in that they model more
+than just types.</source>
+          <target state="translated">Symbole sind dem Konzept der CLR-Typsystem, dargestellt durch
+die System.Reflection-API, aber sie sind umfangreicher, da sie mehr zu modellieren
+als nur Typen.</target>         
+        </trans-unit>
+        <trans-unit id="4dad899b-26d2-401b-a9e7-e3650b023ff2" xml:space="preserve">
+          <source>Namespaces, local variables, and labels are all
+symbols.</source>
+          <target state="translated">Namespaces, lokale Variablen und Bezeichnungen sind alle
+Symbole.</target>         
+        </trans-unit>
+        <trans-unit id="eb8d1dee-2f1a-441f-b233-64b5ca4d3e6d" xml:space="preserve">
+          <source>In addition, symbols are a representation of language concepts,
+not CLR concepts.</source>
+          <target state="translated">Symbole sind darüber hinaus eine Darstellung der Sprachkonzepte,
+keine CLR-Konzepten.</target>         
+        </trans-unit>
+        <trans-unit id="0c36493b-e3a2-4319-a939-d3813bca401a" xml:space="preserve">
+          <source>There is a lot of overlap, but there are many
+meaningful distinctions as well.</source>
+          <target state="translated">Es gibt viele überschneiden, aber es gibt viele
+auch Unterschiede sinnvoll.</target>         
+        </trans-unit>
+        <trans-unit id="94830747-8181-450c-b84f-88050e6f62c1" xml:space="preserve">
+          <source>For instance, an iterator method in C\#
+or Visual Basic is a single symbol.</source>
+          <target state="translated">Z. B. eine Iteratormethode C\-
+oder Visual Basic ist ein einzelnes Symbol.</target>         
+        </trans-unit>
+        <trans-unit id="4a3155c9-d31a-4059-a9b5-3e7fff084b74" xml:space="preserve">
+          <source>However, when the iterator method is
+translated to CLR metadata, it is a type and multiple methods.</source>
+          <target state="translated">Ist jedoch, wenn die Iterator-Methode
+in CLR-Metadaten übersetzt wird, ist es, einen Typ und mehrere Methoden.</target>         
+        </trans-unit>
+        <trans-unit id="8974d457-3aa8-45ff-b676-4ed1d4df0b34" xml:space="preserve">
+          <source>Semantic Model</source>
+          <target state="translated">Semantikmodell</target>         
+        </trans-unit>
+        <trans-unit id="f45c21fe-9354-45b4-9338-51c84b98f5d6" xml:space="preserve">
+          <source>A semantic model represents all the semantic information for a single
+source file.</source>
+          <target state="translated">Ein Semantikmodell stellt die semantische Informationen für eine einzelne dar.
+die Quelldatei.</target>         
+        </trans-unit>
+        <trans-unit id="51d84e84-ddda-4161-8795-aabfa55e8dca" xml:space="preserve">
+          <source>You can use it to discover the following:</source>
+          <target state="translated">Sie können Sie Folgendes ermitteln:</target>         
+        </trans-unit>
+        <trans-unit id="f21b6fa2-5505-4ffa-bd3d-d72a8965634b" xml:space="preserve">
+          <source>The symbols referenced at a specific location in source.</source>
+          <target state="translated">Die Symbole an einer bestimmten Position in der Quelle verwiesen wird.</target>         
+        </trans-unit>
+        <trans-unit id="a95be192-d7a3-4d24-8a05-3ecab95c8937" xml:space="preserve">
+          <source>The resultant type of any expression.</source>
+          <target state="translated">Der resultierende Typ eines Ausdrucks.</target>         
+        </trans-unit>
+        <trans-unit id="a08adede-6f14-43a8-83a1-23eab9921635" xml:space="preserve">
+          <source>All diagnostics, which are errors and warnings.</source>
+          <target state="translated">Alle Diagnosen Fehler und Warnungen werden.</target>         
+        </trans-unit>
+        <trans-unit id="93b14618-f374-44d7-870a-3cace570a687" xml:space="preserve">
+          <source>How variables flow in and out of regions of source.</source>
+          <target state="translated">Wie Variablen und Bereiche der Quelle fließen.</target>         
+        </trans-unit>
+        <trans-unit id="2c01b755-5cc5-411b-8c9c-bdba8600fb50" xml:space="preserve">
+          <source>The answers to more speculative questions.</source>
+          <target state="translated">Antworten auf Fragen mehr spekulative.</target>         
+        </trans-unit>
+        <trans-unit id="bf573347-5d4e-44a9-a467-fcc00fac4652" xml:space="preserve">
+          <source>Working with a Workspace</source>
+          <target state="translated">Arbeiten mit einem Arbeitsbereich</target>         
+        </trans-unit>
+        <trans-unit id="ec9c353e-f220-41c6-ae0e-85dc11384d93" xml:space="preserve">
+          <source>The Workspaces layer is the starting point for doing code analysis and
+refactoring over entire solutions.</source>
+          <target state="translated">Die Ebene der Arbeitsbereiche ist der Ausgangspunkt für die Codeanalyse und
+Refactoring über vollständige Lösungen.</target>         
+        </trans-unit>
+        <trans-unit id="24851abb-a532-4e8b-8bc8-72639bd212a7" xml:space="preserve">
+          <source>Within this layer, the Workspace API
+assists you in organizing all the information about the projects in a
+solution into single object model, offering you direct access to
+compiler layer object models like source text, syntax trees, semantic
+models and compilations without needing to parse files, configure
+options or manage inter-project dependencies.</source>
+          <target state="translated">In dieser Schicht der Workspace-API
+unterstützt Sie beim Organisieren alle Informationen über die Projekte in einer
+die Lösung in einzelnen Objektmodell bietet Ihnen direkten Zugriff auf
+Compiler-Layer-Objektmodelle Quelltext, wie Syntaxstrukturen semantische
+Konfigurieren Sie Modelle und Kompilierungen ohne Dateien analysieren
+Optionen oder projektübergreifende Abhängigkeiten zu verwalten.</target>         
+        </trans-unit>
+        <trans-unit id="9ab0ec9f-0454-4a85-a9ed-ad61e155eabd" xml:space="preserve">
+          <source>Host environments, like an IDE, provide a workspace for you
+corresponding to the open solution.</source>
+          <target state="translated">Hostumgebungen, z. B. eine IDE bereitstellen einen Arbeitsbereich für Sie.
+entspricht der geöffneten Projektmappe.</target>         
+        </trans-unit>
+        <trans-unit id="f3215398-4c13-436c-99c3-36ab7fb70007" xml:space="preserve">
+          <source>It is also possible to use this
+model outside of an IDE by simply loading a solution file.</source>
+          <target state="translated">Es ist auch möglich, diese zu verwenden
+Modell außerhalb einer IDE durch Laden einfach eine Projektmappendatei.</target>         
+        </trans-unit>
+        <trans-unit id="596e5dd4-87e5-4051-bfdd-53afe7cd3176" xml:space="preserve">
+          <source>Workspace</source>
+          <target state="translated">Arbeitsbereich</target>         
+        </trans-unit>
+        <trans-unit id="d7a81e7c-c15d-4c26-947e-9e4432a48d2e" xml:space="preserve">
+          <source>A workspace is an active representation of your solution as a collection
+of projects, each with a collection of documents.</source>
+          <target state="translated">Ein Arbeitsbereich ist eine aktive Darstellung der Projektmappe als Auflistung
+Projekte, mit einer Sammlung von Dokumenten.</target>         
+        </trans-unit>
+        <trans-unit id="54fb8d94-a73f-46a2-8316-a12fde5b70e9" xml:space="preserve">
+          <source>A workspace is
+typically tied to a host environment that is constantly changing as a
+user types or manipulates properties.</source>
+          <target state="translated">Ein Arbeitsbereich ist
+in der Regel auf einem hostumgebung, die als ständig gebunden ein
+Benutzer oder Eigenschaften bearbeitet.</target>         
+        </trans-unit>
+        <trans-unit id="a455e6d8-78f6-4b02-a389-fbd0c5439da4" xml:space="preserve">
+          <source>The workspace provides access to the current model of the solution.</source>
+          <target state="translated">Der Arbeitsbereich stellt den Zugriff auf das aktuelle Modell der Projektmappe.</target>         
+        </trans-unit>
+        <trans-unit id="66a25a37-fdad-40ba-a197-aba6d4226f05" xml:space="preserve">
+          <source>When
+a change in the host environment occurs, the workspace fires
+corresponding events, and the CurrentSolution property is updated.</source>
+          <target state="translated">When
+eine Änderung in der hostumgebung auftritt, das im Arbeitsbereich ausgelöst
+die zugehörigen Ereignisse, und die CurrentSolution-Eigenschaft aktualisiert wird.</target>         
+        </trans-unit>
+        <trans-unit id="fd12e9f5-5fba-4e7c-83c9-4b7760dc2af0" xml:space="preserve">
+          <source>For
+example, when the user types in a text editor corresponding to one of
+the source documents, the workspace uses an event to signal that the
+overall model of the solution has changed and which document was
+modified.</source>
+          <target state="translated">For
+b., wenn der Benutzer in einem Text-Editor, die für eines der Datentypen
+das Quelldokument Arbeitsbereich verwendet ein Ereignis, das signalisiert, dass die
+Gesamtmodell der Projektmappe geändert wurde und welches Dokument wurde
+geändert.</target>         
+        </trans-unit>
+        <trans-unit id="cc6228c9-f6fa-402f-8f49-98ba625a1d52" xml:space="preserve">
+          <source>You can then react to those changes by analyzing the new model
+for correctness, highlighting areas of significance, or by making a
+suggestion for a code change.</source>
+          <target state="translated">Sie können dann auf diese Änderungen reagieren durch das neue Modell analysieren
+Markieren Sie auf Richtigkeit, Bereiche von Bedeutung, oder durch eine
+Vorschlag für eine Änderung des Codes.</target>         
+        </trans-unit>
+        <trans-unit id="f14666ab-5c2e-48d6-841c-ae0b933e496a" xml:space="preserve">
+          <source>You can also create stand-alone workspaces that are disconnected from
+the host environment or used in an application that has no host
+environment.</source>
+          <target state="translated">Sie können auch eigenständige Arbeitsbereiche erstellen, die getrennt werden
+der hostumgebung oder in einer Anwendung, die über kein Host verwendet
+Umgebung.</target>         
+        </trans-unit>
+        <trans-unit id="63e3d2f6-385b-42a9-bd6b-799f3c79bc1f" xml:space="preserve">
+          <source>Solutions, Projects, Documents</source>
+          <target state="translated">Projektmappen, Projekte, Dokumente</target>         
+        </trans-unit>
+        <trans-unit id="8b010596-b224-4802-817e-b81ef54d3de9" xml:space="preserve">
+          <source>Although a workspace may change every time a key is pressed, you can
+work with the model of the solution in isolation.</source>
+          <target state="translated">Obwohl ein Arbeitsbereich ändern kann, jedes Mal, wenn eine Taste gedrückt wird, können Sie
+Arbeiten Sie mit dem Modell der Lösung isoliert.</target>         
+        </trans-unit>
+        <trans-unit id="e8ba600f-7d06-44fb-9f99-372e273fdad3" xml:space="preserve">
+          <source>A solution is an immutable model of the projects and documents.</source>
+          <target state="translated">Eine Lösung ist eine unveränderliche Modell Projekte und Dokumente.</target>         
+        </trans-unit>
+        <trans-unit id="0ec9583a-7502-44e8-a630-581839eaf9af" xml:space="preserve">
+          <source>This
+means that the model can be shared without locking or duplication.</source>
+          <target state="translated">Dies
+bedeutet, dass das Modell ohne Sperren oder Duplizierung gemeinsam genutzt werden kann.</target>         
+        </trans-unit>
+        <trans-unit id="98150ff2-4ae3-43ff-bb70-03ecd629344d" xml:space="preserve">
+          <source>After
+you obtain a solution instance from the Workspace’s CurrentSolution
+property, that instance will never change.</source>
+          <target state="translated">Nachher
+Sie erhalten eine Lösung-Instanz aus dem Arbeitsbereich CurrentSolution
+Diese Instanz wird nie-Eigenschaft geändert werden.</target>         
+        </trans-unit>
+        <trans-unit id="b202a4b8-1bcc-498b-b0c8-cd6a47213428" xml:space="preserve">
+          <source>However, like with syntax
+trees and compilations, you can modify solutions by constructing new
+instances based on existing solutions and specific changes.</source>
+          <target state="translated">Wie jedoch mit der syntax
+Strukturen und Kompilierungen können Sie Projektmappen ändern, indem Sie neu erstellen
+Instanzen auf Grundlage vorhandener Lösungen und ändern.</target>         
+        </trans-unit>
+        <trans-unit id="2516a409-9e37-40d2-ac1b-0cedcd716e0c" xml:space="preserve">
+          <source>To get the
+workspace to reflect your changes, you must explicitly apply the changed
+solution back to the workspace.</source>
+          <target state="translated">Abrufen der
+Arbeitsbereich, um die Änderung zu reflektieren muss explizit angewendet werden die geänderten
+die Lösung wieder in den Arbeitsbereich.</target>         
+        </trans-unit>
+        <trans-unit id="08a66553-435c-41de-9e71-283597d0df4c" xml:space="preserve">
+          <source>A project is a part of the overall immutable solution model.</source>
+          <target state="translated">Ein Projekt ist ein Teil des Modells insgesamt unveränderliche Lösung.</target>         
+        </trans-unit>
+        <trans-unit id="45eb7287-0f94-4cae-8a2b-66712b7c6927" xml:space="preserve">
+          <source>It
+represents all the source code documents, parse and compilation options,
+and both assembly and project-to-project references.</source>
+          <target state="translated">Es
+Stellt die Quelle Code Dokumente, Analyse und Kompilierung Optionen,
+sowie Assembly und Verweisen zwischen Projekten.</target>         
+        </trans-unit>
+        <trans-unit id="e838f015-fbcf-4075-ae1a-f63cce1ba72b" xml:space="preserve">
+          <source>From a project, you
+can access the corresponding compilation without needing to determine
+project dependencies or parse any source files.</source>
+          <target state="translated">Aus einem Projekt Sie
+erreichen die entsprechende Kompilierung ohne bestimmen
+Projekt Abhängigkeiten oder Quelldateien zu analysieren.</target>         
+        </trans-unit>
+        <trans-unit id="dd8c50c7-2930-4b53-ad19-3ad8bf70c5e0" xml:space="preserve">
+          <source>A document is also a part of the overall immutable solution model.</source>
+          <target state="translated">Ein Dokument ist auch ein Teil des Modells insgesamt unveränderliche Lösung.</target>         
+        </trans-unit>
+        <trans-unit id="76586cf8-5da5-4933-9381-299e5e99374e" xml:space="preserve">
+          <source>A
+document represents a single source file from which you can access the
+text of the file, the syntax tree, and the semantic model.</source>
+          <target state="translated">A
+Dokument repräsentiert eine einzelne Quelldatei, aus der Sie Zugriff auf, die
+der Text der Datei, die Syntax-Struktur und das semantische Modell.</target>         
+        </trans-unit>
+        <trans-unit id="0249cdf7-3bb3-46f4-a405-b4c2b5701f2b" xml:space="preserve">
+          <source>The following diagram is a representation of how the Workspace relates
+to the host environment, tools, and how edits are made.</source>
+          <target state="translated">Im folgende Diagramm ist eine Darstellung der Beziehung des Arbeitsbereichs
+mit dem Host-Umgebung, Tools und wie Änderungen vorgenommen werden.</target>         
+        </trans-unit>
+        <trans-unit id="ba69788d-820f-4ead-a605-3d970bbab8f8" xml:space="preserve">
+          <source><bpt id="816c049d-0693-4836-afda-b444b43867f1">&lt;linkText&gt;</bpt>image<ept id="816c049d-0693-4836-afda-b444b43867f1">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="816c049d-0693-4836-afda-b444b43867f1">&lt;linkText&gt;</bpt>Bild<ept id="816c049d-0693-4836-afda-b444b43867f1">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="33d6165b-7235-4f2e-9873-8ad57d2eeedc" xml:space="preserve">
+          <source>Summary</source>
+          <target state="translated">Zusammenfassung</target>         
+        </trans-unit>
+        <trans-unit id="c0643481-c57e-49f9-8eef-995203dc3b30" xml:space="preserve">
+          <source>The .NET Compiler Platform (“Roslyn”) exposes a set of Compiler APIs and
+Workspaces APIs that provides rich information about your source code
+and that has full fidelity with the C\# and Visual Basic languages.</source>
+          <target state="translated">Die .NET Compiler Platform ("Roslyn") stellt eine Reihe von Compiler-APIs und
+Arbeitsbereiche APIs, die umfangreiche Informationen zu Ihren Quellcode
+und die genaue Übereinstimmung mit den C\- und Visual Basic-Sprachen.</target>         
+        </trans-unit>
+        <trans-unit id="bf6c3550-ca19-4189-a534-8edba28daffc" xml:space="preserve">
+          <source>The
+transition to compilers as a platform dramatically lowers the barrier to
+entry for creating code focused tools and applications.</source>
+          <target state="translated">Die
+Übergang zum Compiler an, wie eine Plattform erheblich die Grenze zu reduziert
+Eintrag für das Erstellen von Code konzentrieren, Tools und Programme.</target>         
+        </trans-unit>
+        <trans-unit id="3b7f0e56-c54d-4d42-87ba-8343accc5611" xml:space="preserve">
+          <source>It creates many
+opportunities for innovation in areas such as meta-programming, code
+generation and transformation, interactive use of the C\# and VB
+languages, and embedding of C\# and VB in domain specific languages.</source>
+          <target state="translated">Viele erstellt
+Chancen für Innovationen in Bereichen wie z. B. Metaprogrammierung Code
+Generierung und interaktive Transformation verwenden, von der C\- und VB
+Sprachen und Einbetten von C\- und VB in domänenspezifische Sprachen.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

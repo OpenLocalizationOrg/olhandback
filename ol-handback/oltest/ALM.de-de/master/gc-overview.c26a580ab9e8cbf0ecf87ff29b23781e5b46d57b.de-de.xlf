@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="025aa46a-1c88-46a5-9493-13e273ded94f" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="025aa46a-1c88-46a5-9493-13e273ded94f" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">51689a4533ba47ce22bed502089aaf485de7a27c</olfilehash>
+    </header>
+    <body>
+      <group id="b71707a6-6aa9-432e-bc8d-b5dc713de658">
+        <trans-unit id="6e5a0e59-930c-4b05-bcf6-8bf9d1311983" xml:space="preserve">
+          <source>Garbage Collection</source>
+          <target state="translated">Garbage Collection</target>         
+        </trans-unit>
+        <trans-unit id="2e89b197-5194-42cd-a61e-611077c3a0c8" xml:space="preserve">
+          <source>Garbage collection is one of most important features of the .NET managed
+code platform.</source>
+          <target state="translated">Die Garbagecollection ist eines der wichtigsten Features von .NET verwaltet
+Code-Plattform.</target>         
+        </trans-unit>
+        <trans-unit id="5aa38483-5a19-40d3-854b-9c4ee21e5204" xml:space="preserve">
+          <source>The garbage collector (GC) manages allocating and
+releasing memory for you.</source>
+          <target state="translated">Der Garbage Collector (GC) verwaltet die Zuordnung und
+Freigeben von Arbeitsspeicher für Sie.</target>         
+        </trans-unit>
+        <trans-unit id="93382a81-a411-4e56-a51a-cdbd1e3e2b9e" xml:space="preserve">
+          <source>You do not need to how to allocate and release
+memory or manage the lifetime of the objects that use that memory.</source>
+          <target state="translated">Sie müssen nicht zu reservieren und freigeben
+Arbeitsspeicher oder Verwalten der Lebensdauer der Objekte, die die Verwendung dieses Speichers.</target>         
+        </trans-unit>
+        <trans-unit id="1b28e927-8601-476e-b770-6df73863d2c5" xml:space="preserve">
+          <source>An
+allocation is made any time you <bpt id="a828275b-cef7-4ebc-93f3-d6800b3491b8">&lt;em&gt;</bpt>new<ept id="a828275b-cef7-4ebc-93f3-d6800b3491b8">&lt;/em&gt;</ept> an object or a value type is
+boxed.</source>
+          <target state="translated">Ein
+Zuordnung erfolgt eine Zeit <bpt id="a828275b-cef7-4ebc-93f3-d6800b3491b8">&lt;em&gt;</bpt>neue<ept id="a828275b-cef7-4ebc-93f3-d6800b3491b8">&lt;/em&gt;</ept> wird ein Objekt oder einen Werttyp
+geschachtelt.</target>         
+        </trans-unit>
+        <trans-unit id="2abf1a91-93a6-4859-b144-aa3feb22d1f3" xml:space="preserve">
+          <source>Allocations are typically very fast.</source>
+          <target state="translated">Zuordnungen sind in der Regel sehr schnell.</target>         
+        </trans-unit>
+        <trans-unit id="ee74d9d6-362f-48d3-b7ab-850581b28377" xml:space="preserve">
+          <source>When there isn't enough
+memory to allocate an object, the GC must collect and dispose of garbage
+memory to make memory available for new allocations.</source>
+          <target state="translated">Wenn es reicht nicht aus
+Speicher für das Zuweisen eines Objekts, das die Freispeichersammlung muss sammeln und Garbage verwerfen
+Arbeitsspeicher, Speicher für neue Zuordnungen zur Verfügung stellen.</target>         
+        </trans-unit>
+        <trans-unit id="8af053cd-025c-4ea9-89bc-d0148871c454" xml:space="preserve">
+          <source>This process is
+called "garbage collection".</source>
+          <target state="translated">Dieser Prozess ist
+"Garbagecollection" bezeichnet.</target>         
+        </trans-unit>
+        <trans-unit id="91201553-648b-4ad4-a90a-0eb40f285fce" xml:space="preserve">
+          <source>The garbage collector serves as an automatic memory manager.</source>
+          <target state="translated">Der Garbage Collector fungiert als automatischer Speicher-Manager.</target>         
+        </trans-unit>
+        <trans-unit id="a4367162-9fa3-438d-8d22-21a770de30f2" xml:space="preserve">
+          <source>It provides
+the following benefits:</source>
+          <target state="translated">Es bietet
+die folgenden Vorteile:</target>         
+        </trans-unit>
+        <trans-unit id="a1e1ac35-abe9-4fa4-a244-276ccb536f77" xml:space="preserve">
+          <source>Enables you to develop your application without having to
+free memory.</source>
+          <target state="translated">Ermöglicht es Ihnen, Ihre Anwendung zu entwickeln, ohne dass
+freier Speicher.</target>         
+        </trans-unit>
+        <trans-unit id="f60e6643-8bcc-4d11-a85a-594ffb779742" xml:space="preserve">
+          <source>Allocates objects on the managed heap efficiently.</source>
+          <target state="translated">Ordnet dem verwalteten Heap effizient Objekte zu.</target>         
+        </trans-unit>
+        <trans-unit id="2cafd921-c324-406d-b916-073b304d69c3" xml:space="preserve">
+          <source>Reclaims objects that are no longer being used, clears their memory,
+and keeps the memory available for future allocations.</source>
+          <target state="translated">Nicht mehr verwendeten Objekte freigegeben, löscht den Speicher,
+und hält Speicher für zukünftige Zuordnungen.</target>         
+        </trans-unit>
+        <trans-unit id="9a0b4033-9bb0-4aed-91ce-610169774b1c" xml:space="preserve">
+          <source>Managed
+objects automatically get clean content to start with, so their
+constructors do not have to initialize every data field.</source>
+          <target state="translated">Verwaltet
+Objekte erhalten automatisch bereinigen Inhalte, also die
+Konstruktoren müssen nicht jedes Datenfeld initialisieren.</target>         
+        </trans-unit>
+        <trans-unit id="1bed22e2-a223-435a-b6d5-14f76938c97f" xml:space="preserve">
+          <source>Provides memory safety by making sure that an object cannot use the
+content of another object.</source>
+          <target state="translated">Bietet speichersicherheit, und stellen Sie sicher, dass ein Objekt verwenden, kann die
+der Inhalt eines anderen Objekts.</target>         
+        </trans-unit>
+        <trans-unit id="3454635e-2744-4ccc-98a7-6d8544779e15" xml:space="preserve">
+          <source>The .NET GC is generational and has 3 generations.</source>
+          <target state="translated">.NET Garbage Collector ist generationsbasierten und 3 Generationen.</target>         
+        </trans-unit>
+        <trans-unit id="4d9919c2-fe6b-4f38-bf2a-3143c4c03a3a" xml:space="preserve">
+          <source>Each generation has
+its own heap that it uses for storage of allocated objects.</source>
+          <target state="translated">Jeder Generation verfügt.
+einen eigenen Heap, den für die Speicherung von zugeordneten Objekten verwendet.</target>         
+        </trans-unit>
+        <trans-unit id="43c27c6d-4fa1-4539-8f88-372b712b3906" xml:space="preserve">
+          <source>There is a
+basic principle that most objects are either short lived or long lived.</source>
+          <target state="translated">Es ist ein
+Grundlegendes Prinzip, dass die meisten Objekte kurzlebig oder langlebig sind.</target>         
+        </trans-unit>
+        <trans-unit id="70582440-9e4a-409f-8bee-34ecc4e01bea" xml:space="preserve">
+          <source>Generation 0 is where objects are first allocated.</source>
+          <target state="translated">Generation 0 ist, in denen Objekte zuerst zugeordnet sind.</target>         
+        </trans-unit>
+        <trans-unit id="47b5c021-f255-46b1-94a1-ffe4a4a404a6" xml:space="preserve">
+          <source>Objects often don't
+live past the first generation, since they are no longer in use (out of
+scope) by the time the next garbage collection occurs.</source>
+          <target state="translated">Objekte nicht oft
+nach der ersten Generation Live, da sie nicht mehr verwendet (out of sind
+Bereich) zum Zeitpunkt die nächste Garbagecollection erfolgt.</target>         
+        </trans-unit>
+        <trans-unit id="0df76e8f-77de-4a11-9d33-97ca53a1a331" xml:space="preserve">
+          <source>Generation 0 is
+quick to collect because its associated heap is small.</source>
+          <target state="translated">Generation 0 ist.
+Schnelle sammeln, da dessen zugeordnete Heap klein ist.</target>         
+        </trans-unit>
+        <trans-unit id="49a0bcdb-a5ba-4817-b3bb-f856fe94b2bb" xml:space="preserve">
+          <source>Generation 1 is
+really a second chance space.</source>
+          <target state="translated">Ist der Generation 1
+wirklich zweite Chance Speicherplatz.</target>         
+        </trans-unit>
+        <trans-unit id="472ef266-6bfd-4a2d-a645-f5fbc305530f" xml:space="preserve">
+          <source>Objects that are short lived but survive
+the generation 0 collection (often based on coincidental timing) go to
+generation 1.</source>
+          <target state="translated">Objekte, die kurz sind auskommen konnten jedoch Überleben
+die Collection der Generation 0 (häufig basierend auf Zufall Timing) finden Sie unter
+Generation 1.</target>         
+        </trans-unit>
+        <trans-unit id="37ab2675-d573-4365-9f77-b107bec2fc6a" xml:space="preserve">
+          <source>Generation 1 collections are also quick because its
+associated heap is also small.</source>
+          <target state="translated">Garbage Collections der Generation 1 sind auch schnell da seine
+zugeordnete Heap ist auch klein.</target>         
+        </trans-unit>
+        <trans-unit id="8da9715a-a148-4dcf-82f1-56405a0256ca" xml:space="preserve">
+          <source>The first two heaps remain small because
+objects are either collected or are promoted to the next generation
+heap.</source>
+          <target state="translated">Die ersten zwei heaps kleine bleiben da
+Objekte werden entweder erfasst oder werden auf die nächste Generation höher gestuft
+Heap.</target>         
+        </trans-unit>
+        <trans-unit id="bfd0a8a2-91dd-4144-b21e-7f4801426ef3" xml:space="preserve">
+          <source>Generation 2 is where all long lived objects are.</source>
+          <target state="translated">Generation 2 ist, in denen alle lange kurzlebige Objekte sind.</target>         
+        </trans-unit>
+        <trans-unit id="005331b5-9d17-4d58-8452-bd77a682bac8" xml:space="preserve">
+          <source>The generation 2
+heap can grow to be very large, since the objects it contains can
+survive a long time and there is no generation 3 heap to further promote
+objects.</source>
+          <target state="translated">Die Generation 2
+Heap anwachsen kann sehr groß sein, da die darin enthaltenen Objekte können
+lange überstehen, und es ist kein Heap Generation 3 weiter zu fördern
+Objekte.</target>         
+        </trans-unit>
+        <trans-unit id="9e62d323-db69-49db-938f-492159c912a7" xml:space="preserve">
+          <source>The GC has has an additional heap for large objects called the Large
+Object Heap (LOH).</source>
+          <target state="translated">Die Freispeichersammlung ist verfügt über eine zusätzliche Heap für große Objekte aufgerufen, die Groß
+Objektheap (große Objektheap).</target>         
+        </trans-unit>
+        <trans-unit id="561da0fb-2750-4b0a-98e6-ce4f78c507d1" xml:space="preserve">
+          <source>It is reserved for objects that are 85,000 bytes or
+greater.</source>
+          <target state="translated">Es ist reserviert für Objekte, die mindestens 85.000 Bytes oder
+größer.</target>         
+        </trans-unit>
+        <trans-unit id="12f57e6d-d004-46e0-97eb-50e87bc9f747" xml:space="preserve">
+          <source>A byte array (Byte\[\]) with 85k elements would be an example
+of a large object.</source>
+          <target state="translated">(Byte\[\]) mit 85 k Elementen ein Beispiel wäre ein Byte-array
+ein großes Objekt.</target>         
+        </trans-unit>
+        <trans-unit id="478fdbb3-7fcf-42e0-ab63-2d30986b6eed" xml:space="preserve">
+          <source>Large objects are not allocated to the generational
+heaps but are allocated directly to the LOH.</source>
+          <target state="translated">Große Objekte werden nicht auf die generationsbasierten zugeordnet.
+Heaps aber direkt für den großen Objektheap zugeordnet sind.</target>         
+        </trans-unit>
+        <trans-unit id="806a4da4-86bc-4a25-ac51-ae4488420e96" xml:space="preserve">
+          <source>Generation 2 and LOH collections can take noticeable time for programs
+that have run for a long time or operate over large amounts of data.</source>
+          <target state="translated">Generation 2 und LOH-Auflistungen können spürbar Programme dauern
+die für einen langen Zeitraum ausgeführt haben oder über große Mengen von Daten ausgeführt werden.</target>         
+        </trans-unit>
+        <trans-unit id="efe44131-50f6-4859-b0c7-baf0a2199d32" xml:space="preserve">
+          <source>Large server programs are known to have heaps in the 10s of GBs.</source>
+          <target state="translated">Große Server Programme sind Heaps in die Werte 10 von GB haben.</target>         
+        </trans-unit>
+        <trans-unit id="414039a6-a533-47f7-8494-566ee7458af0" xml:space="preserve">
+          <source>The GC
+employs a variety of techniques to reduce the amount of time that it
+blocks program execution.</source>
+          <target state="translated">Der GC
+verwendet eine Reihe von Techniken zur Reduzierung der Zeit, dass die it
+Programm blockiert die Ausführung.</target>         
+        </trans-unit>
+        <trans-unit id="70bff50a-a095-4468-8fd4-0d6974a868cc" xml:space="preserve">
+          <source>The primary approach is to do as much garbage
+collection work as possible on a background thread in a way that does
+not interfere with program execution.</source>
+          <target state="translated">Der primäre Ansatz besteht darin, so viele garbage
+Auflistung der arbeiten möglichst in einem Hintergrundthread auf eine Weise, die
+mit der Ausführung des Programms nicht beeinträchtigen.</target>         
+        </trans-unit>
+        <trans-unit id="27147120-08de-4514-b24b-929400d93184" xml:space="preserve">
+          <source>The GC also exposes a few ways for
+developers to influence its behavior, which can be quite useful to
+improve performance.</source>
+          <target state="translated">Die Freispeichersammlung macht auch einige Methoden
+Entwickler, die ihr Verhalten beeinflussen, das zu Recht nützlich sein kann
+die verbessern Sie Leistung.</target>         
+        </trans-unit>
+        <trans-unit id="a04104cc-846e-4c57-b9b9-bceb15738fac" xml:space="preserve">
+          <source>For more information, see <bpt id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId1">&lt;linkText&gt;</bpt>Garbage
+Collection<ept id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId2">&lt;title&gt;</bpt><ept id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId2">&lt;/title&gt;</ept> on MSDN.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId1">&lt;linkText&gt;</bpt>Garbage
+Auflistung<ept id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId2">&lt;title&gt;</bpt><ept id="f91dbf96-51f8-42d1-bc32-e13a4c9a8d55CapsExtId2">&lt;/title&gt;</ept> auf MSDN.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="86154b29-a303-4c4f-b87b-7084d0b97625" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="86154b29-a303-4c4f-b87b-7084d0b97625" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">f2542296e372038d994cfc955d8511a2651d5f67</olfilehash>
+    </header>
+    <body>
+      <group id="192e3c49-9ee6-4d96-a71a-f58180d0b7cc">
+        <trans-unit id="9b656ca9-b7c6-47ed-9067-4805ebe96c51" xml:space="preserve">
+          <source>Title: Overview of Team Foundation Build 2015
+ms.TocTitle: Overview
+toc: show
+Parent: ./index.md
+ms.ContentId: 2F76AECB-D1A4-4E29-9956-7C7A75D89B74</source>
+          <target state="translated">Titel: Übersicht über die Team Foundation Build 2015
+MS. TocTitle: Übersicht
+Inhaltsverzeichnis: anzeigen
+Übergeordnete:./index.md
+MS. ContentId: 2F76AECB-D1A4-4E29-9956-7C7A75D89B74</target>         
+        </trans-unit>
+        <trans-unit id="544072f1-4043-4f1f-9525-6bf9d87224fe" xml:space="preserve">
+          <source>Overview of Team Foundation Build 2015 (Beta)</source>
+          <target state="translated">Übersicht über Team Foundation Build 2015 (Beta)</target>         
+        </trans-unit>
+        <trans-unit id="41bc519f-6ccc-4f10-80d6-ca63509eb0df" xml:space="preserve">
+          <source>No matter what tools you use.</source>
+          <target state="translated">Verwenden unabhängig davon, welche Tools Sie.</target>         
+        </trans-unit>
+        <trans-unit id="01f154d9-c5ba-4f22-95c8-dbfb6efc4586" xml:space="preserve">
+          <source>In whatever language you prefer.</source>
+          <target state="translated">In jeder Sprache, die Sie lieber.</target>         
+        </trans-unit>
+        <trans-unit id="d74875dd-eb4d-4439-b429-6e5a996fc59d" xml:space="preserve">
+          <source>Team Foundation Build (TFBuild) 2015 builds your app, your way, for your platforms.</source>
+          <target state="translated">Team Foundation Build (TFBuild) 2015 builds Ihrer Anwendung die Möglichkeit, für die Plattformen.</target>         
+        </trans-unit>
+        <trans-unit id="c5059c5d-2db3-4fe6-a1fd-bc5bf00c5f87" xml:space="preserve">
+          <source>Just open your web browser to tell us how you want it done.</source>
+          <target state="translated">Öffnen Sie einfach den Webbrowser, um uns mitzuteilen, wie sie ausgeführt werden sollen.</target>         
+        </trans-unit>
+        <trans-unit id="0effcc3a-ef5d-4fed-a89a-2bdc6251e198" xml:space="preserve">
+          <source>Build for your platform, speaking your language</source>
+          <target state="translated">Erstellen Sie für Ihre Plattform, Ihre Sprache zu sprechen</target>         
+        </trans-unit>
+        <trans-unit id="2ebbebcd-c16a-4732-a947-6553411b216a" xml:space="preserve">
+          <source>Build for Windows, iOS, Android, Java (Ant, Maven, or Gradle), or Linux using the same domain-specific languages (DSL) you use every day on your dev machine.</source>
+          <target state="translated">Erstellen Sie für Windows, iOS, Android, Java (Ant, Maven oder Gradle) oder Linux verwenden Sie täglich, auf dem Entwicklungscomputer verwenden die gleichen domänenspezifische Sprachen (DSL).</target>         
+        </trans-unit>
+        <trans-unit id="23b1381f-a9b0-4714-8123-063c494ae3aa" xml:space="preserve">
+          <source>We even build Xamarin apps for both iOS and Android and run tests on Xamarin's Test Cloud as part of the build.</source>
+          <target state="translated">Wir auch Xamarin-apps für iOS und Android erstellen und Ausführen von Tests als Teil des Builds auf Xamarins Test-Cloud.</target>         
+        </trans-unit>
+        <trans-unit id="90a604fc-02b8-4c78-8fbd-97aa7619e61c" xml:space="preserve">
+          <source>We intend to enable publishing the Test Cloud test results to the server so you can view them in your build summary.</source>
+          <target state="translated">Wir beabsichtigen, aktivieren die Veröffentlichung der Testergebnisse Cloud Testen auf dem Server, damit Sie in der Buildzusammenfassung angezeigt werden können.</target>         
+        </trans-unit>
+        <trans-unit id="2d2480c7-393d-45dd-a01f-07ee55b14675" xml:space="preserve">
+          <source><bpt id="8ce4b5a4-c334-473e-98f7-7f9751b3d7d3">&lt;linkText&gt;</bpt>New Image<ept id="8ce4b5a4-c334-473e-98f7-7f9751b3d7d3">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="8ce4b5a4-c334-473e-98f7-7f9751b3d7d3">&lt;linkText&gt;</bpt>Neues Bild<ept id="8ce4b5a4-c334-473e-98f7-7f9751b3d7d3">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="5bbddb0b-2c20-4b32-8b8a-a2d0504822e6" xml:space="preserve">
+          <source><bpt id="382eff00-07b4-4f98-b124-3a1763eb4d96">&lt;linkText&gt;</bpt>New Image<ept id="382eff00-07b4-4f98-b124-3a1763eb4d96">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="382eff00-07b4-4f98-b124-3a1763eb4d96">&lt;linkText&gt;</bpt>Neues Bild<ept id="382eff00-07b4-4f98-b124-3a1763eb4d96">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="ebffd02e-4f00-432d-a8e1-8be9abff099e" xml:space="preserve">
+          <source><bpt id="1a6b227c-5636-4cb2-9a82-f5f0bc8e7d31">&lt;linkText&gt;</bpt>New Image<ept id="1a6b227c-5636-4cb2-9a82-f5f0bc8e7d31">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="1a6b227c-5636-4cb2-9a82-f5f0bc8e7d31">&lt;linkText&gt;</bpt>Neues Bild<ept id="1a6b227c-5636-4cb2-9a82-f5f0bc8e7d31">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="d2d8248f-f6f6-48f7-89a0-8b7c057abe86" xml:space="preserve">
+          <source><bpt id="2b761a7f-3795-4d96-9365-f892289fdeb0">&lt;linkText&gt;</bpt>New Image<ept id="2b761a7f-3795-4d96-9365-f892289fdeb0">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="2b761a7f-3795-4d96-9365-f892289fdeb0">&lt;linkText&gt;</bpt>Neues Bild<ept id="2b761a7f-3795-4d96-9365-f892289fdeb0">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="7e42b96f-2a9d-4992-bf30-63cdd264b509" xml:space="preserve">
+          <source><bpt id="a3c8a025-cb89-4978-ba25-048835d20aac">&lt;linkText&gt;</bpt>Xplat<ept id="a3c8a025-cb89-4978-ba25-048835d20aac">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="a3c8a025-cb89-4978-ba25-048835d20aac">&lt;linkText&gt;</bpt>Plattformübergreifende<ept id="a3c8a025-cb89-4978-ba25-048835d20aac">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="5ca7960f-e5fa-4ac0-ad1a-89caf0cef0c2" xml:space="preserve">
+          <source><bpt id="f382ba3c-4822-48de-bc7d-d8728b16b1b8">&lt;linkText&gt;</bpt>BldVNext<ept id="f382ba3c-4822-48de-bc7d-d8728b16b1b8">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="f382ba3c-4822-48de-bc7d-d8728b16b1b8">&lt;linkText&gt;</bpt>BldVNext<ept id="f382ba3c-4822-48de-bc7d-d8728b16b1b8">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="b3cea35b-c7ec-47c7-ad43-7f58064f834c" xml:space="preserve">
+          <source>Easy customization</source>
+          <target state="translated">Einfache Anpassung</target>         
+        </trans-unit>
+        <trans-unit id="60f6f9b0-6566-4f54-a946-1a689dae6a82" xml:space="preserve">
+          <source>Edit in the web and leverage existing knowledge of popular script 
+languages.</source>
+          <target state="translated">Bearbeiten Sie im Web, und nutzen Sie vorhandene Kenntnisse in gängigen Skript 
+Sprachen.</target>         
+        </trans-unit>
+        <trans-unit id="eef6d30a-595d-4ac9-92cd-76d554ec46a2" xml:space="preserve">
+          <source>No need to ramp up on XAML workflow to customize the build.</source>
+          <target state="translated">Keine Notwendigkeit, informieren Sie sich über XAML-Workflow zum Anpassen von Builds.</target>         
+        </trans-unit>
+        <trans-unit id="cf58e29c-382f-45a9-9dfa-76e8baf37da4" xml:space="preserve">
+          <source><bpt id="b8270a66-76ec-49da-8b1a-ae5712df85c2">&lt;linkText&gt;</bpt>Add script tasks<ept id="b8270a66-76ec-49da-8b1a-ae5712df85c2">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="b8270a66-76ec-49da-8b1a-ae5712df85c2">&lt;linkText&gt;</bpt>Skripttasks hinzufügen<ept id="b8270a66-76ec-49da-8b1a-ae5712df85c2">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="cf504b54-3f07-461e-a8bc-a9fc90d6080f" xml:space="preserve">
+          <source>Extensible cross-platform tasks and build engine</source>
+          <target state="translated">Erweiterbare Plattform-Aufgaben und Buildmodul</target>         
+        </trans-unit>
+        <trans-unit id="302af9a6-40cd-48b7-bbb5-2a010c580ab0" xml:space="preserve">
+          <source>This web- and script-based build system works with both your <bpt id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId1">&lt;linkText&gt;</bpt>windows agents<ept id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId2">&lt;title&gt;</bpt><ept id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId2">&lt;/title&gt;</ept> and <bpt id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId1">&lt;linkText&gt;</bpt>Xplat agents (runs on Mac and Linux systems)<ept id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId1">&lt;/linkText&gt;</ept><bpt id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId2">&lt;title&gt;</bpt><ept id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId2">&lt;/title&gt;</ept> .</source>
+          <target state="translated">Diese Web und Skript-basierte System funktioniert mit beiden erstellen Ihre <bpt id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId1">&lt;linkText&gt;</bpt>Windows-Agenten<ept id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId1">&lt;/linkText&gt;</ept><bpt id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId2">&lt;title&gt;</bpt><ept id="e9b5fe3d-bd67-44cd-a0c0-c611ff900e71CapsExtId2">&lt;/title&gt;</ept> und <bpt id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId1">&lt;linkText&gt;</bpt>plattformübergreifenden Agents (Ausführung auf Mac und Linux-Systeme)<ept id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId1">&lt;/linkText&gt;</ept><bpt id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId2">&lt;title&gt;</bpt><ept id="ca1c50b8-1fe2-4f25-b7ee-06198c182a44CapsExtId2">&lt;/title&gt;</ept> .</target>         
+        </trans-unit>
+        <trans-unit id="55c2e8b9-ea8d-463b-ae46-f6567919be58" xml:space="preserve">
+          <source>The Xplat agent is <bpt id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId1">&lt;linkText&gt;</bpt>an open-source Node.js app<ept id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId2">&lt;title&gt;</bpt><ept id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">Der Agent plattformübergreifenden ist <bpt id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId1">&lt;linkText&gt;</bpt>Node.js-app eine Open-Source-<ept id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId1">&lt;/linkText&gt;</ept><bpt id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId2">&lt;title&gt;</bpt><ept id="b87defed-c1fd-4648-8af4-5b5c36f1b6c5CapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="efc33fda-488a-4199-8106-80ab073a5e3f" xml:space="preserve">
+          <source>If you need to add a task we don't currently offer, you can create
+your own activity using our <bpt id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId1">&lt;linkText&gt;</bpt>open source activities<ept id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId2">&lt;title&gt;</bpt><ept id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId2">&lt;/title&gt;</ept> 
+as examples of best practices.</source>
+          <target state="translated">Wenn Sie eine Aufgabe hinzufügen, die wir derzeit anbieten nicht müssen, können Sie erstellen.
+eigene Aktivitäten mit unserer <bpt id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId1">&lt;linkText&gt;</bpt>offene Quelle Aktivitäten<ept id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId1">&lt;/linkText&gt;</ept><bpt id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId2">&lt;title&gt;</bpt><ept id="f2a6f8cf-911d-449a-b2ae-74f7b06ce1b9CapsExtId2">&lt;/title&gt;</ept> 
+als Beispiele für bewährte Methoden.</target>         
+        </trans-unit>
+        <trans-unit id="4d5583f1-aaf8-4f4f-a4cf-2c42af561eb0" xml:space="preserve">
+          <source>Run unit tests and publish results</source>
+          <target state="translated">Ausführen von Komponententests und Veröffentlichen der Ergebnisse</target>         
+        </trans-unit>
+        <trans-unit id="d64ca254-c898-40a9-9ede-8dc23cc98605" xml:space="preserve">
+          <source>Run unit tests using just about any framework you like including NUnit, MSTest, and JUnit.</source>
+          <target state="translated">Ausführen von Komponententests, die mit jeder Framework einschließlich NUnit, MSTest und JUnit werden soll.</target>         
+        </trans-unit>
+        <trans-unit id="ef58f52c-35d2-4b28-a848-e36f1e85c327" xml:space="preserve">
+          <source>Publish test results to and include them in the build summary.</source>
+          <target state="translated">Veröffentlichen von Testergebnissen und in der Buildzusammenfassung enthalten sind.</target>         
+        </trans-unit>
+        <trans-unit id="d8febd3d-77e6-40d8-abbd-4c66070865ce" xml:space="preserve">
+          <source><bpt id="475b7496-6bdb-41a5-806d-dcdf8843904f">&lt;linkText&gt;</bpt>Publish test results<ept id="475b7496-6bdb-41a5-806d-dcdf8843904f">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="475b7496-6bdb-41a5-806d-dcdf8843904f">&lt;linkText&gt;</bpt>Veröffentlichen von Testergebnissen<ept id="475b7496-6bdb-41a5-806d-dcdf8843904f">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="7e1be3e3-87b4-4777-8291-35ee496b7cb4" xml:space="preserve">
+          <source>Real-time build status</source>
+          <target state="translated">Status des Builds in Echtzeit</target>         
+        </trans-unit>
+        <trans-unit id="b8b0b0fb-e6af-44d0-b234-0342281593b1" xml:space="preserve">
+          <source>Live console view in the web with real time status of each task.</source>
+          <target state="translated">Live-Konsolenansicht im Web mit Echtzeit-Status der einzelnen Aufgaben.</target>         
+        </trans-unit>
+        <trans-unit id="004f4711-4272-46f5-8a9d-65f05fa1c2e8" xml:space="preserve">
+          <source><bpt id="a5f9a5ac-7a6f-4de5-98f8-e7a24add2a41">&lt;linkText&gt;</bpt>History<ept id="a5f9a5ac-7a6f-4de5-98f8-e7a24add2a41">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="a5f9a5ac-7a6f-4de5-98f8-e7a24add2a41">&lt;linkText&gt;</bpt>Versionsgeschichte<ept id="a5f9a5ac-7a6f-4de5-98f8-e7a24add2a41">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="68007188-2322-44a0-b771-9d85915b8e7b" xml:space="preserve">
+          <source>We also provide real-time status and time breakdowns project by project</source>
+          <target state="translated">Wir bieten auch Echtzeitstatus und Zeit Ausfälle von Projekten</target>         
+        </trans-unit>
+        <trans-unit id="32eb95a3-3eb0-490f-b06b-74236ba05353" xml:space="preserve">
+          <source><bpt id="fdac97fd-e647-4cb3-991f-f2e8b47889a2">&lt;linkText&gt;</bpt>Timeline<ept id="fdac97fd-e647-4cb3-991f-f2e8b47889a2">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="fdac97fd-e647-4cb3-991f-f2e8b47889a2">&lt;linkText&gt;</bpt>Zeitachse<ept id="fdac97fd-e647-4cb3-991f-f2e8b47889a2">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="20d5813e-489a-4419-b236-d53b5cf4d319" xml:space="preserve">
+          <source>Definition auditing and diff</source>
+          <target state="translated">Überwachung der Definition und diff</target>         
+        </trans-unit>
+        <trans-unit id="c5e2317f-9900-40b2-be8f-1862fabb9c93" xml:space="preserve">
+          <source>Know who changed what in the build definition and when they did it.</source>
+          <target state="translated">Wissen Sie, wer was in der Builddefinition geändert hat und wann er hat.</target>         
+        </trans-unit>
+        <trans-unit id="7e84c489-1aa4-414b-8719-50b2b28b2111" xml:space="preserve">
+          <source><bpt id="ececf130-ebfa-47bc-bfc9-bde2ff232cdf">&lt;linkText&gt;</bpt>Build definition history<ept id="ececf130-ebfa-47bc-bfc9-bde2ff232cdf">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="ececf130-ebfa-47bc-bfc9-bde2ff232cdf">&lt;linkText&gt;</bpt>Verlauf der Definition erstellen<ept id="ececf130-ebfa-47bc-bfc9-bde2ff232cdf">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="f985c8b7-4344-44fa-8545-f94205ac8312" xml:space="preserve">
+          <source><bpt id="cd3e300e-b18e-4953-8cab-d464bc5174d2">&lt;linkText&gt;</bpt>Diff in build definition history<ept id="cd3e300e-b18e-4953-8cab-d464bc5174d2">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="cd3e300e-b18e-4953-8cab-d464bc5174d2">&lt;linkText&gt;</bpt>Unterschiede im Verlauf der Build-definition<ept id="cd3e300e-b18e-4953-8cab-d464bc5174d2">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="4446ac3d-b812-4316-afea-6f3f7bad561e" xml:space="preserve">
+          <source>Elastic use of self-updating resources</source>
+          <target state="translated">Flexible Verwendung von Self-Aktualisieren von Ressourcen</target>         
+        </trans-unit>
+        <trans-unit id="a8381bcb-5859-4100-8227-944edacccdfc" xml:space="preserve">
+          <source>Agents can span team project collections.</source>
+          <target state="translated">Agents können Teamprojektsammlungen erstrecken.</target>         
+        </trans-unit>
+        <trans-unit id="3100aefd-7add-422c-98bf-469c953b2afa" xml:space="preserve">
+          <source>Side-by-side installs and remote agents are xcopy (download from the web UI).</source>
+          <target state="translated">Seite-an-Seite-Installationen und remote-Agents werden mithilfe von Xcopy (Download aus dem Web-Benutzeroberfläche).</target>         
+        </trans-unit>
+        <trans-unit id="eb3b5fba-60fd-442c-a242-e5d25081c4da" xml:space="preserve">
+          <source>No need to install TFS on your build machines.</source>
+          <target state="translated">Keine Notwendigkeit zum TFS auf dem Buildcomputer installieren.</target>         
+        </trans-unit>
+        <trans-unit id="7894af16-d9e7-43a2-a3de-e38d7e2d6213" xml:space="preserve">
+          <source>You can stop running around and worrying about updating your build agents when we release a new version.</source>
+          <target state="translated">Sie können die Wege und Build-Agents aktualisieren, wenn wir eine neue Version freigeben Gedanken beenden.</target>         
+        </trans-unit>
+        <trans-unit id="92ce916f-f721-4ef7-8535-3b54e8af2943" xml:space="preserve">
+          <source>Visual Studio Online (or your on-premises Team Foundation Server) automatically distributes agent updates, leaving in place whatever capabilities (such as compilers, SDKs, or tools) you've installed on those machines.</source>
+          <target state="translated">Visual Studio Online (oder dem lokalen Team Foundation Server) automatisch Agent-Updates verteilt, verlassen an beliebige Funktionen (z. B. Compiler, SDKs oder Tools) auf diesen Computern installiert haben.</target>         
+        </trans-unit>
+        <trans-unit id="17898649-bfbc-468d-bf13-3ae87268bc8d" xml:space="preserve">
+          <source>Better control of agent routing</source>
+          <target state="translated">Eine bessere Steuerung des routing-Agents</target>         
+        </trans-unit>
+        <trans-unit id="5d570a90-a205-4667-83cc-9232529aa80e" xml:space="preserve">
+          <source>Definitions route to the right agent with capabilities needed by the definition.</source>
+          <target state="translated">Definitionen Route an den richtigen Agent mit Funktionen, die von der Definition erforderlich.</target>         
+        </trans-unit>
+        <trans-unit id="d4d0e13c-74a9-41a7-985d-1a1f09f383c1" xml:space="preserve">
+          <source><bpt id="c42b96b2-faad-4fd5-a4ed-81d6ad8b8bf8">&lt;linkText&gt;</bpt>Agent capabilities<ept id="c42b96b2-faad-4fd5-a4ed-81d6ad8b8bf8">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="c42b96b2-faad-4fd5-a4ed-81d6ad8b8bf8">&lt;linkText&gt;</bpt>Agent-Funktionen<ept id="c42b96b2-faad-4fd5-a4ed-81d6ad8b8bf8">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="7dcb7d72-566f-4ec5-8436-1edb45299df5" xml:space="preserve">
+          <source>Secret variables</source>
+          <target state="translated">Geheime Variablen</target>         
+        </trans-unit>
+        <trans-unit id="2244345e-1826-42b6-9796-7d18d97d6fa7" xml:space="preserve">
+          <source>Lock a variable to hide it from the web and store it in a strong box.</source>
+          <target state="translated">Sperren Sie eine Variable ausblenden, aus dem Web und in ein sicheres speichern.</target>         
+        </trans-unit>
+        <trans-unit id="a89df088-5dee-4693-a0e6-b274d13a7aa7" xml:space="preserve">
+          <source><bpt id="1e729c05-7b03-4c07-80d4-d441e2efa814">&lt;linkText&gt;</bpt>Secret<ept id="1e729c05-7b03-4c07-80d4-d441e2efa814">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="1e729c05-7b03-4c07-80d4-d441e2efa814">&lt;linkText&gt;</bpt>Geheimer Schlüssel<ept id="1e729c05-7b03-4c07-80d4-d441e2efa814">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="96707bfa-93bb-45f0-b788-989dcfee478c" xml:space="preserve">
+          <source>Azure continuous deployment improved</source>
+          <target state="translated">Verbesserte kontinuierliche Bereitstellung von Azure</target>         
+        </trans-unit>
+        <trans-unit id="c49f0092-80de-42b1-acc4-2c086ce0646e" xml:space="preserve">
+          <source>Publish multiple web sites and cloud services in a single build.</source>
+          <target state="translated">Veröffentlichen Sie mehrere Websites und cloud-Dienste in einem einzelnen Build.</target>         
+        </trans-unit>
+        <trans-unit id="18333dc3-8ec1-467a-83b1-37b121ff1a68" xml:space="preserve">
+          <source>You can now deploy from your on-premises Team Foundation Server to Azure (XAML builds deploy only from Visual Studio Online).</source>
+          <target state="translated">Sie können nun aus dem lokalen Team Foundation Server bereitstellen, in Azure (XAML-Builds bereitstellen nur von Visual Studio Online).</target>         
+        </trans-unit>
+        <trans-unit id="2eeb5200-57a1-4b29-abab-e9df61924979" xml:space="preserve">
+          <source><bpt id="e8c3340b-967c-4203-add0-858b055ddc6f">&lt;linkText&gt;</bpt>Azure build definition templates<ept id="e8c3340b-967c-4203-add0-858b055ddc6f">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="e8c3340b-967c-4203-add0-858b055ddc6f">&lt;linkText&gt;</bpt>Azure builddefinitionsvorlagen<ept id="e8c3340b-967c-4203-add0-858b055ddc6f">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="ab9408f6-a4f3-4f36-825a-0fec1f6e75ce" xml:space="preserve">
+          <source>CI improved</source>
+          <target state="translated">Verbesserte CI</target>         
+        </trans-unit>
+        <trans-unit id="81e1b46a-49e6-4eeb-b3d5-d8d09741fc54" xml:space="preserve">
+          <source>Monitor and track multiple branches.</source>
+          <target state="translated">Überwachen Sie und verfolgen Sie mehrere Zweige.</target>         
+        </trans-unit>
+        <trans-unit id="c720328d-ef37-4266-9aa2-0a04c54f300f" xml:space="preserve">
+          <source>Associate your builds with each branch.</source>
+          <target state="translated">Ordnen Sie die Builds jede Verzweigung.</target>         
+        </trans-unit>
+        <trans-unit id="44494bd6-f042-4bf2-8685-7640be64fdb8" xml:space="preserve">
+          <source><bpt id="246c804e-5ce6-42f2-b1df-ebdc81979054">&lt;linkText&gt;</bpt><ept id="246c804e-5ce6-42f2-b1df-ebdc81979054">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="246c804e-5ce6-42f2-b1df-ebdc81979054">&lt;linkText&gt;</bpt><ept id="246c804e-5ce6-42f2-b1df-ebdc81979054">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="a2729061-be0a-4819-bd0d-77ab51689ac3" xml:space="preserve">
+          <source>(And you can use your CI build as your nightly scheduled build too.)</source>
+          <target state="translated">(Und können Ihre CI-Build als Nächtlich geplante Builds zu.)</target>         
+        </trans-unit>
+        <trans-unit id="677ec9d9-e001-4b85-81f9-5717d6872c84" xml:space="preserve">
+          <source>Build matrix</source>
+          <target state="translated">Erstellen Sie die matrix</target>         
+        </trans-unit>
+        <trans-unit id="7af408e9-2722-4da7-b667-e46724f6540b" xml:space="preserve">
+          <source>Multiply build jobs by any set of variables.</source>
+          <target state="translated">Erstellen Sie Aufträge Multiplizieren von einer Reihe von Variablen.</target>         
+        </trans-unit>
+        <trans-unit id="796c45cc-2a4c-4c10-8f64-825ddfeaf31a" xml:space="preserve">
+          <source>Optionally run in parallel across multiple agents.</source>
+          <target state="translated">Optional für mehrere Agents parallel ausgeführt.</target>         
+        </trans-unit>
+        <trans-unit id="12ef0684-cb62-4ff5-9fc7-9824f9210dc6" xml:space="preserve">
+          <source><bpt id="6b91acca-e939-4fa7-8d01-ec853dd3eca9">&lt;linkText&gt;</bpt>Matrix<ept id="6b91acca-e939-4fa7-8d01-ec853dd3eca9">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="6b91acca-e939-4fa7-8d01-ec853dd3eca9">&lt;linkText&gt;</bpt>Matrix<ept id="6b91acca-e939-4fa7-8d01-ec853dd3eca9">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="3dd48933-6837-40bc-8c4b-e3b5a6d860b2" xml:space="preserve">
+          <source>True templates</source>
+          <target state="translated">True-Vorlagen</target>         
+        </trans-unit>
+        <trans-unit id="bbaa284b-f9ec-46d1-9ac6-23f97fa05333" xml:space="preserve">
+          <source>Most build scenarios are new definition, couple inputs, go.</source>
+          <target state="translated">Die meisten Szenarien auftreten, werden neue Definition, mehrere Eingaben, wechseln.</target>         
+        </trans-unit>
+        <trans-unit id="82dbafd5-660f-44e9-baba-823a10545aa8" xml:space="preserve">
+          <source>Save as custom templates.</source>
+          <target state="translated">Speichern Sie benutzerdefinierte Vorlagen.</target>         
+        </trans-unit>
+        <trans-unit id="41f6115f-7e83-45aa-b87b-06c39c1f6a7b" xml:space="preserve">
+          <source><bpt id="3b55624f-913d-4fe2-bf2c-4029fc862ffa">&lt;linkText&gt;</bpt>Template<ept id="3b55624f-913d-4fe2-bf2c-4029fc862ffa">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="3b55624f-913d-4fe2-bf2c-4029fc862ffa">&lt;linkText&gt;</bpt>Vorlage<ept id="3b55624f-913d-4fe2-bf2c-4029fc862ffa">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="8e48b734-24f1-4782-bac2-2385668fe75d" xml:space="preserve">
+          <source>Definition drafts</source>
+          <target state="translated">Definition Entwürfe</target>         
+        </trans-unit>
+        <trans-unit id="5559da34-ae59-409f-9198-09aadf5e3e09" xml:space="preserve">
+          <source>To test some changes that are not yet ready for production, save a draft.</source>
+          <target state="translated">Speichern Sie einen Entwurf, um Änderungen zu testen, die noch nicht für die Produktion bereit sind.</target>         
+        </trans-unit>
+        <trans-unit id="f87fbcf3-1286-453f-a196-7b988e205603" xml:space="preserve">
+          <source><bpt id="d5cc977c-969c-487a-9d92-2f2d4fbef35c">&lt;linkText&gt;</bpt>Save as a draft<ept id="d5cc977c-969c-487a-9d92-2f2d4fbef35c">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="d5cc977c-969c-487a-9d92-2f2d4fbef35c">&lt;linkText&gt;</bpt>Als Entwurf speichern<ept id="d5cc977c-969c-487a-9d92-2f2d4fbef35c">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="712c420e-5dd6-4d88-a76d-3f8fb18d058c" xml:space="preserve">
+          <source>When you're ready you can publish and keep the changes or delete them.</source>
+          <target state="translated">Nun können Sie veröffentlichen und die Änderungen beibehalten oder löschen.</target>         
+        </trans-unit>
+        <trans-unit id="cefbcd92-4ac1-4f94-850a-9824ba4f9409" xml:space="preserve">
+          <source>Clone definitions</source>
+          <target state="translated">Klonen von Definitionen</target>         
+        </trans-unit>
+        <trans-unit id="d15cb8fd-3979-4bd9-92fc-95eec8558eac" xml:space="preserve">
+          <source>Definitions can be cloned.</source>
+          <target state="translated">Definitionen können geklont werden.</target>         
+        </trans-unit>
+        <trans-unit id="c094719e-2e68-4eb6-8479-b319faed1e5f" xml:space="preserve">
+          <source><bpt id="c970f72a-280f-4912-90b3-c2f04b612a78">&lt;linkText&gt;</bpt>Draft<ept id="c970f72a-280f-4912-90b3-c2f04b612a78">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="c970f72a-280f-4912-90b3-c2f04b612a78">&lt;linkText&gt;</bpt>Entwurf<ept id="c970f72a-280f-4912-90b3-c2f04b612a78">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="65893387-dffe-4a0b-9d34-6af5b0f14fbd" xml:space="preserve">
+          <source>Q&amp;A</source>
+          <target state="translated">Fragen und Antworten</target>         
+        </trans-unit>
+        <trans-unit id="e42812c9-f30e-4cdb-a285-77d2f0c6213c" xml:space="preserve">
+          <source><bpt id="5f65a5ab-3c54-4f5c-90d8-502ac43baaf4">&lt;token href="_shared/qa-use-in-production.md"&gt;</bpt><ept id="5f65a5ab-3c54-4f5c-90d8-502ac43baaf4">&lt;/token&gt;</ept></source>
+          <target state="translated"><bpt id="5f65a5ab-3c54-4f5c-90d8-502ac43baaf4">&lt;token href="_shared/qa-use-in-production.md"&gt;</bpt><ept id="5f65a5ab-3c54-4f5c-90d8-502ac43baaf4">&lt;/token&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="65093bc0-de55-42d9-8063-b70925d23d7e" xml:space="preserve">
+          <source><bpt id="1fa37621-0260-4704-a0e3-94eb27e8401a">&lt;token href="_shared/qa-new-old-choose.md"&gt;</bpt><ept id="1fa37621-0260-4704-a0e3-94eb27e8401a">&lt;/token&gt;</ept></source>
+          <target state="translated"><bpt id="1fa37621-0260-4704-a0e3-94eb27e8401a">&lt;token href="_shared/qa-new-old-choose.md"&gt;</bpt><ept id="1fa37621-0260-4704-a0e3-94eb27e8401a">&lt;/token&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="1c841f6c-db00-4984-b2ad-df71904b90d4" xml:space="preserve">
+          <source><bpt id="001420e3-f0e0-42d0-a947-1a5273c4dd21">&lt;token href="_shared/qa-new-old-relate.md"&gt;</bpt><ept id="001420e3-f0e0-42d0-a947-1a5273c4dd21">&lt;/token&gt;</ept></source>
+          <target state="translated"><bpt id="001420e3-f0e0-42d0-a947-1a5273c4dd21">&lt;token href="_shared/qa-new-old-relate.md"&gt;</bpt><ept id="001420e3-f0e0-42d0-a947-1a5273c4dd21">&lt;/token&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="93036686-2a9d-4dbb-9215-43d77185ba9c" xml:space="preserve">
+          <source>Can I use this system to chain builds so that one process is triggered by another?</source>
+          <target state="translated">Kann dieses System Kette Builds werden verwendet, damit ein Prozess von einem anderen ausgelöst wird?</target>         
+        </trans-unit>
+        <trans-unit id="09de62e0-a698-4496-9b20-26a9b43739c2" xml:space="preserve">
+          <source>Not yet.</source>
+          <target state="translated">Noch nicht.</target>         
+        </trans-unit>
+        <trans-unit id="e3a4a260-ddff-465d-b8d9-3fac57125ae7" xml:space="preserve">
+          <source>#</source>
+          <target state="translated">#</target>         
+        </trans-unit>
+      </group>
+      <group id="0815eedb-93be-40ab-b77b-c03da82a898c" />
+    </body>
+  </file>
+</xliff>
