@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="es-es" original="foo.file" tool-id="439ca6a8-c531-483f-9b30-fc156e3a7067" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="439ca6a8-c531-483f-9b30-fc156e3a7067" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">d772ee3e60961445f6ad27f6d2e2f14678d990e1</olfilehash>
+    </header>
+    <body>
+      <group id="7bd3cd45-c543-4d75-96ef-3164d11339c0">
+        <trans-unit id="15591068-3320-490d-843e-7d9c3dd28fdf" xml:space="preserve">
+          <source>ms.ContentId: D1D4969F-52FD-43A2-982B-B531B0343D2B 
+title: Troubleshooting</source>
+          <target state="translated">MS. ContentId: D1D4969F-52FD-43A2-982B-B531B0343D2B 
+título: solución de problemas</target>         
+        </trans-unit>
+        <trans-unit id="a46ab729-a722-411d-a53a-44f25412f8fa" xml:space="preserve">
+          <source>Troubleshoot Hyper-V on Windows 10</source>
+          <target state="translated">Solución de problemas de Hyper-V en Windows 10</target>         
+        </trans-unit>
+        <trans-unit id="12594bf6-64e1-44b4-b21e-fd2cb54d7629" xml:space="preserve">
+          <source>I updated to Windows 10 and now I can't connect to my downlevel (Windows 8.1 or Server 2012 R2) host</source>
+          <target state="translated">Actualiza a Windows 10 y ahora no puedo conectarme a mi host de nivel inferior (Windows 8.1 o Server 2012 R2)</target>         
+        </trans-unit>
+        <trans-unit id="ae5d1189-6580-479b-b258-7b2ea2429c59" xml:space="preserve">
+          <source>In Windows 10, Hyper-V manager moved to WinRM for remote management.</source>
+          <target state="translated">En el 10 de Windows, Administrador de Hyper-V se mueve a WinRM para la administración remota.</target>         
+        </trans-unit>
+        <trans-unit id="4af4bd3b-4ef4-42d3-b772-19ae18639635" xml:space="preserve">
+          <source>What that means is now Remote Management has to be enabled on the remote host in order to use Hyper-V manager to manage it.</source>
+          <target state="translated">Lo que significa es ahora la administración remota debe estar habilitada en el host remoto para poder utilizar Administrador de Hyper-V para administrarlo.</target>         
+        </trans-unit>
+        <trans-unit id="54b16f47-4e09-45c2-977c-7e67cff6e1c3" xml:space="preserve">
+          <source>For more information see <g id="73b79073-a899-4b6b-8ab8-009c40182c3bCapsExtId1" ctype="x-linkText">Managing Remote Hyper-V Hosts</g><g id="73b79073-a899-4b6b-8ab8-009c40182c3bCapsExtId2" ctype="x-title" /></source>
+          <target state="translated">Para obtener más información, vea <g id="73b79073-a899-4b6b-8ab8-009c40182c3bCapsExtId1" ctype="x-linkText">administración de Hosts de Hyper-V remoto</g><g id="73b79073-a899-4b6b-8ab8-009c40182c3bCapsExtId2" ctype="x-title"></g></target>         
+        </trans-unit>
+        <trans-unit id="2719f5f6-b6ec-472a-b470-366219dd7ed1" xml:space="preserve">
+          <source>I changed the checkpoint type, but it is still taking the wrong type of checkpoint</source>
+          <target state="translated">Se ha cambiado el tipo de punto de comprobación, pero todavía tiene un tipo de punto de comprobación incorrecto</target>         
+        </trans-unit>
+        <trans-unit id="1a467f2a-3ba9-4e52-a989-19e7438d46c8" xml:space="preserve">
+          <source>If you are taking the checkpoint from VMConnect and you change the checkpoint type in Hyper-V manager the checkpoint taken be whatever checkpoint type was specified when VMConnect was opened.</source>
+          <target state="translated">Si va a llevar el punto de control de VMConnect y cambia el tipo de punto de comprobación en el Administrador de Hyper-V realizada el punto de comprobación ser cualquier tipo de punto de comprobación se especificó cuando se abrió VMConnect.</target>         
+        </trans-unit>
+        <trans-unit id="4189713f-a961-4247-b2d1-58fa7ddb6319" xml:space="preserve">
+          <source>Close VMConnect and reopen it to make it take the correct type of checkpoint.</source>
+          <target state="translated">VMConnect de cierre y vuelva a abrirlo para que tenga el tipo de punto de comprobación correcto.</target>         
+        </trans-unit>
+        <trans-unit id="242586ae-21d4-4634-932b-f43e9f62412f" xml:space="preserve">
+          <source>When I try to create a virtual hard disk on a flash drive, an error message is displayed</source>
+          <target state="translated">Cuando se intenta crear un disco duro virtual en una unidad flash, se muestra un mensaje de error</target>         
+        </trans-unit>
+        <trans-unit id="f40a49cc-aa52-4421-9023-736f38ff3c07" xml:space="preserve">
+          <source>Hyper-V does not support FAT/FAT32 formatted disk drives since these file systems do not provide access control lists (ACLs) and do not support files larger than 4GB.</source>
+          <target state="translated">Hyper-V no admite unidades de disco con formato FAT o FAT32, ya que estos sistemas de archivos no proporcionan listas de control de acceso (ACL) y no admiten archivos mayores de 4GB.</target>         
+        </trans-unit>
+        <trans-unit id="09b4665e-b615-4f16-b9d2-33847394f704" xml:space="preserve">
+          <source>ExFAT formatted disks only provide limited ACL functionality and are therefore also not supported for security reasons.</source>
+          <target state="translated">ExFAT discos formateados solo proporcionan una funcionalidad limitada ACL y, por tanto, tampoco se admiten por razones de seguridad.</target>         
+        </trans-unit>
+        <trans-unit id="3a7e50c1-6303-43ea-a6cd-d05ea806d295" xml:space="preserve">
+          <source>The error message displayed in PowerShell is "The system failed to create '\[path to VHD\]': The requested operation could not be completed due to a file system limitation (0x80070299)."</source>
+          <target state="translated">El mensaje de error mostrado en PowerShell es "no se pudo crear el sistema ' \[path a VHD\]': no se pudo completar la operación solicitada debido a una limitación del sistema de archivos (0x80070299)."</target>         
+        </trans-unit>
+        <trans-unit id="091aeb17-190b-4ba5-b609-57fb10566cdf" xml:space="preserve">
+          <source>Use a NTFS formatted drive instead.</source>
+          <target state="translated">Utilice NTFS unidad con formato en su lugar.</target>         
+        </trans-unit>
+        <trans-unit id="bed8b8e2-21ef-4f1a-84e9-0e587fabf0ec" xml:space="preserve">
+          <source>I get this message when I try to install: "Hyper-V cannot be installed: The processor does not support second level address translation (SLAT)."</source>
+          <target state="translated">Al intentar instalar aparece este mensaje: "no se puede instalar Hyper-V: el procesador no es compatible con traducción de direcciones de nivel de segundo (SLAT)."</target>         
+        </trans-unit>
+        <trans-unit id="cf06a048-53ac-461d-a586-d6c4ed2daee2" xml:space="preserve">
+          <source>Hyper-V requires SLAT in order to run virtual machines.</source>
+          <target state="translated">Hyper-V requiere LISTÓN para ejecutar máquinas virtuales.</target>         
+        </trans-unit>
+        <trans-unit id="daf9db84-232f-4d0c-8c71-bfe44e39179c" xml:space="preserve">
+          <source>If you computer does not support SLAT, then it cannot be a host for virtual mahchines.</source>
+          <target state="translated">Si el equipo no admite SLAT, no puede ser un host de virtual mahchines.</target>         
+        </trans-unit>
+        <trans-unit id="16a64c9a-387c-4b52-875d-174db271b19c" xml:space="preserve">
+          <source>If you are only trying to install the management tools, unselect <g id="cc15402d-66f3-4c56-ac9a-ee5bdb0c5bbc" ctype="x-strong">Hyper-V Platform</g> in <g id="26a6a0af-1d25-406f-a428-16b93e00d520" ctype="x-strong">Programs and Features</g> &gt; <g id="c9f3dd81-c35e-48a9-be2e-e238b8523391" ctype="x-strong">Turn Windows features on or off</g>.</source>
+          <target state="translated">Si sólo está intentando instalar las herramientas de administración, anule la selección de <g id="cc15402d-66f3-4c56-ac9a-ee5bdb0c5bbc" ctype="x-strong">plataforma Hyper-V</g> en <g id="26a6a0af-1d25-406f-a428-16b93e00d520" ctype="x-strong">programas y características</g> &gt; <g id="c9f3dd81-c35e-48a9-be2e-e238b8523391" ctype="x-strong">o desactivar las características de Windows Active</g>.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
