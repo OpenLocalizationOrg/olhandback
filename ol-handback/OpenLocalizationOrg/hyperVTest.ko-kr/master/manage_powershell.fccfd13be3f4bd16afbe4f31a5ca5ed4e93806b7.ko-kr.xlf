@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="896c419a-ad70-4bf6-8507-b5e4dda1dff4" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="896c419a-ad70-4bf6-8507-b5e4dda1dff4" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">2f9c7f95a4e72adc022197ab57bc701ad4ba9e4a</olfilehash>
+    </header>
+    <body>
+      <group id="fcdd2e68-345d-4dea-a789-f07786a32525">
+        <trans-unit id="7a647201-d9fa-4b24-9342-0dec1e607ff2" xml:space="preserve">
+          <source>ms.ContentId: d0a07897-5fd2-41a5-856d-dc8b499c6783
+title: Manage Windows Server Containers with PowerShell</source>
+          <target state="translated">ms입니다. ContentId: d0a07897-5fd2-41a5-856d-dc8b499c6783
+제목: PowerShell 사용한 Windows Server 컨테이너 관리</target>         
+        </trans-unit>
+        <trans-unit id="e7e12684-5f1e-4eec-a30d-3fe1f1b3e05d" xml:space="preserve">
+          <source>Quick Start: Windows Server Containers and PowerShell</source>
+          <target state="translated">빠른 시작: Windows Server 컨테이너 및 PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="a810a7b5-be6e-467e-a78d-3a4b01a5c332" xml:space="preserve">
+          <source>This article will walk through the fundamentals of managing Windows Server Containers with PowerShell.</source>
+          <target state="translated">이 문서 PowerShell 사용한 Windows Server 컨테이너 관리의 기초를 살펴봅니다.</target>         
+        </trans-unit>
+        <trans-unit id="f74638f5-0150-40bf-97ab-1b39bf693b95" xml:space="preserve">
+          <source>Items covered will include creating Windows Server Containers and Windows Server Container Images, removing Windows Server Containers and Container Images and finally deploying an application into a Windows Server Container.</source>
+          <target state="translated">Windows Server 컨테이너 및 Windows Server 컨테이너 이미지 만들기, Windows Server 컨테이너 및 컨테이너 이미지 제거 및 마지막으로 Windows 서버 컨테이너에 응용 프로그램을 배포 대상 항목이 포함 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="990297f6-523f-403d-92d9-30b9fb963c86" xml:space="preserve">
+          <source>The lessons learned in this walkthrough should enable you to begin exploring deployment and management of Windows Server Containers using PowerShell.</source>
+          <target state="translated">이 연습에서는 교훈을 PowerShell을 사용 하 여 Windows Server 컨테이너의 배포 및 관리를 살펴볼 때 처음 수 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="3dc6745a-579f-4e19-878e-05fa359aea6c" xml:space="preserve">
+          <source>Have questions?</source>
+          <target state="translated">궁금한 점이 있으십니까?</target>         
+        </trans-unit>
+        <trans-unit id="36f7d96d-3e17-4dd4-9e4a-cf6b986da656" xml:space="preserve">
+          <source>Ask them on the <bpt id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId1">&lt;linkText&gt;</bpt>Windows Containers forum<ept id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId1">&lt;/linkText&gt;</ept><bpt id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId2">&lt;title&gt;</bpt><ept id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">노라는 <bpt id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId1">&lt;linkText&gt;</bpt>Windows 컨테이너 포럼<ept id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId1">&lt;/linkText&gt;</ept><bpt id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId2">&lt;title&gt;</bpt><ept id="30b2f3c4-148a-4939-bcd0-7eb68153d643CapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="c0410622-2164-4390-a011-625c56ade33b" xml:space="preserve">
+          <source><bpt id="f15b3d2c-649e-4103-9a89-f5acb1514670">&lt;strong&gt;</bpt>Note:<ept id="f15b3d2c-649e-4103-9a89-f5acb1514670">&lt;/strong&gt;</ept> Windows Server Containers created with PowerShell can not currently be managed with Docker and visa versa.</source>
+          <target state="translated"><bpt id="f15b3d2c-649e-4103-9a89-f5acb1514670">&lt;strong&gt;</bpt>참고:<ept id="f15b3d2c-649e-4103-9a89-f5acb1514670">&lt;/strong&gt;</ept> PowerShell을 사용 하 여 만든 Windows Server 컨테이너 하지 현재으로 관리할 수 있는 Docker 및 visa 반대의 경우도 마찬가지입니다.</target>         
+        </trans-unit>
+        <trans-unit id="ea32ee28-78c1-4576-9ffc-179f0b9fb2bb" xml:space="preserve">
+          <source>To create containers with Docker instead, see <bpt id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId1">&lt;linkText&gt;</bpt>Quick Start: Windows Server Containers and Docker<ept id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId1">&lt;/linkText&gt;</ept><bpt id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId2">&lt;title&gt;</bpt><ept id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">대신 Docker와 컨테이너를 만들려면, 참조 <bpt id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId1">&lt;linkText&gt;</bpt>빠른 시작: Windows Server 컨테이너 및 Docker<ept id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId1">&lt;/linkText&gt;</ept><bpt id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId2">&lt;title&gt;</bpt><ept id="16a4e41a-040a-4a05-9ddc-0d2f42340b05CapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="3fd9b0e2-e22f-4a8d-b4a6-3da6d9dbfe59" xml:space="preserve">
+          <source><bpt id="c5760cb1-c59a-41c5-91a2-e2d7d925460f">&lt;html&gt;</bpt><ept id="c5760cb1-c59a-41c5-91a2-e2d7d925460f">&lt;/html&gt;</ept><bpt id="960cec36-57f2-4b08-a4e7-b2026fbbbf75">&lt;html&gt;</bpt><ept id="960cec36-57f2-4b08-a4e7-b2026fbbbf75">&lt;/html&gt;</ept> If you want to know more, <bpt id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId1">&lt;linkText&gt;</bpt>read the FAQ<ept id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId1">&lt;/linkText&gt;</ept><bpt id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId2">&lt;title&gt;</bpt><ept id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated"><bpt id="c5760cb1-c59a-41c5-91a2-e2d7d925460f">&lt;html&gt;</bpt><ept id="c5760cb1-c59a-41c5-91a2-e2d7d925460f">&lt;/html&gt;</ept><bpt id="960cec36-57f2-4b08-a4e7-b2026fbbbf75">&lt;html&gt;</bpt><ept id="960cec36-57f2-4b08-a4e7-b2026fbbbf75">&lt;/html&gt;</ept> 더 알고 싶은 경우 <bpt id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId1">&lt;linkText&gt;</bpt>FAQ를 읽으십시오.<ept id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId1">&lt;/linkText&gt;</ept><bpt id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId2">&lt;title&gt;</bpt><ept id="0453eeaa-753b-4075-88ca-4dc8f40a1884CapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="3681c511-691a-499d-aa8b-e318657f31ca" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">필수 구성 요소</target>         
+        </trans-unit>
+        <trans-unit id="5feeb517-6d33-4b40-ba61-f3fe53978307" xml:space="preserve">
+          <source>In order to complete this walkthrough the following items need to be in place.</source>
+          <target state="translated">이 연습을 완료 하기 위해 다음과 같은 항목이 마련 되어 필요 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="160025e3-b232-4ce4-a9e1-305466518702" xml:space="preserve">
+          <source>Windows Server 2016 TP3 or later configured with the Windows Server Containers Feature.</source>
+          <target state="translated">Windows Server 2016 TP3 또는 나중에 Windows Server 컨테이너 기능으로 구성 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="337ac585-daa1-4e6f-9b23-92cbecc658f5" xml:space="preserve">
+          <source>If you have completed the setup guide, this is the VM that was created in Azure or Hyper-V.</source>
+          <target state="translated">설치 가이드를 완료 한 경우 Azure 또는 Hyper-v에서 만든 VM입니다.</target>         
+        </trans-unit>
+        <trans-unit id="5905558f-2b9a-4c74-b425-ceb1ad2a156c" xml:space="preserve">
+          <source>This system must be connected to a network and able to access the internet.</source>
+          <target state="translated">이 시스템 네트워크에 연결 되어 있고 인터넷에 액세스할 수 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="a7e6c5e1-bb8e-4b9c-adc3-d88cefd4aeb2" xml:space="preserve">
+          <source>If you need to configure the container feature, see the following guides: <bpt id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId1">&lt;linkText&gt;</bpt>Container Setup in Azure<ept id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId2">&lt;title&gt;</bpt><ept id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId2">&lt;/title&gt;</ept> or <bpt id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId1">&lt;linkText&gt;</bpt>Container Setup in Hyper-V<ept id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId1">&lt;/linkText&gt;</ept><bpt id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId2">&lt;title&gt;</bpt><ept id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">컨테이너 기능을 구성 하려면 다음 가이드를 참조: <bpt id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId1">&lt;linkText&gt;</bpt>Azure에서 컨테이너 설치<ept id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId1">&lt;/linkText&gt;</ept><bpt id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId2">&lt;title&gt;</bpt><ept id="a373e51f-d211-42a3-a67e-6a92da0b4185CapsExtId2">&lt;/title&gt;</ept> 또는 <bpt id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId1">&lt;linkText&gt;</bpt>Hyper-v에서 컨테이너 설치<ept id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId1">&lt;/linkText&gt;</ept><bpt id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId2">&lt;title&gt;</bpt><ept id="de0e1cb2-7404-4c66-90b6-5821c8a8c7cdCapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="cda040e1-ec51-42c2-b40f-1415b79acf6c" xml:space="preserve">
+          <source>Basic Container Management with PowerShell</source>
+          <target state="translated">PowerShell 사용한 기본 컨테이너 관리</target>         
+        </trans-unit>
+        <trans-unit id="f1652a8e-cc5a-403b-8449-02fec4ff1409" xml:space="preserve">
+          <source>This first example will walk through the basics of creating and removing Windows Server Containers and Windows Server Container Images with PowerShell.</source>
+          <target state="translated">이 첫번째 예제에서는 생성 및 Windows Server 컨테이너 및 PowerShell 사용 하 여 Windows Server 컨테이너 이미지를 제거 하는 기본 방법을 설명 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="259ad117-22e1-4c1d-b1e5-0d795acf68c7" xml:space="preserve">
+          <source>To begin the walk through, log into your Windows Server Container Host System, you will see a Windows command prompt.</source>
+          <target state="translated">Windows Server 컨테이너 호스트 시스템에 로그 통해 워크를 시작 하려면 Windows 명령 프롬프트를 보게될 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="10f63e8c-c7ad-4d2d-b0f5-8d3e28ad8478" xml:space="preserve">
+          <source><bpt id="c23c9c9d-93ea-4de2-bb2d-064eec66ccc6">&lt;linkText&gt;</bpt><ept id="c23c9c9d-93ea-4de2-bb2d-064eec66ccc6">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="c23c9c9d-93ea-4de2-bb2d-064eec66ccc6">&lt;linkText&gt;</bpt><ept id="c23c9c9d-93ea-4de2-bb2d-064eec66ccc6">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="90388ffc-ff7b-4408-be3c-722b22e01f8f" xml:space="preserve">
+          <source>Start a PowerShell session by typing <bpt id="6b2503f9-caea-4ad2-bff1-fb915b18e604">&lt;code&gt;</bpt>powershell<ept id="6b2503f9-caea-4ad2-bff1-fb915b18e604">&lt;/code&gt;</ept>.</source>
+          <target state="translated">입력 하 여 PowerShell 세션을 시작 <bpt id="6b2503f9-caea-4ad2-bff1-fb915b18e604">&lt;code&gt;</bpt>powershell<ept id="6b2503f9-caea-4ad2-bff1-fb915b18e604">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="bed07216-00f6-402b-8a02-148c86456b70" xml:space="preserve">
+          <source>You will know that you are in a PowerShell session when the prompt changes from <bpt id="305aaa04-a4eb-4d9c-acc3-14c04bb04c75">&lt;code&gt;</bpt>C:\directory&gt;<ept id="305aaa04-a4eb-4d9c-acc3-14c04bb04c75">&lt;/code&gt;</ept> to <bpt id="9c405aaa-377d-49e3-9c8a-e38f08507ccc">&lt;code&gt;</bpt>PS C:\directory&gt;<ept id="9c405aaa-377d-49e3-9c8a-e38f08507ccc">&lt;/code&gt;</ept>.</source>
+          <target state="translated">프롬프트에서 변경 되는 경우 PowerShell 세션에 있는지 알 수 <bpt id="305aaa04-a4eb-4d9c-acc3-14c04bb04c75">&lt;code&gt;</bpt>C:\directory &gt;<ept id="305aaa04-a4eb-4d9c-acc3-14c04bb04c75">&lt;/code&gt;</ept> 를 <bpt id="9c405aaa-377d-49e3-9c8a-e38f08507ccc">&lt;code&gt;</bpt>PS C:\directory &gt;<ept id="9c405aaa-377d-49e3-9c8a-e38f08507ccc">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="693ff375-9792-42d3-8706-d0ad34a63021" xml:space="preserve">
+          <source>Use <bpt id="2d81e98a-f8ca-428a-b260-6cb74125d504">&lt;code&gt;</bpt>Get-Command<ept id="2d81e98a-f8ca-428a-b260-6cb74125d504">&lt;/code&gt;</ept> to see the available commands in the containers module</source>
+          <target state="translated">사용 하 여 <bpt id="2d81e98a-f8ca-428a-b260-6cb74125d504">&lt;code&gt;</bpt>Get-command<ept id="2d81e98a-f8ca-428a-b260-6cb74125d504">&lt;/code&gt;</ept> 컨테이너 모듈에서 사용할 수 있는 명령을 보려면</target>         
+        </trans-unit>
+        <trans-unit id="2780bd14-150b-4a52-af82-9b1b4074f1f7" xml:space="preserve">
+          <source>Next make sure that your system has a valid IP Address using <bpt id="cb78c2b5-50a0-4b28-9c42-d357796357f9">&lt;code&gt;</bpt>ipconfig<ept id="cb78c2b5-50a0-4b28-9c42-d357796357f9">&lt;/code&gt;</ept> and take note of this address for later use.</source>
+          <target state="translated">그런 다음 시스템 사용 하 여 유효한 IP 주소에 있는지를 확인 <bpt id="cb78c2b5-50a0-4b28-9c42-d357796357f9">&lt;code&gt;</bpt>ipconfig<ept id="cb78c2b5-50a0-4b28-9c42-d357796357f9">&lt;/code&gt;</ept> 및 나중에 사용할 수 있는이 주소를 기록해둡니다.</target>         
+        </trans-unit>
+        <trans-unit id="fbf4d3f7-8bb1-4edf-bfeb-36ef86ea6a45" xml:space="preserve">
+          <source>If you are working from an Azure VM instead of using <bpt id="b3ff67f2-bd4c-4bcc-9fac-4725406bc1ca">&lt;code&gt;</bpt>ipconfig<ept id="b3ff67f2-bd4c-4bcc-9fac-4725406bc1ca">&lt;/code&gt;</ept> you will need to get the public IP address of the Azure Virtual Machine.</source>
+          <target state="translated">사용 하는 대신 Azure VM에서 작업 하는 경우 <bpt id="b3ff67f2-bd4c-4bcc-9fac-4725406bc1ca">&lt;code&gt;</bpt>ipconfig<ept id="b3ff67f2-bd4c-4bcc-9fac-4725406bc1ca">&lt;/code&gt;</ept> Azure 가상 컴퓨터의 공용 IP 주소를 가져올 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="07afab64-4d3b-40bf-893d-f1ca46ea88ee" xml:space="preserve">
+          <source><bpt id="e71ebac7-7e25-4d4f-97df-eb2bc7390613">&lt;linkText&gt;</bpt><ept id="e71ebac7-7e25-4d4f-97df-eb2bc7390613">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="e71ebac7-7e25-4d4f-97df-eb2bc7390613">&lt;linkText&gt;</bpt><ept id="e71ebac7-7e25-4d4f-97df-eb2bc7390613">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="2c766b79-cf22-4d79-bd82-754b0be42efd" xml:space="preserve">
+          <source>Step 1 - Create a New Container</source>
+          <target state="translated">1 단계-새 컨테이너 만들기</target>         
+        </trans-unit>
+        <trans-unit id="ade23986-e463-4a35-98ce-3009360dad16" xml:space="preserve">
+          <source>Before creating a Windows Server Container you will need the name of a Container Image and the name of a virtual switch that will be attached to the new container.</source>
+          <target state="translated">Windows 서버 컨테이너를 만들기 전에 컨테이너 이미지의 이름 및 새 컨테이너에 연결 될 수 있는 가상 스위치의 이름이 필요 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ce547608-f09e-4093-aedf-b47c44464ae0" xml:space="preserve">
+          <source>Use the <bpt id="ea84911d-691b-4c76-a317-a1e334ea7b55">&lt;code&gt;</bpt>Get-ContainerImage<ept id="ea84911d-691b-4c76-a317-a1e334ea7b55">&lt;/code&gt;</ept> command to return a list of container images loaded on the host.</source>
+          <target state="translated">사용 하는 <bpt id="ea84911d-691b-4c76-a317-a1e334ea7b55">&lt;code&gt;</bpt>Get ContainerImage<ept id="ea84911d-691b-4c76-a317-a1e334ea7b55">&lt;/code&gt;</ept> 컨테이너 이미지 목록을 반환 하려면 명령을 호스트에 로드 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="a3b190b8-2f61-48f7-be5e-2066bf6a3cce" xml:space="preserve">
+          <source>Take note of the image name that you will use to create the container.</source>
+          <target state="translated">컨테이너를 만들려면 사용할 이미지 이름을 기록해둡니다.</target>         
+        </trans-unit>
+        <trans-unit id="8531d1b5-2562-43aa-a825-b179fe0ac16e" xml:space="preserve">
+          <source>Use the <bpt id="ee7db7f8-8f66-48db-920d-68c000e3babf">&lt;code&gt;</bpt>Get-VMSwitch<ept id="ee7db7f8-8f66-48db-920d-68c000e3babf">&lt;/code&gt;</ept> command to return a list of switches available on the host.</source>
+          <target state="translated">사용 하는 <bpt id="ee7db7f8-8f66-48db-920d-68c000e3babf">&lt;code&gt;</bpt>Get-vmswitch<ept id="ee7db7f8-8f66-48db-920d-68c000e3babf">&lt;/code&gt;</ept> 호스트에서 사용할 수 있는 스위치의 목록을 반환 하는 명령입니다.</target>         
+        </trans-unit>
+        <trans-unit id="59d3e143-b3d2-4739-9b2b-79821241a121" xml:space="preserve">
+          <source>Take note of the switch name that will be used with the container.</source>
+          <target state="translated">컨테이너와 사용 될 스위치 이름을 기록해둡니다.</target>         
+        </trans-unit>
+        <trans-unit id="7e9c9963-bec2-40bf-b8ea-85df63f58cb1" xml:space="preserve">
+          <source>Run the following command to create a container.</source>
+          <target state="translated">컨테이너를 만들려면 다음 명령을 실행 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="2c216eee-c3f2-4f05-8927-5bc5eca24722" xml:space="preserve">
+          <source>When running <bpt id="15c45a1c-f0d3-4d4e-8d3d-ab309230cb23">&lt;code&gt;</bpt>New-Container<ept id="15c45a1c-f0d3-4d4e-8d3d-ab309230cb23">&lt;/code&gt;</ept> you will name the container, specify the container image, and select the network switch to use with the container.</source>
+          <target state="translated">실행할 때 <bpt id="15c45a1c-f0d3-4d4e-8d3d-ab309230cb23">&lt;code&gt;</bpt>새 컨테이너<ept id="15c45a1c-f0d3-4d4e-8d3d-ab309230cb23">&lt;/code&gt;</ept> 컨테이너의 이름을, 컨테이너 이미지를 지정 및 컨테이너와 사용 하 여 네트워크 스위치를 선택 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="0aa6e39b-6af9-479f-a23c-63ae651590e3" xml:space="preserve">
+          <source>Notice in this example that the output is placed in a variable $container.</source>
+          <target state="translated">출력 변수 $container에에서 배치 하는이 예제에서 알 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="31a0f3de-d0ac-4894-ad2c-c772ae637ba4" xml:space="preserve">
+          <source>This will be helpful later in this exercise.</source>
+          <target state="translated">이 연습에서는 나중에 도움이 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="da78eb17-2c6b-464b-a8eb-bdc24b1b902d" xml:space="preserve">
+          <source>To see a list of containers on the host and verify that the container was created, use the <bpt id="a0d06d1f-0b1d-41ba-a5f8-87d2bd9c3812">&lt;code&gt;</bpt>Get-Container<ept id="a0d06d1f-0b1d-41ba-a5f8-87d2bd9c3812">&lt;/code&gt;</ept> command.</source>
+          <target state="translated">호스트에서 한 컨테이너 목록을 참조 하 고 컨테이너 만들어졌는지 확인 하려면 사용 된 <bpt id="a0d06d1f-0b1d-41ba-a5f8-87d2bd9c3812">&lt;code&gt;</bpt>Get 컨테이너<ept id="a0d06d1f-0b1d-41ba-a5f8-87d2bd9c3812">&lt;/code&gt;</ept> 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="90cdb093-1844-4469-b4bb-0023a1f829fa" xml:space="preserve">
+          <source>Notice that a container has been created with the name of MyContainer, however it has not been started.</source>
+          <target state="translated">시작 되지 않지만 컨테이너 MyContainer의 이름으로 만들어졌는지 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f9f7aba4-7628-4125-8e22-aeb7a3fff723" xml:space="preserve">
+          <source>To start the container, use <bpt id="ecc5d57b-1a04-4c97-bb19-c8699113fcdd">&lt;code&gt;</bpt>Start-Container<ept id="ecc5d57b-1a04-4c97-bb19-c8699113fcdd">&lt;/code&gt;</ept> proivding the name of the container.</source>
+          <target state="translated">사용 하 여 컨테이너를 시작 하려면 <bpt id="ecc5d57b-1a04-4c97-bb19-c8699113fcdd">&lt;code&gt;</bpt>시작 컨테이너<ept id="ecc5d57b-1a04-4c97-bb19-c8699113fcdd">&lt;/code&gt;</ept> proivding 컨테이너의 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="cd5b6dbb-9950-43d8-9d0f-5745c798a3db" xml:space="preserve">
+          <source>You can interact with containers using PowerShell remoting commands such as <bpt id="e475624e-cea0-459d-b726-797e6eba3cc1">&lt;code&gt;</bpt>Invoke-Command<ept id="e475624e-cea0-459d-b726-797e6eba3cc1">&lt;/code&gt;</ept>, or <bpt id="42c1704c-7960-4e45-a352-15d5dbdb5041">&lt;code&gt;</bpt>Enter-PSSession<ept id="42c1704c-7960-4e45-a352-15d5dbdb5041">&lt;/code&gt;</ept>.</source>
+          <target state="translated">컨테이너와 같은 PowerShell 원격 명령을 사용 하 여 작업할 수 있습니다 <bpt id="e475624e-cea0-459d-b726-797e6eba3cc1">&lt;code&gt;</bpt>Invoke-command<ept id="e475624e-cea0-459d-b726-797e6eba3cc1">&lt;/code&gt;</ept>, 또는 <bpt id="42c1704c-7960-4e45-a352-15d5dbdb5041">&lt;code&gt;</bpt>Enter-pssession<ept id="42c1704c-7960-4e45-a352-15d5dbdb5041">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="b4be33ca-cc30-49fb-9853-7acf96134669" xml:space="preserve">
+          <source>The example below creates a remote PowerShell session into the container using the <bpt id="0bb9549e-bbd5-4370-ac35-bf4ed6e2adba">&lt;code&gt;</bpt>Enter-PSSession<ept id="0bb9549e-bbd5-4370-ac35-bf4ed6e2adba">&lt;/code&gt;</ept> command.</source>
+          <target state="translated">아래 예제에서는 원격 PowerShell 세션을 사용 하 여 컨테이너에 만듭니다는 <bpt id="0bb9549e-bbd5-4370-ac35-bf4ed6e2adba">&lt;code&gt;</bpt>Enter-pssession<ept id="0bb9549e-bbd5-4370-ac35-bf4ed6e2adba">&lt;/code&gt;</ept> 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="0d974932-cf8c-425d-8908-d0b7fcdf1ca2" xml:space="preserve">
+          <source>This command needs the container id in order to create the remote session.</source>
+          <target state="translated">이 명령은 원격 세션을 만들 컨테이너 id이 필요 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="85c47870-0a88-46b6-96d3-dc0b441bab09" xml:space="preserve">
+          <source>The container id was stored in the <bpt id="fdb420bb-afc0-4468-8e84-f197d3fd5b50">&lt;code&gt;</bpt>$container<ept id="fdb420bb-afc0-4468-8e84-f197d3fd5b50">&lt;/code&gt;</ept> variable when the container was created.</source>
+          <target state="translated">컨테이너 id에 저장 된는 <bpt id="fdb420bb-afc0-4468-8e84-f197d3fd5b50">&lt;code&gt;</bpt>$container<ept id="fdb420bb-afc0-4468-8e84-f197d3fd5b50">&lt;/code&gt;</ept> 컨테이너를 만들 때 변수입니다.</target>         
+        </trans-unit>
+        <trans-unit id="c91b9620-13a5-4650-b50a-9279d487b7eb" xml:space="preserve">
+          <source>Notice that once the remote session has been created the command prompt will change to include the first 11 characters of the container id <bpt id="9d3e6e20-d3a6-4ad4-b876-4ec670f96b31">&lt;code&gt;</bpt>[2446380e-629]<ept id="9d3e6e20-d3a6-4ad4-b876-4ec670f96b31">&lt;/code&gt;</ept>.</source>
+          <target state="translated">원격 세션을 만든 후 명령 프롬프트를 컨테이너 id의 처음 11 문자를 포함 하도록 변경 됩니다 <bpt id="9d3e6e20-d3a6-4ad4-b876-4ec670f96b31">&lt;code&gt;</bpt>[2446380e 629]<ept id="9d3e6e20-d3a6-4ad4-b876-4ec670f96b31">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="0d019b9f-5c28-4821-b5dc-261756e7a42d" xml:space="preserve">
+          <source>A container can be managed very much like a physical or virtual machine.</source>
+          <target state="translated">컨테이너는 물리적 컴퓨터 또는 가상 컴퓨터와 같은 가장 중요 하 게 관리할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="5657ea85-0147-454e-9d2a-b7cef56bf8d8" xml:space="preserve">
+          <source>Command such as <bpt id="d663e15e-589a-458e-8531-de17349b6665">&lt;code&gt;</bpt>ipconfig<ept id="d663e15e-589a-458e-8531-de17349b6665">&lt;/code&gt;</ept> to return the IP address of the container, <bpt id="d1a15753-0b77-4800-9f0e-a1f92a19485c">&lt;code&gt;</bpt>mkdir<ept id="d1a15753-0b77-4800-9f0e-a1f92a19485c">&lt;/code&gt;</ept> to create a directory in the container and PowerShell commands like <bpt id="b860a022-2f19-4ceb-a5ec-d2b26e96480d">&lt;code&gt;</bpt>Get-ChildItem<ept id="b860a022-2f19-4ceb-a5ec-d2b26e96480d">&lt;/code&gt;</ept> all work.</source>
+          <target state="translated">와 같은 명령 <bpt id="d663e15e-589a-458e-8531-de17349b6665">&lt;code&gt;</bpt>ipconfig<ept id="d663e15e-589a-458e-8531-de17349b6665">&lt;/code&gt;</ept> 컨테이너의 IP 주소를 반환 <bpt id="d1a15753-0b77-4800-9f0e-a1f92a19485c">&lt;code&gt;</bpt>mkdir<ept id="d1a15753-0b77-4800-9f0e-a1f92a19485c">&lt;/code&gt;</ept> 컨테이너와 같은 PowerShell 명령에는 디렉터리를 만들지 <bpt id="b860a022-2f19-4ceb-a5ec-d2b26e96480d">&lt;code&gt;</bpt>Get-childitem<ept id="b860a022-2f19-4ceb-a5ec-d2b26e96480d">&lt;/code&gt;</ept> 모든 작업입니다.</target>         
+        </trans-unit>
+        <trans-unit id="f32e95dd-44df-43d5-aa30-e83c3e02917e" xml:space="preserve">
+          <source>Go ahead and make a change to the container such as creating a file or folder.</source>
+          <target state="translated">계속 해 서 하 고 파일 또는 폴더 만들기와 같은 컨테이너를 변경 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="0ef6862a-7a49-415f-a5a2-d30cf16ce642" xml:space="preserve">
+          <source>For example, the following command will create a file which contains network configuration data about the container.</source>
+          <target state="translated">예를들어, 다음 명령은 컨테이너에 대 한 네트워크 구성 데이터를 포함 하는 파일을 만들어집니다.</target>         
+        </trans-unit>
+        <trans-unit id="ddcfd65e-0665-4845-8c3e-04b66904290d" xml:space="preserve">
+          <source>You can read the contents of the file to ensure the command completed successfully.</source>
+          <target state="translated">명령이 성공적으로 완료 되도록 파일의 내용을 읽을 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="54830109-c17f-4d90-8a9c-bcadbfa223cd" xml:space="preserve">
+          <source>Notice that the IP address contained in the text file matches that of the container.</source>
+          <target state="translated">텍스트 파일에 포함 된 IP 주소는 컨테이너와 일치 하는지 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="8b380167-6236-47a2-b3a9-893f03c5eaea" xml:space="preserve">
+          <source>Now that the container has been modified, exit the remote PowerShell session.</source>
+          <target state="translated">컨테이너가 수정 했으므로 원격 PowerShell 세션을 종료 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f49c7cdf-9ac8-4a00-a80e-a38b053c8dc4" xml:space="preserve">
+          <source>Stop the container by providing the container name to the <bpt id="f8190953-ce3a-4f14-806d-df05c92e00cb">&lt;code&gt;</bpt>Stop-Container<ept id="f8190953-ce3a-4f14-806d-df05c92e00cb">&lt;/code&gt;</ept> command.</source>
+          <target state="translated">컨테이너에 컨테이너 이름을 제공 하 여 중지는 <bpt id="f8190953-ce3a-4f14-806d-df05c92e00cb">&lt;code&gt;</bpt>중지 컨테이너<ept id="f8190953-ce3a-4f14-806d-df05c92e00cb">&lt;/code&gt;</ept> 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="7218bf5d-360c-4782-8182-f39f9c2e0c91" xml:space="preserve">
+          <source>When this command has completed, you will be back in control of the container host.</source>
+          <target state="translated">이 명령을 완료 되 면 컨테이너 호스트의 컨트롤에서 다시 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="26139744-603a-491c-815b-d55678f6a793" xml:space="preserve">
+          <source>Step 2 - Create a New Container Image</source>
+          <target state="translated">2 단계-새 컨테이너 이미지 만들기</target>         
+        </trans-unit>
+        <trans-unit id="5374ac28-365a-4545-b462-c2d0c5f8d8e4" xml:space="preserve">
+          <source>An image can now be made from this container.</source>
+          <target state="translated">이미지는 이제이 컨테이너에서 수행할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="3e6b9059-796b-4951-8359-d418125c366c" xml:space="preserve">
+          <source>This image will behave like a snapshot of the container and can be re-deployed many times.</source>
+          <target state="translated">이 이미지는 컨테이너의 스냅숏을 처럼 동작 수 있으며 다시 배포 된 여러 번 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="b9226303-816d-4e56-98eb-9ed2380aca25" xml:space="preserve">
+          <source>To create a new image named 'newimage' use the <bpt id="ca194b7f-142c-4842-900f-c2cb3e1ceea8">&lt;code&gt;</bpt>New-ContainerImage<ept id="ca194b7f-142c-4842-900f-c2cb3e1ceea8">&lt;/code&gt;</ept> command.</source>
+          <target state="translated">명명 된 'newimage' 사용 새 이미지를 만들려면는 <bpt id="ca194b7f-142c-4842-900f-c2cb3e1ceea8">&lt;code&gt;</bpt>새로 ContainerImage<ept id="ca194b7f-142c-4842-900f-c2cb3e1ceea8">&lt;/code&gt;</ept> 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="15d89223-643e-4bcd-88c4-04d9928e7d27" xml:space="preserve">
+          <source>When using this command you will specify the container to capture, a name for the new image, and additional metadata as seen below.</source>
+          <target state="translated">이 명령을 사용 하는 경우에 컨테이너를 캡처, 새 이미지 및 추가 메타 데이터 보듯이 아래에 대 한 이름을 지정 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="106825d8-ff81-41eb-9235-abf1e445c31d" xml:space="preserve">
+          <source>Use <bpt id="e028f940-332b-46e3-9ec0-7db8e88ff57d">&lt;code&gt;</bpt>Get-ContainerImage<ept id="e028f940-332b-46e3-9ec0-7db8e88ff57d">&lt;/code&gt;</ept> to return a list of Container Images.</source>
+          <target state="translated">사용 하 여 <bpt id="e028f940-332b-46e3-9ec0-7db8e88ff57d">&lt;code&gt;</bpt>Get ContainerImage<ept id="e028f940-332b-46e3-9ec0-7db8e88ff57d">&lt;/code&gt;</ept> 컨테이너 이미지의 목록을 반환 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="16f82ba3-868b-427d-b1f3-24c5d1257478" xml:space="preserve">
+          <source>Notice that a new image with the name 'newimage' has been created.</source>
+          <target state="translated">'Newimage' 라는 이름의 새 이미지가 만들어졌는지 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ad1346f0-73f1-4524-8cfb-e70844d3e3cd" xml:space="preserve">
+          <source>Step 3 - Create New Container From Image</source>
+          <target state="translated">3 단계-이미지에서 새 컨테이너 만들기</target>         
+        </trans-unit>
+        <trans-unit id="97febf31-72e8-449c-89cc-dc9602d8bb87" xml:space="preserve">
+          <source>Now that you have created a customized container image, go ahead and deploy a new container from this image.</source>
+          <target state="translated">사용자 지정 된 컨테이너 이미지를 만든 했으므로 계속 진행 하 고이 이미지에서 새 컨테이너를 배포 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="a3c48061-e330-45d9-96c7-78f09e68aff6" xml:space="preserve">
+          <source>Create a container named 'newcontainer' from the container image named 'newimage', output the result to a variable named '$newcontainer'.</source>
+          <target state="translated">'$Newcontainer' 라는 변수에 결과 출력, 'newimage' 라는 컨테이너 이미지에서 ' newcontainer' 라는 컨테이너를 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="b2f9ecc0-89dd-4c99-a4a6-baa90baa2ada" xml:space="preserve">
+          <source>Start the new container.</source>
+          <target state="translated">새 컨테이너를 시작 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="db555fc9-bae4-4d54-a5b3-e8fddc347bdc" xml:space="preserve">
+          <source>Create a remote PowerShell session with the container.</source>
+          <target state="translated">컨테이너와 원격 PowerShell 세션을 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="52d7a101-01ed-4ebc-8074-f3dfb30446d3" xml:space="preserve">
+          <source>Finally notice that this new container contains the ipconfig.txt file created earlier in this exercise.</source>
+          <target state="translated">마지막으로이 연습 앞부분에서 만든 ipconfig.txt 파일이 새 컨테이너에 포함 되어있는지 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="9e53f051-3f8b-49bf-a358-5b3324b2240b" xml:space="preserve">
+          <source> Once you are done working with this container, exit the remote PowerShell session.</source>
+          <target state="translated"> 작업이 완료 되 면 원격 PowerShell 세션을 종료이 컨테이너를 사용 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="840fc495-9ade-4fef-8cbc-ddf4485c7d72" xml:space="preserve">
+          <source>This exercise has shown that an image taken from a modified container will include all modifications.</source>
+          <target state="translated">이 연습에 수정 된 컨테이너에서 가져온 이미지 모든 수정 내용이 포함 되도록 표시 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="294d67d3-8006-427c-9f20-04876701331f" xml:space="preserve">
+          <source>While the example here was a simple file modification, the same would apply if you were to install software into the container such as a web server.</source>
+          <target state="translated">다음 예제에서는 간단한 파일 수정 하는 동안 웹 서버와 같은 컨테이너에 소프트웨어를 설치 하는 경우 적용 됩니다 동일 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="107c752c-bcd5-4652-90d1-0fb7cb6e90aa" xml:space="preserve">
+          <source>Using these methods, custom images can be created that will deploy application ready containers.</source>
+          <target state="translated">이러한 메서드를 사용 하 여 사용자 지정 이미지를 만들 수 있는 준비 컨테이너 응용 프로그램을 배포 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="9055805f-36ce-4b36-a19d-5bf379a496d2" xml:space="preserve">
+          <source>Step 4 - Remove Containers and Container Images</source>
+          <target state="translated">4 단계-제거 컨테이너 및 컨테이너 이미지</target>         
+        </trans-unit>
+        <trans-unit id="d8bb3a3f-e775-4987-aba7-d9d4bb823546" xml:space="preserve">
+          <source>To stop all running containers run the command below.</source>
+          <target state="translated">중지 하려면 아래 명령을 실행 하는 모든 실행 중인 컨테이너입니다.</target>         
+        </trans-unit>
+        <trans-unit id="d91950a8-ba7d-4f37-a561-5819849d6d96" xml:space="preserve">
+          <source>If any containers are in a stopped state when you run this command, you receive a warning, which is ok.</source>
+          <target state="translated">모든 컨테이너 중지 된 상태에 있으면이 명령을 실행할 때 정상입니다. 경고를 수신 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ac5680a2-ed18-413c-90fe-769e240ff083" xml:space="preserve">
+          <source>Run the following to remove all containers.</source>
+          <target state="translated">모든 컨테이너를 제거 하려면 다음을 실행 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="3e0afd8c-4144-4750-b887-fc3c21cd91a1" xml:space="preserve">
+          <source>To remove the container image named 'newimage', run the following.</source>
+          <target state="translated">'Newimage' 라는 컨테이너 이미지를 제거 하려면 다음을 실행 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="b32edc52-04d7-462c-b374-875290864f38" xml:space="preserve">
+          <source>Host a Web Server in a Container</source>
+          <target state="translated">컨테이너에는 웹 서버 호스트</target>         
+        </trans-unit>
+        <trans-unit id="ebf88e35-a3b3-43f7-9a82-b45cbd262eff" xml:space="preserve">
+          <source>This next example will demonstrate a more practical use case for Windows Server Containers.</source>
+          <target state="translated">다음 예제에서는 Windows Server 컨테이너에 대 한 보다 효과적인 사용 사례를 설명 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="853ab4d3-8fed-4b1b-99e3-a36189980c80" xml:space="preserve">
+          <source>The steps included in this exercise will guide you through creating a web server container image that can be used for deploying web applications hosted inside of a Windows Server Container.</source>
+          <target state="translated">이 연습에서는 포함 된 단계는 Windows 서버 컨테이너 내부에서 호스팅되는 웹 응용 프로그램 배포에 대해 사용할 수 있는 웹 서버 컨테이너 이미지를 생성 하는 과정을 안내 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="5c4d269c-3fc2-40e7-b035-df28173e358f" xml:space="preserve">
+          <source>Step 1 – Create Container from the Windows Server Core OS Image</source>
+          <target state="translated">1 단계-Windows Server Core 운영 체제 이미지에서 컨테이너 만들기</target>         
+        </trans-unit>
+        <trans-unit id="91bc1e1b-c0a6-4d68-a4ce-46ef7d7e8b17" xml:space="preserve">
+          <source>To create a web server container image, you first need to deploy and start a container from the Windows Server Core OS image.</source>
+          <target state="translated">웹 서버 컨테이너 이미지를 만들려면 먼저 배포 하 고 Windows Server Core 운영 체제 이미지에서 컨테이너를 시작 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f514ed24-b162-445c-bf29-d60c22c36b35" xml:space="preserve">
+          <source>Start the container.</source>
+          <target state="translated">컨테이너를 시작 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ec58f587-8f04-411b-a286-076e6fd152c5" xml:space="preserve">
+          <source>When the container is up, create a remote PowerShell session with the container.</source>
+          <target state="translated">컨테이너가 위쪽에 있는 경우 컨테이너와 원격 PowerShell 세션을 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="abb41364-3717-4225-8de3-bc03cf41bafa" xml:space="preserve">
+          <source>Step 2 - Install Web Server Software</source>
+          <target state="translated">단계 2-웹 서버 소프트웨어 설치</target>         
+        </trans-unit>
+        <trans-unit id="8bf9fb8e-90ef-4021-adab-700aed7aa3c2" xml:space="preserve">
+          <source>The next step is to install the web server software.</source>
+          <target state="translated">다음 단계는 웹 서버 소프트웨어를 설치 하는 것입니다.</target>         
+        </trans-unit>
+        <trans-unit id="51ede1fa-ee0f-4aa1-a532-83b7b5f54d6c" xml:space="preserve">
+          <source>This example will use nginx for Windows.</source>
+          <target state="translated">이 예에서는 Windows 용 nginx를 사용 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="38ec3128-b519-4267-90c6-897874e7110b" xml:space="preserve">
+          <source>Use the following commands to automatically download and extract the nginx software to c:\nginx-1.9.3.</source>
+          <target state="translated">자동으로 다운로드 하 여 nginx 소프트웨어 c:\nginx-1.9.3 추출 하려면 다음 명령을 사용 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="3dedf317-4795-45e5-a3ae-2cf17f659784" xml:space="preserve">
+          <source><bpt id="a27a4bed-1ba1-4763-af7a-5dafa3509ba3">&lt;strong&gt;</bpt>Note<ept id="a27a4bed-1ba1-4763-af7a-5dafa3509ba3">&lt;/strong&gt;</ept> that this step will require the container host to be connected to the internet.</source>
+          <target state="translated"><bpt id="a27a4bed-1ba1-4763-af7a-5dafa3509ba3">&lt;strong&gt;</bpt>참고<ept id="a27a4bed-1ba1-4763-af7a-5dafa3509ba3">&lt;/strong&gt;</ept> 이 단계는 인터넷에 연결 되어 컨테이너 호스트를 필요 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="5638189f-c2ac-41c2-bd72-cfd7e129d9e2" xml:space="preserve">
+          <source>If this step produces a connectivity or name resolution error check the network configuration of the container host.</source>
+          <target state="translated">이 단계에서 생성 되는 경우 연결 또는 이름 확인 오류 컨테이너 호스트의 네트워크 구성을 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="92b4b9cd-d683-41ef-a7b3-e75fd1457a0b" xml:space="preserve">
+          <source>Download the nginx software.</source>
+          <target state="translated">Nginx 소프트웨어를 다운로드 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="450367ed-f2ee-4ee0-880e-25f3e6a9cdcd" xml:space="preserve">
+          <source>Extract the nginx software.</source>
+          <target state="translated">Nginx 소프트웨어를 추출 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="2c7b69ab-158e-432e-83b9-ebc8b2059dd7" xml:space="preserve">
+          <source>This is all that needs to be completed for the nginx software installation.</source>
+          <target state="translated">이 것뿐입니다 nginx 소프트웨어 설치에 대 한 완료 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="581c3f1b-4d40-4277-a5b8-7d3b7ba4e42e" xml:space="preserve">
+          <source>Exit the remote PowerShell session.</source>
+          <target state="translated">원격 PowerShell 세션을 종료 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="6b0a0de6-cf0a-4e79-a022-018fb43c840d" xml:space="preserve">
+          <source>Stop the container using the following command.</source>
+          <target state="translated">다음 명령을 사용 하 여 컨테이너를 중지 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="2fd8303f-e3d9-4425-9fdf-21b742f505dd" xml:space="preserve">
+          <source>Step 3 - Create Image from Web Server Container</source>
+          <target state="translated">3 단계-웹 서버 컨테이너에서 이미지 만들기</target>         
+        </trans-unit>
+        <trans-unit id="2a15e741-b2b9-4b43-94ae-a84b4f96dce7" xml:space="preserve">
+          <source>With the container modified to include the nginx web server software, you can now create an image from this container.</source>
+          <target state="translated">Nginx 웹 서버 소프트웨어를 포함 하도록 수정 하는 컨테이너와이 컨테이너에서 이제 이미지를 만들 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="5c4699bd-b24f-4350-884a-9c2e67bfcea6" xml:space="preserve">
+          <source>To do so, run the following command:</source>
+          <target state="translated">이렇게 하려면 다음 명령을 입력 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ca4994ff-fb76-4357-8364-699b53599dfa" xml:space="preserve">
+          <source>When completed, use the <bpt id="8a729621-6266-4fe0-996c-b2240ed40522">&lt;code&gt;</bpt>Get-ContainerImage<ept id="8a729621-6266-4fe0-996c-b2240ed40522">&lt;/code&gt;</ept> command to validate that the image has been created.</source>
+          <target state="translated">완료 되 면 사용 하는 <bpt id="8a729621-6266-4fe0-996c-b2240ed40522">&lt;code&gt;</bpt>Get ContainerImage<ept id="8a729621-6266-4fe0-996c-b2240ed40522">&lt;/code&gt;</ept> 이미지가 만들어졌는지 확인 하려면 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="7a84ac7a-0dd5-4f8c-bd4b-017d583d9945" xml:space="preserve">
+          <source>Step 4 - Deploy Web Server Ready Container</source>
+          <target state="translated">4 단계-웹 서버 준비 컨테이너를 배포 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="c7ce2de5-d8e4-42c4-a763-3325cc516f46" xml:space="preserve">
+          <source>To deploy a Windows Server Container based off of the 'nginxwindows' image, use the <bpt id="7469d543-b4cf-4c08-bdac-32bf66e7cdeb">&lt;code&gt;</bpt>New-Container<ept id="7469d543-b4cf-4c08-bdac-32bf66e7cdeb">&lt;/code&gt;</ept> PowerShell command.</source>
+          <target state="translated">'Nginxwindows' 이미지를 기반으로 Windows 서버 컨테이너를 배포 하려면 사용 된 <bpt id="7469d543-b4cf-4c08-bdac-32bf66e7cdeb">&lt;code&gt;</bpt>새 컨테이너<ept id="7469d543-b4cf-4c08-bdac-32bf66e7cdeb">&lt;/code&gt;</ept> PowerShell 명령 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="7773b584-6afc-4e8b-8cbb-40e0e10f1562" xml:space="preserve">
+          <source>Start the container.</source>
+          <target state="translated">컨테이너를 시작 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="e1f96e3d-3d5a-4d2a-8c2b-8946de81604c" xml:space="preserve">
+          <source>Create a remote PowerShell session with the new container.</source>
+          <target state="translated">새 컨테이너와 원격 PowerShell 세션을 만듭니다.</target>         
+        </trans-unit>
+        <trans-unit id="aacae01b-721d-44e1-8e03-a9a92e55b2ae" xml:space="preserve">
+          <source>Once working inside the container, the nginx web server can be started and web content staged.</source>
+          <target state="translated">Nginx 웹 서버를 시작할 수는 컨테이너 내에서 작업, 일단 및 웹 콘텐츠를 준비 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f9224ee1-0d05-47c6-8d90-836d9e7ccbbe" xml:space="preserve">
+          <source>To start the nginx web server, change to the nginx installation directory.</source>
+          <target state="translated">Nginx 웹 서버를 시작 하려면 nginx 설치 디렉터리로 변경 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="d6aba29e-32f2-4fe4-89d5-94052214ec84" xml:space="preserve">
+          <source>Start the nginx web server.</source>
+          <target state="translated">Nginx 웹 서버를 시작 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="15adec79-4d65-4011-b268-59a2b7ba28ca" xml:space="preserve">
+          <source>And exit this PS-Session.</source>
+          <target state="translated">고이 PS 세션을 종료 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f723426e-c162-410d-875b-09a1d0ee7a38" xml:space="preserve">
+          <source>The web server will keep running.</source>
+          <target state="translated">웹 서버는 계속 실행 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="ac67dd8b-f9d0-4719-9de7-4792f21df189" xml:space="preserve">
+          <source>Step 5 - Configure Container Networking</source>
+          <target state="translated">5 단계-컨테이너 네트워킹 구성</target>         
+        </trans-unit>
+        <trans-unit id="da7d7b7e-8ac7-44af-abea-fe3460633805" xml:space="preserve">
+          <source>Depending on the configuration of the container host and network, a container will either receive an IP address from a DHCP server or the container host itself using network address translation (NAT).</source>
+          <target state="translated">컨테이너 호스트와 네트워크의 구성에 따라 컨테이너 하거나 받습니다 IP 주소는 DHCP 서버 또는 컨테이너 호스트에서 네트워크 주소 변환 (NAT)를 사용 하 여 자체입니다.</target>         
+        </trans-unit>
+        <trans-unit id="134e03fa-0d35-4685-bfa7-b0b84ec19ad4" xml:space="preserve">
+          <source>This guided walk through is configured to use NAT.</source>
+          <target state="translated">과정을 따라 하면서가 안내가 제공 되는 NAT를 사용 하도록 구성 된</target>         
+        </trans-unit>
+        <trans-unit id="5889a667-d4d4-4888-8fb9-957969cc92f4" xml:space="preserve">
+          <source>In this configuration a port from the container is mapped to a port on the container host.</source>
+          <target state="translated">이 구성에서 컨테이너 내에서 포트를 포트 컨테이너 호스트에 매핑됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="e6e3fb00-de51-4bdb-ba8c-bbd42df4c048" xml:space="preserve">
+          <source>The application hosted in the container is then accessed through the IP address / name of the container host.</source>
+          <target state="translated">컨테이너에서 호스팅되는 응용 프로그램은 다음 IP 주소를 통해 액세스 / 컨테이너 호스트의 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="b2213ab3-5818-42ad-8c38-f1b5094d6992" xml:space="preserve">
+          <source>For example if port 80 from the container was mapped to port 55534 on the container host, a typical http request to the application would look like this http://contianerhost:55534.</source>
+          <target state="translated">예를들어 응용 프로그램에는 일반적인 http 요청 포트 80에서 컨테이너를 포트 55534 컨테이너 호스트에 매핑된 경우이 http://contianerhost:55534 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="8468cbb4-5e0b-4054-a6ac-ee547765e94f" xml:space="preserve">
+          <source>This allows a container host to run many containers and allow for the applications in these containers to respond to requests using the same port.</source>
+          <target state="translated">따라서 많은 컨테이너를 실행 하 고 동일한 포트를 사용 하 여 요청에 응답 하도록 이러한 컨테이너에 응용 프로그램을 허용 하는 컨테이너 호스트를 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="9b65d702-d758-41d3-8251-0ea353a6ce85" xml:space="preserve">
+          <source>For this lab we need to create this port mapping.</source>
+          <target state="translated">이 실습이 포트 매핑을 만들 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="c366eeac-8e88-4e9a-964d-7d2d8dfa68de" xml:space="preserve">
+          <source>In order to do so we will need to know the IP address of the container and the internal (application) and external (container host) ports that will be configured.</source>
+          <target state="translated">에서는 이렇게 하기 위해 컨테이너 내부 (응용 프로그램) 및 구성 될 외부 (호스트 컨테이너) 포트의 IP 주소를 알고 있어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="8248c29d-ee59-4d92-9546-fb264618c055" xml:space="preserve">
+          <source>For this example let’s keep it simple and map port 80 from the container to port 80 of the host.</source>
+          <target state="translated">이 예제에 대 한 단순하게 유지 하 고 포트 80 컨테이너에서 호스트의 포트 80 매핑할 보겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="cd4094d4-b200-434b-8a70-2dde2a830465" xml:space="preserve">
+          <source>Using the <bpt id="4a77a787-47c5-4345-9b4d-c944a5060e01">&lt;code&gt;</bpt>Add-NetNatStaticMapping<ept id="4a77a787-47c5-4345-9b4d-c944a5060e01">&lt;/code&gt;</ept> command, the <bpt id="ff12088c-b4d6-4f1e-8260-9d7b010e04bd">&lt;code&gt;</bpt>–InternalIPAddress<ept id="ff12088c-b4d6-4f1e-8260-9d7b010e04bd">&lt;/code&gt;</ept> will be the IP address of the container which for this walkthrough should be ‘172.16.0.2’.</source>
+          <target state="translated">사용 하는 <bpt id="4a77a787-47c5-4345-9b4d-c944a5060e01">&lt;code&gt;</bpt>추가 NetNatStaticMapping<ept id="4a77a787-47c5-4345-9b4d-c944a5060e01">&lt;/code&gt;</ept> 명령에는 <bpt id="ff12088c-b4d6-4f1e-8260-9d7b010e04bd">&lt;code&gt;</bpt>– InternalIPAddress<ept id="ff12088c-b4d6-4f1e-8260-9d7b010e04bd">&lt;/code&gt;</ept> 있어야 하 고이 연습에 대 한 '172.16.0.2' 컨테이너의 IP 주소가 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="b5f17652-0181-44c4-9086-b4bec01bc7f5" xml:space="preserve">
+          <source>When the port mapping has been created you will also need to configure an inbound firewall rule for the configured port.</source>
+          <target state="translated">포트 매핑 만들어지면에 구성된 된 포트에 대 한 인바운드 방화벽 규칙을 구성 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="b57cc5a0-77be-4974-8f7f-f604f1690166" xml:space="preserve">
+          <source>To do so for port 80 run the following command.</source>
+          <target state="translated">포트 80에서 다음 명령을 실행 이렇게 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="493d79b7-88b9-422a-a8b3-db71329f681b" xml:space="preserve">
+          <source>This script can be copied into the VM.</source>
+          <target state="translated">이 스크립트는 VM에 복사할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="34f04c69-f78a-477d-bdce-ed4d4d8f911a" xml:space="preserve">
+          <source>Next if you are working from Azure and have not already created a Virtual Machine endpoint you will need to create one now.</source>
+          <target state="translated">그런 다음 Azure에서 작업 하 고 가상 컴퓨터 끝점을 아직 만들지 않은 경우 지금 만듭니다 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="2c97aae8-1c23-445e-8897-981773c7390a" xml:space="preserve">
+          <source>For more information on Azure VM Endpoints see this article: <bpt id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId1">&lt;linkText&gt;</bpt>Set up Azure VM Endpoints<ept id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId2">&lt;title&gt;</bpt><ept id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">Azure VM 끝점에 대 한 자세한 내용은이 문서를 참조 하십시오: <bpt id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId1">&lt;linkText&gt;</bpt>Azure VM 끝점을 설정<ept id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId1">&lt;/linkText&gt;</ept><bpt id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId2">&lt;title&gt;</bpt><ept id="b0e9601f-879d-4196-b505-bee2ad00894bCapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="47298ea1-099f-44f3-8b52-6f2762d07ecb" xml:space="preserve">
+          <source>Step 6 – Access the Container Hosted Website</source>
+          <target state="translated">6 단계 – 컨테이너 호스팅된 웹사이트에 액세스</target>         
+        </trans-unit>
+        <trans-unit id="06474351-6f77-4904-a904-5bde1f37fbae" xml:space="preserve">
+          <source>With the web server container created, you can now checkout the application hosted in the container.</source>
+          <target state="translated">웹 서버에 만든 컨테이너와 이제 체크아웃 컨테이너에서 호스팅되는 응용 프로그램에 지정할 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="2cffc86c-49af-439c-9609-29eedd1b442c" xml:space="preserve">
+          <source>To do so, open up a browser on different machine and enter <bpt id="46cca1ea-c28f-4621-9799-892171a8715b">&lt;code&gt;</bpt>http://containerhost-ipaddress<ept id="46cca1ea-c28f-4621-9799-892171a8715b">&lt;/code&gt;</ept>.</source>
+          <target state="translated">이렇게 하려면 다른 컴퓨터에서 브라우저를 열고 입력 <bpt id="46cca1ea-c28f-4621-9799-892171a8715b">&lt;code&gt;</bpt>http://containerhost-ipaddress<ept id="46cca1ea-c28f-4621-9799-892171a8715b">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="c608e947-7ef4-41d0-9004-bb6c6feb0db3" xml:space="preserve">
+          <source>Notice here that you will be browsing to the IP Address of the Container Host and not the container itself.</source>
+          <target state="translated">컨테이너 호스트와 컨테이너 자체의 IP 주소를 검색 합니다 있습니다 여기를 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="f56be286-5508-4075-9012-847605764229" xml:space="preserve">
+          <source>If you are working from an Azure Virtual Machine this will be the public IP address or Cloud Service name.</source>
+          <target state="translated">작업 하는 경우 Azure 가상 컴퓨터에서이 됩니다 공용 IP 주소 또는 클라우드 서비스 이름입니다.</target>         
+        </trans-unit>
+        <trans-unit id="9a92b54f-651e-4edc-b8ea-60cf204a8ce4" xml:space="preserve">
+          <source>If everything has been correctly configured, you will see the nginx welcome page.</source>
+          <target state="translated">모든 항목이 올바르게 구성 되었는지, nginx 시작 페이지를 표시 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="b4d72b94-8c61-4306-b5d7-f336fb119c91" xml:space="preserve">
+          <source><bpt id="e76401f9-2229-44f4-b603-d06d57bd2a63">&lt;linkText&gt;</bpt><ept id="e76401f9-2229-44f4-b603-d06d57bd2a63">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="e76401f9-2229-44f4-b603-d06d57bd2a63">&lt;linkText&gt;</bpt><ept id="e76401f9-2229-44f4-b603-d06d57bd2a63">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="69eef696-f3c9-426d-aa59-414ff7028800" xml:space="preserve">
+          <source>At this point, feel free to update the website.</source>
+          <target state="translated">이 시점에 자유롭게 웹사이트를 업데이트 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="49ba29ea-46bf-4483-9c1d-446e84395fbf" xml:space="preserve">
+          <source>Copy in your own sample website, or use a simple ‘Hello World’ sample site that has been created for this demo.</source>
+          <target state="translated">자신의 샘플 웹사이트에서 복사 하거나 작성 된 간단한 ' Hello World' 샘플 사이트를 사용 하 여이 데모에 대 한.</target>         
+        </trans-unit>
+        <trans-unit id="1a5f8074-38d3-4e29-8c04-1fc8363a6150" xml:space="preserve">
+          <source>To use the sample you will first need to re-establish a remote PS session with the container.</source>
+          <target state="translated">예제를 사용 하려면 먼저 컨테이너와 원격 PS 세션을 다시 설정 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="56bfc97d-6390-4f7d-932e-fe08092ac5bc" xml:space="preserve">
+          <source>You will first need to re-create the remote PS session with the container.</source>
+          <target state="translated">먼저 컨테이너와 원격 PS 세션을 다시 만들 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="e46bb4c1-88f6-44e7-bf11-ca763d584a38" xml:space="preserve">
+          <source>Then run the following command to download and replace the index.html file.</source>
+          <target state="translated">다운로드 하 고 index.html 파일을 대체 하려면 다음 명령을 실행 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="a2f6965b-c1da-4456-933a-d37bcedf3fde" xml:space="preserve">
+          <source>After the website has been updated, navigate back to <bpt id="ad248562-4eb3-4533-832a-12de5f1d4e0b">&lt;code&gt;</bpt>http://containerhost-ipaddress<ept id="ad248562-4eb3-4533-832a-12de5f1d4e0b">&lt;/code&gt;</ept>.</source>
+          <target state="translated">웹사이트를 업데이트 한 후에 다시 이동 <bpt id="ad248562-4eb3-4533-832a-12de5f1d4e0b">&lt;code&gt;</bpt>http://containerhost-ipaddress<ept id="ad248562-4eb3-4533-832a-12de5f1d4e0b">&lt;/code&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="d74a430a-2136-47cf-8b47-3cf702c0e714" xml:space="preserve">
+          <source><bpt id="8f1e24b4-027f-4965-b843-c510ec660536">&lt;linkText&gt;</bpt><ept id="8f1e24b4-027f-4965-b843-c510ec660536">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="8f1e24b4-027f-4965-b843-c510ec660536">&lt;linkText&gt;</bpt><ept id="8f1e24b4-027f-4965-b843-c510ec660536">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="868b9701-529d-400e-9728-61a7af8e5361" xml:space="preserve">
+          <source>Video Walkthrough</source>
+          <target state="translated">연습 동영상을 보려면</target>         
+        </trans-unit>
+        <trans-unit id="cfedfd24-3f72-4a39-90b5-b12e1b35b72d" xml:space="preserve">
+          <source>Next Steps</source>
+          <target state="translated">다음 단계</target>         
+        </trans-unit>
+        <trans-unit id="d0c0cccb-a6aa-4cba-914e-8ed80ee9a5cd" xml:space="preserve">
+          <source>Now that you have containers set up and an introduction to the tools, go build your own containerized apps.</source>
+          <target state="translated">컨테이너를 설정 및 도구에 대 한 소개가 했으므로 색인화 앱 빌드를 이동 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="3a8625e2-a9f8-44ac-b0fa-b10c36042f0e" xml:space="preserve">
+          <source>Here is a more complete <bpt id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId1">&lt;linkText&gt;</bpt>PowerShell reference<ept id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId1">&lt;/linkText&gt;</ept><bpt id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId2">&lt;title&gt;</bpt><ept id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">다음 보다 완전은 <bpt id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId1">&lt;linkText&gt;</bpt>PowerShell 참조<ept id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId1">&lt;/linkText&gt;</ept><bpt id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId2">&lt;title&gt;</bpt><ept id="8b37e9e0-e8c7-47c7-a550-8134fb35a182CapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="2d0855bb-3666-4663-b9cb-28dd3ef6fbfe" xml:space="preserve">
+          <source>Remember, this is a <bpt id="70a1aaef-58d8-401f-a3be-c3652e798b8d">&lt;strong&gt;</bpt>preview<ept id="70a1aaef-58d8-401f-a3be-c3652e798b8d">&lt;/strong&gt;</ept> there are bugs and we have a lot of work in progress.</source>
+          <target state="translated">이 <bpt id="70a1aaef-58d8-401f-a3be-c3652e798b8d">&lt;strong&gt;</bpt>미리 보기<ept id="70a1aaef-58d8-401f-a3be-c3652e798b8d">&lt;/strong&gt;</ept> 버그 있으며 진행 중인 작업의 많은 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="69290091-c0a5-4881-87e4-b020f342b6b3" xml:space="preserve">
+          <source><bpt id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId1">&lt;linkText&gt;</bpt>This page<ept id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId1">&lt;/linkText&gt;</ept><bpt id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId2">&lt;title&gt;</bpt><ept id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId2">&lt;/title&gt;</ept> contains many of our known issues.</source>
+          <target state="translated"><bpt id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId1">&lt;linkText&gt;</bpt>이 페이지<ept id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId1">&lt;/linkText&gt;</ept><bpt id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId2">&lt;title&gt;</bpt><ept id="8a5ebcb8-cbfb-43b2-b6d0-9657ae96b8c1CapsExtId2">&lt;/title&gt;</ept> 우리의 알려진 문제의 대부분을 포함 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="17c7e447-23b8-4dfc-a6e1-ed194a25aa8d" xml:space="preserve">
+          <source>We are also monitoring the <bpt id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId1">&lt;linkText&gt;</bpt>forums<ept id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId1">&lt;/linkText&gt;</ept><bpt id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId2">&lt;title&gt;</bpt><ept id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId2">&lt;/title&gt;</ept> very closely.</source>
+          <target state="translated">모니터링 하는 우리는 또한는 <bpt id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId1">&lt;linkText&gt;</bpt>포럼<ept id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId1">&lt;/linkText&gt;</ept><bpt id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId2">&lt;title&gt;</bpt><ept id="1a2ee3c1-17d6-44e4-8b9a-67aaf6d680aeCapsExtId2">&lt;/title&gt;</ept> 매우 밀접 하 게 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="8851b919-72e8-4848-8412-8ffe5367ad96" xml:space="preserve">
+          <source>There are also pre-made samples on <bpt id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId1">&lt;linkText&gt;</bpt>GitHub<ept id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId2">&lt;title&gt;</bpt><ept id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="translated">에 미리 만들어 놓은 샘플도 있습니다 <bpt id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId1">&lt;linkText&gt;</bpt>GitHub<ept id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId2">&lt;title&gt;</bpt><ept id="9de92db8-76a1-4f76-a9dd-927d5e19c79cCapsExtId2">&lt;/title&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="c9da2ad0-2e72-4d14-aeb2-702ef3fc38ac" xml:space="preserve">
+          <source>
+<bpt id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId1">&lt;linkText&gt;</bpt>Back to Container Home<ept id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId2">&lt;title&gt;</bpt><ept id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId2">&lt;/title&gt;</ept>   
+<bpt id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId1">&lt;linkText&gt;</bpt>Known Issues for Current Release<ept id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId1">&lt;/linkText&gt;</ept><bpt id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId2">&lt;title&gt;</bpt><ept id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated">
+<bpt id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId1">&lt;linkText&gt;</bpt>컨테이너 홈으로 돌아가기<ept id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId2">&lt;title&gt;</bpt><ept id="9470a3be-d41d-4a47-937a-5b6a75bc9064CapsExtId2">&lt;/title&gt;</ept>   
+<bpt id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId1">&lt;linkText&gt;</bpt>현재 릴리스의 알려진된 문제<ept id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId1">&lt;/linkText&gt;</ept><bpt id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId2">&lt;title&gt;</bpt><ept id="dd78c1fd-c371-4e0d-98f3-05eabf136173CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

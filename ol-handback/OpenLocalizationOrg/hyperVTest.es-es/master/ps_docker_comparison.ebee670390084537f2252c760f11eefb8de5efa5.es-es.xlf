@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="es-es" original="foo.file" tool-id="399dc7f1-80c5-4f47-a0d9-6883dfc1f792" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="399dc7f1-80c5-4f47-a0d9-6883dfc1f792" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">4afb6a5af36a8ec55d1f0038a7a40ac758a892e8</olfilehash>
+    </header>
+    <body>
+      <group id="4562f16d-0d3f-41d6-b2a0-61e9494cafc1">
+        <trans-unit id="598ab084-b137-41ae-9944-d3b9d419838d" xml:space="preserve">
+          <source>ms.ContentId: 4981828d-1a08-4d8c-a99d-874a926a153f
+title: PowerShell to Docker Comparison</source>
+          <target state="translated">MS. ContentId: 4981828d-1a08-4d8c-a99d-874a926a153f
+título: PowerShell para comparación Docker</target>         
+        </trans-unit>
+        <trans-unit id="6a655937-27d3-4802-9d09-b61dfe7abf88" xml:space="preserve">
+          <source>PowerShell to Docker comparison for managing Windows Server Containers</source>
+          <target state="translated">Comparación de Docker para administrar contenedores de servidores de Windows PowerShell</target>         
+        </trans-unit>
+        <trans-unit id="99ce3a9a-7ece-4dc6-879f-c79517c620a4" xml:space="preserve">
+          <source>Updating contents on 27-Oct for testing, ver2.</source>
+          <target state="translated">Actualizar contenido en el 27 de octubre para pruebas, ver2.</target>         
+        </trans-unit>
+        <trans-unit id="ace77c4d-e5b5-4cf3-8c42-df4bb04a379d" xml:space="preserve">
+          <source>There are many ways to manage Windows Server Containers using both in-box Windows tools (PowerShell, in this preview) and Open Source management tools such as Docker.</source>
+          <target state="translated">Hay muchas maneras de administrar contenedores de Windows Server con herramientas de Windows en el equipo (en esta versión preliminar, PowerShell) y herramientas de administración de código abierto como Docker.</target>         
+        </trans-unit>
+        <trans-unit id="4886ff3a-376c-4566-a274-fa2cc4834cb4" xml:space="preserve">
+          <source>Guides outlining both individually available here:</source>
+          <target state="translated">Guías de esquematización individualmente disponibles aquí:</target>         
+        </trans-unit>
+        <trans-unit id="e7e5ee8d-37a5-40d1-9d10-3bed8509dcc8" xml:space="preserve">
+          <source><g id="73c50499-9d65-4e27-adfc-a10546869e23CapsExtId1" ctype="x-linkText">Manage Windows Server Containers with Docker</g><g id="73c50499-9d65-4e27-adfc-a10546869e23CapsExtId2" ctype="x-title" /></source>
+          <target state="translated"><g id="73c50499-9d65-4e27-adfc-a10546869e23CapsExtId1" ctype="x-linkText">Administrar contenedores de Windows Server con Docker</g><g id="73c50499-9d65-4e27-adfc-a10546869e23CapsExtId2" ctype="x-title"></g></target>         
+        </trans-unit>
+        <trans-unit id="64d076d6-f76b-4c73-a72e-742e541008cf" xml:space="preserve">
+          <source><g id="ec013f98-7928-4f72-993e-6c157e2d0577CapsExtId1" ctype="x-linkText">Manage Windows Server Containers with PowerShell</g><g id="ec013f98-7928-4f72-993e-6c157e2d0577CapsExtId2" ctype="x-title" /></source>
+          <target state="translated"><g id="ec013f98-7928-4f72-993e-6c157e2d0577CapsExtId1" ctype="x-linkText">Administrar contenedores de servidor de Windows con PowerShell</g><g id="ec013f98-7928-4f72-993e-6c157e2d0577CapsExtId2" ctype="x-title"></g></target>         
+        </trans-unit>
+        <trans-unit id="6fc0462e-5207-4bc6-ba64-cfba726627f8" xml:space="preserve">
+          <source>This page is a more in depth reference comparing the Docker tools and PowerShell management tools.</source>
+          <target state="translated">Esta página es ampliar la comparación de las herramientas de Docker y herramientas de administración de PowerShell de referencia de profundidad.</target>         
+        </trans-unit>
+        <trans-unit id="515a3146-89d3-44d2-8ea3-fa19fc4b6cf6" xml:space="preserve">
+          <source>PowerShell for containers versus Hyper-V VMs</source>
+          <target state="translated">PowerShell para contenedores frente a las máquinas virtuales de Hyper-V</target>         
+        </trans-unit>
+        <trans-unit id="807a95db-83d1-4fba-b5c0-74359721eb7e" xml:space="preserve">
+          <source>You can create, run, and interact with Windows Server Containers using PowerShell cmdlets.</source>
+          <target state="translated">Puede crear, ejecutar e interactuar con Windows Server contenedores mediante cmdlets de PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="eb00a60a-2ecf-47cd-aa6f-4c06a5fa6d9d" xml:space="preserve">
+          <source>Everything you need to get going is available in-box.</source>
+          <target state="translated">Todo lo que necesita para empezar a trabajar está disponible en el equipo.</target>         
+        </trans-unit>
+        <trans-unit id="efbfc0ba-3814-4445-8e3a-652dcbfb67aa" xml:space="preserve">
+          <source>If you’ve used Hyper-V PowerShell, the design of the cmdlets should be pretty familiar to you.</source>
+          <target state="translated">Si ha usado PowerShell de Hyper-V, el diseño de los cmdlets debe ser bastante familiar.</target>         
+        </trans-unit>
+        <trans-unit id="37e2af8c-8994-4221-aa9b-7b9c1de10108" xml:space="preserve">
+          <source>A lot of the workflow is similar to how you’d manage a virtual machine using the Hyper-V module.</source>
+          <target state="translated">Una gran parte del flujo de trabajo es similar a cómo se podría administrar una máquina virtual mediante el módulo de Hyper-V.</target>         
+        </trans-unit>
+        <trans-unit id="c232c2da-601f-498f-849d-1bb741b9b67d" xml:space="preserve">
+          <source>Instead of <g id="b6f725e3-e5ea-45de-bfa1-53fe5ef4effa" ctype="x-code">New-VM</g>, <g id="c7f3ced7-00a5-4c67-8fb3-8586469d4b50" ctype="x-code">Get-VM</g>, <g id="f9b945e1-e0cd-436b-8bbe-a656096b1d7e" ctype="x-code">Start-VM</g>, <g id="0a42a87b-ed73-44bb-b828-a5a7c94c440c" ctype="x-code">Stop-VM</g>, you have <g id="91e20bda-08d5-4f62-948e-b9fc0131849b" ctype="x-code">New-Container</g>, <g id="c1eb5ba3-4a57-414c-9d7b-99a37228b4d6" ctype="x-code">Get-Container</g>, <g id="76987b14-6de2-4c69-8168-f6071d336b35" ctype="x-code">Start-Container</g>, <g id="befbcf72-cb9b-4f49-b756-edcb2617279f" ctype="x-code">Stop-Container</g>.</source>
+          <target state="translated">En lugar de <g id="b6f725e3-e5ea-45de-bfa1-53fe5ef4effa" ctype="x-code">New-VM</g>, <g id="c7f3ced7-00a5-4c67-8fb3-8586469d4b50" ctype="x-code">Get-VM</g>, <g id="f9b945e1-e0cd-436b-8bbe-a656096b1d7e" ctype="x-code">Start-VM</g>, <g id="0a42a87b-ed73-44bb-b828-a5a7c94c440c" ctype="x-code">Stop-VM</g>, tiene <g id="91e20bda-08d5-4f62-948e-b9fc0131849b" ctype="x-code">nuevo contenedor</g>, <g id="c1eb5ba3-4a57-414c-9d7b-99a37228b4d6" ctype="x-code">Get Container</g>, <g id="76987b14-6de2-4c69-8168-f6071d336b35" ctype="x-code">Inicio contenedor</g>, <g id="befbcf72-cb9b-4f49-b756-edcb2617279f" ctype="x-code">Stop contenedor</g>.</target>         
+        </trans-unit>
+        <trans-unit id="c161502d-fbc7-4d96-9683-f4f2c77d7318" xml:space="preserve">
+          <source>There are quite a few container-specific cmdlets and parameters, but the general lifecycle and management of a Windows container looks roughly like that of a Hyper-V VM.</source>
+          <target state="translated">Hay bastantes cmdlets específicos del contenedor y los parámetros, pero el ciclo de vida general y administración de un contenedor de Windows es más o menos como el de una máquina virtual de Hyper-V.</target>         
+        </trans-unit>
+        <trans-unit id="7d288808-b16b-4beb-9bcd-457182274422" xml:space="preserve">
+          <source>How does PowerShell management compare to Docker?</source>
+          <target state="translated">¿Cómo se comparan la administración de PowerShell con Docker?</target>         
+        </trans-unit>
+        <trans-unit id="3bc3d8e2-1533-41a8-a614-ddb9f49089d9" xml:space="preserve">
+          <source>The Containers PowerShell cmdlets expose an API that isn’t quite the same as Docker's; as a general rule, the cmdlets are more granular in operation.</source>
+          <target state="translated">Los cmdlets de PowerShell de contenedores exponer una API que no es exactamente lo mismo que Docker; como regla general, los cmdlets son más granulares en operación.</target>         
+        </trans-unit>
+        <trans-unit id="d4cce11a-4f35-48c0-977c-b26472e9883e" xml:space="preserve">
+          <source>Some Docker commands have pretty straightforward parallels in PowerShell:</source>
+          <target state="translated">Algunos comandos Docker tengan bastante sencillos paralelos en PowerShell:</target>         
+        </trans-unit>
+        <trans-unit id="d20f42da-c50a-4f69-b2c2-53bfd6401100" xml:space="preserve">
+          <source>Docker command</source>
+          <target state="translated">Comando docker</target>         
+        </trans-unit>
+        <trans-unit id="fb9e3ce7-8be7-4be6-b4d4-fea94091f23e" xml:space="preserve">
+          <source>PowerShell Cmdlet</source>
+          <target state="translated">PowerShell Cmdlet</target>         
+        </trans-unit>
+        <trans-unit id="966841d0-36e9-446f-9259-7b9e5aec74ae" xml:space="preserve">
+          <source><g id="11858176-e7a8-40b4-a8a3-3a049a0b994d" ctype="x-code">docker ps -a</g></source>
+          <target state="translated"><g id="11858176-e7a8-40b4-a8a3-3a049a0b994d" ctype="x-code">docker ps - a</g></target>         
+        </trans-unit>
+        <trans-unit id="d96bb86d-470f-4d74-afac-1d24ce91a1b5" xml:space="preserve">
+          <source><g id="019baa5a-b63e-4328-a429-4aa52817af46" ctype="x-code">Get-Container</g></source>
+          <target state="translated"><g id="019baa5a-b63e-4328-a429-4aa52817af46" ctype="x-code">Get-Container</g></target>         
+        </trans-unit>
+        <trans-unit id="0563199b-8342-4960-8cde-801cdab2281e" xml:space="preserve">
+          <source><g id="a9ef4bd6-866f-49e0-a884-cbd45a0cd74f" ctype="x-code">docker images</g></source>
+          <target state="translated"><g id="a9ef4bd6-866f-49e0-a884-cbd45a0cd74f" ctype="x-code">imágenes docker</g></target>         
+        </trans-unit>
+        <trans-unit id="3857abaa-3887-4ad8-8c15-12033644ddbe" xml:space="preserve">
+          <source><g id="8550f186-4f4b-4947-a6fd-fe139cf2d0c6" ctype="x-code">Get-ContainerImage</g></source>
+          <target state="translated"><g id="8550f186-4f4b-4947-a6fd-fe139cf2d0c6" ctype="x-code">Get-ContainerImage</g></target>         
+        </trans-unit>
+        <trans-unit id="1ed2f24c-a366-4485-8d84-d5670266112f" xml:space="preserve">
+          <source><g id="2ce64bfe-e95f-4a22-a02a-84b91d3487c0" ctype="x-code">docker rm</g></source>
+          <target state="translated"><g id="2ce64bfe-e95f-4a22-a02a-84b91d3487c0" ctype="x-code">rm docker</g></target>         
+        </trans-unit>
+        <trans-unit id="cc53cc90-0e27-41ba-aa8f-8c3b79abb10e" xml:space="preserve">
+          <source><g id="effd6f72-6750-4a7c-85f1-e3952d320aa2" ctype="x-code">Remove-Container</g></source>
+          <target state="translated"><g id="effd6f72-6750-4a7c-85f1-e3952d320aa2" ctype="x-code">Quitar contenedores</g></target>         
+        </trans-unit>
+        <trans-unit id="602610aa-4ac6-48f9-9e3d-c6d409023607" xml:space="preserve">
+          <source><g id="e4073cd3-3928-4bd5-b2c1-c9fcbdbb9851" ctype="x-code">docker rmi</g></source>
+          <target state="translated"><g id="e4073cd3-3928-4bd5-b2c1-c9fcbdbb9851" ctype="x-code">rmi docker</g></target>         
+        </trans-unit>
+        <trans-unit id="6d9256af-926c-4b79-b28f-31c9df14f12a" xml:space="preserve">
+          <source><g id="393891d5-c6fd-463a-9cc7-fc89e97686c5" ctype="x-code">Remove-ContainerImage</g></source>
+          <target state="translated"><g id="393891d5-c6fd-463a-9cc7-fc89e97686c5" ctype="x-code">Quitar ContainerImage</g></target>         
+        </trans-unit>
+        <trans-unit id="da4bf95f-042e-4532-95a2-fa8377f34653" xml:space="preserve">
+          <source><g id="d84e8c9d-9148-4dc2-bd25-4feaf0f9da7b" ctype="x-code">docker create</g></source>
+          <target state="translated"><g id="d84e8c9d-9148-4dc2-bd25-4feaf0f9da7b" ctype="x-code">crear docker</g></target>         
+        </trans-unit>
+        <trans-unit id="8db77253-850d-4c4c-947e-479311683413" xml:space="preserve">
+          <source><g id="3515f8e9-9833-407d-aa29-129f75ab3f66" ctype="x-code">New-Container</g></source>
+          <target state="translated"><g id="3515f8e9-9833-407d-aa29-129f75ab3f66" ctype="x-code">Nuevo contenedor</g></target>         
+        </trans-unit>
+        <trans-unit id="cdf38c80-fe0d-4853-8570-a90b965c88a1" xml:space="preserve">
+          <source><g id="c0883de6-3a75-4f73-9e3d-b5fc6c7ed4d9" ctype="x-code">docker commit &lt;container ID&gt;</g></source>
+          <target state="translated"><g id="c0883de6-3a75-4f73-9e3d-b5fc6c7ed4d9" ctype="x-code">confirmación de docker &lt; Id. de contenedor &gt;</g></target>         
+        </trans-unit>
+        <trans-unit id="32948afe-c63a-49eb-8b18-ada7481d42d6" xml:space="preserve">
+          <source><g id="76daaa83-d330-466d-a2ea-d61acfd6aaef" ctype="x-code">New-ContainerImage -Container &lt;container&gt;</g></source>
+          <target state="translated"><g id="76daaa83-d330-466d-a2ea-d61acfd6aaef" ctype="x-code">Nueva ContainerImage-contenedor &lt; contenedor &gt;</g></target>         
+        </trans-unit>
+        <trans-unit id="7e154276-1b17-41f5-a1c2-429691e5642c" xml:space="preserve">
+          <source><g id="f8ae7a90-dfc1-492f-8f6a-f904ecb348de" ctype="x-code">docker load &lt;tarball&gt;</g></source>
+          <target state="translated"><g id="f8ae7a90-dfc1-492f-8f6a-f904ecb348de" ctype="x-code">carga docker &lt; tarball &gt;</g></target>         
+        </trans-unit>
+        <trans-unit id="16dd4d67-446b-4172-8c71-2a91911a5196" xml:space="preserve">
+          <source><g id="79b7cd3d-d9c0-4fdb-bb2a-e80cb8f9ad20" ctype="x-code">Import-ContainerImage &lt;AppX package&gt;</g></source>
+          <target state="translated"><g id="79b7cd3d-d9c0-4fdb-bb2a-e80cb8f9ad20" ctype="x-code">Importación-ContainerImage &lt; paquete AppX &gt;</g></target>         
+        </trans-unit>
+        <trans-unit id="4d54f523-6622-4c91-9978-8dbff768484a" xml:space="preserve">
+          <source><g id="6fa6a633-578a-4ecd-a168-ce0308142c54" ctype="x-code">docker save</g></source>
+          <target state="translated"><g id="6fa6a633-578a-4ecd-a168-ce0308142c54" ctype="x-code">docker guardar</g></target>         
+        </trans-unit>
+        <trans-unit id="804f4b8a-ba46-40b0-946b-aede86797019" xml:space="preserve">
+          <source><g id="c306911c-0b5d-4690-801c-dddd5c3a4402" ctype="x-code">Export-ContainerImage</g></source>
+          <target state="translated"><g id="c306911c-0b5d-4690-801c-dddd5c3a4402" ctype="x-code">ContainerImage de exportación</g></target>         
+        </trans-unit>
+        <trans-unit id="e8a54dde-9c94-4a3d-9863-e8b5b76756d6" xml:space="preserve">
+          <source><g id="832ebe0b-8809-4a17-9c4a-5698d0c1c440" ctype="x-code">docker start</g></source>
+          <target state="translated"><g id="832ebe0b-8809-4a17-9c4a-5698d0c1c440" ctype="x-code">inicio de docker</g></target>         
+        </trans-unit>
+        <trans-unit id="9169d9fb-bcf5-4df0-95fd-ce648f623461" xml:space="preserve">
+          <source><g id="5e1c094e-81cc-4ebb-b706-a5d298b74ca7" ctype="x-code">Start-Container</g></source>
+          <target state="translated"><g id="5e1c094e-81cc-4ebb-b706-a5d298b74ca7" ctype="x-code">Contenedor de inicio</g></target>         
+        </trans-unit>
+        <trans-unit id="8e6e6588-834a-4397-aa98-c722a5e30631" xml:space="preserve">
+          <source><g id="10bab149-2659-4f98-babd-5bff8de0f74a" ctype="x-code">docker stop</g></source>
+          <target state="translated"><g id="10bab149-2659-4f98-babd-5bff8de0f74a" ctype="x-code">Detener docker</g></target>         
+        </trans-unit>
+        <trans-unit id="cbcc1de3-8bda-4ea4-8698-301a52f2abb8" xml:space="preserve">
+          <source><g id="a07655c0-2f24-464b-9120-19baffb0220b" ctype="x-code">Stop-Container</g></source>
+          <target state="translated"><g id="a07655c0-2f24-464b-9120-19baffb0220b" ctype="x-code">Contenedor de detención</g></target>         
+        </trans-unit>
+        <trans-unit id="7486aa0e-3315-4222-97a5-3db284d9a0c0" xml:space="preserve">
+          <source>The PowerShell cmdlets are not an exact perfect parity, and there are a fair number of commands that we’re not providing PowerShell replacements for* (notably <g id="5043c21f-0b58-47c6-8612-38e9d9ecd56d" ctype="x-code">docker build</g> and <g id="c20d9d8d-d472-415b-b50e-2884ba20d7b2" ctype="x-code">docker cp</g>).</source>
+          <target state="translated">Los cmdlets de PowerShell no son una paridad perfecto exacta y hay un número razonable de comandos que no estamos proporcionando reemplazos de PowerShell para * (en particular <g id="5043c21f-0b58-47c6-8612-38e9d9ecd56d" ctype="x-code">compilación docker</g> y <g id="c20d9d8d-d472-415b-b50e-2884ba20d7b2" ctype="x-code">docker cp</g>).</target>         
+        </trans-unit>
+        <trans-unit id="c001bb92-5293-4ae6-8812-52918c76b847" xml:space="preserve">
+          <source>But what might leap out at you is that there’s no single one-line replacement for <g id="453bcf7e-9eec-4d18-a511-8b64b7e47a08" ctype="x-code">docker run</g>.</source>
+          <target state="translated">Pero ¿qué puede llamarle la atención es que no hay ningún sustituto de una línea única de <g id="453bcf7e-9eec-4d18-a511-8b64b7e47a08" ctype="x-code">docker ejecutar</g>.</target>         
+        </trans-unit>
+        <trans-unit id="525cafdd-d933-4307-9b15-cb80843ce9a4" xml:space="preserve">
+          <source>\* Subject to change.</source>
+          <target state="translated">\ * Sujeta a cambios.</target>         
+        </trans-unit>
+        <trans-unit id="65cc80a6-13e6-423c-a07b-1e20893515d0" xml:space="preserve">
+          <source>But I need docker run! What’s going on?</source>
+          <target state="translated">Pero necesito docker ejecutar! ¿Qué está ocurriendo?</target>         
+        </trans-unit>
+        <trans-unit id="ebce9ecf-e700-4b78-a871-47a2502ec787" xml:space="preserve">
+          <source>We’re doing a couple things here to provide a slightly more familiar interaction model for users who know their way around PowerShell already.</source>
+          <target state="translated">Estamos haciendo un par de cosas aquí para proporcionar un modelo de interacción ligeramente más familiar para los usuarios que conocen bien PowerShell ya.</target>         
+        </trans-unit>
+        <trans-unit id="7ccea7c3-9af6-4237-b35a-5667ed291d6b" xml:space="preserve">
+          <source>Of course, if you’re used to the way docker operates, this will be a bit of a mental shift.</source>
+          <target state="translated">Por supuesto, si está acostumbrado a la manera en que opera docker, se trata de un poco de un cambio mental.</target>         
+        </trans-unit>
+        <trans-unit id="51ae1767-87f2-497a-935c-55c3cad84f6b" xml:space="preserve">
+          <source>The lifecycle of a container in the PowerShell model is slightly different.</source>
+          <target state="translated">El ciclo de vida de un contenedor en el modelo de PowerShell es ligeramente diferente.</target>         
+        </trans-unit>
+        <trans-unit id="b99592fc-d51d-4b40-b210-f0e5f5c66f95" xml:space="preserve">
+          <source>In the Containers PowerShell module, we expose the more granular operations of <g id="a2554f1d-5240-4b29-8d8c-f09074e8a53b" ctype="x-code">New-Container</g> (which creates a new container that’s stopped) and <g id="b970640a-b138-4665-8020-d159e9f00c74" ctype="x-code">Start-Container</g>.</source>
+          <target state="translated">En el módulo de PowerShell de contenedores, exponemos las operaciones más granulares de <g id="a2554f1d-5240-4b29-8d8c-f09074e8a53b" ctype="x-code">nuevo contenedor</g> (que crea un nuevo contenedor detenido) y <g id="b970640a-b138-4665-8020-d159e9f00c74" ctype="x-code">Inicio contenedor</g>.</target>         
+        </trans-unit>
+        <trans-unit id="560b8ebb-4bc8-43b5-b908-bddb80ea982e" xml:space="preserve">
+          <source>In between creating and starting the container, you can also configure the container’s settings; for TP3, the only other configuration we’re planning to expose is the ability to set the network connection for the container.</source>
+          <target state="translated">Entre crear e iniciar el contenedor, también puede configurar la configuración del contenedor; para TP3, la otra configuración que estamos planeando exponer es la capacidad para establecer la conexión de red para el contenedor.</target>         
+        </trans-unit>
+        <trans-unit id="0f181e6a-eca1-4c6b-9ed7-fef295ea1dd8" xml:space="preserve">
+          <source>using the (Add/Remove/Connect/Disconnect/Get/Set)-ContainerNetworkAdapter cmdlets.</source>
+          <target state="translated">mediante el (Agregar/quitar/conectar/desconectar/Get/Set)-ContainerNetworkAdapter cmdlets.</target>         
+        </trans-unit>
+        <trans-unit id="6ae0ead3-ef8c-473e-a8ed-197c4412bddc" xml:space="preserve">
+          <source>You can’t currently pass a command to be run inside the container on start. However, you can still get an interactive PowerShell session to a running container using <g id="cc41f26f-60bd-4948-8145-6b921164f42d" ctype="x-code">Enter-PSSession -ContainerId &lt;ID of a running container&gt;</g>, and you can execute a command inside a running container using <g id="8b08e1e4-a5bf-400b-9c05-d3920a95542d" ctype="x-code">Invoke-Command -ContainerId &lt;container id&gt; -ScriptBlock { code to run inside the container }</g> or <g id="65f32128-73ee-4b76-8c3f-d8cf90d3eac6" ctype="x-code">Invoke-Command -ContainerId &lt;container id&gt; -FilePath &lt;path to script&gt;</g>.  
+Both of these commands allow the optional <g id="c2ebf343-b4c2-44c4-b589-267198e77937" ctype="x-code">-RunAsAdministrator</g> flag for high privilige actions.</source>
+          <target state="translated">Actualmente no se puede pasar un comando para ejecutarlo dentro del contenedor en el inicio. Sin embargo, puede obtener una sesión de PowerShell interactiva en un contenedor mediante ejecución <g id="cc41f26f-60bd-4948-8145-6b921164f42d" ctype="x-code">Enter-PSSession - valor de ContainerId &lt; identificador de un contenedor de ejecución &gt;</g>, y se puede ejecutar un comando dentro de un contenedor de ejecución mediante <g id="8b08e1e4-a5bf-400b-9c05-d3920a95542d" ctype="x-code">Invoke-Command - valor de ContainerId &lt; Id. de contenedor &gt; - ScriptBlock {código para que se ejecute dentro del contenedor}</g> o <g id="65f32128-73ee-4b76-8c3f-d8cf90d3eac6" ctype="x-code">Invoke-Command - valor de ContainerId &lt; Id. de contenedor &gt; FilePath: &lt; ruta de acceso al script &gt;</g>.  
+Dos de estos comandos permiten opcional <g id="c2ebf343-b4c2-44c4-b589-267198e77937" ctype="x-code">- RunAsAdministrator</g> indicador para las acciones de alta privilige.</target>         
+        </trans-unit>
+        <trans-unit id="26fb0495-729e-42d7-9724-189d4a4ede96" xml:space="preserve">
+          <source>Caveats and known issues</source>
+          <target state="translated">Advertencias y problemas conocidos</target>         
+        </trans-unit>
+        <trans-unit id="6fd7ef40-43ad-4846-886a-ee3fc6fa604b" xml:space="preserve">
+          <source>Right now, the Containers cmdlets have no knowledge about any containers or images created through Docker, and Docker does not know anything about containers and images created through the PowerShell.</source>
+          <target state="translated">En este momento, los cmdlets de contenedores no tienen conocimiento sobre los contenedores o imágenes creadas a través de Docker y Docker no sabe nada acerca de los contenedores y las imágenes creadas mediante el PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="93fe3c1a-beb5-4387-8dcd-f6a5d256611d" xml:space="preserve">
+          <source>If you created it in Docker, manage it with Docker; if you created it through PowerShell, manage it through PowerShell.</source>
+          <target state="translated">Si se creó en Docker, administrar con Docker; Si se ha creado a través de PowerShell, puede administrar a través de PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="ebd84beb-dd38-4905-8d88-526c98456592" xml:space="preserve">
+          <source>We have quite a bit of work we'd like to do to improve the end user experience -- better error messages, better progress reporting, invalid event strings, and so forth.</source>
+          <target state="translated">Tenemos bastantes trabajo que nos gustaría hacer para mejorar la experiencia del usuario final: mensajes de error mejorados, mejores informes de progreso, cadenas de evento no válido y así sucesivamente.</target>         
+        </trans-unit>
+        <trans-unit id="3b050c5d-fdc1-4a89-90a9-5e8a0d16d9ab" xml:space="preserve">
+          <source>If you happen to run into a situation where you wish you were getting more or better info, please feel free to send suggestions to the forums.</source>
+          <target state="translated">Si por accidente para que se ejecute en una situación donde desee que recibían más o mejores info, no dude en enviar sus sugerencias a los foros.</target>         
+        </trans-unit>
+        <trans-unit id="4ab63a73-42d8-4225-a336-2224a3f59709" xml:space="preserve">
+          <source>A quick runthrough</source>
+          <target state="translated">Un rápido runthrough</target>         
+        </trans-unit>
+        <trans-unit id="b1586fca-0b77-4292-b23a-9ce76fc78cc5" xml:space="preserve">
+          <source>Here is a walk through of some common workflows.</source>
+          <target state="translated">Este es un recorrido a través de algunos flujos de trabajo comunes.</target>         
+        </trans-unit>
+        <trans-unit id="d49d94e7-e2fb-4fb9-8989-d6962fe0b0a7" xml:space="preserve">
+          <source>This assumes you've installed an OS container image named "ServerDatacenterCore" and created a virtual switch named "Virtual Switch" (using New-VMSwitch).</source>
+          <target state="translated">Se supone que ha instalado una imagen de contenedor de sistema operativo llamada "ServerDatacenterCore" y crea un conmutador virtual denominado "Conmutador Virtual" (con New-VMSwitch).</target>         
+        </trans-unit>
+        <trans-unit id="0e39ce62-ce45-4655-92af-ef1f24c610cf" xml:space="preserve">
+          <source>Build your own sample</source>
+          <target state="translated">Generar su propio ejemplo</target>         
+        </trans-unit>
+        <trans-unit id="ba5a58e7-4bdd-4b13-94ec-aa1fee487ec8" xml:space="preserve">
+          <source>You can see all the Containers cmdlets using <g id="cdf42705-18f6-4fec-93b4-e26a6935560c" ctype="x-code">Get-Command -Module Containers</g>.</source>
+          <target state="translated">Puede ver todos los contenedores cmdlets usados <g id="cdf42705-18f6-4fec-93b4-e26a6935560c" ctype="x-code">Get-Command - módulo contenedores</g>.</target>         
+        </trans-unit>
+        <trans-unit id="544eed89-5bce-4c23-994b-c61674d204a4" xml:space="preserve">
+          <source>There are several other cmdlets that are not described here, which we'll leave to you to learn about on your own.</source>
+          <target state="translated">Existen varios otros cmdlets que no se describen aquí, que dejaremos que conozca por su cuenta.</target>         
+        </trans-unit>
+        <trans-unit id="578839e0-b7dc-4140-9acb-4f5aecd5d8fb" xml:space="preserve">
+          <source><g id="4976e835-ef7b-4e57-85ff-2143b8321d45" ctype="x-strong">Note</g> This won't return the <g id="9d570ddd-76a4-43a8-927f-70d5ffc17390" ctype="x-code">Enter-PSSession</g> and <g id="16a5c7f3-b8d5-46c2-af7c-55072a5e5edc" ctype="x-code">Invoke-Command</g> cmdlets, which are part of core PowerShell.</source>
+          <target state="translated"><g id="4976e835-ef7b-4e57-85ff-2143b8321d45" ctype="x-strong">Nota</g> esto no devolverá el <g id="9d570ddd-76a4-43a8-927f-70d5ffc17390" ctype="x-code">Enter-PSSession</g> y <g id="16a5c7f3-b8d5-46c2-af7c-55072a5e5edc" ctype="x-code">Invoke-Command</g> cmdlets, que forman parte del núcleo de PowerShell.</target>         
+        </trans-unit>
+        <trans-unit id="181ad185-bf55-4ca1-83df-5ce627759c4a" xml:space="preserve">
+          <source>You can also get help about any cmdlet using <g id="290dbdf2-8e8b-46d2-83ef-4e65ee21556a" ctype="x-code">Get-Help [cmdlet name]</g>, or equivalently <g id="a58359e0-ca23-490f-9d40-0a7c646d1614" ctype="x-code">[cmdlet name] -?</g>.</source>
+          <target state="translated">También puede obtener ayuda sobre el uso de cualquier cmdlet <g id="290dbdf2-8e8b-46d2-83ef-4e65ee21556a" ctype="x-code">Get-Help [nombre de cmdlet]</g>, o de manera equivalente <g id="a58359e0-ca23-490f-9d40-0a7c646d1614" ctype="x-code">[nombre de cmdlet]-?</g>.</target>         
+        </trans-unit>
+        <trans-unit id="1b47c60e-5450-433f-8b76-25de1ffd674c" xml:space="preserve">
+          <source>Today, the help output is auto-generated and just tells you the syntax for commands; we will be adding further documentation as we get closer to finalizing the cmdlet design.</source>
+          <target state="translated">Hoy en día, el resultado de la Ayuda se genera automáticamente y sólo explica la sintaxis de comandos; iremos añadiendo más documentación conforme nos acercamos a finalizar el diseño del cmdlet.</target>         
+        </trans-unit>
+        <trans-unit id="bfdf7af4-d299-4b51-b384-9085483a61f8" xml:space="preserve">
+          <source>A nicer way to discover the syntax is the PowerShell ISE, which you may not have looked at before if you haven't used PowerShell very much.</source>
+          <target state="translated">Una forma mejor para descubrir la sintaxis es PowerShell ISE, puede no ha examinado antes si no has utilizado PowerShell mucho.</target>         
+        </trans-unit>
+        <trans-unit id="4d990046-9a8d-41be-b1e0-4ac97d406f73" xml:space="preserve">
+          <source>If you're running on a SKU that permits it, try starting the ISE, opening the Commands pane, and choosing the "Containers" module, which will show you a graphical representation of the cmdlets and their parameter sets.</source>
+          <target state="translated">Si está ejecutando en un SKU que lo permita, intente iniciar el ISE, abra el panel de comandos y elija el módulo "Contenedores", que mostrará una representación gráfica de los cmdlets y sus conjuntos de parámetros.</target>         
+        </trans-unit>
+        <trans-unit id="39df4e99-fe98-4703-aee4-a69ca5e9e935" xml:space="preserve">
+          <source>PS: Just to prove it can be done, here's a PowerShell function that composes some of the cmdlets we've seen already into an ersatz <g id="803e675f-665b-44fd-8654-6ee59381f7b3" ctype="x-code">docker run</g>.</source>
+          <target state="translated">PS: Sólo para probar que puede llevar a cabo, aquí es una función de PowerShell que se compone de algunos de los cmdlets que vimos anteriormente en un sustituto <g id="803e675f-665b-44fd-8654-6ee59381f7b3" ctype="x-code">docker ejecutar</g>.</target>         
+        </trans-unit>
+        <trans-unit id="cf2dc9cc-17f7-4d0b-ab40-d9d7b457b46b" xml:space="preserve">
+          <source>(To be clear, this is a proof of concept, not under active development.)</source>
+          <target state="translated">(Para ser más precisos, esto es una prueba de concepto, no en desarrollo activo).</target>         
+        </trans-unit>
+        <trans-unit id="bc793a4c-c3a3-4887-be5c-8298676f684a" xml:space="preserve">
+          <source>Docker</source>
+          <target state="translated">Docker</target>         
+        </trans-unit>
+        <trans-unit id="635b7cf7-8dea-48dc-80cc-2b87f774686f" xml:space="preserve">
+          <source>Windows Server Containers can be managed with Docker commands.</source>
+          <target state="translated">Contenedores de servidores de Windows se pueden administrar con comandos de Docker.</target>         
+        </trans-unit>
+        <trans-unit id="b22ea2e2-ebc1-4f4d-91d5-973de2edf93d" xml:space="preserve">
+          <source>While Windows containers should be comparable to their Linux counterparts and have the same management experience through Docker, there are some Docker commands that simply don't make sense with a Windows container.</source>
+          <target state="translated">Aunque la experiencia en Windows contenedores deben ser comparable a sus homólogos de Linux y tienen la misma administración a través de Docker, hay algunos comandos Docker que simplemente no tienen sentido con un contenedor de Windows.</target>         
+        </trans-unit>
+        <trans-unit id="fba135a9-6dee-4294-a618-3db8ddb2f76b" xml:space="preserve">
+          <source>Others simply haven't been tested (we're getting there).</source>
+          <target state="translated">Otros simplemente no han sido probadas (estamos obteniendo existe).</target>         
+        </trans-unit>
+        <trans-unit id="de5fb844-17b9-4e8b-a4aa-1037f8e527ee" xml:space="preserve">
+          <source>In an effort to not duplicate the API documentation available in Docker, here is a link to their management APIs.</source>
+          <target state="translated">En un esfuerzo para no duplicar la documentación de API disponible en Docker, éste es un vínculo a la API de administración.</target>         
+        </trans-unit>
+        <trans-unit id="4ac3e6b3-edf4-4e62-8c70-e676fc68eec6" xml:space="preserve">
+          <source>Their walkthroughs are fantastic.</source>
+          <target state="translated">Los tutoriales son fantásticas.</target>         
+        </trans-unit>
+        <trans-unit id="e688a1c0-8faf-4a5c-a4f7-74dfa142622c" xml:space="preserve">
+          <source>We're tracking things that do and don't work in the Docker APIs in our Work in Progress document.</source>
+          <target state="translated">Nos estamos realizando el seguimiento de las cosas que y no funcionan en las API Docker en nuestro documento de trabajo en curso.</target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

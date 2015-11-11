@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="5a0eab8b-59e6-4a02-82a1-98ebbaf3070b" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="5a0eab8b-59e6-4a02-82a1-98ebbaf3070b" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">3d3f98ee3495a340c7fb56e15f900aa719ebc15e</olfilehash>
+    </header>
+    <body>
+      <group id="513b44e1-bb0c-4705-8ce7-718474364388">
+        <trans-unit id="9b110856-f464-4c40-b877-bb93d8990b99" xml:space="preserve">
+          <source>ms.ContentId: FBBAADE6-F1A1-4B5C-8FD2-BDCA3FCF81CA
+title: Step 6: Experiment with checkpoints</source>
+          <target state="translated">ms입니다. ContentId: FBBAADE6-F1A1-4B5C-8FD2-BDCA3FCF81CA
+제목: 6 단계: 검사점을 시험해</target>         
+        </trans-unit>
+        <trans-unit id="5848770a-bffe-4898-9149-4f0bb740ec1e" xml:space="preserve">
+          <source>Step 6: Experiment with checkpoints</source>
+          <target state="translated">검사점을 시험해 6 단계:</target>         
+        </trans-unit>
+        <trans-unit id="3be37639-687c-4b8f-b48b-537182bd439a" xml:space="preserve">
+          <source>Checkpoints are a helpful tool when you want to save the present state of a virtual machine before making a change such as applying an update, installing software, or changing a setting.</source>
+          <target state="translated">검사점은 업데이트 적용, 소프트웨어를 설치 하거나 설정을 변경 하는 등 변경 하기 전에 가상 컴퓨터의 현재 상태를 저장 하려는 경우 유용한 도구입니다.</target>         
+        </trans-unit>
+        <trans-unit id="74e0d75f-18a7-4ed1-a64c-20df9ad11136" xml:space="preserve">
+          <source>If the change causes issues, you can restore the checkpoint and go back.</source>
+          <target state="translated">변경으로 인해 문제, 경우에 검사점을 복원할 수 있으며 돌아가서 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="401b8a22-cb57-4ace-9584-26fbffad54b2" xml:space="preserve">
+          <source>There are two types of checkpoints:  
+<bpt id="6208a659-8d2b-45cc-9063-0e887e09b163">&lt;strong&gt;</bpt>Production checkpoints<ept id="6208a659-8d2b-45cc-9063-0e887e09b163">&lt;/strong&gt;</ept>: Used mainly on servers in production environments.</source>
+          <target state="translated">검사점 같습니다.  
+<bpt id="6208a659-8d2b-45cc-9063-0e887e09b163">&lt;strong&gt;</bpt>프로덕션 검사점<ept id="6208a659-8d2b-45cc-9063-0e887e09b163">&lt;/strong&gt;</ept>: 프로덕션 환경에서는 서버에 주로 사용 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="107914c5-c616-4636-a631-2e830f02bc26" xml:space="preserve">
+          <source><bpt id="b577b2a0-9009-42f5-ac48-37c8d60dafb3">&lt;strong&gt;</bpt>Standard checkpoints<ept id="b577b2a0-9009-42f5-ac48-37c8d60dafb3">&lt;/strong&gt;</ept>: Used in development or testing environments</source>
+          <target state="translated"><bpt id="b577b2a0-9009-42f5-ac48-37c8d60dafb3">&lt;strong&gt;</bpt>표준 검사점<ept id="b577b2a0-9009-42f5-ac48-37c8d60dafb3">&lt;/strong&gt;</ept>: 개발에서의 사용 또는 테스트 환경</target>         
+        </trans-unit>
+        <trans-unit id="48c993b4-1917-4969-b45c-eac79b9c8736" xml:space="preserve">
+          <source>Production checkpoints are the default for Hyper-V on Windows 10.</source>
+          <target state="translated">프로덕션 검사점은 Windows 10에서 Hyper-v에 대 한 기본값입니다.</target>         
+        </trans-unit>
+        <trans-unit id="ca9145a9-e70d-4ad0-9cda-04db8b69ab8c" xml:space="preserve">
+          <source>Change the checkpoint type</source>
+          <target state="translated">검사점 유형 변경</target>         
+        </trans-unit>
+        <trans-unit id="a856f478-fcaa-434f-a6e5-901d0a0022db" xml:space="preserve">
+          <source>We'll start by trying out the older style of checkpoints, <bpt id="b0e51a9e-d420-4e20-8c83-9f41670b2cf0">&lt;strong&gt;</bpt>standard checkpoints<ept id="b0e51a9e-d420-4e20-8c83-9f41670b2cf0">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">이전 스타일의 검사점을 사용해볼 것으로 시작 하겠습니다 <bpt id="b0e51a9e-d420-4e20-8c83-9f41670b2cf0">&lt;strong&gt;</bpt>표준 검사점<ept id="b0e51a9e-d420-4e20-8c83-9f41670b2cf0">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="c687ac02-8949-4a24-ac38-dafbe32c4544" xml:space="preserve">
+          <source>Since production checkpoints are the default, we need to go into the settings for the VM and change the checkpoint type.</source>
+          <target state="translated">프로덕션 검사점은 기본값 이므로 때문에 VM에 대 한 설정으로 이동 하 고 검사점 종류를 변경 해야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="2e1d5957-df45-4b85-9bf2-c20917bdab6a" xml:space="preserve">
+          <source>Right-click on <bpt id="4cf7b217-c36b-4baa-8b76-da58a17d3e44">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="4cf7b217-c36b-4baa-8b76-da58a17d3e44">&lt;/strong&gt;</ept> and select <bpt id="909f7baa-105f-4dcd-814d-861565d2059a">&lt;strong&gt;</bpt>Settings<ept id="909f7baa-105f-4dcd-814d-861565d2059a">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">마우스 오른쪽 단추로 클릭 <bpt id="4cf7b217-c36b-4baa-8b76-da58a17d3e44">&lt;strong&gt;</bpt>Windows 연습 VM<ept id="4cf7b217-c36b-4baa-8b76-da58a17d3e44">&lt;/strong&gt;</ept> 선택 하 고 <bpt id="909f7baa-105f-4dcd-814d-861565d2059a">&lt;strong&gt;</bpt>설정을<ept id="909f7baa-105f-4dcd-814d-861565d2059a">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="f6fefa66-e72b-41b7-901c-82b16f728335" xml:space="preserve">
+          <source>In the <bpt id="d138896c-6af9-430b-bf6b-a9f013933f77">&lt;strong&gt;</bpt>Management<ept id="d138896c-6af9-430b-bf6b-a9f013933f77">&lt;/strong&gt;</ept> section, select <bpt id="25f281d1-c3c5-4a0a-bf67-c9b428690d1f">&lt;strong&gt;</bpt>Checkpoints<ept id="25f281d1-c3c5-4a0a-bf67-c9b428690d1f">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">에 <bpt id="d138896c-6af9-430b-bf6b-a9f013933f77">&lt;strong&gt;</bpt>관리<ept id="d138896c-6af9-430b-bf6b-a9f013933f77">&lt;/strong&gt;</ept> 섹션, <bpt id="25f281d1-c3c5-4a0a-bf67-c9b428690d1f">&lt;strong&gt;</bpt>검사점<ept id="25f281d1-c3c5-4a0a-bf67-c9b428690d1f">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="df133fe9-b327-476c-83c0-653ae2a7c7d8" xml:space="preserve">
+          <source>Select <bpt id="6e47739c-dc2f-4609-9b0f-1e5ce5cdc6a7">&lt;strong&gt;</bpt>Standard checkpoints<ept id="6e47739c-dc2f-4609-9b0f-1e5ce5cdc6a7">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">선택 <bpt id="6e47739c-dc2f-4609-9b0f-1e5ce5cdc6a7">&lt;strong&gt;</bpt>표준 검사점<ept id="6e47739c-dc2f-4609-9b0f-1e5ce5cdc6a7">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="d4754089-0fd0-4beb-b1c6-0556c3909e2c" xml:space="preserve">
+          <source>The dialog should look like this:</source>
+          <target state="translated">대화 상자는 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="14c664a9-e9eb-44dc-8cec-bbdfb9672c77" xml:space="preserve">
+          <source><bpt id="6f73a46d-758f-42de-b58e-15ad56088635">&lt;linkText&gt;</bpt><ept id="6f73a46d-758f-42de-b58e-15ad56088635">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="6f73a46d-758f-42de-b58e-15ad56088635">&lt;linkText&gt;</bpt><ept id="6f73a46d-758f-42de-b58e-15ad56088635">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="d4b305f2-4d8a-463b-b723-e68474d0a89e" xml:space="preserve">
+          <source>Click <bpt id="102b49c2-bf4b-4140-a5be-16517daa6b63">&lt;strong&gt;</bpt>OK<ept id="102b49c2-bf4b-4140-a5be-16517daa6b63">&lt;/strong&gt;</ept> to close the dialog box.</source>
+          <target state="translated"><bpt id="102b49c2-bf4b-4140-a5be-16517daa6b63">&lt;strong&gt;</bpt>확인<ept id="102b49c2-bf4b-4140-a5be-16517daa6b63">&lt;/strong&gt;</ept>을 클릭하여 대화 상자를 닫습니다.</target>         
+        </trans-unit>
+        <trans-unit id="e24097c8-aa12-4912-af90-256b84efd089" xml:space="preserve">
+          <source>Open Notepad to test checkpoints</source>
+          <target state="translated">검사점을 테스트 하려면 메모장 열기</target>         
+        </trans-unit>
+        <trans-unit id="5a17fdfc-abe2-4c33-9f0b-6ac5809b2a64" xml:space="preserve">
+          <source>In order to see what happens with each type of checkpoint, we'll run an application in the VM.</source>
+          <target state="translated">각 유형의 검사점에 일어나 보려면 VM의 응용 프로그램 실행 하겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="973294c3-71f5-4a6d-95bb-5a2f3b3471b9" xml:space="preserve">
+          <source>Right-click on <bpt id="ef4fe36e-c347-4f7f-b89f-d8f78d2c483d">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="ef4fe36e-c347-4f7f-b89f-d8f78d2c483d">&lt;/strong&gt;</ept> and select <bpt id="a4f8829f-03ac-4a31-8fca-1818576ce53e">&lt;strong&gt;</bpt>Connect<ept id="a4f8829f-03ac-4a31-8fca-1818576ce53e">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">마우스 오른쪽 단추로 클릭 <bpt id="ef4fe36e-c347-4f7f-b89f-d8f78d2c483d">&lt;strong&gt;</bpt>Windows 연습 VM<ept id="ef4fe36e-c347-4f7f-b89f-d8f78d2c483d">&lt;/strong&gt;</ept> 선택 하 고 <bpt id="a4f8829f-03ac-4a31-8fca-1818576ce53e">&lt;strong&gt;</bpt>Connect<ept id="a4f8829f-03ac-4a31-8fca-1818576ce53e">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="b747b5ef-3107-4313-8bc8-a6c1278780c2" xml:space="preserve">
+          <source>In the virtual machine, open <bpt id="acc49fe4-0f90-451d-b299-481f9906c872">&lt;strong&gt;</bpt>Notepad<ept id="acc49fe4-0f90-451d-b299-481f9906c872">&lt;/strong&gt;</ept> by clicking on the <bpt id="2f5fd2fc-de0c-4b50-a1a9-996b26625b68">&lt;strong&gt;</bpt>Start<ept id="2f5fd2fc-de0c-4b50-a1a9-996b26625b68">&lt;/strong&gt;</ept> menu and typing <bpt id="cad7e186-bde1-4c98-bb7a-fafa8676eb2e">&lt;strong&gt;</bpt>Notepad<ept id="cad7e186-bde1-4c98-bb7a-fafa8676eb2e">&lt;/strong&gt;</ept> and then select it from the results.</source>
+          <target state="translated">가상 컴퓨터에서 엽니다 <bpt id="acc49fe4-0f90-451d-b299-481f9906c872">&lt;strong&gt;</bpt>메모장<ept id="acc49fe4-0f90-451d-b299-481f9906c872">&lt;/strong&gt;</ept> 를 클릭 하 여는 <bpt id="2f5fd2fc-de0c-4b50-a1a9-996b26625b68">&lt;strong&gt;</bpt>시작<ept id="2f5fd2fc-de0c-4b50-a1a9-996b26625b68">&lt;/strong&gt;</ept> 메뉴 및 입력 <bpt id="cad7e186-bde1-4c98-bb7a-fafa8676eb2e">&lt;strong&gt;</bpt>메모장<ept id="cad7e186-bde1-4c98-bb7a-fafa8676eb2e">&lt;/strong&gt;</ept> 다음 결과에서 선택 하 고 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="94f68bf0-785b-4779-b18a-f234ebcd5a36" xml:space="preserve">
+          <source>In Notepad, type <bpt id="98bec493-7ba6-4b24-875d-f533f77ed53c">&lt;strong&gt;</bpt>This is a test of checkpoints.<ept id="98bec493-7ba6-4b24-875d-f533f77ed53c">&lt;/strong&gt;</ept> The file should look like this:</source>
+          <target state="translated">메모장에서 입력 <bpt id="98bec493-7ba6-4b24-875d-f533f77ed53c">&lt;strong&gt;</bpt>검사점의 테스트입니다.<ept id="98bec493-7ba6-4b24-875d-f533f77ed53c">&lt;/strong&gt;</ept> 파일은 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="7a3943ca-714e-4c0f-accc-32636984a0f2" xml:space="preserve">
+          <source><bpt id="e954bee8-a8d4-4ad5-8c05-a71c4b607a10">&lt;linkText&gt;</bpt><ept id="e954bee8-a8d4-4ad5-8c05-a71c4b607a10">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="e954bee8-a8d4-4ad5-8c05-a71c4b607a10">&lt;linkText&gt;</bpt><ept id="e954bee8-a8d4-4ad5-8c05-a71c4b607a10">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="e19f25b9-32aa-4bf1-8918-42ff35634bd0" xml:space="preserve">
+          <source>Save the file as <bpt id="80a09c36-1aa7-4f89-86f2-c6ab139bde5d">&lt;strong&gt;</bpt>test.txt<ept id="80a09c36-1aa7-4f89-86f2-c6ab139bde5d">&lt;/strong&gt;</ept>, but don't close Notepad.</source>
+          <target state="translated">으로 파일을 저장 <bpt id="80a09c36-1aa7-4f89-86f2-c6ab139bde5d">&lt;strong&gt;</bpt>test.txt<ept id="80a09c36-1aa7-4f89-86f2-c6ab139bde5d">&lt;/strong&gt;</ept>, 메모장을 닫지 않습니다.</target>         
+        </trans-unit>
+        <trans-unit id="a888e6c1-4b88-493c-91ba-dd8254e296de" xml:space="preserve">
+          <source>Leave it running in the virtual machine.</source>
+          <target state="translated">계속 해 서 가상 컴퓨터에서 실행 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="c0971d3c-74e8-40cd-a21d-dca17e97497a" xml:space="preserve">
+          <source>Create a standard checkpoint</source>
+          <target state="translated">표준 검사점 만들기</target>         
+        </trans-unit>
+        <trans-unit id="97deb387-0565-4e83-bb00-ce98b11c3d8b" xml:space="preserve">
+          <source>To create the checkpoint, click on the <bpt id="80d0841d-131d-4873-86e0-1fbedb3cb683">&lt;linkText&gt;</bpt><ept id="80d0841d-131d-4873-86e0-1fbedb3cb683">&lt;/linkText&gt;</ept> <bpt id="9d0c900c-3de8-4e5f-aa61-b8136adf91bd">&lt;strong&gt;</bpt>Checkpoint<ept id="9d0c900c-3de8-4e5f-aa61-b8136adf91bd">&lt;/strong&gt;</ept> button in the menu bar.</source>
+          <target state="translated">검사점을 만들려면 클릭는 <bpt id="80d0841d-131d-4873-86e0-1fbedb3cb683">&lt;linkText&gt;</bpt><ept id="80d0841d-131d-4873-86e0-1fbedb3cb683">&lt;/linkText&gt;</ept> <bpt id="9d0c900c-3de8-4e5f-aa61-b8136adf91bd">&lt;strong&gt;</bpt>검사점<ept id="9d0c900c-3de8-4e5f-aa61-b8136adf91bd">&lt;/strong&gt;</ept> 메뉴 모음에서 단추입니다.</target>         
+        </trans-unit>
+        <trans-unit id="cfafe587-c351-4c3d-9293-cbe83d758747" xml:space="preserve">
+          <source>In the checkpoint name dialog, type <bpt id="b4305c56-5fb8-43a7-bb3f-ee6ee3e285f4">&lt;strong&gt;</bpt>Standard<ept id="b4305c56-5fb8-43a7-bb3f-ee6ee3e285f4">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">검사점 이름 대화 상자에 입력 <bpt id="b4305c56-5fb8-43a7-bb3f-ee6ee3e285f4">&lt;strong&gt;</bpt>표준<ept id="b4305c56-5fb8-43a7-bb3f-ee6ee3e285f4">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="b2234965-8437-46f4-9124-fbb0bb4b61af" xml:space="preserve">
+          <source>The dialog should look like this:</source>
+          <target state="translated">대화 상자는 다음과 같습니다.</target>         
+        </trans-unit>
+        <trans-unit id="b3176b50-f9c1-4025-898f-dae028c4fa41" xml:space="preserve">
+          <source><bpt id="6b8562f8-1612-4f84-9133-1ac83c829922">&lt;linkText&gt;</bpt><ept id="6b8562f8-1612-4f84-9133-1ac83c829922">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="6b8562f8-1612-4f84-9133-1ac83c829922">&lt;linkText&gt;</bpt><ept id="6b8562f8-1612-4f84-9133-1ac83c829922">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="7d38a0f0-e049-4496-ba46-8f46ece4f6a9" xml:space="preserve">
+          <source>When the process is complete, the checkpoint will appear under <bpt id="c49b4131-7993-4f77-a480-b2b206bc5bf9">&lt;strong&gt;</bpt>Checkpoints<ept id="c49b4131-7993-4f77-a480-b2b206bc5bf9">&lt;/strong&gt;</ept> in the <bpt id="30f4b30d-a896-414f-8fdc-f8c453de6f7d">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="30f4b30d-a896-414f-8fdc-f8c453de6f7d">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">프로세스가 완료 되 면 검사점 아래 표시 됩니다 <bpt id="c49b4131-7993-4f77-a480-b2b206bc5bf9">&lt;strong&gt;</bpt>검사점<ept id="c49b4131-7993-4f77-a480-b2b206bc5bf9">&lt;/strong&gt;</ept> 에 <bpt id="30f4b30d-a896-414f-8fdc-f8c453de6f7d">&lt;strong&gt;</bpt>Hyper-v 관리자<ept id="30f4b30d-a896-414f-8fdc-f8c453de6f7d">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="7dfd4f73-4208-46fd-92a0-e69c223cbdb4" xml:space="preserve">
+          <source><bpt id="3a4fee40-05bd-49c4-8f8b-7a96e94d6bec">&lt;linkText&gt;</bpt><ept id="3a4fee40-05bd-49c4-8f8b-7a96e94d6bec">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="3a4fee40-05bd-49c4-8f8b-7a96e94d6bec">&lt;linkText&gt;</bpt><ept id="3a4fee40-05bd-49c4-8f8b-7a96e94d6bec">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="5d78400e-8eab-4314-9dee-85b4384dfb99" xml:space="preserve">
+          <source>Create a production checkpoint</source>
+          <target state="translated">프로덕션 검사점 만들기</target>         
+        </trans-unit>
+        <trans-unit id="3f7faf0b-0cef-447a-ad75-3288cf18c5a8" xml:space="preserve">
+          <source>Now, we need to change change the type of checkpoint that we want to take back to <bpt id="afc2fe0f-5a10-4be4-a6e9-881adffe31ec">&lt;strong&gt;</bpt>Production checkpoints<ept id="afc2fe0f-5a10-4be4-a6e9-881adffe31ec">&lt;/strong&gt;</ept> before taking a second checkpoint.</source>
+          <target state="translated">이제, 변경 해야 검사점을 다시 수행 하고자 하는 형식을 변경할 <bpt id="afc2fe0f-5a10-4be4-a6e9-881adffe31ec">&lt;strong&gt;</bpt>프로덕션 검사점<ept id="afc2fe0f-5a10-4be4-a6e9-881adffe31ec">&lt;/strong&gt;</ept> 두번째 검사점을 수행 하기 전에.</target>         
+        </trans-unit>
+        <trans-unit id="c20e104d-b302-4933-a1be-957cbcbfcfbc" xml:space="preserve">
+          <source>Right-click the virtual machine, and click <bpt id="8760cfeb-baa2-4d9d-8777-a9fa149a7350">&lt;strong&gt;</bpt>Settings<ept id="8760cfeb-baa2-4d9d-8777-a9fa149a7350">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">가상 컴퓨터를 마우스 오른쪽 단추로 클릭 하 고 클릭 하 여 <bpt id="8760cfeb-baa2-4d9d-8777-a9fa149a7350">&lt;strong&gt;</bpt>설정을<ept id="8760cfeb-baa2-4d9d-8777-a9fa149a7350">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="7c779e49-32a4-4cdf-93d9-26086597847d" xml:space="preserve">
+          <source>In the <bpt id="f0097a27-4ffb-47e0-bd10-c46152859448">&lt;strong&gt;</bpt>Management<ept id="f0097a27-4ffb-47e0-bd10-c46152859448">&lt;/strong&gt;</ept> section, select <bpt id="d3ba78ed-5219-4f87-ac2b-f1feb9cf7b2f">&lt;strong&gt;</bpt>Checkpoints<ept id="d3ba78ed-5219-4f87-ac2b-f1feb9cf7b2f">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">에 <bpt id="f0097a27-4ffb-47e0-bd10-c46152859448">&lt;strong&gt;</bpt>관리<ept id="f0097a27-4ffb-47e0-bd10-c46152859448">&lt;/strong&gt;</ept> 섹션, <bpt id="d3ba78ed-5219-4f87-ac2b-f1feb9cf7b2f">&lt;strong&gt;</bpt>검사점<ept id="d3ba78ed-5219-4f87-ac2b-f1feb9cf7b2f">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="454d94d2-98ff-4eab-811c-d5a6ed240168" xml:space="preserve">
+          <source>Select <bpt id="16ab9906-2607-4338-bf56-4bd75e03101b">&lt;strong&gt;</bpt>Production checkpoints<ept id="16ab9906-2607-4338-bf56-4bd75e03101b">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">선택 <bpt id="16ab9906-2607-4338-bf56-4bd75e03101b">&lt;strong&gt;</bpt>프로덕션 검사점<ept id="16ab9906-2607-4338-bf56-4bd75e03101b">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="1b37a6c4-a1e7-4463-a3f5-7d827dafaa27" xml:space="preserve">
+          <source>Clear the fall-back option.</source>
+          <target state="translated">대체 옵션의 선택을 취소 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="49787b21-6648-4093-bdaf-25e6af63816a" xml:space="preserve">
+          <source>If the system can't take a production checkpoint, we want it to fail instead of taking a standard checkpoint.</source>
+          <target state="translated">시스템이 프로덕션 검사점을 수행할 수 없는 경우 표준 검사점을 수행 하는 대신 실패 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="64d4bbae-cdea-481c-8178-6825677db29f" xml:space="preserve">
+          <source><bpt id="61a7155e-6753-4f34-84d2-a6d3f17b69a8">&lt;linkText&gt;</bpt><ept id="61a7155e-6753-4f34-84d2-a6d3f17b69a8">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="61a7155e-6753-4f34-84d2-a6d3f17b69a8">&lt;linkText&gt;</bpt><ept id="61a7155e-6753-4f34-84d2-a6d3f17b69a8">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="12256008-6138-4f39-aa14-513baf70a861" xml:space="preserve">
+          <source>click <bpt id="4dc0293f-a429-49ac-ac3a-982d7fc39cc1">&lt;strong&gt;</bpt>OK<ept id="4dc0293f-a429-49ac-ac3a-982d7fc39cc1">&lt;/strong&gt;</ept> to close the dialog box.</source>
+          <target state="translated">클릭 하 여 <bpt id="4dc0293f-a429-49ac-ac3a-982d7fc39cc1">&lt;strong&gt;</bpt>확인<ept id="4dc0293f-a429-49ac-ac3a-982d7fc39cc1">&lt;/strong&gt;</ept> 대화 상자를 닫습니다.</target>         
+        </trans-unit>
+        <trans-unit id="8e5ad515-5a50-4bf8-8071-15056233a08c" xml:space="preserve">
+          <source>Right-click on the VM again and select <bpt id="e41676b3-f7b5-4119-903a-a48c185aa158">&lt;strong&gt;</bpt>Connect<ept id="e41676b3-f7b5-4119-903a-a48c185aa158">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">VM에 다시 마우스 오른쪽 단추로 누르고 <bpt id="e41676b3-f7b5-4119-903a-a48c185aa158">&lt;strong&gt;</bpt>Connect<ept id="e41676b3-f7b5-4119-903a-a48c185aa158">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="12d984f2-d1c2-43b4-861e-4666a050fa53" xml:space="preserve">
+          <source>In Notepad in the VM, type another line that reads <bpt id="76964ae3-0ab4-46df-9276-e8af380f7834">&lt;strong&gt;</bpt>This is a test of a production checkpoint<ept id="76964ae3-0ab4-46df-9276-e8af380f7834">&lt;/strong&gt;</ept> and save the file again.</source>
+          <target state="translated">VM의 메모장에서 읽고 다른 줄 입력 <bpt id="76964ae3-0ab4-46df-9276-e8af380f7834">&lt;strong&gt;</bpt>프로덕션 검사점의 테스트<ept id="76964ae3-0ab4-46df-9276-e8af380f7834">&lt;/strong&gt;</ept> 다시 파일을 저장 하 고 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="4d56ea09-9167-4e51-aedd-95741bcdf7c0" xml:space="preserve">
+          <source>Click on the <bpt id="07750741-23f0-4513-851a-ae1d79d8d437">&lt;linkText&gt;</bpt><ept id="07750741-23f0-4513-851a-ae1d79d8d437">&lt;/linkText&gt;</ept> <bpt id="8cfb8a49-1da2-40e5-9960-8ed6ee39cc6b">&lt;strong&gt;</bpt>Checkpoint<ept id="8cfb8a49-1da2-40e5-9960-8ed6ee39cc6b">&lt;/strong&gt;</ept> button in the menu bar.</source>
+          <target state="translated">클릭 된 <bpt id="07750741-23f0-4513-851a-ae1d79d8d437">&lt;linkText&gt;</bpt><ept id="07750741-23f0-4513-851a-ae1d79d8d437">&lt;/linkText&gt;</ept> <bpt id="8cfb8a49-1da2-40e5-9960-8ed6ee39cc6b">&lt;strong&gt;</bpt>검사점<ept id="8cfb8a49-1da2-40e5-9960-8ed6ee39cc6b">&lt;/strong&gt;</ept> 메뉴 모음에서 단추입니다.</target>         
+        </trans-unit>
+        <trans-unit id="97c2f896-33b4-4e0d-9e09-83e8844f1631" xml:space="preserve">
+          <source>When asked, name it <bpt id="10546954-7597-4b97-a633-34f52b5e817f">&lt;strong&gt;</bpt>Production<ept id="10546954-7597-4b97-a633-34f52b5e817f">&lt;/strong&gt;</ept> and then click <bpt id="a9c6ca9f-803d-4762-90c4-ffc178587a5b">&lt;strong&gt;</bpt>Yes<ept id="a9c6ca9f-803d-4762-90c4-ffc178587a5b">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">을 묻는 메시지가 나타나면 이름을 <bpt id="10546954-7597-4b97-a633-34f52b5e817f">&lt;strong&gt;</bpt>프로덕션<ept id="10546954-7597-4b97-a633-34f52b5e817f">&lt;/strong&gt;</ept> 클릭 하 고 <bpt id="a9c6ca9f-803d-4762-90c4-ffc178587a5b">&lt;strong&gt;</bpt>예<ept id="a9c6ca9f-803d-4762-90c4-ffc178587a5b">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="e14c1c9a-1a6e-495f-a545-d679a35cc8c5" xml:space="preserve">
+          <source><bpt id="ce33c09b-c340-42b5-935d-9f039dc925ec">&lt;linkText&gt;</bpt><ept id="ce33c09b-c340-42b5-935d-9f039dc925ec">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="ce33c09b-c340-42b5-935d-9f039dc925ec">&lt;linkText&gt;</bpt><ept id="ce33c09b-c340-42b5-935d-9f039dc925ec">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="f5cb2bed-82f9-4b59-8c55-a38d450ed7ab" xml:space="preserve">
+          <source>Close VMConnect.</source>
+          <target state="translated">VMConnect를 닫습니다.</target>         
+        </trans-unit>
+        <trans-unit id="c5dadb1d-8c16-4d40-8b9d-05797f1b82d8" xml:space="preserve">
+          <source>The VM will continue running, you just won't be connected to it anymore.</source>
+          <target state="translated">VM에는 계속 실행 됩니다, 그리고 있습니다만에 연결 하지 않는 것 아니다.</target>         
+        </trans-unit>
+        <trans-unit id="58490410-9c8c-4f57-8357-62504d45aeeb" xml:space="preserve">
+          <source>In Hyper-V manager, your list of checkpoints will now look like this:</source>
+          <target state="translated">Hyper-v 관리자에서 목록 검사점에 이제 다음과 같이 표시 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="8dcc9ea8-fd01-4099-a08e-ee3860c0369c" xml:space="preserve">
+          <source><bpt id="8bd378ed-47f2-438f-b3c1-1e816103da1f">&lt;linkText&gt;</bpt><ept id="8bd378ed-47f2-438f-b3c1-1e816103da1f">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="8bd378ed-47f2-438f-b3c1-1e816103da1f">&lt;linkText&gt;</bpt><ept id="8bd378ed-47f2-438f-b3c1-1e816103da1f">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="126b7dc2-271f-4a04-9f7e-92310420256e" xml:space="preserve">
+          <source>Apply the standard checkpoint</source>
+          <target state="translated">표준 검사점 적용</target>         
+        </trans-unit>
+        <trans-unit id="5965e4d2-8bbb-424c-a1ea-01c865bf5147" xml:space="preserve">
+          <source>In <bpt id="fb0a7909-3c3b-46b8-94dd-3554c6611905">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="fb0a7909-3c3b-46b8-94dd-3554c6611905">&lt;/strong&gt;</ept>, in the <bpt id="8b3850b5-7b53-43bd-a017-c4f25782b3a5">&lt;strong&gt;</bpt>Checkpoints<ept id="8b3850b5-7b53-43bd-a017-c4f25782b3a5">&lt;/strong&gt;</ept> section, right-click the one titled <bpt id="f7c4d0c3-380c-4eb3-97e5-abd60c042447">&lt;strong&gt;</bpt>Standard<ept id="f7c4d0c3-380c-4eb3-97e5-abd60c042447">&lt;/strong&gt;</ept> and click <bpt id="d23a326c-76bf-49c3-9f18-34e9693a3e59">&lt;strong&gt;</bpt>Apply<ept id="d23a326c-76bf-49c3-9f18-34e9693a3e59">&lt;/strong&gt;</ept>.</source>
+          <target state="translated"> <bpt id="fb0a7909-3c3b-46b8-94dd-3554c6611905">&lt;strong&gt;</bpt>Hyper-v 관리자<ept id="fb0a7909-3c3b-46b8-94dd-3554c6611905">&lt;/strong&gt;</ept>, 에 <bpt id="8b3850b5-7b53-43bd-a017-c4f25782b3a5">&lt;strong&gt;</bpt>검사점<ept id="8b3850b5-7b53-43bd-a017-c4f25782b3a5">&lt;/strong&gt;</ept> 섹션에서 제목이 하나를 마우스 오른쪽 단추로 클릭 <bpt id="f7c4d0c3-380c-4eb3-97e5-abd60c042447">&lt;strong&gt;</bpt>표준<ept id="f7c4d0c3-380c-4eb3-97e5-abd60c042447">&lt;/strong&gt;</ept> 클릭 하 고 <bpt id="d23a326c-76bf-49c3-9f18-34e9693a3e59">&lt;strong&gt;</bpt>적용<ept id="d23a326c-76bf-49c3-9f18-34e9693a3e59">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="4c569b6b-c971-40b6-81c4-495c225cfd20" xml:space="preserve">
+          <source>In the pop-up dialog, click <bpt id="e0b52fc5-7a0a-4955-a71d-3a5ee35ed120">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="e0b52fc5-7a0a-4955-a71d-3a5ee35ed120">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">팝업 대화 상자에서 클릭 하 여 <bpt id="e0b52fc5-7a0a-4955-a71d-3a5ee35ed120">&lt;strong&gt;</bpt>검사점 만들기 및 적용<ept id="e0b52fc5-7a0a-4955-a71d-3a5ee35ed120">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="f8aa6246-c922-499e-97a5-8783f99d52ce" xml:space="preserve">
+          <source><bpt id="a3eef9b6-8cd6-482f-8ac2-a12255bad7a7">&lt;linkText&gt;</bpt><ept id="a3eef9b6-8cd6-482f-8ac2-a12255bad7a7">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="a3eef9b6-8cd6-482f-8ac2-a12255bad7a7">&lt;linkText&gt;</bpt><ept id="a3eef9b6-8cd6-482f-8ac2-a12255bad7a7">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="6e7dae47-7599-4d1b-b7be-8c6c2b22784f" xml:space="preserve">
+          <source>When the finished, your list of checkpoints will now look something like this:</source>
+          <target state="translated">완성 된 검사점 목록은 이제 때 다음과 비슷합니다.</target>         
+        </trans-unit>
+        <trans-unit id="b1ae36ae-9344-4355-baac-49217015c359" xml:space="preserve">
+          <source><bpt id="8ad52201-cee6-47e2-9fc1-7fe0aecd534e">&lt;linkText&gt;</bpt><ept id="8ad52201-cee6-47e2-9fc1-7fe0aecd534e">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="8ad52201-cee6-47e2-9fc1-7fe0aecd534e">&lt;linkText&gt;</bpt><ept id="8ad52201-cee6-47e2-9fc1-7fe0aecd534e">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="199b8409-e7ed-458e-8fd9-c370abfbb888" xml:space="preserve">
+          <source>When this finishes, right-click the VM and the click <bpt id="e34ab073-d5b0-4bbc-b131-b5fdf0ee03c0">&lt;strong&gt;</bpt>Connect<ept id="e34ab073-d5b0-4bbc-b131-b5fdf0ee03c0">&lt;/strong&gt;</ept> to connect to the VM.</source>
+          <target state="translated">이 완료 되 면 VM 및 클릭 마우스 오른쪽 단추로 <bpt id="e34ab073-d5b0-4bbc-b131-b5fdf0ee03c0">&lt;strong&gt;</bpt>Connect<ept id="e34ab073-d5b0-4bbc-b131-b5fdf0ee03c0">&lt;/strong&gt;</ept> VM에 연결 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="dd8dffab-9e45-490b-96f5-5d9e46e4c45c" xml:space="preserve">
+          <source>When you connect to the VM, the VM should be running, with Notepad open, but the line about production checkpoints will be missing:</source>
+          <target state="translated">VM에 연결할 때 열기, 메모장으로 VM에 실행 중, 이어야 합니다 하지만 프로덕션 검사점에 대 한 줄 누락 됩니다.</target>         
+        </trans-unit>
+        <trans-unit id="6f810e21-46db-4753-9038-b092fac68da2" xml:space="preserve">
+          <source><bpt id="0881f11a-ccc5-47dc-a211-d7b9fe651a97">&lt;linkText&gt;</bpt><ept id="0881f11a-ccc5-47dc-a211-d7b9fe651a97">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="0881f11a-ccc5-47dc-a211-d7b9fe651a97">&lt;linkText&gt;</bpt><ept id="0881f11a-ccc5-47dc-a211-d7b9fe651a97">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="fccb90b4-8855-42b3-b0a7-072e2cfaaa23" xml:space="preserve">
+          <source>Close VMConnect, but leave the VM running.</source>
+          <target state="translated">실행 중인 VM를 그대로 VMConnect를 닫습니다.</target>         
+        </trans-unit>
+        <trans-unit id="ecb2e8bf-dd91-4db8-97e9-b3a34d22fe7b" xml:space="preserve">
+          <source>Apply the production checkpoint</source>
+          <target state="translated">프로덕션 검사점 적용</target>         
+        </trans-unit>
+        <trans-unit id="718ca302-16ae-4f1c-a3f5-d72a1abd7312" xml:space="preserve">
+          <source>Now, let's go back to Hyper-V manager and apply the production checkpoint and see how our VM looks afterwards.</source>
+          <target state="translated">이제 Hyper-v 관리자도 돌아가겠습니다 프로덕션 검사점 및 적용 VM 나중에 모양을 확인 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="5a369bb1-914d-4e6d-8364-2c48be71624d" xml:space="preserve">
+          <source>In the Checkpoints section, right-click the one titled <bpt id="945e8f6e-6099-46f4-91a4-6f802171eca9">&lt;strong&gt;</bpt>Production Checkpoint<ept id="945e8f6e-6099-46f4-91a4-6f802171eca9">&lt;/strong&gt;</ept> and click <bpt id="5d7d1777-77d5-4988-8c86-ad5102e1e334">&lt;strong&gt;</bpt>Apply<ept id="5d7d1777-77d5-4988-8c86-ad5102e1e334">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">검사점 섹션의 제목이 하나를 마우스 오른쪽 단추로 <bpt id="945e8f6e-6099-46f4-91a4-6f802171eca9">&lt;strong&gt;</bpt>프로덕션 검사점<ept id="945e8f6e-6099-46f4-91a4-6f802171eca9">&lt;/strong&gt;</ept> 클릭 하 고 <bpt id="5d7d1777-77d5-4988-8c86-ad5102e1e334">&lt;strong&gt;</bpt>적용<ept id="5d7d1777-77d5-4988-8c86-ad5102e1e334">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="43ebb85e-1634-4cb6-81b2-1545766bccb4" xml:space="preserve">
+          <source>In the pop-up dialog, pick <bpt id="024e2b70-6db6-4c28-9e36-06d4e0effd75">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="024e2b70-6db6-4c28-9e36-06d4e0effd75">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">팝업 대화 상자에서 선택 <bpt id="024e2b70-6db6-4c28-9e36-06d4e0effd75">&lt;strong&gt;</bpt>검사점 만들기 및 적용<ept id="024e2b70-6db6-4c28-9e36-06d4e0effd75">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="d725aef8-a57e-441d-a031-9be4269595d4" xml:space="preserve">
+          <source>When this finishes, right-click the VM and the click <bpt id="44bae219-6c2b-42e7-8275-c74cf1575361">&lt;strong&gt;</bpt>Connect<ept id="44bae219-6c2b-42e7-8275-c74cf1575361">&lt;/strong&gt;</ept> to launch the VM.</source>
+          <target state="translated">이 완료 되 면 VM 및 클릭 마우스 오른쪽 단추로 <bpt id="44bae219-6c2b-42e7-8275-c74cf1575361">&lt;strong&gt;</bpt>Connect<ept id="44bae219-6c2b-42e7-8275-c74cf1575361">&lt;/strong&gt;</ept> VM을 시작 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="b0aa356a-2d36-4046-bedc-4ff4547960d0" xml:space="preserve">
+          <source>You'll notice that the VM is not running.</source>
+          <target state="translated">VM 실행 되 고 있지는 알 수 있습니다.</target>         
+        </trans-unit>
+        <trans-unit id="187eb010-0222-4b0b-b29e-70297dd2ba35" xml:space="preserve">
+          <source>Click on the <bpt id="d51304af-467b-43bd-bfca-97dbeed2af22">&lt;linkText&gt;</bpt><ept id="d51304af-467b-43bd-bfca-97dbeed2af22">&lt;/linkText&gt;</ept> Start button in the menu bar to start the VM.</source>
+          <target state="translated">클릭 된 <bpt id="d51304af-467b-43bd-bfca-97dbeed2af22">&lt;linkText&gt;</bpt><ept id="d51304af-467b-43bd-bfca-97dbeed2af22">&lt;/linkText&gt;</ept> VM을 시작 하려면 메뉴 모음에서 시작 단추입니다.</target>         
+        </trans-unit>
+        <trans-unit id="42074a77-e2ab-4c1d-8eb5-acead9390f52" xml:space="preserve">
+          <source>Open open test.txt in Notepad.</source>
+          <target state="translated">메모장에서 열고 test.txt를 엽니다.</target>         
+        </trans-unit>
+        <trans-unit id="88b22f49-e177-4677-bb2c-2ad2b8b1797b" xml:space="preserve">
+          <source>You should see the line in the file about testing production checkpoints:</source>
+          <target state="translated">프로덕션 검사점을 테스트 하는 방법에 대 한 파일의 줄이 표시 되어야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="fd6a2fea-f298-4b1b-b7fe-a76ab4f6747e" xml:space="preserve">
+          <source><bpt id="7a4a1420-1116-47ed-b2b5-137d29a8476b">&lt;linkText&gt;</bpt><ept id="7a4a1420-1116-47ed-b2b5-137d29a8476b">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="7a4a1420-1116-47ed-b2b5-137d29a8476b">&lt;linkText&gt;</bpt><ept id="7a4a1420-1116-47ed-b2b5-137d29a8476b">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="3581ab01-46b3-4415-b2f8-f461bfe10f67" xml:space="preserve">
+          <source>Rename a checkpoint</source>
+          <target state="translated">검사점 이름바꾸기</target>         
+        </trans-unit>
+        <trans-unit id="173e6327-9452-495e-9ff5-ae3165846786" xml:space="preserve">
+          <source>Right-click the last checkpoint in the tree and click Rename.</source>
+          <target state="translated">트리에서 마지막 검사점을 마우스 오른쪽 단추로 클릭 하 고 이름 바꾸기를 클릭 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="dfad122e-9fa7-4b09-ba43-87c72de49ba8" xml:space="preserve">
+          <source>Name the checkpoint <bpt id="fc8cf52d-9d43-44a6-801a-58d6034795bf">&lt;strong&gt;</bpt>Delete me<ept id="fc8cf52d-9d43-44a6-801a-58d6034795bf">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">검사점 이름을 <bpt id="fc8cf52d-9d43-44a6-801a-58d6034795bf">&lt;strong&gt;</bpt>me 삭제<ept id="fc8cf52d-9d43-44a6-801a-58d6034795bf">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="6124d589-2e0d-4530-b950-678fd47eb00a" xml:space="preserve">
+          <source><bpt id="02270395-d9b0-4e7b-a45e-a237790586a9">&lt;linkText&gt;</bpt><ept id="02270395-d9b0-4e7b-a45e-a237790586a9">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="02270395-d9b0-4e7b-a45e-a237790586a9">&lt;linkText&gt;</bpt><ept id="02270395-d9b0-4e7b-a45e-a237790586a9">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="7811e76e-fbe9-4304-85f0-0a4ddf3f92d2" xml:space="preserve">
+          <source>Delete a checkpoint</source>
+          <target state="translated">검사점을 삭제 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="ff3f8342-591a-4402-9023-6376bbd1db36" xml:space="preserve">
+          <source>The previous step has probably given you a hint about what we'll do next.</source>
+          <target state="translated">아마도 이전 단계 다음 하죠 기능에 대 한 힌트를 제공 했습니다.</target>         
+        </trans-unit>
+        <trans-unit id="625d0bae-17dc-46c3-87c5-ba0147364c87" xml:space="preserve">
+          <source>We are going to delete the checkpoint that you just renamed.</source>
+          <target state="translated">이름을 바꾼 검사점을 삭제 하려면 하겠습니다.</target>         
+        </trans-unit>
+        <trans-unit id="3d58692c-f14b-4baa-9075-6f7eb58aabd0" xml:space="preserve">
+          <source>Right-click on the checkpoint named <bpt id="739365fa-e610-4e41-a5eb-8b49b427b2d8">&lt;strong&gt;</bpt>Delete me<ept id="739365fa-e610-4e41-a5eb-8b49b427b2d8">&lt;/strong&gt;</ept> and click <bpt id="bfb1369d-a9e9-4e6a-8000-c08bfa2f70ac">&lt;strong&gt;</bpt>Delete checkpoint<ept id="bfb1369d-a9e9-4e6a-8000-c08bfa2f70ac">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">명명 된 검사점에서 마우스 오른쪽 단추로 클릭 <bpt id="739365fa-e610-4e41-a5eb-8b49b427b2d8">&lt;strong&gt;</bpt>me 삭제<ept id="739365fa-e610-4e41-a5eb-8b49b427b2d8">&lt;/strong&gt;</ept> 클릭 하 고 <bpt id="bfb1369d-a9e9-4e6a-8000-c08bfa2f70ac">&lt;strong&gt;</bpt>Delete 검사점<ept id="bfb1369d-a9e9-4e6a-8000-c08bfa2f70ac">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="fcbf756e-dbe5-44ce-a1e0-56c06f223c60" xml:space="preserve">
+          <source><bpt id="0bdfd8ae-6363-434e-a03d-a505b421d0e1">&lt;linkText&gt;</bpt><ept id="0bdfd8ae-6363-434e-a03d-a505b421d0e1">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="0bdfd8ae-6363-434e-a03d-a505b421d0e1">&lt;linkText&gt;</bpt><ept id="0bdfd8ae-6363-434e-a03d-a505b421d0e1">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="2b0e3254-989f-464e-98c5-e569f2ca78a8" xml:space="preserve">
+          <source>In the warning dialog, click <bpt id="4032d1fb-8547-465c-bef4-c0751bb3c8a1">&lt;strong&gt;</bpt>Delete<ept id="4032d1fb-8547-465c-bef4-c0751bb3c8a1">&lt;/strong&gt;</ept>.</source>
+          <target state="translated">경고 대화 상자에서 클릭 <bpt id="4032d1fb-8547-465c-bef4-c0751bb3c8a1">&lt;strong&gt;</bpt>삭제<ept id="4032d1fb-8547-465c-bef4-c0751bb3c8a1">&lt;/strong&gt;</ept>.</target>         
+        </trans-unit>
+        <trans-unit id="4412bcaf-0bb7-4170-add6-046e2b976eb3" xml:space="preserve">
+          <source><bpt id="dc0785bf-4915-406d-afc0-65c272ea8256">&lt;linkText&gt;</bpt><ept id="dc0785bf-4915-406d-afc0-65c272ea8256">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="dc0785bf-4915-406d-afc0-65c272ea8256">&lt;linkText&gt;</bpt><ept id="dc0785bf-4915-406d-afc0-65c272ea8256">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="2cbee288-e82c-45fd-989c-3036dc890656" xml:space="preserve">
+          <source>After the checkpoint is deleted, your list should look something like this:</source>
+          <target state="translated">검사점이 삭제 된 후 목록에 코드는 다음과 같아야 합니다.</target>         
+        </trans-unit>
+        <trans-unit id="9f87cd92-aaaf-4807-b584-c31343d8389e" xml:space="preserve">
+          <source><bpt id="4869e108-ce2f-4eb4-94eb-3855fa581674">&lt;linkText&gt;</bpt><ept id="4869e108-ce2f-4eb4-94eb-3855fa581674">&lt;/linkText&gt;</ept></source>
+          <target state="translated"><bpt id="4869e108-ce2f-4eb4-94eb-3855fa581674">&lt;linkText&gt;</bpt><ept id="4869e108-ce2f-4eb4-94eb-3855fa581674">&lt;/linkText&gt;</ept></target>         
+        </trans-unit>
+        <trans-unit id="423007a9-ea60-47df-8613-79e214a6036b" xml:space="preserve">
+          <source>Next Step:</source>
+          <target state="translated">다음 단계:</target>         
+        </trans-unit>
+        <trans-unit id="d276fb81-4c66-4d5e-b867-ed72f8f1cad9" xml:space="preserve">
+          <source><bpt id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId1">&lt;linkText&gt;</bpt>Step 7: Export and import a virtual machine<ept id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId1">&lt;/linkText&gt;</ept><bpt id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId2">&lt;title&gt;</bpt><ept id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="translated"><bpt id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId1">&lt;linkText&gt;</bpt>7 단계: 내보내기 및 가상 컴퓨터를 가져오려면<ept id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId1">&lt;/linkText&gt;</ept><bpt id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId2">&lt;title&gt;</bpt><ept id="18c4982f-28e2-4881-b002-0c84b7b33e61CapsExtId2">&lt;/title&gt;</ept></target>         
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
