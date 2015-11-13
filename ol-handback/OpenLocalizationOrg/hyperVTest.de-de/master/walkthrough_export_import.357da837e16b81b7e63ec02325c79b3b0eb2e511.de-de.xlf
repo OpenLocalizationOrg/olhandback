@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="54cb0c0e-7dee-4fbd-93cf-630a3fb0e9d0" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="54cb0c0e-7dee-4fbd-93cf-630a3fb0e9d0" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">53d997b02de228f6adadd28a761ddfc313d31b17</olfilehash>
+    </header>
+    <body>
+      <group id="8c967e34-bf3d-4728-8824-a70130027060">
+        <trans-unit id="dc0828b8-6b8e-4b16-99ba-028e33d9eb63" xml:space="preserve">
+          <source>ms.ContentId: B971C429-CEF0-4DAB-8456-3B08AEC0C233</source>
+          <target state="new">ms.ContentId: B971C429-CEF0-4DAB-8456-3B08AEC0C233</target>
+        </trans-unit>
+        <trans-unit id="31676cb6-b904-4e76-a158-2372df06f950" xml:space="preserve">
+          <source>title: Step 7: Export and import a virtual machine</source>
+          <target state="new">title: Step 7: Export and import a virtual machine</target>
+        </trans-unit>
+        <trans-unit id="2df63a9e-3715-416d-9faa-0e043bcc99e6" xml:space="preserve">
+          <source>Step 7: Export and import a virtual machine</source>
+          <target state="new">Step 7: Export and import a virtual machine</target>
+        </trans-unit>
+        <trans-unit id="a4895b9f-9b24-4c43-ae15-e7b6f3b4df47" xml:space="preserve">
+          <source>12-Nov update.Test update to validate Bug 451748.</source>
+          <target state="new">12-Nov update.Test update to validate Bug 451748.</target>
+        </trans-unit>
+        <trans-unit id="f8615267-f42f-4893-8984-476ee753954d" xml:space="preserve">
+          <source>You can quickly copy a virtual machine or move a virtual machine by using the export and import functionality.</source>
+          <target state="new">You can quickly copy a virtual machine or move a virtual machine by using the export and import functionality.</target>
+        </trans-unit>
+        <trans-unit id="9ff5a529-190b-4645-83a3-d56b9d23649a" xml:space="preserve">
+          <source>Export the VM</source>
+          <target state="new">Export the VM</target>
+        </trans-unit>
+        <trans-unit id="e50bc3cc-6764-4c1e-92ac-a24e6f781076" xml:space="preserve">
+          <source>Exporting a virtual machine exports all of the pieces of the VM, including the checkpoints.</source>
+          <target state="new">Exporting a virtual machine exports all of the pieces of the VM, including the checkpoints.</target>
+        </trans-unit>
+        <trans-unit id="cf503825-7a67-439c-9ecb-cbeb015acba6" xml:space="preserve">
+          <source>In Hyper-V Manager, right-click the virtual machine and select <bpt id="bf4dc8df-cd29-459c-8e21-4775849568ce">&lt;strong&gt;</bpt>Export<ept id="bf4dc8df-cd29-459c-8e21-4775849568ce">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In Hyper-V Manager, right-click the virtual machine and select <bpt id="bf4dc8df-cd29-459c-8e21-4775849568ce">&lt;strong&gt;</bpt>Export<ept id="bf4dc8df-cd29-459c-8e21-4775849568ce">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="677ea1ee-351c-415b-9df0-601f033df97e" xml:space="preserve">
+          <source><bpt id="a4221c8e-4140-4a50-9ad3-f27978e6e1b4">&lt;linkText&gt;</bpt><ept id="a4221c8e-4140-4a50-9ad3-f27978e6e1b4">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="a4221c8e-4140-4a50-9ad3-f27978e6e1b4">&lt;linkText&gt;</bpt><ept id="a4221c8e-4140-4a50-9ad3-f27978e6e1b4">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="a9f0fa09-6054-4805-bf26-3a1ac71796c6" xml:space="preserve">
+          <source>Click <bpt id="3f4912d8-87f4-4eb4-b9b4-dfb7b020728e">&lt;strong&gt;</bpt>Browse<ept id="3f4912d8-87f4-4eb4-b9b4-dfb7b020728e">&lt;/strong&gt;</ept> in the dialog box and navigate to  C:\Users\Public and then click <bpt id="37a02f04-5b63-4dc9-ba33-840b25a01b1b">&lt;strong&gt;</bpt>Select Folder<ept id="37a02f04-5b63-4dc9-ba33-840b25a01b1b">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Click <bpt id="3f4912d8-87f4-4eb4-b9b4-dfb7b020728e">&lt;strong&gt;</bpt>Browse<ept id="3f4912d8-87f4-4eb4-b9b4-dfb7b020728e">&lt;/strong&gt;</ept> in the dialog box and navigate to  C:\Users\Public and then click <bpt id="37a02f04-5b63-4dc9-ba33-840b25a01b1b">&lt;strong&gt;</bpt>Select Folder<ept id="37a02f04-5b63-4dc9-ba33-840b25a01b1b">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="04f5d0b9-2d8d-4e72-b036-7ca8dccdd556" xml:space="preserve">
+          <source>In the <bpt id="11fbcacb-5ed6-46a1-bc69-1294fed02701">&lt;strong&gt;</bpt>Export Virtual Machine<ept id="11fbcacb-5ed6-46a1-bc69-1294fed02701">&lt;/strong&gt;</ept> dialog, make sure the path looks okay and then click <bpt id="613a5c59-8f13-4e1c-8e69-8b9f37c932a9">&lt;strong&gt;</bpt>Export<ept id="613a5c59-8f13-4e1c-8e69-8b9f37c932a9">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="11fbcacb-5ed6-46a1-bc69-1294fed02701">&lt;strong&gt;</bpt>Export Virtual Machine<ept id="11fbcacb-5ed6-46a1-bc69-1294fed02701">&lt;/strong&gt;</ept> dialog, make sure the path looks okay and then click <bpt id="613a5c59-8f13-4e1c-8e69-8b9f37c932a9">&lt;strong&gt;</bpt>Export<ept id="613a5c59-8f13-4e1c-8e69-8b9f37c932a9">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="3f031c32-d08d-44cb-a32f-c6b00eaac7be" xml:space="preserve">
+          <source><bpt id="2f14aac5-7b37-46f8-b1f2-39b8de420cbe">&lt;linkText&gt;</bpt><ept id="2f14aac5-7b37-46f8-b1f2-39b8de420cbe">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="2f14aac5-7b37-46f8-b1f2-39b8de420cbe">&lt;linkText&gt;</bpt><ept id="2f14aac5-7b37-46f8-b1f2-39b8de420cbe">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="f3a7f1c8-784f-4292-9285-ebe5c73470ba" xml:space="preserve">
+          <source>While the VM is being exported, you can see the progress in the Status section:</source>
+          <target state="new">While the VM is being exported, you can see the progress in the Status section:</target>
+        </trans-unit>
+        <trans-unit id="567c3a27-fc69-4546-b76f-fa4a1464d210" xml:space="preserve">
+          <source><bpt id="e1755105-b7ec-4170-86c0-5f38873fbfff">&lt;linkText&gt;</bpt><ept id="e1755105-b7ec-4170-86c0-5f38873fbfff">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="e1755105-b7ec-4170-86c0-5f38873fbfff">&lt;linkText&gt;</bpt><ept id="e1755105-b7ec-4170-86c0-5f38873fbfff">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="4b8a016a-f1ee-454a-8c9f-64334428be97" xml:space="preserve">
+          <source>Did the export work?</source>
+          <target state="new">Did the export work?</target>
+        </trans-unit>
+        <trans-unit id="c6c839d4-97cf-46c9-a671-d63fed442a30" xml:space="preserve">
+          <source>To verify that the virtual machine was exported, right-click on your <bpt id="d89f243e-0d8d-43e3-a0bc-9961c4420eb7">&lt;strong&gt;</bpt>Start<ept id="d89f243e-0d8d-43e3-a0bc-9961c4420eb7">&lt;/strong&gt;</ept> menu and select <bpt id="a03baf6e-9377-48a3-a15d-5064b198bef3">&lt;strong&gt;</bpt>File Explorer<ept id="a03baf6e-9377-48a3-a15d-5064b198bef3">&lt;/strong&gt;</ept>.</source>
+          <target state="new">To verify that the virtual machine was exported, right-click on your <bpt id="d89f243e-0d8d-43e3-a0bc-9961c4420eb7">&lt;strong&gt;</bpt>Start<ept id="d89f243e-0d8d-43e3-a0bc-9961c4420eb7">&lt;/strong&gt;</ept> menu and select <bpt id="a03baf6e-9377-48a3-a15d-5064b198bef3">&lt;strong&gt;</bpt>File Explorer<ept id="a03baf6e-9377-48a3-a15d-5064b198bef3">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="d434fd91-2c14-45ef-83cf-685addface5c" xml:space="preserve">
+          <source>Navigate to C:\Users\Public\Windows Walkthrough VM.</source>
+          <target state="new">Navigate to C:\Users\Public\Windows Walkthrough VM.</target>
+        </trans-unit>
+        <trans-unit id="66de5cd4-6609-48f7-a539-705880aafe72" xml:space="preserve">
+          <source>You should see another folder called Windows Walkthrough VM and inside that folder should be three folders with the files for your exported virtual machine:</source>
+          <target state="new">You should see another folder called Windows Walkthrough VM and inside that folder should be three folders with the files for your exported virtual machine:</target>
+        </trans-unit>
+        <trans-unit id="5493d575-cce3-43ca-acb8-bb90e97ad43d" xml:space="preserve">
+          <source>Snapshots</source>
+          <target state="new">Snapshots</target>
+        </trans-unit>
+        <trans-unit id="650747bc-185b-4f14-870f-6670e859c7be" xml:space="preserve">
+          <source>Virtual Hard Disks</source>
+          <target state="new">Virtual Hard Disks</target>
+        </trans-unit>
+        <trans-unit id="a1cd7c5a-03e7-4ff5-865d-a3949f603971" xml:space="preserve">
+          <source>Virtual Machines</source>
+          <target state="new">Virtual Machines</target>
+        </trans-unit>
+        <trans-unit id="46f795af-6882-443e-970c-0bddc2c6bbb2" xml:space="preserve">
+          <source><bpt id="dfd763c2-9ae7-4fb2-8f93-a7ce64dc0a65">&lt;linkText&gt;</bpt><ept id="dfd763c2-9ae7-4fb2-8f93-a7ce64dc0a65">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="dfd763c2-9ae7-4fb2-8f93-a7ce64dc0a65">&lt;linkText&gt;</bpt><ept id="dfd763c2-9ae7-4fb2-8f93-a7ce64dc0a65">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="044bd3a1-93c3-4c83-b2e9-82319a84e660" xml:space="preserve">
+          <source>Import the VM</source>
+          <target state="new">Import the VM</target>
+        </trans-unit>
+        <trans-unit id="8520df1b-02d6-4e99-81e8-46a6134c3faf" xml:space="preserve">
+          <source>Before we import the VM, we are going to delete the original VM.</source>
+          <target state="new">Before we import the VM, we are going to delete the original VM.</target>
+        </trans-unit>
+        <trans-unit id="552208de-beb0-47b2-8cb6-c73b2b90a9dd" xml:space="preserve">
+          <source>Right-click on the VM and select <bpt id="cb6d9a64-8fa6-4622-ad29-b6b51ec44a29">&lt;strong&gt;</bpt>Delete<ept id="cb6d9a64-8fa6-4622-ad29-b6b51ec44a29">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click on the VM and select <bpt id="cb6d9a64-8fa6-4622-ad29-b6b51ec44a29">&lt;strong&gt;</bpt>Delete<ept id="cb6d9a64-8fa6-4622-ad29-b6b51ec44a29">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="311399dc-8c8b-434e-b2ff-49bbfb88c78b" xml:space="preserve">
+          <source>In <bpt id="0cdb53ce-f84a-4f0b-a0cc-d54e8d71e74c">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="0cdb53ce-f84a-4f0b-a0cc-d54e8d71e74c">&lt;/strong&gt;</ept>, in the <bpt id="30635c06-8d52-446c-8d95-ef3a1b1e1836">&lt;strong&gt;</bpt>Action<ept id="30635c06-8d52-446c-8d95-ef3a1b1e1836">&lt;/strong&gt;</ept> menu, click <bpt id="3ad434f1-122c-4861-8222-6bd83d5eeb72">&lt;strong&gt;</bpt>Import Virtual Machine<ept id="3ad434f1-122c-4861-8222-6bd83d5eeb72">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In <bpt id="0cdb53ce-f84a-4f0b-a0cc-d54e8d71e74c">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="0cdb53ce-f84a-4f0b-a0cc-d54e8d71e74c">&lt;/strong&gt;</ept>, in the <bpt id="30635c06-8d52-446c-8d95-ef3a1b1e1836">&lt;strong&gt;</bpt>Action<ept id="30635c06-8d52-446c-8d95-ef3a1b1e1836">&lt;/strong&gt;</ept> menu, click <bpt id="3ad434f1-122c-4861-8222-6bd83d5eeb72">&lt;strong&gt;</bpt>Import Virtual Machine<ept id="3ad434f1-122c-4861-8222-6bd83d5eeb72">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="bf5998c0-e084-4fda-b7ce-967419c29b04" xml:space="preserve">
+          <source>In the <bpt id="3b3cec5c-d634-48b2-b5ec-13197b19b026">&lt;strong&gt;</bpt>Locate Folder<ept id="3b3cec5c-d634-48b2-b5ec-13197b19b026">&lt;/strong&gt;</ept> section, click Browse and navigate to C:\Users\Public\Windows Walkthrough VM  and then click <bpt id="30cf0549-8d11-4282-9fb9-a2c95ed21f9a">&lt;strong&gt;</bpt>Next<ept id="30cf0549-8d11-4282-9fb9-a2c95ed21f9a">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="3b3cec5c-d634-48b2-b5ec-13197b19b026">&lt;strong&gt;</bpt>Locate Folder<ept id="3b3cec5c-d634-48b2-b5ec-13197b19b026">&lt;/strong&gt;</ept> section, click Browse and navigate to C:\Users\Public\Windows Walkthrough VM  and then click <bpt id="30cf0549-8d11-4282-9fb9-a2c95ed21f9a">&lt;strong&gt;</bpt>Next<ept id="30cf0549-8d11-4282-9fb9-a2c95ed21f9a">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="cdbcc08b-ff63-4cac-8d4a-74a5f37b27c1" xml:space="preserve">
+          <source>In the <bpt id="3409333a-a047-42d4-90c2-c8fdddd3cf1f">&lt;strong&gt;</bpt>Select virtual machine to import<ept id="3409333a-a047-42d4-90c2-c8fdddd3cf1f">&lt;/strong&gt;</ept> screen click <bpt id="c1bb9416-b286-4468-a7fd-66090c386cc2">&lt;strong&gt;</bpt>Next<ept id="c1bb9416-b286-4468-a7fd-66090c386cc2">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="3409333a-a047-42d4-90c2-c8fdddd3cf1f">&lt;strong&gt;</bpt>Select virtual machine to import<ept id="3409333a-a047-42d4-90c2-c8fdddd3cf1f">&lt;/strong&gt;</ept> screen click <bpt id="c1bb9416-b286-4468-a7fd-66090c386cc2">&lt;strong&gt;</bpt>Next<ept id="c1bb9416-b286-4468-a7fd-66090c386cc2">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="0c7aad4f-6798-4513-94ca-def6abd071df" xml:space="preserve">
+          <source>In the <bpt id="0c474388-9ab9-446e-8d0f-5850eb953205">&lt;strong&gt;</bpt>Choose Import Type<ept id="0c474388-9ab9-446e-8d0f-5850eb953205">&lt;/strong&gt;</ept> section, select <bpt id="f126ff86-db71-40d8-97e1-4ae8c404ca0a">&lt;strong&gt;</bpt>Register the virtual machine in place<ept id="f126ff86-db71-40d8-97e1-4ae8c404ca0a">&lt;/strong&gt;</ept> and then click <bpt id="df5cb7f6-9208-4a58-a753-af55e8164d61">&lt;strong&gt;</bpt>Next<ept id="df5cb7f6-9208-4a58-a753-af55e8164d61">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="0c474388-9ab9-446e-8d0f-5850eb953205">&lt;strong&gt;</bpt>Choose Import Type<ept id="0c474388-9ab9-446e-8d0f-5850eb953205">&lt;/strong&gt;</ept> section, select <bpt id="f126ff86-db71-40d8-97e1-4ae8c404ca0a">&lt;strong&gt;</bpt>Register the virtual machine in place<ept id="f126ff86-db71-40d8-97e1-4ae8c404ca0a">&lt;/strong&gt;</ept> and then click <bpt id="df5cb7f6-9208-4a58-a753-af55e8164d61">&lt;strong&gt;</bpt>Next<ept id="df5cb7f6-9208-4a58-a753-af55e8164d61">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="63e1d2e7-e158-483b-8b89-982997ac1589" xml:space="preserve">
+          <source>In the <bpt id="626d5484-3a61-4eed-a117-b6420587c7f3">&lt;strong&gt;</bpt>Choose Destination<ept id="626d5484-3a61-4eed-a117-b6420587c7f3">&lt;/strong&gt;</ept> section, leave the default and click <bpt id="858bc26f-fd98-4523-969b-8a7b217ca73f">&lt;strong&gt;</bpt>Next<ept id="858bc26f-fd98-4523-969b-8a7b217ca73f">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="626d5484-3a61-4eed-a117-b6420587c7f3">&lt;strong&gt;</bpt>Choose Destination<ept id="626d5484-3a61-4eed-a117-b6420587c7f3">&lt;/strong&gt;</ept> section, leave the default and click <bpt id="858bc26f-fd98-4523-969b-8a7b217ca73f">&lt;strong&gt;</bpt>Next<ept id="858bc26f-fd98-4523-969b-8a7b217ca73f">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="4e310624-b8ee-4fdd-942d-38f16830b033" xml:space="preserve">
+          <source>In Choose Storage folders, leave the default path and click <bpt id="20770519-3c92-4bc0-a64d-20bbc51fe4d4">&lt;strong&gt;</bpt>Next<ept id="20770519-3c92-4bc0-a64d-20bbc51fe4d4">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In Choose Storage folders, leave the default path and click <bpt id="20770519-3c92-4bc0-a64d-20bbc51fe4d4">&lt;strong&gt;</bpt>Next<ept id="20770519-3c92-4bc0-a64d-20bbc51fe4d4">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="6fcbf57c-0544-4e89-aa02-1171d3909d7a" xml:space="preserve">
+          <source>On the summary page you'll see a list of the paths where the new VM files will be located.</source>
+          <target state="new">On the summary page you'll see a list of the paths where the new VM files will be located.</target>
+        </trans-unit>
+        <trans-unit id="636cddc8-32bb-4011-a406-48efa99f3832" xml:space="preserve">
+          <source>Click <bpt id="9db96868-4019-470b-8af6-b5da6aa20608">&lt;strong&gt;</bpt>Finish<ept id="9db96868-4019-470b-8af6-b5da6aa20608">&lt;/strong&gt;</ept> to start the import.</source>
+          <target state="new">Click <bpt id="9db96868-4019-470b-8af6-b5da6aa20608">&lt;strong&gt;</bpt>Finish<ept id="9db96868-4019-470b-8af6-b5da6aa20608">&lt;/strong&gt;</ept> to start the import.</target>
+        </trans-unit>
+        <trans-unit id="bfbd090d-4b23-4621-bfb6-6f446d3aee81" xml:space="preserve">
+          <source>Did the import work?</source>
+          <target state="new">Did the import work?</target>
+        </trans-unit>
+        <trans-unit id="a4ae773f-93f3-424c-bd1c-310c50472fc2" xml:space="preserve">
+          <source>To make sure the import worked, just double-click the VM in <bpt id="a1feee5b-1a7a-450a-a350-500d38f9a976">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="a1feee5b-1a7a-450a-a350-500d38f9a976">&lt;/strong&gt;</ept> and launch VMConnect to check the VM.</source>
+          <target state="new">To make sure the import worked, just double-click the VM in <bpt id="a1feee5b-1a7a-450a-a350-500d38f9a976">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="a1feee5b-1a7a-450a-a350-500d38f9a976">&lt;/strong&gt;</ept> and launch VMConnect to check the VM.</target>
+        </trans-unit>
+        <trans-unit id="17a3d730-4aa8-4fbf-acd9-88ea10708e76" xml:space="preserve">
+          <source>Next Step:</source>
+          <target state="new">Next Step:</target>
+        </trans-unit>
+        <trans-unit id="b122e158-fc60-4384-be92-c1e136e8e45d" xml:space="preserve">
+          <source><bpt id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId1">&lt;linkText&gt;</bpt>Step 8: Experiment with Windows Powershell<ept id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId2">&lt;title&gt;</bpt><ept id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId1">&lt;linkText&gt;</bpt>Step 8: Experiment with Windows Powershell<ept id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId2">&lt;title&gt;</bpt><ept id="9c2213c7-a9d4-49b5-ac91-639dc8f9da26CapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
