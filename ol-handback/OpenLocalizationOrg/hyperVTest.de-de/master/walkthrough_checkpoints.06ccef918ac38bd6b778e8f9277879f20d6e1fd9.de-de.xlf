@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="de-de" original="foo.file" tool-id="d782e09f-2f64-4e75-af2b-e49476c619d5" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="d782e09f-2f64-4e75-af2b-e49476c619d5" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">fe46862ed0c0597d12f0ad1f316227e9e09301d6</olfilehash>
+    </header>
+    <body>
+      <group id="72165e1e-624f-4740-a481-31c417118b70">
+        <trans-unit id="5697a0f1-7f20-4d2c-a297-2ea051b32be5" xml:space="preserve">
+          <source>ms.ContentId: FBBAADE6-F1A1-4B5C-8FD2-BDCA3FCF81CA</source>
+          <target state="new">ms.ContentId: FBBAADE6-F1A1-4B5C-8FD2-BDCA3FCF81CA</target>
+        </trans-unit>
+        <trans-unit id="0b27156d-ab65-4d8d-9105-fefad962f386" xml:space="preserve">
+          <source>title: Step 6: Experiment with checkpoints</source>
+          <target state="new">title: Step 6: Experiment with checkpoints</target>
+        </trans-unit>
+        <trans-unit id="6f23fa6a-5526-4010-8910-0162a2e76c9f" xml:space="preserve">
+          <source>Step 6: Experiment with checkpoints</source>
+          <target state="new">Step 6: Experiment with checkpoints</target>
+        </trans-unit>
+        <trans-unit id="b4c66c85-269f-4598-89c2-434652c97d6b" xml:space="preserve">
+          <source>20-Nov update, Part2.</source>
+          <target state="new">テストアップデート (ver2)：20-Nov update, Part2.</target>
+        </trans-unit>
+        <trans-unit id="216dc8c2-1a56-4416-a268-ebb34199108e" xml:space="preserve">
+          <source>Checkpoints are a helpful tool when you want to save the present state of a virtual machine before making a change such as applying an update, installing software, or changing a setting.</source>
+          <target state="new">Checkpoints are a helpful tool when you want to save the present state of a virtual machine before making a change such as applying an update, installing software, or changing a setting.</target>
+        </trans-unit>
+        <trans-unit id="9811e002-a902-4e78-a00a-afaedd832a31" xml:space="preserve">
+          <source>If the change causes issues, you can restore the checkpoint and go back.</source>
+          <target state="new">If the change causes issues, you can restore the checkpoint and go back.</target>
+        </trans-unit>
+        <trans-unit id="32377a4c-0db3-4742-bca6-8beb35c9e1bb" xml:space="preserve">
+          <source>There are two types of checkpoints:</source>
+          <target state="new">There are two types of checkpoints:</target>
+        </trans-unit>
+        <trans-unit id="1ca0111a-5321-4c00-94ae-5acb6b9e6397" xml:space="preserve">
+          <source><bpt id="be251f7f-011c-46f8-abda-a7827cfc08b1">&lt;strong&gt;</bpt>Production checkpoints<ept id="be251f7f-011c-46f8-abda-a7827cfc08b1">&lt;/strong&gt;</ept>: Used mainly on servers in production environments.</source>
+          <target state="new"><bpt id="be251f7f-011c-46f8-abda-a7827cfc08b1">&lt;strong&gt;</bpt>Production checkpoints<ept id="be251f7f-011c-46f8-abda-a7827cfc08b1">&lt;/strong&gt;</ept>: Used mainly on servers in production environments.</target>
+        </trans-unit>
+        <trans-unit id="227baf8b-b2e0-4b39-acd8-f3316ed1f4c0" xml:space="preserve">
+          <source><bpt id="26bca9f8-3940-4109-8d42-608e15878215">&lt;strong&gt;</bpt>Standard checkpoints<ept id="26bca9f8-3940-4109-8d42-608e15878215">&lt;/strong&gt;</ept>: Used in development or testing environments</source>
+          <target state="new"><bpt id="26bca9f8-3940-4109-8d42-608e15878215">&lt;strong&gt;</bpt>Standard checkpoints<ept id="26bca9f8-3940-4109-8d42-608e15878215">&lt;/strong&gt;</ept>: Used in development or testing environments</target>
+        </trans-unit>
+        <trans-unit id="a9f7b216-2991-46a6-8d69-f53d1691494b" xml:space="preserve">
+          <source>Production checkpoints are the default for Hyper-V on Windows 10.</source>
+          <target state="new">Production checkpoints are the default for Hyper-V on Windows 10.</target>
+        </trans-unit>
+        <trans-unit id="8f6259ae-69e1-4bb8-810a-83cd795cacab" xml:space="preserve">
+          <source>Change the checkpoint type</source>
+          <target state="new">Change the checkpoint type</target>
+        </trans-unit>
+        <trans-unit id="7324a1a9-0a0a-47a3-b06f-92a724898c1c" xml:space="preserve">
+          <source>We'll start by trying out the older style of checkpoints, <bpt id="3b4c8b5f-2571-4ec2-81a9-3e5431461313">&lt;strong&gt;</bpt>standard checkpoints<ept id="3b4c8b5f-2571-4ec2-81a9-3e5431461313">&lt;/strong&gt;</ept>.</source>
+          <target state="new">We'll start by trying out the older style of checkpoints, <bpt id="3b4c8b5f-2571-4ec2-81a9-3e5431461313">&lt;strong&gt;</bpt>standard checkpoints<ept id="3b4c8b5f-2571-4ec2-81a9-3e5431461313">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="9645b996-3167-4a96-a606-67e4e2c9d445" xml:space="preserve">
+          <source>Since production checkpoints are the default, we need to go into the settings for the VM and change the checkpoint type.</source>
+          <target state="new">Since production checkpoints are the default, we need to go into the settings for the VM and change the checkpoint type.</target>
+        </trans-unit>
+        <trans-unit id="1b5b3e68-9deb-49d8-a4bd-3cc1b1e72ebc" xml:space="preserve">
+          <source>Right-click on <bpt id="ad1f0f78-f52b-446f-8952-52c550d811ca">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="ad1f0f78-f52b-446f-8952-52c550d811ca">&lt;/strong&gt;</ept> and select <bpt id="0acc4b5d-2091-4088-9c1f-41ceee13ce30">&lt;strong&gt;</bpt>Settings<ept id="0acc4b5d-2091-4088-9c1f-41ceee13ce30">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click on <bpt id="ad1f0f78-f52b-446f-8952-52c550d811ca">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="ad1f0f78-f52b-446f-8952-52c550d811ca">&lt;/strong&gt;</ept> and select <bpt id="0acc4b5d-2091-4088-9c1f-41ceee13ce30">&lt;strong&gt;</bpt>Settings<ept id="0acc4b5d-2091-4088-9c1f-41ceee13ce30">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="074cb744-bbd9-42b8-953d-0ab8baa99ef6" xml:space="preserve">
+          <source>In the <bpt id="676502c1-b069-4410-92c9-c5c62c27dac8">&lt;strong&gt;</bpt>Management<ept id="676502c1-b069-4410-92c9-c5c62c27dac8">&lt;/strong&gt;</ept> section, select <bpt id="ff54af2e-c68e-4374-aba3-48fc32bf52a2">&lt;strong&gt;</bpt>Checkpoints<ept id="ff54af2e-c68e-4374-aba3-48fc32bf52a2">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="676502c1-b069-4410-92c9-c5c62c27dac8">&lt;strong&gt;</bpt>Management<ept id="676502c1-b069-4410-92c9-c5c62c27dac8">&lt;/strong&gt;</ept> section, select <bpt id="ff54af2e-c68e-4374-aba3-48fc32bf52a2">&lt;strong&gt;</bpt>Checkpoints<ept id="ff54af2e-c68e-4374-aba3-48fc32bf52a2">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="96ec3448-6181-42a9-a4e8-628ca7add7c6" xml:space="preserve">
+          <source>Select <bpt id="d4a3d530-cde6-42e2-9c4d-abc89d0ba347">&lt;strong&gt;</bpt>Standard checkpoints<ept id="d4a3d530-cde6-42e2-9c4d-abc89d0ba347">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Select <bpt id="d4a3d530-cde6-42e2-9c4d-abc89d0ba347">&lt;strong&gt;</bpt>Standard checkpoints<ept id="d4a3d530-cde6-42e2-9c4d-abc89d0ba347">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="47268455-ca40-4aa7-b3d5-d88bbdb567ee" xml:space="preserve">
+          <source>The dialog should look like this:</source>
+          <target state="new">The dialog should look like this:</target>
+        </trans-unit>
+        <trans-unit id="86e74116-7481-4f40-9ab6-0f522ffa4337" xml:space="preserve">
+          <source><bpt id="e5a0c520-5105-4f35-9bd4-ba6ce76508a2">&lt;linkText&gt;</bpt><ept id="e5a0c520-5105-4f35-9bd4-ba6ce76508a2">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="e5a0c520-5105-4f35-9bd4-ba6ce76508a2">&lt;linkText&gt;</bpt><ept id="e5a0c520-5105-4f35-9bd4-ba6ce76508a2">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="289bb17d-e865-4f0d-9570-de7b4226f357" xml:space="preserve">
+          <source>Click <bpt id="c02ae375-0165-4887-82ca-afa9c1e8bc4a">&lt;strong&gt;</bpt>OK<ept id="c02ae375-0165-4887-82ca-afa9c1e8bc4a">&lt;/strong&gt;</ept> to close the dialog box.</source>
+          <target state="new">Click <bpt id="c02ae375-0165-4887-82ca-afa9c1e8bc4a">&lt;strong&gt;</bpt>OK<ept id="c02ae375-0165-4887-82ca-afa9c1e8bc4a">&lt;/strong&gt;</ept> to close the dialog box.</target>
+        </trans-unit>
+        <trans-unit id="b6a754f3-78e2-46c1-ae6c-424a5680e74c" xml:space="preserve">
+          <source>Open Notepad to test checkpoints</source>
+          <target state="new">Open Notepad to test checkpoints</target>
+        </trans-unit>
+        <trans-unit id="6bf8c10a-9967-4a5d-95e5-238e5a10a02c" xml:space="preserve">
+          <source>In order to see what happens with each type of checkpoint, we'll run an application in the VM.</source>
+          <target state="new">In order to see what happens with each type of checkpoint, we'll run an application in the VM.</target>
+        </trans-unit>
+        <trans-unit id="17ab233e-5593-4051-9d13-8fe2cc88c555" xml:space="preserve">
+          <source>Right-click on <bpt id="16aceff5-c8d3-4a6f-9d1c-67a204635cb9">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="16aceff5-c8d3-4a6f-9d1c-67a204635cb9">&lt;/strong&gt;</ept> and select <bpt id="5f690296-21c7-495e-ba29-c058b5c566c3">&lt;strong&gt;</bpt>Connect<ept id="5f690296-21c7-495e-ba29-c058b5c566c3">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click on <bpt id="16aceff5-c8d3-4a6f-9d1c-67a204635cb9">&lt;strong&gt;</bpt>Windows Walkthrough VM<ept id="16aceff5-c8d3-4a6f-9d1c-67a204635cb9">&lt;/strong&gt;</ept> and select <bpt id="5f690296-21c7-495e-ba29-c058b5c566c3">&lt;strong&gt;</bpt>Connect<ept id="5f690296-21c7-495e-ba29-c058b5c566c3">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="2c12abbf-89bf-4639-b401-53a88d4a1293" xml:space="preserve">
+          <source>In the virtual machine, open <bpt id="0eb2a33b-62bc-4a04-8fbb-e85e05a1b21c">&lt;strong&gt;</bpt>Notepad<ept id="0eb2a33b-62bc-4a04-8fbb-e85e05a1b21c">&lt;/strong&gt;</ept> by clicking on the <bpt id="d0822b1d-7e99-4920-8444-774dfe92770e">&lt;strong&gt;</bpt>Start<ept id="d0822b1d-7e99-4920-8444-774dfe92770e">&lt;/strong&gt;</ept> menu and typing <bpt id="a9003f89-c798-4323-bd64-a6ee7325f6ab">&lt;strong&gt;</bpt>Notepad<ept id="a9003f89-c798-4323-bd64-a6ee7325f6ab">&lt;/strong&gt;</ept> and then select it from the results.</source>
+          <target state="new">In the virtual machine, open <bpt id="0eb2a33b-62bc-4a04-8fbb-e85e05a1b21c">&lt;strong&gt;</bpt>Notepad<ept id="0eb2a33b-62bc-4a04-8fbb-e85e05a1b21c">&lt;/strong&gt;</ept> by clicking on the <bpt id="d0822b1d-7e99-4920-8444-774dfe92770e">&lt;strong&gt;</bpt>Start<ept id="d0822b1d-7e99-4920-8444-774dfe92770e">&lt;/strong&gt;</ept> menu and typing <bpt id="a9003f89-c798-4323-bd64-a6ee7325f6ab">&lt;strong&gt;</bpt>Notepad<ept id="a9003f89-c798-4323-bd64-a6ee7325f6ab">&lt;/strong&gt;</ept> and then select it from the results.</target>
+        </trans-unit>
+        <trans-unit id="7464cb13-ec74-49f3-b9cc-9a1829336fa0" xml:space="preserve">
+          <source>In Notepad, type <bpt id="f9f614cf-1e41-4550-b4ad-88d02aeac184">&lt;strong&gt;</bpt>This is a test of checkpoints.<ept id="f9f614cf-1e41-4550-b4ad-88d02aeac184">&lt;/strong&gt;</ept> The file should look like this:</source>
+          <target state="new">In Notepad, type <bpt id="f9f614cf-1e41-4550-b4ad-88d02aeac184">&lt;strong&gt;</bpt>This is a test of checkpoints.<ept id="f9f614cf-1e41-4550-b4ad-88d02aeac184">&lt;/strong&gt;</ept> The file should look like this:</target>
+        </trans-unit>
+        <trans-unit id="a971843e-3619-458e-be3f-766935c6c0ae" xml:space="preserve">
+          <source><bpt id="4d859109-1928-40ea-926f-e81de2176773">&lt;linkText&gt;</bpt><ept id="4d859109-1928-40ea-926f-e81de2176773">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="4d859109-1928-40ea-926f-e81de2176773">&lt;linkText&gt;</bpt><ept id="4d859109-1928-40ea-926f-e81de2176773">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="4aa1785d-5854-4dcd-b7b6-dea0db989ad9" xml:space="preserve">
+          <source>Save the file as <bpt id="1dc4c53e-901a-403b-a529-f20fed57f930">&lt;strong&gt;</bpt>test.txt<ept id="1dc4c53e-901a-403b-a529-f20fed57f930">&lt;/strong&gt;</ept>, but don't close Notepad.</source>
+          <target state="new">Save the file as <bpt id="1dc4c53e-901a-403b-a529-f20fed57f930">&lt;strong&gt;</bpt>test.txt<ept id="1dc4c53e-901a-403b-a529-f20fed57f930">&lt;/strong&gt;</ept>, but don't close Notepad.</target>
+        </trans-unit>
+        <trans-unit id="6697097d-62a1-48fe-9218-9b862450f23a" xml:space="preserve">
+          <source>Leave it running in the virtual machine.</source>
+          <target state="new">Leave it running in the virtual machine.</target>
+        </trans-unit>
+        <trans-unit id="2767cdd4-1158-4b69-b7af-aef3d18d39ad" xml:space="preserve">
+          <source>Create a standard checkpoint</source>
+          <target state="new">Create a standard checkpoint</target>
+        </trans-unit>
+        <trans-unit id="82b31876-96af-4c01-a841-3bb55d137674" xml:space="preserve">
+          <source>To create the checkpoint, click on the <bpt id="4b0a3d62-8719-4d28-809e-b88f1877e453">&lt;linkText&gt;</bpt><ept id="4b0a3d62-8719-4d28-809e-b88f1877e453">&lt;/linkText&gt;</ept> <bpt id="ecd327f7-ff76-4b03-a1de-3243547acea7">&lt;strong&gt;</bpt>Checkpoint<ept id="ecd327f7-ff76-4b03-a1de-3243547acea7">&lt;/strong&gt;</ept> button in the menu bar.</source>
+          <target state="new">To create the checkpoint, click on the <bpt id="4b0a3d62-8719-4d28-809e-b88f1877e453">&lt;linkText&gt;</bpt><ept id="4b0a3d62-8719-4d28-809e-b88f1877e453">&lt;/linkText&gt;</ept> <bpt id="ecd327f7-ff76-4b03-a1de-3243547acea7">&lt;strong&gt;</bpt>Checkpoint<ept id="ecd327f7-ff76-4b03-a1de-3243547acea7">&lt;/strong&gt;</ept> button in the menu bar.</target>
+        </trans-unit>
+        <trans-unit id="edae856b-1120-40f9-9357-1ce4ae3fd623" xml:space="preserve">
+          <source>In the checkpoint name dialog, type <bpt id="ce9444ac-27b7-42dc-91bb-84bff79b2576">&lt;strong&gt;</bpt>Standard<ept id="ce9444ac-27b7-42dc-91bb-84bff79b2576">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the checkpoint name dialog, type <bpt id="ce9444ac-27b7-42dc-91bb-84bff79b2576">&lt;strong&gt;</bpt>Standard<ept id="ce9444ac-27b7-42dc-91bb-84bff79b2576">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="0a4b8fb3-cb8d-41e5-904f-c89de1120c43" xml:space="preserve">
+          <source>The dialog should look like this:</source>
+          <target state="new">The dialog should look like this:</target>
+        </trans-unit>
+        <trans-unit id="36cce831-4062-4b37-98dc-8ecf293e1e00" xml:space="preserve">
+          <source><bpt id="1e10e45c-51a7-422b-94bc-004cff268242">&lt;linkText&gt;</bpt><ept id="1e10e45c-51a7-422b-94bc-004cff268242">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="1e10e45c-51a7-422b-94bc-004cff268242">&lt;linkText&gt;</bpt><ept id="1e10e45c-51a7-422b-94bc-004cff268242">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="73ec8e0f-68d0-4333-8950-79b89094cec2" xml:space="preserve">
+          <source>When the process is complete, the checkpoint will appear under <bpt id="9db8ae21-b43f-4274-ba25-f4d869cad83d">&lt;strong&gt;</bpt>Checkpoints<ept id="9db8ae21-b43f-4274-ba25-f4d869cad83d">&lt;/strong&gt;</ept> in the <bpt id="b8ec2fe0-2312-4168-b92c-eb4d06da4e3c">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="b8ec2fe0-2312-4168-b92c-eb4d06da4e3c">&lt;/strong&gt;</ept>.</source>
+          <target state="new">When the process is complete, the checkpoint will appear under <bpt id="9db8ae21-b43f-4274-ba25-f4d869cad83d">&lt;strong&gt;</bpt>Checkpoints<ept id="9db8ae21-b43f-4274-ba25-f4d869cad83d">&lt;/strong&gt;</ept> in the <bpt id="b8ec2fe0-2312-4168-b92c-eb4d06da4e3c">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="b8ec2fe0-2312-4168-b92c-eb4d06da4e3c">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="57b890c1-5b51-47e7-b930-e33101467956" xml:space="preserve">
+          <source><bpt id="e104fe09-fdd8-4812-844a-11154d4285b0">&lt;linkText&gt;</bpt><ept id="e104fe09-fdd8-4812-844a-11154d4285b0">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="e104fe09-fdd8-4812-844a-11154d4285b0">&lt;linkText&gt;</bpt><ept id="e104fe09-fdd8-4812-844a-11154d4285b0">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="5bb22b10-7312-4b90-a2f6-6ed56d86cff4" xml:space="preserve">
+          <source>Create a production checkpoint</source>
+          <target state="new">Create a production checkpoint</target>
+        </trans-unit>
+        <trans-unit id="a7b72142-9818-4ba1-a6fb-97dca21e7a4a" xml:space="preserve">
+          <source>Now, we need to change change the type of checkpoint that we want to take back to <bpt id="6f4b2d94-661e-4eaa-a75f-a66e083412e7">&lt;strong&gt;</bpt>Production checkpoints<ept id="6f4b2d94-661e-4eaa-a75f-a66e083412e7">&lt;/strong&gt;</ept> before taking a second checkpoint.</source>
+          <target state="new">Now, we need to change change the type of checkpoint that we want to take back to <bpt id="6f4b2d94-661e-4eaa-a75f-a66e083412e7">&lt;strong&gt;</bpt>Production checkpoints<ept id="6f4b2d94-661e-4eaa-a75f-a66e083412e7">&lt;/strong&gt;</ept> before taking a second checkpoint.</target>
+        </trans-unit>
+        <trans-unit id="58e6afcf-67d3-4d40-9c19-6acc683f419e" xml:space="preserve">
+          <source>Right-click the virtual machine, and click <bpt id="32c7f6e0-b886-4f8b-a75a-54575ac6d149">&lt;strong&gt;</bpt>Settings<ept id="32c7f6e0-b886-4f8b-a75a-54575ac6d149">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click the virtual machine, and click <bpt id="32c7f6e0-b886-4f8b-a75a-54575ac6d149">&lt;strong&gt;</bpt>Settings<ept id="32c7f6e0-b886-4f8b-a75a-54575ac6d149">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="218fafd3-d193-4477-8f27-c56d94a2f969" xml:space="preserve">
+          <source>In the <bpt id="642fd72a-7f8c-4854-86fc-42387ff8cb08">&lt;strong&gt;</bpt>Management<ept id="642fd72a-7f8c-4854-86fc-42387ff8cb08">&lt;/strong&gt;</ept> section, select <bpt id="7ece60a1-4c97-4eca-a2dd-c53e51d4ebec">&lt;strong&gt;</bpt>Checkpoints<ept id="7ece60a1-4c97-4eca-a2dd-c53e51d4ebec">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the <bpt id="642fd72a-7f8c-4854-86fc-42387ff8cb08">&lt;strong&gt;</bpt>Management<ept id="642fd72a-7f8c-4854-86fc-42387ff8cb08">&lt;/strong&gt;</ept> section, select <bpt id="7ece60a1-4c97-4eca-a2dd-c53e51d4ebec">&lt;strong&gt;</bpt>Checkpoints<ept id="7ece60a1-4c97-4eca-a2dd-c53e51d4ebec">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="a0ab137b-4025-4036-9442-47d84ce8ee05" xml:space="preserve">
+          <source>Select <bpt id="cc545f45-3569-4143-9c85-a40ba73b0385">&lt;strong&gt;</bpt>Production checkpoints<ept id="cc545f45-3569-4143-9c85-a40ba73b0385">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Select <bpt id="cc545f45-3569-4143-9c85-a40ba73b0385">&lt;strong&gt;</bpt>Production checkpoints<ept id="cc545f45-3569-4143-9c85-a40ba73b0385">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="31b4f7f0-72ab-4f0d-86a9-518f7d11c1d3" xml:space="preserve">
+          <source>Clear the fall-back option.</source>
+          <target state="new">Clear the fall-back option.</target>
+        </trans-unit>
+        <trans-unit id="7a958f67-30d9-47b9-ac96-b3ff3a2f1ed9" xml:space="preserve">
+          <source>If the system can't take a production checkpoint, we want it to fail instead of taking a standard checkpoint.</source>
+          <target state="new">If the system can't take a production checkpoint, we want it to fail instead of taking a standard checkpoint.</target>
+        </trans-unit>
+        <trans-unit id="f944a448-d55a-41cc-8449-f6ff4fba4e7d" xml:space="preserve">
+          <source><bpt id="552d6978-be2b-4d8f-aad2-094b65358496">&lt;linkText&gt;</bpt><ept id="552d6978-be2b-4d8f-aad2-094b65358496">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="552d6978-be2b-4d8f-aad2-094b65358496">&lt;linkText&gt;</bpt><ept id="552d6978-be2b-4d8f-aad2-094b65358496">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="7c57a253-171d-4379-b20c-4e698e0e8216" xml:space="preserve">
+          <source>click <bpt id="b19a8cad-a6bb-4b80-bdb3-9a3b3ef4305b">&lt;strong&gt;</bpt>OK<ept id="b19a8cad-a6bb-4b80-bdb3-9a3b3ef4305b">&lt;/strong&gt;</ept> to close the dialog box.</source>
+          <target state="new">click <bpt id="b19a8cad-a6bb-4b80-bdb3-9a3b3ef4305b">&lt;strong&gt;</bpt>OK<ept id="b19a8cad-a6bb-4b80-bdb3-9a3b3ef4305b">&lt;/strong&gt;</ept> to close the dialog box.</target>
+        </trans-unit>
+        <trans-unit id="c46a2fae-31a2-41f4-b09d-ebc137241017" xml:space="preserve">
+          <source>Right-click on the VM again and select <bpt id="fe11702b-b596-40b8-94a8-51add360d4a6">&lt;strong&gt;</bpt>Connect<ept id="fe11702b-b596-40b8-94a8-51add360d4a6">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click on the VM again and select <bpt id="fe11702b-b596-40b8-94a8-51add360d4a6">&lt;strong&gt;</bpt>Connect<ept id="fe11702b-b596-40b8-94a8-51add360d4a6">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="92330e69-a491-4fb6-ae3e-aab7350a50e0" xml:space="preserve">
+          <source>In Notepad in the VM, type another line that reads <bpt id="2e5d69dc-a03d-4031-b5d7-83077ce0e5e2">&lt;strong&gt;</bpt>This is a test of a production checkpoint<ept id="2e5d69dc-a03d-4031-b5d7-83077ce0e5e2">&lt;/strong&gt;</ept> and save the file again.</source>
+          <target state="new">In Notepad in the VM, type another line that reads <bpt id="2e5d69dc-a03d-4031-b5d7-83077ce0e5e2">&lt;strong&gt;</bpt>This is a test of a production checkpoint<ept id="2e5d69dc-a03d-4031-b5d7-83077ce0e5e2">&lt;/strong&gt;</ept> and save the file again.</target>
+        </trans-unit>
+        <trans-unit id="efd79d5a-0965-441c-9866-eaf673085a85" xml:space="preserve">
+          <source>Click on the <bpt id="98aace45-71b8-44ec-ac44-cfadc21cc398">&lt;linkText&gt;</bpt><ept id="98aace45-71b8-44ec-ac44-cfadc21cc398">&lt;/linkText&gt;</ept> <bpt id="b50308c8-c0aa-4a28-a967-9ab65a892efb">&lt;strong&gt;</bpt>Checkpoint<ept id="b50308c8-c0aa-4a28-a967-9ab65a892efb">&lt;/strong&gt;</ept> button in the menu bar.</source>
+          <target state="new">Click on the <bpt id="98aace45-71b8-44ec-ac44-cfadc21cc398">&lt;linkText&gt;</bpt><ept id="98aace45-71b8-44ec-ac44-cfadc21cc398">&lt;/linkText&gt;</ept> <bpt id="b50308c8-c0aa-4a28-a967-9ab65a892efb">&lt;strong&gt;</bpt>Checkpoint<ept id="b50308c8-c0aa-4a28-a967-9ab65a892efb">&lt;/strong&gt;</ept> button in the menu bar.</target>
+        </trans-unit>
+        <trans-unit id="6ba0be7e-0333-4939-8a41-aba9118b51e2" xml:space="preserve">
+          <source>When asked, name it <bpt id="3107d12d-135a-4d4e-a2ba-c437afa08939">&lt;strong&gt;</bpt>Production<ept id="3107d12d-135a-4d4e-a2ba-c437afa08939">&lt;/strong&gt;</ept> and then click <bpt id="f86c820f-5dff-4642-a785-7109aa96d13c">&lt;strong&gt;</bpt>Yes<ept id="f86c820f-5dff-4642-a785-7109aa96d13c">&lt;/strong&gt;</ept>.</source>
+          <target state="new">When asked, name it <bpt id="3107d12d-135a-4d4e-a2ba-c437afa08939">&lt;strong&gt;</bpt>Production<ept id="3107d12d-135a-4d4e-a2ba-c437afa08939">&lt;/strong&gt;</ept> and then click <bpt id="f86c820f-5dff-4642-a785-7109aa96d13c">&lt;strong&gt;</bpt>Yes<ept id="f86c820f-5dff-4642-a785-7109aa96d13c">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="a854c848-83df-4e66-82e8-a37a858550f1" xml:space="preserve">
+          <source><bpt id="641b3a49-3085-4089-9704-41f70d7ad15e">&lt;linkText&gt;</bpt><ept id="641b3a49-3085-4089-9704-41f70d7ad15e">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="641b3a49-3085-4089-9704-41f70d7ad15e">&lt;linkText&gt;</bpt><ept id="641b3a49-3085-4089-9704-41f70d7ad15e">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="414f4b49-6d75-4443-bc9a-c39e11a6f960" xml:space="preserve">
+          <source>Close VMConnect.</source>
+          <target state="new">Close VMConnect.</target>
+        </trans-unit>
+        <trans-unit id="a092d083-c3f5-441d-8db7-3fc34bae0fd5" xml:space="preserve">
+          <source>The VM will continue running, you just won't be connected to it anymore.</source>
+          <target state="new">The VM will continue running, you just won't be connected to it anymore.</target>
+        </trans-unit>
+        <trans-unit id="f8e80e85-0dba-4ceb-b3b4-322dddf047e6" xml:space="preserve">
+          <source>In Hyper-V manager, your list of checkpoints will now look like this:</source>
+          <target state="new">In Hyper-V manager, your list of checkpoints will now look like this:</target>
+        </trans-unit>
+        <trans-unit id="05553efd-7a17-4970-8fe9-7e378688d705" xml:space="preserve">
+          <source><bpt id="3f5aa4de-eadf-4ced-9bd2-28872108546e">&lt;linkText&gt;</bpt><ept id="3f5aa4de-eadf-4ced-9bd2-28872108546e">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="3f5aa4de-eadf-4ced-9bd2-28872108546e">&lt;linkText&gt;</bpt><ept id="3f5aa4de-eadf-4ced-9bd2-28872108546e">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ab917eba-5157-49d7-a745-e8baa8dcc6a0" xml:space="preserve">
+          <source>Apply the standard checkpoint</source>
+          <target state="new">Apply the standard checkpoint</target>
+        </trans-unit>
+        <trans-unit id="38a3a600-c4a5-4268-8594-441918db8481" xml:space="preserve">
+          <source>In <bpt id="f12611b6-929d-4147-95ee-c89982de045b">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="f12611b6-929d-4147-95ee-c89982de045b">&lt;/strong&gt;</ept>, in the <bpt id="ac9fcc16-db8d-4774-bab7-28005da62021">&lt;strong&gt;</bpt>Checkpoints<ept id="ac9fcc16-db8d-4774-bab7-28005da62021">&lt;/strong&gt;</ept> section, right-click the one titled <bpt id="239f1745-d994-421a-8103-f2c72c384f0e">&lt;strong&gt;</bpt>Standard<ept id="239f1745-d994-421a-8103-f2c72c384f0e">&lt;/strong&gt;</ept> and click <bpt id="b3973f39-897d-4abc-8e10-4a90a704c3fd">&lt;strong&gt;</bpt>Apply<ept id="b3973f39-897d-4abc-8e10-4a90a704c3fd">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In <bpt id="f12611b6-929d-4147-95ee-c89982de045b">&lt;strong&gt;</bpt>Hyper-V Manager<ept id="f12611b6-929d-4147-95ee-c89982de045b">&lt;/strong&gt;</ept>, in the <bpt id="ac9fcc16-db8d-4774-bab7-28005da62021">&lt;strong&gt;</bpt>Checkpoints<ept id="ac9fcc16-db8d-4774-bab7-28005da62021">&lt;/strong&gt;</ept> section, right-click the one titled <bpt id="239f1745-d994-421a-8103-f2c72c384f0e">&lt;strong&gt;</bpt>Standard<ept id="239f1745-d994-421a-8103-f2c72c384f0e">&lt;/strong&gt;</ept> and click <bpt id="b3973f39-897d-4abc-8e10-4a90a704c3fd">&lt;strong&gt;</bpt>Apply<ept id="b3973f39-897d-4abc-8e10-4a90a704c3fd">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="e3c0267b-2f21-47da-8372-aea83ed2e4dc" xml:space="preserve">
+          <source>In the pop-up dialog, click <bpt id="8cf23eee-275b-485e-8906-1ec70948aed2">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="8cf23eee-275b-485e-8906-1ec70948aed2">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the pop-up dialog, click <bpt id="8cf23eee-275b-485e-8906-1ec70948aed2">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="8cf23eee-275b-485e-8906-1ec70948aed2">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="d5e088c1-a9fc-43f5-9de6-30512d1a7eb6" xml:space="preserve">
+          <source><bpt id="477b2a64-9e86-486c-aa71-41bcade54068">&lt;linkText&gt;</bpt><ept id="477b2a64-9e86-486c-aa71-41bcade54068">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="477b2a64-9e86-486c-aa71-41bcade54068">&lt;linkText&gt;</bpt><ept id="477b2a64-9e86-486c-aa71-41bcade54068">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="a71d014d-ad36-40db-9c92-a8e658660892" xml:space="preserve">
+          <source>When the finished, your list of checkpoints will now look something like this:</source>
+          <target state="new">When the finished, your list of checkpoints will now look something like this:</target>
+        </trans-unit>
+        <trans-unit id="48735c8c-19eb-43f2-8956-69cfa5e7d3ed" xml:space="preserve">
+          <source><bpt id="bde0ecdf-4f9b-459a-b357-2da2742b7fa2">&lt;linkText&gt;</bpt><ept id="bde0ecdf-4f9b-459a-b357-2da2742b7fa2">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="bde0ecdf-4f9b-459a-b357-2da2742b7fa2">&lt;linkText&gt;</bpt><ept id="bde0ecdf-4f9b-459a-b357-2da2742b7fa2">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="e2636db3-ae68-4802-ae8f-10eca36b2c1d" xml:space="preserve">
+          <source>When this finishes, right-click the VM and the click <bpt id="340057a1-7a70-4f6d-a42b-a56b93d5502a">&lt;strong&gt;</bpt>Connect<ept id="340057a1-7a70-4f6d-a42b-a56b93d5502a">&lt;/strong&gt;</ept> to connect to the VM.</source>
+          <target state="new">When this finishes, right-click the VM and the click <bpt id="340057a1-7a70-4f6d-a42b-a56b93d5502a">&lt;strong&gt;</bpt>Connect<ept id="340057a1-7a70-4f6d-a42b-a56b93d5502a">&lt;/strong&gt;</ept> to connect to the VM.</target>
+        </trans-unit>
+        <trans-unit id="ac1159f5-9b0a-4dfa-b470-0ebae9b88293" xml:space="preserve">
+          <source>When you connect to the VM, the VM should be running, with Notepad open, but the line about production checkpoints will be missing:</source>
+          <target state="new">When you connect to the VM, the VM should be running, with Notepad open, but the line about production checkpoints will be missing:</target>
+        </trans-unit>
+        <trans-unit id="cf35c559-7fc1-41d7-8159-c375945c51fc" xml:space="preserve">
+          <source><bpt id="2a8b1beb-4a0b-43f6-a439-c7c43ef7c8b6">&lt;linkText&gt;</bpt><ept id="2a8b1beb-4a0b-43f6-a439-c7c43ef7c8b6">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="2a8b1beb-4a0b-43f6-a439-c7c43ef7c8b6">&lt;linkText&gt;</bpt><ept id="2a8b1beb-4a0b-43f6-a439-c7c43ef7c8b6">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="bd511036-2350-48db-b5a8-a39112a5d1df" xml:space="preserve">
+          <source>Close VMConnect, but leave the VM running.</source>
+          <target state="new">Close VMConnect, but leave the VM running.</target>
+        </trans-unit>
+        <trans-unit id="b632a192-8ca3-4704-b4b3-396a54a33ec0" xml:space="preserve">
+          <source>Apply the production checkpoint</source>
+          <target state="new">Apply the production checkpoint</target>
+        </trans-unit>
+        <trans-unit id="2febdbbf-0d53-42e7-8425-e9618e7346c6" xml:space="preserve">
+          <source>Now, let's go back to Hyper-V manager and apply the production checkpoint and see how our VM looks afterwards.</source>
+          <target state="new">Now, let's go back to Hyper-V manager and apply the production checkpoint and see how our VM looks afterwards.</target>
+        </trans-unit>
+        <trans-unit id="127abfeb-6ddb-488c-83e5-0fe0c7cd8bf9" xml:space="preserve">
+          <source>In the Checkpoints section, right-click the one titled <bpt id="6844c665-ba9e-46ec-b1fb-4da30e92b289">&lt;strong&gt;</bpt>Production Checkpoint<ept id="6844c665-ba9e-46ec-b1fb-4da30e92b289">&lt;/strong&gt;</ept> and click <bpt id="fa375bd2-7766-4777-b266-13a62aa58abe">&lt;strong&gt;</bpt>Apply<ept id="fa375bd2-7766-4777-b266-13a62aa58abe">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the Checkpoints section, right-click the one titled <bpt id="6844c665-ba9e-46ec-b1fb-4da30e92b289">&lt;strong&gt;</bpt>Production Checkpoint<ept id="6844c665-ba9e-46ec-b1fb-4da30e92b289">&lt;/strong&gt;</ept> and click <bpt id="fa375bd2-7766-4777-b266-13a62aa58abe">&lt;strong&gt;</bpt>Apply<ept id="fa375bd2-7766-4777-b266-13a62aa58abe">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="aaf96873-5cf7-482a-af39-8f4a4789c783" xml:space="preserve">
+          <source>In the pop-up dialog, pick <bpt id="abf50020-2c04-4643-9324-6573b9fb341a">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="abf50020-2c04-4643-9324-6573b9fb341a">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the pop-up dialog, pick <bpt id="abf50020-2c04-4643-9324-6573b9fb341a">&lt;strong&gt;</bpt>Create Checkpoint and Apply<ept id="abf50020-2c04-4643-9324-6573b9fb341a">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="1b3141e3-0846-4eba-a890-20ad14909f10" xml:space="preserve">
+          <source>When this finishes, right-click the VM and the click <bpt id="41359678-86ee-46ea-8a15-7b9ca379b3e7">&lt;strong&gt;</bpt>Connect<ept id="41359678-86ee-46ea-8a15-7b9ca379b3e7">&lt;/strong&gt;</ept> to launch the VM.</source>
+          <target state="new">When this finishes, right-click the VM and the click <bpt id="41359678-86ee-46ea-8a15-7b9ca379b3e7">&lt;strong&gt;</bpt>Connect<ept id="41359678-86ee-46ea-8a15-7b9ca379b3e7">&lt;/strong&gt;</ept> to launch the VM.</target>
+        </trans-unit>
+        <trans-unit id="a4609f63-fedb-4196-8094-5bc8d9c8ea35" xml:space="preserve">
+          <source>You'll notice that the VM is not running.</source>
+          <target state="new">You'll notice that the VM is not running.</target>
+        </trans-unit>
+        <trans-unit id="01df673e-a140-4769-8adc-3539a68b8048" xml:space="preserve">
+          <source>Click on the <bpt id="d29cf366-ec49-496b-91be-baeae17aabf6">&lt;linkText&gt;</bpt><ept id="d29cf366-ec49-496b-91be-baeae17aabf6">&lt;/linkText&gt;</ept> Start button in the menu bar to start the VM.</source>
+          <target state="new">Click on the <bpt id="d29cf366-ec49-496b-91be-baeae17aabf6">&lt;linkText&gt;</bpt><ept id="d29cf366-ec49-496b-91be-baeae17aabf6">&lt;/linkText&gt;</ept> Start button in the menu bar to start the VM.</target>
+        </trans-unit>
+        <trans-unit id="91b0f672-738d-441f-a78c-112ed6a7fc20" xml:space="preserve">
+          <source>Open open test.txt in Notepad.</source>
+          <target state="new">Open open test.txt in Notepad.</target>
+        </trans-unit>
+        <trans-unit id="b307f26c-613b-434d-9229-52d21c57f6b5" xml:space="preserve">
+          <source>You should see the line in the file about testing production checkpoints:</source>
+          <target state="new">You should see the line in the file about testing production checkpoints:</target>
+        </trans-unit>
+        <trans-unit id="0181936d-e8b9-4fe5-9123-15d22bf31bc9" xml:space="preserve">
+          <source><bpt id="4e8b96f6-ff9e-440e-a25a-0efd84c271ff">&lt;linkText&gt;</bpt><ept id="4e8b96f6-ff9e-440e-a25a-0efd84c271ff">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="4e8b96f6-ff9e-440e-a25a-0efd84c271ff">&lt;linkText&gt;</bpt><ept id="4e8b96f6-ff9e-440e-a25a-0efd84c271ff">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="bef8ffc4-70f4-4046-b7e8-787f3fcd71f3" xml:space="preserve">
+          <source>Rename a checkpoint</source>
+          <target state="new">Rename a checkpoint</target>
+        </trans-unit>
+        <trans-unit id="575a51eb-185d-4714-bbc3-190dbc7dfc51" xml:space="preserve">
+          <source>Right-click the last checkpoint in the tree and click Rename.</source>
+          <target state="new">Right-click the last checkpoint in the tree and click Rename.</target>
+        </trans-unit>
+        <trans-unit id="6c57b315-2381-4240-b454-bafabedd4387" xml:space="preserve">
+          <source>Name the checkpoint <bpt id="6f972eec-7828-4d70-a7a6-473481cec0c2">&lt;strong&gt;</bpt>Delete me<ept id="6f972eec-7828-4d70-a7a6-473481cec0c2">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Name the checkpoint <bpt id="6f972eec-7828-4d70-a7a6-473481cec0c2">&lt;strong&gt;</bpt>Delete me<ept id="6f972eec-7828-4d70-a7a6-473481cec0c2">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="21bbe0d6-af5f-4db0-9d1f-a9e644ce8783" xml:space="preserve">
+          <source><bpt id="59e0486b-9fa5-4af3-a184-251da0426a46">&lt;linkText&gt;</bpt><ept id="59e0486b-9fa5-4af3-a184-251da0426a46">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="59e0486b-9fa5-4af3-a184-251da0426a46">&lt;linkText&gt;</bpt><ept id="59e0486b-9fa5-4af3-a184-251da0426a46">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="0d345e0f-590e-46ba-bdf1-15995e382302" xml:space="preserve">
+          <source>Delete a checkpoint</source>
+          <target state="new">Delete a checkpoint</target>
+        </trans-unit>
+        <trans-unit id="1aed501e-eadd-4e27-8aaf-b6792eae6ad2" xml:space="preserve">
+          <source>The previous step has probably given you a hint about what we'll do next.</source>
+          <target state="new">The previous step has probably given you a hint about what we'll do next.</target>
+        </trans-unit>
+        <trans-unit id="8c83a894-7496-41f1-b954-bbd38f9bb92c" xml:space="preserve">
+          <source>We are going to delete the checkpoint that you just renamed.</source>
+          <target state="new">We are going to delete the checkpoint that you just renamed.</target>
+        </trans-unit>
+        <trans-unit id="d3c1bb3d-b989-4219-b332-05c58ab41373" xml:space="preserve">
+          <source>Right-click on the checkpoint named <bpt id="90394e13-a5b1-4209-b221-3bfa53bf8c61">&lt;strong&gt;</bpt>Delete me<ept id="90394e13-a5b1-4209-b221-3bfa53bf8c61">&lt;/strong&gt;</ept> and click <bpt id="17230d89-2484-4782-b802-64fee032f5eb">&lt;strong&gt;</bpt>Delete checkpoint<ept id="17230d89-2484-4782-b802-64fee032f5eb">&lt;/strong&gt;</ept>.</source>
+          <target state="new">Right-click on the checkpoint named <bpt id="90394e13-a5b1-4209-b221-3bfa53bf8c61">&lt;strong&gt;</bpt>Delete me<ept id="90394e13-a5b1-4209-b221-3bfa53bf8c61">&lt;/strong&gt;</ept> and click <bpt id="17230d89-2484-4782-b802-64fee032f5eb">&lt;strong&gt;</bpt>Delete checkpoint<ept id="17230d89-2484-4782-b802-64fee032f5eb">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="e9b17e5b-75a3-4041-91e3-cae175f692b6" xml:space="preserve">
+          <source><bpt id="7f769e74-1f99-470c-a9bc-634ad6c03602">&lt;linkText&gt;</bpt><ept id="7f769e74-1f99-470c-a9bc-634ad6c03602">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="7f769e74-1f99-470c-a9bc-634ad6c03602">&lt;linkText&gt;</bpt><ept id="7f769e74-1f99-470c-a9bc-634ad6c03602">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="6ba2a935-090e-47d0-99bc-916809e309b4" xml:space="preserve">
+          <source>In the warning dialog, click <bpt id="1d3b49e7-8593-4d6b-9c74-e1dcd1b3784d">&lt;strong&gt;</bpt>Delete<ept id="1d3b49e7-8593-4d6b-9c74-e1dcd1b3784d">&lt;/strong&gt;</ept>.</source>
+          <target state="new">In the warning dialog, click <bpt id="1d3b49e7-8593-4d6b-9c74-e1dcd1b3784d">&lt;strong&gt;</bpt>Delete<ept id="1d3b49e7-8593-4d6b-9c74-e1dcd1b3784d">&lt;/strong&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="35239654-4332-48fb-be4f-f9146d4542dc" xml:space="preserve">
+          <source><bpt id="a68f8930-c013-467c-9ecb-cf4787f57f2f">&lt;linkText&gt;</bpt><ept id="a68f8930-c013-467c-9ecb-cf4787f57f2f">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="a68f8930-c013-467c-9ecb-cf4787f57f2f">&lt;linkText&gt;</bpt><ept id="a68f8930-c013-467c-9ecb-cf4787f57f2f">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="c3be7776-4c84-4ca5-93e7-ebd53f24b890" xml:space="preserve">
+          <source>After the checkpoint is deleted, your list should look something like this:</source>
+          <target state="new">After the checkpoint is deleted, your list should look something like this:</target>
+        </trans-unit>
+        <trans-unit id="fbc8d10c-1ffc-4161-aef4-f393835b70a5" xml:space="preserve">
+          <source><bpt id="a4bd53a2-7a10-4ea0-8f55-c7cc2107bcad">&lt;linkText&gt;</bpt><ept id="a4bd53a2-7a10-4ea0-8f55-c7cc2107bcad">&lt;/linkText&gt;</ept></source>
+          <target state="new"><bpt id="a4bd53a2-7a10-4ea0-8f55-c7cc2107bcad">&lt;linkText&gt;</bpt><ept id="a4bd53a2-7a10-4ea0-8f55-c7cc2107bcad">&lt;/linkText&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="bfb652f7-aed8-49f9-b97d-dc1d60e75da0" xml:space="preserve">
+          <source>Next Step:</source>
+          <target state="new">Next Step:</target>
+        </trans-unit>
+        <trans-unit id="a5b9cef7-2bca-4d96-b9fd-346ca64dc8ad" xml:space="preserve">
+          <source><bpt id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId1">&lt;linkText&gt;</bpt>Step 7: Export and import a virtual machine<ept id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId2">&lt;title&gt;</bpt><ept id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId1">&lt;linkText&gt;</bpt>Step 7: Export and import a virtual machine<ept id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId1">&lt;/linkText&gt;</ept><bpt id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId2">&lt;title&gt;</bpt><ept id="7ae42b20-9b7f-4b94-8102-0f89192c1c73CapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
