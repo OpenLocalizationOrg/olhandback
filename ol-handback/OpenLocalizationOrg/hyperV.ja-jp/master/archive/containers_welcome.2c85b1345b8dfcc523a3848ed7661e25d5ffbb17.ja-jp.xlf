@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-us" target-language="ja-jp" original="1/8/2016 1:11:54 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
+  <file datatype="xml" source-language="en-us" target-language="ja-jp" original="1/8/2016 1:50:32 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
     <header>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c76787127772f0d0fe7a8f95c3f8b79d4ffbb5f</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7fbf5b58053a266372ccb205942ba9b61446640</xliffext:olfilehash>
       <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
     </header>
     <body>
@@ -31,6 +31,10 @@
           <trans-unit id="106" xml:space="preserve">
             <source>The following table list topics that provide more information about Windows containers, a guided quick start so that you can try out Windows containers, and additional resources.</source>
             <target state="new">The following table list topics that provide more information about Windows containers, a guided quick start so that you can try out Windows containers, and additional resources.</target>
+          </trans-unit>
+          <trans-unit id="107" xml:space="preserve">
+            <source>Test</source>
+            <target state="new">Test</target>
           </trans-unit>
         </group>
       </group>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-us" target-language="ja-jp" original="1/8/2016 1:50:33 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
+  <file datatype="xml" source-language="en-us" target-language="ja-jp" original="1/8/2016 2:15:03 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
     <header>
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6efe25bd18478e4de51fc4693054eb025a94d068</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45b3d0220f08a392288244df9b2aec25aba20ed1</xliffext:olfilehash>
       <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
     </header>
     <body>
       <group extype="content">
         <group id="101">
           <trans-unit id="101" xml:space="preserve">
-            <source>Hyper-V on Windows 10.45 test</source>
-            <target state="new">Hyper-V on Windows 10.45 测试</target>
+            <source>Hyper-V on Windows 10.45 testabc</source>
+            <target state="new">Hyper-V on Windows 10.45 测试abc</target>
           </trans-unit>
           <trans-unit id="102" xml:space="preserve">
             <source><bpt id="1">&lt;linkText&gt;</bpt>image<ept id="1">&lt;/linkText&gt;</ept></source>
@@ -33,8 +33,8 @@
             <target state="new">Hyper-V in Windows is sometimes referred to as Client Hyper-V.</target>
           </trans-unit>
           <trans-unit id="107" xml:space="preserve">
-            <source>Test</source>
-            <target state="new">Test</target>
+            <source>Test test</source>
+            <target state="new">测试测试</target>
           </trans-unit>
           <trans-unit id="108" xml:space="preserve">
             <source><bpt id="1">&lt;strong&gt;</bpt>Important:<ept id="1">&lt;/strong&gt;</ept> You must license the software running on each of the guest virtual machines according to their operating system requirements.</source>
