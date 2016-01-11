@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="fr-fr" original="foo.file" tool-id="611a7ce4-1d52-4ee7-9d53-46218a6e2f92" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="611a7ce4-1d52-4ee7-9d53-46218a6e2f92" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">2c4168559e894467d2db48659da146837b67fc38</olfilehash>
+    </header>
+    <body>
+      <group id="35a3495b-f75c-4a13-ae56-2b3d8d01d5af">
+        <trans-unit id="8f2e8dcb-a36e-4839-9480-6297a15821d3" xml:space="preserve">
+          <source>ms.ContentId: 93EDAAF5-E4FC-4F3F-AB55-669D2BF47D78</source>
+          <target state="new">ms.ContentId: 93EDAAF5-E4FC-4F3F-AB55-669D2BF47D78</target>
+        </trans-unit>
+        <trans-unit id="03708658-421a-4de6-9ebb-0cb9b6329917" xml:space="preserve">
+          <source>title: Introduction to Hyper-V on Windows 10</source>
+          <target state="new">title: Introduction to Hyper-V on Windows 10</target>
+        </trans-unit>
+        <trans-unit id="3713e140-b92f-4a2b-82a4-bcf4af5c4c87" xml:space="preserve">
+          <source>Introduction to Hyper-V on Windows 10 test</source>
+          <target state="new">Introduction to Hyper-V on Windows 10 test</target>
+        </trans-unit>
+        <trans-unit id="bfbaa3e1-debe-4b32-a084-3d8124a5552a" xml:space="preserve">
+          <source>18-Nov update.</source>
+          <target state="new">18-Nov update.</target>
+        </trans-unit>
+        <trans-unit id="d7351194-3577-463a-9943-63004cf8e4bc" xml:space="preserve">
+          <source>Adding this sentence for testing HO-HB process.</source>
+          <target state="new">Adding this sentence for testing HO-HB process.</target>
+        </trans-unit>
+        <trans-unit id="a1ab1dcf-a313-49d5-9a25-ac0b01321392" xml:space="preserve">
+          <source>Whether you are a software developer, an ITPro, or a tech enthusiast, many of you need to run multiple operating systems, occasionally on many different machines.</source>
+          <target state="new">Whether you are a software developer, an ITPro, or a tech enthusiast, many of you need to run multiple operating systems, occasionally on many different machines.</target>
+        </trans-unit>
+        <trans-unit id="41fdda2d-8f83-4cb9-b9bd-22d48f30ddbb" xml:space="preserve">
+          <source>Not all of us have access to a full suite of labs to house all these machines, and so virtualization can be a space and time saver.</source>
+          <target state="new">Not all of us have access to a full suite of labs to house all these machines, and so virtualization can be a space and time saver.</target>
+        </trans-unit>
+        <trans-unit id="9a6f6809-fbcd-4ae6-8709-6e71218c5199" xml:space="preserve">
+          <source>Uses for virtualization</source>
+          <target state="new">Uses for virtualization</target>
+        </trans-unit>
+        <trans-unit id="7b49bbf9-5ecc-4815-bb79-13a96f65010d" xml:space="preserve">
+          <source>Virtualization enables anyone to easily maintain multiple test environments consisting of many operating systems, software configurations, and hardware configurations.</source>
+          <target state="new">Virtualization enables anyone to easily maintain multiple test environments consisting of many operating systems, software configurations, and hardware configurations.</target>
+        </trans-unit>
+        <trans-unit id="f727c1df-67ec-47f9-8506-ee323fa98999" xml:space="preserve">
+          <source>Hyper-V provides virtualization on Windows as well as a simple mechanism to quickly switch between these environments without incurring additional hardware costs.</source>
+          <target state="new">Hyper-V provides virtualization on Windows as well as a simple mechanism to quickly switch between these environments without incurring additional hardware costs.</target>
+        </trans-unit>
+        <trans-unit id="493932cd-a58d-40f9-a5ee-060cf9f01d42" xml:space="preserve">
+          <source>Hyper-V can be used in many ways, for example:</source>
+          <target state="new">Hyper-V can be used in many ways, for example:</target>
+        </trans-unit>
+        <trans-unit id="ce4701db-946e-4edd-9b8e-dc608c060e4a" xml:space="preserve">
+          <source>A test environment consisting of multiple virtual machines can be created on a single desktop or laptop computer.</source>
+          <target state="new">A test environment consisting of multiple virtual machines can be created on a single desktop or laptop computer.</target>
+        </trans-unit>
+        <trans-unit id="615b34e7-92ac-4812-b535-6a3a7d1558ae" xml:space="preserve">
+          <source>Once testing has completed, these virtual machines can be exported and then imported into any other Hyper-V system.</source>
+          <target state="new">Once testing has completed, these virtual machines can be exported and then imported into any other Hyper-V system.</target>
+        </trans-unit>
+        <trans-unit id="4d2d07fa-c8c6-4cef-9541-e3ca791cf96a" xml:space="preserve">
+          <source>Developers can use Hyper-V on their computer to test software on multiple operating systems.</source>
+          <target state="new">Developers can use Hyper-V on their computer to test software on multiple operating systems.</target>
+        </trans-unit>
+        <trans-unit id="13746deb-614f-4c51-ac6c-1d45c9d1bfa1" xml:space="preserve">
+          <source>For example, if you have an application that must be tested on Windows 8, Windows 7 and a Linux operating system, multiple virtual machines can be created on your development system, one containing each of these operating systems.</source>
+          <target state="new">For example, if you have an application that must be tested on Windows 8, Windows 7 and a Linux operating system, multiple virtual machines can be created on your development system, one containing each of these operating systems.</target>
+        </trans-unit>
+        <trans-unit id="5d6d1814-24a3-44b4-845b-b29700a2db97" xml:space="preserve">
+          <source>You can use Hyper-V to troubleshoot virtual machines from any Hyper-V deployment.</source>
+          <target state="new">You can use Hyper-V to troubleshoot virtual machines from any Hyper-V deployment.</target>
+        </trans-unit>
+        <trans-unit id="2fc7793e-7e00-4237-b8cc-02d923092aad" xml:space="preserve">
+          <source>You can export a virtual machine from your production environment, open it on your desktop running Hyper-V, perform your required troubleshooting, and then export it back into the production environment.</source>
+          <target state="new">You can export a virtual machine from your production environment, open it on your desktop running Hyper-V, perform your required troubleshooting, and then export it back into the production environment.</target>
+        </trans-unit>
+        <trans-unit id="37f40f38-de3b-4488-8d84-fa396ea5b872" xml:space="preserve">
+          <source>Using virtual networking, you can create a multi-machine environment for test/development/demonstration that is secure from affecting the production network.</source>
+          <target state="new">Using virtual networking, you can create a multi-machine environment for test/development/demonstration that is secure from affecting the production network.</target>
+        </trans-unit>
+        <trans-unit id="0e9a541c-f469-430c-ac86-0bb354304495" xml:space="preserve">
+          <source>Enthusiasts can use it to experiment with other operating systems.</source>
+          <target state="new">Enthusiasts can use it to experiment with other operating systems.</target>
+        </trans-unit>
+        <trans-unit id="1682b040-d5cb-44b0-a81e-2b1df449e27f" xml:space="preserve">
+          <source>Hyper-V makes it very easy to bring up and tear down different operating systems.</source>
+          <target state="new">Hyper-V makes it very easy to bring up and tear down different operating systems.</target>
+        </trans-unit>
+        <trans-unit id="e09f81d1-5ae1-4626-b854-bafb465370fa" xml:space="preserve">
+          <source>You can use Hyper-V on a laptop for demonstrating older versions of Windows or non-Windows operating systems.</source>
+          <target state="new">You can use Hyper-V on a laptop for demonstrating older versions of Windows or non-Windows operating systems.</target>
+        </trans-unit>
+        <trans-unit id="82d84502-5154-4323-a091-45517ecac43a" xml:space="preserve">
+          <source>System requirements</source>
+          <target state="new">System requirements</target>
+        </trans-unit>
+        <trans-unit id="2aff303c-ccd9-4d8b-a1e5-8ae9e247d326" xml:space="preserve">
+          <source>Hyper-V requires a 64-bit system that has Second Level Address Translation (SLAT). SLAT is a feature present in the current generation of 64-bit processors by Intel &amp; AMD. You’ll also need a 64-bit version of Windows 8 or greater, and at least 4GB of RAM. Hyper-V does support creation of both 32-bit and 64-bit operating systems in the VMs.</source>
+          <target state="new">Hyper-V requires a 64-bit system that has Second Level Address Translation (SLAT). SLAT is a feature present in the current generation of 64-bit processors by Intel &amp; AMD. You’ll also need a 64-bit version of Windows 8 or greater, and at least 4GB of RAM. Hyper-V does support creation of both 32-bit and 64-bit operating systems in the VMs.</target>
+        </trans-unit>
+        <trans-unit id="e907b231-b57c-49c5-b89b-9114438cdcac" xml:space="preserve">
+          <source>Hyper-V’s dynamic memory allows memory needed by the VM to be allocated and de-allocated dynamically (you specify a minimum and maximum) and share unused memory between VMs.</source>
+          <target state="new">Hyper-V’s dynamic memory allows memory needed by the VM to be allocated and de-allocated dynamically (you specify a minimum and maximum) and share unused memory between VMs.</target>
+        </trans-unit>
+        <trans-unit id="e16db7ca-8a37-493c-9ff9-2f5e19ccf440" xml:space="preserve">
+          <source>You can run 3 or 4 VMs on a machine that has 4GB of RAM but you'll need more RAM for 5 or more VMs.</source>
+          <target state="new">You can run 3 or 4 VMs on a machine that has 4GB of RAM but you'll need more RAM for 5 or more VMs.</target>
+        </trans-unit>
+        <trans-unit id="7428eaba-56ed-4688-8471-5bacfbf3dc25" xml:space="preserve">
+          <source>On the other end of the spectrum, you can also create large VMs with 32 processors and 512GB RAM, depending on your physical hardware.</source>
+          <target state="new">On the other end of the spectrum, you can also create large VMs with 32 processors and 512GB RAM, depending on your physical hardware.</target>
+        </trans-unit>
+        <trans-unit id="e822ab66-0332-4589-af61-5e647f129d26" xml:space="preserve">
+          <source>Operating systems you can run in a virtual machine</source>
+          <target state="new">Operating systems you can run in a virtual machine</target>
+        </trans-unit>
+        <trans-unit id="ef3e316b-4948-491b-9c6a-2a4a75d4c171" xml:space="preserve">
+          <source>The term "guest" refers to a virtual machine and "host" refers to the computer running the virtual machine.</source>
+          <target state="new">The term "guest" refers to a virtual machine and "host" refers to the computer running the virtual machine.</target>
+        </trans-unit>
+        <trans-unit id="8abc5d80-c24f-4002-9cbf-16e11c0d2b9b" xml:space="preserve">
+          <source>Hyper-V on Windows supports many different guest operating systems including various releases of Linux, FreeBSD and Windows.</source>
+          <target state="new">Hyper-V on Windows supports many different guest operating systems including various releases of Linux, FreeBSD and Windows.</target>
+        </trans-unit>
+        <trans-unit id="95fab2a6-1ab5-4597-9575-6701476bda1f" xml:space="preserve">
+          <source>For information about which operating systems are supported as guests in Hyper-V on Windows, see <bpt id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId1">&lt;linkText&gt;</bpt>Supported Windows Guest Operating Systems<ept id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId2">&lt;title&gt;</bpt><ept id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId2">&lt;/title&gt;</ept> and <bpt id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId1">&lt;linkText&gt;</bpt>Linux and FreeBSD Virtual Machines on Hyper-V<ept id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId1">&lt;/linkText&gt;</ept><bpt id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId2">&lt;title&gt;</bpt><ept id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="new">For information about which operating systems are supported as guests in Hyper-V on Windows, see <bpt id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId1">&lt;linkText&gt;</bpt>Supported Windows Guest Operating Systems<ept id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId1">&lt;/linkText&gt;</ept><bpt id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId2">&lt;title&gt;</bpt><ept id="5fe22dbf-ddb1-4178-b1b3-eaf3fdeff58cCapsExtId2">&lt;/title&gt;</ept> and <bpt id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId1">&lt;linkText&gt;</bpt>Linux and FreeBSD Virtual Machines on Hyper-V<ept id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId1">&lt;/linkText&gt;</ept><bpt id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId2">&lt;title&gt;</bpt><ept id="cbd43eee-bc7e-4eec-8d99-29c18d7ef392CapsExtId2">&lt;/title&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="435e1634-4109-4c39-b26f-8f71a7e091ff" xml:space="preserve">
+          <source>Differences between Hyper-V on Windows and Hyper-V on Windows Server</source>
+          <target state="new">Differences between Hyper-V on Windows and Hyper-V on Windows Server</target>
+        </trans-unit>
+        <trans-unit id="e0a57c80-8b19-4c9b-90b1-699b92c39b4b" xml:space="preserve">
+          <source>There are some features that work differently in Hyper-V on Windows than they do Hyper-V running on Windows Server.</source>
+          <target state="new">There are some features that work differently in Hyper-V on Windows than they do Hyper-V running on Windows Server.</target>
+        </trans-unit>
+        <trans-unit id="233fd38c-ca40-4393-856b-c7a20b2930ad" xml:space="preserve">
+          <source>These include the following:</source>
+          <target state="new">These include the following:</target>
+        </trans-unit>
+        <trans-unit id="497c20db-9635-477c-97b5-d7a6c52c0e6b" xml:space="preserve">
+          <source>The memory management model is different for Hyper-V on Windows.</source>
+          <target state="new">The memory management model is different for Hyper-V on Windows.</target>
+        </trans-unit>
+        <trans-unit id="62163781-60b6-48d3-8cd2-8d6277a627df" xml:space="preserve">
+          <source>On a server, Hyper-V memory is managed with the assumption that only the virtual machines are running on the server.</source>
+          <target state="new">On a server, Hyper-V memory is managed with the assumption that only the virtual machines are running on the server.</target>
+        </trans-unit>
+        <trans-unit id="a74b8f0c-2410-4b05-8809-4193e03978d3" xml:space="preserve">
+          <source>In Hyper-V on Windows, memory is managed with the understanding most client machines are running software in addition to running virtual machines.</source>
+          <target state="new">In Hyper-V on Windows, memory is managed with the understanding most client machines are running software in addition to running virtual machines.</target>
+        </trans-unit>
+        <trans-unit id="500a169d-59b3-4130-bf53-8de6ac111d48" xml:space="preserve">
+          <source>For example, a developer might be running Visual Studio as well as several virtual machines on the same computer.</source>
+          <target state="new">For example, a developer might be running Visual Studio as well as several virtual machines on the same computer.</target>
+        </trans-unit>
+        <trans-unit id="16fd5d5a-0370-41ac-a6b9-3864f6db8184" xml:space="preserve">
+          <source>SR-IOV on a 64-bit guest works normally, but 32-bit does not and is not supported.</source>
+          <target state="new">SR-IOV on a 64-bit guest works normally, but 32-bit does not and is not supported.</target>
+        </trans-unit>
+        <trans-unit id="cb2e1690-8964-443e-b992-7feae8808e42" xml:space="preserve">
+          <source>Windows Server features not avilable in Windows Hyper-V</source>
+          <target state="new">Windows Server features not avilable in Windows Hyper-V</target>
+        </trans-unit>
+        <trans-unit id="172be347-e29c-47e0-83e7-340c02cce2f6" xml:space="preserve">
+          <source>There are some features included in Hyper-V on server that are not included in Hyper-V on Windows.</source>
+          <target state="new">There are some features included in Hyper-V on server that are not included in Hyper-V on Windows.</target>
+        </trans-unit>
+        <trans-unit id="00c768f9-9c0e-4b26-aca3-2b1bd16fd38b" xml:space="preserve">
+          <source>These include the following:</source>
+          <target state="new">These include the following:</target>
+        </trans-unit>
+        <trans-unit id="f3d9bf10-d1c6-455a-a35a-50f1dc6e8d77" xml:space="preserve">
+          <source>The Remote FX capability to virtualize GPUs</source>
+          <target state="new">The Remote FX capability to virtualize GPUs</target>
+        </trans-unit>
+        <trans-unit id="f559ee63-eb89-4b22-9e93-eb2d305a33da" xml:space="preserve">
+          <source>Live migration of virtual machines from one host to another</source>
+          <target state="new">Live migration of virtual machines from one host to another</target>
+        </trans-unit>
+        <trans-unit id="e17b22bb-72a5-49cc-8689-03f869850ccb" xml:space="preserve">
+          <source>Hyper-V Replica</source>
+          <target state="new">Hyper-V Replica</target>
+        </trans-unit>
+        <trans-unit id="bb5ac04b-8d4c-4d83-a524-8af1d7e7aaa5" xml:space="preserve">
+          <source>Virtual Fibre Channel</source>
+          <target state="new">Virtual Fibre Channel</target>
+        </trans-unit>
+        <trans-unit id="58a75691-b228-4943-9f25-4d2622f1bf2d" xml:space="preserve">
+          <source>SR-IOV networking</source>
+          <target state="new">SR-IOV networking</target>
+        </trans-unit>
+        <trans-unit id="6dbb274e-7923-4f27-8c10-627893233b3c" xml:space="preserve">
+          <source>Shared .VHDX</source>
+          <target state="new">Shared .VHDX</target>
+        </trans-unit>
+        <trans-unit id="385bec47-586a-424b-9213-e24c9024209a" xml:space="preserve">
+          <source><bpt id="e9f51b5b-448d-4ea4-ba7f-a0434f1b67ab">&lt;strong&gt;</bpt>Warning<ept id="e9f51b5b-448d-4ea4-ba7f-a0434f1b67ab">&lt;/strong&gt;</ept>: Virtual machines running on Hyper-V do not automatically handle moving from a wired to a wireless connection.</source>
+          <target state="new"><bpt id="e9f51b5b-448d-4ea4-ba7f-a0434f1b67ab">&lt;strong&gt;</bpt>Warning<ept id="e9f51b5b-448d-4ea4-ba7f-a0434f1b67ab">&lt;/strong&gt;</ept>: Virtual machines running on Hyper-V do not automatically handle moving from a wired to a wireless connection.</target>
+        </trans-unit>
+        <trans-unit id="6f39fcf6-80ff-4a81-a217-35cbf3c9f6ca" xml:space="preserve">
+          <source>You must change the virtual machines network adapter settings manually.</source>
+          <target state="new">You must change the virtual machines network adapter settings manually.</target>
+        </trans-unit>
+        <trans-unit id="1ca14aa8-7c73-4405-8de9-a52f6bfb8cb5" xml:space="preserve">
+          <source>Limitations</source>
+          <target state="new">Limitations</target>
+        </trans-unit>
+        <trans-unit id="79fbcd9c-f737-45cd-bc35-6e34188b2c4f" xml:space="preserve">
+          <source>Using virtualization does have limitations.</source>
+          <target state="new">Using virtualization does have limitations.</target>
+        </trans-unit>
+        <trans-unit id="a4f6b0e3-4eaf-4d7d-9e7c-4527271b3b96" xml:space="preserve">
+          <source>Features or applications that depend on specific hardware will not work well in a VM.</source>
+          <target state="new">Features or applications that depend on specific hardware will not work well in a VM.</target>
+        </trans-unit>
+        <trans-unit id="e4c016d0-d21b-4f99-932b-47f76118f665" xml:space="preserve">
+          <source>For example, games or applications that require processing with GPUs (without providing software fallback) might not work well.</source>
+          <target state="new">For example, games or applications that require processing with GPUs (without providing software fallback) might not work well.</target>
+        </trans-unit>
+        <trans-unit id="b2dbabdd-cbcb-4311-8be6-75f703c1408f" xml:space="preserve">
+          <source>Also, applications relying on sub 10ms timers, like latency-sensitive high-precision apps such as live music mixing apps, etc. could have issues running in a VM.</source>
+          <target state="new">Also, applications relying on sub 10ms timers, like latency-sensitive high-precision apps such as live music mixing apps, etc. could have issues running in a VM.</target>
+        </trans-unit>
+        <trans-unit id="6098df90-7af8-4dd5-b946-e1801e03ac70" xml:space="preserve">
+          <source>The root OS is also running on top of the Hyper-V virtualization layer, but it is special in that it has direct access to all the hardware.</source>
+          <target state="new">The root OS is also running on top of the Hyper-V virtualization layer, but it is special in that it has direct access to all the hardware.</target>
+        </trans-unit>
+        <trans-unit id="8a58fcc9-39a5-40ed-a5ab-0e0a8136d050" xml:space="preserve">
+          <source>This is why applications with special hardware requirements continue to work unhindered in the root OS but latency-sensitive, high-precision apps could still have issues running in the root OS.</source>
+          <target state="new">This is why applications with special hardware requirements continue to work unhindered in the root OS but latency-sensitive, high-precision apps could still have issues running in the root OS.</target>
+        </trans-unit>
+        <trans-unit id="a4b12bca-d815-49c8-a726-5185560228d6" xml:space="preserve">
+          <source>As a reminder, you'll need to have a valid license for any operating systems you use in the VMs.</source>
+          <target state="new">As a reminder, you'll need to have a valid license for any operating systems you use in the VMs.</target>
+        </trans-unit>
+        <trans-unit id="fb20dede-66fa-4411-ba33-557fa497c446" xml:space="preserve">
+          <source>Next step:</source>
+          <target state="new">Next step:</target>
+        </trans-unit>
+        <trans-unit id="0f020e43-5e45-42f1-8e9b-cf68bea5942d" xml:space="preserve">
+          <source><bpt id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId1">&lt;linkText&gt;</bpt>Walkthrough Hyper-V on Windows 10<ept id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId2">&lt;title&gt;</bpt><ept id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId2">&lt;/title&gt;</ept></source>
+          <target state="new"><bpt id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId1">&lt;linkText&gt;</bpt>Walkthrough Hyper-V on Windows 10<ept id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId1">&lt;/linkText&gt;</ept><bpt id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId2">&lt;title&gt;</bpt><ept id="9811ae8c-6f40-4e76-941c-858ba820ff18CapsExtId2">&lt;/title&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ff5e6631-05a1-49c0-a068-14217b77a969" xml:space="preserve">
+          <source>Check out <bpt id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId1">&lt;linkText&gt;</bpt>What's New<ept id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId1">&lt;/linkText&gt;</ept><bpt id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId2">&lt;title&gt;</bpt><ept id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId2">&lt;/title&gt;</ept> in Hyper-V on Windows 10.</source>
+          <target state="new">Check out <bpt id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId1">&lt;linkText&gt;</bpt>What's New<ept id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId1">&lt;/linkText&gt;</ept><bpt id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId2">&lt;title&gt;</bpt><ept id="488083d3-ce47-49b2-a0ef-282f802c4505CapsExtId2">&lt;/title&gt;</ept> in Hyper-V on Windows 10.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

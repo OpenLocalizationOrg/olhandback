@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="666d92ff-f8e9-43fb-b995-1467fb99ae67" product-name="foo" product-version="1.0" build-num="1">
+    <header>
+      <tool tool-id="666d92ff-f8e9-43fb-b995-1467fb99ae67" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <olfilehash xmlns="">2b9e9b367c183aac1bdafacbe6bbe4a65d45d585</olfilehash>
+    </header>
+    <body>
+      <group id="17e965e2-7477-49be-b69b-f01398c088d3">
+        <trans-unit id="f4ab0eca-f78b-437b-91df-6ebb258919dd" xml:space="preserve">
+          <source>ms.ContentId: 8DE9250B-556B-47BC-AD9A-8992B3D3D0F9</source>
+          <target state="new">ms.ContentId: 8DE9250B-556B-47BC-AD9A-8992B3D3D0F9</target>
+        </trans-unit>
+        <trans-unit id="15ff3a63-b1d4-420e-9efe-f7738f5060d5" xml:space="preserve">
+          <source>title: PowerShell Snippets</source>
+          <target state="new">title: PowerShell Snippets</target>
+        </trans-unit>
+        <trans-unit id="c8113295-647f-493e-b5e8-fb0f3be1443b" xml:space="preserve">
+          <source>PowerShell Snippets</source>
+          <target state="new">PowerShell Snippets</target>
+        </trans-unit>
+        <trans-unit id="3935c05d-de67-4cf4-96a1-36d009286735" xml:space="preserve">
+          <source>18-Nov update for user scinario part 4B.Adding this sentence to validate the bug 451132 result.</source>
+          <target state="new">18-Nov update for user scinario part 4B.Adding this sentence to validate the bug 451132 result.</target>
+        </trans-unit>
+        <trans-unit id="0419a935-c7cd-43ca-adc7-a5551aea3cd2" xml:space="preserve">
+          <source>PowerShell is an awesome scripting, automation, and management tool for Hyper-V.  Here is a toolbox for exploring some of the cool things it can do!</source>
+          <target state="new">PowerShell is an awesome scripting, automation, and management tool for Hyper-V.  Here is a toolbox for exploring some of the cool things it can do!</target>
+        </trans-unit>
+        <trans-unit id="cbc14f89-a8b8-49bc-a411-b7e646c1e31a" xml:space="preserve">
+          <source>All Hyper-V management requires running as administrator so assume all scripts and snippets must be run as administrator from a Hyper-V Administrator account.</source>
+          <target state="new">All Hyper-V management requires running as administrator so assume all scripts and snippets must be run as administrator from a Hyper-V Administrator account.</target>
+        </trans-unit>
+        <trans-unit id="5ca10769-0b03-4200-b7e4-d635d3f5c87e" xml:space="preserve">
+          <source>If you aren't sure if you have the right permissions, type <bpt id="6f13d67a-9402-4a95-a2ee-3f23770bc15f">&lt;code&gt;</bpt>Get-VM<ept id="6f13d67a-9402-4a95-a2ee-3f23770bc15f">&lt;/code&gt;</ept> and if it runs with no errors, you're ready to go.</source>
+          <target state="new">If you aren't sure if you have the right permissions, type <bpt id="6f13d67a-9402-4a95-a2ee-3f23770bc15f">&lt;code&gt;</bpt>Get-VM<ept id="6f13d67a-9402-4a95-a2ee-3f23770bc15f">&lt;/code&gt;</ept> and if it runs with no errors, you're ready to go.</target>
+        </trans-unit>
+        <trans-unit id="d592174f-ac9b-482b-830f-8c70ce23d057" xml:space="preserve">
+          <source>PowerShell Direct tools</source>
+          <target state="new">PowerShell Direct tools</target>
+        </trans-unit>
+        <trans-unit id="08bb6961-1479-4230-8838-4060d68dc199" xml:space="preserve">
+          <source>All of the scripts and snippets in this section will rely on the following basics.</source>
+          <target state="new">All of the scripts and snippets in this section will rely on the following basics.</target>
+        </trans-unit>
+        <trans-unit id="1ec95d1d-aa8b-416c-bfc7-8a6f51b6b9b9" xml:space="preserve">
+          <source><bpt id="8b2aa06f-91f8-4170-ba1f-893e5acfe571">&lt;strong&gt;</bpt>Requirements<ept id="8b2aa06f-91f8-4170-ba1f-893e5acfe571">&lt;/strong&gt;</ept> :</source>
+          <target state="new"><bpt id="8b2aa06f-91f8-4170-ba1f-893e5acfe571">&lt;strong&gt;</bpt>Requirements<ept id="8b2aa06f-91f8-4170-ba1f-893e5acfe571">&lt;/strong&gt;</ept> :</target>
+        </trans-unit>
+        <trans-unit id="7b237d20-d46c-45f1-952f-f48adea1cc5a" xml:space="preserve">
+          <source>PowerShell Direct.</source>
+          <target state="new">PowerShell Direct.</target>
+        </trans-unit>
+        <trans-unit id="5e635272-f7c6-45e3-a51e-331c0075b5a1" xml:space="preserve">
+          <source>Windows 10 guest and host OS.</source>
+          <target state="new">Windows 10 guest and host OS.</target>
+        </trans-unit>
+        <trans-unit id="a2491bae-8f1e-44c7-9c55-68ef377c40ff" xml:space="preserve">
+          <source><bpt id="0b3f8dd4-826a-4ea2-b17f-151c2251163c">&lt;strong&gt;</bpt>Common Variables<ept id="0b3f8dd4-826a-4ea2-b17f-151c2251163c">&lt;/strong&gt;</ept> :</source>
+          <target state="new"><bpt id="0b3f8dd4-826a-4ea2-b17f-151c2251163c">&lt;strong&gt;</bpt>Common Variables<ept id="0b3f8dd4-826a-4ea2-b17f-151c2251163c">&lt;/strong&gt;</ept> :</target>
+        </trans-unit>
+        <trans-unit id="c3909b85-61da-463a-af21-9a60b0cfc1fb" xml:space="preserve">
+          <source><bpt id="937bfc79-2485-43a5-a062-f1004c4eef3b">&lt;code&gt;</bpt>$VMName<ept id="937bfc79-2485-43a5-a062-f1004c4eef3b">&lt;/code&gt;</ept> -- this is a string with the VMName.</source>
+          <target state="new"><bpt id="937bfc79-2485-43a5-a062-f1004c4eef3b">&lt;code&gt;</bpt>$VMName<ept id="937bfc79-2485-43a5-a062-f1004c4eef3b">&lt;/code&gt;</ept> -- this is a string with the VMName.</target>
+        </trans-unit>
+        <trans-unit id="8f255681-be62-4141-929d-394a34152623" xml:space="preserve">
+          <source>See a list of available VMs with <bpt id="1f8d5b37-67fa-4d59-8d55-6a53c84f6823">&lt;code&gt;</bpt>Get-VM<ept id="1f8d5b37-67fa-4d59-8d55-6a53c84f6823">&lt;/code&gt;</ept></source>
+          <target state="new">See a list of available VMs with <bpt id="1f8d5b37-67fa-4d59-8d55-6a53c84f6823">&lt;code&gt;</bpt>Get-VM<ept id="1f8d5b37-67fa-4d59-8d55-6a53c84f6823">&lt;/code&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="281c8a17-867d-431d-8954-adfc77fd5c57" xml:space="preserve">
+          <source><bpt id="2127aaab-3d29-45b3-8f04-5f8153714381">&lt;code&gt;</bpt>$cred<ept id="2127aaab-3d29-45b3-8f04-5f8153714381">&lt;/code&gt;</ept> -- Credential for the guest OS.</source>
+          <target state="new"><bpt id="2127aaab-3d29-45b3-8f04-5f8153714381">&lt;code&gt;</bpt>$cred<ept id="2127aaab-3d29-45b3-8f04-5f8153714381">&lt;/code&gt;</ept> -- Credential for the guest OS.</target>
+        </trans-unit>
+        <trans-unit id="8286bf95-3d13-4a26-a4f1-a6690391fbe7" xml:space="preserve">
+          <source>Can be populated using <bpt id="7377bdde-2c85-4753-b019-cdfdf3d23f5d">&lt;code&gt;</bpt>$cred = Get-Credential<ept id="7377bdde-2c85-4753-b019-cdfdf3d23f5d">&lt;/code&gt;</ept></source>
+          <target state="new">Can be populated using <bpt id="7377bdde-2c85-4753-b019-cdfdf3d23f5d">&lt;code&gt;</bpt>$cred = Get-Credential<ept id="7377bdde-2c85-4753-b019-cdfdf3d23f5d">&lt;/code&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="779e728c-e901-4992-b3a5-c4b269944ab0" xml:space="preserve">
+          <source>Check if the guest has booted</source>
+          <target state="new">Check if the guest has booted</target>
+        </trans-unit>
+        <trans-unit id="3dd92c95-7680-4d69-a53e-457eb75c27e6" xml:space="preserve">
+          <source>Hyper-V Manager doesn't give you visibility into the guest operating system which often makes it difficult to know whether the guest OS has booted.</source>
+          <target state="new">Hyper-V Manager doesn't give you visibility into the guest operating system which often makes it difficult to know whether the guest OS has booted.</target>
+        </trans-unit>
+        <trans-unit id="341c49e2-2265-4332-be26-0af70fd1963f" xml:space="preserve">
+          <source>Use this command to check whether the guest has booted.</source>
+          <target state="new">Use this command to check whether the guest has booted.</target>
+        </trans-unit>
+        <trans-unit id="40e21f13-72b6-4556-a48f-816eb76008f7" xml:space="preserve">
+          <source><bpt id="900f01d3-8c41-4ebe-9d83-3997f65387ae">&lt;strong&gt;</bpt>Outcome<ept id="900f01d3-8c41-4ebe-9d83-3997f65387ae">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="900f01d3-8c41-4ebe-9d83-3997f65387ae">&lt;strong&gt;</bpt>Outcome<ept id="900f01d3-8c41-4ebe-9d83-3997f65387ae">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="c24f659e-7413-4ac3-bbca-756e9f64eb57" xml:space="preserve">
+          <source>Prints a friendly message declaring the state of the guest OS.</source>
+          <target state="new">Prints a friendly message declaring the state of the guest OS.</target>
+        </trans-unit>
+        <trans-unit id="2c1976e0-4b08-4d9d-bdd6-c0615b12f3ec" xml:space="preserve">
+          <source>Script locking until the guest has booted</source>
+          <target state="new">Script locking until the guest has booted</target>
+        </trans-unit>
+        <trans-unit id="a804b292-100c-494f-a1fc-2d85a7e5087d" xml:space="preserve">
+          <source>The following function waits uses the same principle to wait until PowerShell is available in the guest (meaning the OS has booted and most services are running) then returns.</source>
+          <target state="new">The following function waits uses the same principle to wait until PowerShell is available in the guest (meaning the OS has booted and most services are running) then returns.</target>
+        </trans-unit>
+        <trans-unit id="b6011bd7-e606-47d9-8beb-6a7ef25c7b01" xml:space="preserve">
+          <source><bpt id="17b3c7f6-da7d-4782-b78e-7adff556c597">&lt;strong&gt;</bpt>Outcome<ept id="17b3c7f6-da7d-4782-b78e-7adff556c597">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="17b3c7f6-da7d-4782-b78e-7adff556c597">&lt;strong&gt;</bpt>Outcome<ept id="17b3c7f6-da7d-4782-b78e-7adff556c597">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="10e9a571-970b-411d-a5e8-d3716c8c7192" xml:space="preserve">
+          <source>Prints a friendly message and locks until the connection to the VM succeeds.</source>
+          <target state="new">Prints a friendly message and locks until the connection to the VM succeeds.</target>
+        </trans-unit>
+        <trans-unit id="6b49eb5b-be37-4a16-b90f-7a13fea6eb9d" xml:space="preserve">
+          <source>Succeeds silently.</source>
+          <target state="new">Succeeds silently.</target>
+        </trans-unit>
+        <trans-unit id="6ffa3688-4dae-499b-bef3-b43b7d8ebbd0" xml:space="preserve">
+          <source>Script locking until the guest has a network</source>
+          <target state="new">Script locking until the guest has a network</target>
+        </trans-unit>
+        <trans-unit id="a4ff131b-99d4-4cff-88a5-ff63d81220f4" xml:space="preserve">
+          <source>With PowerShell Direct it is possible to get connected to a PowerShell session inside a virtual machine before the virtual machine has received an IP address.</source>
+          <target state="new">With PowerShell Direct it is possible to get connected to a PowerShell session inside a virtual machine before the virtual machine has received an IP address.</target>
+        </trans-unit>
+        <trans-unit id="383a5739-ca45-4e7f-8952-224913415610" xml:space="preserve">
+          <source><bpt id="9af24296-b712-4df8-9929-fe149306dd1d">&lt;em&gt;</bpt>* Outcome *<ept id="9af24296-b712-4df8-9929-fe149306dd1d">&lt;/em&gt;</ept></source>
+          <target state="new"><bpt id="9af24296-b712-4df8-9929-fe149306dd1d">&lt;em&gt;</bpt>* Outcome *<ept id="9af24296-b712-4df8-9929-fe149306dd1d">&lt;/em&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="12d08bb5-f8a3-428d-b578-5aff46b91354" xml:space="preserve">
+          <source>Locks until a DHCP lease is recieved.</source>
+          <target state="new">Locks until a DHCP lease is recieved.</target>
+        </trans-unit>
+        <trans-unit id="c4fa1b63-2ece-4d0a-8111-72421918a2cd" xml:space="preserve">
+          <source>Since this script is not looking for a specific subnet or IP address, it works no matter what network configuration you're using.</source>
+          <target state="new">Since this script is not looking for a specific subnet or IP address, it works no matter what network configuration you're using.</target>
+        </trans-unit>
+        <trans-unit id="e9fa9e09-d449-48b4-a2fe-42f889eaa771" xml:space="preserve">
+          <source>Succeeds silently.</source>
+          <target state="new">Succeeds silently.</target>
+        </trans-unit>
+        <trans-unit id="76cf38c1-c7fc-4c33-b17c-267304245405" xml:space="preserve">
+          <source>Managing credentials with PowerShell</source>
+          <target state="new">Managing credentials with PowerShell</target>
+        </trans-unit>
+        <trans-unit id="52b0e5bb-7f42-4e43-99ff-ec45a7485ed6" xml:space="preserve">
+          <source>Hyper-V scripts frequently require handling credentials for one or more virtual machines, Hyper-V host, or both.</source>
+          <target state="new">Hyper-V scripts frequently require handling credentials for one or more virtual machines, Hyper-V host, or both.</target>
+        </trans-unit>
+        <trans-unit id="bf4e9a94-ea0b-481a-b7d4-b4aa1c7e4056" xml:space="preserve">
+          <source>There are multiple ways you can achieve this when working with PowerShell Direct or standard PowerShell remoting:</source>
+          <target state="new">There are multiple ways you can achieve this when working with PowerShell Direct or standard PowerShell remoting:</target>
+        </trans-unit>
+        <trans-unit id="9abf03d9-6be9-40e5-89ed-31d072f79f40" xml:space="preserve">
+          <source>The first (and simplest) way is to have the same user credentials be valid in the host and the guest or local and remote host.</source>
+          <target state="new">The first (and simplest) way is to have the same user credentials be valid in the host and the guest or local and remote host.</target>
+        </trans-unit>
+        <trans-unit id="68bd399a-4d86-4998-82c4-a97943793016" xml:space="preserve">
+          <source>This is quite easy if you are logging in with your Microsoft account - or if you are in a domain environment.</source>
+          <target state="new">This is quite easy if you are logging in with your Microsoft account - or if you are in a domain environment.</target>
+        </trans-unit>
+        <trans-unit id="5b6b8eec-496a-4a5a-97dc-ff8ba6bdbce6" xml:space="preserve">
+          <source>In this scenario you can just run <bpt id="2f6669aa-7fb6-4f53-b102-94e3078b2a3e">&lt;code&gt;</bpt>Invoke-Command -VMName "test" {get-process}<ept id="2f6669aa-7fb6-4f53-b102-94e3078b2a3e">&lt;/code&gt;</ept>.</source>
+          <target state="new">In this scenario you can just run <bpt id="2f6669aa-7fb6-4f53-b102-94e3078b2a3e">&lt;code&gt;</bpt>Invoke-Command -VMName "test" {get-process}<ept id="2f6669aa-7fb6-4f53-b102-94e3078b2a3e">&lt;/code&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="74ae54b6-4717-445d-8ec7-c66199779c80" xml:space="preserve">
+          <source>Let PowerShell prompt you for credentials</source>
+          <target state="new">Let PowerShell prompt you for credentials</target>
+        </trans-unit>
+        <trans-unit id="fea0b460-c155-4f42-8205-ba3c8489ce6b" xml:space="preserve">
+          <source>If your credentials do not match you will automatically get a credential prompt allowing you to provide the appropriate credentials for the virtual machine.</source>
+          <target state="new">If your credentials do not match you will automatically get a credential prompt allowing you to provide the appropriate credentials for the virtual machine.</target>
+        </trans-unit>
+        <trans-unit id="c88be2ee-2bfa-4d70-9707-3525d5fff7ad" xml:space="preserve">
+          <source>Store credentials in a variable for reuse.</source>
+          <target state="new">Store credentials in a variable for reuse.</target>
+        </trans-unit>
+        <trans-unit id="141e2003-83e8-438f-b3ee-26f4e432096f" xml:space="preserve">
+          <source>Running a simple command like this:</source>
+          <target state="new">Running a simple command like this:</target>
+        </trans-unit>
+        <trans-unit id="af75cb62-e5d3-4e00-a61e-869d4d003260" xml:space="preserve">
+          <source>And then running something like this:</source>
+          <target state="new">And then running something like this:</target>
+        </trans-unit>
+        <trans-unit id="f331332b-6020-4b32-b1a7-26426b48b3d6" xml:space="preserve">
+          <source>Will mean that you only get prompted once per script/PowerShell session for your credentials.</source>
+          <target state="new">Will mean that you only get prompted once per script/PowerShell session for your credentials.</target>
+        </trans-unit>
+        <trans-unit id="8d25199f-9072-419d-9f37-47be4e040ad4" xml:space="preserve">
+          <source>Code your credentials into your scripts.</source>
+          <target state="new">Code your credentials into your scripts.</target>
+        </trans-unit>
+        <trans-unit id="0f9e96c3-45d6-4fd0-8b5b-b11b0fb74cc7" xml:space="preserve">
+          <source><bpt id="2d8bbacd-e69a-4af5-a314-ea808123cffa">&lt;strong&gt;</bpt>Don't do this for any real workload or system<ept id="2d8bbacd-e69a-4af5-a314-ea808123cffa">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="2d8bbacd-e69a-4af5-a314-ea808123cffa">&lt;strong&gt;</bpt>Don't do this for any real workload or system<ept id="2d8bbacd-e69a-4af5-a314-ea808123cffa">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="e6f9123b-2448-426e-a779-b31657eb44e3" xml:space="preserve">
+          <source>Warning:  _Do not do this in a production system.</source>
+          <target state="new">Warning:  _Do not do this in a production system.</target>
+        </trans-unit>
+        <trans-unit id="c64a52fa-7796-4055-9320-182b3b6be619" xml:space="preserve">
+          <source>Do not do this with real passwords._</source>
+          <target state="new">Do not do this with real passwords._</target>
+        </trans-unit>
+        <trans-unit id="6da45053-d817-4cd3-af5a-03a6274c170a" xml:space="preserve">
+          <source>You can hand craft a PSCredential object with some code like this:</source>
+          <target state="new">You can hand craft a PSCredential object with some code like this:</target>
+        </trans-unit>
+        <trans-unit id="27150a46-a164-46af-ae41-1f68353d35e0" xml:space="preserve">
+          <source>Grossly insecure - but useful for testing.</source>
+          <target state="new">Grossly insecure - but useful for testing.</target>
+        </trans-unit>
+        <trans-unit id="3d5583aa-15e7-4a35-92ca-2334f96853f4" xml:space="preserve">
+          <source>Now you get no prompts at all in this session.</source>
+          <target state="new">Now you get no prompts at all in this session.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

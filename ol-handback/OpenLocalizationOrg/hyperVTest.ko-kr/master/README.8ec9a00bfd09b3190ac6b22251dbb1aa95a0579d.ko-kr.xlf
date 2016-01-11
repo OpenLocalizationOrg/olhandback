@@ -1,83 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="afb7578b-8513-4771-9bad-f6d490ba0454" product-name="foo" product-version="1.0" build-num="1">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="2f1c27b3-6e9a-4428-817f-8ec049739061" product-name="foo" product-version="1.0" build-num="1">
     <header>
-      <tool tool-id="afb7578b-8513-4771-9bad-f6d490ba0454" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <tool tool-id="2f1c27b3-6e9a-4428-817f-8ec049739061" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
       <olfilehash xmlns="">b9dc5a444d0f8c98a5dc926e9e412f60dbd25f20</olfilehash>
     </header>
     <body>
-      <group id="5a2ecd6c-565b-427d-9ad9-cf0011fb0a75">
-        <trans-unit id="313c937c-bba2-4acf-953b-8dcc649a64eb" xml:space="preserve">
+      <group id="9a7119d6-9a88-4ec6-8ee3-083b227caf22">
+        <trans-unit id="53e4bb12-57d8-410d-aa28-9f1ac830ac6c" xml:space="preserve">
           <source>Welcome to Open Publishing Design Docs</source>
-          <target state="translated">게시 디자인 문서를 열려면 시작</target>         
+          <target state="new">Welcome to Open Publishing Design Docs</target>
         </trans-unit>
-        <trans-unit id="4b4207ec-1299-4b30-a489-fb9796006c0b" xml:space="preserve">
+        <trans-unit id="f01b327d-9a4f-4284-b474-d81dda93457a" xml:space="preserve">
           <source>This is the repository of Open Publishing Design Documents powered by MSDN Open Publishing.</source>
-          <target state="translated">이 MSDN 열기 게시 하 여 전원이 열린 게시 디자인 문서의 리포지토리입니다.</target>         
+          <target state="new">This is the repository of Open Publishing Design Documents powered by MSDN Open Publishing.</target>
         </trans-unit>
-        <trans-unit id="4e7db209-ea78-426e-bd0e-84f67cf72009" xml:space="preserve">
+        <trans-unit id="2d32088d-9ff6-4c5b-a008-a2b0444506cb" xml:space="preserve">
           <source>Quick Start</source>
-          <target state="translated">빠른 시작</target>         
+          <target state="new">Quick Start</target>
         </trans-unit>
-        <trans-unit id="0481a2bd-25ac-4b61-9eb2-9f86adc53587" xml:space="preserve">
+        <trans-unit id="0bbb2bf2-074f-4d23-9cf7-c819e5ab2db0" xml:space="preserve">
           <source>Start contributing to Open Publishing docs using the following steps:</source>
-          <target state="translated">다음 단계를 사용 하 여 게시 열린 문서에 영향을 주는 시작 합니다.</target>         
+          <target state="new">Start contributing to Open Publishing docs using the following steps:</target>
         </trans-unit>
-        <trans-unit id="ad210fe7-ad96-4fdd-9954-7a5113a92221" xml:space="preserve">
+        <trans-unit id="ce26ea58-8a97-44e5-b834-b1895c1eea45" xml:space="preserve">
           <source>Clone the repo:</source>
-          <target state="translated">Repo를 복제 합니다.</target>         
+          <target state="new">Clone the repo:</target>
         </trans-unit>
-        <trans-unit id="3947bf50-d1e0-462a-ac8d-f2d2c9280cf9" xml:space="preserve">
+        <trans-unit id="8ab78074-cfab-4ba8-844e-73f23beae54e" xml:space="preserve">
           <source>Edit the Markdown files using your favorite Markdown editor.</source>
-          <target state="translated">선호 하는 Markdown 편집기를 사용 하 여 Markdown 파일을 편집 합니다.</target>         
+          <target state="new">Edit the Markdown files using your favorite Markdown editor.</target>
         </trans-unit>
-        <trans-unit id="6f625186-b731-4aa4-b005-80a74f8328de" xml:space="preserve">
+        <trans-unit id="0891d928-dc98-414a-95d4-3c079510f223" xml:space="preserve">
           <source>Commit and push your changes:</source>
-          <target state="translated">커밋 및 변경 내용을 푸시하십시오.</target>         
+          <target state="new">Commit and push your changes:</target>
         </trans-unit>
-        <trans-unit id="723266cf-14f5-4ad6-85f3-dea9e9fc7f7f" xml:space="preserve">
+        <trans-unit id="d1ece23d-90d4-4d07-9ea0-52ae45473a6b" xml:space="preserve">
           <source>Wait for a moment and your changes will be automatically published to :</source>
-          <target state="translated">잠시 기다린 후에 변경 내용을 자동으로 게시 됩니다.</target>         
+          <target state="new">Wait for a moment and your changes will be automatically published to :</target>
         </trans-unit>
-        <trans-unit id="85c90649-347d-4160-b570-b5fcd4d37e8f" xml:space="preserve">
+        <trans-unit id="2152805b-46fa-4745-9be5-13bc83bd0ab1" xml:space="preserve">
           <source>Docset 1: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/community</source>
-          <target state="translated">문서 집합 1: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/community</target>         
+          <target state="new">Docset 1: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/community</target>
         </trans-unit>
-        <trans-unit id="be6e6d09-36fb-43fa-a1ae-3fdafbe6c188" xml:space="preserve">
-          <source>Docset 2: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/hyperv<bpt id="93c3bd77-1e7d-4c6d-880f-11439a30cd07">&lt;em&gt;</bpt>on<ept id="93c3bd77-1e7d-4c6d-880f-11439a30cd07">&lt;/em&gt;</ept>windows</source>
-          <target state="translated">문서 집합 2: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/hyperv<bpt id="93c3bd77-1e7d-4c6d-880f-11439a30cd07">&lt;em&gt;</bpt>에<ept id="93c3bd77-1e7d-4c6d-880f-11439a30cd07">&lt;/em&gt;</ept>windows</target>         
+        <trans-unit id="c808dd1d-230a-4318-8de5-b0653095d3a4" xml:space="preserve">
+          <source>Docset 2: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/hyperv<bpt id="e40a5c29-f378-450d-a00c-e6a8d50ec3e9">&lt;em&gt;</bpt>on<ept id="e40a5c29-f378-450d-a00c-e6a8d50ec3e9">&lt;/em&gt;</ept>windows</source>
+          <target state="new">Docset 2: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/hyperv<bpt id="e40a5c29-f378-450d-a00c-e6a8d50ec3e9">&lt;em&gt;</bpt>on<ept id="e40a5c29-f378-450d-a00c-e6a8d50ec3e9">&lt;/em&gt;</ept>windows</target>
         </trans-unit>
-        <trans-unit id="80ba9de1-3ef4-444a-b73d-52b09930c2bc" xml:space="preserve">
+        <trans-unit id="e233ec72-927d-424d-afce-c67d192a15a0" xml:space="preserve">
           <source>Docset 3: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/windowscontainers</source>
-          <target state="translated">문서 집합 3: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/windowscontainers</target>         
+          <target state="new">Docset 3: https://msdnnext.redmond.corp.microsoft.com/olorg/hypervtest/virtualization/windowscontainers</target>
         </trans-unit>
-        <trans-unit id="a7e6f282-e5f4-44d9-a253-414609be6489" xml:space="preserve">
+        <trans-unit id="3096b9d3-7590-4334-bef7-53e8b082b151" xml:space="preserve">
           <source>If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.</source>
-          <target state="translated">이 repo에 푸시 수 있는 권한이 없으면 자신의 계정에이 분기 하 고 변경 내용을 다시 전송 하려면 끌어오기 요청을 사용 합니다.</target>         
+          <target state="new">If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.</target>
         </trans-unit>
-        <trans-unit id="a46acc7d-dfaa-4c27-802e-c40ae6e94f44" xml:space="preserve">
+        <trans-unit id="6250ea74-e632-4aa4-a004-7c5404a1369c" xml:space="preserve">
           <source>Validation and Preview</source>
-          <target state="translated">유효성 검사 및 미리 보기</target>         
+          <target state="new">Validation and Preview</target>
         </trans-unit>
-        <trans-unit id="c2b6ba08-142a-46ee-8d5f-d8d0feea3379" xml:space="preserve">
+        <trans-unit id="a6f54a0f-b7d8-44bd-b1ae-fe6d01d56b59" xml:space="preserve">
           <source>Before pushing your changes to remote, you can build and preview your doc in local to discover problems early:</source>
-          <target state="translated">하기 전에 변경 내용을 원격, 빌드 및 문제를 조기에 발견 하는 로컬에서 사용자 문서 미리 보기:</target>         
+          <target state="new">Before pushing your changes to remote, you can build and preview your doc in local to discover problems early:</target>
         </trans-unit>
-        <trans-unit id="dd42f23a-313f-4691-95d4-526b87e48bbf" xml:space="preserve">
-          <source>To validate your changes, just run <bpt id="7d15d975-7a4d-4b5b-b09c-3d74cc2684fd">&lt;code&gt;</bpt>msbuild<ept id="7d15d975-7a4d-4b5b-b09c-3d74cc2684fd">&lt;/code&gt;</ept> under the root of the repo.</source>
-          <target state="translated">변경 내용을 확인을 위해 실행 하기만 <bpt id="7d15d975-7a4d-4b5b-b09c-3d74cc2684fd">&lt;code&gt;</bpt>msbuild<ept id="7d15d975-7a4d-4b5b-b09c-3d74cc2684fd">&lt;/code&gt;</ept> 리포지토리가의 루트입니다.</target>         
+        <trans-unit id="212e595d-9f73-462c-a9eb-979e2599a998" xml:space="preserve">
+          <source>To validate your changes, just run <bpt id="bb92b2bf-b2b4-4c4f-ac17-a972a2c399ee">&lt;code&gt;</bpt>msbuild<ept id="bb92b2bf-b2b4-4c4f-ac17-a972a2c399ee">&lt;/code&gt;</ept> under the root of the repo.</source>
+          <target state="new">To validate your changes, just run <bpt id="bb92b2bf-b2b4-4c4f-ac17-a972a2c399ee">&lt;code&gt;</bpt>msbuild<ept id="bb92b2bf-b2b4-4c4f-ac17-a972a2c399ee">&lt;/code&gt;</ept> under the root of the repo.</target>
         </trans-unit>
-        <trans-unit id="3bac49ef-4acb-44b3-a342-9f9846bf0b6f" xml:space="preserve">
+        <trans-unit id="e12be9bc-d843-406a-b9ce-37fbfefd2e8b" xml:space="preserve">
           <source>To preview your changes:</source>
-          <target state="translated">변경 내용을 미리 보려면:</target>         
+          <target state="new">To preview your changes:</target>
         </trans-unit>
-        <trans-unit id="ac793556-eb59-4651-879d-6f1f3a63562b" xml:space="preserve">
-          <source>Run <bpt id="886a8b9c-bf69-449f-9164-b4d00222ffc6">&lt;code&gt;</bpt>msbuild /t:serve<ept id="886a8b9c-bf69-449f-9164-b4d00222ffc6">&lt;/code&gt;</ept> under the root of the repo.</source>
-          <target state="translated">실행 <bpt id="886a8b9c-bf69-449f-9164-b4d00222ffc6">&lt;code&gt;</bpt>msbuild /t:serve<ept id="886a8b9c-bf69-449f-9164-b4d00222ffc6">&lt;/code&gt;</ept> 리포지토리가의 루트입니다.</target>         
+        <trans-unit id="4e3bd597-c77e-43b0-a21c-883a8b2da703" xml:space="preserve">
+          <source>Run <bpt id="41fdbd04-ed22-41e7-bdb1-3aa1ee8f2017">&lt;code&gt;</bpt>msbuild /t:serve<ept id="41fdbd04-ed22-41e7-bdb1-3aa1ee8f2017">&lt;/code&gt;</ept> under the root of the repo.</source>
+          <target state="new">Run <bpt id="41fdbd04-ed22-41e7-bdb1-3aa1ee8f2017">&lt;code&gt;</bpt>msbuild /t:serve<ept id="41fdbd04-ed22-41e7-bdb1-3aa1ee8f2017">&lt;/code&gt;</ept> under the root of the repo.</target>
         </trans-unit>
-        <trans-unit id="21ef6c47-f024-4340-995d-6cdd43f2eb78" xml:space="preserve">
-          <source>Open <bpt id="5f5d14a4-5252-4fb4-86bb-74db1450f279">&lt;code&gt;</bpt>http://localhost:8000<ept id="5f5d14a4-5252-4fb4-86bb-74db1450f279">&lt;/code&gt;</ept> in your browser.</source>
-          <target state="translated">열기 <bpt id="5f5d14a4-5252-4fb4-86bb-74db1450f279">&lt;code&gt;</bpt>http://localhost:8000/<ept id="5f5d14a4-5252-4fb4-86bb-74db1450f279">&lt;/code&gt;</ept> 브라우저에 있습니다.</target>         
+        <trans-unit id="99a7a6a6-1e94-46b5-9c10-939e3b5e6bfe" xml:space="preserve">
+          <source>Open <bpt id="b501bc0d-7e6c-4fa0-ad75-b356ce9d0928">&lt;code&gt;</bpt>http://localhost:8000<ept id="b501bc0d-7e6c-4fa0-ad75-b356ce9d0928">&lt;/code&gt;</ept> in your browser.</source>
+          <target state="new">Open <bpt id="b501bc0d-7e6c-4fa0-ad75-b356ce9d0928">&lt;code&gt;</bpt>http://localhost:8000<ept id="b501bc0d-7e6c-4fa0-ad75-b356ce9d0928">&lt;/code&gt;</ept> in your browser.</target>
         </trans-unit>
       </group>
     </body>

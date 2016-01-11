@@ -1,0 +1,857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="zh-cn" original="12/8/2015 11:57:34 PM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
+    <header>
+      <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47df0521648aa201fe51d32cae3106500f417e91</xliffext:olfilehash>
+    </header>
+    <body>
+      <group id="337e031f-716d-4ad6-874d-3dac6d188641">
+        <trans-unit id="40604826-a967-490e-bf45-f470e42b3a13" xml:space="preserve">
+          <source>ms.ContentId: 3fdd690d-4259-4066-8781-360bb0554512</source>
+          <target state="new">ms.ContentId: 3fdd690d-4259-4066-8781-360bb0554512</target>
+        </trans-unit>
+        <trans-unit id="b173ef7e-5384-4647-b9ec-ce365fe7cc7b" xml:space="preserve">
+          <source>title: Running Apps in Windows Containers</source>
+          <target state="new">title: Running Apps in Windows Containers</target>
+        </trans-unit>
+        <trans-unit id="93d3c4bf-1ea4-4be1-b848-f0f547ab1094" xml:space="preserve">
+          <source>Application Compatability in Windows Server Containers</source>
+          <target state="new">Application Compatability in Windows Server Containers</target>
+        </trans-unit>
+        <trans-unit id="fb34502b-355a-4ecd-ad55-52167e2c5ba9" xml:space="preserve">
+          <source>Updating contents on 8-Dec for testing.</source>
+          <target state="new">Updating contents on 8-Dec for testing.</target>
+        </trans-unit>
+        <trans-unit id="da8cdaf8-9b84-40b3-b95d-2230433519e9" xml:space="preserve">
+          <source>Adding this sentence for testing HO-HB process.</source>
+          <target state="new">Adding this sentence for testing HO-HB process.</target>
+        </trans-unit>
+        <trans-unit id="0e5d8972-2fbe-46ee-a33a-efdbee832465" xml:space="preserve">
+          <source>Is something not on this list?</source>
+          <target state="new">Is something not on this list?</target>
+        </trans-unit>
+        <trans-unit id="08ad7abb-d2c2-4778-9b9c-61f061eef9f4" xml:space="preserve">
+          <source>Let us know what fails and succeeds in your environment via <bpt id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId1">&lt;linkText&gt;</bpt>the forums<ept id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId1">&lt;/linkText&gt;</ept><bpt id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId2">&lt;title&gt;</bpt><ept id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="new">Let us know what fails and succeeds in your environment via <bpt id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId1">&lt;linkText&gt;</bpt>the forums<ept id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId1">&lt;/linkText&gt;</ept><bpt id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId2">&lt;title&gt;</bpt><ept id="48276e0b-9e5d-4a49-abcf-748210f03fb0CapsExtId2">&lt;/title&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="1ca1cbdd-57e7-4e16-b7a4-c21128696478" xml:space="preserve">
+          <source>Which applications run in a Windows Server Container</source>
+          <target state="new">Which applications run in a Windows Server Container</target>
+        </trans-unit>
+        <trans-unit id="bff7e279-2837-409a-9d8c-ec3799465965" xml:space="preserve">
+          <source>We have tried to running the following applications in a Windows Server Container.</source>
+          <target state="new">We have tried to running the following applications in a Windows Server Container.</target>
+        </trans-unit>
+        <trans-unit id="5f274c0f-d91b-4c33-9eb4-0513d24a7e9b" xml:space="preserve">
+          <source>These results do not guarantee that the application is working.</source>
+          <target state="new">These results do not guarantee that the application is working.</target>
+        </trans-unit>
+        <trans-unit id="414c718d-4296-4424-a99d-7367251c0908" xml:space="preserve">
+          <source>The sole purpose is to share our experience.</source>
+          <target state="new">The sole purpose is to share our experience.</target>
+        </trans-unit>
+        <trans-unit id="bf1700e9-6d04-444c-8c36-6d811ad4c216" xml:space="preserve">
+          <source><bpt id="7956e0bc-fe11-4e5b-898d-4dc4c1279251">&lt;strong&gt;</bpt>Name<ept id="7956e0bc-fe11-4e5b-898d-4dc4c1279251">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="7956e0bc-fe11-4e5b-898d-4dc4c1279251">&lt;strong&gt;</bpt>Name<ept id="7956e0bc-fe11-4e5b-898d-4dc4c1279251">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="5882abe5-4fbb-48e8-b1f4-57eefdc565f1" xml:space="preserve">
+          <source><bpt id="9ce6b8df-c308-4a2e-bc95-45c49fd4df6c">&lt;strong&gt;</bpt>Version<ept id="9ce6b8df-c308-4a2e-bc95-45c49fd4df6c">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="9ce6b8df-c308-4a2e-bc95-45c49fd4df6c">&lt;strong&gt;</bpt>Version<ept id="9ce6b8df-c308-4a2e-bc95-45c49fd4df6c">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="8b8d034b-6554-4e1f-8b22-ec2365d72803" xml:space="preserve">
+          <source><bpt id="32e8cab7-7c4b-4591-99b3-bbfe1689fda1">&lt;strong&gt;</bpt>Does it work?<ept id="32e8cab7-7c4b-4591-99b3-bbfe1689fda1">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="32e8cab7-7c4b-4591-99b3-bbfe1689fda1">&lt;strong&gt;</bpt>Does it work?<ept id="32e8cab7-7c4b-4591-99b3-bbfe1689fda1">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="8ffb4410-c51d-4cac-993b-6102534909d8" xml:space="preserve">
+          <source><bpt id="0928d763-11bb-4d03-abe7-4bc01ff341b3">&lt;strong&gt;</bpt>Comment<ept id="0928d763-11bb-4d03-abe7-4bc01ff341b3">&lt;/strong&gt;</ept></source>
+          <target state="new"><bpt id="0928d763-11bb-4d03-abe7-4bc01ff341b3">&lt;strong&gt;</bpt>Comment<ept id="0928d763-11bb-4d03-abe7-4bc01ff341b3">&lt;/strong&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="8a414bad-e1dd-460b-b064-33c6d735985a" xml:space="preserve">
+          <source>.NET</source>
+          <target state="new">.NET</target>
+        </trans-unit>
+        <trans-unit id="d98898a5-9667-4593-9108-0144f00c2a51" xml:space="preserve">
+          <source>3.5</source>
+          <target state="new">3.5</target>
+        </trans-unit>
+        <trans-unit id="6d46af16-3851-4fc0-8f39-f104379d1f41" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="b48518d4-2a02-462d-b50e-249e0b8e5486" xml:space="preserve">
+          <source>Fails to install properly</source>
+          <target state="new">Fails to install properly</target>
+        </trans-unit>
+        <trans-unit id="6e52ccc7-cdad-4f7e-8084-db177c31542f" xml:space="preserve">
+          <source>.NET</source>
+          <target state="new">.NET</target>
+        </trans-unit>
+        <trans-unit id="9769bb15-a118-48ea-904b-ebfa76b779d9" xml:space="preserve">
+          <source>4.6</source>
+          <target state="new">4.6</target>
+        </trans-unit>
+        <trans-unit id="1d0efe1e-7aa8-4673-bc24-52c991a80c15" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="1387fd7a-38de-4677-89f4-b16ea1fecea4" xml:space="preserve">
+          <source>Included in base image</source>
+          <target state="new">Included in base image</target>
+        </trans-unit>
+        <trans-unit id="349e4605-da44-434f-beb1-4d61a2f69944" xml:space="preserve">
+          <source>.NET CLR</source>
+          <target state="new">.NET CLR</target>
+        </trans-unit>
+        <trans-unit id="ec515332-ce15-4444-b77b-fcab39d90469" xml:space="preserve">
+          <source>5 beta 6</source>
+          <target state="new">5 beta 6</target>
+        </trans-unit>
+        <trans-unit id="cdb209bb-b5dc-499a-bb23-b6fd676ef312" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="2f0d0e2f-cc3b-46e4-98c6-149b1ada7127" xml:space="preserve">
+          <source>Both, x64 and x86</source>
+          <target state="new">Both, x64 and x86</target>
+        </trans-unit>
+        <trans-unit id="ee96fd0d-a017-49b0-9f74-a8060405e4fd" xml:space="preserve">
+          <source>Active Python</source>
+          <target state="new">Active Python</target>
+        </trans-unit>
+        <trans-unit id="8092b621-185b-40d3-bf71-ba2e080e3f7e" xml:space="preserve">
+          <source>3.4.1</source>
+          <target state="new">3.4.1</target>
+        </trans-unit>
+        <trans-unit id="bc7fd06a-dbaf-4b70-b85a-371267de2613" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="033dd009-637e-4569-b262-620783cc5933" xml:space="preserve">
+          <source>Apache CouchDB</source>
+          <target state="new">Apache CouchDB</target>
+        </trans-unit>
+        <trans-unit id="7cb2cffa-a66c-4001-b947-32f3329e33f3" xml:space="preserve">
+          <source>1.6.1</source>
+          <target state="new">1.6.1</target>
+        </trans-unit>
+        <trans-unit id="2ab898f2-5540-4e6d-ae80-d4a97816ef96" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="09e02829-29f2-41c3-a282-28131097146a" xml:space="preserve">
+          <source>Apache HTTPD</source>
+          <target state="new">Apache HTTPD</target>
+        </trans-unit>
+        <trans-unit id="812744c8-2dec-4a58-9539-79056bfc57f5" xml:space="preserve">
+          <source>2.4</source>
+          <target state="new">2.4</target>
+        </trans-unit>
+        <trans-unit id="f2e99df9-9447-49f6-a0e0-34d95b41af75" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="662f6af9-30cf-4e34-b9f8-e3dcdac7c4c3" xml:space="preserve">
+          <source>Apache Tomcat</source>
+          <target state="new">Apache Tomcat</target>
+        </trans-unit>
+        <trans-unit id="4c3f3a57-02df-429c-ae3d-5d408e7c7be8" xml:space="preserve">
+          <source>8.0.24 x64</source>
+          <target state="new">8.0.24 x64</target>
+        </trans-unit>
+        <trans-unit id="157a40a1-c15e-448f-8663-e830dd376034" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="9edf550c-af3e-40d1-9c9d-3b5d65d553a1" xml:space="preserve">
+          <source>ASP.NET</source>
+          <target state="new">ASP.NET</target>
+        </trans-unit>
+        <trans-unit id="741bbe40-beb7-4a11-a482-4d186bca6fb1" xml:space="preserve">
+          <source>3.5</source>
+          <target state="new">3.5</target>
+        </trans-unit>
+        <trans-unit id="55867917-3e97-4a8a-874c-726f8c2cff0d" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="7f38d0a3-a66f-47a7-8f74-8a729dd20f4c" xml:space="preserve">
+          <source>ASP.NET</source>
+          <target state="new">ASP.NET</target>
+        </trans-unit>
+        <trans-unit id="ee5814c0-d8b9-44d1-a88c-ecc7486503a8" xml:space="preserve">
+          <source>4.5</source>
+          <target state="new">4.5</target>
+        </trans-unit>
+        <trans-unit id="a8eb7e4d-1875-4f1e-82be-34928a8422b1" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="0e4b5506-dc1d-456a-b2ec-56d350f14088" xml:space="preserve">
+          <source>ASP.NET</source>
+          <target state="new">ASP.NET</target>
+        </trans-unit>
+        <trans-unit id="975e91c1-ac81-4780-9f00-d3f34ab3cd01" xml:space="preserve">
+          <source>5 beta 6</source>
+          <target state="new">5 beta 6</target>
+        </trans-unit>
+        <trans-unit id="7ca021f5-3a88-44d8-9968-95dcd1748813" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="2c4b7990-e4e2-4d90-80a6-f688305d5ae4" xml:space="preserve">
+          <source>Both, x64 and x86</source>
+          <target state="new">Both, x64 and x86</target>
+        </trans-unit>
+        <trans-unit id="ed107389-9a5d-4da5-85d6-1d008eaa5ce6" xml:space="preserve">
+          <source>Erlang/OTP</source>
+          <target state="new">Erlang/OTP</target>
+        </trans-unit>
+        <trans-unit id="ee42cd78-112c-47e2-bc11-5d467eda46e8" xml:space="preserve">
+          <source>18.0</source>
+          <target state="new">18.0</target>
+        </trans-unit>
+        <trans-unit id="5985ff64-6878-4ddc-ac40-39141197db6d" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="739571b7-d6b4-47da-a1e0-036269268e53" xml:space="preserve">
+          <source>FileZilla FTP Server</source>
+          <target state="new">FileZilla FTP Server</target>
+        </trans-unit>
+        <trans-unit id="8a049b43-6c49-4a64-83bd-03aa6f299572" xml:space="preserve">
+          <source>0.9</source>
+          <target state="new">0.9</target>
+        </trans-unit>
+        <trans-unit id="bf0afaab-dddb-4aa6-b540-5502c0ce8672" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="7a631ded-9752-43b1-b68a-3d7bb4a67d62" xml:space="preserve">
+          <source>Has to be installed through an RDP session  into the container</source>
+          <target state="new">Has to be installed through an RDP session  into the container</target>
+        </trans-unit>
+        <trans-unit id="bb0e1b42-4a60-4679-90bf-a1bd5835cdac" xml:space="preserve">
+          <source>Go Progamming Language</source>
+          <target state="new">Go Progamming Language</target>
+        </trans-unit>
+        <trans-unit id="a266b999-58e6-4023-bdb0-d8ff451d8258" xml:space="preserve">
+          <source>1.4.2</source>
+          <target state="new">1.4.2</target>
+        </trans-unit>
+        <trans-unit id="4d223792-3ffc-49c5-9a4b-4a935fa65a35" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="7c5a510e-14de-4dcc-ad51-877e6f8242c4" xml:space="preserve">
+          <source>Internet Information Service</source>
+          <target state="new">Internet Information Service</target>
+        </trans-unit>
+        <trans-unit id="6a6dfae4-2274-4ab8-bf28-ec578b723371" xml:space="preserve">
+          <source>10.0</source>
+          <target state="new">10.0</target>
+        </trans-unit>
+        <trans-unit id="553ee63f-c50e-4d5f-b0c1-60ea1b873481" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="3041390b-27f7-4f9f-a949-84fb13a6f824" xml:space="preserve">
+          <source>Java</source>
+          <target state="new">Java</target>
+        </trans-unit>
+        <trans-unit id="5568fc10-194b-493e-b2bf-8e8daf0452f6" xml:space="preserve">
+          <source>1.8.0_51</source>
+          <target state="new">1.8.0_51</target>
+        </trans-unit>
+        <trans-unit id="9049acbc-2446-41c1-afcc-92d5c217e2de" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="56bb1414-debe-45a0-9de2-efcecdb83784" xml:space="preserve">
+          <source>Use the server version.</source>
+          <target state="new">Use the server version.</target>
+        </trans-unit>
+        <trans-unit id="eca5687f-fdf4-4b21-9232-55c89204fe9a" xml:space="preserve">
+          <source>The client version does not install properly</source>
+          <target state="new">The client version does not install properly</target>
+        </trans-unit>
+        <trans-unit id="60accf42-31f1-4c46-ad16-e80581d0aa0a" xml:space="preserve">
+          <source>Jetty</source>
+          <target state="new">Jetty</target>
+        </trans-unit>
+        <trans-unit id="b1586afa-8d2b-4ac8-a661-1545d12177b6" xml:space="preserve">
+          <source>9.3</source>
+          <target state="new">9.3</target>
+        </trans-unit>
+        <trans-unit id="57f95412-1cc0-4e30-86a4-251b2d36bd1b" xml:space="preserve">
+          <source>Partially</source>
+          <target state="new">Partially</target>
+        </trans-unit>
+        <trans-unit id="2d40bfe8-3683-42de-b860-a614adbc75d3" xml:space="preserve">
+          <source>Running demo-base fails</source>
+          <target state="new">Running demo-base fails</target>
+        </trans-unit>
+        <trans-unit id="0035e267-dc13-442b-b89e-020895746080" xml:space="preserve">
+          <source>MineCraft Server</source>
+          <target state="new">MineCraft Server</target>
+        </trans-unit>
+        <trans-unit id="e859dcd2-dfd1-41f7-8857-3656848774f6" xml:space="preserve">
+          <source>1.8.5</source>
+          <target state="new">1.8.5</target>
+        </trans-unit>
+        <trans-unit id="54ae7b28-668b-45a3-8c1d-ec49528922ad" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="b6b2e216-9d87-423f-a2e2-65ec904083c5" xml:space="preserve">
+          <source>MongoDB</source>
+          <target state="new">MongoDB</target>
+        </trans-unit>
+        <trans-unit id="3c34d711-1638-40df-b1ac-f4ae84d6244e" xml:space="preserve">
+          <source>3.0.4</source>
+          <target state="new">3.0.4</target>
+        </trans-unit>
+        <trans-unit id="29992056-ddaa-4533-918a-6caf5da7d529" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="a936d3dc-b4f1-4e92-a938-e5c2f1e8189e" xml:space="preserve">
+          <source>MySQL</source>
+          <target state="new">MySQL</target>
+        </trans-unit>
+        <trans-unit id="7de7b984-33a3-418d-a1ff-8dd3e8574d3c" xml:space="preserve">
+          <source>5.6.26</source>
+          <target state="new">5.6.26</target>
+        </trans-unit>
+        <trans-unit id="87489cad-7cf8-4cf3-89e0-16a3519a28c3" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="b8c754f0-3917-4ef5-8aa6-c8161f9439a6" xml:space="preserve">
+          <source>NGinx</source>
+          <target state="new">NGinx</target>
+        </trans-unit>
+        <trans-unit id="f6bcc641-5f39-49b9-9f32-17b5633f2ff9" xml:space="preserve">
+          <source>1.9.3</source>
+          <target state="new">1.9.3</target>
+        </trans-unit>
+        <trans-unit id="120996c1-d4b6-4538-a221-4985fa999b22" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="13f8851c-cb26-417e-9504-862f04f3504e" xml:space="preserve">
+          <source>Node.js</source>
+          <target state="new">Node.js</target>
+        </trans-unit>
+        <trans-unit id="b18d49bc-8644-44d7-b572-0ade32cccea8" xml:space="preserve">
+          <source>0.12.6</source>
+          <target state="new">0.12.6</target>
+        </trans-unit>
+        <trans-unit id="56cc16fe-101e-4ac5-a86a-94ea6dd238ba" xml:space="preserve">
+          <source>Partially</source>
+          <target state="new">Partially</target>
+        </trans-unit>
+        <trans-unit id="fe3353e5-de77-4be5-8902-c079a53d58a5" xml:space="preserve">
+          <source>Running node with js files works.</source>
+          <target state="new">Running node with js files works.</target>
+        </trans-unit>
+        <trans-unit id="87465990-a113-429b-ac77-10cb82143c97" xml:space="preserve">
+          <source>NPM fails to download packages.</source>
+          <target state="new">NPM fails to download packages.</target>
+        </trans-unit>
+        <trans-unit id="2c503e3c-0423-4eb0-a813-13a7ade0f333" xml:space="preserve">
+          <source>Running node interactively does not work properly.</source>
+          <target state="new">Running node interactively does not work properly.</target>
+        </trans-unit>
+        <trans-unit id="51037194-49aa-4f5d-8482-2e60ee9c1254" xml:space="preserve">
+          <source>PHP</source>
+          <target state="new">PHP</target>
+        </trans-unit>
+        <trans-unit id="e0a8d9f0-e71a-4c76-a62b-3ddfbad1a6cd" xml:space="preserve">
+          <source>5.6.11</source>
+          <target state="new">5.6.11</target>
+        </trans-unit>
+        <trans-unit id="b3014404-4991-4718-b7f6-d90707d7ca1b" xml:space="preserve">
+          <source>Partially</source>
+          <target state="new">Partially</target>
+        </trans-unit>
+        <trans-unit id="2c03dad7-9a7f-4a37-b567-5ab55b4d63bb" xml:space="preserve">
+          <source>With Apache, IIS via FastCGI currently does not work.</source>
+          <target state="new">With Apache, IIS via FastCGI currently does not work.</target>
+        </trans-unit>
+        <trans-unit id="d0a8f2a0-1ab6-4225-83f4-b2d50fef41d5" xml:space="preserve">
+          <source>PostgreSQL</source>
+          <target state="new">PostgreSQL</target>
+        </trans-unit>
+        <trans-unit id="d53200d3-ad9a-44c3-aa07-66c7e62c41e8" xml:space="preserve">
+          <source>9.4.4</source>
+          <target state="new">9.4.4</target>
+        </trans-unit>
+        <trans-unit id="7e3880b2-2ebe-49be-a7d7-afee420035cd" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="d12f3161-de6f-48f9-a9cb-6f38e3fd319c" xml:space="preserve">
+          <source>Python</source>
+          <target state="new">Python</target>
+        </trans-unit>
+        <trans-unit id="aab5c025-b63a-4fe6-9104-d2f229c9d479" xml:space="preserve">
+          <source>3.4.3</source>
+          <target state="new">3.4.3</target>
+        </trans-unit>
+        <trans-unit id="d2ec2ce6-18bb-4661-aaf7-f24e6cd15b4e" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="e565441a-ea80-443b-bf02-20774a26daf3" xml:space="preserve">
+          <source>R</source>
+          <target state="new">R</target>
+        </trans-unit>
+        <trans-unit id="f738f5e8-437f-4eff-90f1-d3738fbcb55a" xml:space="preserve">
+          <source>3.2.1</source>
+          <target state="new">3.2.1</target>
+        </trans-unit>
+        <trans-unit id="d75886c1-63e5-4694-b4ec-cfbbc9582b75" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="9e6e6bad-cb2b-4233-b3a2-c0434731984f" xml:space="preserve">
+          <source>RabbitMQ</source>
+          <target state="new">RabbitMQ</target>
+        </trans-unit>
+        <trans-unit id="918074f7-e539-4679-bcd8-61007c50da41" xml:space="preserve">
+          <source>3.5.x</source>
+          <target state="new">3.5.x</target>
+        </trans-unit>
+        <trans-unit id="b376c67d-386d-4220-8838-8638f1a06648" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="0497ea09-539e-4e07-9ab1-918d5ef3b210" xml:space="preserve">
+          <source>Has to be installed through an RDP session  into the container</source>
+          <target state="new">Has to be installed through an RDP session  into the container</target>
+        </trans-unit>
+        <trans-unit id="3cf0b96f-693d-4465-8348-c44f466bf935" xml:space="preserve">
+          <source>Redis</source>
+          <target state="new">Redis</target>
+        </trans-unit>
+        <trans-unit id="68a7ab70-402c-4dca-91c3-3e12cbb30f59" xml:space="preserve">
+          <source>2.8.2101</source>
+          <target state="new">2.8.2101</target>
+        </trans-unit>
+        <trans-unit id="85a9ec9f-78b4-43c3-b1d6-c3973bd7ef7d" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="4397622a-0a35-4d15-ac24-26105f7b4aa7" xml:space="preserve">
+          <source>Ruby</source>
+          <target state="new">Ruby</target>
+        </trans-unit>
+        <trans-unit id="e5041e7b-ceb5-4244-9c34-4991bcd7c533" xml:space="preserve">
+          <source>2.2.2</source>
+          <target state="new">2.2.2</target>
+        </trans-unit>
+        <trans-unit id="ee1ef34c-3f5d-4393-b083-14cd36e29e64" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="143f7bde-3356-4764-ac4d-f694acbee3e5" xml:space="preserve">
+          <source>Both, x64 and x86</source>
+          <target state="new">Both, x64 and x86</target>
+        </trans-unit>
+        <trans-unit id="32c38885-1b01-4003-90a7-2813d7e52722" xml:space="preserve">
+          <source>Ruby on Rails</source>
+          <target state="new">Ruby on Rails</target>
+        </trans-unit>
+        <trans-unit id="61b6be02-2a5a-43d1-8238-afbd57403247" xml:space="preserve">
+          <source>4.2.3</source>
+          <target state="new">4.2.3</target>
+        </trans-unit>
+        <trans-unit id="8ef91f6a-4d73-406a-bd62-694d10f7eadf" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="0cb032e4-272c-4fb3-8b86-c40b138af152" xml:space="preserve">
+          <source>SQLite</source>
+          <target state="new">SQLite</target>
+        </trans-unit>
+        <trans-unit id="d9843256-3862-4ad7-a989-991b3f9a6a73" xml:space="preserve">
+          <source>3.8.11.1</source>
+          <target state="new">3.8.11.1</target>
+        </trans-unit>
+        <trans-unit id="ec789d8d-e64f-4cba-accf-fe11eaaced0a" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="1bb7c3b2-7700-4671-9f08-992323f98de0" xml:space="preserve">
+          <source>SQL Server Express</source>
+          <target state="new">SQL Server Express</target>
+        </trans-unit>
+        <trans-unit id="7ebd259b-2b85-4bf7-968b-18ae806dfebb" xml:space="preserve">
+          <source>2014 LocalDB</source>
+          <target state="new">2014 LocalDB</target>
+        </trans-unit>
+        <trans-unit id="189745f7-ad29-4707-8f28-7a0a6d499c01" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="dd96bf1e-15df-42f9-9289-1760a4d389ad" xml:space="preserve">
+          <source>Sysinternals Tools</source>
+          <target state="new">Sysinternals Tools</target>
+        </trans-unit>
+        <trans-unit id="a3f00b5d-0d74-4981-9929-b3c9193eefeb" xml:space="preserve">
+          <source>*</source>
+          <target state="new">*</target>
+        </trans-unit>
+        <trans-unit id="78460843-a4f5-4966-9785-75dfde621e1f" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="41c66ab3-46f7-4998-b80f-a675afb64061" xml:space="preserve">
+          <source>Only tried those not requiring a GUI.</source>
+          <target state="new">Only tried those not requiring a GUI.</target>
+        </trans-unit>
+        <trans-unit id="195fec0f-969c-40d0-8295-da960faa4793" xml:space="preserve">
+          <source>PsExec does not work by current design</source>
+          <target state="new">PsExec does not work by current design</target>
+        </trans-unit>
+        <trans-unit id="e386489a-060b-4bc3-9e3a-60bf26707c5a" xml:space="preserve">
+          <source>What Optional Windows Features can I install?</source>
+          <target state="new">What Optional Windows Features can I install?</target>
+        </trans-unit>
+        <trans-unit id="4891858a-002d-4577-b8b3-3741e70805c6" xml:space="preserve">
+          <source>The following Windows Optional Features have been confirmed as being able to install.</source>
+          <target state="new">The following Windows Optional Features have been confirmed as being able to install.</target>
+        </trans-unit>
+        <trans-unit id="ef39e9bc-0d34-42e4-b98a-b843b9db9234" xml:space="preserve">
+          <source>Many do not function once they are installed at this point in time.</source>
+          <target state="new">Many do not function once they are installed at this point in time.</target>
+        </trans-unit>
+        <trans-unit id="00e50eec-04aa-476a-83ef-ac0b1ffbaab6" xml:space="preserve">
+          <source>AD-Certificate</source>
+          <target state="new">AD-Certificate</target>
+        </trans-unit>
+        <trans-unit id="ca46e675-5432-404d-b625-ea98d0d76276" xml:space="preserve">
+          <source>ADCS-Cert-Authority</source>
+          <target state="new">ADCS-Cert-Authority</target>
+        </trans-unit>
+        <trans-unit id="7554778b-bd4a-4c93-ab23-b0aa1ef2675d" xml:space="preserve">
+          <source>File-Services</source>
+          <target state="new">File-Services</target>
+        </trans-unit>
+        <trans-unit id="667f2ee9-9c1d-47cf-9563-a264f1d2b9c7" xml:space="preserve">
+          <source>FS-FileServer</source>
+          <target state="new">FS-FileServer</target>
+        </trans-unit>
+        <trans-unit id="4a183243-79fe-475e-b3f9-3e250aed466d" xml:space="preserve">
+          <source>FS-VSS-Agent</source>
+          <target state="new">FS-VSS-Agent</target>
+        </trans-unit>
+        <trans-unit id="27e3fae3-1137-4463-b299-cd120e53221d" xml:space="preserve">
+          <source>DirectAccess-VPN</source>
+          <target state="new">DirectAccess-VPN</target>
+        </trans-unit>
+        <trans-unit id="bc9dafd7-6d97-4390-af65-d79f5f4be06f" xml:space="preserve">
+          <source>Routing</source>
+          <target state="new">Routing</target>
+        </trans-unit>
+        <trans-unit id="59c275a5-9edd-4e2a-bde3-adb182a328ee" xml:space="preserve">
+          <source>Remote-Desktop-Services</source>
+          <target state="new">Remote-Desktop-Services</target>
+        </trans-unit>
+        <trans-unit id="5b597ac4-f50f-48f1-a921-d79a4d02ba54" xml:space="preserve">
+          <source>VolumeActivation</source>
+          <target state="new">VolumeActivation</target>
+        </trans-unit>
+        <trans-unit id="2cc779e1-41f4-465e-aa07-8d74ef0b2ba4" xml:space="preserve">
+          <source>Web-Server</source>
+          <target state="new">Web-Server</target>
+        </trans-unit>
+        <trans-unit id="0af57ec4-533d-4383-9eb5-c7a9cc3118b0" xml:space="preserve">
+          <source>Web-WebServer</source>
+          <target state="new">Web-WebServer</target>
+        </trans-unit>
+        <trans-unit id="7e282bbe-3a7a-4711-a9ef-f9d2ee04401d" xml:space="preserve">
+          <source>Web-Common-Http</source>
+          <target state="new">Web-Common-Http</target>
+        </trans-unit>
+        <trans-unit id="d39d70af-d7a6-4a60-914e-42fe363a4f4d" xml:space="preserve">
+          <source>Web-Default-Doc</source>
+          <target state="new">Web-Default-Doc</target>
+        </trans-unit>
+        <trans-unit id="0d93a637-53fe-4c05-b926-06f19ba135d2" xml:space="preserve">
+          <source>Web-Dir-Browsing</source>
+          <target state="new">Web-Dir-Browsing</target>
+        </trans-unit>
+        <trans-unit id="2966ba60-ac80-47e2-941b-639ff6cf52c1" xml:space="preserve">
+          <source>Web-Http-Errors</source>
+          <target state="new">Web-Http-Errors</target>
+        </trans-unit>
+        <trans-unit id="456a3938-ee14-44f1-b3de-177fbc1a6dbf" xml:space="preserve">
+          <source>Web-Static-Content</source>
+          <target state="new">Web-Static-Content</target>
+        </trans-unit>
+        <trans-unit id="b25fc0c3-94f9-4e88-9ce3-c46ef2109644" xml:space="preserve">
+          <source>Web-Http-Redirect</source>
+          <target state="new">Web-Http-Redirect</target>
+        </trans-unit>
+        <trans-unit id="997afec0-c749-41f2-bf2b-5c67264500f7" xml:space="preserve">
+          <source>Web-DAV-Publishing</source>
+          <target state="new">Web-DAV-Publishing</target>
+        </trans-unit>
+        <trans-unit id="0cf9e9fe-0f5f-4500-8768-4d3e3f74b0e6" xml:space="preserve">
+          <source>Web-Health</source>
+          <target state="new">Web-Health</target>
+        </trans-unit>
+        <trans-unit id="b1a665de-d11f-4abb-99af-d22e31f1c9bc" xml:space="preserve">
+          <source>Web-Http-Logging</source>
+          <target state="new">Web-Http-Logging</target>
+        </trans-unit>
+        <trans-unit id="480fac56-2f0a-4339-8edc-cf9231052871" xml:space="preserve">
+          <source>Web-Custom-Logging</source>
+          <target state="new">Web-Custom-Logging</target>
+        </trans-unit>
+        <trans-unit id="e7913dce-650c-4775-9f1f-0f1e2e4bc580" xml:space="preserve">
+          <source>Web-Log-Libraries</source>
+          <target state="new">Web-Log-Libraries</target>
+        </trans-unit>
+        <trans-unit id="5d64493e-762b-405d-aab5-66eb2e128743" xml:space="preserve">
+          <source>Web-ODBC-Logging</source>
+          <target state="new">Web-ODBC-Logging</target>
+        </trans-unit>
+        <trans-unit id="30efc77f-e020-4dea-939e-1d980676faf0" xml:space="preserve">
+          <source>Web-Request-Monitor</source>
+          <target state="new">Web-Request-Monitor</target>
+        </trans-unit>
+        <trans-unit id="d73dbcb0-8ac4-49ad-9c16-986a64f91be8" xml:space="preserve">
+          <source>Web-Performance</source>
+          <target state="new">Web-Performance</target>
+        </trans-unit>
+        <trans-unit id="a313ed1c-c313-4b51-a1bf-46b2ed2f5665" xml:space="preserve">
+          <source>Web-Stat-Compression</source>
+          <target state="new">Web-Stat-Compression</target>
+        </trans-unit>
+        <trans-unit id="4c483a8b-d244-4db8-97c2-8fc6f5938c7c" xml:space="preserve">
+          <source>Web-Dyn-Compression</source>
+          <target state="new">Web-Dyn-Compression</target>
+        </trans-unit>
+        <trans-unit id="838644c6-aa9d-430e-a617-340006c317bb" xml:space="preserve">
+          <source>Web-Security</source>
+          <target state="new">Web-Security</target>
+        </trans-unit>
+        <trans-unit id="ee00a2db-afbf-42f6-88a4-447e2594327c" xml:space="preserve">
+          <source>Web-Filtering</source>
+          <target state="new">Web-Filtering</target>
+        </trans-unit>
+        <trans-unit id="84eff248-6df0-4a36-9736-32b40aded461" xml:space="preserve">
+          <source>Web-Basic-Auth</source>
+          <target state="new">Web-Basic-Auth</target>
+        </trans-unit>
+        <trans-unit id="fcf1dec0-1b21-42f8-9797-9516d7b4d7f3" xml:space="preserve">
+          <source>Web-CertProvider</source>
+          <target state="new">Web-CertProvider</target>
+        </trans-unit>
+        <trans-unit id="feae0706-ba03-49f0-ba71-bdbbc5f6cf30" xml:space="preserve">
+          <source>Web-Client-Auth</source>
+          <target state="new">Web-Client-Auth</target>
+        </trans-unit>
+        <trans-unit id="70e6c5b5-d494-4a12-889f-df3e254c3047" xml:space="preserve">
+          <source>Web-Digest-Auth</source>
+          <target state="new">Web-Digest-Auth</target>
+        </trans-unit>
+        <trans-unit id="b5686ff2-e949-4474-888c-13a8e15d957a" xml:space="preserve">
+          <source>Web-Cert-Auth</source>
+          <target state="new">Web-Cert-Auth</target>
+        </trans-unit>
+        <trans-unit id="f20ec48b-96fc-46e7-8367-eb14387f4d76" xml:space="preserve">
+          <source>Web-IP-Security</source>
+          <target state="new">Web-IP-Security</target>
+        </trans-unit>
+        <trans-unit id="10101458-a091-4b70-b996-7ea4c51af413" xml:space="preserve">
+          <source>Web-Url-Auth</source>
+          <target state="new">Web-Url-Auth</target>
+        </trans-unit>
+        <trans-unit id="e020e35a-e70d-40b3-b007-0d0b285fd7a3" xml:space="preserve">
+          <source>Web-Windows-Auth</source>
+          <target state="new">Web-Windows-Auth</target>
+        </trans-unit>
+        <trans-unit id="ade36484-0287-42b1-a7ea-8575ee79c58e" xml:space="preserve">
+          <source>Web-App-Dev</source>
+          <target state="new">Web-App-Dev</target>
+        </trans-unit>
+        <trans-unit id="9f8bfabf-406c-404b-ab62-7ec17d0e96fd" xml:space="preserve">
+          <source>Web-AppInit</source>
+          <target state="new">Web-AppInit</target>
+        </trans-unit>
+        <trans-unit id="83a7139e-a952-42a6-af03-aa8579d46115" xml:space="preserve">
+          <source>Web-CGI</source>
+          <target state="new">Web-CGI</target>
+        </trans-unit>
+        <trans-unit id="239b8521-d2c3-4850-8dd4-21f6526b2006" xml:space="preserve">
+          <source>Web-ISAPI-Ext</source>
+          <target state="new">Web-ISAPI-Ext</target>
+        </trans-unit>
+        <trans-unit id="3f1c93b5-70dc-477c-be42-679f619baf28" xml:space="preserve">
+          <source>Web-ISAPI-Filter</source>
+          <target state="new">Web-ISAPI-Filter</target>
+        </trans-unit>
+        <trans-unit id="d0a2081e-e697-4070-9249-c7d3a6e35b1a" xml:space="preserve">
+          <source>Web-Includes</source>
+          <target state="new">Web-Includes</target>
+        </trans-unit>
+        <trans-unit id="1f9383dd-6719-4fce-80e0-af0119807f28" xml:space="preserve">
+          <source>Web-WebSockets</source>
+          <target state="new">Web-WebSockets</target>
+        </trans-unit>
+        <trans-unit id="1268c6e3-7f3e-4898-a221-138ff3509516" xml:space="preserve">
+          <source>Web-Mgmt-Compat</source>
+          <target state="new">Web-Mgmt-Compat</target>
+        </trans-unit>
+        <trans-unit id="0ba1a2d1-c379-4361-870d-ce5099e64f10" xml:space="preserve">
+          <source>Web-Metabase</source>
+          <target state="new">Web-Metabase</target>
+        </trans-unit>
+        <trans-unit id="f0d8ac34-cd6d-48d2-84f2-85182b98a483" xml:space="preserve">
+          <source>BitLocker</source>
+          <target state="new">BitLocker</target>
+        </trans-unit>
+        <trans-unit id="c4b15062-70db-42be-936c-3aae48880d98" xml:space="preserve">
+          <source>EnhancedStorage</source>
+          <target state="new">EnhancedStorage</target>
+        </trans-unit>
+        <trans-unit id="0d8bd952-e5f9-49b1-b68d-52031762e350" xml:space="preserve">
+          <source>GPMC</source>
+          <target state="new">GPMC</target>
+        </trans-unit>
+        <trans-unit id="cc54690c-64d6-4151-a846-27bd44a2eab7" xml:space="preserve">
+          <source>Isolated-UserMode</source>
+          <target state="new">Isolated-UserMode</target>
+        </trans-unit>
+        <trans-unit id="2b0849a3-5184-488b-b34c-6cb3a23afa8f" xml:space="preserve">
+          <source>Server-Media-Foundation</source>
+          <target state="new">Server-Media-Foundation</target>
+        </trans-unit>
+        <trans-unit id="0cab440d-3c11-4bb2-a04b-4e8d1ede0da6" xml:space="preserve">
+          <source>MSMQ-DCOM</source>
+          <target state="new">MSMQ-DCOM</target>
+        </trans-unit>
+        <trans-unit id="568e2fd0-2f64-4529-a47e-f92724f76208" xml:space="preserve">
+          <source>MultiPoint-Connector-Feature</source>
+          <target state="new">MultiPoint-Connector-Feature</target>
+        </trans-unit>
+        <trans-unit id="1e564657-2023-4a8c-9fc3-fb3432a64af8" xml:space="preserve">
+          <source>qWave</source>
+          <target state="new">qWave</target>
+        </trans-unit>
+        <trans-unit id="28470684-02ff-425f-b28a-7fde6789ee4b" xml:space="preserve">
+          <source>RDC</source>
+          <target state="new">RDC</target>
+        </trans-unit>
+        <trans-unit id="6b7f3e71-210b-472c-a903-0d985551e5f8" xml:space="preserve">
+          <source>RSAT-Feature-Tools-BitLocker</source>
+          <target state="new">RSAT-Feature-Tools-BitLocker</target>
+        </trans-unit>
+        <trans-unit id="96eb9e2a-85a6-4226-993a-628c85036fc2" xml:space="preserve">
+          <source>RSAT-Clustering-PowerShell</source>
+          <target state="new">RSAT-Clustering-PowerShell</target>
+        </trans-unit>
+        <trans-unit id="172ddaf8-3adb-4813-b4d5-9a58b935bd75" xml:space="preserve">
+          <source>RSAT-Clustering-AutomationServer</source>
+          <target state="new">RSAT-Clustering-AutomationServer</target>
+        </trans-unit>
+        <trans-unit id="e224ef75-cbde-473c-b0ac-752da26078e2" xml:space="preserve">
+          <source>RSAT-Clustering-CmdInterface</source>
+          <target state="new">RSAT-Clustering-CmdInterface</target>
+        </trans-unit>
+        <trans-unit id="3c99ffe5-a0dc-4a35-9248-e0a3555b3052" xml:space="preserve">
+          <source>RSAT-Shielded-VM-Tools</source>
+          <target state="new">RSAT-Shielded-VM-Tools</target>
+        </trans-unit>
+        <trans-unit id="58ab4d94-66d9-4bed-a665-2fce28f0631d" xml:space="preserve">
+          <source>RSAT-AD-Tools</source>
+          <target state="new">RSAT-AD-Tools</target>
+        </trans-unit>
+        <trans-unit id="5b8be1fc-b9b0-499b-858e-960ce7d75a5e" xml:space="preserve">
+          <source>RSAT-AD-PowerShell</source>
+          <target state="new">RSAT-AD-PowerShell</target>
+        </trans-unit>
+        <trans-unit id="5825a1b5-030c-4073-bca9-598fdf6ee056" xml:space="preserve">
+          <source>RSAT-ADDS</source>
+          <target state="new">RSAT-ADDS</target>
+        </trans-unit>
+        <trans-unit id="6c852865-a1ce-418c-80b7-c1db8d314332" xml:space="preserve">
+          <source>RSAT-AD-AdminCenter</source>
+          <target state="new">RSAT-AD-AdminCenter</target>
+        </trans-unit>
+        <trans-unit id="b7e1e233-75c9-4873-a8a8-d64963b2eecf" xml:space="preserve">
+          <source>RSAT-ADDS-Tools</source>
+          <target state="new">RSAT-ADDS-Tools</target>
+        </trans-unit>
+        <trans-unit id="25d4cbea-5beb-41df-9098-2008221332ef" xml:space="preserve">
+          <source>RSAT-ADLDS</source>
+          <target state="new">RSAT-ADLDS</target>
+        </trans-unit>
+        <trans-unit id="3caf69e1-1764-4ea9-b9fc-e9b19df7836f" xml:space="preserve">
+          <source>Hyper-V-PowerShell</source>
+          <target state="new">Hyper-V-PowerShell</target>
+        </trans-unit>
+        <trans-unit id="d95fe037-26aa-4b56-b9f8-69a6276b2354" xml:space="preserve">
+          <source>UpdateServices-API</source>
+          <target state="new">UpdateServices-API</target>
+        </trans-unit>
+        <trans-unit id="e94f5720-e7e7-4d27-883a-d3a27d52a75f" xml:space="preserve">
+          <source>RSAT-NetworkController</source>
+          <target state="new">RSAT-NetworkController</target>
+        </trans-unit>
+        <trans-unit id="ade140a2-56a0-4aa6-aab2-a4cf5e65d000" xml:space="preserve">
+          <source>Windows-Fabric-Tools</source>
+          <target state="new">Windows-Fabric-Tools</target>
+        </trans-unit>
+        <trans-unit id="5e43a347-5b9a-40eb-8957-f1c2f69edbbc" xml:space="preserve">
+          <source>RSAT-HostGuardianService</source>
+          <target state="new">RSAT-HostGuardianService</target>
+        </trans-unit>
+        <trans-unit id="abb4adc5-3580-42de-83dd-88c07f5a6800" xml:space="preserve">
+          <source>FS-SMBBW</source>
+          <target state="new">FS-SMBBW</target>
+        </trans-unit>
+        <trans-unit id="226dc6f8-927c-4b5f-829c-0f832816a7c4" xml:space="preserve">
+          <source>Storage-Replica</source>
+          <target state="new">Storage-Replica</target>
+        </trans-unit>
+        <trans-unit id="942232c4-8431-4444-bcad-faaa76bc8724" xml:space="preserve">
+          <source>Telnet-Client</source>
+          <target state="new">Telnet-Client</target>
+        </trans-unit>
+        <trans-unit id="82687823-c74e-48d9-bcff-7ac83768668b" xml:space="preserve">
+          <source>WAS</source>
+          <target state="new">WAS</target>
+        </trans-unit>
+        <trans-unit id="5fecf081-dea3-4da7-8318-bcc36fde8896" xml:space="preserve">
+          <source>WAS-Process-Model</source>
+          <target state="new">WAS-Process-Model</target>
+        </trans-unit>
+        <trans-unit id="20f141fa-d219-4f53-a9bf-e882d43903ea" xml:space="preserve">
+          <source>WAS-Config-APIs</source>
+          <target state="new">WAS-Config-APIs</target>
+        </trans-unit>
+        <trans-unit id="896749bf-98fb-4f17-9767-40ddc7c84626" xml:space="preserve">
+          <source>Windows-Server-Backup</source>
+          <target state="new">Windows-Server-Backup</target>
+        </trans-unit>
+        <trans-unit id="3b7cdbdf-be2f-4640-b1aa-3c69dc955bc9" xml:space="preserve">
+          <source>Migration</source>
+          <target state="new">Migration</target>
+        </trans-unit>
+        <trans-unit id="91c47838-60c4-4e03-b99a-db558a771a4b" xml:space="preserve">
+          <source>Is something not on this list?</source>
+          <target state="new">Is something not on this list?</target>
+        </trans-unit>
+        <trans-unit id="09d27e3c-e1c4-486a-b46a-85b91bdfe103" xml:space="preserve">
+          <source>Let us know what fails and succeeds in your environment via <bpt id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId1">&lt;linkText&gt;</bpt>the forums<ept id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId2">&lt;title&gt;</bpt><ept id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId2">&lt;/title&gt;</ept>.</source>
+          <target state="new">Let us know what fails and succeeds in your environment via <bpt id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId1">&lt;linkText&gt;</bpt>the forums<ept id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId1">&lt;/linkText&gt;</ept><bpt id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId2">&lt;title&gt;</bpt><ept id="2538eee4-7c45-4854-9384-938f397f5e0aCapsExtId2">&lt;/title&gt;</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
