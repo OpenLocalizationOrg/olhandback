@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="foo.file" tool-id="ce3d85da-2d7b-410a-b585-01cc002aaeb3" product-name="foo" product-version="1.0" build-num="1">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="ko-kr" original="1/6/2016 2:29:30 AM" tool-id="MarkdownTransformer" product-name="N/A" product-version="N/A" build-num="1">
     <header>
-      <tool tool-id="ce3d85da-2d7b-410a-b585-01cc002aaeb3" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
-      <olfilehash xmlns="">293cd908ea75ec62b9ca3cdbfaafe4980abae1ea</olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53d0f485274b11af75ea6ed67fefd7cc5ecdf1c5</xliffext:olfilehash>
+      <tool tool-id="MarkdownTransformer" tool-name="MarkdownToXliff" tool-version="1.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="4c2f7c55-3306-4b69-ad1f-9ed6625b154a">
-        <trans-unit id="578b3f06-441a-4ea2-a7cf-617075eb96d5" xml:space="preserve">
-          <source>HyperV</source>
-          <target state="translated">HyperV</target>         
-        </trans-unit>
-        <trans-unit id="c17fcc72-f287-4f9d-94d1-e0acec8dd57b" xml:space="preserve">
-          <source>[Community Overview](community_overview.md)</source>
-          <target state="translated">[커뮤니티 개요] (community_overview.md)</target>         
-        </trans-unit>
+      <group extype="content">
+        <group id="101">
+          <trans-unit id="101" xml:space="preserve">
+            <source>HyperV</source>
+            <target state="new">HyperV</target>
+          </trans-unit>
+          <trans-unit id="102" xml:space="preserve">
+            <source><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>Community Overview<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></source>
+            <target state="new"><bpt id="1CapsExtId1">&lt;link&gt;</bpt><bpt id="1CapsExtId2">&lt;linkText&gt;</bpt>Community Overview<ept id="1CapsExtId2">&lt;/linkText&gt;</ept><bpt id="1CapsExtId3">&lt;title&gt;</bpt><ept id="1CapsExtId3">&lt;/title&gt;</ept><ept id="1CapsExtId1">&lt;/link&gt;</ept></target>
+          </trans-unit>
+          <trans-unit id="103" xml:space="preserve">
+            <source>Test</source>
+            <target state="new">Test</target>
+          </trans-unit>
+        </group>
       </group>
     </body>
   </file>
