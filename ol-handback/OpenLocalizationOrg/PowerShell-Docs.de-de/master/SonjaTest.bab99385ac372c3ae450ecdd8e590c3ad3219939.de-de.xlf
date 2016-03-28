@@ -11,7 +11,7 @@
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Hello, this is just a test file</source>
-          <target state="new">Zweiter VERSUCH!!!  Hallo, das ist eine Testdatei, echt genial</target>
+          <target state="new">Zweiter und dritter VERSUCH!!!  Hallo, das ist eine Testdatei, echt genial</target>
         </trans-unit>
       </group>
     </body>
