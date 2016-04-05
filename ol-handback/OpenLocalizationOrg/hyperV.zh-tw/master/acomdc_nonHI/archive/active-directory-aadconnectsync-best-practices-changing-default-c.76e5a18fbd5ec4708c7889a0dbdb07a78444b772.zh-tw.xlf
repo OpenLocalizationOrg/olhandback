@@ -22,7 +22,7 @@
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>The purpose of this topic is to describe supported and unsupported changes to Azure AD Connect sync.</source>
-          <target state="new">yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy is to describe supported and unsupported changes to Azure AD Connect sync.</target>
+          <target state="new">The purpose of this topic is to describe supported and unsupported changes to Azure AD Connect sync.</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>The configuration created by Azure AD Connect works “as is” for the majority of environments that synchronize on-premises Active Directory with Azure AD.</source>
