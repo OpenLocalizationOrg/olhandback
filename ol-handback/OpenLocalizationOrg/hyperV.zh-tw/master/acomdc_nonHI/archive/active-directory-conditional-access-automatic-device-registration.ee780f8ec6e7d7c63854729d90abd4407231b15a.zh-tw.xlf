@@ -18,7 +18,7 @@
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>Configure automatic device registration for Windows 8.1 domain joined devices</source>
-          <target state="new">3333333333333333333333333333333333333333Configure automatic device registration for Windows 8.1 domain joined devices</target>
+          <target state="new">Configure automatic device registration for Windows 8.1 domain joined devices</target>
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>You can use an Active Directory Group Policy to configure your Windows 8.1 domain joined devices to automatically register with Azure AD.</source>

@@ -14,7 +14,7 @@
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Steps to configure your Windows 7 domain joined devices to automatically register with Azure AD.</source>
-          <target state="new">222222222222222222222222222222222222222222222Steps to configure your Windows 7 domain joined devices to automatically register with Azure AD.</target>
+          <target state="new">Steps to configure your Windows 7 domain joined devices to automatically register with Azure AD.</target>
         </trans-unit>
         <trans-unit id="103" translate="yes" xml:space="preserve">
           <source>and steps to deploy the device registration software package to your Windows 7 domain joined devices using a software distribution system such as System Center Configuration Manager.</source>

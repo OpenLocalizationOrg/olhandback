@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">471401269944d748e64febca8f1948c011794bea</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Getting started with Azure Privileged Identity Management</source>
+          <target state="new">Getting started with Azure Privileged Identity Management</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Roles in Azure PIM</source>
+          <target state="new">Roles in Azure PIM</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The security wizard</source>
+          <target state="new">The security wizard</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How to add or remove a user role</source>
+          <target state="new">How to add or remove a user role</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>How to activate or deactivate a role</source>
+          <target state="new">How to activate or deactivate a role</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How to change or view the default activation settings for a role</source>
+          <target state="new">How to change or view the default activation settings for a role</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How to configure security alerts</source>
+          <target state="new">How to configure security alerts</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How to start a security review</source>
+          <target state="new">How to start a security review</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>How to perform a security review</source>
+          <target state="new">How to perform a security review</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How to require MFA</source>
+          <target state="new">How to require MFA</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How to use the audit log</source>
+          <target state="new">How to use the audit log</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

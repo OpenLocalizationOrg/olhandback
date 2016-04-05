@@ -1,0 +1,1554 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b0fecf5e7a04863e1a12f97f1f5a0bd80c13d5a2</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Migrate from Mobile Services to an App Service Mobile App</source>
+          <target state="new">Migrate from Mobile Services to an App Service Mobile App</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to easily migrate your Mobile Services application to an App Service Mobile App</source>
+          <target state="new">Learn how to easily migrate your Mobile Services application to an App Service Mobile App</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="article-top"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Migrate your existing Azure Mobile Service to Azure App Service</source>
+          <target state="new"><ph id="ph1">&lt;a name="article-top"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Migrate your existing Azure Mobile Service to Azure App Service</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With the <bpt id="p1">[</bpt><ept id="p1">general availability of Azure App Service]</ept>, Azure Mobile Services sites can be easily migrated in-place to take advantage of all the</source>
+          <target state="new">With the <bpt id="p1">[</bpt><ept id="p1">general availability of Azure App Service]</ept>, Azure Mobile Services sites can be easily migrated in-place to take advantage of all the</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>features of the Azure App Service.</source>
+          <target state="new">features of the Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This document explains what to expect when migrating your site from Azure Mobile Services to Azure App Service.</source>
+          <target state="new">This document explains what to expect when migrating your site from Azure Mobile Services to Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="what-does-migration-do"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>What does migration do to your site</source>
+          <target state="new"><ph id="ph1">&lt;a name="what-does-migration-do"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>What does migration do to your site</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Migration of your Azure Mobile Service will turn your Mobile Service into an <bpt id="p1">[</bpt><ept id="p1">Azure App Service]</ept> app without affecting the code in any way.</source>
+          <target state="new">Migration of your Azure Mobile Service will turn your Mobile Service into an <bpt id="p1">[</bpt><ept id="p1">Azure App Service]</ept> app without affecting the code in any way.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Your Notification</source>
+          <target state="new">Your Notification</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Hubs, SQL data connection, authentication settings, scheduled jobs, and domain name will remain unchanged.</source>
+          <target state="new">Hubs, SQL data connection, authentication settings, scheduled jobs, and domain name will remain unchanged.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Mobile clients using your Azure Mobile Service</source>
+          <target state="new">Mobile clients using your Azure Mobile Service</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>will continue to operate normally.</source>
+          <target state="new">will continue to operate normally.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Migration will restart your service once it is transferred to Azure App Service.</source>
+          <target state="new">Migration will restart your service once it is transferred to Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="why-migrate"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Why you should migrate your site</source>
+          <target state="new"><ph id="ph1">&lt;a name="why-migrate"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Why you should migrate your site</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Microsoft is recommending that you migrate your Azure Mobile Service to take advantage of the features of Azure App Service, including:</source>
+          <target state="new">Microsoft is recommending that you migrate your Azure Mobile Service to take advantage of the features of Azure App Service, including:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>New host features, including <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept> and <bpt id="p2">[</bpt><ept id="p2">custom domain names]</ept>.</source>
+          <target state="new">New host features, including <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept> and <bpt id="p2">[</bpt><ept id="p2">custom domain names]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Connectivity to your on-premise resources using <bpt id="p1">[</bpt><ept id="p1">VNet]</ept> in addition to <bpt id="p2">[</bpt><ept id="p2">Hybrid Connections]</ept>.</source>
+          <target state="new">Connectivity to your on-premise resources using <bpt id="p1">[</bpt><ept id="p1">VNet]</ept> in addition to <bpt id="p2">[</bpt><ept id="p2">Hybrid Connections]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Monitoring and troubleshooting with New Relic or <bpt id="p1">[</bpt><ept id="p1">Application Insights]</ept>.</source>
+          <target state="new">Monitoring and troubleshooting with New Relic or <bpt id="p1">[</bpt><ept id="p1">Application Insights]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Built-in DevOps tooling, including <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept>, roll-back and in-production testing.</source>
+          <target state="new">Built-in DevOps tooling, including <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept>, roll-back and in-production testing.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Auto-scale]</ept>, load balancing and <bpt id="p2">[</bpt><ept id="p2">performance monitoring]</ept>.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Auto-scale]</ept>, load balancing and <bpt id="p2">[</bpt><ept id="p2">performance monitoring]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information on the benefits of Azure App Service, see the <bpt id="p1">[</bpt><ept id="p1">Mobile Services vs. App Service]</ept> topic.</source>
+          <target state="new">For more information on the benefits of Azure App Service, see the <bpt id="p1">[</bpt><ept id="p1">Mobile Services vs. App Service]</ept> topic.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="why-not-migrate"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Why you should not migrate your site</source>
+          <target state="new"><ph id="ph1">&lt;a name="why-not-migrate"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Why you should not migrate your site</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There are a few reasons why you should not migrate your Azure Mobile Services now:</source>
+          <target state="new">There are a few reasons why you should not migrate your Azure Mobile Services now:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You are currently in a busy period and cannot afford a site restart at this time.</source>
+          <target state="new">You are currently in a busy period and cannot afford a site restart at this time.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You do not wish to affect your production site before testing the migration process.</source>
+          <target state="new">You do not wish to affect your production site before testing the migration process.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You have multiple sites in the Free or Basic pricing tiers and do not want to migrate all sites at the same time.</source>
+          <target state="new">You have multiple sites in the Free or Basic pricing tiers and do not want to migrate all sites at the same time.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In you are in a busy period, then please plan to migrate during a scheduled maintenance window.</source>
+          <target state="new">In you are in a busy period, then please plan to migrate during a scheduled maintenance window.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The migration process restarts your</source>
+          <target state="new">The migration process restarts your</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>site as part of the process and your users may notice this momentary availability disruption.</source>
+          <target state="new">site as part of the process and your users may notice this momentary availability disruption.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>There are workarounds for most of the items in this list.</source>
+          <target state="new">There are workarounds for most of the items in this list.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Please refer to the <bpt id="p1">[</bpt>Before you begin<ept id="p1">](#before-you-begin)</ept> section below for details.</source>
+          <target state="new">Please refer to the <bpt id="p1">[</bpt>Before you begin<ept id="p1">](#before-you-begin)</ept> section below for details.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="before-you-begin"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Before you begin</source>
+          <target state="new"><ph id="ph1">&lt;a name="before-you-begin"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Before you begin</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You should follow the following steps before migrating your site:</source>
+          <target state="new">You should follow the following steps before migrating your site:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Back up your Mobile Service]</ept> scripts and SQL database</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Back up your Mobile Service]</ept> scripts and SQL database</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>(Optional) Raise the Mobile Service tier to Standard</source>
+          <target state="new">(Optional) Raise the Mobile Service tier to Standard</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you wish to test the migration process before migrating your production site, duplicate your production Azure Mobile Service (complete</source>
+          <target state="new">If you wish to test the migration process before migrating your production site, duplicate your production Azure Mobile Service (complete</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>with a copy of the data source) and test the migration against the new URL.</source>
+          <target state="new">with a copy of the data source) and test the migration against the new URL.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You will also need a test client implementation that points</source>
+          <target state="new">You will also need a test client implementation that points</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>to the test site to properly test the migrated site.</source>
+          <target state="new">to the test site to properly test the migrated site.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="opt-raise-service-tier"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>(Optional) Raise the Mobile Service tier to Standard</source>
+          <target state="new"><ph id="ph1">&lt;a name="opt-raise-service-tier"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>(Optional) Raise the Mobile Service tier to Standard</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>All Mobile Services sites that share a hosting plan are migrated at once.</source>
+          <target state="new">All Mobile Services sites that share a hosting plan are migrated at once.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Mobile Services in the Free or Basic pricing tiers share</source>
+          <target state="new">Mobile Services in the Free or Basic pricing tiers share</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>a hosting plan with other services in the same pricing tier and <bpt id="p1">[</bpt><ept id="p1">Azure Region]</ept>.</source>
+          <target state="new">a hosting plan with other services in the same pricing tier and <bpt id="p1">[</bpt><ept id="p1">Azure Region]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If your Mobile Service is operating on the Standard pricing</source>
+          <target state="new">If your Mobile Service is operating on the Standard pricing</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>tier, it is located in its own hosting plan.</source>
+          <target state="new">tier, it is located in its own hosting plan.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you wish to individually migrate sites in the Free or Basic pricing tiers, temporarily</source>
+          <target state="new">If you wish to individually migrate sites in the Free or Basic pricing tiers, temporarily</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>upgrade the Mobile Service pricing tier to Standard.</source>
+          <target state="new">upgrade the Mobile Service pricing tier to Standard.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can do this in the SCALE menu for your Mobile Service.</source>
+          <target state="new">You can do this in the SCALE menu for your Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Log onto the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>.</source>
+          <target state="new">Log onto the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select your Mobile Service.</source>
+          <target state="new">Select your Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>SCALE UP<ept id="p1">**</ept> tab.</source>
+          <target state="new">Select the <bpt id="p1">**</bpt>SCALE UP<ept id="p1">**</ept> tab.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Mobile Service Tier<ept id="p1">**</ept>, click on the <bpt id="p2">**</bpt>STANDARD<ept id="p2">**</ept> tier.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Mobile Service Tier<ept id="p1">**</ept>, click on the <bpt id="p2">**</bpt>STANDARD<ept id="p2">**</ept> tier.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>SAVE<ept id="p1">**</ept> icon at the bottom of the page.</source>
+          <target state="new">Click on the <bpt id="p1">**</bpt>SAVE<ept id="p1">**</ept> icon at the bottom of the page.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Remember to set the pricing tier to an appropriate setting after migration.</source>
+          <target state="new">Remember to set the pricing tier to an appropriate setting after migration.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="migrating-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Migrating your site</source>
+          <target state="new"><ph id="ph1">&lt;a name="migrating-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Migrating your site</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To migrate your site:</source>
+          <target state="new">To migrate your site:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Log onto the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>.</source>
+          <target state="new">Log onto the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Select your Mobile Service.</source>
+          <target state="new">Select your Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Migrate to App Service<ept id="p1">**</ept> button.</source>
+          <target state="new">Click on the <bpt id="p1">**</bpt>Migrate to App Service<ept id="p1">**</ept> button.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Read the Migrate to App Service dialog.</source>
+          <target state="new">Read the Migrate to App Service dialog.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Enter the name of your Mobile Service in the box provided.</source>
+          <target state="new">Enter the name of your Mobile Service in the box provided.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, if your domain name is contoso.azure-mobile.net, then enter <bpt id="p1">_</bpt>contoso<ept id="p1">_</ept> in the box provided.</source>
+          <target state="new">For example, if your domain name is contoso.azure-mobile.net, then enter <bpt id="p1">_</bpt>contoso<ept id="p1">_</ept> in the box provided.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Click on the tick button.</source>
+          <target state="new">Click on the tick button.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If you are migrating a Mobile Service in the Free or Basic pricing tiers, all Mobile Services in that pricing tier will be migrated at the same time.</source>
+          <target state="new">If you are migrating a Mobile Service in the Free or Basic pricing tiers, all Mobile Services in that pricing tier will be migrated at the same time.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You</source>
+          <target state="new">You</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>can avoid this by <bpt id="p1">[</bpt>raising the Mobile Service you are migrating<ept id="p1">](#opt-raise-service-tier)</ept> to Standard during the migration.</source>
+          <target state="new">can avoid this by <bpt id="p1">[</bpt>raising the Mobile Service you are migrating<ept id="p1">](#opt-raise-service-tier)</ept> to Standard during the migration.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can monitor the status of the migration in the activity monitor and your site will be listed as <bpt id="p1">*</bpt>migrating<ept id="p1">*</ept> in the Azure Classic Portal.</source>
+          <target state="new">You can monitor the status of the migration in the activity monitor and your site will be listed as <bpt id="p1">*</bpt>migrating<ept id="p1">*</ept> in the Azure Classic Portal.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Migration Activity Monitor</source>
+          <target state="new">Migration Activity Monitor</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Each migration can take anywhere from 3 to 15 minutes per mobile service being migrated.</source>
+          <target state="new">Each migration can take anywhere from 3 to 15 minutes per mobile service being migrated.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Your site will remain available during the migration but will be</source>
+          <target state="new">Your site will remain available during the migration but will be</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>restarted at the end of the migration process.</source>
+          <target state="new">restarted at the end of the migration process.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The site will be unavailable during the restart process, which may last a couple of seconds.</source>
+          <target state="new">The site will be unavailable during the restart process, which may last a couple of seconds.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="finalizing-migration"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Finalizing the Migration</source>
+          <target state="new"><ph id="ph1">&lt;a name="finalizing-migration"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Finalizing the Migration</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You should plan to test your site from a mobile client at the conclusion of the migration process.</source>
+          <target state="new">You should plan to test your site from a mobile client at the conclusion of the migration process.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Ensure you can perform all common client actions</source>
+          <target state="new">Ensure you can perform all common client actions</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>without changes to the mobile client.</source>
+          <target state="new">without changes to the mobile client.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In addition, you should ensure that the changes you made to effect the migration (such as changing the pricing</source>
+          <target state="new">In addition, you should ensure that the changes you made to effect the migration (such as changing the pricing</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>tier) are reverted if necessary.</source>
+          <target state="new">tier) are reverted if necessary.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="update-app-service-tier"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Select an appropriate App Service pricing tier</source>
+          <target state="new"><ph id="ph1">&lt;a name="update-app-service-tier"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Select an appropriate App Service pricing tier</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You have more flexibility in pricing after you migrate to Azure App Service.</source>
+          <target state="new">You have more flexibility in pricing after you migrate to Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>App Service Plan<ept id="p1">**</ept> in the Settings menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>App Service Plan<ept id="p1">**</ept> in the Settings menu.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Pricing Tier<ept id="p1">**</ept> tile.</source>
+          <target state="new">Click on the <bpt id="p1">**</bpt>Pricing Tier<ept id="p1">**</ept> tile.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Click on the tile appropriate to your requirements, then click on <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+          <target state="new">Click on the tile appropriate to your requirements, then click on <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You may need to click on <bpt id="p1">**</bpt>View all<ept id="p1">**</ept> to see the available pricing tiers.</source>
+          <target state="new">You may need to click on <bpt id="p1">**</bpt>View all<ept id="p1">**</ept> to see the available pricing tiers.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>As a starting point, we recommend the following:</source>
+          <target state="new">As a starting point, we recommend the following:</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Mobile Service Pricing Tier</source>
+          <target state="new">Mobile Service Pricing Tier</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>App Service Pricing Tier</source>
+          <target state="new">App Service Pricing Tier</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Free</source>
+          <target state="new">Free</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>F1 Free</source>
+          <target state="new">F1 Free</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Basic</source>
+          <target state="new">Basic</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>B1 Basic</source>
+          <target state="new">B1 Basic</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target state="new">Standard</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>S1 Standard</source>
+          <target state="new">S1 Standard</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Note that there is considerable flexibility in choosing the right pricing tier for your application.</source>
+          <target state="new">Note that there is considerable flexibility in choosing the right pricing tier for your application.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Refer to <bpt id="p1">[</bpt><ept id="p1">App Service Pricing]</ept> for</source>
+          <target state="new">Refer to <bpt id="p1">[</bpt><ept id="p1">App Service Pricing]</ept> for</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>full details on the pricing of your new App Service.</source>
+          <target state="new">full details on the pricing of your new App Service.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph> The App Service Standard tier contains access to many features that you may want to use, including <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept>,</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph> The App Service Standard tier contains access to many features that you may want to use, including <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept>,</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>automatic backups and auto-scaling.</source>
+          <target state="new">automatic backups and auto-scaling.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Check out the new capabilities while you are there!</source>
+          <target state="new">Check out the new capabilities while you are there!</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="review-migration-scheduler-jobs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Review the Migrated Scheduler Jobs</source>
+          <target state="new"><ph id="ph1">&lt;a name="review-migration-scheduler-jobs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Review the Migrated Scheduler Jobs</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Scheduler Jobs will not be visible until approximately 30 minutes after migration.</source>
+          <target state="new">Scheduler Jobs will not be visible until approximately 30 minutes after migration.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Any scheduled jobs will continue to run in the background.</source>
+          <target state="new">Any scheduled jobs will continue to run in the background.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To view your scheduled jobs:</source>
+          <target state="new">To view your scheduled jobs:</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Browse&gt;<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept> in the <bpt id="p3">_</bpt>Filter<ept id="p3">_</ept> box, then select <bpt id="p4">**</bpt>Scheduler Collections<ept id="p4">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Browse&gt;<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept> in the <bpt id="p3">_</bpt>Filter<ept id="p3">_</ept> box, then select <bpt id="p4">**</bpt>Scheduler Collections<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>There are a limited number of free scheduler jobs available post-migration.</source>
+          <target state="new">There are a limited number of free scheduler jobs available post-migration.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You should review your usage and the <bpt id="p1">[</bpt><ept id="p1">Azure Scheduler Plans]</ept>.</source>
+          <target state="new">You should review your usage and the <bpt id="p1">[</bpt><ept id="p1">Azure Scheduler Plans]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="configure-cors"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Configure CORS if needed</source>
+          <target state="new"><ph id="ph1">&lt;a name="configure-cors"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Configure CORS if needed</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Cross-origin resource sharing is a technique to allow a website to access a Web API on a different domain.</source>
+          <target state="new">Cross-origin resource sharing is a technique to allow a website to access a Web API on a different domain.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If you were using Azure Mobile</source>
+          <target state="new">If you were using Azure Mobile</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Services with an associated website then you will need to configure CORS as part of the migration.</source>
+          <target state="new">Services with an associated website then you will need to configure CORS as part of the migration.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If you were accessing Azure Mobile</source>
+          <target state="new">If you were accessing Azure Mobile</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Services exclusively from mobile devices, then CORS does not need to be configured except in rare cases.</source>
+          <target state="new">Services exclusively from mobile devices, then CORS does not need to be configured except in rare cases.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Your migrated CORS settings are available as the <bpt id="p1">**</bpt>MS_CrossDomainWhitelist<ept id="p1">**</ept> App Setting.</source>
+          <target state="new">Your migrated CORS settings are available as the <bpt id="p1">**</bpt>MS_CrossDomainWhitelist<ept id="p1">**</ept> App Setting.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To migrate your site to the App Service CORS facility:</source>
+          <target state="new">To migrate your site to the App Service CORS facility:</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>CORS<ept id="p1">**</ept> in the API menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>CORS<ept id="p1">**</ept> in the API menu.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Enter any Allowed Origins in the box provided, pressing Enter after each one.</source>
+          <target state="new">Enter any Allowed Origins in the box provided, pressing Enter after each one.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Once your list of Allowed Origins is correct, click on the Save button.</source>
+          <target state="new">Once your list of Allowed Origins is correct, click on the Save button.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This is an optional task, but provides for a better management experience going forward.</source>
+          <target state="new">This is an optional task, but provides for a better management experience going forward.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph>  One of the advantages of using an Azure App Service is that you can run your web site and mobile service on the same site.</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph>  One of the advantages of using an Azure App Service is that you can run your web site and mobile service on the same site.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>See</source>
+          <target state="new">See</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">[</bpt>next steps<ept id="p1">](#next-steps)</ept> section for more information.</source>
+          <target state="new">the <bpt id="p1">[</bpt>next steps<ept id="p1">](#next-steps)</ept> section for more information.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="download-publish-profile"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Download a new Publishing Profile</source>
+          <target state="new"><ph id="ph1">&lt;a name="download-publish-profile"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Download a new Publishing Profile</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The publishing profile of your site is changed when migrating to Azure App Service.</source>
+          <target state="new">The publishing profile of your site is changed when migrating to Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You will need a new publishing profile if you intend to publsh</source>
+          <target state="new">You will need a new publishing profile if you intend to publsh</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>your site from within Visual Studio.</source>
+          <target state="new">your site from within Visual Studio.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>To download the new publishing profile:</source>
+          <target state="new">To download the new publishing profile:</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Get publish profile<ept id="p1">**</ept>.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Get publish profile<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The PublishSettings file will be downloaded to your computer.</source>
+          <target state="new">The PublishSettings file will be downloaded to your computer.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>It will normally be called <bpt id="p1">_</bpt>sitename<ept id="p1">_</ept>.PublishSettings.</source>
+          <target state="new">It will normally be called <bpt id="p1">_</bpt>sitename<ept id="p1">_</ept>.PublishSettings.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>You can then import the publish settings into your existing project:</source>
+          <target state="new">You can then import the publish settings into your existing project:</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Open Visual Studio and your Azure Mobile Service project.</source>
+          <target state="new">Open Visual Studio and your Azure Mobile Service project.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Right-click on your project in the <bpt id="p1">**</bpt>Solution Explorer<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Publish...<ept id="p2">**</ept></source>
+          <target state="new">Right-click on your project in the <bpt id="p1">**</bpt>Solution Explorer<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Publish...<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Import<ept id="p1">**</ept></source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Import<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> and select your downloaded publish settings file.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> and select your downloaded publish settings file.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></source>
+          <target state="new">Click on <bpt id="p1">**</bpt>OK<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Validate Connection<ept id="p1">**</ept> to ensure the publish settings work.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Validate Connection<ept id="p1">**</ept> to ensure the publish settings work.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> to publish your site.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> to publish your site.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="working-with-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Working with your site post-migration</source>
+          <target state="new"><ph id="ph1">&lt;a name="working-with-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Working with your site post-migration</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>You will start working with your new App Service in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> post-migration.</source>
+          <target state="new">You will start working with your new App Service in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> post-migration.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The following are some notes on specific operations that</source>
+          <target state="new">The following are some notes on specific operations that</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>you used to perform in the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>, together with their App Service equivalent.</source>
+          <target state="new">you used to perform in the <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept>, together with their App Service equivalent.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="publishing-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Downloading and Publishing your migrated site</source>
+          <target state="new"><ph id="ph1">&lt;a name="publishing-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Downloading and Publishing your migrated site</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Your site is available via git or ftp and can be re-published with a number of different mechanisms, including WebDeploy, TFS, Mercurial, GitHub,</source>
+          <target state="new">Your site is available via git or ftp and can be re-published with a number of different mechanisms, including WebDeploy, TFS, Mercurial, GitHub,</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>and FTP.</source>
+          <target state="new">and FTP.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The deployment credentials are migrated with the rest of your site.</source>
+          <target state="new">The deployment credentials are migrated with the rest of your site.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If you did not set your deployment credentials or you do not remember</source>
+          <target state="new">If you did not set your deployment credentials or you do not remember</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>them, you can reset them:</source>
+          <target state="new">them, you can reset them:</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Deployment credentials<ept id="p1">**</ept> in the PUBLISHING menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Deployment credentials<ept id="p1">**</ept> in the PUBLISHING menu.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Enter the new deployment credentials in the boxes provided, then click on the Save button.</source>
+          <target state="new">Enter the new deployment credentials in the boxes provided, then click on the Save button.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>You can use these credentials to clone the site with git or set up automated deployments from GitHub, TFS or Mercurial.</source>
+          <target state="new">You can use these credentials to clone the site with git or set up automated deployments from GitHub, TFS or Mercurial.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For more</source>
+          <target state="new">For more</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>information, see the <bpt id="p1">[</bpt><ept id="p1">Azure App Service deployment documentation]</ept>.</source>
+          <target state="new">information, see the <bpt id="p1">[</bpt><ept id="p1">Azure App Service deployment documentation]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="appsettings"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Application Settings</source>
+          <target state="new"><ph id="ph1">&lt;a name="appsettings"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Application Settings</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Most settings for a migrated mobile service are available via App Settings.</source>
+          <target state="new">Most settings for a migrated mobile service are available via App Settings.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can get a list of the app settings from the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">You can get a list of the app settings from the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To view or change your app settings:</source>
+          <target state="new">To view or change your app settings:</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Application settings<ept id="p1">**</ept> in the GENERAL menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Application settings<ept id="p1">**</ept> in the GENERAL menu.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Scroll to the App Settings section and find your app setting.</source>
+          <target state="new">Scroll to the App Settings section and find your app setting.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Click on the value of the app setting to edit the value.</source>
+          <target state="new">Click on the value of the app setting to edit the value.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save the value.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save the value.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can update multiple app settings at the same time.</source>
+          <target state="new">You can update multiple app settings at the same time.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph>  You will notice that there are two Application Settings with the same value.</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph>  You will notice that there are two Application Settings with the same value.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>For example, you may see <bpt id="p1">_</bpt>ApplicationKey<ept id="p1">_</ept> and</source>
+          <target state="new">For example, you may see <bpt id="p1">_</bpt>ApplicationKey<ept id="p1">_</ept> and</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>MS_ApplicationKey<ept id="p1">_</ept>.</source>
+          <target state="new"><bpt id="p1">_</bpt>MS_ApplicationKey<ept id="p1">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>You only need to alter the app setting prefixed by <bpt id="p1">**</bpt>MS_<ept id="p1">**</ept>.</source>
+          <target state="new">You only need to alter the app setting prefixed by <bpt id="p1">**</bpt>MS_<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>However, it is a good idea to update both app settings at</source>
+          <target state="new">However, it is a good idea to update both app settings at</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>the same time.</source>
+          <target state="new">the same time.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="authentication"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Authentication</source>
+          <target state="new"><ph id="ph1">&lt;a name="authentication"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Authentication</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>All authentication settings are available as App Settings in your migrated site.</source>
+          <target state="new">All authentication settings are available as App Settings in your migrated site.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>To update your authentication settings, you must alter the</source>
+          <target state="new">To update your authentication settings, you must alter the</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>appropriate app settings.</source>
+          <target state="new">appropriate app settings.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The following table shows the appropriate app settings for your authentication provider:</source>
+          <target state="new">The following table shows the appropriate app settings for your authentication provider:</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Provider</source>
+          <target state="new">Provider</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target state="new">Client ID</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <target state="new">Client Secret</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Other Settings</source>
+          <target state="new">Other Settings</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Microsoft Account</source>
+          <target state="new">Microsoft Account</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>MS_MicrosoftClientID</source>
+          <target state="new">MS_MicrosoftClientID</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>MS_MicrosoftClientSecret</source>
+          <target state="new">MS_MicrosoftClientSecret</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>MS_MicrosoftPackageSID</source>
+          <target state="new">MS_MicrosoftPackageSID</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="new">Facebook</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>MS_FacebookAppID</source>
+          <target state="new">MS_FacebookAppID</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>MS_FacebookAppSecret</source>
+          <target state="new">MS_FacebookAppSecret</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Twitter</source>
+          <target state="new">Twitter</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>MS_TwitterConsumerKey</source>
+          <target state="new">MS_TwitterConsumerKey</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>MS_TwitterConsumerSecret</source>
+          <target state="new">MS_TwitterConsumerSecret</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Google</source>
+          <target state="new">Google</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>MS_GoogleClientID</source>
+          <target state="new">MS_GoogleClientID</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>MS_GoogleClientSecret</source>
+          <target state="new">MS_GoogleClientSecret</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Azure AD</source>
+          <target state="new">Azure AD</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>MS_AadClientID</source>
+          <target state="new">MS_AadClientID</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>MS_AadTenants</source>
+          <target state="new">MS_AadTenants</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Note: <bpt id="p1">**</bpt>MS_AadTenants<ept id="p1">**</ept> is stored as a comma-separated list of tenant domains (the "Allowed Tenants" fields in the Mobile Services portal).</source>
+          <target state="new">Note: <bpt id="p1">**</bpt>MS_AadTenants<ept id="p1">**</ept> is stored as a comma-separated list of tenant domains (the "Allowed Tenants" fields in the Mobile Services portal).</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.WARNING]</ph> <bpt id="p1">**</bpt>Do not use the authentication mechanisms in the Settings menu<ept id="p1">**</ept></source>
+          <target state="new"><ph id="ph1">[AZURE.WARNING]</ph> <bpt id="p1">**</bpt>Do not use the authentication mechanisms in the Settings menu<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Azure App Service provides a separate "no-code" Authentication and Authorization system under the <bpt id="p1">_</bpt>Authentication / Authorization<ept id="p1">_</ept></source>
+          <target state="new">Azure App Service provides a separate "no-code" Authentication and Authorization system under the <bpt id="p1">_</bpt>Authentication / Authorization<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Settings menu and the (deprecated)  <bpt id="p1">_</bpt>Mobile Authentication<ept id="p1">_</ept> option under the Settings menu.</source>
+          <target state="new">Settings menu and the (deprecated)  <bpt id="p1">_</bpt>Mobile Authentication<ept id="p1">_</ept> option under the Settings menu.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>These options are incompatible with a migrated Azure</source>
+          <target state="new">These options are incompatible with a migrated Azure</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Mobile Service.</source>
+          <target state="new">Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>You can <bpt id="p1">[</bpt>upgrade your site<ept id="p1">](app-service-mobile-net-upgrading-from-mobile-services.md)</ept> to take advantage of the Azure App Service authentication.</source>
+          <target state="new">You can <bpt id="p1">[</bpt>upgrade your site<ept id="p1">](app-service-mobile-net-upgrading-from-mobile-services.md)</ept> to take advantage of the Azure App Service authentication.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="easytables"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Data</source>
+          <target state="new"><ph id="ph1">&lt;a name="easytables"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Data</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">_</bpt>Data<ept id="p1">_</ept> tab in Mobile Services has been replaced by <bpt id="p2">_</bpt>Easy Tables<ept id="p2">_</ept> within the Azure Portal.</source>
+          <target state="new">The <bpt id="p1">_</bpt>Data<ept id="p1">_</ept> tab in Mobile Services has been replaced by <bpt id="p2">_</bpt>Easy Tables<ept id="p2">_</ept> within the Azure Portal.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To access Easy Tables:</source>
+          <target state="new">To access Easy Tables:</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Easy tables<ept id="p1">**</ept> in the MOBILE menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Easy tables<ept id="p1">**</ept> in the MOBILE menu.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>You can add a new table by clicking on the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button or access your existing tables by clicking on a table name.</source>
+          <target state="new">You can add a new table by clicking on the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button or access your existing tables by clicking on a table name.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>There are a variety of operations</source>
+          <target state="new">There are a variety of operations</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>you can do from this blade, including:</source>
+          <target state="new">you can do from this blade, including:</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Changing table permissions</source>
+          <target state="new">Changing table permissions</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Editing the operational scripts</source>
+          <target state="new">Editing the operational scripts</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Managing the table schema</source>
+          <target state="new">Managing the table schema</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Deleting the table</source>
+          <target state="new">Deleting the table</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Clearing the table contents</source>
+          <target state="new">Clearing the table contents</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Deleting specific rows of the table</source>
+          <target state="new">Deleting specific rows of the table</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="easyapis"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>API</source>
+          <target state="new"><ph id="ph1">&lt;a name="easyapis"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>API</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">_</bpt>API<ept id="p1">_</ept> tab in Mobile Services has been replaced by <bpt id="p2">_</bpt>Easy APIs<ept id="p2">_</ept> within the Azure Portal.</source>
+          <target state="new">The <bpt id="p1">_</bpt>API<ept id="p1">_</ept> tab in Mobile Services has been replaced by <bpt id="p2">_</bpt>Easy APIs<ept id="p2">_</ept> within the Azure Portal.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>To access Easy APIs:</source>
+          <target state="new">To access Easy APIs:</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Easy APIs<ept id="p1">**</ept> in the MOBILE menu.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Easy APIs<ept id="p1">**</ept> in the MOBILE menu.</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Your migrated APIs will already be listed in the blade.</source>
+          <target state="new">Your migrated APIs will already be listed in the blade.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>You can also add a new API from this blade.</source>
+          <target state="new">You can also add a new API from this blade.</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>To manage a specific API, click on the API.</source>
+          <target state="new">To manage a specific API, click on the API.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>From the new blade, you can adjust the permissions and edit the scripts for the API.</source>
+          <target state="new">From the new blade, you can adjust the permissions and edit the scripts for the API.</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="on-demand-jobs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Scheduler Jobs</source>
+          <target state="new"><ph id="ph1">&lt;a name="on-demand-jobs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Scheduler Jobs</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>All scheduler jobs are available through the Scheduler Job Collections section.</source>
+          <target state="new">All scheduler jobs are available through the Scheduler Job Collections section.</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>To access your scheduler jobs:</source>
+          <target state="new">To access your scheduler jobs:</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Browse&gt;<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept> in the <bpt id="p3">_</bpt>Filter<ept id="p3">_</ept> box, then select <bpt id="p4">**</bpt>Scheduler Collections<ept id="p4">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Browse&gt;<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept> in the <bpt id="p3">_</bpt>Filter<ept id="p3">_</ept> box, then select <bpt id="p4">**</bpt>Scheduler Collections<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Select the Job Collection for your site.</source>
+          <target state="new">Select the Job Collection for your site.</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>It will be named <bpt id="p1">_</bpt>sitename<ept id="p1">_</ept>-Jobs.</source>
+          <target state="new">It will be named <bpt id="p1">_</bpt>sitename<ept id="p1">_</ept>-Jobs.</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Scheduler Jobs<ept id="p1">**</ept> under MANAGE.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Scheduler Jobs<ept id="p1">**</ept> under MANAGE.</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Scheduled jobs will be listed with the frequency you specified prior to migration.</source>
+          <target state="new">Scheduled jobs will be listed with the frequency you specified prior to migration.</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>On-demand jobs will be disabled.</source>
+          <target state="new">On-demand jobs will be disabled.</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>To run an on-demand job:</source>
+          <target state="new">To run an on-demand job:</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Select the job you wish to run.</source>
+          <target state="new">Select the job you wish to run.</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If necessary, click on <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> to enable the job.</source>
+          <target state="new">If necessary, click on <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> to enable the job.</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, then <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept>.</source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, then <bpt id="p2">**</bpt>Schedule<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Select a Recurrence of <bpt id="p1">**</bpt>Once<ept id="p1">**</ept>, then click on <bpt id="p2">**</bpt>Save<ept id="p2">**</ept></source>
+          <target state="new">Select a Recurrence of <bpt id="p1">**</bpt>Once<ept id="p1">**</ept>, then click on <bpt id="p2">**</bpt>Save<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Your on-demand jobs are located in <ph id="ph1">`App_Data/config/scripts/scheduler post-migration`</ph>.</source>
+          <target state="new">Your on-demand jobs are located in <ph id="ph1">`App_Data/config/scripts/scheduler post-migration`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>We recommend that you convert all on-demand jobs to <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept>.</source>
+          <target state="new">We recommend that you convert all on-demand jobs to <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>You should write new scheduler jobs as <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept>.</source>
+          <target state="new">You should write new scheduler jobs as <bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="notification-hubs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Notification Hubs</source>
+          <target state="new"><ph id="ph1">&lt;a name="notification-hubs"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Notification Hubs</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Mobile Services uses Notification Hubs for push notifications.</source>
+          <target state="new">Mobile Services uses Notification Hubs for push notifications.</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The following App Settings are used to link the Notification Hub to your Mobile Service</source>
+          <target state="new">The following App Settings are used to link the Notification Hub to your Mobile Service</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>after migration:</source>
+          <target state="new">after migration:</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Application Setting</source>
+          <target state="new">Application Setting</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>MS_PushEntityNamespace</source>
+          <target state="new">MS_PushEntityNamespace</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The Notification Hub Namespace</source>
+          <target state="new">The Notification Hub Namespace</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>MS_NotificationHubName</source>
+          <target state="new">MS_NotificationHubName</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The Notification Hub Name</source>
+          <target state="new">The Notification Hub Name</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>MS_NotificationHubConnectionString</source>
+          <target state="new">MS_NotificationHubConnectionString</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>The Notification Hub Connection String</source>
+          <target state="new">The Notification Hub Connection String</target>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>MS_NamespaceName</source>
+          <target state="new">MS_NamespaceName</target>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>An alias for MS_PushEntityNamespace</source>
+          <target state="new">An alias for MS_PushEntityNamespace</target>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Your Notification Hub will be managed through the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Your Notification Hub will be managed through the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Note the Notification Hub name (you can find this using the App Settings):</source>
+          <target state="new">Note the Notification Hub name (you can find this using the App Settings):</target>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept>&gt;, then select <bpt id="p2">**</bpt>Notification Hubs<ept id="p2">**</ept></source>
+          <target state="new">Select <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept>&gt;, then select <bpt id="p2">**</bpt>Notification Hubs<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Click on the Notification Hub name associated with the mobile service.</source>
+          <target state="new">Click on the Notification Hub name associated with the mobile service.</target>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.NOTE]</ph> Your notification hub will not be visible if it a "Mixed" type.</source>
+          <target state="new"><ph id="ph1">[AZURE.NOTE]</ph> Your notification hub will not be visible if it a "Mixed" type.</target>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>"Mixed" type notification hubs utilize both Notification Hubs and</source>
+          <target state="new">"Mixed" type notification hubs utilize both Notification Hubs and</target>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>legacy Service Bus features.</source>
+          <target state="new">legacy Service Bus features.</target>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>You will need to <bpt id="p1">[</bpt><ept id="p1">convert your Mixed namespaces]</ept>.</source>
+          <target state="new">You will need to <bpt id="p1">[</bpt><ept id="p1">convert your Mixed namespaces]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Once the conversion is complete, your notification hub will</source>
+          <target state="new">Once the conversion is complete, your notification hub will</target>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>appear in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> .</source>
+          <target state="new">appear in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> .</target>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>For more information, review the <bpt id="p1">[</bpt><ept id="p1">Notification Hubs]</ept> documentation.</source>
+          <target state="new">For more information, review the <bpt id="p1">[</bpt><ept id="p1">Notification Hubs]</ept> documentation.</target>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph> Notification Hubs management features in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> is still in preview.</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph> Notification Hubs management features in the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept> is still in preview.</target>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept> remains available for</source>
+          <target state="new">The <bpt id="p1">[</bpt><ept id="p1">Azure Classic Portal]</ept> remains available for</target>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>managing all your Notification Hubs.</source>
+          <target state="new">managing all your Notification Hubs.</target>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="app-settings"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Other App Settings</source>
+          <target state="new"><ph id="ph1">&lt;a name="app-settings"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Other App Settings</target>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The following additional app settings are migrated from your Mobile Service and available under <bpt id="p1">*</bpt>Settings<ept id="p1">*</ept> &gt; <bpt id="p2">*</bpt>App Settings<ept id="p2">*</ept>:</source>
+          <target state="new">The following additional app settings are migrated from your Mobile Service and available under <bpt id="p1">*</bpt>Settings<ept id="p1">*</ept> &gt; <bpt id="p2">*</bpt>App Settings<ept id="p2">*</ept>:</target>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Application Setting</source>
+          <target state="new">Application Setting</target>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>MS_MobileServiceName</source>
+          <target state="new">MS_MobileServiceName</target>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The name of your app</source>
+          <target state="new">The name of your app</target>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>MS_MobileServiceDomainSuffix</source>
+          <target state="new">MS_MobileServiceDomainSuffix</target>
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The domain prefix.</source>
+          <target state="new">The domain prefix.</target>
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>i.e</source>
+          <target state="new">i.e</target>
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>azure-mobile.net</source>
+          <target state="new">azure-mobile.net</target>
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>MS_ApplicationKey</source>
+          <target state="new">MS_ApplicationKey</target>
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Your application key</source>
+          <target state="new">Your application key</target>
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>MS_MasterKey</source>
+          <target state="new">MS_MasterKey</target>
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Your app master key</source>
+          <target state="new">Your app master key</target>
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The application key and master key should be identical to the Application Keys from your original Mobile Service.</source>
+          <target state="new">The application key and master key should be identical to the Application Keys from your original Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>In particular, the Application Key is</source>
+          <target state="new">In particular, the Application Key is</target>
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>sent by mobile clients to validate their use of the mobile API.</source>
+          <target state="new">sent by mobile clients to validate their use of the mobile API.</target>
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="cliequivalents"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Command Line Equivalents</source>
+          <target state="new"><ph id="ph1">&lt;a name="cliequivalents"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Command Line Equivalents</target>
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>You will no longer be able to utilize the <bpt id="p1">_</bpt>azure mobile<ept id="p1">_</ept> command to manage your Azure Mobile Services site.</source>
+          <target state="new">You will no longer be able to utilize the <bpt id="p1">_</bpt>azure mobile<ept id="p1">_</ept> command to manage your Azure Mobile Services site.</target>
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Instead, many functions have been replaced</source>
+          <target state="new">Instead, many functions have been replaced</target>
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>with the <bpt id="p1">_</bpt>azure site<ept id="p1">_</ept> command.</source>
+          <target state="new">with the <bpt id="p1">_</bpt>azure site<ept id="p1">_</ept> command.</target>
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Use the below table to find equivalents for common commands:</source>
+          <target state="new">Use the below table to find equivalents for common commands:</target>
+        </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Azure Mobile<ept id="p1">_</ept> Command</source>
+          <target state="new"><bpt id="p1">_</bpt>Azure Mobile<ept id="p1">_</ept> Command</target>
+        </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Equivalent <bpt id="p1">_</bpt>Azure Site<ept id="p1">_</ept> command</source>
+          <target state="new">Equivalent <bpt id="p1">_</bpt>Azure Site<ept id="p1">_</ept> command</target>
+        </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>mobile locations</source>
+          <target state="new">mobile locations</target>
+        </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>site location list</source>
+          <target state="new">site location list</target>
+        </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>mobile list</source>
+          <target state="new">mobile list</target>
+        </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>site list</source>
+          <target state="new">site list</target>
+        </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>mobile show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>site show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>mobile restart <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile restart <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>site restart <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site restart <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>mobile redeploy <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile redeploy <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>site deployment redeploy <bpt id="p1">_</bpt>commitId<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site deployment redeploy <bpt id="p1">_</bpt>commitId<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>mobile key set <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>type<ept id="p2">_</ept> <bpt id="p3">_</bpt>value<ept id="p3">_</ept></source>
+          <target state="new">mobile key set <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>type<ept id="p2">_</ept> <bpt id="p3">_</bpt>value<ept id="p3">_</ept></target>
+        </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></source>
+          <target state="new">site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></target>
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>mobile config list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile config list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>site appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>mobile config get <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></source>
+          <target state="new">mobile config get <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>site appsetting show <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site appsetting show <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>mobile config set <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></source>
+          <target state="new">mobile config set <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></source>
+          <target state="new">site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></target>
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>mobile domain list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile domain list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>site domain list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site domain list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>mobile domain add <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>domain<ept id="p2">_</ept></source>
+          <target state="new">mobile domain add <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>domain<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>site domain add <bpt id="p1">_</bpt>domain<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site domain add <bpt id="p1">_</bpt>domain<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>mobile domain delete <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile domain delete <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>site domain delete <bpt id="p1">_</bpt>domain<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site domain delete <bpt id="p1">_</bpt>domain<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>mobile scale show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile scale show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>site show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site show <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>mobile scale change <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile scale change <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>site scale mode <bpt id="p1">_</bpt>mode<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site scale mode <bpt id="p1">_</bpt>mode<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>site scale instances <bpt id="p1">_</bpt>instances<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site scale instances <bpt id="p1">_</bpt>instances<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>mobile appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">mobile appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>site appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></source>
+          <target state="new">site appsetting list <bpt id="p1">_</bpt>name<ept id="p1">_</ept></target>
+        </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>mobile appsetting add <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept> <bpt id="p3">_</bpt>value<ept id="p3">_</ept></source>
+          <target state="new">mobile appsetting add <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept> <bpt id="p3">_</bpt>value<ept id="p3">_</ept></target>
+        </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></source>
+          <target state="new">site appsetting add <bpt id="p1">_</bpt>key<ept id="p1">_</ept>=<bpt id="p2">_</bpt>value<ept id="p2">_</ept> <bpt id="p3">_</bpt>name<ept id="p3">_</ept></target>
+        </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>mobile appsetting delete <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></source>
+          <target state="new">mobile appsetting delete <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>mobile appsetting show <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></source>
+          <target state="new">mobile appsetting show <bpt id="p1">_</bpt>name<ept id="p1">_</ept> <bpt id="p2">_</bpt>key<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></source>
+          <target state="new">site appsetting delete <bpt id="p1">_</bpt>key<ept id="p1">_</ept> <bpt id="p2">_</bpt>name<ept id="p2">_</ept></target>
+        </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Update authentication or push notification settings by updating the appropriate Application Setting.</source>
+          <target state="new">Update authentication or push notification settings by updating the appropriate Application Setting.</target>
+        </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Edit files and publish your site via ftp or git.</source>
+          <target state="new">Edit files and publish your site via ftp or git.</target>
+        </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="diagnostics"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Diagnostics and Logging</source>
+          <target state="new"><ph id="ph1">&lt;a name="diagnostics"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Diagnostics and Logging</target>
+        </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>Diagnostic Logging is normally disabled in an Azure App Service.</source>
+          <target state="new">Diagnostic Logging is normally disabled in an Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>To enable diagnostic logging:</source>
+          <target state="new">To enable diagnostic logging:</target>
+        </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</source>
+          <target state="new">The Settings blade will open by default - if it doesn't, click on <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Diagnostic Logs<ept id="p1">**</ept> under the FEATURES menu.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Diagnostic Logs<ept id="p1">**</ept> under the FEATURES menu.</target>
+        </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>ON<ept id="p1">**</ept> for the following logs: <bpt id="p2">**</bpt>Application Logging (Filesystem)<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Detailed error messages<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Failed request tracing<ept id="p4">**</ept></source>
+          <target state="new">Click <bpt id="p1">**</bpt>ON<ept id="p1">**</ept> for the following logs: <bpt id="p2">**</bpt>Application Logging (Filesystem)<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Detailed error messages<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Failed request tracing<ept id="p4">**</ept></target>
+        </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>File System<ept id="p1">**</ept> for Web server logging</source>
+          <target state="new">Click <bpt id="p1">**</bpt>File System<ept id="p1">**</ept> for Web server logging</target>
+        </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Save<ept id="p1">**</ept></source>
+          <target state="new">Click on <bpt id="p1">**</bpt>Save<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>To view the logs:</source>
+          <target state="new">To view the logs:</target>
+        </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</source>
+          <target state="new">Log into the <bpt id="p1">[</bpt><ept id="p1">Azure Portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> or <bpt id="p2">**</bpt>App Services<ept id="p2">**</ept> then click on the name of your migrated Mobile Service.</target>
+        </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> button</source>
+          <target state="new">Click on the <bpt id="p1">**</bpt>Tools<ept id="p1">**</ept> button</target>
+        </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Log Stream<ept id="p1">**</ept> under the OBSERVE menu.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>Log Stream<ept id="p1">**</ept> under the OBSERVE menu.</target>
+        </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>Logs will stream into the window provided as they are generated.</source>
+          <target state="new">Logs will stream into the window provided as they are generated.</target>
+        </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>You can also download the logs for later analysis using your deployment credentials.</source>
+          <target state="new">You can also download the logs for later analysis using your deployment credentials.</target>
+        </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>See</source>
+          <target state="new">See</target>
+        </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>the <bpt id="p1">[</bpt><ept id="p1">Logging]</ept> documentation for more information.</source>
+          <target state="new">the <bpt id="p1">[</bpt><ept id="p1">Logging]</ept> documentation for more information.</target>
+        </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="next-steps"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Next Steps</source>
+          <target state="new"><ph id="ph1">&lt;a name="next-steps"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Next Steps</target>
+        </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>Not that your application is migrated to App Service, there are even more features you can leverage:</source>
+          <target state="new">Not that your application is migrated to App Service, there are even more features you can leverage:</target>
+        </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>Deployment <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept> allow you to stage changes to your site and perform A/B testing.</source>
+          <target state="new">Deployment <bpt id="p1">[</bpt><ept id="p1">staging slots]</ept> allow you to stage changes to your site and perform A/B testing.</target>
+        </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept> provide a replacement for On-demand scheduled jobs.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">WebJobs]</ept> provide a replacement for On-demand scheduled jobs.</target>
+        </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>You can <bpt id="p1">[</bpt><ept id="p1">continuously deploy]</ept> your site by linking your site to GitHub, TFS or Mercurial.</source>
+          <target state="new">You can <bpt id="p1">[</bpt><ept id="p1">continuously deploy]</ept> your site by linking your site to GitHub, TFS or Mercurial.</target>
+        </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">[</bpt><ept id="p1">Application Insights]</ept> to monitor your site.</source>
+          <target state="new">You can use <bpt id="p1">[</bpt><ept id="p1">Application Insights]</ept> to monitor your site.</target>
+        </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>Serve a website and a Mobile API from the same code.</source>
+          <target state="new">Serve a website and a Mobile API from the same code.</target>
+        </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="upgrading-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Upgrading your Mobile Services site to Azure Mobile Apps SDK</source>
+          <target state="new"><ph id="ph1">&lt;a name="upgrading-your-site"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Upgrading your Mobile Services site to Azure Mobile Apps SDK</target>
+        </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>For Node.js-based server projects, the new <bpt id="p1">[</bpt><ept id="p1">Mobile Apps Node.js SDK]</ept> provides a number of new features.</source>
+          <target state="new">For Node.js-based server projects, the new <bpt id="p1">[</bpt><ept id="p1">Mobile Apps Node.js SDK]</ept> provides a number of new features.</target>
+        </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>For instance, you can now do local development and debugging, use any Node.js version above 0.10, and customize with any Express.js middleware.</source>
+          <target state="new">For instance, you can now do local development and debugging, use any Node.js version above 0.10, and customize with any Express.js middleware.</target>
+        </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>For .NET-based server projects, the new <bpt id="p1">[</bpt>Mobile Apps SDK NuGet packages<ept id="p1">](https://www.nuget.org/packages/Microsoft.Azure.Mobile.Server/)</ept> has more flexibility on NuGet dependencies, supports the new App Service authentication features, and composes with any ASP.NET project, including MVC.</source>
+          <target state="new">For .NET-based server projects, the new <bpt id="p1">[</bpt>Mobile Apps SDK NuGet packages<ept id="p1">](https://www.nuget.org/packages/Microsoft.Azure.Mobile.Server/)</ept> has more flexibility on NuGet dependencies, supports the new App Service authentication features, and composes with any ASP.NET project, including MVC.</target>
+        </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>To learn more about upgrading, see <bpt id="p1">[</bpt>Upgrade your existing .NET Mobile Service to App Service<ept id="p1">](app-service-mobile-net-upgrading-from-mobile-services.md)</ept>.</source>
+          <target state="new">To learn more about upgrading, see <bpt id="p1">[</bpt>Upgrade your existing .NET Mobile Service to App Service<ept id="p1">](app-service-mobile-net-upgrading-from-mobile-services.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

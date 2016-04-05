@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">435193d5980b1c8bf3cb8cb824fcefd2615180d9</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Authentication in App Service</source>
+          <target state="new">Authentication in App Service</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn about how user authentication and authorization works in Azure App Service.</source>
+          <target state="new">Learn about how user authentication and authorization works in Azure App Service.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add authentication to your Mobile App: <bpt id="p1">[</bpt>Android<ept id="p1">][android-get-started-users]</ept>, <bpt id="p2">[</bpt>Cordova<ept id="p2">][cordova-get-started-users]</ept>, <bpt id="p3">[</bpt>iOS<ept id="p3">][ios-get-started-users]</ept>, <bpt id="p4">[</bpt>Windows Universal<ept id="p4">][windows-get-started-users]</ept>, <bpt id="p5">[</bpt>Xamarin.Android<ept id="p5">][xamarin-android-get-started-users]</ept>, <bpt id="p6">[</bpt>Xamarin.iOS<ept id="p6">][xamarin-ios-get-started-users]</ept></source>
+          <target state="new">Add authentication to your Mobile App: <bpt id="p1">[</bpt>Android<ept id="p1">][android-get-started-users]</ept>, <bpt id="p2">[</bpt>Cordova<ept id="p2">][cordova-get-started-users]</ept>, <bpt id="p3">[</bpt>iOS<ept id="p3">][ios-get-started-users]</ept>, <bpt id="p4">[</bpt>Windows Universal<ept id="p4">][windows-get-started-users]</ept>, <bpt id="p5">[</bpt>Xamarin.Android<ept id="p5">][xamarin-android-get-started-users]</ept>, <bpt id="p6">[</bpt>Xamarin.iOS<ept id="p6">][xamarin-ios-get-started-users]</ept></target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Learn how to add App Service authenication to your mobile app.</source>
+          <target state="new">Learn how to add App Service authenication to your mobile app.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Authentication in API Apps: <bpt id="p1">[</bpt>user principle<ept id="p1">](../articles/app-service-api/app-service-api-dotnet-user-principal-auth.md)</ept>, <bpt id="p2">[</bpt>service principle<ept id="p2">](../articles/app-service-api/app-service-api-dotnet-service-principal-auth.md)</ept></source>
+          <target state="new">Authentication in API Apps: <bpt id="p1">[</bpt>user principle<ept id="p1">](../articles/app-service-api/app-service-api-dotnet-user-principal-auth.md)</ept>, <bpt id="p2">[</bpt>service principle<ept id="p2">](../articles/app-service-api/app-service-api-dotnet-service-principal-auth.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Learn how to secure your API app using App Service authentication.</source>
+          <target state="new">Learn how to secure your API app using App Service authentication.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

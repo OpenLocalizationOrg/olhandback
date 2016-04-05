@@ -22,7 +22,7 @@
         </trans-unit>
         <trans-unit id="104" translate="yes" xml:space="preserve">
           <source>As an IT Administrator, you can choose to automatically and silently register your domain-joined Windows devices with Azure Active Directory (Azure AD).</source>
-          <target state="new">11111111111111111111111111111111111As an IT Administrator, you can choose to automatically and silently register your domain-joined Windows devices with Azure Active Directory (Azure AD).</target>
+          <target state="new">As an IT Administrator, you can choose to automatically and silently register your domain-joined Windows devices with Azure Active Directory (Azure AD).</target>
         </trans-unit>
         <trans-unit id="105" translate="yes" xml:space="preserve">
           <source>This can be useful if you have configured device based conditional access polices to Office365 applications or applications managed on-premises by AD FS.</source>

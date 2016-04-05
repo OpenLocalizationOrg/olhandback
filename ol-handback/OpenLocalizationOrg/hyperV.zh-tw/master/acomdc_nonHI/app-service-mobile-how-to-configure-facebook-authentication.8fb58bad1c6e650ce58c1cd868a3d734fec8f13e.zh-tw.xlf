@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c24fc9905499a2ab55028c8e6ddc335a1636ba16</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to configure Facebook authentication for your App Services application</source>
+          <target state="new">How to configure Facebook authentication for your App Services application</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to configure Facebook authentication for your App Services application.</source>
+          <target state="new">Learn how to configure Facebook authentication for your App Services application.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to configure your App Service application to use Facebook login</source>
+          <target state="new">How to configure your App Service application to use Facebook login</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic shows you how to configure Azure App Service to use Facebook as an authentication provider.</source>
+          <target state="new">This topic shows you how to configure Azure App Service to use Facebook as an authentication provider.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To complete the procedure in this topic, you must have a Facebook account that has a verified email address and a mobile phone number.</source>
+          <target state="new">To complete the procedure in this topic, you must have a Facebook account that has a verified email address and a mobile phone number.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To create a new Facebook account, go to <bpt id="p1">[</bpt><ept id="p1">facebook.com]</ept>.</source>
+          <target state="new">To create a new Facebook account, go to <bpt id="p1">[</bpt><ept id="p1">facebook.com]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="register"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your application with Facebook</source>
+          <target state="new"><ph id="ph1">&lt;a name="register"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your application with Facebook</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</source>
+          <target state="new">Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</source>
+          <target state="new">Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You will use this to configure your Facebook app.</source>
+          <target state="new">You will use this to configure your Facebook app.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In another browser window, navigate to the <bpt id="p1">[</bpt><ept id="p1">Facebook Developers]</ept> website and sign-in with your Facebook account credentials.</source>
+          <target state="new">In another browser window, navigate to the <bpt id="p1">[</bpt><ept id="p1">Facebook Developers]</ept> website and sign-in with your Facebook account credentials.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>(Optional) If you have not already registered, click <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Register as a Developer<ept id="p2">**</ept>, then accept the policy and follow the registration steps.</source>
+          <target state="new">(Optional) If you have not already registered, click <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Register as a Developer<ept id="p2">**</ept>, then accept the policy and follow the registration steps.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>My Apps<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Add a New App<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Website<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>Skip and Create App ID<ept id="p4">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>My Apps<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Add a New App<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Website<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>Skip and Create App ID<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Display Name<ept id="p1">**</ept>, enter a unique name for your app, choose a <bpt id="p2">**</bpt>Category<ept id="p2">**</ept> for you app, then click <bpt id="p3">**</bpt>Create App ID<ept id="p3">**</ept> and complete the security check.</source>
+          <target state="new">In <bpt id="p1">**</bpt>Display Name<ept id="p1">**</ept>, enter a unique name for your app, choose a <bpt id="p2">**</bpt>Category<ept id="p2">**</ept> for you app, then click <bpt id="p3">**</bpt>Create App ID<ept id="p3">**</ept> and complete the security check.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This takes you to the developer dashboard for your new Facebook app.</source>
+          <target state="new">This takes you to the developer dashboard for your new Facebook app.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>App Secret<ept id="p1">**</ept> field, click <bpt id="p2">**</bpt>Show<ept id="p2">**</ept>, provide your password if requested, then make a note of the values of <bpt id="p3">**</bpt>App ID<ept id="p3">**</ept> and <bpt id="p4">**</bpt>App Secret<ept id="p4">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>App Secret<ept id="p1">**</ept> field, click <bpt id="p2">**</bpt>Show<ept id="p2">**</ept>, provide your password if requested, then make a note of the values of <bpt id="p3">**</bpt>App ID<ept id="p3">**</ept> and <bpt id="p4">**</bpt>App Secret<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You will uses these later to configure your application in Azure.</source>
+          <target state="new">You will uses these later to configure your application in Azure.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.IMPORTANT]</ph> The app secret is an important security credential.</source>
+          <target state="new"><ph id="ph1">[AZURE.IMPORTANT]</ph> The app secret is an important security credential.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Do not share this secret with anyone or distribute it within a client application.</source>
+          <target state="new">Do not share this secret with anyone or distribute it within a client application.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the left navigation bar, click <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, type the <bpt id="p2">**</bpt>URL<ept id="p2">**</ept> of your Mobile App in <bpt id="p3">**</bpt>App Domains<ept id="p3">**</ept>, and enter a <bpt id="p4">**</bpt>Contact Email<ept id="p4">**</ept>.</source>
+          <target state="new">On the left navigation bar, click <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, type the <bpt id="p2">**</bpt>URL<ept id="p2">**</ept> of your Mobile App in <bpt id="p3">**</bpt>App Domains<ept id="p3">**</ept>, and enter a <bpt id="p4">**</bpt>Contact Email<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you don't see a website section below, click <bpt id="p1">**</bpt>Add Platform<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Website<ept id="p2">**</ept>, enter the <bpt id="p3">**</bpt>URL<ept id="p3">**</ept> of your Mobile App in the <bpt id="p4">**</bpt>Site URL<ept id="p4">**</ept> field, then click <bpt id="p5">**</bpt>Save Changes<ept id="p5">**</ept>.</source>
+          <target state="new">If you don't see a website section below, click <bpt id="p1">**</bpt>Add Platform<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Website<ept id="p2">**</ept>, enter the <bpt id="p3">**</bpt>URL<ept id="p3">**</ept> of your Mobile App in the <bpt id="p4">**</bpt>Site URL<ept id="p4">**</ept> field, then click <bpt id="p5">**</bpt>Save Changes<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab, add your application's <bpt id="p2">**</bpt>Redirect URI<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Valid OAuth redirect URIs<ept id="p3">**</ept>, then click <bpt id="p4">**</bpt>Save Changes<ept id="p4">**</ept>.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab, add your application's <bpt id="p2">**</bpt>Redirect URI<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Valid OAuth redirect URIs<ept id="p3">**</ept>, then click <bpt id="p4">**</bpt>Save Changes<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.NOTE]</ph> Your redirect URI is the URL of your application appended with the path, <bpt id="p1">_</bpt>/.auth/login/facebook/callback<ept id="p1">_</ept>.</source>
+          <target state="new"><ph id="ph1">[AZURE.NOTE]</ph> Your redirect URI is the URL of your application appended with the path, <bpt id="p1">_</bpt>/.auth/login/facebook/callback<ept id="p1">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`https://contoso.azurewebsites.net/.auth/login/facebook/callback`</ph>.</source>
+          <target state="new">For example, <ph id="ph1">`https://contoso.azurewebsites.net/.auth/login/facebook/callback`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Make sure that you are using the HTTPS scheme.</source>
+          <target state="new">Make sure that you are using the HTTPS scheme.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Facebook account which was used to register the application is an administrator of the app.</source>
+          <target state="new">The Facebook account which was used to register the application is an administrator of the app.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>At this point, only administrators can sign into this application.</source>
+          <target state="new">At this point, only administrators can sign into this application.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To authenticate other Facebook accounts, click <bpt id="p1">**</bpt>App Review<ept id="p1">**</ept> and enable <bpt id="p2">**</bpt>Make todolist-complete-nodejs public<ept id="p2">**</ept> to enable general public access using Facebook authentication.</source>
+          <target state="new">To authenticate other Facebook accounts, click <bpt id="p1">**</bpt>App Review<ept id="p1">**</ept> and enable <bpt id="p2">**</bpt>Make todolist-complete-nodejs public<ept id="p2">**</ept> to enable general public access using Facebook authentication.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="secrets"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Add Facebook information to your application</source>
+          <target state="new"><ph id="ph1">&lt;a name="secrets"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Add Facebook information to your application</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Back in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, navigate to your application.</source>
+          <target state="new">Back in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, navigate to your application.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Authentication / Authorization<ept id="p2">**</ept>, and make sure that <bpt id="p3">**</bpt>App Service Authentication<ept id="p3">**</ept> is <bpt id="p4">**</bpt>On<ept id="p4">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Authentication / Authorization<ept id="p2">**</ept>, and make sure that <bpt id="p3">**</bpt>App Service Authentication<ept id="p3">**</ept> is <bpt id="p4">**</bpt>On<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept>, paste in the App ID and App Secret values which you obtained previously, optionally enable any scopes needed by your application, then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Facebook<ept id="p1">**</ept>, paste in the App ID and App Secret values which you obtained previously, optionally enable any scopes needed by your application, then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>By default, App Service provides authentication but does not restrict authorized access to your site content and APIs.</source>
+          <target state="new">By default, App Service provides authentication but does not restrict authorized access to your site content and APIs.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You must authorize users in your app code.</source>
+          <target state="new">You must authorize users in your app code.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>(Optional) To restrict access to your site to only users authenticated by Facebook, set <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Facebook<ept id="p2">**</ept>.</source>
+          <target state="new">(Optional) To restrict access to your site to only users authenticated by Facebook, set <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Facebook<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This requires that all requests be authenticated, and all unauthenticated requests are redirected to Facebook for authentication.</source>
+          <target state="new">This requires that all requests be authenticated, and all unauthenticated requests are redirected to Facebook for authentication.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When done configuring authentication, click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">When done configuring authentication, click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You are now ready to use Facebook for authentication in your app.</source>
+          <target state="new">You are now ready to use Facebook for authentication in your app.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="related-content"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Related Content</source>
+          <target state="new"><ph id="ph1">&lt;a name="related-content"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Related Content</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

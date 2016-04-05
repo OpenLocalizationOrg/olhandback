@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fd08cef4fe23af014afdb61f9a195b5ce570de9</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Objective-C<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Objective-C<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, import the iOS SDK and <bpt id="p2">**</bpt>QSTodoService.h<ept id="p2">**</ept>:</source>
+          <target state="new">In <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, import the iOS SDK and <bpt id="p2">**</bpt>QSTodoService.h<ept id="p2">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">`didFinishLaunchingWithOptions`</ph> in <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, insert the following lines right before <ph id="ph2">`return YES;`</ph>:</source>
+          <target state="new">In <ph id="ph1">`didFinishLaunchingWithOptions`</ph> in <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, insert the following lines right before <ph id="ph2">`return YES;`</ph>:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, add the following handler methods.</source>
+          <target state="new">In <bpt id="p1">**</bpt>QSAppDelegate.m<ept id="p1">**</ept>, add the following handler methods.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your app is now updated to support push notifications.</source>
+          <target state="new">Your app is now updated to support push notifications.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Swift<ept id="p1">**</ept>:</source>
+          <target state="new"><bpt id="p1">**</bpt>Swift<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Add file <bpt id="p1">**</bpt>ClientManager.swift<ept id="p1">**</ept> with the following contents.</source>
+          <target state="new">Add file <bpt id="p1">**</bpt>ClientManager.swift<ept id="p1">**</ept> with the following contents.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">_</bpt>%AppUrl%<ept id="p1">_</ept> with the URL of the Azure Mobile App backend.</source>
+          <target state="new">Replace <bpt id="p1">_</bpt>%AppUrl%<ept id="p1">_</ept> with the URL of the Azure Mobile App backend.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>ToDoTableViewController.swift<ept id="p1">**</ept>, replace the <ph id="ph1">`let client`</ph> line that initializes an <ph id="ph2">`MSClient`</ph> with this line:</source>
+          <target state="new">In <bpt id="p1">**</bpt>ToDoTableViewController.swift<ept id="p1">**</ept>, replace the <ph id="ph1">`let client`</ph> line that initializes an <ph id="ph2">`MSClient`</ph> with this line:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>AppDelegate.swift<ept id="p1">**</ept>, replace the body of <ph id="ph1">`func application`</ph> as follows:</source>
+          <target state="new">In <bpt id="p1">**</bpt>AppDelegate.swift<ept id="p1">**</ept>, replace the body of <ph id="ph1">`func application`</ph> as follows:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>AppDelegate.swift<ept id="p1">**</ept>, add the following handler methods.</source>
+          <target state="new">In <bpt id="p1">**</bpt>AppDelegate.swift<ept id="p1">**</ept>, add the following handler methods.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Your app is now updated to support push notifications.</source>
+          <target state="new">Your app is now updated to support push notifications.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

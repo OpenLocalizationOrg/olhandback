@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d320a784addfd9558cc1f14418e95f306a92327f</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to work with the .NET backend server SDK for Mobile Apps | Azure App Service</source>
+          <target state="new">How to work with the .NET backend server SDK for Mobile Apps | Azure App Service</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to work with the .NET backend server SDK for Azure App Service Mobile Apps.</source>
+          <target state="new">Learn how to work with the .NET backend server SDK for Azure App Service Mobile Apps.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Work with the .NET backend server SDK for Azure Mobile Apps</source>
+          <target state="new">Work with the .NET backend server SDK for Azure Mobile Apps</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic shows you how to use the .NET backend server SDK in key Azure App Service Mobile Apps scenarios.</source>
+          <target state="new">This topic shows you how to use the .NET backend server SDK in key Azure App Service Mobile Apps scenarios.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Azure Mobile Apps SDK helps you work with mobile clients from your ASP.NET application.</source>
+          <target state="new">The Azure Mobile Apps SDK helps you work with mobile clients from your ASP.NET application.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph> The <bpt id="p1">[</bpt>.NET server SDK for Azure Mobile Apps<ept id="p1">](https://github.com/Azure/azure-mobile-apps-net-server)</ept> is open source on GitHub.</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph> The <bpt id="p1">[</bpt>.NET server SDK for Azure Mobile Apps<ept id="p1">](https://github.com/Azure/azure-mobile-apps-net-server)</ept> is open source on GitHub.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The repository contains the entire server SDK unit test suite as well as some sample projects.</source>
+          <target state="new">The repository contains the entire server SDK unit test suite as well as some sample projects.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Reference documentation</source>
+          <target state="new">Reference documentation</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The reference documentation for the server SDK is located here: <bpt id="p1">[</bpt>Azure Mobile Apps .NET Reference<ept id="p1">](https://msdn.microsoft.com/library/azure/dn961176.aspx)</ept>.</source>
+          <target state="new">The reference documentation for the server SDK is located here: <bpt id="p1">[</bpt>Azure Mobile Apps .NET Reference<ept id="p1">](https://msdn.microsoft.com/library/azure/dn961176.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="create-app"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Create a .NET backend for your mobile application</source>
+          <target state="new"><ph id="ph1">&lt;a name="create-app"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Create a .NET backend for your mobile application</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you are starting a new project, you can create an App Service application using either the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept> or Visual Studio.</source>
+          <target state="new">If you are starting a new project, you can create an App Service application using either the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept> or Visual Studio.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This section will help you use one of these to create a new mobile application backend which hosts a simple todo list API.</source>
+          <target state="new">This section will help you use one of these to create a new mobile application backend which hosts a simple todo list API.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can run this locally or publish the project to your cloud-based App Service mobile app.</source>
+          <target state="new">You can run this locally or publish the project to your cloud-based App Service mobile app.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you are adding mobile capabilities to an existing project, see the <bpt id="p1">[</bpt>Download and initialize the SDK<ept id="p1">](#install-sdk)</ept> section below.</source>
+          <target state="new">If you are adding mobile capabilities to an existing project, see the <bpt id="p1">[</bpt>Download and initialize the SDK<ept id="p1">](#install-sdk)</ept> section below.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create a .NET backend using the Azure portal</source>
+          <target state="new">Create a .NET backend using the Azure portal</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can create a new mobile application right in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>.</source>
+          <target state="new">You can create a new mobile application right in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can either follow the steps below, or create a new client and server together by following the <bpt id="p1">[</bpt>Create a mobile app<ept id="p1">](app-service-mobile-ios-get-started.md)</ept> tutorial.</source>
+          <target state="new">You can either follow the steps below, or create a new client and server together by following the <bpt id="p1">[</bpt>Create a mobile app<ept id="p1">](app-service-mobile-ios-get-started.md)</ept> tutorial.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&amp;nbsp;&amp;nbsp;9.</source>
+          <target state="new">&amp;nbsp;&amp;nbsp;9.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Back in the <bpt id="p1">_</bpt>Get started<ept id="p1">_</ept> blade, under <bpt id="p2">**</bpt>Create a table API<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>C#<ept id="p3">**</ept> as your <bpt id="p4">**</bpt>Backend language<ept id="p4">**</ept>.</source>
+          <target state="new">Back in the <bpt id="p1">_</bpt>Get started<ept id="p1">_</ept> blade, under <bpt id="p2">**</bpt>Create a table API<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>C#<ept id="p3">**</ept> as your <bpt id="p4">**</bpt>Backend language<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&amp;nbsp;&amp;nbsp;10.</source>
+          <target state="new">&amp;nbsp;&amp;nbsp;10.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Click Download, extract the compressed project files to your local computer, and open the solution in Visual Studio.</source>
+          <target state="new">Click Download, extract the compressed project files to your local computer, and open the solution in Visual Studio.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Create a .NET backend using Visual Studio 2013 and Visual Studio 2015</source>
+          <target state="new">Create a .NET backend using Visual Studio 2013 and Visual Studio 2015</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In order to create a Mobile Apps project in Visual Studio, you will need to install the <bpt id="p1">[</bpt>Azure SDK for .NET<ept id="p1">](https://azure.microsoft.com/downloads/)</ept>, version 2.8.1 or later.</source>
+          <target state="new">In order to create a Mobile Apps project in Visual Studio, you will need to install the <bpt id="p1">[</bpt>Azure SDK for .NET<ept id="p1">](https://azure.microsoft.com/downloads/)</ept>, version 2.8.1 or later.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Once you have installed the SDK, create a new ASP.NET application:</source>
+          <target state="new">Once you have installed the SDK, create a new ASP.NET application:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>New Project<ept id="p1">**</ept> dialog (from <bpt id="p2">*</bpt>File<ept id="p2">*</ept> &gt; <bpt id="p3">**</bpt>New<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>Project...<ept id="p4">**</ept>).</source>
+          <target state="new">Open the <bpt id="p1">**</bpt>New Project<ept id="p1">**</ept> dialog (from <bpt id="p2">*</bpt>File<ept id="p2">*</ept> &gt; <bpt id="p3">**</bpt>New<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>Project...<ept id="p4">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Templates<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Visual C#<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Web<ept id="p3">**</ept>.</source>
+          <target state="new">Expand <bpt id="p1">**</bpt>Templates<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Visual C#<ept id="p2">**</ept>, and select <bpt id="p3">**</bpt>Web<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>ASP.NET Web Application<ept id="p1">**</ept>.</source>
+          <target state="new">Select <bpt id="p1">**</bpt>ASP.NET Web Application<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Fill in the project name.</source>
+          <target state="new">Fill in the project name.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">_</bpt>ASP.NET 4.5.2 Templates<ept id="p1">_</ept>, select <bpt id="p2">**</bpt>Azure Mobile App<ept id="p2">**</ept>.</source>
+          <target state="new">Under <bpt id="p1">_</bpt>ASP.NET 4.5.2 Templates<ept id="p1">_</ept>, select <bpt id="p2">**</bpt>Azure Mobile App<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Check <bpt id="p1">**</bpt>Host in the cloud<ept id="p1">**</ept> to create a new mobile app in the cloud to which you can publish this project.</source>
+          <target state="new">Check <bpt id="p1">**</bpt>Host in the cloud<ept id="p1">**</ept> to create a new mobile app in the cloud to which you can publish this project.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Your application will be created and appear in the Solution Explorer.</source>
+          <target state="new">Your application will be created and appear in the Solution Explorer.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="install-sdk"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Download and initialize the SDK</source>
+          <target state="new"><ph id="ph1">&lt;a name="install-sdk"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Download and initialize the SDK</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The SDK is available on <bpt id="p1">[</bpt><ept id="p1">NuGet.org]</ept>.</source>
+          <target state="new">The SDK is available on <bpt id="p1">[</bpt><ept id="p1">NuGet.org]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This package includes the base functionality required to get started using the SDK.</source>
+          <target state="new">This package includes the base functionality required to get started using the SDK.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To initialize the SDK, you need to perform actions on the <bpt id="p1">**</bpt>HttpConfiguration<ept id="p1">**</ept> object.</source>
+          <target state="new">To initialize the SDK, you need to perform actions on the <bpt id="p1">**</bpt>HttpConfiguration<ept id="p1">**</ept> object.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Install the SDK</source>
+          <target state="new">Install the SDK</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To install the SDK, right-click on the server project in Visual Studio, select <bpt id="p1">**</bpt>Manage NuGet Packages<ept id="p1">**</ept>, search for the <bpt id="p2">[</bpt>Microsoft.Azure.Mobile.Server<ept id="p2">](http://www.nuget.org/packages/Microsoft.Azure.Mobile.Server/)</ept> package, then click <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</source>
+          <target state="new">To install the SDK, right-click on the server project in Visual Studio, select <bpt id="p1">**</bpt>Manage NuGet Packages<ept id="p1">**</ept>, search for the <bpt id="p2">[</bpt>Microsoft.Azure.Mobile.Server<ept id="p2">](http://www.nuget.org/packages/Microsoft.Azure.Mobile.Server/)</ept> package, then click <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="server-project-setup"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Initialize the server project</source>
+          <target state="new"><ph id="ph1">&lt;a name="server-project-setup"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> Initialize the server project</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A .NET backend server project is initialized similar to other ASP.NET projects, by including an OWIN startup class.</source>
+          <target state="new">A .NET backend server project is initialized similar to other ASP.NET projects, by including an OWIN startup class.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Ensure that you have referenced the NuGet package <ph id="ph1">`Microsoft.Owin.Host.SystemWeb`</ph>.</source>
+          <target state="new">Ensure that you have referenced the NuGet package <ph id="ph1">`Microsoft.Owin.Host.SystemWeb`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To add this class in Visual Studio, right-click on your server project and select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>New Item<ept id="p2">**</ept>, then <bpt id="p3">**</bpt>Web<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>General<ept id="p4">**</ept> &gt; <bpt id="p5">**</bpt>OWIN Startup class<ept id="p5">**</ept>.</source>
+          <target state="new">To add this class in Visual Studio, right-click on your server project and select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>New Item<ept id="p2">**</ept>, then <bpt id="p3">**</bpt>Web<ept id="p3">**</ept> &gt; <bpt id="p4">**</bpt>General<ept id="p4">**</ept> &gt; <bpt id="p5">**</bpt>OWIN Startup class<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This will generate a class with the following attribute:</source>
+          <target state="new">This will generate a class with the following attribute:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`Configuration()`</ph> method of your OWIN startup class, set up the server project using an <bpt id="p1">**</bpt>HttpConfiguration<ept id="p1">**</ept> object which represents the configuration options for the service.</source>
+          <target state="new">In the <ph id="ph1">`Configuration()`</ph> method of your OWIN startup class, set up the server project using an <bpt id="p1">**</bpt>HttpConfiguration<ept id="p1">**</ept> object which represents the configuration options for the service.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following example initialize the server project, with no added features:</source>
+          <target state="new">The following example initialize the server project, with no added features:</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To enable individual features, you must call extension methods on the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object before calling <bpt id="p2">**</bpt>ApplyTo<ept id="p2">**</ept>.</source>
+          <target state="new">To enable individual features, you must call extension methods on the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object before calling <bpt id="p2">**</bpt>ApplyTo<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, the following code adds the default routes to all API controllers that have the attribute <ph id="ph1">`[MobileAppController]`</ph> during initialization:</source>
+          <target state="new">For example, the following code adds the default routes to all API controllers that have the attribute <ph id="ph1">`[MobileAppController]`</ph> during initialization:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Note that <ph id="ph1">`MapApiControllers`</ph> only maps controllers with the attribute <ph id="ph2">`[MobileAppController]`</ph>.</source>
+          <target state="new">Note that <ph id="ph1">`MapApiControllers`</ph> only maps controllers with the attribute <ph id="ph2">`[MobileAppController]`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Many of the feature extension methods are available via additional NuGet packages you can include, which are described in the section below.</source>
+          <target state="new">Many of the feature extension methods are available via additional NuGet packages you can include, which are described in the section below.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The server quickstart from the Azure portal calls <bpt id="p1">**</bpt>UseDefaultConfiguration()<ept id="p1">**</ept>.</source>
+          <target state="new">The server quickstart from the Azure portal calls <bpt id="p1">**</bpt>UseDefaultConfiguration()<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This equivalent to the following setup:</source>
+          <target state="new">This equivalent to the following setup:</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>SDK extensions</source>
+          <target state="new">SDK extensions</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The following NuGet-based extension packages provide various mobile features that can be used by your application.</source>
+          <target state="new">The following NuGet-based extension packages provide various mobile features that can be used by your application.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You enable extensions during initialization by using the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object.</source>
+          <target state="new">You enable extensions during initialization by using the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept>
+   Supports the basic Mobile Apps setup.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept>
+   Supports the basic Mobile Apps setup.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Added to the configuration by calling the <bpt id="p1">**</bpt>UseDefaultConfiguration<ept id="p1">**</ept> extension method during initialization.</source>
+          <target state="new">Added to the configuration by calling the <bpt id="p1">**</bpt>UseDefaultConfiguration<ept id="p1">**</ept> extension method during initialization.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This extension includes following extensions: Notifications, Authentication, Entity, Tables, Crossdomain and Home packages.</source>
+          <target state="new">This extension includes following extensions: Notifications, Authentication, Entity, Tables, Crossdomain and Home packages.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This is equivalent to the quickstart server project that you download from the Azure portal.</source>
+          <target state="new">This is equivalent to the quickstart server project that you download from the Azure portal.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Microsoft.Azure.Mobile.Server.Home</source>
+          <target state="new">Microsoft.Azure.Mobile.Server.Home</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Implements the default <bpt id="p1">*</bpt>this mobile app is up and running page<ept id="p1">*</ept> for the web site root.</source>
+          <target state="new">Implements the default <bpt id="p1">*</bpt>this mobile app is up and running page<ept id="p1">*</ept> for the web site root.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>AddMobileAppHomeController<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>AddMobileAppHomeController<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Microsoft.Azure.Mobile.Server.Tables</source>
+          <target state="new">Microsoft.Azure.Mobile.Server.Tables</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>includes classes for working with data and sets-up the data pipeline.</source>
+          <target state="new">includes classes for working with data and sets-up the data pipeline.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>AddTables<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>AddTables<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Microsoft.Azure.Mobile.Server.Entity</source>
+          <target state="new">Microsoft.Azure.Mobile.Server.Entity</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enables the Entity Framework to access data in the SQL Database.</source>
+          <target state="new">Enables the Entity Framework to access data in the SQL Database.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>AddTablesWithEntityFramework<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>AddTablesWithEntityFramework<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept>
+  Enables authentication and sets-up the OWIN middleware used to validate tokens.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept>
+  Enables authentication and sets-up the OWIN middleware used to validate tokens.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>AddAppServiceAuthentication<ept id="p1">**</ept> and <bpt id="p2">**</bpt>IAppBuilder<ept id="p2">**</ept>.<bpt id="p3">**</bpt>UseAppServiceAuthentication<ept id="p3">**</ept> extension methods.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>AddAppServiceAuthentication<ept id="p1">**</ept> and <bpt id="p2">**</bpt>IAppBuilder<ept id="p2">**</ept>.<bpt id="p3">**</bpt>UseAppServiceAuthentication<ept id="p3">**</ept> extension methods.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Notifications]</ept>
+  Enables push notifications and defines a push registration endpoint.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Notifications]</ept>
+  Enables push notifications and defines a push registration endpoint.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>AddPushNotifications<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>AddPushNotifications<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Microsoft.Azure.Mobile.Server.CrossDomain</source>
+          <target state="new">Microsoft.Azure.Mobile.Server.CrossDomain</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a controller that serves data to legacy web browsers from your Mobile App.</source>
+          <target state="new">Creates a controller that serves data to legacy web browsers from your Mobile App.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Add to the configuration by calling the <bpt id="p1">**</bpt>MapLegacyCrossDomainController<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Add to the configuration by calling the <bpt id="p1">**</bpt>MapLegacyCrossDomainController<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Login]</ept>
+   Provides preview support for custom authentication via the AppServiceLoginHandler.CreateToken() method.</source>
+          <target state="new"><bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Login]</ept>
+   Provides preview support for custom authentication via the AppServiceLoginHandler.CreateToken() method.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This is a static method and does not need to be enabled in the configuration.</source>
+          <target state="new">This is a static method and does not need to be enabled in the configuration.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="publish-server-project"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Publish the server project</source>
+          <target state="new"><ph id="ph1">&lt;a name="publish-server-project"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Publish the server project</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This section shows you how to publish your .NET backend project from Visual Studio.</source>
+          <target state="new">This section shows you how to publish your .NET backend project from Visual Studio.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also deploy your backend project using Git or any of the other methods covered in the <bpt id="p1">[</bpt>Azure App Service deployment documentation<ept id="p1">](../app-service-web/web-sites-deploy.md)</ept>.</source>
+          <target state="new">You can also deploy your backend project using Git or any of the other methods covered in the <bpt id="p1">[</bpt>Azure App Service deployment documentation<ept id="p1">](../app-service-web/web-sites-deploy.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, rebuild the project to restore NuGet packages.</source>
+          <target state="new">In Visual Studio, rebuild the project to restore NuGet packages.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>In Solution Explorer, right-click the project, click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+          <target state="new">In Solution Explorer, right-click the project, click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The first time you publish, you will need to define a publishing profile.</source>
+          <target state="new">The first time you publish, you will need to define a publishing profile.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When you already have a profile defined, you can just select it and click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+          <target state="new">When you already have a profile defined, you can just select it and click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If asked to select a publish target, click <bpt id="p1">**</bpt>Microsoft Azure App Service<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>, then (if needed) sign-in with your Azure credentials.</source>
+          <target state="new">If asked to select a publish target, click <bpt id="p1">**</bpt>Microsoft Azure App Service<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>, then (if needed) sign-in with your Azure credentials.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Visual Studio downloads and securely stores your publish settings directly from Azure.</source>
+          <target state="new">Visual Studio downloads and securely stores your publish settings directly from Azure.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Choose your <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Resource Type<ept id="p2">**</ept> from <bpt id="p3">**</bpt>View<ept id="p3">**</ept>, expand <bpt id="p4">**</bpt>Mobile App<ept id="p4">**</ept> and click your Mobile App backend, then click <bpt id="p5">**</bpt>OK<ept id="p5">**</ept>.</source>
+          <target state="new">Choose your <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Resource Type<ept id="p2">**</ept> from <bpt id="p3">**</bpt>View<ept id="p3">**</ept>, expand <bpt id="p4">**</bpt>Mobile App<ept id="p4">**</ept> and click your Mobile App backend, then click <bpt id="p5">**</bpt>OK<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Verify the publish profile information and click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+          <target state="new">Verify the publish profile information and click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When your Mobile App backend has published successfully, you will see a landing page indicating success.</source>
+          <target state="new">When your Mobile App backend has published successfully, you will see a landing page indicating success.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="define-table-controller"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> How to: Define a table controller</source>
+          <target state="new"><ph id="ph1">&lt;a name="define-table-controller"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph> How to: Define a table controller</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A table controller provides access to entity data in a table-based data store, such as SQL Database or Azure Table storage.</source>
+          <target state="new">A table controller provides access to entity data in a table-based data store, such as SQL Database or Azure Table storage.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Table controllers inherit from the <bpt id="p1">**</bpt>TableController<ept id="p1">**</ept> generic class, where the generic type is an entity in the model that represents the table schema, as follows:</source>
+          <target state="new">Table controllers inherit from the <bpt id="p1">**</bpt>TableController<ept id="p1">**</ept> generic class, where the generic type is an entity in the model that represents the table schema, as follows:</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Table controllers are initialized by using the <bpt id="p1">**</bpt>AddTables<ept id="p1">**</ept> extension method.</source>
+          <target state="new">Table controllers are initialized by using the <bpt id="p1">**</bpt>AddTables<ept id="p1">**</ept> extension method.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This adds routes under <ph id="ph1">`/tables/`</ph> for all subclasses of <ph id="ph2">`TableController`</ph>.</source>
+          <target state="new">This adds routes under <ph id="ph1">`/tables/`</ph> for all subclasses of <ph id="ph2">`TableController`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The following example initializes a table controller that uses Entity Framework for data access:</source>
+          <target state="new">The following example initializes a table controller that uses Entity Framework for data access:</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For an example of a table controller that uses Entity Framework to access data from an Azure SQL Database, see the <bpt id="p1">**</bpt>TodoItemController<ept id="p1">**</ept> class in the quickstart server project download from the Azure portal.</source>
+          <target state="new">For an example of a table controller that uses Entity Framework to access data from an Azure SQL Database, see the <bpt id="p1">**</bpt>TodoItemController<ept id="p1">**</ept> class in the quickstart server project download from the Azure portal.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>How to: Define a custom API controller</source>
+          <target state="new">How to: Define a custom API controller</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The custom API controller provides the most basic functionality to your Mobile App backend by exposing an endpoint.</source>
+          <target state="new">The custom API controller provides the most basic functionality to your Mobile App backend by exposing an endpoint.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can register a mobile-specific API controller using the [MobileAppController] attribute.</source>
+          <target state="new">You can register a mobile-specific API controller using the [MobileAppController] attribute.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This attribute registers the route and also sets up the Mobile Apps JSON serializer.</source>
+          <target state="new">This attribute registers the route and also sets up the Mobile Apps JSON serializer.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, right-click the Controllers folder, then click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Controller<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Web API 2 Controller&amp;mdash;Empty<ept id="p3">**</ept> and click <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</source>
+          <target state="new">In Visual Studio, right-click the Controllers folder, then click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Controller<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Web API 2 Controller&amp;mdash;Empty<ept id="p3">**</ept> and click <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Supply a <bpt id="p1">**</bpt>Controller name<ept id="p1">**</ept>, such as <ph id="ph1">`CustomController`</ph>, and click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="new">Supply a <bpt id="p1">**</bpt>Controller name<ept id="p1">**</ept>, such as <ph id="ph1">`CustomController`</ph>, and click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This creates a new <bpt id="p1">**</bpt>CustomController<ept id="p1">**</ept> class that inherits from <bpt id="p2">**</bpt>ApiController<ept id="p2">**</ept>.</source>
+          <target state="new">This creates a new <bpt id="p1">**</bpt>CustomController<ept id="p1">**</ept> class that inherits from <bpt id="p2">**</bpt>ApiController<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the new controller class file, add the following using statement:</source>
+          <target state="new">In the new controller class file, add the following using statement:</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Apply the <bpt id="p1">**</bpt>[MobileAppController]<ept id="p1">**</ept> attribute to the API controller class definition, as in the following example:</source>
+          <target state="new">Apply the <bpt id="p1">**</bpt>[MobileAppController]<ept id="p1">**</ept> attribute to the API controller class definition, as in the following example:</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>In App_Start/Startup.MobileApp.cs file, add a call to the  <bpt id="p1">**</bpt>MapApiControllers<ept id="p1">**</ept> extension method, as in the following example:</source>
+          <target state="new">In App_Start/Startup.MobileApp.cs file, add a call to the  <bpt id="p1">**</bpt>MapApiControllers<ept id="p1">**</ept> extension method, as in the following example:</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Note that you do not need to call <bpt id="p1">**</bpt>MapApiControllers<ept id="p1">**</ept> if you instead call <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept>, which initializes all features.</source>
+          <target state="new">Note that you do not need to call <bpt id="p1">**</bpt>MapApiControllers<ept id="p1">**</ept> if you instead call <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept>, which initializes all features.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Any controller that does not have <bpt id="p1">**</bpt>MobileAppControllerAttribute<ept id="p1">**</ept> applied can still be accessed by clients, but it may not be correctly consumed by clients using any Mobile App client SDK.</source>
+          <target state="new">Any controller that does not have <bpt id="p1">**</bpt>MobileAppControllerAttribute<ept id="p1">**</ept> applied can still be accessed by clients, but it may not be correctly consumed by clients using any Mobile App client SDK.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>How to: Work with authentication</source>
+          <target state="new">How to: Work with authentication</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Mobile Apps uses the facilities of App Service authentication and ASP.NET to simply the process of enabling authentication for your apps.</source>
+          <target state="new">Mobile Apps uses the facilities of App Service authentication and ASP.NET to simply the process of enabling authentication for your apps.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This section shows you how to perform the following authentication-related tasks in your .NET backend server project:</source>
+          <target state="new">This section shows you how to perform the following authentication-related tasks in your .NET backend server project:</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>How to: Add authentication to a server project</source>
+          <target state="new">How to: Add authentication to a server project</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>How to: Use custom authentication for your application</source>
+          <target state="new">How to: Use custom authentication for your application</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>How to: Retrieve authenticated user information</source>
+          <target state="new">How to: Retrieve authenticated user information</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>How to: Restrict data access for authorized users</source>
+          <target state="new">How to: Restrict data access for authorized users</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="add-auth"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Add authentication to a server project</source>
+          <target state="new"><ph id="ph1">&lt;a name="add-auth"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Add authentication to a server project</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can add authentication to your server project by extending the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object and configuring OWIN middleware.</source>
+          <target state="new">You can add authentication to your server project by extending the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object and configuring OWIN middleware.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>When you install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept> package and call the <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept> extension method, you can skip to step 3.</source>
+          <target state="new">When you install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept> package and call the <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept> extension method, you can skip to step 3.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept> package.</source>
+          <target state="new">In Visual Studio, install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept> package.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>In the Startup.cs project file, add the following line of code at the beginning of the <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> method:</source>
+          <target state="new">In the Startup.cs project file, add the following line of code at the beginning of the <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> method:</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This adds the OWIN middleware component that enables your Azure Mobile App to validate tokens issued by the associated App Service gateway.</source>
+          <target state="new">This adds the OWIN middleware component that enables your Azure Mobile App to validate tokens issued by the associated App Service gateway.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Add the <ph id="ph1">`[Authorize]`</ph> attribute to any controller or method that requires authentication.</source>
+          <target state="new">Add the <ph id="ph1">`[Authorize]`</ph> attribute to any controller or method that requires authentication.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Users must now be authenticated to access that endpoint or specific APIs.</source>
+          <target state="new">Users must now be authenticated to access that endpoint or specific APIs.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To learn about how to authenticate clients to your Mobile Apps backend, see <bpt id="p1">[</bpt>Add authentication to your app<ept id="p1">](app-service-mobile-ios-get-started-users.md)</ept>.</source>
+          <target state="new">To learn about how to authenticate clients to your Mobile Apps backend, see <bpt id="p1">[</bpt>Add authentication to your app<ept id="p1">](app-service-mobile-ios-get-started-users.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="custom-auth"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Use custom authentication for your application</source>
+          <target state="new"><ph id="ph1">&lt;a name="custom-auth"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Use custom authentication for your application</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can choose to provide your own login system if you do not wish to use one of the App Service Authentication/Authorization providers.</source>
+          <target state="new">You can choose to provide your own login system if you do not wish to use one of the App Service Authentication/Authorization providers.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>To do so, install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Login]</ept> package.</source>
+          <target state="new">To do so, install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Login]</ept> package.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You will need to provide your own logic for determining if a user should be signed in.</source>
+          <target state="new">You will need to provide your own logic for determining if a user should be signed in.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For example, you might check against salted and hashed passwords in a database.</source>
+          <target state="new">For example, you might check against salted and hashed passwords in a database.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>In the example below, the <ph id="ph1">`isValidAssertion()`</ph> method is responsible for these checks and is defined elsewhere.</source>
+          <target state="new">In the example below, the <ph id="ph1">`isValidAssertion()`</ph> method is responsible for these checks and is defined elsewhere.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The custom authentication is exposed by creating a new ApiController and exposing register and login actions like the one below.</source>
+          <target state="new">The custom authentication is exposed by creating a new ApiController and exposing register and login actions like the one below.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The client can attempt login by collecting the relevant information from the user and submitting an HTTPS POST to the API with the user information in the body.</source>
+          <target state="new">The client can attempt login by collecting the relevant information from the user and submitting an HTTPS POST to the API with the user information in the body.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Once the server validates the assertion, a token can be issued using the <ph id="ph1">`AppServiceLoginHandler.CreateToken()`</ph> method.</source>
+          <target state="new">Once the server validates the assertion, a token can be issued using the <ph id="ph1">`AppServiceLoginHandler.CreateToken()`</ph> method.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>An example login action might be:</source>
+          <target state="new">An example login action might be:</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>In the above, LoginResult and LoginResultUser are just simple objects exposing the properties shown.</source>
+          <target state="new">In the above, LoginResult and LoginResultUser are just simple objects exposing the properties shown.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The client expects login responses to come back as JSON objects of the form:</source>
+          <target state="new">The client expects login responses to come back as JSON objects of the form:</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MobileAppLoginHAppServiceLoginHandlerandler.CreateToken()`</ph> method includes an <bpt id="p1">_</bpt>audience<ept id="p1">_</ept> and an <bpt id="p2">_</bpt>issuer<ept id="p2">_</ept> parameter.</source>
+          <target state="new">The <ph id="ph1">`MobileAppLoginHAppServiceLoginHandlerandler.CreateToken()`</ph> method includes an <bpt id="p1">_</bpt>audience<ept id="p1">_</ept> and an <bpt id="p2">_</bpt>issuer<ept id="p2">_</ept> parameter.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Both of these are typically set to the URL of your application root, using the HTTPS scheme.</source>
+          <target state="new">Both of these are typically set to the URL of your application root, using the HTTPS scheme.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Similarly you should set <bpt id="p1">_</bpt>secretKey<ept id="p1">_</ept> to be the value of your application's signing key.</source>
+          <target state="new">Similarly you should set <bpt id="p1">_</bpt>secretKey<ept id="p1">_</ept> to be the value of your application's signing key.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>This is a sensitive value that should never be shared or included in a client.</source>
+          <target state="new">This is a sensitive value that should never be shared or included in a client.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>You can obtain this value while hosted in App Service by referencing the <bpt id="p1">_</bpt>WEBSITE_AUTH_SIGNING_KEY<ept id="p1">_</ept> environment variable.</source>
+          <target state="new">You can obtain this value while hosted in App Service by referencing the <bpt id="p1">_</bpt>WEBSITE_AUTH_SIGNING_KEY<ept id="p1">_</ept> environment variable.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If needed in a local debugging context, follow the instructions in the <bpt id="p1">[</bpt>Local debugging with authentication<ept id="p1">](#local-debug)</ept> section to retrieve the key and store it as an application setting.</source>
+          <target state="new">If needed in a local debugging context, follow the instructions in the <bpt id="p1">[</bpt>Local debugging with authentication<ept id="p1">](#local-debug)</ept> section to retrieve the key and store it as an application setting.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>You also need to provide a lifetime for the issued token, as well as any claims you would like included.</source>
+          <target state="new">You also need to provide a lifetime for the issued token, as well as any claims you would like included.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>It is required that you provide a subject claim, as shown in the example code.</source>
+          <target state="new">It is required that you provide a subject claim, as shown in the example code.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>You can also simplify the client code to use the <ph id="ph1">`loginAsync()`</ph> method (naming may vary across platforms) instead of a manual HTTP POST.</source>
+          <target state="new">You can also simplify the client code to use the <ph id="ph1">`loginAsync()`</ph> method (naming may vary across platforms) instead of a manual HTTP POST.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>You would use the overload which takes an additional token parameter, which correlates to the assertion object you would POST.</source>
+          <target state="new">You would use the overload which takes an additional token parameter, which correlates to the assertion object you would POST.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The provider in this case should be a custom name of your choosing.</source>
+          <target state="new">The provider in this case should be a custom name of your choosing.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Then on the server, your login action should be on the <bpt id="p1">_</bpt>/.auth/login/{customProviderName}<ept id="p1">_</ept> path which includes this custom name.</source>
+          <target state="new">Then on the server, your login action should be on the <bpt id="p1">_</bpt>/.auth/login/{customProviderName}<ept id="p1">_</ept> path which includes this custom name.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To put your controller on this path, add a route to your HttpConfiguration before applying your MobileAppConfiguration.</source>
+          <target state="new">To put your controller on this path, add a route to your HttpConfiguration before applying your MobileAppConfiguration.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Replace the string "CustomAuth" above with the name of the controller hosting your login action.</source>
+          <target state="new">Replace the string "CustomAuth" above with the name of the controller hosting your login action.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.TIP]</ph> Using the loginAsync() approach ensures that the authentication token is attached to every subsequent call to the service.</source>
+          <target state="new"><ph id="ph1">[AZURE.TIP]</ph> Using the loginAsync() approach ensures that the authentication token is attached to every subsequent call to the service.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="user-info"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Retrieve authenticated user information</source>
+          <target state="new"><ph id="ph1">&lt;a name="user-info"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Retrieve authenticated user information</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>When a user is authenticated by App Service, you can access the assigned user ID and other information in your .NET backend code.</source>
+          <target state="new">When a user is authenticated by App Service, you can access the assigned user ID and other information in your .NET backend code.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This is useful for making authorization decisions for a given user in the backend, such as whether a specific user can access a table row or other resource.</source>
+          <target state="new">This is useful for making authorization decisions for a given user in the backend, such as whether a specific user can access a table row or other resource.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The following code shows how to obtain the</source>
+          <target state="new">The following code shows how to obtain the</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>user ID for a logged-in user:</source>
+          <target state="new">user ID for a logged-in user:</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The SID is derived from the provider-specific user ID and is static for a given user and login provider.</source>
+          <target state="new">The SID is derived from the provider-specific user ID and is static for a given user and login provider.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>App Service also lets you request specific claims from your login provider.</source>
+          <target state="new">App Service also lets you request specific claims from your login provider.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>This lets you request more information from the provider, such as by using the Facebook Graph APIs.</source>
+          <target state="new">This lets you request more information from the provider, such as by using the Facebook Graph APIs.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>You can specify claims in the provider blade in the portal.</source>
+          <target state="new">You can specify claims in the provider blade in the portal.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Some claims require additional configuration with the provider.</source>
+          <target state="new">Some claims require additional configuration with the provider.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The following code calls the <bpt id="p1">**</bpt>GetAppServiceIdentityAsync<ept id="p1">**</ept> extension method to get the login credentials, which include the access token needed to make requests against the Facebook Graph API:</source>
+          <target state="new">The following code calls the <bpt id="p1">**</bpt>GetAppServiceIdentityAsync<ept id="p1">**</ept> extension method to get the login credentials, which include the access token needed to make requests against the Facebook Graph API:</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Note that you must add a using statement for <ph id="ph1">`System.Security.Principal`</ph> to make the <bpt id="p1">**</bpt>GetAppServiceIdentityAsync<ept id="p1">**</ept> extension method  work.</source>
+          <target state="new">Note that you must add a using statement for <ph id="ph1">`System.Security.Principal`</ph> to make the <bpt id="p1">**</bpt>GetAppServiceIdentityAsync<ept id="p1">**</ept> extension method  work.</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="authorize"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Restrict data access for authorized users</source>
+          <target state="new"><ph id="ph1">&lt;a name="authorize"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Restrict data access for authorized users</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>It is often desired to restrict the data that is returned to a specific authenticated user.</source>
+          <target state="new">It is often desired to restrict the data that is returned to a specific authenticated user.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>This kind of data partitioning is done by including a userId column on the table and storing the SID of the user when the data is inserted</source>
+          <target state="new">This kind of data partitioning is done by including a userId column on the table and storing the SID of the user when the data is inserted</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>How to: Add push notifications to a server project</source>
+          <target state="new">How to: Add push notifications to a server project</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>You can add push notifications to your server project by extending the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object and creating a Notification Hubs client.</source>
+          <target state="new">You can add push notifications to your server project by extending the <bpt id="p1">**</bpt>MobileAppConfiguration<ept id="p1">**</ept> object and creating a Notification Hubs client.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>When you install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept> package and call the <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept> extension method, you can skip down to step 3.</source>
+          <target state="new">When you install the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Quickstart]</ept> package and call the <bpt id="p2">**</bpt>UseDefaultConfiguration<ept id="p2">**</ept> extension method, you can skip down to step 3.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, right-click the server project and click <bpt id="p1">**</bpt>Manage NuGet Packages<ept id="p1">**</ept>, search for Microsoft.Azure.Mobile.Server.Notifications`, then click <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+          <target state="new">In Visual Studio, right-click the server project and click <bpt id="p1">**</bpt>Manage NuGet Packages<ept id="p1">**</ept>, search for Microsoft.Azure.Mobile.Server.Notifications`, then click <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>This installs the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Notifications]</ept> package.</source>
+          <target state="new">This installs the <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Notifications]</ept> package.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Repeat this step to install the <ph id="ph1">`Microsoft.Azure.NotificationHubs`</ph> package, which includes the Notification Hubs client library.</source>
+          <target state="new">Repeat this step to install the <ph id="ph1">`Microsoft.Azure.NotificationHubs`</ph> package, which includes the Notification Hubs client library.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>In App_Start/Startup.MobileApp.cs, and add a call to the <bpt id="p1">**</bpt>AddPushNotifications<ept id="p1">**</ept> extension method during initialization, which looks like the following:</source>
+          <target state="new">In App_Start/Startup.MobileApp.cs, and add a call to the <bpt id="p1">**</bpt>AddPushNotifications<ept id="p1">**</ept> extension method during initialization, which looks like the following:</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This creates the push notification registration endpoint in your server project.</source>
+          <target state="new">This creates the push notification registration endpoint in your server project.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>This endpoint is used by clients to register with the associated notification hub.</source>
+          <target state="new">This endpoint is used by clients to register with the associated notification hub.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Now you need to add the Notification Hub client that is used to send notifications.</source>
+          <target state="new">Now you need to add the Notification Hub client that is used to send notifications.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>In a controller from which you want to send push notifications, add the following using statement:</source>
+          <target state="new">In a controller from which you want to send push notifications, add the following using statement:</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Add the following code that creates a Notification Hubs client:</source>
+          <target state="new">Add the following code that creates a Notification Hubs client:</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>At this point, you can use the Notification Hubs client to send push notifications to registered devices.</source>
+          <target state="new">At this point, you can use the Notification Hubs client to send push notifications to registered devices.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Add push notifications to your app<ept id="p1">](app-service-mobile-ios-get-started-push.md)</ept>.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Add push notifications to your app<ept id="p1">](app-service-mobile-ios-get-started-push.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>To learn more about all that you can do with Notification Hubs, see <bpt id="p1">[</bpt>Notification Hubs Overview<ept id="p1">](../notification-hubs/notification-hubs-overview.md)</ept>.</source>
+          <target state="new">To learn more about all that you can do with Notification Hubs, see <bpt id="p1">[</bpt>Notification Hubs Overview<ept id="p1">](../notification-hubs/notification-hubs-overview.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="tags"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Add tags to a device installation to enable targeted push</source>
+          <target state="new"><ph id="ph1">&lt;a name="tags"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Add tags to a device installation to enable targeted push</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Notification Hubs lets you send targeted notifications to specific registrations by using tags.</source>
+          <target state="new">Notification Hubs lets you send targeted notifications to specific registrations by using tags.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>One tag that gets created automatically is the installation ID, which is specific to an instance of the app on a given device.</source>
+          <target state="new">One tag that gets created automatically is the installation ID, which is specific to an instance of the app on a given device.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A registration with an installation ID is also called an <bpt id="p1">*</bpt>installation<ept id="p1">*</ept>.</source>
+          <target state="new">A registration with an installation ID is also called an <bpt id="p1">*</bpt>installation<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>You can use the installation ID to manage installation, such as for adding tags.</source>
+          <target state="new">You can use the installation ID to manage installation, such as for adding tags.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The installation ID can be accessed  from the <bpt id="p1">**</bpt>installationId<ept id="p1">**</ept> property on the <bpt id="p2">**</bpt>MobileServiceClient<ept id="p2">**</ept>.</source>
+          <target state="new">The installation ID can be accessed  from the <bpt id="p1">**</bpt>installationId<ept id="p1">**</ept> property on the <bpt id="p2">**</bpt>MobileServiceClient<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The following example shows how to use an installation ID to add a tag to a specific installation in Notification Hubs:</source>
+          <target state="new">The following example shows how to use an installation ID to add a tag to a specific installation in Notification Hubs:</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Note that any tags supplied by the client during push notification registration are ignored by the backend when creating the installation.</source>
+          <target state="new">Note that any tags supplied by the client during push notification registration are ignored by the backend when creating the installation.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>To enable a client to add tags to the installation, you must create a new custom API that adds tags using the pattern above.</source>
+          <target state="new">To enable a client to add tags to the installation, you must create a new custom API that adds tags using the pattern above.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>For an example of a custom API controller that lets clients add tags to an installation, see <bpt id="p1">[</bpt>Client-added push notification tags<ept id="p1">](https://github.com/Azure-Samples/app-service-mobile-dotnet-backend-quickstart/blob/master/README.md#client-added-push-notification-tags)</ept> in the App Service Mobile Apps completed quickstart sample for .NET backend.</source>
+          <target state="new">For an example of a custom API controller that lets clients add tags to an installation, see <bpt id="p1">[</bpt>Client-added push notification tags<ept id="p1">](https://github.com/Azure-Samples/app-service-mobile-dotnet-backend-quickstart/blob/master/README.md#client-added-push-notification-tags)</ept> in the App Service Mobile Apps completed quickstart sample for .NET backend.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="push-user"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Send push notifications to an authenticated user</source>
+          <target state="new"><ph id="ph1">&lt;a name="push-user"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>How to: Send push notifications to an authenticated user</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When an authenticated user registers for push notifications, a user ID tag is automatically added to the registration.</source>
+          <target state="new">When an authenticated user registers for push notifications, a user ID tag is automatically added to the registration.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>By using this tag, you can send push notifications to all devices registered by a specific user.</source>
+          <target state="new">By using this tag, you can send push notifications to all devices registered by a specific user.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The following code gets the SID of user making the request and sends a template push notification to every device registration for that user:</source>
+          <target state="new">The following code gets the SID of user making the request and sends a template push notification to every device registration for that user:</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>When registering for push notifications from an authenticated client, make sure that authentication is complete before attempting registration.</source>
+          <target state="new">When registering for push notifications from an authenticated client, make sure that authentication is complete before attempting registration.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Push to users<ept id="p1">](https://github.com/Azure-Samples/app-service-mobile-dotnet-backend-quickstart/blob/master/README.md#push-to-users)</ept> in the App Service Mobile Apps completed quickstart sample for .NET backend.</source>
+          <target state="new">For more information, see <bpt id="p1">[</bpt>Push to users<ept id="p1">](https://github.com/Azure-Samples/app-service-mobile-dotnet-backend-quickstart/blob/master/README.md#push-to-users)</ept> in the App Service Mobile Apps completed quickstart sample for .NET backend.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>How to: Debug and troubleshoot the .NET Server SDK</source>
+          <target state="new">How to: Debug and troubleshoot the .NET Server SDK</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Azure App Service provides several debugging and troubleshooting techniques for ASP.NET applications:</source>
+          <target state="new">Azure App Service provides several debugging and troubleshooting techniques for ASP.NET applications:</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Monitoring an Azure App Service</source>
+          <target state="new">Monitoring an Azure App Service</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Enable Diagnostic Logging in Azure App Service</source>
+          <target state="new">Enable Diagnostic Logging in Azure App Service</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Toubleshoot an Azure App Service in Visual Studio</source>
+          <target state="new">Toubleshoot an Azure App Service in Visual Studio</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Logging</source>
+          <target state="new">Logging</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You can write to App Service diagnostic logs by using the standard ASP.NET trace writing.</source>
+          <target state="new">You can write to App Service diagnostic logs by using the standard ASP.NET trace writing.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Before you can write to the logs, you must enable diagnostics in your Mobile App backend.</source>
+          <target state="new">Before you can write to the logs, you must enable diagnostics in your Mobile App backend.</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>To enable enable diagnostics and write to the logs:</source>
+          <target state="new">To enable enable diagnostics and write to the logs:</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Follow the steps in <bpt id="p1">[</bpt>How to enable diagnostics<ept id="p1">](../app-service-web/web-sites-enable-diagnostic-log.md#enablediag)</ept>.</source>
+          <target state="new">Follow the steps in <bpt id="p1">[</bpt>How to enable diagnostics<ept id="p1">](../app-service-web/web-sites-enable-diagnostic-log.md#enablediag)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Add the following using statement in your code file:</source>
+          <target state="new">Add the following using statement in your code file:</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Create a trace writer to write from the .NET backend to the diagnostic logs, as follows:</source>
+          <target state="new">Create a trace writer to write from the .NET backend to the diagnostic logs, as follows:</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Republish your server project, and access the Mobile App backend to execute the code path with the logging.</source>
+          <target state="new">Republish your server project, and access the Mobile App backend to execute the code path with the logging.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Download and evaluate the logs, as described in <bpt id="p1">[</bpt>How to: Download logs<ept id="p1">](../app-service-web/web-sites-enable-diagnostic-log.md#download)</ept>.</source>
+          <target state="new">Download and evaluate the logs, as described in <bpt id="p1">[</bpt>How to: Download logs<ept id="p1">](../app-service-web/web-sites-enable-diagnostic-log.md#download)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="local-debug"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Local debugging with authentication</source>
+          <target state="new"><ph id="ph1">&lt;a name="local-debug"&gt;</ph><ph id="ph2">&lt;/a&gt;</ph>Local debugging with authentication</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>You can run your application locally to test changes before publishing them to the cloud.</source>
+          <target state="new">You can run your application locally to test changes before publishing them to the cloud.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>For many apps, this is just a matter of pressing <bpt id="p1">*</bpt>F5<ept id="p1">*</ept> while in Visual Studio.</source>
+          <target state="new">For many apps, this is just a matter of pressing <bpt id="p1">*</bpt>F5<ept id="p1">*</ept> while in Visual Studio.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>However, there are some additional considerations when using authentication.</source>
+          <target state="new">However, there are some additional considerations when using authentication.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>You must have a cloud-based mobile app with App Service Authentication/Authorization configured, and your client must have the cloud endpoint specified as the alternate login host.</source>
+          <target state="new">You must have a cloud-based mobile app with App Service Authentication/Authorization configured, and your client must have the cloud endpoint specified as the alternate login host.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Please see the documentation for your chosen client platform (<bpt id="p1">[</bpt>iOS<ept id="p1">](app-service-mobile-ios-how-to-use-client-library.md)</ept>, <bpt id="p2">[</bpt>Windows/Xamarin<ept id="p2">](app-service-mobile-dotnet-how-to-use-client-library.md)</ept>) for the specific steps required.</source>
+          <target state="new">Please see the documentation for your chosen client platform (<bpt id="p1">[</bpt>iOS<ept id="p1">](app-service-mobile-ios-how-to-use-client-library.md)</ept>, <bpt id="p2">[</bpt>Windows/Xamarin<ept id="p2">](app-service-mobile-dotnet-how-to-use-client-library.md)</ept>) for the specific steps required.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Ensure that your application has <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept> installed.</source>
+          <target state="new">Ensure that your application has <bpt id="p1">[</bpt><ept id="p1">Microsoft.Azure.Mobile.Server.Authentication]</ept> installed.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Then, in your application's OWIN startup class, add the following, after <ph id="ph1">`MobileAppConfiguration`</ph> has been applied to your <ph id="ph2">`HttpConfiguration`</ph>:</source>
+          <target state="new">Then, in your application's OWIN startup class, add the following, after <ph id="ph1">`MobileAppConfiguration`</ph> has been applied to your <ph id="ph2">`HttpConfiguration`</ph>:</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>In the above example, you should configure the <bpt id="p1">_</bpt>authAudience<ept id="p1">_</ept> and <bpt id="p2">_</bpt>authIssuer<ept id="p2">_</ept> application settings within your Web.config file to each be the URL of your application root, using the HTTPS scheme.</source>
+          <target state="new">In the above example, you should configure the <bpt id="p1">_</bpt>authAudience<ept id="p1">_</ept> and <bpt id="p2">_</bpt>authIssuer<ept id="p2">_</ept> application settings within your Web.config file to each be the URL of your application root, using the HTTPS scheme.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Similarly you should set <bpt id="p1">_</bpt>authSigningKey<ept id="p1">_</ept> to be the value of your application's signing key.</source>
+          <target state="new">Similarly you should set <bpt id="p1">_</bpt>authSigningKey<ept id="p1">_</ept> to be the value of your application's signing key.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>This is a sensitive value that should never be shared or included in a client.</source>
+          <target state="new">This is a sensitive value that should never be shared or included in a client.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To obtain it, navigate to your app within the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept> and click <bpt id="p2">**</bpt>Tools<ept id="p2">**</ept>.</source>
+          <target state="new">To obtain it, navigate to your app within the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept> and click <bpt id="p2">**</bpt>Tools<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Then select <bpt id="p1">**</bpt>Kudu<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Go<ept id="p2">**</ept>.</source>
+          <target state="new">Then select <bpt id="p1">**</bpt>Kudu<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Go<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This will take you to the Kudu management endpoint for your site.</source>
+          <target state="new">This will take you to the Kudu management endpoint for your site.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Environment<ept id="p1">**</ept> and find the value under <bpt id="p2">_</bpt>WEBSITE_AUTH_SIGNING_KEY<ept id="p2">_</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Environment<ept id="p1">**</ept> and find the value under <bpt id="p2">_</bpt>WEBSITE_AUTH_SIGNING_KEY<ept id="p2">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This is the value you should use for <bpt id="p1">_</bpt>authSigningKey<ept id="p1">_</ept> in your local app config.</source>
+          <target state="new">This is the value you should use for <bpt id="p1">_</bpt>authSigningKey<ept id="p1">_</ept> in your local app config.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Your locally-running server is now equipped to validate tokens which the client obtains from the cloud-based endpoint.</source>
+          <target state="new">Your locally-running server is now equipped to validate tokens which the client obtains from the cloud-based endpoint.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

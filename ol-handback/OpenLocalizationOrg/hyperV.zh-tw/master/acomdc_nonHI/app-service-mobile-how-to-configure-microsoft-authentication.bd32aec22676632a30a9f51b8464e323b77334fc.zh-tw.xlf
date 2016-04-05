@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="md" source-language="en-US" target-language="zh-tw">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">acomdc_nonhi</xliffext:oltranslationpriority>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86f09dd3ed3d6d53929fce9284ab35008370491a</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1457980" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How to configure Microsoft Account authentication for your App Services application</source>
+          <target state="new">How to configure Microsoft Account authentication for your App Services application</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to configure Microsoft Account authentication for your App Services application.</source>
+          <target state="new">Learn how to configure Microsoft Account authentication for your App Services application.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How to configure your App Service application to use Microsoft Account login</source>
+          <target state="new">How to configure your App Service application to use Microsoft Account login</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic shows you how to configure Azure App Service to use Microsoft Account as an authentication provider.</source>
+          <target state="new">This topic shows you how to configure Azure App Service to use Microsoft Account as an authentication provider.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="register-windows-dev-center"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your Windows app at the Windows Dev Center</source>
+          <target state="new"><ph id="ph1">&lt;a name="register-windows-dev-center"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your Windows app at the Windows Dev Center</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Universal Windows apps and Windows store apps must be registered through the Windows Dev Center.</source>
+          <target state="new">Universal Windows apps and Windows store apps must be registered through the Windows Dev Center.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This enables you to more more easily configure push notifications for your app in the future.</source>
+          <target state="new">This enables you to more more easily configure push notifications for your app in the future.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.NOTE]</ph>Skip this section for Windows Phone 8, Windows Phone 8.1 Silverlight, and all other non-Windows apps.</source>
+          <target state="new"><ph id="ph1">[AZURE.NOTE]</ph>Skip this section for Windows Phone 8, Windows Phone 8.1 Silverlight, and all other non-Windows apps.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you have already configured push notifications for your Windows app, you can also skip this section.</source>
+          <target state="new">If you have already configured push notifications for your Windows app, you can also skip this section.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</source>
+          <target state="new">Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</source>
+          <target state="new">Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You will use this to configure your app with Microsoft Account.</source>
+          <target state="new">You will use this to configure your app with Microsoft Account.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you have not already registered your app, navigate to the <bpt id="p1">[</bpt>Windows Dev Center<ept id="p1">](https://dev.windows.com/dashboard/Application/New)</ept>, log on with your Microsoft account, type a name for your app, verify its availability, then click <bpt id="p2">**</bpt>Reserve app name<ept id="p2">**</ept>.</source>
+          <target state="new">If you have not already registered your app, navigate to the <bpt id="p1">[</bpt>Windows Dev Center<ept id="p1">](https://dev.windows.com/dashboard/Application/New)</ept>, log on with your Microsoft account, type a name for your app, verify its availability, then click <bpt id="p2">**</bpt>Reserve app name<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Open your Windows app project in Visual Studio, then in Solution Explorer right-click the Windows Store app project, click <bpt id="p1">**</bpt>Store<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Associate App with the Store...<ept id="p2">**</ept>.</source>
+          <target state="new">Open your Windows app project in Visual Studio, then in Solution Explorer right-click the Windows Store app project, click <bpt id="p1">**</bpt>Store<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Associate App with the Store...<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the wizard, click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and sign-in with your Microsoft account, select the app name you reserved, then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Associate<ept id="p3">**</ept>.</source>
+          <target state="new">In the wizard, click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and sign-in with your Microsoft account, select the app name you reserved, then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Associate<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For a universal Windows 8.1 app, you must repeat steps 4 and 5 for the Windows Phone Store project.</source>
+          <target state="new">For a universal Windows 8.1 app, you must repeat steps 4 and 5 for the Windows Phone Store project.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Back in the Windows Dev Center page for your new app, click <bpt id="p1">**</bpt>Services<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Push notifications<ept id="p2">**</ept>.</source>
+          <target state="new">Back in the Windows Dev Center page for your new app, click <bpt id="p1">**</bpt>Services<ept id="p1">**</ept> &gt; <bpt id="p2">**</bpt>Push notifications<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Push notifications<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Live Services site<ept id="p2">**</ept> under <bpt id="p3">**</bpt>Windows Push Notification Services (WNS) and Microsoft Azure Mobile Services<ept id="p3">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>Push notifications<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Live Services site<ept id="p2">**</ept> under <bpt id="p3">**</bpt>Windows Push Notification Services (WNS) and Microsoft Azure Mobile Services<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Next, you will configure Microsoft account authentication for your Windows app.</source>
+          <target state="new">Next, you will configure Microsoft account authentication for your Windows app.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="register-microsoft-account"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your app with Microsoft Account</source>
+          <target state="new"><ph id="ph1">&lt;a name="register-microsoft-account"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Register your app with Microsoft Account</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you have already registered your Windows app in the previous section, you can skip to step 4.</source>
+          <target state="new">If you have already registered your Windows app in the previous section, you can skip to step 4.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</source>
+          <target state="new">Log on to the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, and navigate to your application.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</source>
+          <target state="new">Copy your <bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You will use this to configure your app with Microsoft Account.</source>
+          <target state="new">You will use this to configure your app with Microsoft Account.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Navigate to the <bpt id="p1">[</bpt><ept id="p1">My Applications]</ept> page in the Microsoft Account Developer Center, and log on with your Microsoft account, if required.</source>
+          <target state="new">Navigate to the <bpt id="p1">[</bpt><ept id="p1">My Applications]</ept> page in the Microsoft Account Developer Center, and log on with your Microsoft account, if required.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create application<ept id="p1">**</ept>, then type an <bpt id="p2">**</bpt>Application name<ept id="p2">**</ept> and click <bpt id="p3">**</bpt>I accept<ept id="p3">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Create application<ept id="p1">**</ept>, then type an <bpt id="p2">**</bpt>Application name<ept id="p2">**</ept> and click <bpt id="p3">**</bpt>I accept<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>API Settings<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> for <bpt id="p3">**</bpt>Mobile or desktop client app<ept id="p3">**</ept>, supply the <bpt id="p4">**</bpt>Redirect URL<ept id="p4">**</ept> for your application, then click <bpt id="p5">**</bpt>Save<ept id="p5">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>API Settings<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> for <bpt id="p3">**</bpt>Mobile or desktop client app<ept id="p3">**</ept>, supply the <bpt id="p4">**</bpt>Redirect URL<ept id="p4">**</ept> for your application, then click <bpt id="p5">**</bpt>Save<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.NOTE]</ph>Your redirect URI is the URL of your application appended with the path, <bpt id="p1">_</bpt>/.auth/login/microsoftaccount/callback<ept id="p1">_</ept>.</source>
+          <target state="new"><ph id="ph1">[AZURE.NOTE]</ph>Your redirect URI is the URL of your application appended with the path, <bpt id="p1">_</bpt>/.auth/login/microsoftaccount/callback<ept id="p1">_</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`https://contoso.azurewebsites.net/.auth/login/microsoftaccount/callback`</ph>.</source>
+          <target state="new">For example, <ph id="ph1">`https://contoso.azurewebsites.net/.auth/login/microsoftaccount/callback`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Make sure that you are using the HTTPS scheme.</source>
+          <target state="new">Make sure that you are using the HTTPS scheme.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>App Settings<ept id="p1">**</ept> and make a note of the values of the <bpt id="p2">**</bpt>Client ID<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Client secret<ept id="p3">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>App Settings<ept id="p1">**</ept> and make a note of the values of the <bpt id="p2">**</bpt>Client ID<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Client secret<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[AZURE.IMPORTANT]</ph> The client secret is an important security credential.</source>
+          <target state="new"><ph id="ph1">[AZURE.IMPORTANT]</ph> The client secret is an important security credential.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Do not share the client secret with anyone or distribute it within a client application.</source>
+          <target state="new">Do not share the client secret with anyone or distribute it within a client application.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="secrets"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Add Microsoft Account information to your App Service application</source>
+          <target state="new"><ph id="ph1">&lt;a name="secrets"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Add Microsoft Account information to your App Service application</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Back in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, navigate to your application, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Authentication / Authorization<ept id="p3">**</ept>.</source>
+          <target state="new">Back in the <bpt id="p1">[</bpt><ept id="p1">Azure portal]</ept>, navigate to your application, click <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> &gt; <bpt id="p3">**</bpt>Authentication / Authorization<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If the Authentication / Authorization feature is not enabled, switch it <bpt id="p1">**</bpt>On<ept id="p1">**</ept>.</source>
+          <target state="new">If the Authentication / Authorization feature is not enabled, switch it <bpt id="p1">**</bpt>On<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Microsoft Account<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Microsoft Account<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Paste in the App ID and App Secret values which you obtained previously, and optionally enable any scopes your application requires.</source>
+          <target state="new">Paste in the App ID and App Secret values which you obtained previously, and optionally enable any scopes your application requires.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="new">Then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By default, App Service provides authentication but does not restrict authorized access to your site content and APIs.</source>
+          <target state="new">By default, App Service provides authentication but does not restrict authorized access to your site content and APIs.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You must authorize users in your app code.</source>
+          <target state="new">You must authorize users in your app code.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>(Optional) To restrict access to your site to only users authenticated by Microsoft account, set <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Microsoft Account<ept id="p2">**</ept>.</source>
+          <target state="new">(Optional) To restrict access to your site to only users authenticated by Microsoft account, set <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Microsoft Account<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This requires that all requests be authenticated, and all unauthenticated requests are redirected to Microsoft account for authentication.</source>
+          <target state="new">This requires that all requests be authenticated, and all unauthenticated requests are redirected to Microsoft account for authentication.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You are now ready to use Microsoft Account for authentication in your app.</source>
+          <target state="new">You are now ready to use Microsoft Account for authentication in your app.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="related-content"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Related content</source>
+          <target state="new"><ph id="ph1">&lt;a name="related-content"&gt;</ph> <ph id="ph2">&lt;/a&gt;</ph>Related content</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
