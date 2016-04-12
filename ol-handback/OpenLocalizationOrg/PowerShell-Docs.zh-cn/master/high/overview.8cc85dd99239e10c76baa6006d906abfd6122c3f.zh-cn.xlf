@@ -10,7 +10,7 @@
       <group id="content" extype="content">
         <trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Windows PowerShell Desired State Configuration Overview Test</source>
-          <target state="new">Windows PowerShell Desired State Configuration Overview Test</target>
+          <target state="new">你好世界</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Applies To: Windows PowerShell 4.0, Windows PowerShell 5.0</source>
