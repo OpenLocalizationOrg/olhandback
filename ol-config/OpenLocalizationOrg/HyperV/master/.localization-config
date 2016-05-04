@@ -1,1 +1,40 @@
-<!-- to be filled -->
+{
+   "filters":[
+      {
+         "metadata":{
+            "ms.topic":[
+               "hero-article",
+               "get-started-article"
+            ]
+         },
+         "priorities":[
+            {
+               "priority":"AcomDC_HI",
+               "locales":[
+                  "tr-tr",
+                  "it-it"
+               ]
+            }
+         ]
+      },
+      {
+         "files":[
+            "!Acom/articles/guidance/*.md",
+            "Acom/*.md",
+            "Acom/**/*.md"
+         ],
+         "priorities":[
+            {
+               "priority":"AcomDC_nonHI",
+               "locales":[
+                  "tr-tr",
+                  "it-it"
+               ]
+            }
+         ]
+      }
+   ],
+  "includeDependencies": true,
+  "autoPush": false,
+  "xliffVersion": "1.2"
+}
