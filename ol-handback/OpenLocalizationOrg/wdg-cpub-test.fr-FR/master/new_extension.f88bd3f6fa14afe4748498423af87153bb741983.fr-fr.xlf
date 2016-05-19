@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="fr-fr" version="2.0" xml:space="default" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b7e8d8638d928212045c967a4455299abc12643d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Test for xliff 2.0's namespace and new extension</source>
+          <target>Test for xliff 2.0's namespace and new extension</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>c</source>
+          <target>c</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>The End.</source>
+          <target>The End.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
