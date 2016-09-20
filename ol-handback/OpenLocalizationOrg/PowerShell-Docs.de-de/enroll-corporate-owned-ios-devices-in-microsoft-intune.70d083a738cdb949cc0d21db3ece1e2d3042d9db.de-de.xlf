@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fb28509d78159fa9bec8d12a1cab534a039f328</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enroll-corporate-owned-ios-devices-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">444d7b224eadfa061d006041f5d8bc88b42c63a5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf0b12b98776f84d8fb22ec7aaa137a756f94425</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned iOS devices | Microsoft Intune</source>
+          <target state="translated">Registrieren von firmeneigenen iOS-Geräten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enrollment of corporate-owned iOS devices by using the Apple Device Enrollment Program (DEP) or Apple Configurator</source>
+          <target state="translated">Registrierung von firmeneigenen iOS-Geräten mithilfe des Apple Device Enrollment Programm (DEP) oder Apple Configurator</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned iOS devices in Microsoft Intune</source>
+          <target state="translated">Registrieren Sie firmeneigener iOS-Geräten in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune supports the enrollment of corporate-owned iOS devices through the Apple Device Enrollment Program (DEP) or the <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> tool running on a Mac computer.</source>
+          <target state="translated">Microsoft Intune unterstützt die Registrierung von firmeneigenen iOS-Geräten mit Apple Device Enrollment Programm (DEP) oder dem <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> Tool auf einem Macintosh-Computer ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prerequisite:<ept id="p1">**</ept> An <bpt id="p2">[</bpt>Apple Push Notification service  certificate<ept id="p2">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept> is required.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Voraussetzung:<ept id="p1">**</ept> ein <bpt id="p2">[</bpt>Apple Push Notification Service-Zertifikat<ept id="p2">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept> ist erforderlich.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can enroll corporate-enrolled iOS devices in three ways: by using Apple Configurator, DEP, or the Company Portal.</source>
+          <target state="translated">Sie können firmeneigene iOS-Geräte auf drei Arten registrieren: mit Apple Configurator, DEP oder dem Unternehmensportal.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use Apple Configurator</source>
+          <target state="translated">Verwenden von Apple Configurator</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can enroll iOS devices by exporting a Corporate Enrollment profile and then connecting those mobile devices to a Mac that is running Apple Configurator.</source>
+          <target state="translated">Sie können iOS-Geräte anmelden Unternehmensregistrierung Profile exportieren und anschließend Verbinden mobile Geräte auf einem Mac, auf dem Apple Configurator ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Apple Configurator supports two forms of enrollment:</source>
+          <target state="translated">Apple Configurator unterstützt zwei Formen der Registrierung:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Setup Assistant enrollment<ept id="p1">**</ept>: Resets the device to factory settings and prepares it for setup by the device's new user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Registrierung der Setup-Assistent<ept id="p1">**</ept>: setzt das Gerät auf die werkseitigen Standardeinstellungen und bereitet es für die Einrichtung durch den neuen Benutzer des Geräts vor.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This method requires the admin to connect the iOS device through USB to a Mac computer running <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> to preconfigure the enrollment.</source>
+          <target state="translated">Diese Methode muss den Administrator auf einem Macintosh-Computer mit das iOS-Gerät über USB herstellen <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> die Registrierung vorkonfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Devices are then delivered to their users, who run the Setup Assistant process.</source>
+          <target state="translated">Geräte sind dann an ihre Benutzer gesendet, die Setup-Assistenten ausführen.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This process configures the device with their work or school credentials and completes the enrollment process.</source>
+          <target state="translated">Dieser Prozess konfiguriert das Gerät die Arbeit oder Schule Anmeldeinformationen und schließt den Anmeldungsprozess ab.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enroll iOS devices using Apple Configurator and Setup Assistant<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Registrieren von iOS-Geräte mit Apple Configurator und Setup-Assistenten<ept id="p1">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct enrollment<ept id="p1">**</ept>: Creates an Apple Configurator–compliant file for use during device preparation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Direkte Registrierung<ept id="p1">**</ept>: erstellt eine Apple Configurator-kompatible Datei zur Verwendung während der Vorbereitung des Clientgeräts.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The enrolled device isn’t factory reset, but it has no user affiliation.</source>
+          <target state="translated">Das registrierte Gerät nicht Herstellerstandards, aber es ist keinem Benutzer zugewiesen.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This method requires the admin to connect the iOS device through USB to a Mac computer running <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> to enroll the device.</source>
+          <target state="translated">Diese Methode muss den Administrator auf einem Macintosh-Computer mit das iOS-Gerät über USB herstellen <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> das Gerät zu registrieren.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enroll iOS devices using Apple Configurator Direct Enrollment<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Registrieren von iOS-Geräten mit Apple Configurator direkte Registrierung<ept id="p1">](ios-direct-enrollment-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use the Device Enrollment Program (DEP)</source>
+          <target state="translated">Verwenden Sie das Device Enrollment Program (DEP)</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>DEP deploys an enrollment profile “over the air” to devices that are purchased through DEP.</source>
+          <target state="translated">DEP stellt ein Registrierungsprofil "Drahtlos", auf Geräten, die über die Datenausführungsverhinderung erworben werden</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When a user runs Setup Assistant on the device, the device is enrolled in Intune.</source>
+          <target state="translated">Wenn ein Benutzer auf dem Gerät Setup-Assistent ausgeführt wird, wird das Gerät in Intune registriert.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Devices enrolled through DEP cannot be unenrolled by users.</source>
+          <target state="translated">Geräten über DEP können nicht durch Benutzer abgemeldet werden.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enroll Device Enrollment Program iOS devices<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Registrieren Device Enrollment Program-iOS-Geräte<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use the Company Portal on DEP-enrolled or Apple Configurator-enrolled devices</source>
+          <target state="translated">Verwenden Sie das Unternehmensportal für DEP-registrierte oder Apple Configurator registrierte Geräte</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Devices that are configured with user affinity can install and run the Company Portal app to download apps and manage devices.</source>
+          <target state="translated">Geräte, die mit der Affinität zwischen Benutzer und konfiguriert sind, installieren und Ausführen von Unternehmensportal-app zum Herunterladen von apps und Geräte verwalten können.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After users receive their devices, they must complete a number of additional steps to complete the Setup Assistant and install the Company Portal app.</source>
+          <target state="translated">Nachdem Benutzer ihre Geräte erhalten haben, müssen sie eine Reihe zusätzlicher Schritte zum Abschließen des Setup-Assistenten, und installieren Sie die Unternehmensportal-app abschließen.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>User affinity is required to support the following:</source>
+          <target state="translated">Affinität zwischen Benutzer und ist erforderlich, um Folgendes zu unterstützen:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Mobile application management (MAM) apps</source>
+          <target state="translated">Mobile Application Management (MAM)-apps</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Conditional access to email and company data</source>
+          <target state="translated">Bedingte Zugriff auf e-Mail und Unternehmen</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Company Portal app</source>
+          <target state="translated">Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How users enroll corporate-owned iOS devices with user affinity</source>
+          <target state="translated">Benutzer registrieren firmeneigener iOS-Geräte mit der Affinität zwischen Benutzer und</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When users turn on their device, they are prompted to complete the Setup Assistant.</source>
+          <target state="translated">Wenn Benutzer ihr Gerät aktivieren, müssen sie den Setup-Assistenten abzuschließen.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>During setup, users are prompted for their credentials.</source>
+          <target state="translated">Während des Setups werden Benutzer zur Eingabe ihrer Anmeldeinformationen aufgefordert.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>They must use the credentials (i.e. the unique personal name or UPN) that are associated with their subscription in Intune.</source>
+          <target state="translated">Sie müssen die Anmeldeinformationen (d. h. den eindeutigen Namen oder UPN) verwenden, die ihre Intune-Abonnement zugeordnet sind.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>During setup, users are prompted for an Apple ID.</source>
+          <target state="translated">Während der Installation werden die Benutzer einen Apple-ID aufgefordert.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>They must provide an Apple ID to allow the device to install the Company Portal.</source>
+          <target state="translated">Sie müssen ein Apple-ID, um das Gerät kann das Unternehmensportal installieren bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>They can also provide the ID from the iOS settings menu after setup is finished.</source>
+          <target state="translated">Sie können auch die ID der iOS-Menü "Einstellungen" nach Abschluss des Setups angeben.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>After completing setup, the iOS device must install the Company Portal app from the App Store.</source>
+          <target state="translated">Nach Abschluss des Setups muss auf dem Gerät die Unternehmensportal-app aus dem App Store installieren.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The user can now sign in to the Company Portal by using the UPN that they used when setting up the device.</source>
+          <target state="translated">Der Benutzer kann jetzt Anmelden beim Unternehmensportal mit der UPN, die sie beim Einrichten des Geräts verwendet.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>After logging in, the user is prompted to enroll their device.</source>
+          <target state="translated">Nach der Anmeldung wird der Benutzer aufgefordert, ihr Gerät zu registrieren.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first step is to identify their device.</source>
+          <target state="translated">Der erste Schritt ist, um ihr Gerät zu identifizieren.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The app presents a list of iOS devices that have already been corporate enrolled and assigned to the user’s Intune account.</source>
+          <target state="translated">Die Anwendung stellt eine Liste von iOS-Geräte, die bereits Unternehmens wurden registriert und Intune-Konto des Benutzers zugewiesen.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>They should choose the matching device.</source>
+          <target state="translated">Sie sollten das entsprechende Gerät auswählen.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If this device is not already corporate enrolled, they should choose <bpt id="p1">**</bpt>new device<ept id="p1">**</ept> to continue with the standard enrollment flow.</source>
+          <target state="translated">Wenn dieses Gerät nicht bereits Unternehmens registriert, wählen sie <bpt id="p1">**</bpt>Neues Gerät<ept id="p1">**</ept> zu den standardmäßigen Enrollment-Vorgang fortzusetzen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the next screen, the user must confirm the serial number of the new device.</source>
+          <target state="translated">Der Benutzer muss die Seriennummer des neuen Geräts bestätigen Sie auf dem nächsten Bildschirm.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The user can tap the link <bpt id="p1">**</bpt>confirm the Serial Number<ept id="p1">**</ept> to launch the Settings app to verify the serial number.</source>
+          <target state="translated">Der Benutzer kann Tippen Sie auf den Link <bpt id="p1">**</bpt>bestätigen die Seriennummer<ept id="p1">**</ept> zum Starten der app Einstellungen, um zu überprüfen, die Seriennummer.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The user must then enter the last four characters of the serial number into the Company Portal app.</source>
+          <target state="translated">Der Benutzer muss dann die letzten vier Zeichen der Seriennummer in der Unternehmensportal-app eingeben.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This step verifies that the device is the corporate device enrolled in Intune.</source>
+          <target state="translated">Dieser Schritt stellt sicher, dass das Gerät das Unternehmensnetzwerk in Intune registriert wird.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the serial number on the device does not match, the wrong device was selected.</source>
+          <target state="translated">Wenn die Seriennummer des Geräts nicht übereinstimmen, wurde der falsche Gerät ausgewählt.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The user should go back to the previous screen and select a different device.</source>
+          <target state="translated">Der Benutzer soll zum vorherigen Bildschirm zurück, und wählen ein anderes Gerät.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>After the serial number is verified, the Company Portal app redirects to the Company Portal website to finalize enrollment.</source>
+          <target state="translated">Nachdem die Seriennummer überprüft wurde, leitet der Unternehmensportal-app zu der Unternehmensportal-Website für die Registrierung abschließen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Then the website prompts the user to return to the app.</source>
+          <target state="translated">Die Website fordert den Benutzer an die app zurückgegeben.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Enrollment is now complete.</source>
+          <target state="translated">Registrierung ist nun abgeschlossen.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The user can now use this device with the full set of capabilities.</source>
+          <target state="translated">Der Benutzer kann dieses Gerät jetzt mit dem vollständigen Satz von Funktionen verwenden.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>About corporate-owned managed devices with no user affinity</source>
+          <target state="translated">Firmeneigenen verwalteter keine Affinität zwischen Benutzer und Geräte</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Devices that are configured with no user affinity do not support the Company Portal and should not have the app installed.</source>
+          <target state="translated">Das Unternehmensportal Geräte, die keine Affinität zwischen Benutzer und zugeordnet werden nicht unterstützt und sollte nicht die app installiert haben.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Company Portal is designed for users who have corporate credentials and require access to personalized corporate resources (e.g. email).</source>
+          <target state="translated">Das Unternehmensportal ist für Benutzer gedacht, die Anmeldeinformationen des Unternehmens haben und benötigen Zugriff auf personalisierte Unternehmensressourcen (z. B. e-Mail).</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Devices that are enrolled with no user affinity are not intended to have a dedicated user sign in.</source>
+          <target state="translated">Geräte, die keine Affinität zwischen Benutzer und registriert werden dürfen nicht dedizierten Benutzer anmelden.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Kiosk, point of sale (POS), or shared-utility devices are typical use cases for devices that are enrolled with no user affinity.</source>
+          <target state="translated">Kiosk, Verkaufsstellen (POS) oder shared-Dienstprogramm Geräte sind typische Anwendungsfälle für Geräte, die keine Affinität zwischen Benutzer und registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If user affinity is required, be sure that the device’s enrollment profile has <bpt id="p1">**</bpt>User Affinity<ept id="p1">**</ept> selected before enrolling the device.</source>
+          <target state="translated">Wenn die Affinität zwischen Benutzer und erforderlich ist, werden Sie sicher, dass das Registrierungsprofil <bpt id="p1">**</bpt>Affinität zwischen Benutzer und<ept id="p1">**</ept> ausgewählt haben, bevor Sie die Registrierung des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To change the affinity status on a device, you must retire the device and reenroll it.</source>
+          <target state="translated">Um den Status der Affinität auf einem Gerät ändern, müssen Sie das Gerät abkoppeln und erneut registrieren, es.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Get ready to enroll devices in Microsoft Intune</source>
+          <target state="translated">Machen Sie sich bereit, um Geräte in Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

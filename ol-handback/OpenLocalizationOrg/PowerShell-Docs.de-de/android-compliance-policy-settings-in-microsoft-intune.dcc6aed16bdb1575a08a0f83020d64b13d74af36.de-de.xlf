@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf1fde5b5ed55552e573c724b6165203033683da</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\android-compliance-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d6fdce41a3b2046d6ac8cdce22481d1805a4656</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5f11d429084cb66fff300457fcd2321c75b49b2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Android devices | Microsoft Intune</source>
+          <target state="translated">Compliance-Richtlinien für Android-Geräte | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes the device compliance policy settings for Android devices.</source>
+          <target state="translated">Dieses Thema beschreibt die Gerät Compliance-Richtlinien für Android-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Android devices in Microsoft Intune</source>
+          <target state="translated">Compliance-Richtlinien für Android-Geräte in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The policy settings described in this topic apply to devices running Android 4.0 and later, or Samsung KNOX 4.0 and later.</source>
+          <target state="translated">Die in diesem Thema beschriebenen Richtlinien anwenden zu Geräten mit Android 4.0 und höher, Samsung KNOX 4.0 oder höher.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you are looking for information about other platforms, select one of the following:</source>
+          <target state="translated">Wenn Sie Informationen zu anderen Plattformen suchen, wählen Sie eine der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for iOS devices</source>
+          <target state="translated">Compliance-Richtlinien für iOS-Geräte</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows devices</source>
+          <target state="translated">Compliance-Richtlinien für Windows-Geräte</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>System security settings</source>
+          <target state="translated">Systemeinstellungen für die Sicherheit</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Password</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require a password to unlock mobile devices:<ept id="p1">**</ept> Set this to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require users to enter a password before they can access their device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anfordern eines Kennworts zum Entsperren mobiler Geräte:<ept id="p1">**</ept> Legen Sie den <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> Benutzer ein Kennwort eingeben, bevor sie ihr Gerät zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum password length:<ept id="p1">**</ept> Specify the minimum number of digits or characters that the user’s password must contain.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minimale Kennwortlänge:<ept id="p1">**</ept> Angeben der Mindestanzahl an Ziffern oder Zeichen, die das Benutzerkennwort enthalten muss.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password quality:<ept id="p1">**</ept> Enable this setting to configure password requirements for Android devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortstärke:<ept id="p1">**</ept> Aktivieren Sie diese Einstellung für das Domänenkennwort für Android-Geräte zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose from:</source>
+          <target state="translated">Es stehen folgende Optionen zur Auswahl:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Low security biometric</source>
+          <target state="translated">Biometrie auf niedriger Sicherheitsstufe</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="translated">Erforderlich</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>At least numeric</source>
+          <target state="translated">Mindestens numerisch</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At least alphabetic</source>
+          <target state="translated">Mindestens alphabetisch</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>At least alphanumeric</source>
+          <target state="translated">Mindestens alphanumerisch</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Alphanumeric with symbols</source>
+          <target state="translated">Alphanumerisch mit Symbolen</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required:<ept id="p1">**</ept>  Specifies the idle time before the user must re-enter their password.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist:<ept id="p1">**</ept>  Gibt die Leerlaufzeit, bevor der Benutzer sein Kennwort erneut eingeben muss.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password expiration (days):<ept id="p1">**</ept> Select the number of days before the user’s password expires and they must create a new one.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortablauf (Tage):<ept id="p1">**</ept> Wählen Sie die Anzahl der Tage, bevor das Kennwort des Benutzers abläuft und sie müssen einen neuen zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history:<ept id="p1">**</ept> Use this setting in conjunction with <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept> to restrict the user from creating previously used passwords.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortverlauf:<ept id="p1">**</ept> Verwenden Sie diese Einstellung in Verbindung mit <bpt id="p2">**</bpt>zu verhindern, dass erneute Verwendung früherer Kennwörter<ept id="p2">**</ept> verwendet, um zu verhindern, dass den Benutzer zuvor erstellen Kennwörter.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prevent reuse of previous passwords:<ept id="p1">**</ept> If <bpt id="p2">**</bpt>Remember password history<ept id="p2">**</ept> is selected, specify the number of previously used passwords that cannot be re-used.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erneute Verwendung früherer Kennwörter verhindern:<ept id="p1">**</ept> Wenn <bpt id="p2">**</bpt>Kennwortverlauf<ept id="p2">**</ept> ist ausgewählt, geben Sie die Anzahl der zuvor verwendeten Kennwörter, die erneut verwendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require a password when the device returns from an idle state:<ept id="p1">**</ept> This setting should be used together with the in the <bpt id="p2">**</bpt>Minutes of inactivity before password is required<ept id="p2">**</ept> setting.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anfordern eines Kennworts, wenn das Gerät aus dem Leerlauf zurückkehrt:<ept id="p1">**</ept> diese Einstellung sollte verwendet werden, zusammen mit den in der <bpt id="p2">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p2">**</ept> Einstellung.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The end-users are prompted to enter a password to access a device that has been inactive for the time specified in the <bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept> setting.</source>
+          <target state="translated">Die Endbenutzer werden aufgefordert, geben ein Kennwort für den Zugriff auf ein Gerät, das für die angegebene Zeit inaktiv war die <bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p1">**</ept> festlegen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Encryption</source>
+          <target state="translated">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device:<ept id="p1">**</ept> Set this to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require devices to be encrypted in order to connect to resources.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erfordert Verschlüsselung auf mobilem Gerät:<ept id="p1">**</ept> Legen Sie den <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> Geräte verschlüsselt werden, um die Verbindung zwischen Ressourcen erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Devices are encrypted when you configure the setting <bpt id="p1">**</bpt>Require a password to unlock mobile devices<ept id="p1">**</ept>.</source>
+          <target state="translated">Geräte sind verschlüsselt, wenn Sie die Einstellung konfigurieren <bpt id="p1">**</bpt>Anfordern eines Kennworts zum Entsperren mobiler Geräte<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Device health and security settings</source>
+          <target state="translated">Integrität und Sicherheit für Geräte</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device must not be jailbroken or rooted:<ept id="p1">**</ept> If you enable this setting, jailbroken devices will be evaluated as noncompliant.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gerät darf jailbreak oder Rooting:<ept id="p1">**</ept> Wenn Sie diese Einstellung aktivieren, gehackt Geräte bewertet werden als nicht kompatibel.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require that devices prevent installation of apps from unknown sources (Android 4.0 or later)<ept id="p1">**</ept> To block devices that have the <bpt id="p2">**</bpt>Security &gt; Unknown sources<ept id="p2">**</ept>  enabled on the device, enable this setting and set it to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erfordern, dass die Geräte zu verhindern, dass eine Installation von apps aus unbekannten Quellen (Android 4.0 oder höher)<ept id="p1">**</ept> zum Blockieren von Geräten, die über die <bpt id="p2">**</bpt>Sicherheit &gt; unbekannte Quellen<ept id="p2">**</ept>  auf dem Gerät aktiviert, aktivieren Sie diese Einstellung, und legen Sie es auf <bpt id="p3">**</bpt>Ja<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Side-loading applications requires that the  <bpt id="p1">**</bpt>Unknown sources<ept id="p1">**</ept> setting is enabled.</source>
+          <target state="translated">Querladen-Anwendung erfordert, dass der  <bpt id="p1">**</bpt>unbekannten Quellen<ept id="p1">**</ept> aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You should only enforce this compliance policy if you are not side-loading Android apps on devices.</source>
+          <target state="translated">Sie sollten diese Richtlinie nur erzwingen, wenn Sie nicht die Seite Laden von Android-apps auf Geräten sind.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require that USB debugging is  disabled (Android 4.2 or later)<ept id="p1">**</ept>: This setting specifies whether to detect the USB debugging option on the device is enabled.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erfordern, dass die USB-debugging ist deaktiviert (Android 4.2 oder höher)<ept id="p1">**</ept>: Diese Einstellung gibt an, ob erkennen die Debugoption auf dem Gerät aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require devices have enabled Scan device for security threats (Android 4.2-4.4)<ept id="p1">**</ept>: This setting specifies that the <bpt id="p2">**</bpt>Verify apps<ept id="p2">**</ept> feature is enabled on the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Geräte aktiviert Scanner für Sicherheitsrisiken (Android 4.2 4.4) erfordern<ept id="p1">**</ept>: Diese Einstellung gibt an, dass die <bpt id="p2">**</bpt>apps überprüfen<ept id="p2">**</ept> Funktion ist auf dem Gerät aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum Android security patch level (Android 6.0 or later)<ept id="p1">**</ept>: Use this setting to specify the minimum Android patch level.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minimale Android Security Patchebene (Android, Version 6.0 oder höher)<ept id="p1">**</ept>: mit dieser Einstellung können Sie die minimale Android Patchebene angeben.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Devices that are not at least at this patch level will be noncompliant.</source>
+          <target state="translated">Geräte, die nicht mindestens diese Patch-Ebene werden nicht kompatibel ist.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The date must be specified the format: YYYY-MM-DD.</source>
+          <target state="translated">Das Datum muss das Format angegeben: JJJJ-MM-TT.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require device threat protection to be enabled<ept id="p1">**</ept>: Use this setting to take the risk assessment from the Lookout MTP solution as a condition for compliance.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bedrohung Geräteschutz aktiviert werden müssen<ept id="p1">**</ept>: mit dieser Einstellung können Sie um die Risikoanalyse aus der Dateinamenerweiterungen MTP-Lösung als Bedingung für die Kompatibilität zu nutzen.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the maximum allowed threat level, which is one of the following:</source>
+          <target state="translated">Wählen Sie die maximal zulässige Bedrohung, die eines der folgenden ist:</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None (secured)<ept id="p1">**</ept> This is the most secure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>None (geschützt)<ept id="p1">**</ept> Dies ist die sicherste.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This means that the device cannot have any threats.</source>
+          <target state="translated">Dies bedeutet, dass das Gerät Bedrohungen haben kann.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the device is detected as having any level of threats, it will be evaluated as non-compliant.</source>
+          <target state="translated">Wenn das Gerät mit einer beliebigen Ebene Bedrohungen erkannt wird, wird sie als nicht konform ausgewertet werden.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Low:<ept id="p1">**</ept> Device is evaluated as compliant if only low level threats are present.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Niedrig:<ept id="p1">**</ept> Gerät als konform ausgewertet wird, wenn nur niedrige Ebene Bedrohungen vorhanden sind.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Anything higher puts the device in a non-compliant status.</source>
+          <target state="translated">Etwas höher setzt das Gerät in einen nicht kompatiblen Status.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Medium:<ept id="p1">**</ept> Device is evaluated as compliant if the threats that are present on the device are low or medium level.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mittel:<ept id="p1">**</ept> Gerät wird als kompatibel bewertet, wenn die Gefahren, die auf dem Gerät vorhanden sind niedriger oder mittlerer Ebene werden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the device is detected to have high level threats, it is determined as non-compliant.</source>
+          <target state="translated">Wenn das Gerät auf hohe Ebene Bedrohungen haben erkannt wird, wird es als nicht konform bestimmt.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>High:<ept id="p1">**</ept> This is the least secure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hoch:<ept id="p1">**</ept> Dies ist die am wenigsten sichere.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Essentially, this allows all threat levels, and perhaps only useful if you using this solution only for reporting purposes.</source>
+          <target state="translated">Dies ermöglicht im Grunde alle threat Level und vielleicht nur hilfreich, wenn Sie mit dieser Lösung nur für Berichtszwecke.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more details, see <bpt id="p1">[</bpt>Enable device threat protection rule in the compliance policy<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Aktivieren Threat Protection-Regel in der Konformitätsrichtlinie<ept id="p1">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Device property settings</source>
+          <target state="translated">Einstellungen für Geräte-Eigenschaft</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum OS required:<ept id="p1">**</ept> When  a device does not meet the minimum OS version requirement, it is reported as noncompliant.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mindestens erforderliche Betriebssystem:<ept id="p1">**</ept> wenn ein Gerät die OS-Version Mindestanforderungen nicht erfüllt, wird als nicht konform gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A link with information on how to upgrade is displayed.</source>
+          <target state="translated">Eine Verknüpfung mit Informationen zum Aktualisieren wird angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The end-user can choose to upgrade their device after which they can access company resources.</source>
+          <target state="translated">Endbenutzer können ihre Geräte aktualisieren, nach denen sie auf Unternehmensressourcen zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Maximum OS version allowed:<ept id="p1">**</ept> When a device is using an OS version later than the one specified in the rule, access to company resources is blocked and the user is asked to contact their IT admin.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Maximale Version des Betriebssystems zulässig:<ept id="p1">**</ept> Wenn ein Gerät eine Version des Betriebssystems höher als die in der Regel verwendet, den Zugriff auf Unternehmensressourcen wird blockiert, und der Benutzer wird aufgefordert, wenden Sie sich an ihren IT-Administrator.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Until there is a change in rule to allow the OS version, this device cannot be used to access company resources.</source>
+          <target state="translated">Bis eine Änderung in der Regel zum Zulassen von der Version des Betriebssystems vorliegt, kann das Gerät Zugriff auf Unternehmensressourcen verwendet werden.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

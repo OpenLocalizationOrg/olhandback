@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e53a94a9da3162908b9bbb3714d64db917c8174b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\how-your-ios-users-get-their-apps.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb1d193503b840705ffb3c16f0383d00ede62bf0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">508297254e27758fb19abde834fdf9c6ba067f4a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How your iOS users get their apps | Microsoft Intune</source>
+          <target state="translated">Wie Ihre Benutzer von iOS-apps erhalten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Methods for making iOS apps available to end users</source>
+          <target state="translated">Methoden zum Bereitstellen von iOS-apps für Endbenutzer</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How your iOS users get their apps</source>
+          <target state="translated">Wie Ihre Benutzer von iOS-apps erhalten</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use this information to understand how and where your end users get the apps that you distribute through Microsoft Intune.</source>
+          <target state="translated">Verwenden Sie diese Informationen, um zu verstehen, wie und wo erhalten Ihre Endbenutzer die apps, die Sie verteilen über Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required apps<ept id="p1">**</ept> - Apps that are required by the administrator and that are installed on the device with minimal user involvement, depending on the platform.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erforderliche apps<ept id="p1">**</ept> -Apps, die durch den Administrator erforderlich sind und auf dem Gerät mit minimalen Benutzereingriffen, abhängig von der Plattform installiert.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Available apps<ept id="p1">**</ept> - Apps that are provided in the Company Portal app list and that a user may optionally choose to install.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verfügbare apps<ept id="p1">**</ept> -Apps, sofern ein Benutzer in der Liste der Unternehmensportal-Apps und, optional Installieren wählen.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Managed apps<ept id="p1">**</ept> - Apps that can be managed through policies and that have been "wrapped" by Intune or have been built with the Intune Mobile Application Management (MAM) Software Development Kit (SDK).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwaltete apps<ept id="p1">**</ept> -Apps durch Richtlinien verwaltet werden kann, und "umschlossen" von Intune oder integriert mit Intune Mobile Application Management (MAM) Software Development Kit (SDK).</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These apps can be managed by Intune, and application policies can be applied to them.</source>
+          <target state="translated">Diese apps können von Intune verwaltet werden, und Anwendungsrichtlinien auf sie angewendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unmanaged apps<ept id="p1">**</ept> - Apps that can be managed through policies and that have not been wrapped by Intune or that do not incorporate the Intune MAM SDK.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nicht verwaltete apps<ept id="p1">**</ept> - Apps, die über Richtlinien und, die verwaltet werden, können nicht von Intune umschlossen, oder führen Sie nicht das Intune MAM SDK integriert.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Application policies cannot be applied to these apps.</source>
+          <target state="translated">Anwendungsrichtlinien können diesen Apps angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Apple restrictions prohibit line-of-business and managed app store apps from being listed in the Company Portal app.</source>
+          <target state="translated">Apple Einschränkungen verhindern, dass Line-of-Business- und verwaltete app Store-apps in der Unternehmensportal-app aufgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To get around this issue, the apps tiles in the Company Portal app for iOS point users to different views in a single location (the Company Portal website) for all of their apps, as follows:</source>
+          <target state="translated">Um dieses Problem zu umgehen, zeigen Sie Kacheln in der Unternehmensportal-app für iOS-apps Benutzer auf verschiedenen Ansichten in einen einzelnen Speicherort (die Unternehmensportal-Website) für alle ihre apps wie folgt:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Company Apps<ept id="p1">**</ept> tile previously pointed to a list of all apps in the ALL tab of the <bpt id="p2">[</bpt>Company Portal website<ept id="p2">](http://portal.manage.microsoft.com)</ept>., and it will continue to work the same way.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Unternehmens-Apps<ept id="p1">**</ept> Kachel zuvor gezeigt wird, um eine Liste aller Apps in der Registerkarte alle die <bpt id="p2">[</bpt>Unternehmensportal-Website<ept id="p2">](http://portal.manage.microsoft.com)</ept>., und es wird weiterhin die gleiche Weise funktionieren.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The tile name has changed to <bpt id="p1">**</bpt>All Apps<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Kachel Name wurde geändert, um <bpt id="p1">**</bpt>Alle Apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Other Apps<ept id="p1">**</ept> tile previously pointed to a view, inside the Company Portal app, that lists all apps that Apple permits the Company Portal app to show.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>andere Apps<ept id="p1">**</ept> Kachel zeigt zuvor zu einer Ansicht, in der Unternehmensportal-app, in dem alle apps, die Apple Unternehmensportal-app aufgeführt anzeigen kann.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The tile name has changed to <bpt id="p1">**</bpt>Featured Apps<ept id="p1">**</ept>, and tapping the tile will take users to the FEATURED tab of the Company Portal website.</source>
+          <target state="translated">Der Kachel Name wurde geändert, um <bpt id="p1">**</bpt>Apps wichtige<ept id="p1">**</ept>, und tippen Sie auf die Kachel gelangen Benutzer auf die ausgewählte Registerkarte der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Categories<ept id="p1">**</ept> tile previously pointed to a view, inside the Company Portal app, that lists categories of apps.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Kategorien<ept id="p1">**</ept> Kachel zeigt zuvor zu einer Ansicht, in der Unternehmensportal-app, die Kategorien von apps auflistet.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The tile name has not changed, but it now points to the CATEGORIES tab of the Company Portal website.</source>
+          <target state="translated">Der Kachel-Name wurde nicht geändert, aber er verweist nun auf der Registerkarte Kategorien die Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can find updated screenshots <bpt id="p1">[</bpt>here<ept id="p1">](https://gallery.technet.microsoft.com/Improvements-in-how-iOS-d1104186)</ept>.</source>
+          <target state="translated">Sie finden die aktualisierten Screenshots <bpt id="p1">[</bpt>hier<ept id="p1">](https://gallery.technet.microsoft.com/Improvements-in-how-iOS-d1104186)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>How your Android users get their apps</source>
+          <target state="translated">Wie erhalten Sie Ihre Android-Benutzer ihre apps</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How your Windows users get their apps</source>
+          <target state="translated">Wie die Windows-Benutzer ihre apps abrufen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

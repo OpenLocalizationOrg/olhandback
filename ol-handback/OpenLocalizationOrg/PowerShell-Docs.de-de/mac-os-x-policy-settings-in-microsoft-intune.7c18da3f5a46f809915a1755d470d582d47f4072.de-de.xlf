@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6b010e49b4e581dad056aa6e8bb17123030f7b0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\mac-os-x-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dfce6df58f61fe36f8b0074cb6e29c7d6e6c4bfc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ef72249e826243e2fb8446de9e2f51a0737d92d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Mac OS X policy settings | Microsoft Intune</source>
+          <target state="translated">Mac OS X-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune supplies a range of built-in general settings that you can configure on Mac OS X devices.</source>
+          <target state="translated">Intune stellt einen Bereich von integrierten allgemeinen Einstellungen, die Sie auf Mac OS X-Geräte konfigurieren können.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Additionally, you can use the Apple Configurator tool to create custom settings that are not available from Intune.</source>
+          <target state="translated">Darüber hinaus können Sie Apple Configurator-Tool verwenden, um benutzerdefinierte Einstellungen zu erstellen, die nicht von Intune verfügbar sind.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Mac OS X configuration policy settings in Microsoft Intune</source>
+          <target state="translated">Mac OS X-Konfiguration der Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune supplies a range of built-in general settings that you can configure on Mac OS X devices.</source>
+          <target state="translated">Intune stellt einen Bereich von integrierten allgemeinen Einstellungen, die Sie auf Mac OS X-Geräte konfigurieren können.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Additionally, you can use the Apple Configurator tool to create custom settings that are not available from Intune.</source>
+          <target state="translated">Darüber hinaus können Sie Apple Configurator-Tool verwenden, um benutzerdefinierte Einstellungen zu erstellen, die nicht von Intune verfügbar sind.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>General configuration policy settings</source>
+          <target state="translated">Allgemeine Konfiguration</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>Mac OS X general configuration policy<ept id="p1">**</ept> to configure settings for:</source>
+          <target state="translated">Verwenden Sie die Microsoft Intune <bpt id="p1">**</bpt>Mac OS X-Konfigurationsrichtlinie<ept id="p1">**</ept> für konfigurieren:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device security settings<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gerätesicherheitseinstellungen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Choose from a list of predefined settings that let you control a range of features and functionality on the device.</source>
+          <target state="translated">Wählen Sie aus einer Liste mit vordefinierten Einstellungen, mit die Sie eine Reihe von Features und Funktionen auf dem Gerät steuern können.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant and noncompliant apps<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kompatible und nicht kompatible apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that are compliant or not compliant in your company.</source>
+          <target state="translated">Geben Sie eine Liste der apps, die in Ihrem Unternehmen nicht kompatibel sind.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Noncompliant Apps Report can be used to view the compliance of apps that you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).</source>
+          <target state="translated">Nicht kompatible Apps Bericht können die Konformität von apps, die Sie in der Liste Apps, die Benutzer installiert haben angegeben (können jedoch blockiert die Installation der app) verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the setting you are looking for does not appear in this list, you might be able to create it by using a Mac OS X custom policy that lets you import settings you created by using the Apple Configurator tool.</source>
+          <target state="translated">Wenn die gesuchte Einstellung nicht in dieser Liste angezeigt wird, können Sie möglicherweise erstellen mithilfe einer benutzerdefinierten Richtlinie von Mac OS X, mit dem Sie Einstellungen importieren, die Sie mit dem Apple-Konfigurator-Tool erstellt haben.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see "Custom policy settings" later in this topic.</source>
+          <target state="translated">Weitere Informationen finden Sie unter "Benutzerdefinierte-Richtlinieneinstellungen" weiter unten in diesem Thema.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Password settings</source>
+          <target state="translated">Kennworteinstellungen</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Require a password to unlock devices</source>
+          <target state="translated">Anfordern eines Kennworts zum Entsperren von Geräten</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specify whether the user must use a password to access their Mac computer.</source>
+          <target state="translated">Geben Sie an, ob der Benutzer ein Kennwort verwenden muss, um ihren Macintosh-Computer zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wichtig:<ept id="p1">**</ept> im Gegensatz zu iOS-Geräten auf Mac OS X-Geräten der Benutzer nicht sofort benachrichtigt, aktualisieren Sie ihr Kennwort ein, um diese Einstellung zu erfüllen.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="translated">Erforderlicher Kennworttyp</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specify whether the password can be <bpt id="p1">**</bpt>Numeric<ept id="p1">**</ept> only, or whether it must be <bpt id="p2">**</bpt>Alphanumeric<ept id="p2">**</ept> (contain letters and numbers).</source>
+          <target state="translated">Angeben, ob das Kennwort kann <bpt id="p1">**</bpt>numerischen<ept id="p1">**</ept> oder aber nur, ob muss es <bpt id="p2">**</bpt>alphanumerisch<ept id="p2">**</ept> (Buchstaben und Zahlen enthalten).</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> This setting is supported only on Mac OS X version 10.10.3 and later.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wichtig:<ept id="p1">**</ept> dieser Einstellung wird nur von Mac OS X, Version 10.10.3 und höher unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Number of complex characters required in password</source>
+          <target state="translated">Anzahl komplexer Zeichen im Kennwort</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Specify the number of complex characters required in the password (<bpt id="p1">**</bpt>0<ept id="p1">**</ept> to <bpt id="p2">**</bpt>4<ept id="p2">**</ept>).</source>
+          <target state="translated">Geben Sie die Anzahl komplexer Zeichen im Kennwort (<bpt id="p1">**</bpt>0<ept id="p1">**</ept>  <bpt id="p2">**</bpt>4<ept id="p2">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A complex character is a symbol, such as <bpt id="p1">**</bpt>?<ept id="p1">**</ept>.</source>
+          <target state="translated">Ein komplexer Zeichen ist ein Symbol, z. B. <bpt id="p1">**</bpt>?<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Minimum password length</source>
+          <target state="translated">Minimale Kennwortlänge</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specify the minimum length for the password (<bpt id="p1">**</bpt>4<ept id="p1">**</ept> to <bpt id="p2">**</bpt>14<ept id="p2">**</ept> characters).</source>
+          <target state="translated">Geben Sie die Mindestlänge für das Kennwort (<bpt id="p1">**</bpt>4<ept id="p1">**</ept> zu <bpt id="p2">**</bpt>14<ept id="p2">**</ept> Zeichen).</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords</source>
+          <target state="translated">Einfache Kennwörter zulassen</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Allow the use of simple passwords such as <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> or <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</source>
+          <target state="translated">Hiermit wird die Verwendung von einfachen Kennwörtern wie z. B. <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before password is required</source>
+          <target state="translated">Minuten Inaktivität vor erneuter Anforderung des Kennworts</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify how long the computer must be inactive before a password is required to unlock it.</source>
+          <target state="translated">Geben Sie an, wie lange der Computer inaktiv sein muss, bevor ein Kennwort zum Entsperren erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="translated">Kennwortablauf (Tage)</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specify how many days elapse before the user must change the password (<bpt id="p1">**</bpt>1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>255<ept id="p2">**</ept> days).</source>
+          <target state="translated">Angeben, wie viele Tage die verstreichen, bevor der Benutzer das Kennwort geändert werden muss (<bpt id="p1">**</bpt>1<ept id="p1">**</ept> zu <bpt id="p2">**</bpt>255<ept id="p2">**</ept> Tage).</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="translated">Kennwortverlauf speichern</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Prevent the user from using a previously used password.</source>
+          <target state="translated">Verhindern Sie, dass des Benutzers mit einem zuvor verwendete Kennwort.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When this is set, you can also set <bpt id="p1">**</bpt>Prevent reuse of previous passwords<ept id="p1">**</ept> to specify the number of previously used passwords that cannot be reused (<bpt id="p2">**</bpt>1<ept id="p2">**</ept> to <bpt id="p3">**</bpt>24<ept id="p3">**</ept>).</source>
+          <target state="translated">Wenn dies festgelegt ist, können Sie auch festlegen <bpt id="p1">**</bpt>erneute Verwendung früherer Kennwörter zu verhindern, dass<ept id="p1">**</ept> an die Anzahl der zuvor verwendeten Kennwörter ein, die erneut verwendet werden kann (<bpt id="p2">**</bpt>1<ept id="p2">**</ept> zu <bpt id="p3">**</bpt>24<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before screensaver activates</source>
+          <target state="translated">Minuten der Inaktivität, bevor der Bildschirmschoner aktiviert wird.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specify the length of time that the computer must be idle before the screensaver is activated.</source>
+          <target state="translated">Geben Sie die Länge der Zeit, die der Computer im Leerlauf sein muss, bevor der Bildschirmschoner aktiviert wird.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Settings for compliant and noncompliant apps</source>
+          <target state="translated">Einstellungen für kompatible und nicht kompatible apps</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Compliant <ph id="ph1">&amp;amp;</ph> Noncompliant Apps list for Mac OS X<ept id="p1">**</ept>, enable <bpt id="p2">**</bpt>Managed settings for devices<ept id="p2">**</ept>, and then specify a list of compliant or noncompliant apps by using the following information.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>kompatibel <ph id="ph1">&amp;amp;</ph> Liste nicht kompatibler Apps für Mac OS X<ept id="p1">**</ept>, aktivieren Sie <bpt id="p2">**</bpt>verwaltete Einstellungen für Geräte<ept id="p2">**</ept>, und geben Sie dann eine Liste kompatibler oder nicht kompatibler mit den folgenden Informationen.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A single policy can contain only a list of compliant apps or a list of noncompliant apps.</source>
+          <target state="translated">Eine einzelne Richtlinie kann nur eine Liste der kompatiblen apps oder eine Liste nicht kompatibler Apps enthalten.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You cannot specify both in the same policy.</source>
+          <target state="translated">Sie können nicht beide in derselben Richtlinie angeben.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Intune lets you report devices with noncompliant apps.</source>
+          <target state="translated">Intune können Sie Geräte mit nicht kompatiblen apps zu melden.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It does not block installation or remove noncompliant apps.</source>
+          <target state="translated">Es werden keine Installation blockieren oder Entfernen nicht kompatibler apps.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Report noncompliance when users install the listed apps</source>
+          <target state="translated">Melden Sie Nichtkompatibilität, wenn der Benutzer die aufgelisteten apps installieren</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Displays the Mac OS X apps that users are not allowed to install.</source>
+          <target state="translated">Zeigt die Mac OS X-apps, die Benutzer nicht installieren dürfen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If users install any of these apps, they will be reported in <bpt id="p1">**</bpt>Noncompliant Apps Reports<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Benutzer eine dieser Apps installieren, werden diese im gemeldet <bpt id="p1">**</bpt>Berichte zu nicht kompatiblen Apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Report noncompliance when users install apps which are not listed</source>
+          <target state="translated">Melden Sie Nichtkompatibilität, wenn der Benutzer nicht aufgelisteten apps installieren</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Displays the Mac OS X apps that users are allowed to install.</source>
+          <target state="translated">Zeigt die Mac OS X-apps, die Benutzer installieren dürfen.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If users install any other apps, they will be reported in <bpt id="p1">**</bpt>Noncompliant Apps Reports<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Benutzer keine anderen apps installieren, werden diese im gemeldet <bpt id="p1">**</bpt>Berichte zu nicht kompatiblen Apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Add an app to the selected list.</source>
+          <target state="translated">Fügen Sie eine app zur ausgewählten Liste hinzu.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specify a name of your choice, optionally the app publisher, and the bundle ID of the app.</source>
+          <target state="translated">Geben Sie einen Namen Ihrer Wahl, optional Herausgeber der app und der Paket-ID der Anwendung.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept> To find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tipp:<ept id="p1">**</ept> um die Paket-ID einer App zu finden, gehen Sie folgendermaßen vor, auf einem Macintosh-Computer, die die app installiert ist:</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Open the folder in which the app is installed (for example, <bpt id="p1">**</bpt>/Applications<ept id="p1">**</ept>).</source>
+          <target state="translated">Öffnen Sie den Ordner, in dem die Anwendung installiert ist (z. B. <bpt id="p1">**</bpt>/Programme<ept id="p1">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>App Name<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept><bpt id="p2">**</bpt>.app<ept id="p2">**</ept> bundle, and choose <bpt id="p3">**</bpt>Show Package Contents<ept id="p3">**</ept>.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">*</bpt><ph id="ph1">&amp;lt;</ph>Anwendungsname<ph id="ph2">&amp;gt;</ph><ept id="p1">*</ept><bpt id="p2">**</bpt>.app<ept id="p2">**</ept> bündeln, und wählen Sie <bpt id="p3">**</bpt>Anzeigen des Paketinhalts<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Info.plist<ept id="p1">**</ept> file.</source>
+          <target state="translated">Öffnen Sie die <bpt id="p1">**</bpt>Info.plist<ept id="p1">**</ept> Datei.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Check the value associated with the key <bpt id="p1">**</bpt>CFBundleIdentifier<ept id="p1">**</ept>.</source>
+          <target state="translated">Überprüfen Sie den Wert, der dem Schlüssel zugeordnete <bpt id="p1">**</bpt>CFBundleIdentifier<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The format for the bundle ID is <bpt id="p1">**</bpt>com.contoso.appname<ept id="p1">**</ept>.</source>
+          <target state="translated">Das Format für das Bündel-ID ist <bpt id="p1">**</bpt>com.contoso.appname<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Import Apps</source>
+          <target state="translated">Importieren von Apps</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Import a list of apps that you have specified in a comma-separated values file.</source>
+          <target state="translated">Importieren Sie eine Liste von apps, die Sie in eine CSV-Datei angegeben haben.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the file, use this format: app name, publisher, app bundle ID.</source>
+          <target state="translated">Verwenden Sie in der Datei Folgendes Format: Anwendungsname, Herausgeber und app-Bundle-ID</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated">Bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Edit the name, publisher, and app bundle ID of the selected app.</source>
+          <target state="translated">Bearbeiten Sie Name, Herausgeber und app-Bundle-ID der ausgewählten app.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">„Löschen“</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Delete the selected app from the list.</source>
+          <target state="translated">Löschen Sie die ausgewählte app aus der Liste aus.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about Intune reports, see <bpt id="p1">[</bpt>Understand Microsoft Intune operations by using reports<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zu Intune-Berichten finden Sie unter <bpt id="p1">[</bpt>verstehen, Microsoft Intune-Vorgänge mithilfe von Berichten<ept id="p1">](understand-microsoft-intune-operations-by-using-reports.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When a Mac OS X device is in sleep mode, policies and profiles cannot be delivered or inventoried.</source>
+          <target state="translated">Wenn ein Mac OS X-Gerät im Energiesparmodus befindet, können nicht Richtlinien und Profile übermittelt oder inventarisiert.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>As a result, the Intune console might temporarily display the status <bpt id="p1">**</bpt>Policy settings in error<ept id="p1">**</ept> until the next time the device wakes from sleep mode.</source>
+          <target state="translated">Die Intune-Konsole kann daher vorübergehend Anzeigen des Status <bpt id="p1">**</bpt>Richtlinien in Fehler<ept id="p1">**</ept> erst beim nächsten Öffnen des Geräts aus dem Ruhezustand reaktiviert.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Monitor compliant and noncompliant apps</source>
+          <target state="translated">Überwachen Sie kompatible und nicht kompatible apps</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">**</bpt>Noncompliant Apps Reports<ept id="p1">**</ept> to view the compliance of apps that you specified.</source>
+          <target state="translated">Verwendung <bpt id="p1">**</bpt>Berichte zu nicht kompatiblen Apps<ept id="p1">**</ept> die Konformität von apps, die Sie angegeben haben.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To run a report</source>
+          <target state="translated">So führen Sie einen Bericht aus</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Noncompliant Apps Reports<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>nicht kompatible Apps-Berichte<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Select the device groups that you want to check, select whether you want to check for compliant apps, noncompliant apps, or both, and then choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die Gerätegruppen aus, die Sie überprüfen möchten, wählen Sie, ob Sie die Suche nach kompatiblen und/oder nicht kompatiblen apps, und wählen Sie dann möchten <bpt id="p1">**</bpt>Bericht anzeigen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Mac OS X custom policy settings in Microsoft Intune</source>
+          <target state="translated">Mac OS X benutzerdefinierte Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>Mac OS X custom configuration policy<ept id="p1">**</ept> to deploy settings that you created by using the <bpt id="p2">[</bpt>Apple Configurator tool<ept id="p2">](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)</ept> to Mac OS X devices.</source>
+          <target state="translated">Verwenden Sie die Microsoft Intune <bpt id="p1">**</bpt>benutzerdefinierte Mac OS X-Konfigurationsrichtlinie<ept id="p1">**</ept> Einstellungen bereitstellen, das Sie erstellt die <bpt id="p2">[</bpt>Apple Configurator-Tool<ept id="p2">](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)</ept> für Mac OS X-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This tool lets you create many settings that control the operation of these devices and export them to a configuration profile.</source>
+          <target state="translated">Mit diesem Tool können Sie zahlreiche Einstellungen erstellen, die diese Geräte zu steuern und in ein Konfigurationsprofil exportieren.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can then import this configuration profile into an Intune Mac OS X custom policy and deploy the settings to users and devices in your organization.</source>
+          <target state="translated">Sie können dieses Konfigurationsprofil in einer benutzerdefinierten Intune Mac OS X-Richtlinie importieren und die Einstellungen für Benutzer und Geräte in Ihrer Organisation bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This capability allows you to deploy Mac OS X settings that are not configurable with the Intune Mac OS X general configuration policy.</source>
+          <target state="translated">Diese Funktion können Sie Mac OS X-Einstellungen bereitzustellen, die nicht mit dem Intune Mac OS X-Konfigurationsrichtlinie konfigurierbar sind.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Before you start, you must have installed the Apple Configurator and created a configuration file that contains the settings you want to deploy to users or devices.</source>
+          <target state="translated">Bevor Sie beginnen, müssen Sie Apple Configurator installiert und erstellt eine Konfigurationsdatei, die die Einstellungen enthält, die Sie für Benutzer oder Geräte bereitstellen möchten.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You can download and learn about the Apple Configurator from <bpt id="p1">[</bpt>the Mac App Store<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)</ept>.</source>
+          <target state="translated">Können Sie herunterladen und erfahren Sie mehr über den Apple Configurator <bpt id="p1">[</bpt>Mac App Store<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Intune does not report the compliance of individual settings in a Mac OS X custom policy.</source>
+          <target state="translated">Intune meldet die Kompatibilität der einzelnen Einstellungen in einer benutzerdefinierten Richtlinie für Mac OS X nicht.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>However, the overall compliance of the policy is reported.</source>
+          <target state="translated">Allerdings wird die gesamtkompatibilität der Richtlinie gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>General settings</source>
+          <target state="translated">Allgemeine Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for the Mac OS X custom policy to help you identify it in the Intune console.</source>
+          <target state="translated">Geben Sie einen eindeutigen Namen für die benutzerdefinierte Mac OS X-Richtlinie können Sie es in der Intune-Konsole zu identifizieren.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Provide a description that gives an overview of the Mac OS X custom policy and other relevant information that helps you to locate it.</source>
+          <target state="translated">Geben Sie eine Beschreibung, die bietet eine Übersicht über die benutzerdefinierte Richtlinie für Mac OS X und andere relevante Informationen, mit denen Sie danach suchen kann.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Custom settings</source>
+          <target state="translated">Benutzerdefinierte Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Custom configuration profile name (displayed to users)</source>
+          <target state="translated">Benutzerdefinierter Name des Konfigurationsprofils (wird Benutzern angezeigt)</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Provide a name for the policy as it will be displayed on the device and in Intune policy reports.</source>
+          <target state="translated">Geben Sie einen Namen für die Richtlinie, wie er auf dem Gerät und in Berichten Intune angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Configuration profile file</source>
+          <target state="translated">Profil-Konfigurationsdatei</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>, and then browse to the configuration profile that you created by using the Apple Configurator.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>, und navigieren Sie zu der Sie mit Apple Configurator erstellte Konfigurationsprofil.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept> See "How to create a configuration profile file" in this topic for help in creating the configuration profile.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tipp:<ept id="p1">**</ept> finden Sie unter "Vorgehensweise beim Erstellen einer Konfigurationsdatei für das Profil" in diesem Thema, um Hilfe bei der beim Erstellen des Konfigurationsprofils.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Configuration profile details</source>
+          <target state="translated">Details zum Konfigurationsprofil</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Display the XML code for the configuration profile that you imported.</source>
+          <target state="translated">Anzeigen des XML-Codes für die von Ihnen importierten Konfigurationsprofils an.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>How to create a configuration profile file</source>
+          <target state="translated">Gewusst wie: Erstellen einer Konfigurationsdatei für das Profil</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can create the configuration profile file used by the custom policy in two ways:</source>
+          <target state="translated">Sie können die Profil-Konfigurationsdatei verwendet, die für die benutzerdefinierte Richtlinie auf zwei Arten erstellen:</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Export the file (with the extension <bpt id="p1">**</bpt>.mobileconfig<ept id="p1">**</ept>) from the Apple Configurator tool.</source>
+          <target state="translated">Exportieren Sie die Datei (mit der Erweiterung <bpt id="p1">**</bpt>.mobileconfig<ept id="p1">**</ept>) aus dem Apple Configurator-Tool.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Author the file yourself by using the appropriate schema from the <bpt id="p1">[</bpt>Apple Configuration Profile Key Reference<ept id="p1">](https://developer.apple.com/library/ios/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html)</ept>.</source>
+          <target state="translated">Die Datei mit dem entsprechenden Schema aus erstellen die <bpt id="p1">[</bpt>Apple Schlüssel Konfigurationsprofilreferenz<ept id="p1">](https://developer.apple.com/library/ios/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

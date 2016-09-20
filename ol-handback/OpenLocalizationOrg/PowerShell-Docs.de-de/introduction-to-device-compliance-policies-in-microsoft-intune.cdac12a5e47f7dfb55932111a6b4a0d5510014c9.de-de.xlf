@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">476f44df54fbea5c0fcfe8cf0e3ce4a61bd7c0a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\introduction-to-device-compliance-policies-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bcde458db17093b71ac3f99d94c23ebf2820fe47</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43793752d2d1fb697c956b0b0cff1ae9651b31e4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Device compliance policies | Microsoft Intune</source>
+          <target state="translated">Geräte-Compliance-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic explains the concepts you need to understand what device compliance policies are and how they work.</source>
+          <target state="translated">Dieses Thema erklärt die Konzepte, die müssen Sie verstehen, welche Geräte Compliance-Richtlinien sind und wie sie funktionieren.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Device compliance policies in Microsoft Intune</source>
+          <target state="translated">Geräte-Compliance-Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is a compliance policy?</source>
+          <target state="translated">Was ist eine Konformitätsrichtlinie?</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To protect company data, you need to make sure that the devices used to access company apps and data, comply with certain rules like using a PIN to access the device, and encryption of data stored on the device.</source>
+          <target state="translated">Um Unternehmensdaten zu schützen, müssen Sie sicherstellen, dass die Geräte verwendet, um Zugriff auf Unternehmens-apps und Daten entsprechen bestimmte Regeln wie die Verwendung einer PIN auf das Gerät und die Verschlüsselung auf dem Gerät gespeicherten Daten zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A set of such rules is referred to as a compliance policy.</source>
+          <target state="translated">Solche Regeln ist eine Konformitätsrichtlinie genannt.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How should I use compliance policies?</source>
+          <target state="translated">Wie verwende ich die Compliance-Richtlinien?</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use compliance policies with conditional access policies to only allow devices that comply with compliance policy rules to access email, and other services.</source>
+          <target state="translated">Sie können Compliance-Richtlinien mit Richtlinien für bedingten Zugriff nur auf Geräte zulassen, die Einhaltung von Compliance-Richtlinienregeln Zugriff auf e-Mail und andere Dienste.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Read the <bpt id="p1">[</bpt>restrict access to email and O365 services<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article to understand how the two policies can be used together.</source>
+          <target state="translated">Lesen der <bpt id="p1">[</bpt>Einschränken des Zugriffs auf e-Mail und Office 365-Diensten<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> Artikel zu verstehen, wie die beiden Richtlinien zusammen verwendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can also use compliance policies independently of conditional access.</source>
+          <target state="translated">Sie können auch unabhängig von bedingten Zugriffsrechten Compliance-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When used independently, the targeted devices are evaluated and reported with their compliance status.</source>
+          <target state="translated">Wenn unabhängig verwendet, werden die Zielgeräte ausgewertet und mit Kompatibilitätsstatus gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, you might want to report about how many devices are not encrypted, or which devices are jailbroken or rooted.</source>
+          <target state="translated">Beispielsweise empfiehlt es sich, über wie viele Geräte werden nicht verschlüsselt oder welche Geräte sind jailbreak oder Rooting Bericht.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, when used independently, no access restrictions to company resources are in place.</source>
+          <target state="translated">Allerdings sind unabhängig voneinander verwendet, uneingeschränkt Zugriff auf Unternehmensressourcen vorhanden.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You deploy compliance policies to users.</source>
+          <target state="translated">Sie stellen Konformitätsrichtlinien für Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When a compliance policy is deployed to a user, the user's devices are checked for compliance.</source>
+          <target state="translated">Wenn eine Konformitätsrichtlinie für einen Benutzer bereitgestellt wird, werden Geräte des Benutzers überprüft.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The following table lists the device types supported by compliance policies and how noncompliant settings are managed when the policy is used with a conditional access policy.</source>
+          <target state="translated">Die folgende Tabelle enthält die unterstützten Compliance-Richtlinien und wie nicht konforme Einstellungen gehandhabt werden, wenn die Richtlinie mit einer bedingten Zugriffsrichtlinie verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Policy Setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and later</source>
+          <target state="translated">Windows 8.1 und höher</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 and later</source>
+          <target state="translated">Windows Phone 8.1 und höher</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="translated">iOS 8.0 und höher</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Android 4.0 and later</source>
+          <target state="translated">Android 4,0 und höher</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target state="translated">Samsung KNOX Standard 4.0 und höher</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>PIN or Password Configuration</source>
+          <target state="translated">PIN oder Kennwort-Konfiguration</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Remediated</source>
+          <target state="translated">Wiederhergestellt</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Remediated</source>
+          <target state="translated">Wiederhergestellt</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Remediated</source>
+          <target state="translated">Wiederhergestellt</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Device encryption</source>
+          <target state="translated">Geräteverschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Remediated</source>
+          <target state="translated">Wiederhergestellt</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Remediated (by setting PIN)</source>
+          <target state="translated">Wiederhergestellt (durch Festlegen der PIN)</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Jailbroken or rooted device</source>
+          <target state="translated">Nutzungsbeschränkungen</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Quarantined (not a setting)</source>
+          <target state="translated">Unter Quarantäne gestellt (keine Einstellung)</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Quarantined (not a setting)</source>
+          <target state="translated">Unter Quarantäne gestellt (keine Einstellung)</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Email profile</source>
+          <target state="translated">E-Mail-Profil</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Minimum OS version</source>
+          <target state="translated">Minimale Betriebssystemversion</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Maximum OS version</source>
+          <target state="translated">Maximale Version des Betriebssystems</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Quarantined</source>
+          <target state="translated">Isoliert</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Windows health attestation</source>
+          <target state="translated">Windows-Bescheinigung</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Windows 10 and Windows 10 Mobile are Quarantined.</source>
+          <target state="translated">Windows 10 und Windows 10 Mobile isoliert werden.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Setting is not applicable to Windows 8.1</source>
+          <target state="translated">Die Einstellung gilt nicht für Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>N/A</source>
+          <target state="translated">Nicht zutreffend</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remediated<ept id="p1">**</ept> = Compliance is enforced by the device operating system (for example, the user is forced to set a PIN).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wiederhergestellt<ept id="p1">**</ept> = Konformität wird vom Betriebssystem Geräts erzwungen (werden z. B. der Benutzer gezwungen, eine PIN festzulegen).</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>There is never a case when the setting is noncompliant.</source>
+          <target state="translated">Es gibt keinen Fall, wenn die Einstellung nicht konform ist.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Quarantined<ept id="p1">**</ept> = The device operating system does not enforce compliance (for example, Android devices do not force the user to encrypt the device).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Isolierte<ept id="p1">**</ept> Gerät = Betriebssystem erzwingt keine Konformität (z. B. zwingen Android-Geräte nicht den Benutzer das Gerät zu verschlüsseln).</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When the devices is not compliant, the following actions take place:</source>
+          <target state="translated">Wenn die Geräte nicht kompatibel ist, werden die folgenden Aktionen ausgeführt:</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The device will be blocked if the user is targeted by a conditional access policy.</source>
+          <target state="translated">Das Gerät wird blockiert werden, wenn der Benutzer eine bedingte Zugriffsrichtlinie zugewiesen wird.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The company portal will notify the user about any compliance issues.</source>
+          <target state="translated">Das Unternehmensportal benachrichtigt den Benutzer bezüglich aller Konformitätsprobleme.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Create a device compliance policy</source>
+          <target state="translated">Erstellen Sie eine Konformitätsrichtlinie Gerät</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a device compliance policy</source>
+          <target state="translated">Bereitstellen Sie und überwachen Sie der Konformitätsrichtlinie Gerät</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Restrict access to email and O365 services</source>
+          <target state="translated">Einschränken des Zugriffs auf e-Mail und Office 365-Diensten</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

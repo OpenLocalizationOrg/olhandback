@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bcc70ba6451f13f80319229b191b6feb2d5664e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c3d79a9b436036445db22a2d28180dfb450145d3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b084c420d5709db755fb0da1c45d0a0727d479e1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Endpoint Protection for Windows PCs| Microsoft Intune</source>
+          <target state="translated">Endpointprotection für Windows-PCs | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Secure your managed computers with Endpoint Protection, which provides real-time protection against malware threats.</source>
+          <target state="translated">Sichern Sie verwaltete Computer mit Endpoint Protection bietet Echtzeitschutz gegen malwarebedrohungen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Help secure Windows PCs with Endpoint Protection for Microsoft Intune</source>
+          <target state="translated">Sichere Windows-PCs mit Endpoint Protection für Microsoft Intune-Hilfe</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can help you to secure your managed computers with Endpoint Protection, which provides real-time protection against malware threats, keeps malware definitions up-to date, and automatically scans computers.</source>
+          <target state="translated">Microsoft Intune können Sie von Ihrer verwalteten Computer mit Endpoint Protection schützen Echtzeitschutz gegen malwarebedrohungen geboten, Malwaredefinitionen auf dem aktuellen gehalten und Computer werden automatisch überprüft.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Endpoint Protection also provides tools that help you to manage and monitor malware attacks.</source>
+          <target state="translated">Endpointprotection bietet auch Tools, mit denen Sie zum Verwalten und Überwachen von Malware-Angriffe.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you have not yet installed the Intune client on your computers, see <bpt id="p1">[</bpt>Install the Windows PC client with Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Wenn Sie den Intune-Client noch nicht auf Ihren Computern installiert haben, finden Sie unter <bpt id="p1">[</bpt>Installieren des Windows-PC-Clients mit Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the information in the following sections to help you configure, deploy, and monitor Endpoint Protection.</source>
+          <target state="translated">Verwenden Sie die Informationen in den folgenden Abschnitten können Sie konfigurieren, bereitstellen und Überwachen von Endpoint Protection.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Choose when to use Endpoint Protection</source>
+          <target state="translated">Wählen Sie für die Verwendung von Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As an IT admin, one of your top priorities is keeping the computers that you manage free of malware and viruses.</source>
+          <target state="translated">Als IT-Administrator, eine Ihrer wichtigsten Aufgaben Computer halten, die Sie verwalten frei von Malware und Viren.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Before you deploy Intune to Windows PCs in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:</source>
+          <target state="translated">Bevor Sie Intune für Windows-PCs in Ihrer Organisation bereitstellen, sollten Sie entscheiden, wie Sie Ihre Computer schützen, indem Sie eine der folgenden Optionen auswählen und konfigurieren die zugehörigen Richtlinieneinstellungen:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You want to:</source>
+          <target state="translated">Sie möchten:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Endpoint Protection policy settings</source>
+          <target state="translated">Richtlinieneinstellungen für Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use Microsoft Intune Endpoint Protection only if no third-party endpoint protection application is installed.</source>
+          <target state="translated">Verwenden Sie Microsoft Intune Endpoint Protection nur dann, wenn keine endpunktschutzanwendung eines Drittanbieters installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use Microsoft Intune Endpoint Protection on all computers where a third-party endpoint protection application is not installed.</source>
+          <target state="translated">Sie können Microsoft Intune Endpoint Protection auf allen Computern, auf dem endpunktschutzanwendung eines Drittanbieters nicht installiert.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection = <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Endpointprotection installieren = <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Enable Endpoint Protection = <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Endpointprotection aktivieren = <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed = <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Endpoint Protection installieren, auch wenn eine endpunktschutzanwendung von Drittanbietern installiert ist = <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If a third-party endpoint protection application is detected, Microsoft Intune Endpoint Protection is not installed, and is uninstalled if it was installed previously.</source>
+          <target state="translated">Wenn die endpunktschutzanwendung eines Drittanbieters erkannt wird, wird Microsoft Intune Endpoint Protection ist nicht installiert und deinstalliert wird, wenn es zuvor installiert war.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Use Microsoft Intune Endpoint Protection, even if a third-party endpoint protection application is installed.</source>
+          <target state="translated">Verwenden Sie Microsoft Intune Endpoint Protection, auch wenn eine endpunktschutzanwendung von Drittanbietern installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>With this approach, you will be running Microsoft Intune Endpoint Protection and the third-party endpoint protection application simultaneously.</source>
+          <target state="translated">Bei diesem Ansatz können Sie Microsoft Intune Endpoint Protection und die endpunktschutzanwendung von Drittanbietern gleichzeitig ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Because of potential performance issues, we don't recommend this configuration.</source>
+          <target state="translated">Aufgrund möglicher Leistungsprobleme empfohlen nicht diese Konfiguration.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection = <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Endpointprotection installieren = <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Enable Endpoint Protection = <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Endpointprotection aktivieren = <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed = <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Endpoint Protection installieren, auch wenn eine endpunktschutzanwendung von Drittanbietern installiert ist = <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use when:</source>
+          <target state="translated">Zu verwenden in folgenden Fällen:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   You want to switch to using Microsoft Intune Endpoint Protection.</source>
+          <target state="translated">-Wechseln Sie zur Microsoft Intune Endpoint Protection verwenden möchten.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   You deploy a new client that will use Microsoft Intune Endpoint Protection.</source>
+          <target state="translated">– Bereitstellung ein neues Clients, das Microsoft Intune Endpoint Protection verwenden.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   You upgrade any client that will use Microsoft Intune Endpoint Protection.</source>
+          <target state="translated">-Sie aktualisieren einen Client, Microsoft Intune Endpoint Protection.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Use Intune without Microsoft Intune Endpoint Protection.</source>
+          <target state="translated">Verwenden Sie Intune ohne Microsoft Intune Endpoint Protection nicht.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Instead, you will rely on a third-party endpoint protection application.</source>
+          <target state="translated">Stattdessen greifen Sie auf die Endpunktschutzanwendung eines Drittanbieters zurück.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection = <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Endpointprotection installieren = <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you are not using a third-party endpoint protection application, this configuration is not recommended, because it could expose your organization’s computers to malware or other attacks.</source>
+          <target state="translated">Wenn Sie keine endpunktschutzanwendung eines Drittanbieters, verwenden diese Konfiguration wird nicht empfohlen, da es die Computer Ihres Unternehmens zu Malware oder andere Angriffe anfällig.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune Endpoint Protection is not installed, and is uninstalled if it was installed previously.</source>
+          <target state="translated">Microsoft Intune Endpoint Protection nicht installiert und deinstalliert wird, wenn es zuvor installiert war.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To switch from your current endpoint protection application to Microsoft Intune Endpoint Protection, do the following:</source>
+          <target state="translated">Führen Sie folgende Schritte aus, um von Ihrer aktuellen endpunktschutzanwendung zu Microsoft Intune Endpoint Protection zu wechseln:</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Leave your current endpoint protection application running while you deploy the Intune client software to those computers.</source>
+          <target state="translated">Lassen Sie Ihre aktuellen Endpoint Protection-Anwendung ausgeführt, während Sie die Intune-Clientsoftware auf den Computern bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Confirm that Microsoft Intune Endpoint Protection is installed and is helping to secure client computers.</source>
+          <target state="translated">Bestätigen Sie, dass Microsoft Intune Endpoint Protection installiert ist und Absichern Clientcomputer verwendet.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Remove the third-party endpoint protection software by:</source>
+          <target state="translated">Entfernen der Drittanbieter-Endpoint Protection-Clientsoftware von an:</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Using Intune software distribution to deploy a software removal tool that's provided by the manufacturer of the third-party endpoint protection application.</source>
+          <target state="translated">Mithilfe von Intune-softwareverteilung ein Tool zum Entfernen von Software bereitstellen, die vom Hersteller des Drittanbieter-Endpoint Protection-Anwendung bereitgestellt wird.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Deploy apps with Microsoft Intune<ept id="p1">](deploy-apps.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Bereitstellen von apps mit Microsoft Intune<ept id="p1">](deploy-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Removing the third-party endpoint protection application manually.</source>
+          <target state="translated">Entfernen Sie die von einem Drittanbieter stammende Endpunktschutzanwendung manuell.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Intune will not automatically uninstall third-party endpoint protection applications.</source>
+          <target state="translated">Intune wird endpunktschutzanwendungen von Drittanbietern nicht automatisch deinstalliert.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Configure Microsoft Intune Endpoint Protection</source>
+          <target state="translated">Konfigurieren von Microsoft Intune Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use the following steps to help you configure Endpoint Protection for Microsoft Intune.</source>
+          <target state="translated">Verwenden Sie die folgenden Schritte können Sie für Microsoft Intune Endpoint Protection konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Richtlinie hinzufügen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Computer Management<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Microsoft Intune Agent Settings<ept id="p2">**</ept>.</source>
+          <target state="translated">Erweitern Sie <bpt id="p1">**</bpt>Computerverwaltung<ept id="p1">**</ept>, und wählen Sie dann <bpt id="p2">**</bpt>Microsoft Intune-Agenteinstellungen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create and Deploy a Custom Policy<ept id="p1">**</ept> to specify a policy for Endpoint Protection settings.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Erstellen und Bereitstellen einer benutzerdefinierten Richtlinie<ept id="p1">**</ept> eine Richtlinie für Endpoint Protection-Einstellungen angeben.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Then choose the <bpt id="p1">**</bpt>Create Policy<ept id="p1">**</ept> button.</source>
+          <target state="translated">Wählen Sie dann die <bpt id="p1">**</bpt>Richtlinie erstellen<ept id="p1">**</ept> Schaltfläche.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can use the recommended settings or customize the settings.</source>
+          <target state="translated">Sie können die empfohlenen Einstellungen verwenden oder die Einstellungen anpassen.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you need more information about how to create and deploy policies, see the topic <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</source>
+          <target state="translated">Wenn Sie weitere Informationen zum Erstellen und Bereitstellen von Richtlinien benötigen, finden Sie im Thema <bpt id="p1">[</bpt>Allgemeine Windows-PC-Verwaltungsaufgaben mit dem Microsoft Intune-computerclient<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Endpoint Protection settings</source>
+          <target state="translated">Endpoint Protection-Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can view the deployed Endpoint Protection policy on the <bpt id="p1">**</bpt>All Policies<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Sie können die bereitgestellte Endpoint Protection-Richtlinie anzeigen, auf die <bpt id="p1">**</bpt>alle Richtlinien<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specify Endpoint Protection service settings</source>
+          <target state="translated">Geben Sie Einstellungen für Endpoint Protection service</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection</source>
+          <target state="translated">Endpoint Protection installieren</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to install Endpoint Protection on managed computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Endpoint Protection auf verwalteten Computern zu installieren.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If a third-party endpoint protection application is detected during installation, Endpoint Protection will not be installed unless the setting <bpt id="p1">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+          <target state="translated">Wenn während der Installation die endpunktschutzanwendung eines Drittanbieters erkannt wird, Endpoint Protection nicht installiert werden, wenn die Einstellung <bpt id="p1">**</bpt>Installieren Endpoint Protection auch, wenn eine endpunktschutzanwendung von Drittanbietern installiert ist<ept id="p1">**</ept> Wert <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Intune Endpoint Protection is installed on managed computers by default.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> Intune Endpoint Protection auf verwalteten Computern standardmäßig installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you don’t want to install Endpoint Protection on your managed computers, you must explicitly set this policy to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie Endpoint Protection auf verwalteten Computern installieren möchten, müssen Sie diese Richtlinie explizit festlegen, um <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If Endpoint Protection was previously installed and the policy is updated to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, then the Endpoint Protection client will be uninstalled.</source>
+          <target state="translated">Wenn Endpoint Protection zuvor installiert war und die Richtlinie, um aktualisiert wird <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept>, und klicken Sie dann die Endpoint Protection-Client deinstalliert wird.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed</source>
+          <target state="translated">Installieren Sie Endpoint Protection, auch wenn eine endpunktschutzanwendung von Drittanbietern installiert ist</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to install Microsoft Intune Endpoint Protection even if a third-party endpoint protection application is detected.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Microsoft Intune Endpoint Protection installieren, selbst wenn die endpunktschutzanwendung eines Drittanbieters erkannt wird.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enable Endpoint Protection</source>
+          <target state="translated">Aktivieren von Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to enable Microsoft Intune Endpoint Protection on computers that have the Endpoint Protection client.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Microsoft Intune Endpoint Protection auf Computern aktivieren, die Endpoint Protection-Clients verfügen.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, and Microsoft Intune Endpoint Protection is installed, the Endpoint Protection client user interface is not displayed to users, and all protection features are inactive.</source>
+          <target state="translated">Wenn auf festgelegt <bpt id="p1">**</bpt>keine<ept id="p1">**</ept>, Microsoft Intune Endpoint Protection installiert ist, die Endpoint Protection-Clientbenutzeroberfläche wird Benutzern nicht angezeigt und alle Schutzfunktionen sind inaktiv.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Disable Client UI</source>
+          <target state="translated">Clientbenutzeroberfläche deaktivieren</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to hide the Microsoft Intune Endpoint Protection client user interface from users (requires a client computer restart to take effect).</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Ausblenden die Microsoft Intune Endpoint Protection-Client-Benutzeroberfläche von Benutzern (erfordert einen Neustart des Clientcomputers wirksam wird).</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed</source>
+          <target state="translated">Installieren Sie Endpoint Protection, auch wenn eine endpunktschutzanwendung von Drittanbietern installiert ist</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to force the installation of Microsoft Intune Endpoint Protection, even if a third-party endpoint protection application is detected.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> um die Installation von Microsoft Intune Endpoint Protection zu erzwingen, auch wenn die endpunktschutzanwendung eines Drittanbieters erkannt wird.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Create a system restore point before malware remediation</source>
+          <target state="translated">Vor der Entfernung von Malware einen Systemwiederherstellungspunkt erstellen</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to create a Windows System Restore Point before any malware remediation begins.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> ein Windows-Systemwiederherstellungspunkt zu erstellen, bevor alle Schadsoftware beginnt.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Track resolved malware (days)</source>
+          <target state="translated">Behandelte Malware nachverfolgen (Tage)</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enables Endpoint Protection to track resolved malware for a specified time so that you can manually check previously infected computers.</source>
+          <target state="translated">Aktiviert Endpoint Protection aufgelöste Schadsoftware für einen bestimmten Zeitraum verfolgen, damit Sie vormals infizierte verwaltete Computer manuell überprüfen können.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can specify a value from 0 to 30 days.</source>
+          <target state="translated">Sie können einen Wert zwischen 0 und 30 Tagen angeben.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>7 days<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>7 Tage<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If you have set the policy values for the settings <bpt id="p1">**</bpt>Install Endpoint Protection<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Enable Endpoint Protection<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>, and the policy value for <bpt id="p4">**</bpt>Install Endpoint Protection even if a third-party endpoint protection application is installed<ept id="p4">**</ept> to <bpt id="p5">**</bpt>No<ept id="p5">**</ept>, Microsoft Intune Endpoint Protection detects that another endpoint protection application is installed.</source>
+          <target state="translated">Wenn Sie die Richtlinienwerte für die Einstellungen festgelegt haben <bpt id="p1">**</bpt>Endpoint Protection installieren<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Endpoint Protection aktivieren<ept id="p2">**</ept> zu <bpt id="p3">**</bpt>Ja<ept id="p3">**</ept>, und den Richtlinienwert für <bpt id="p4">**</bpt>Installieren Endpoint Protection auch, wenn eine endpunktschutzanwendung von Drittanbietern installiert ist<ept id="p4">**</ept> zu <bpt id="p5">**</bpt>keine<ept id="p5">**</ept>, Microsoft Intune Endpoint Protection erkannt wird, dass eine andere endpunktschutzanwendung installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This means that Endpoint Protection won't be installed, or will be uninstalled if it is already present.</source>
+          <target state="translated">Dies bedeutet, dass Endpoint Protection nicht installiert oder deinstalliert werden, wenn es bereits vorhanden ist.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>However, Microsoft Intune Endpoint Protection does report about the health of the other endpoint protection application in Intune.</source>
+          <target state="translated">Microsoft Intune Endpoint Protection meldet jedoch über die Integrität der anderen endpunktschutzanwendung in Intune.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Microsoft Security Essentials alerts you with real-time protection when potential threats such as viruses and spyware are trying to install themselves or run on your PC.</source>
+          <target state="translated">Microsoft Security Essentials benachrichtigt Echtzeitschutz Wenn potenzielle Bedrohungen wie Viren und Spyware versuchen, auf Ihren PC selbst installiert oder ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The moment this happens, you’ll see a message in the notification area to the right side of the taskbar.</source>
+          <target state="translated">Zeitpunkt in diesem Fall wird eine Meldung im Infobereich der Taskleiste auf die rechte Seite der Taskleiste angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specify real-time protection settings</source>
+          <target state="translated">Echtzeitschutzeinstellungen angeben</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Enable real-time protection</source>
+          <target state="translated">Echtzeitschutz aktivieren</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Enables monitoring and scanning of all files and applications that are accessed.</source>
+          <target state="translated">Hiermit werden Überwachung und Überprüfung aller Dateien und Anwendungen aktiviert, auf die zugegriffen wird.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>It also blocks any malicious files and applications before they can run on computers.</source>
+          <target state="translated">Zudem werden schädliche Dateien oder Anwendungen blockiert, bevor sie auf Computern ausgeführt werden können.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Scan all downloads</source>
+          <target state="translated">Alle Downloads werden überprüft</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enables the scanning of all files and attachments that are downloaded from the Internet to computers.</source>
+          <target state="translated">Hiermit wird die Überprüfung aller Dateien und Anhänge aktiviert, die aus dem Internet auf Clientcomputer heruntergeladen werden.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Monitor file and program activity on computers</source>
+          <target state="translated">Datei- und Programmaktivität auf Computern überwachen</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Enables the monitoring of incoming and outgoing files, and program activity on computers.</source>
+          <target state="translated">Ermöglicht die Überwachung eingehender und ausgehender Dateien sowie von Programmaktivitäten auf Computern.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>With this setting, Endpoint Protection can monitor when files and programs start to run and alert you about any actions they perform or actions that are taken on them.</source>
+          <target state="translated">Mit dieser Einstellung wird überwacht Endpoint Protection, wann Dateien und Programmen beginnt, ausführen und informiert Sie über die Aktionen, die sie durchführen bzw. Aktionen, die auf ihnen ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Files monitored</source>
+          <target state="translated">Überwachte Dateien</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Enables you to choose if only incoming, only outgoing, or all files are monitored.</source>
+          <target state="translated">Ermöglicht es Ihnen, auszuwählen, wenn nur eingehende, nur ausgehende oder alle Dateien überwacht werden.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Monitor all files<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Alle Dateien überwachen<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enable behavior monitoring</source>
+          <target state="translated">Verhaltensüberwachung aktivieren</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Enables Microsoft Intune Endpoint Protection to check for certain patterns of suspicious activity on client computers.</source>
+          <target state="translated">Ermöglicht Microsoft Intune Endpoint Protection auf bestimmte verdächtige Aktivitäten auf den Clientcomputern geprüft.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Enable Network Inspection System</source>
+          <target state="translated">Netzwerkinspektionssystem aktivieren</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Enables Network Inspection System (NIS) on client computers.</source>
+          <target state="translated">Hiermit wird das Netzwerkinspektionssystem (NIS) auf Clientcomputern aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>NIS uses signatures of known vulnerabilities from the <bpt id="p1">[</bpt>Microsoft Malware Protection Center<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=234249)</ept> to help detect and block malicious network traffic.</source>
+          <target state="translated">NIS verwendet Signaturen bekannter Sicherheitsrisiken aus dem <bpt id="p1">[</bpt>Microsoft Malware Protection Center<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=234249)</ept> helfen zu erkennen und Blockieren von schädlichen Netzwerkdatenverkehr.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Real-time settings for Endpoint Protection</source>
+          <target state="translated">Echtzeit-Einstellungen für Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Specify scan schedule settings</source>
+          <target state="translated">Festlegen der Scaneinstellungen Zeitplan</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Schedule a daily quick scan</source>
+          <target state="translated">Eine tägliche Schnellüberprüfung planen</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Schedules a daily quick scan of both frequently used files and important system files on computers.</source>
+          <target state="translated">Hiermit wird eine tägliche Schnellüberprüfung von häufig verwendeten Dateien und wichtigen Systemdateien auf verwalteten Computern geplant.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This quick scan has a minimal effect on performance.</source>
+          <target state="translated">Diese Schnellüberprüfung wirkt sich geringfügig auf die Leistung aus.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Run a quick scan if you have missed two consecutive scans</source>
+          <target state="translated">Eine Schnellüberprüfung ausführen, wenn zwei aufeinander folgende Schnellüberprüfungen verpasst wurden</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Configures Endpoint Protection to automatically run a quick scan on computers if they have missed two consecutive quick scans.</source>
+          <target state="translated">Konfiguriert Endpoint Protection, um automatisch eine schnellüberprüfung auf Computern ausgeführt, wenn sie zwei aufeinander folgende schnellüberprüfungen verpasst haben.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Schedule a full scan</source>
+          <target state="translated">Vollständige Überprüfung planen</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Configures a full scan of all files and resources on the local computer hard disks.</source>
+          <target state="translated">Wird eine vollständige Überprüfung aller Dateien und Ressourcen auf den Festplatten des lokalen Computers konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This scan can take time and can affect computer performance (the amount time it takes depends on the number of files and resources that are scanned).</source>
+          <target state="translated">Diese Überprüfung kann zeitaufwendig und beeinträchtigt die Leistung des Computers (die benötigte Zeit hängt von der Anzahl der Dateien und Ressourcen, die gescannt werden).</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Run a full scan if you have missed two consecutive full scans</source>
+          <target state="translated">Eine vollständige Überprüfung ausführen, wenn zwei aufeinander folgende vollständige Überprüfungen verpasst wurden</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Configures Endpoint Protection to automatically run a full scan on computers if they have missed two consecutive scans.</source>
+          <target state="translated">Konfiguriert Endpoint Protection, um automatisch eine vollständige Überprüfung auf Computern ausgeführt, wenn sie zwei aufeinander folgende Überprüfungen verpasst haben.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Recommend value: Not configured</source>
+          <target state="translated">Empfohlener Wert: nicht konfiguriert</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specify scan options settings</source>
+          <target state="translated">Geben Sie Scan-Optionen</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Run a full scan after installation of Endpoint Protection</source>
+          <target state="translated">Nach der Installation von Endpoint Protection eine vollständige Überprüfung ausführen</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically run a full system scan after it is installed on computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> können Endpoint Protection eine vollständige Überprüfung automatisch ausgeführt, nachdem es auf Computern installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This scan runs only when computers are idle to minimize the effect on user productivity.</source>
+          <target state="translated">Um Auswirkungen auf die Benutzerproduktivität zu minimieren, wird diese Überprüfung nur ausgeführt, wenn sich die entsprechenden Computer im Leerlauf befinden.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Automatically run a full scan when needed to follow up malware removal</source>
+          <target state="translated">Bei Bedarf automatisch eine vollständige Überprüfung nach der Beseitigung von Malware ausführen</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> können Endpoint Protection automatisch eine vollständige Überprüfung ausgeführt auf Computer nach dem Entfernen von Malware, um zu bestätigen, dass andere Dateien nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Start a scheduled scan only when the computer is idle</source>
+          <target state="translated">Geplante Überprüfung nur starten, wenn sich der Computer im Leerlauf befindet</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> um zu verhindern, dass geplante Überprüfungen ab, wenn sich Computer befinden, um eine Beeinträchtigung der Benutzerproduktivität zu vermeiden.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Check for the latest malware definitions before starting a scan</source>
+          <target state="translated">Vor dem Start der Überprüfung die aktuellsten Malwaredefinitionen abrufen</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to let Endpoint Protection automatically check for the latest malware definitions before it starts a scan on computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> können Endpoint Protection automatisch nach den aktuellsten Malwaredefinitionen gesucht wird vor dem Beginn einer Überprüfung auf Computern.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Scan archive files</source>
+          <target state="translated">Archivdateien überprüfen</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan for malware in archive files (like .zip or .cab files) on computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Endpoint Protection zum Scannen nach Malware Archivdateien (z. B. ZIP- oder CAB-Dateien) auf Computern zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Scan email messages</source>
+          <target state="translated">Scannen von E-Mail-Nachrichten</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan incoming email messages when they arrive on computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> zum Konfigurieren von Endpoint Protection eingehende e-Mail-Nachrichten beim Eingang auf Computern zu scannen.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Scan files opened from network shared folders</source>
+          <target state="translated">Dateien überprüfen, die in freigegebenen Netzwerkordnern geöffnet wurden</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan files that are opened from shared folders on the network.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> zum Konfigurieren von Endpoint Protection zum Scannen von Dateien, die aus freigegebenen Ordnern im Netzwerk geöffnet werden.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>These are typically files that are accessed by using a Universal Naming Convention (UNC) path.</source>
+          <target state="translated">In der Regel sind dies Dateien, die über einen Universal Naming Convention (UNC)-Pfad zugegriffen werden.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</source>
+          <target state="translated">Die Aktivierung dieser Funktion kann Benutzern Probleme bereiten, die nur über Lesezugriff verfügen, da sie Malware nicht entfernen können.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Scan mapped network drives</source>
+          <target state="translated">Zugeordnete Netzwerklaufwerke überprüfen</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan files on mapped network drives.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> Endpoint Protection Überprüfen von Dateien auf zugeordneten Netzwerklaufwerken zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</source>
+          <target state="translated">Die Aktivierung dieser Funktion kann Benutzern Probleme bereiten, die nur über Lesezugriff verfügen, da sie Malware nicht entfernen können.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>No<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Nr.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Scan removable drives</source>
+          <target state="translated">Wechseldatenträger überprüfen</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to configure Endpoint Protection to scan for malware and unwanted software on removable drives, like USB flash drives, when you run a full scan on computers.</source>
+          <target state="translated">Legen Sie auf <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> zum Konfigurieren von Endpoint Protection auf Malware und unerwünschte Software auf Wechseldatenträgern überprüft wie USB-Flashlaufwerke, wenn Sie eine vollständige Überprüfung auf Computern ausführen.</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Limit CPU usage during a scan</source>
+          <target state="translated">Prozessornutzung während der Überprüfung begrenzen auf</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Set the maximum percentage of CPU usage that can be used during scheduled scans on computers.</source>
+          <target state="translated">Legen Sie den maximalen Prozentsatz der CPU-Auslastung, die während der geplanten Überprüfungen auf Clientcomputern verwendet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>You can set this value from 1 to 100 percent.</source>
+          <target state="translated">Sie können diesen Wert zwischen 1 und 100 Prozent festlegen.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>50%<ept id="p1">**</ept></source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>50 %<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Choose default actions settings</source>
+          <target state="translated">Wählen Sie die Standardwerte für Standardaktionen</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The setting <bpt id="p1">**</bpt>Choose how Endpoint Protection acts on malware of the following alert levels<ept id="p1">**</ept> specifies the default action that Endpoint Protection takes when malware of various alert levels is detected.</source>
+          <target state="translated">Die Einstellung <bpt id="p1">**</bpt>wählen, wie Endpoint Protection auf Malware der folgenden Warnstufen fungiert<ept id="p1">**</ept> Gibt die Standardaktion, die Endpoint Protection durchführt, wenn Malware verschiedener Warnstufen erkannt wird.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For each alert level, you can remove the malware, quarantine it, or take Microsoft’s recommended action.</source>
+          <target state="translated">Sie können für jede Warnstufe festlegen, dass die Malware entfernt oder in Quarantäne versetzt oder die von Microsoft empfohlene Aktion ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Recommended value: <bpt id="p1">**</bpt>Recommended action<ept id="p1">**</ept>, which enables Endpoint Protection to recommend action.</source>
+          <target state="translated">Empfohlene: <bpt id="p1">**</bpt>Empfohlene Aktion<ept id="p1">**</ept>, wodurch Endpoint Protection für die Aktion wird empfohlen.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Decide whether to choose the excluded files and folders settings</source>
+          <target state="translated">Entscheiden Sie, ob die Einstellungen für ausgeschlossenen Dateien und Ordner auswählen</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The setting <bpt id="p1">**</bpt>Files and folders to exclude when running a scan or using real-time protection<ept id="p1">**</ept> excludes specific files or folders when a scan is run or when real-time protection is used on computers.</source>
+          <target state="translated">Die Einstellung <bpt id="p1">**</bpt>Dateien und Ordner von der Überprüfung oder dem Echtzeitschutz<ept id="p1">**</ept> schließt bestimmte Dateien oder Ordner, erfolgt eine Überprüfung ausgeführt werden, oder wenn der Echtzeitschutz auf Computern verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Decide whether to choose the excluded processes settings</source>
+          <target state="translated">Entscheiden Sie, ob die Einstellungen für ausgeschlossene Prozesse auswählen</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The setting <bpt id="p1">**</bpt>Processes to exclude when running a scan or using real-time protection<ept id="p1">**</ept> lets you exclude specific processes when a scan is run or when real-time protection is used on computers.</source>
+          <target state="translated">Die Einstellung <bpt id="p1">**</bpt>Prozesse zum ausschließen, wenn die Ausführung einer Überprüfung oder dem Echtzeitschutz<ept id="p1">**</ept> können Sie bestimmte Prozesse ausschließen, erfolgt eine Überprüfung ausgeführt werden, oder wenn der Echtzeitschutz auf Computern verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can exclude only files with the following extensions: <bpt id="p1">**</bpt>.exe<ept id="p1">**</ept>, <bpt id="p2">**</bpt>.com<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>.scr<ept id="p3">**</ept>.</source>
+          <target state="translated">Sie können nur Dateien mit den folgenden Erweiterungen ausschließen: <bpt id="p1">**</bpt>.exe<ept id="p1">**</ept>, <bpt id="p2">**</bpt>.com<ept id="p2">**</ept>, oder <bpt id="p3">**</bpt>.scr<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Decide whether to choose the excluded file types settings</source>
+          <target state="translated">Entscheiden Sie, ob die ausgeschlossene Datei Typen Einstellungen auswählen</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The setting <bpt id="p1">**</bpt>File extensions to exclude when running a scan or using real-time protection<ept id="p1">**</ept> lets you exclude specific file name extensions when a scan is run or when real-time protection is used on computers.</source>
+          <target state="translated">Die Einstellung <bpt id="p1">**</bpt>File Extensions auszuschließende Ausführen einer Überprüfung oder dem Echtzeitschutz<ept id="p1">**</ept> können Sie bestimmte Dateierweiterungen ausschließen, erfolgt eine Überprüfung ausgeführt werden, oder wenn der Echtzeitschutz auf Computern verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Specify Microsoft Active Protection Service Settings</source>
+          <target state="translated">Geben Sie Einstellungen für Microsoft Active Protection Service</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Microsoft Active Protection Service is an online community that helps you decide how to respond to potential threats.</source>
+          <target state="translated">Microsoft Active Protection Service ist eine Online-Community, die Ihnen hilft zu entscheiden, wie Sie auf potenzielle Bedrohungen reagieren.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The community also helps stop the spread of new malware infections.</source>
+          <target state="translated">Diese Community trägt auch dazu bei, die Weiterverbreitung neuer Infektionen mit Malware zu unterbinden.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>You can <bpt id="p1">**</bpt>Join Microsoft Active Protection Service<ept id="p1">**</ept> by selecting <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, and then specifying your <bpt id="p3">**</bpt>Membership Level<ept id="p3">**</ept>:</source>
+          <target state="translated">Sie können <bpt id="p1">**</bpt>Microsoft Active Protection Service beitreten<ept id="p1">**</ept> dazu <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept>, und dann angeben, Ihre <bpt id="p3">**</bpt>Mitgliedschaft<ept id="p3">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Basic<ept id="p1">**</ept> - Sends basic information to Microsoft about detected malware.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Grundlegende<ept id="p1">**</ept> – grundlegenden Informationen zu erkannter Malware an Microsoft gesendet.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>This includes where the software came from, the actions that you apply or that Endpoint Protection applies automatically, and whether the actions were successful.</source>
+          <target state="translated">Dazu gehören, woher die Software stammt, welche Aktionen Sie anwenden oder Endpoint Protection automatisch angewendet werden und ob die Aktionen erfolgreich waren.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> - Sends more information to Microsoft about malware, spyware, and potentially unwanted software.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erweiterte<ept id="p1">**</ept> -Weitere Informationen zu Malware, Spyware und potenziell unerwünschte Software an Microsoft gesendet.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>This includes information about the location of the software, file names, how the software operates, and how it has affected your computer.</source>
+          <target state="translated">Dies umfasst Informationen über den Speicherort der Software, Dateinamen, Funktionsweise die Software und der Auswirkungen auf Ihrem Computer.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">**</bpt>Receive dynamic definitions based on Microsoft Active Protection Service reports<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>dynamische Definitionen auf Basis von Microsoft Active Protection Service-Berichten empfangen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Choose management tasks for Endpoint Protection</source>
+          <target state="translated">Wählen Sie Verwaltungsaufgaben für Endpoint Protection</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The following tasks help you to carry out various management tasks on managed computers that run Endpoint Protection:</source>
+          <target state="translated">Die folgenden Aufgaben können Sie verschiedene Verwaltungsaufgaben auf verwalteten Computern ausführen, die Endpoint Protection ausgeführt:</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Update malware definitions</source>
+          <target state="translated">Update für Malwaredefinitionen ausführen</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Intune console - From the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> workspace, select the computers that you want to update.</source>
+          <target state="translated">Intune-Konsole – aus der <bpt id="p1">**</bpt>Gruppen<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Computer, die Sie aktualisieren möchten.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Update Malware Definitions<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Updates von Malwaredefinitionen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Managed computer - Start the Endpoint Protection client software from the Windows notification area.</source>
+          <target state="translated">Verwaltete Computer: Starten der Endpoint Protection-Clientsoftware über den Windows-Benachrichtigungsbereich.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Update<ept id="p1">**</ept> tab, and then choose <bpt id="p2">**</bpt>Update<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Update<ept id="p1">**</ept> Registerkarte, und wählen Sie dann <bpt id="p2">**</bpt>Update<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Run a malware scan:</source>
+          <target state="translated">Eine Malwarescan ausführen:</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Intune console - From the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> workspace, select the computers that you want to scan.</source>
+          <target state="translated">Intune-Konsole – aus der <bpt id="p1">**</bpt>Gruppen<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Computer, die Sie durchsuchen möchten.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Run a Full Malware Scan<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Run a Quick Malware Scan<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>einen vollständigen Malwarescan ausführen<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>einen schnellen Malwarescan ausführen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Managed computer - Start the Endpoint Protection client software from the Windows notification area.</source>
+          <target state="translated">Verwaltete Computer: Starten der Endpoint Protection-Clientsoftware über den Windows-Benachrichtigungsbereich.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Quick<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Full<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Custom<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Scan now<ept id="p4">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>schnelle<ept id="p1">**</ept>, <bpt id="p2">**</bpt>vollständige<ept id="p2">**</ept>, oder <bpt id="p3">**</bpt>benutzerdefinierte<ept id="p3">**</ept>, und wählen Sie dann <bpt id="p4">**</bpt>Jetzt scannen<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>You can view the status of a remote task by choosing the <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> link in the bottom right corner of the Intune console.</source>
+          <target state="translated">Sie können den Status eines Remotetasks anzeigen, indem Sie die Auswahl der <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> Link in der unteren rechten Ecke der Intune-Konsole.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Remote Task Status<ept id="p1">**</ept> dialog box lists current remote tasks, task status, device name, and any reported errors.</source>
+          <target state="translated">Der <bpt id="p1">**</bpt>Remote Taskstatus<ept id="p1">**</ept> Dialogfeld werden aktuelle Remoteaufgaben, Ihr Status, Gerätenamen und etwaige gemeldete Fehler.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>It also provides a link to troubleshooting information, if appropriate.</source>
+          <target state="translated">Es enthält auch einen Link zu Problembehandlungsinformationen, bei Bedarf.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Monitor Endpoint Protection</source>
+          <target state="translated">Monitor für Endpointprotection</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You monitor the status of malware on your computers by using the <bpt id="p1">**</bpt>Protection<ept id="p1">**</ept> workspace of the <bpt id="p2">[</bpt>Microsoft Intune administration console<ept id="p2">](https://manage.microsoft.com/)</ept>.</source>
+          <target state="translated">Überwachen Sie den Status der Malware auf Ihren Computern mithilfe der <bpt id="p1">**</bpt>Schutz<ept id="p1">**</ept> im Arbeitsbereich für die <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](https://manage.microsoft.com/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>This workspace contains two pages:</source>
+          <target state="translated">Dieser Arbeitsbereich enthält zwei Seiten:</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Protection Overview<ept id="p1">**</ept> -Displays important issues as links that you can choose for more information.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Übersicht über<ept id="p1">**</ept> – zeigt wichtige Probleme als Links, die Sie für Weitere Informationen auswählen können.</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Issues that might be displayed include:</source>
+          <target state="translated">Die folgenden Arten von Problemen können angezeigt werden:</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Malware instances that need follow-up<ept id="p1">**</ept> – Click the link to see a list of malware issues, including the follow-up action that needs to be taken to resolve the issue.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Malwareinstanzen, die nachverfolgung erfordern<ept id="p1">**</ept> – Klicken Sie auf den Link, um eine Liste mit malwareproblemen, einschließlich der Maßnahmen, die getroffen werden, um das Problem zu beheben.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>You can further explore this list to see which computers are affected.</source>
+          <target state="translated">Sie können weitere untersuchen diese Liste, um anzuzeigen, welche Computer betroffen sind.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Computers with malware that need follow-up<ept id="p1">**</ept> – Click the link to see all computers with unresolved malware issues, as well as the follow-up action that needs to be taken to resolve the issue.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Computer mit Malware, die nachverfolgung erfordern<ept id="p1">**</ept> – Klicken Sie auf den Link, um alle Computer mit ungelösten malwareproblemen sowie die Maßnahmen, die getroffen werden, um das Problem zu beheben.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Devices that are not protected<ept id="p1">**</ept> – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Geräte, die nicht geschützt sind,<ept id="p1">**</ept> – Klicken Sie auf den Link, um Computer anzuzeigen, die nicht von keiner endpunktschutzsoftware geschützt sind, weil keine Software installiert ist, oder weil ein Fehler auftritt.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Select a computer to view more details.</source>
+          <target state="translated">Wählen Sie einen Computer aus, um weitere Details anzuzeigen.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Devices with another endpoint protection application running<ept id="p1">**</ept> – Click the link to see computers that are running a third-party endpoint protection application.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Geräte mit einem anderen Endpoint Protection wird ausgeführt<ept id="p1">**</ept> – Klicken Sie auf den Link, um Computer anzuzeigen, die endpunktschutzanwendung eines Drittanbieters ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All Malware<ept id="p1">**</ept> -  Displays a list of all active malware that's found on your computers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Sämtliche Malware<ept id="p1">**</ept> -zeigt eine Liste aller aktiven Malware, die auf Ihrem Computer.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>You can explore this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:</source>
+          <target state="translated">Untersuchen Sie diese Liste, um alle Computer anzuzeigen, die betroffen sind, indem Sie einen bestimmten Teil der Malware, oder wählen Sie eine der folgenden Aufgaben:</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept> – Opens a page with more information about the selected malware.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anzeigen von Eigenschaften<ept id="p1">**</ept> – wird eine Seite mit weiteren Informationen zur ausgewählten Schadsoftware geöffnet.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Learn About This Malware<ept id="p1">**</ept> – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Informationen zu dieser Malware<ept id="p1">**</ept> – wird ein Thema über das Microsoft Malware Protection Center mit weiteren Informationen zur Schadsoftware geöffnet.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Protection<ept id="p1">**</ept> workspace is not displayed in the administration console until you have installed the client and are managing at least one computer client.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Schutz<ept id="p1">**</ept> Arbeitsbereich wird nicht in der Verwaltungskonsole angezeigt, bis Sie den Client installiert haben und mindestens einem computerclient verwalten.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Monitor Endpoint Protection</source>
+          <target state="translated">Monitor für Endpointprotection</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>How to view Recent Detection Paths for malware on computers</source>
+          <target state="translated">Gewusst wie: Anzeigen der letzten Erkennungspfade für Malware auf Computern</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Intune can display the paths of up to 10 of the most recently detected instances of malware on a device.</source>
+          <target state="translated">Intune kann die Pfade von bis zu 10 der zuletzt erkannten Instanzen von Malware auf einem Gerät anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Recent Detection Path<ept id="p1">**</ept> is disabled by default.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Letzter Erkennungspfad<ept id="p1">**</ept> ist standardmäßig deaktiviert.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To enable this view:</source>
+          <target state="translated">Um diese Ansicht zu aktivieren:</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Malware<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Malware<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Right-click a column header.</source>
+          <target state="translated">Mit der rechten Maustaste in eines Spaltenheaders.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>A list of available columns appears.</source>
+          <target state="translated">Es wird eine Liste der verfügbaren Spalten angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Recent Detection Paths<ept id="p1">**</ept> check box in the list.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>letzte Erkennungspfade<ept id="p1">**</ept> Kontrollkästchen in der Liste.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Recent Detection Paths<ept id="p1">**</ept> column appears and displays up to 10 of the most recently monitored malware instances on the device.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>letzte Erkennungspfade<ept id="p1">**</ept> Spalte angezeigt wird und bis zu 10 der zuletzt am überwachten malwareinstanzen auf dem Gerät angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Run a malware scan or update malware definitions on a computer</source>
+          <target state="translated">Ausführen einer Überprüfung auf Schadsoftware oder Updates von Malwaredefinitionen auf einem computer</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Intune can run either a full or quick malware scan by using Endpoint Protection or Windows Defender on a remotely managed PC that has the Intune client installed.</source>
+          <target state="translated">Intune kann entweder eine vollständige oder schnelle Malwarescan ausführen, mithilfe von Endpoint Protection oder Windows Defender auf einem Remote verwalteten PC an, die der Intune-Client installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, go to <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Overview<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>All Devices<ept id="p4">**</ept><ph id="ph3"> &gt; </ph><bpt id="p5">**</bpt>All Computers<ept id="p5">**</ept>, and then select the computer that you want to target.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, besuchen Sie die <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Übersicht<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>alle Geräte<ept id="p4">**</ept><ph id="ph3"> &gt; </ph><bpt id="p5">**</bpt>alle Computer<ept id="p5">**</ept>, und wählen Sie dann den Computer, der verwendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> drop-down list, and then select the task to run on the remote computer.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> Dropdown-Liste, und wählen Sie dann die Aufgabe auf dem Remotecomputer ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Need more help?</source>
+          <target state="translated">Benötigen Sie weitere Hilfe?</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>For further help and support, see <bpt id="p1">[</bpt>Troubleshoot Endpoint Protection in Microsoft Intune<ept id="p1">](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)</ept>.</source>
+          <target state="translated">Weitere Hilfe und Support finden Sie unter <bpt id="p1">[</bpt>Problembehandlung bei Endpoint Protection in Microsoft Intune<ept id="p1">](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Policies to protect Windows PCs</source>
+          <target state="translated">Richtlinien zum Schutz von Windows-PCs</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

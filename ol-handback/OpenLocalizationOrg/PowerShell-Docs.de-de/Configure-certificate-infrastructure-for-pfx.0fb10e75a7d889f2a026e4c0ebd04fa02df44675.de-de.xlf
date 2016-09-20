@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da988778ab1156597fe19ac40bab155be6046d75</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Configure-certificate-infrastructure-for-pfx.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8878f926cc12d8c458b20c4c27d59ca2e452e3c7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">215048aef7fba2ae2017fb98246e34ff3b073583</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure for PFX | Microsoft Intune</source>
+          <target state="translated">Zertifikatinfrastruktur für PFX konfigurieren | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create and deploy .PFX certificate profiles.</source>
+          <target state="translated">Erstellen und bereitstellen. PFX-zertifikatprofile.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure</source>
+          <target state="translated">Konfigurieren der Zertifikatinfrastruktur</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes what you need in order to create and deploy .PFX certificate profiles.</source>
+          <target state="translated">In diesem Thema wird beschrieben, was zu erstellen und bereitzustellen. PFX-zertifikatprofile.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To do any certificate-based authentication in your organization, you need an Enterprise Certification Authority.</source>
+          <target state="translated">Hierzu eine zertifikatbasierte Authentifizierung in Ihrer Organisation benötigen Sie eine Unternehmenszertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To use .PFX Certificate profiles, in addition to the Enterprise Certification Authority, you  also need:</source>
+          <target state="translated">Um zu verwenden. PFX-Zertifikat-Profilen, zusätzlich zu den Enterprise-Zertifizierungsstelle müssen Sie auch:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A computer that can communicate with the Certification Authority, or you can use the Certification Authority computer itself.</source>
+          <target state="translated">Ein Computer, der mit der Zertifizierungsstelle kommunizieren kann, kann die Computer der Zertifizierungsstelle selbst verwenden.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Intune Certificate Connector, which runs on the computer that can communicate with the Certification Authority.</source>
+          <target state="translated">Den Intune-Zertifikatconnector, der auf dem Computer ausgeführt wird, die bei der Zertifizierungsstelle kommunizieren können.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On-premises infrastructure description</source>
+          <target state="translated">Lokale Infrastruktur Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Active Directory domain<ept id="p1">**</ept>: All servers listed in this section (except for the Web Application Proxy Server) must be joined to your Active Directory domain.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Active Directory-Domäne<ept id="p1">**</ept>: alle in diesem Abschnitt (außer dem Webanwendungsproxy-Servers) aufgeführten Server müssen der Active Directory-Domäne verknüpft werden.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Certification Authority<ept id="p1">**</ept>: An Enterprise Certification Authority (CA) that runs on an Enterprise edition of Windows Server 2008 R2 or later.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Zertifizierungsstelle<ept id="p1">**</ept>: ein Unternehmen Zertifizierungsstelle (CA), die auf eine Enterprise-Edition von Windows Server 2008 R2 oder höher ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A Standalone CA is not supported.</source>
+          <target state="translated">Eine eigenständige Zertifizierungsstelle wird nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For instructions on how to set up a Certification Authority, see <bpt id="p1">[</bpt>Install the Certification Authority<ept id="p1">](http://technet.microsoft.com/library/jj125375.aspx)</ept>.</source>
+          <target state="translated">Informationen zum Einrichten einer Zertifizierungsstelle finden Sie unter <bpt id="p1">[</bpt>Installieren der Zertifizierungsstelle<ept id="p1">](http://technet.microsoft.com/library/jj125375.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If your CA runs Windows Server 2008 R2, you must <bpt id="p1">[</bpt>install the hotfix from KB2483564<ept id="p1">](http://support.microsoft.com/kb/2483564/)</ept>.</source>
+          <target state="translated">Wenn die Zertifizierungsstelle unter Windows Server 2008 R2 ausgeführt wird, müssen Sie <bpt id="p1">[</bpt>Installieren Sie den Hotfix von KB2483564<ept id="p1">](http://support.microsoft.com/kb/2483564/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Computer that can communicate with Certification Authority<ept id="p1">**</ept>: Alternatively, use the Certification Authority computer itself.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Computer, die mit der Zertifizierungsstelle kommunizieren kann<ept id="p1">**</ept>: Verwenden Sie alternativ den Computer der Zertifizierungsstelle selbst.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Intune Certificate Connector<ept id="p1">**</ept>: You use the Intune admin console to download the <bpt id="p2">**</bpt>Certificate Connector<ept id="p2">**</ept> installer (<bpt id="p3">**</bpt>ndesconnectorssetup.exe<ept id="p3">**</ept>).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Microsoft Intune-Zertifikatconnector<ept id="p1">**</ept>: Verwendung die Intune-Verwaltungskonsole zum Herunterladen der <bpt id="p2">**</bpt>Zertifikatconnector<ept id="p2">**</ept> Installationsprogramm (<bpt id="p3">**</bpt>ndesconnectorssetup.exe<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Then you can run <bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept> on the computer where you want to install the Certificate Connector.</source>
+          <target state="translated">Führen Sie <bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept> auf dem Computer, in dem Sie die Zertifikat-Connector installieren möchten.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For .PFX Certificate profiles, install the Certificate Connector on the computer that communicates with the Certification Authority.</source>
+          <target state="translated">Für. PFX-zertifikatprofile installieren den Zertifikatconnector auf dem Computer, der mit der Zertifizierungsstelle kommuniziert.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Application Proxy server<ept id="p1">**</ept> (optional): You can use a server that runs Windows Server 2012 R2 or later as a Web Application Proxy (WAP) server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anwendungsproxy Webserver<ept id="p1">**</ept> (optional): können Sie einen Server mit Windows Server 2012 R2 oder höher als Webanwendungsproxy (WAP)-Server.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This configuration:</source>
+          <target state="translated">Diese Konfiguration:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Allows devices to receive certificates using an Internet connection.</source>
+          <target state="translated">Ermöglicht Geräten das Empfangen von Zertifikaten über eine Internet-Verbindung.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Is a security recommendation when devices connect through the Internet to receive and renew certificates.</source>
+          <target state="translated">Ist eine sicherheitsempfehlung, wenn Geräte eine Verbindung über das Internet herstellen zu empfangen und Erneuern von Zertifikaten.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The server that hosts WAP <bpt id="p1">[</bpt>must install an update<ept id="p1">](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)</ept> that enables support for the long URLs that are used by the Network Device Enrollment Service (NDES).</source>
+          <target state="translated">Der Server, der WAP hostet <bpt id="p1">[</bpt>muss ein Update installiert<ept id="p1">](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)</ept> mit der Unterstützung für lange URLs, die von Network Device Enrollment Service (NDES) verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This update is included with the <bpt id="p1">[</bpt>December 2014 update rollup<ept id="p1">](http://support.microsoft.com/kb/3013769)</ept>, or individually from <bpt id="p2">[</bpt>KB3011135<ept id="p2">](http://support.microsoft.com/kb/3011135)</ept>.</source>
+          <target state="translated">Dieses Update ist im Lieferumfang der <bpt id="p1">[</bpt>Updaterollup vom Dezember 2014<ept id="p1">](http://support.microsoft.com/kb/3013769)</ept>, oder einzeln von <bpt id="p2">[</bpt>KB3011135<ept id="p2">](http://support.microsoft.com/kb/3011135)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Also, the server that hosts WAP must have an SSL certificate that matches the name being published to external clients as well as trust the SSL certificate that is used on the NDES server.</source>
+          <target state="translated">Entspricht der Server, die Hosts WAP ein SSL-Zertifikat verfügen müssen, die den Namen für externe Clients sowie das SSL-Zertifikat, das auf dem NDES-Server verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These certificates enable the WAP server to terminate the SSL connection from clients, and create a new SSL connection to the NDES server.</source>
+          <target state="translated">Diese Zertifikate ermöglichen den WAP-Server beendet die SSL-Verbindung von Clients, und erstellen eine neue SSL-Verbindung mit dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For information about certificates for WAP, see the <bpt id="p1">**</bpt>Plan certificates<ept id="p1">**</ept> section of <bpt id="p2">[</bpt>Planning to Publish Applications Using Web Application Proxy<ept id="p2">](https://technet.microsoft.com/library/dn383650.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zu Zertifikaten für WAP finden Sie unter der <bpt id="p1">**</bpt>Planen von Zertifikaten<ept id="p1">**</ept> Abschnitt <bpt id="p2">[</bpt>Veröffentlichen Applications Webanwendungsproxys planen<ept id="p2">](https://technet.microsoft.com/library/dn383650.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For general information about WAP servers, see <bpt id="p1">[</bpt>Working with Web Application Proxy<ept id="p1">](http://technet.microsoft.com/library/dn584113.aspx)</ept>.|</source>
+          <target state="translated">Allgemeine Informationen zu WAP-Servern finden Sie unter <bpt id="p1">[</bpt>Arbeiten mit Webanwendungsproxy<ept id="p1">](http://technet.microsoft.com/library/dn584113.aspx)</ept>. |</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Certificates and Templates</source>
+          <target state="translated">Zertifikate und Vorlagen</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Object</source>
+          <target state="translated">Objekt</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Certificate Template</source>
+          <target state="translated">Zertifikatvorlage</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You configure this template on your issuing CA.</source>
+          <target state="translated">Sie konfigurieren diese Vorlage auf der ausstellenden Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Trusted Root CA certificate</source>
+          <target state="translated">Zertifikat der vertrauenswürdigen Stammzertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You export this as a <bpt id="p1">**</bpt>.cer<ept id="p1">**</ept> file from the issuing CA or any device which trusts the issuing CA, and deploy it to devices by using the Trusted CA certificate profile.</source>
+          <target state="translated">Sie exportieren dies als eine <bpt id="p1">**</bpt>CER<ept id="p1">**</ept> -Datei von der ausstellenden Zertifizierungsstelle oder von Geräten, die der ausstellenden Zertifizierungsstelle vertrauen, und mit dem Zertifikatprofil der vertrauenswürdigen Zertifizierungsstelle für Geräte bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You use a single Trusted Root CA certificate per operating system platform, and associate it with each Trusted Root Certificate profile you create.</source>
+          <target state="translated">Sie verwenden ein einzelnes Zertifikat der vertrauenswürdigen Stammzertifizierungsstelle Betriebssystemplattform und verknüpfen diese mit jeder vertrauenswürdige Stammzertifikat-Profil, die Sie erstellen.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can use additional Trusted Root CA certificates when needed.</source>
+          <target state="translated">Sie können zusätzliche vertrauenswürdige Stamm-CA-Zertifikate bei Bedarf verwenden.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For example, you might do this to provide a trust to a CA that signs the server authentication certificates for your Wi-Fi access points.</source>
+          <target state="translated">Angenommen, können Sie dies vornehmen eine Vertrauensstellung zu einer Zertifizierungsstelle bereitstellen, die der Server signiert Authentifizierungszertifikate für Ihre WLAN-Zugriffspunkte.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Configure your infrastructure</source>
+          <target state="translated">Konfigurieren der Infrastruktur</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Before you can configure certificate profiles, you must complete the following tasks.</source>
+          <target state="translated">Bevor Sie zertifikatprofile konfigurieren können, müssen Sie die folgenden Aufgaben ausführen.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These tasks require knowledge of Windows Server 2012 R2 and Active Directory Certificate Services (ADCS):</source>
+          <target state="translated">Diese Aufgaben müssen Kenntnisse in Windows Server 2012 R2 und Active Directory-Zertifikatdienste (ADCS):</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 1<ept id="p1">**</ept> - Configure certificate templates on the certification authority.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 1<ept id="p1">**</ept> -Konfigurieren von Zertifikatvorlagen für die Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 2<ept id="p1">**</ept> - Enable, install, and configure the Intune Certificate Connector.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 2<ept id="p1">**</ept> - aktivieren, installieren und Konfigurieren des Intune-Zertifikatconnectors.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Task 1 - Configure certificate templates on the certification authority</source>
+          <target state="translated">Aufgabe 1: Konfigurieren von Zertifikatvorlagen auf der Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this task, you will publish the certificate template.</source>
+          <target state="translated">In dieser Aufgabe veröffentlichen Sie die Zertifikatvorlage aus.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To configure the certification authority</source>
+          <target state="translated">Konfigurieren der Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On the issuing CA, use the Certificate Templates snap-in to create a new custom template, or copy and edit an existing template (like the User template), for use with .PFX.</source>
+          <target state="translated">Verwenden Sie auf der ausstellenden Zertifizierungsstelle das Zertifikatsvorlagen-Snap-in eine neue benutzerdefinierte Vorlage erstellen oder kopieren und bearbeiten eine vorhandene Vorlage (z. B. die Vorlage "Benutzer"), für die Verwendung mit. PFX.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The template must include the following:</source>
+          <target state="translated">Die Vorlage muss Folgendes enthalten:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specify a friendly <bpt id="p1">**</bpt>Template display name<ept id="p1">**</ept> for the template.</source>
+          <target state="translated">Geben Sie einen aussagekräftigen <bpt id="p1">**</bpt>Vorlagenanzeigename<ept id="p1">**</ept> für die Vorlage.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Subject Name<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Supply in the request<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Antragstellername<ept id="p1">**</ept> Registerkarte <bpt id="p2">**</bpt>Geben Sie in der Anforderung<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>(Security is enforced by the Intune policy module for NDES).</source>
+          <target state="translated">(Sicherheit wird durch das Intune-Richtlinienmodul für NDES erzwungen).</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> tab, ensure the <bpt id="p2">**</bpt>Description of Application Policies<ept id="p2">**</ept> includes <bpt id="p3">**</bpt>Client Authentication<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> sicher der <bpt id="p2">**</bpt>Beschreibung von Anwendungsrichtlinien<ept id="p2">**</ept> enthält <bpt id="p3">**</bpt>Clientauthentifizierung<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For iOS and Mac OS X certificate templates, on the <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> tab, edit <bpt id="p2">**</bpt>Key Usage<ept id="p2">**</ept> and ensure that <bpt id="p3">**</bpt>Signature is proof of origin<ept id="p3">**</ept> is not selected.</source>
+          <target state="translated">Für iOS und Mac OS X Zertifikatvorlagen, auf die <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> Registerkarte, bearbeiten Sie <bpt id="p2">**</bpt>Schlüsselverwendung<ept id="p2">**</ept> und sicherstellen, dass <bpt id="p3">**</bpt>Signatur ist Ursprungsnachweis<ept id="p3">**</ept> nicht ausgewählt ist.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Review the <bpt id="p1">**</bpt>Validity period<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab of the template.</source>
+          <target state="translated">Überprüfen Sie die <bpt id="p1">**</bpt>Gültigkeitszeitraum<ept id="p1">**</ept> auf die <bpt id="p2">**</bpt>Allgemein<ept id="p2">**</ept> Registerkarte der Vorlage.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>By default, Intune uses the value configured in the template.</source>
+          <target state="translated">Standardmäßig verwendet Intune in der Vorlage konfigurierten Wert.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>However, you have the option to configure the CA to allow the requester to specify a different value, which you can then set from within the Intune Administrator console.</source>
+          <target state="translated">Allerdings haben Sie die Option zum Konfigurieren der Zertifizierungsstelle ermöglichen der anfordernden Gruppe zu einen anderen Wert angeben, die Sie dann innerhalb der Intune-Verwaltungskonsole festlegen können.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you want to always use the value in the template, skip the remainder of this step.</source>
+          <target state="translated">Wenn Sie immer den Wert in der Vorlage verwenden möchten, überspringen Sie den Rest dieses Schritts.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The iOS and Mac OS X platforms always uses the value set in the template, regardless of other configurations you make.</source>
+          <target state="translated">Das iOS und Mac OS X-Plattformen immer verwendet, die der Wert in der Vorlage, unabhängig von anderen Konfigurationen festlegen.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To configure the CA to allow the requester to specify the validity period, run the following commands on the CA:</source>
+          <target state="translated">Um die Zertifizierungsstelle zum ermöglichen der anfordernden Person angeben des Gültigkeitszeitraums zu konfigurieren, führen Sie die folgenden Befehle auf der Zertifizierungsstelle:</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</source>
+          <target state="translated">Certutil - Setreg Policy\EditFlags + EDITF_ATTRIBUTEENDDATE</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>net stop certsvc</source>
+          <target state="translated">net stop certsvc</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>c.</source>
+          <target state="translated">c.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>net start certsvc</source>
+          <target state="translated">net start certsvc</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</source>
+          <target state="translated">Verwenden Sie auf der ausstellenden Zertifizierungsstelle das Zertifizierungsstellen-Snap-in auf um die Zertifikatvorlage zu veröffentlichen.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Zertifikatvorlagen<ept id="p1">**</ept> Knoten, klicken Sie auf <bpt id="p2">**</bpt>Aktion<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>Neu<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Auszustellende Zertifikatvorlage<ept id="p4">**</ept>, und wählen Sie dann die Vorlage, die Sie in Schritt 2 erstellt haben.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Validate that the template published by viewing it under the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> folder.</source>
+          <target state="translated">Überprüfen Sie, ob die Vorlage veröffentlicht wurde, durch das Anzeigen von unter den <bpt id="p1">**</bpt>Zertifikatvorlagen<ept id="p1">**</ept> Ordner.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the CA computer, ensure that the computer that hosts the Intune Certificate Connector has enroll permission, so that it can access the template used in creating the .PFX profile.</source>
+          <target state="translated">Auf dem Zertifizierungsstellencomputer, stellen Sie sicher, dass der Computer, der den Intune Zertifikatconnector hostet hat Berechtigung registrieren, damit sie die Vorlage zum Erstellen von zugreifen kann die. PFX-Profil.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Set that permission on the <bpt id="p1">**</bpt>Security<ept id="p1">**</ept> tab of the CA computer properties.</source>
+          <target state="translated">Legen Sie diese Berechtigung auf die <bpt id="p1">**</bpt>Sicherheit<ept id="p1">**</ept> auf der Registerkarte Eigenschaften der Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Task 2 - Enable, install, and configure the Intune Certificate Connector</source>
+          <target state="translated">Aufgabe 2: aktivieren, installieren und Konfigurieren des Intune-Zertifikatconnectors</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In this task you will:</source>
+          <target state="translated">In dieser Aufgabe führen Sie folgende Aktionen ausführen:</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Download, install, and configure the Certificate Connector.</source>
+          <target state="translated">Herunterladen Sie, installieren Sie und konfigurieren Sie des Zertifikatconnectors.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To enable support for the Certificate Connector</source>
+          <target state="translated">Aktivieren der Unterstützung für den Zertifikatconnector</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, and choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Certificate Connector<ept id="p3">**</ept>.</source>
+          <target state="translated">Öffnen Sie die <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, und wählen Sie <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Zertifikatconnector<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Configure On-Premises Certificate Connector<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>lokalen Zertifikatconnector konfigurieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Enable Certificate Connector<ept id="p1">**</ept>, and then choose <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Zertifikatconnector aktivieren<ept id="p1">**</ept>, und wählen Sie dann <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To download, install, and configure the Certificate Connector</source>
+          <target state="translated">Zum Herunterladen, installieren und Konfigurieren des Zertifikatconnectors</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, and then choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Connector<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Download Certificate Connector<ept id="p5">**</ept>.</source>
+          <target state="translated">Öffnen Sie die <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, und wählen Sie dann <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Verwaltung mobiler Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Zertifikatconnector<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Zertifikatconnector herunterladen<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>After the download completes, run the downloaded installer (<bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept>).</source>
+          <target state="translated">Nachdem der Download abgeschlossen ist, führen Sie das heruntergeladene Installationsprogramm (<bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Run the installer on the computer that is able to connect with the Certification Authority.</source>
+          <target state="translated">Führen Sie das Installationsprogramm auf dem Computer, der Verbindung mit der Zertifizierungsstelle herstellen kann.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Choose the .PFX Distribution option, and then choose <bpt id="p1">**</bpt>Install<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die. PFX-Verteilung aus, und wählen Sie dann <bpt id="p1">**</bpt>Installieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When the installation has completed, continue by creating a certificate profile as described in <bpt id="p1">[</bpt>Configure certificate profiles<ept id="p1">](configure-intune-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Klicken Sie nach Abschluss der Installation fortsetzen, indem Sie ein Profil erstellen, wie in beschrieben <bpt id="p1">[</bpt>Konfigurieren von zertifikatprofilen<ept id="p1">](configure-intune-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When prompted for the client certificate for the Certificate Connector, choose <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>, and select the <bpt id="p2">**</bpt>client authentication<ept id="p2">**</ept> certificate you installed in Task 3.</source>
+          <target state="translated">Wählen Sie bei Aufforderung das Clientzertifikat für den Zertifikatconnector <bpt id="p1">**</bpt>Wählen Sie<ept id="p1">**</ept>, und wählen Sie die <bpt id="p2">**</bpt>Clientauthentifizierung<ept id="p2">**</ept> Zertifikat, die Sie in Aufgabe 3 installiert.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>After you select the client authentication certificate, you are returned to the <bpt id="p1">**</bpt>Client Certificate for Microsoft Intune Certificate Connector<ept id="p1">**</ept> surface.</source>
+          <target state="translated">Nachdem Sie das Clientauthentifizierungszertifikat ausgewählt haben, kehren Sie zu der <bpt id="p1">**</bpt>Clientzertifikat für Microsoft Intune-Zertifikatconnector<ept id="p1">**</ept> Oberfläche.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Although the certificate you selected is not shown, choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to view the properties of that certificate.</source>
+          <target state="translated">Obwohl das ausgewählte Zertifikat nicht angezeigt wird, wählen Sie <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept> zum Anzeigen der Eigenschaften des Zertifikats.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Then choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>, and then <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie dann <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept>, und klicken Sie dann <bpt id="p2">**</bpt>Installieren<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>After the wizard completes, but before closing the wizard, click <bpt id="p1">**</bpt>Launch the Certificate Connector UI<ept id="p1">**</ept>.</source>
+          <target state="translated">Nach Abschluss des Assistenten, jedoch vor dem Schließen des Assistenten, klicken Sie auf <bpt id="p1">**</bpt>Zertifikat Connector-Benutzeroberfläche starten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</source>
+          <target state="translated">Wenn Sie den Assistenten schließen, bevor Sie die Zertifikat-Connector-Benutzeroberfläche starten, können Sie es erneut öffnen, indem Sie den folgenden Befehl ausführen:</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</source>
+          <target state="translated">Install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Certificate Connector<ept id="p1">**</ept> UI:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Zertifikat Connector<ept id="p1">**</ept> Benutzeroberfläche:</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Sign In<ept id="p1">**</ept> and enter your Intune service administrator credentials, or credentials for a tenant administrator with the global administration permission.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Anmelden<ept id="p1">**</ept> und geben Sie Ihre Intune-Dienstadministrator-Anmeldeinformationen oder Anmeldeinformationen für einen mandantenadministrator mit der globalen Administratorberechtigung.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab, and then provide credentials for an account that has the <bpt id="p2">**</bpt>Issue and Manage Certificates<ept id="p2">**</ept> permission on your issuing Certificate Authority.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Erweitert<ept id="p1">**</ept> Registerkarte, und geben Sie Anmeldeinformationen für ein Konto mit der <bpt id="p2">**</bpt>Zertifikate ausstellen und verwalten<ept id="p2">**</ept> -Berechtigung für die ausstellende Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>c.</source>
+          <target state="translated">c.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Apply<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Anwenden<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can now close the Certificate Connector UI.</source>
+          <target state="translated">Sie können jetzt die Benutzeroberfläche schließen.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Open a command prompt and type <bpt id="p1">**</bpt>services.msc<ept id="p1">**</ept>.</source>
+          <target state="translated">Öffnen Sie ein Eingabeaufforderungsfenster, und geben Sie <bpt id="p1">**</bpt>services.msc<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Then press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>, right-click the <bpt id="p2">**</bpt>Intune Connector Service<ept id="p2">**</ept>, and choose <bpt id="p3">**</bpt>Restart<ept id="p3">**</ept>.</source>
+          <target state="translated">Drücken Sie dann die <bpt id="p1">**</bpt>EINGABETASTE<ept id="p1">**</ept>, mit der rechten Maustaste die <bpt id="p2">**</bpt>Intune-Connector-Dienst<ept id="p2">**</ept>, und wählen Sie <bpt id="p3">**</bpt>neu starten<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To validate that the service is running, open a browser and enter the following URL, which should return a <bpt id="p1">**</bpt>403<ept id="p1">**</ept> error:</source>
+          <target state="translated">Zum Überprüfen, ob der Dienst ausgeführt wird, öffnen Sie einen Browser, und geben die folgende URL zurückgeben soll eine <bpt id="p1">**</bpt>403<ept id="p1">**</ept> Fehler:</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</source>
+          <target state="translated">http:// <ph id="ph1">&amp;lt;</ph>fqdn_ihres_ndes-Servers<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You are now ready to set up certificate profiles, as described in <bpt id="p1">[</bpt>Configure certificate profiles<ept id="p1">](Configure-Intune-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Sie sind jetzt bereit, um zertifikatprofile einzurichten, wie in beschrieben <bpt id="p1">[</bpt>Konfigurieren von zertifikatprofilen<ept id="p1">](Configure-Intune-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

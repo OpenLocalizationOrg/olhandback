@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ae7d6c571f69c0cc51dc15355e50325afb88694</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\enable-lookout-mtp-connection-in-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ddceb2de29d30f174adf0074a3141331e777cfb0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">27a19ac64ebe9a98436b8106ed209ebdf61a8c22</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enable Lookout MTP in Intune | Microsoft Intune</source>
+          <target state="translated">Aktivieren von Dateinamenerweiterungen MTP in Intune | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable Lookout mobile threat protection in the Intune admin console.</source>
+          <target state="translated">Aktivieren des Schutzes von Dateinamenerweiterungen für Mobilgeräte in der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enable Lookout MTP connection in the Intune admin console</source>
+          <target state="translated">Aktivieren Sie die Dateinamenerweiterungen MTP-Verbindung in der Intune-Verwaltungskonsole</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic shows you how to enable the Lookout MTP connection in Intune.</source>
+          <target state="translated">In diesem Thema wird das Aktivieren der Dateinamenerweiterungen MTP-Verbindung in Intune veranschaulicht.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You should have already configured the Intune Connector in the Lookout MTP console before doing this step.</source>
+          <target state="translated">Sie sollten bereits die Intune-Connector in der Dateinamenerweiterungen MTP-Konsole konfiguriert haben vor diesem Schritt.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you have not already done so, do the steps described in  <bpt id="p1">[</bpt>Set up your subscription with Lookout mobile threat protection<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept>.</source>
+          <target state="translated">Wenn nicht bereits geschehen, führen Sie die Schritte unter  <bpt id="p1">[</bpt>Richten Sie Ihr Abonnement mit Dateinamenerweiterungen für Mobilgeräte Schutz<ept id="p1">](set-up-your-subscription-with-lookout-mtp.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To enable the Lookout MTP connection in Intune, on the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> page in the <bpt id="p2">[</bpt>Microsoft Intune administrator console<ept id="p2">](https://manage.microsoft.com)</ept>, choose <bpt id="p3">**</bpt>Third Party Service Integration<ept id="p3">**</ept>.</source>
+          <target state="translated">So aktivieren Sie die Verbindung nicht Dateinamenerweiterungen MTP in Intune, auf die <bpt id="p1">**</bpt>Verwaltung<ept id="p1">**</ept> Seite der <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p3">**</bpt>von Drittanbietern integriert<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Lookout status<ept id="p1">**</ept> and enable <bpt id="p2">**</bpt>Synchronization with MTP<ept id="p2">**</ept> using the toggle button.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Dateinamenerweiterungen Status<ept id="p1">**</ept> und aktivieren Sie <bpt id="p2">**</bpt>Synchronisierung mit MTP<ept id="p2">**</ept> mithilfe der Umschaltfläche.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>screenshot of the Lookout synchronization page with the enable toggle button highlighted</source>
+          <target state="translated">Screenshot der Dateinamenerweiterungen auf der Seite mit der Enable Umschaltfläche hervorgehoben</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This completes the setup of the Lookout and Intune integration in the Intune administrator console.</source>
+          <target state="translated">Dies schließt die Einrichtung der Dateinamenerweiterungen und der Intune-Integration in der Intune-Administratorkonsole.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The next few steps to implement this solution involve deploying the <bpt id="p1">[</bpt>Lookout for Work apps<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept> and setting up the <bpt id="p2">[</bpt>compliance<ept id="p2">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept> policy.</source>
+          <target state="translated">Die nächsten Schritte zur Implementierung dieser Lösung umfassen Bereitstellen der <bpt id="p1">[</bpt>Hut Arbeit apps<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept> und Einrichten der <bpt id="p2">[</bpt>Compliance<ept id="p2">](enable-device-threat-protection-rule-in-compliance-policy.md)</ept> Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You <bpt id="p1">**</bpt>must<ept id="p1">**</ept> configure the Lookout for Work app before creating compliance policy rules and configuring conditional access.</source>
+          <target state="translated">Sie <bpt id="p1">**</bpt>müssen<ept id="p1">**</ept> achten Arbeit app vor der Compliance-Regeln erstellen und Konfigurieren des bedingten Zugriffs konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This ensures that the app is ready and available for end users to install before they can get access to email or other company resources.</source>
+          <target state="translated">Dadurch wird sichergestellt, dass die app ist jetzt verfügbar für Endbenutzer installieren, bevor sie auf e-Mail-Adresse oder andere Unternehmensressourcen zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configure Lookout for Work app</source>
+          <target state="translated">Konfigurieren von Dateinamenerweiterungen für Arbeitsaufgaben-app</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

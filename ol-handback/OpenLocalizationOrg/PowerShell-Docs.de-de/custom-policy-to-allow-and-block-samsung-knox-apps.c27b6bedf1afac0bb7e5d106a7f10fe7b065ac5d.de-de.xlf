@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">937e291f193f61329598395baa63c24d7fefa25f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\custom-policy-to-allow-and-block-samsung-knox-apps.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">301149996b6e88715f454618a49dea7c77922fc8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fd32c584bcde6ea7f701a62146f813102ead55b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allowed and blocked apps for KNOX | Microsoft Intune</source>
+          <target state="translated">Die zulässigen und blockierten apps für KNOX | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Custom profile to create a list of allowed and blocked apps for KNOX.</source>
+          <target state="translated">Benutzerdefiniertes Profil erstellen Sie eine Liste der zulässigen und apps für KNOX blockiert.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use custom policies to allow and block apps for Samsung KNOX devices</source>
+          <target state="translated">Verwenden Sie benutzerdefinierte Richtlinien zulassen und Blockieren von apps für Samsung KNOX-Geräte</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the procedures in this topic to create a Microsoft Intune custom policy that creates one of the following:</source>
+          <target state="translated">Verwenden Sie die Verfahren in diesem Thema, um eine benutzerdefinierte Microsoft Intune-Richtlinie erstellen, die einen der folgenden erstellt:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A list of apps that are blocked from running on the device.</source>
+          <target state="translated">Eine Liste der apps, die auf dem Gerät ausgeführt wird, blockiert werden.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>No other apps will be allowed to run.</source>
+          <target state="translated">Keine andere apps dürfen ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Apps in this list are blocked from being run, even if they were already installed when the policy was applied.</source>
+          <target state="translated">Apps in dieser Liste werden ausgeführt werden, blockiert, selbst wenn sie bereits installiert wurden, wenn die Richtlinie angewendet wurde.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A list of apps that users of the device are allowed to install from the Google Play store.</source>
+          <target state="translated">Eine Liste der apps, die Benutzer des Geräts aus dem Google Play Store installieren.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Only the apps you list can be installed.</source>
+          <target state="translated">Nur apps aufgelisteten installiert werden kann.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>No other apps can be installed from the store.</source>
+          <target state="translated">Keine anderen apps können aus dem Store installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These settings can only be used by devices that run Samsung KNOX.</source>
+          <target state="translated">Diese Einstellungen können nur von Geräten verwendet werden, die Samsung KNOX ausführen.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To create an allowed or blocked app list</source>
+          <target state="translated">So erstellen Sie eine zulässige oder blockierte app-Liste</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuration Policies<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Konfigurationsrichtlinien<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Hinzufügen<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create a New Policy<ept id="p1">**</ept> dialog box, expand <bpt id="p2">**</bpt>Android<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Custom Configuration<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Create Policy<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Erstellen einer neuen Richtlinie<ept id="p1">**</ept> Dialogfeld erweitern Sie <bpt id="p2">**</bpt>Android<ept id="p2">**</ept>, wählen Sie <bpt id="p3">**</bpt>benutzerdefinierte Konfiguration<ept id="p3">**</ept>, und wählen Sie dann <bpt id="p4">**</bpt>Richtlinie erstellen<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Provide a name and optional description for the policy and then, in the <bpt id="p1">**</bpt>OMA-URI Settings<ept id="p1">**</ept> section, choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie einen Namen und optional eine Beschreibung für die Richtlinie, und klicken Sie dann in der <bpt id="p1">**</bpt>OMA-URI-Einstellungen<ept id="p1">**</ept> Abschnitt <bpt id="p2">**</bpt>Hinzufügen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add or Edit OMA-URI Setting<ept id="p1">**</ept> dialog box, specify the following:  For a list of apps that are blocked from running on the device:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Hinzufügen oder Bearbeiten von OMA-URI-Einstellung<ept id="p1">**</ept> Dialogfeld geben Folgendes: eine Liste der apps, die auf dem Gerät ausgeführt wird, blockiert werden:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Setting name.</source>
+          <target state="translated">Name der Einstellung.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>PreventStartPackages<ept id="p1">**</ept>.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>PreventStartPackages<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Setting description.</source>
+          <target state="translated">Beschreibung der Einstellung.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Enter an optional description like 'List of apps that are blocked from running.'</source>
+          <target state="translated">Geben Sie optionale eine Beschreibung wie "Liste der apps, die Ausführung blockiert wird."</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Data type.</source>
+          <target state="translated">Datentyp.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>From the drop-down list, choose <bpt id="p1">**</bpt>String<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie aus der Dropdown-Liste <bpt id="p1">**</bpt>Zeichenfolge<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>OMA-URI.</source>
+          <target state="translated">OMA-URI.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages<ept id="p1">**</ept></source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/PreventStartPackages<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Value.</source>
+          <target state="translated">Wert.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Enter a list of the app package names you want to allow.</source>
+          <target state="translated">Geben Sie eine Liste mit den Namen der app-Paket, die Sie zulassen möchten.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>; : ,<ept id="p1">**</ept> or <bpt id="p2">**</bpt><ph id="ph1">|</ph><ept id="p2">**</ept> as a delimiter.</source>
+          <target state="translated">Sie können <bpt id="p1">**</bpt>;:,<ept id="p1">**</ept> oder <bpt id="p2">**</bpt><ph id="ph1">|</ph><ept id="p2">**</ept> als Trennzeichen.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>(Example: package1;package2;)</source>
+          <target state="translated">(Beispiel: package1; package2;)</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For a list of apps that users are allowed to install from the Google Play store while excluding all other apps:</source>
+          <target state="translated">Eine Liste von apps, die Benutzer aus dem Google Play Store installieren, und alle anderen apps auszuschließen:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Setting name.</source>
+          <target state="translated">Name der Einstellung.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>AllowInstallPackages<ept id="p1">**</ept>.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>AllowInstallPackages<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Setting description.</source>
+          <target state="translated">Beschreibung der Einstellung.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Enter an optional description like 'List of apps that users can install from Google Play.'</source>
+          <target state="translated">Geben Sie optionale eine Beschreibung wie "Liste der apps, die Benutzer von Google Play installiert werden können."</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Data type.</source>
+          <target state="translated">Datentyp.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>From the drop-down list, choose <bpt id="p1">**</bpt>String<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie aus der Dropdown-Liste <bpt id="p1">**</bpt>Zeichenfolge<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>OMA-URI.</source>
+          <target state="translated">OMA-URI.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages<ept id="p1">**</ept></source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowInstallPackages<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Value.</source>
+          <target state="translated">Wert.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enter a list of the app package names you want to allow.</source>
+          <target state="translated">Geben Sie eine Liste mit den Namen der app-Paket, die Sie zulassen möchten.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>; : ,<ept id="p1">**</ept> or <bpt id="p2">**</bpt><ph id="ph1">|</ph><ept id="p2">**</ept> as a delimiter.</source>
+          <target state="translated">Sie können <bpt id="p1">**</bpt>;:,<ept id="p1">**</ept> oder <bpt id="p2">**</bpt><ph id="ph1">|</ph><ept id="p2">**</ept> als Trennzeichen.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>(Example: package1;package2;)</source>
+          <target state="translated">(Beispiel: package1; package2;)</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Save Policy<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, und klicken Sie dann auf <bpt id="p2">**</bpt>Richtlinie speichern<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>[TIP] You can find the package ID of an app by browsing to the app on the Google Play store.</source>
+          <target state="translated">[HINWEIS] Sie finden die Paket-ID einer App an die app auf dem Google Play Store durchsuchen.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The package ID is contained in the URL of the app's page.</source>
+          <target state="translated">Die Paket-ID ist in der URL der Seite der Anwendung enthalten.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, the package ID of the Microsoft Word app is <bpt id="p1">**</bpt>com.microsoft.office.word<ept id="p1">**</ept>.</source>
+          <target state="translated">Die Paket-ID der Microsoft Word-app ist z. B. <bpt id="p1">**</bpt>com.microsoft.office.word<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The next time each targeted device checks in, the app settings will be applied.</source>
+          <target state="translated">Das nächste Mal jedes Ziel Gerät überprüft in der Anwendung, die Einstellungen angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Deploy the policy</source>
+          <target state="translated">Bereitstellen der Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, then click <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Richtlinie, die Sie verwenden möchten, bereitstellen, und klicken Sie dann <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, select one or more groups to which you want to deploy the policy, then click <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> Klicken Sie im Dialogfeld Wählen Sie die Richtlinie bereitstellen möchten eine oder mehrere Gruppen <bpt id="p2">**</bpt>Hinzufügen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When you select a deployed policy, you can view further information about the deployment in the lower part of the policies list.</source>
+          <target state="translated">Wenn Sie eine bereitgestellte Richtlinie auswählen, können Sie weitere Informationen zur Bereitstellung im unteren Teil der Liste der Richtlinien anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Android and Samsung KNOX policy settings in Microsoft Intune</source>
+          <target state="translated">Android und Samsung KNOX-Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

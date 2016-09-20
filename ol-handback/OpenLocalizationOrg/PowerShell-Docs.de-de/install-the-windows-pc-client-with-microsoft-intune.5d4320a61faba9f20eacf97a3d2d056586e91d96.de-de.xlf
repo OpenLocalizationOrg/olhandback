@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d59a0a08b6d72d2b2cb9462d99fc8e435fe0fba8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\install-the-windows-pc-client-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9bbf6f9c8aaa2f9df30bbda46cc277283319b62</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2392789c5c6dc8a145fd9253299903ea1254123b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Install the PC client software | Microsoft Intune</source>
+          <target state="translated">Installieren die Clientsoftware PC | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use this guide to help you get your Windows PCs managed by the Microsoft Intune client software.</source>
+          <target state="translated">Verwenden Sie dieses Handbuch, um Ihre Windows-PCs, die von der Microsoft Intune-Clientsoftware verwaltet abzurufen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Install the Intune software client on Windows PCs</source>
+          <target state="translated">Installieren Sie den Intune-Software-Client auf Windows-PCs</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Windows PCs can be enrolled by installing the Intune client software.</source>
+          <target state="translated">Windows-PCs können durch die Installation der Clientsoftware registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Intune client software can be installed in the following ways:</source>
+          <target state="translated">Die Intune-Clientsoftware kann auf folgende Weise installiert werden:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Manually installed</source>
+          <target state="translated">Manuell installiert</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Install using Group policy</source>
+          <target state="translated">Installieren Sie mithilfe von Gruppenrichtlinien</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Include in a disk image</source>
+          <target state="translated">In einem Datenträgerabbild einschließen</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Installed by users</source>
+          <target state="translated">Durch Benutzer installiert</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Download Intune client software</source>
+          <target state="translated">Herunterladen der Clientsoftware</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>All methods, except where users install the Intune client software themselves, require that you download the software so it can be deployed.</source>
+          <target state="translated">Alle Methoden, es sei denn, in dem Benutzer die Intune-Clientsoftware selbst installieren müssen Sie die Software herunterladen, damit es bereitgestellt werden kann.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, click <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Client Software Download<ept id="p3">**</ept></source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, klicken Sie auf <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Download der Clientsoftware<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Download the Intune PC client</source>
+          <target state="translated">Der Intune-PC-Client herunterladen</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Client Software Download<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Download Client Software<ept id="p2">**</ept> and save the <bpt id="p3">**</bpt>Microsoft_Intune_Setup.zip<ept id="p3">**</ept> package containing the software to a secure location on your network.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Download der Clientsoftware<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Clientsoftware herunterladen<ept id="p2">**</ept> und speichern Sie die <bpt id="p3">**</bpt>Microsoft_Intune_Setup.zip<ept id="p3">**</ept> Paket mit der Software an einem sicheren Ort in Ihrem Netzwerk.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Intune client software installation package contains information about your account.</source>
+          <target state="translated">Das Installationspaket von Intune-Clientsoftware enthält Informationen zu Ihrem Konto.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If unauthorized users gain access to the installation package, they can enroll computers to the account that is represented by its embedded certificate.</source>
+          <target state="translated">Wenn nicht autorisierte Benutzer Zugriff auf das Installationspaket erhalten, können sie Computer bei dem Konto registrieren, dem das eingebettete Zertifikat entspricht.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Extract the contents of the installation package to the secure location on your network.</source>
+          <target state="translated">Extrahieren Sie an dem sicheren Ort in Ihrem Netzwerk den Inhalt des Installationspakets.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Do not rename or remove the <bpt id="p1">**</bpt>ACCOUNTCERT<ept id="p1">**</ept> file that is extracted or the client software installation will fail.</source>
+          <target state="translated">Umbenennen oder entfernen Sie nicht die <bpt id="p1">**</bpt>ACCOUNTCERT<ept id="p1">**</ept> Datei, die extrahiert werden, oder die Installation der Clientsoftware fehl.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Manually deploy</source>
+          <target state="translated">Manuell bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On a computer, browse to the folder where the client software installation files are located, and then run <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> to install the client software.</source>
+          <target state="translated">Auf einem Computer, navigieren Sie zu dem Ordner, in dem die Installationsdateien der Clientsoftware befinden, und führen Sie dann <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> zum Installieren der Clientsoftware.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The status of the installation is displayed when you hover over the icon in the taskbar on the client computer.</source>
+          <target state="translated">Der Installationsstatus wird angezeigt, wenn Sie mit dem Mauszeiger auf das Symbol in der Taskleiste des Clientcomputers zeigen.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Deploy with using Group Policy</source>
+          <target state="translated">Beim Verwenden der Gruppenrichtlinie bereitstellen</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the folder that contains the files <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MicrosoftIntune.accountcert<ept id="p2">**</ept>, run the following command to extract the Windows Installer-based installation programs for 32-bit and 64-bit computers:</source>
+          <target state="translated">In den Ordner mit den Dateien <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> und <bpt id="p2">**</bpt>MicrosoftIntune.accountcert<ept id="p2">**</ept>, führen Sie den folgenden Befehl zum Extrahieren der Windows Installer-basierten Installationsprogramme für 32-Bit- und 64-Bit-Computer:</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Copy the <bpt id="p1">**</bpt>Microsoft_Intune_x86.msi<ept id="p1">**</ept> file, the <bpt id="p2">**</bpt>Microsoft_Intune_x64.msi<ept id="p2">**</ept> file, and the <bpt id="p3">**</bpt>MicrosoftIntune.accountcert<ept id="p3">**</ept> file to a network location that can be accessed by all computers to which the client software is to be installed.</source>
+          <target state="translated">Kopieren der <bpt id="p1">**</bpt>Microsoft_Intune_x86.msi<ept id="p1">**</ept> -Datei, die <bpt id="p2">**</bpt>Microsoft_Intune_x64.msi<ept id="p2">**</ept> -Datei und die <bpt id="p3">**</bpt>MicrosoftIntune.accountcert<ept id="p3">**</ept> Datei an einem Speicherort im Netzwerk, die von allen Computern zugegriffen werden kann, der die Client-Software installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Do not separate or rename the files or the client software installation will fail.</source>
+          <target state="translated">Benennen Sie die Dateien nicht um, und trennen sie sie nicht, da bei der Installation der Clientsoftware sonst ein Fehler auftritt.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use Group Policy to deploy the software to computers on your network.</source>
+          <target state="translated">Verwenden Sie Gruppenrichtlinien, um die Software auf Computern in Ihrem Netzwerk bereitzustellen.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about how to use Group Policy to automatically deploy software, see your Windows Server documentation.</source>
+          <target state="translated">Weitere Informationen zum automatischen Bereitstellen von Software mithilfe von Gruppenrichtlinien finden Sie in Ihrer Windows Server-Dokumentation.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Install  as part of an image</source>
+          <target state="translated">Installieren Sie als Teil eines Images</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can deploy the Intune client software to computers as part of an operating system image by using the following example procedure as a basis:</source>
+          <target state="translated">Sie können die Intune-Clientsoftware als Teil eines Betriebssystemabbilds auf Computern bereitstellen, durch die folgende Beispielvorgehensweise als Basis verwenden:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Copy the client installation files, <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MicrosoftIntune.accountcert<ept id="p2">**</ept> to the <bpt id="p3">**</bpt>%Systemdrive%\Temp\Microsoft_Intune_Setup<ept id="p3">**</ept> folder on the reference computer.</source>
+          <target state="translated">Kopieren Sie die Clientinstallationsdateien <bpt id="p1">**</bpt>Microsoft_Intune_Setup.exe<ept id="p1">**</ept> und <bpt id="p2">**</bpt>MicrosoftIntune.accountcert<ept id="p2">**</ept> an der <bpt id="p3">**</bpt>%Systemdrive%\Temp\Microsoft_Intune_Setup<ept id="p3">**</ept> Ordner auf dem Referenzcomputer.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create the <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> registry entry by adding the following command to the <bpt id="p2">**</bpt>SetupComplete.cmd<ept id="p2">**</ept> script:</source>
+          <target state="translated">Erstellen der <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> Eintrag in der Registrierung durch den folgenden Befehl zum Hinzufügen der <bpt id="p2">**</bpt>SetupComplete.cmd<ept id="p2">**</ept> Skript:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Add the following command to <bpt id="p1">**</bpt>setupcomplete.cmd<ept id="p1">**</ept> to run the enrollment package with the /PrepareEnroll command-line argument:</source>
+          <target state="translated">Fügen Sie den folgenden Befehl zum <bpt id="p1">**</bpt>setupcomplete.cmd<ept id="p1">**</ept> um das Registrierungspaket mit dem prepareenroll auszuführen:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>SetupComplete.cmd<ept id="p1">**</ept> script enables Windows Setup to make modifications to the system before a user logs on.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>SetupComplete.cmd<ept id="p1">**</ept> Skript aktiviert die Windows-Setup geändert werden, damit das System, bevor sich ein Benutzer anmeldet.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>/PrepareEnroll<ept id="p1">**</ept> command-line argument prepares a targeted computer to be automatically enrolled in Intune after Windows Setup finishes.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>/PrepareEnroll<ept id="p1">**</ept> Befehlszeilenargument wird ein Zielcomputer automatisch in Intune registriert werden, nach dem Beenden von Windows Setup vorbereitet.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Put <bpt id="p1">**</bpt>SetupComplete.cmd<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>%Windir%\Setup\Scripts<ept id="p2">**</ept> folder on the reference computer.</source>
+          <target state="translated">Put <bpt id="p1">**</bpt>SetupComplete.cmd<ept id="p1">**</ept> in der <bpt id="p2">**</bpt>%Windir%\Setup\Scripts<ept id="p2">**</ept> Ordner auf dem Referenzcomputer.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Capture an image of the reference computer and then deploy this to targeted computers.</source>
+          <target state="translated">Erstellen Sie ein Systemabbild des Referenzcomputers, und stellen sie es auf den Zielcomputern bereit.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When the targeted computer restarts at the completion of Windows Setup, the <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> registry key is created.</source>
+          <target state="translated">Beim Neustart des Computers nach Abschluss der Installation von Windows die <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> Registrierungsschlüssel wird erstellt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The enrollment package checks whether the computer is enrolled.</source>
+          <target state="translated">Mit dem Registrierungspaket wird überprüft, ob der Computer registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the computer is enrolled, no further action is taken.</source>
+          <target state="translated">Wenn der Computer registriert ist, ist keine weitere Aktion erforderlich.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the computer is not enrolled, the enrollment package creates a Microsoft Intune Automatic Enrollment Task.</source>
+          <target state="translated">Wenn der Computer nicht registriert ist, erstellt das Registrierungspaket eine Microsoft Intune Aufgabe zur automatischen Registrierung.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When the automatic enrollment task runs at the next scheduled time, it checks the existence of the <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> registry value, and it tries to enroll the targeted PC in Intune.</source>
+          <target state="translated">Wenn die automatische Registrierung Aufgabe zum nächsten geplanten Zeitpunkt ausgeführt wird, überprüft das Vorhandensein der <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> Registrierungswert, und versucht, die Ziel-PC in Intune zu registrieren.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the enrollment fails for any reason, the enrollment is retried the next time the task runs.</source>
+          <target state="translated">Sollte die Registrierung aus einem beliebigen Grund fehlschlagen, wird die Registrierung beim nächsten Ausführen der Aufgabe erneut versucht.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The retries continue for a period of one month.</source>
+          <target state="translated">Die Wiederholungen werden in einem Zeitraum von einem Monat ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Intune Automatic Enrollment Task, the <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> registry value, and the account certificate are deleted from the targeted computer when the enrollment is successful or after one month.</source>
+          <target state="translated">Die Aufgabe, die <bpt id="p1">**</bpt>WindowsIntuneEnrollPending<ept id="p1">**</ept> Registrierungswert und das Kontozertifikat werden gelöscht, auf dem Zielcomputer, wenn die Registrierung erfolgreich war oder ein Monat vergangen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Instruct user to self-enroll</source>
+          <target state="translated">Weisen Sie Benutzer selbst registrieren</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Users can install the Intune client software by browsing to  <bpt id="p1">[</bpt>http://portal.manage.microsoft.com<ept id="p1">](http://portal..manage.microsoft.com)</ept>.</source>
+          <target state="translated">Benutzer können die Intune-Clientsoftware installieren, indem Sie auf  <bpt id="p1">[</bpt>http://portal.manage.microsoft.com<ept id="p1">](http://portal..manage.microsoft.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If the web portal can detect the device is a Windows PC, it will prompted to enroll PC by downloading the Intune software client.</source>
+          <target state="translated">Wenn das Webportal erkennen, dass das Gerät auf einem Windows-PC ist, er aufgefordert, um PC durch Herunterladen des Intune-Clients-Software zu registrieren.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Once downloaded, users can install the software to bring their PCs into management.</source>
+          <target state="translated">Nach dem Herunterladen, können Benutzer die Software können Sie ihre PCs in die Verwaltung installieren.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Intune Portal prompting to download the Intune software client</source>
+          <target state="translated">Intune-Portal aufgefordert, den Intune-Client-Software herunterladen</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Monitor and validate successful client deployment</source>
+          <target state="translated">Überwachen und Überprüfen der erfolgreichen Clientbereitstellung</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use one of the following procedures to help you monitor and validate successful client deployment.</source>
+          <target state="translated">Verwenden Sie eins der folgenden Verfahren, um die erfolgreiche Clientbereitstellung zu überwachen und zu überprüfen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To verify the installation of the client software from the Microsoft Intune administrator console</source>
+          <target state="translated">So überprüfen die Installation der Clientsoftware über den Microsoft Intune-Administratorkonsole</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, click <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>All Computers<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, klicken Sie auf <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>alle Computer<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Scroll down the list of computers to find managed computers that are communicating with Intune, or to search for a specific managed computer by typing the computer name, or any part of the name, in the <bpt id="p1">**</bpt>Search devices<ept id="p1">**</ept> box.</source>
+          <target state="translated">Bildlauf nach unten in der Liste der Computer, die auf verwaltete Computern zu suchen, die eine Kommunikation mit Intune oder nach einem bestimmten verwalteten Computer suchen, geben Sie den Computernamen oder einen beliebigen Teil der Name in der <bpt id="p1">**</bpt>Geräte suchen<ept id="p1">**</ept> Feld.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Examine the status of the computer in the bottom pane of the console, and resolve any errors.</source>
+          <target state="translated">Überprüfen Sie den Status des Computers im unteren Bereich der Konsole, und beheben Sie vorhandene Fehler.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To create a computer inventory report to display all enrolled computers</source>
+          <target state="translated">So erstellen Sie einen Computerinventurbericht zum Anzeigen aller registrierten Computer</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, click <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Computer Inventory Reports<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, klicken Sie auf <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Computerinventurberichte<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, leave all fields as the default values (unless you want to apply filters), and click <bpt id="p2">**</bpt>View Report<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite, lassen Sie alle Felder als Standard (es sei denn, Sie Filter anwenden möchten), und klicken Sie auf <bpt id="p2">**</bpt>Bericht anzeigen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Computer Inventory Report<ept id="p1">**</ept> page opens in a new window that displays all computers that are successfully enrolled in Intune.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Computerinventurbericht<ept id="p1">**</ept> Seite geöffnet, in einem neuen Fenster, in dem alle Computer, die erfolgreich angemeldet werden in Intune angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Click any column heading in the report to sort the list by the contents of that column.</source>
+          <target state="translated">Klicken Sie im Bericht auf beliebige Spaltenüberschriften, um die Liste nach dem Inhalt der betreffenden Spalte zu sortieren.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage Windows PCs with Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Troubleshoot client setup<ept id="p2">](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Verwalten von Windows-PCs mit Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Problembehandlung bei der Clientinstallation<ept id="p2">](../troubleshoot/troubleshoot-client-setup-in-microsoft-intune)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

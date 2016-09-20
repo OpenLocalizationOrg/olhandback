@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">adef720c31eea978dc899f62e1eef60af2812a3d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Configure-certificate-infrastructure-for-scep.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">deb33378f3a3508a236ecbb610c103efeb751198</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01c8d34e614586f8c194da5e89bbf01d8233272f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure for SCEP |Microsoft Intune</source>
+          <target state="translated">Zertifikatinfrastruktur für SCEP konfigurieren | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Infrastructure for creating and deploying SCEP certificate profiles.</source>
+          <target state="translated">Die Infrastruktur für das Erstellen und Bereitstellen von Zertifikatvorlagen SCEP.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configure certificate infrastructure for SCEP</source>
+          <target state="translated">Konfigurieren Sie für SCEP-Zertifikatinfrastruktur</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes what infrastructure you need in order to create and deploy SCEP certificate profiles.</source>
+          <target state="translated">In diesem Thema wird beschrieben, welche Infrastruktur, die Sie benötigen, um Profile für SCEP-Zertifikat erstellen und bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>On-premises infrastructure</source>
+          <target state="translated">Lokale Infrastruktur</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Active Directory domain<ept id="p1">**</ept>: All servers listed in this section (except for the Web Application Proxy Server) must be joined to your Active Directory domain.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Active Directory-Domäne<ept id="p1">**</ept>: alle in diesem Abschnitt (außer dem Webanwendungsproxy-Servers) aufgeführten Server müssen der Active Directory-Domäne verknüpft werden.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Certification Authority<ept id="p1">**</ept> (CA): An Enterprise Certification Authority (CA) that runs on an Enterprise edition of Windows Server 2008 R2 or later.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Zertifizierungsstelle<ept id="p1">**</ept> (CA): ein Unternehmen Zertifizierungsstelle (CA), die auf eine Enterprise-Edition von Windows Server 2008 R2 oder höher ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A Standalone CA is not supported.</source>
+          <target state="translated">Eine eigenständige Zertifizierungsstelle wird nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For instructions on how to set up a Certification Authority, see <bpt id="p1">[</bpt>Install the Certification Authority<ept id="p1">](http://technet.microsoft.com/library/jj125375.aspx)</ept>.</source>
+          <target state="translated">Informationen zum Einrichten einer Zertifizierungsstelle finden Sie unter <bpt id="p1">[</bpt>Installieren der Zertifizierungsstelle<ept id="p1">](http://technet.microsoft.com/library/jj125375.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If your CA runs Windows Server 2008 R2, you must <bpt id="p1">[</bpt>install the hotfix from KB2483564<ept id="p1">](http://support.microsoft.com/kb/2483564/)</ept>.</source>
+          <target state="translated">Wenn die Zertifizierungsstelle unter Windows Server 2008 R2 ausgeführt wird, müssen Sie <bpt id="p1">[</bpt>Installieren Sie den Hotfix von KB2483564<ept id="p1">](http://support.microsoft.com/kb/2483564/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>I</source>
+          <target state="translated">I</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NDES Server<ept id="p1">**</ept>: On a server that runs Windows Server 2012 R2 or later, you must setup up the Network Device Enrollment Service (NDES).</source>
+          <target state="translated"><bpt id="p1">**</bpt>NDES-Server<ept id="p1">**</ept>: auf einem Server, Windows Server 2012 R2 ausgeführt wird, oder höher, müssen Sie Network Device Enrollment Service (NDES) einrichten.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Intune does not support using NDES when it runs on a server that also runs the Enterprise CA.</source>
+          <target state="translated">Intune unterstützt nicht die NDES verwenden, wenn sie auf einem Server ausgeführt wird, der auch die Unternehmenszertifizierungsstelle ausführt.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Network Device Enrollment Service Guidance<ept id="p1">](http://technet.microsoft.com/library/hh831498.aspx)</ept> for instructions on how to configure Windows Server 2012 R2 to host the Network Device Enrollment Service.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Leitfaden zu NDES Netzwerk<ept id="p1">](http://technet.microsoft.com/library/hh831498.aspx)</ept> eine Anleitung zum Konfigurieren von Windows Server 2012 R2 zum Hosten der Registrierungsdienst für Netzwerkgeräte.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The NDES server must be domain joined to the domain that hosts the CA, and not be on the same server as the CA.</source>
+          <target state="translated">NDES-Server muss mit der Domäne, die die Zertifizierungsstelle hostet verknüpft werden, und nicht auf dem gleichen Server wie der Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>More information about deploying the NDES server in a separate forest, isolated network or internal domain can be found in <bpt id="p1">[</bpt>Using a Policy Module with the Network Device Enrollment Service<ept id="p1">](https://technet.microsoft.com/en-us/library/dn473016.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zum Bereitstellen der NDES-Server in einer separaten Gesamtstruktur, isolierten Netzwerk oder interne Domäne finden Sie <bpt id="p1">[</bpt>Verwenden eines Richtlinienmoduls mit dem Registrierungsdienst für Netzwerkgeräte<ept id="p1">](https://technet.microsoft.com/en-us/library/dn473016.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Intune Certificate Connector<ept id="p1">**</ept>: You use the Intune admin console to download the <bpt id="p2">**</bpt>Certificate Connector<ept id="p2">**</ept> installer (<bpt id="p3">**</bpt>ndesconnectorssetup.exe<ept id="p3">**</ept>).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Microsoft Intune-Zertifikatconnector<ept id="p1">**</ept>: Verwendung die Intune-Verwaltungskonsole zum Herunterladen der <bpt id="p2">**</bpt>Zertifikatconnector<ept id="p2">**</ept> Installationsprogramm (<bpt id="p3">**</bpt>ndesconnectorssetup.exe<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Then you can run <bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept> on the computer where you want to install the Certificate Connector.</source>
+          <target state="translated">Führen Sie <bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept> auf dem Computer, in dem Sie die Zertifikat-Connector installieren möchten.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Application Proxy Server<ept id="p1">**</ept> (optional): You can use a server that runs Windows Server 2012 R2  or later as a Web Application Proxy (WAP) server.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Webanwendungsproxy-Server<ept id="p1">**</ept> (optional): Sie können einen Server mit Windows Server 2012 R2 oder höher als Webanwendungsproxy (WAP)-Server.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This configuration:</source>
+          <target state="translated">Diese Konfiguration:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Allows devices to receive certificates using an Internet connection.</source>
+          <target state="translated">Ermöglicht Geräten das Empfangen von Zertifikaten über eine Internet-Verbindung.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Is a security recommendation when devices connect through the Internet to receive and renew certificates.</source>
+          <target state="translated">Ist eine sicherheitsempfehlung, wenn Geräte eine Verbindung über das Internet herstellen zu empfangen und Erneuern von Zertifikaten.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The server that hosts WAP <bpt id="p1">[</bpt>must install an update<ept id="p1">](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)</ept> that enables support for the long URLs that are used by the Network Device Enrollment Service.</source>
+          <target state="translated">Der Server, der WAP hostet <bpt id="p1">[</bpt>muss ein Update installiert<ept id="p1">](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)</ept> mit der Unterstützung für lange URLs, die durch den Registrierungsdienst für Netzwerkgeräte verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This update is included with the <bpt id="p1">[</bpt>December 2014 update rollup<ept id="p1">](http://support.microsoft.com/kb/3013769)</ept>, or individually from <bpt id="p2">[</bpt>KB3011135<ept id="p2">](http://support.microsoft.com/kb/3011135)</ept>.</source>
+          <target state="translated">Dieses Update ist im Lieferumfang der <bpt id="p1">[</bpt>Updaterollup vom Dezember 2014<ept id="p1">](http://support.microsoft.com/kb/3013769)</ept>, oder einzeln von <bpt id="p2">[</bpt>KB3011135<ept id="p2">](http://support.microsoft.com/kb/3011135)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Also, the server that hosts WAP must have a SSL certificate that matches the name being published to external clients as well as trust the SSL certificate that is used on the NDES server.</source>
+          <target state="translated">Entspricht der Server, die Hosts WAP ein SSL-Zertifikat verfügen müssen, die den Namen für externe Clients sowie das SSL-Zertifikat, das auf dem NDES-Server verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These certificates enable the WAP server to terminate the SSL connection from clients, and create a new SSL connection to the NDES server.</source>
+          <target state="translated">Diese Zertifikate ermöglichen den WAP-Server beendet die SSL-Verbindung von Clients, und erstellen eine neue SSL-Verbindung mit dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For information about certificates for WAP, see the <bpt id="p1">**</bpt>Plan certificates<ept id="p1">**</ept> section of <bpt id="p2">[</bpt>Planning to Publish Applications Using Web Application Proxy<ept id="p2">](https://technet.microsoft.com/library/dn383650.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zu Zertifikaten für WAP finden Sie unter der <bpt id="p1">**</bpt>Planen von Zertifikaten<ept id="p1">**</ept> Abschnitt <bpt id="p2">[</bpt>Veröffentlichen Applications Webanwendungsproxys planen<ept id="p2">](https://technet.microsoft.com/library/dn383650.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For general information about WAP servers, see <bpt id="p1">[</bpt>Working with Web Application Proxy<ept id="p1">](http://technet.microsoft.com/library/dn584113.aspx)</ept>.|</source>
+          <target state="translated">Allgemeine Informationen zu WAP-Servern finden Sie unter <bpt id="p1">[</bpt>Arbeiten mit Webanwendungsproxy<ept id="p1">](http://technet.microsoft.com/library/dn584113.aspx)</ept>. |</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Network requirements</source>
+          <target state="translated">Netzwerkanforderungen</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>From the Internet to perimeter network, allow port 443 from all hosts/IP addressess on the internet to the NDES server.</source>
+          <target state="translated">Ermöglichen Sie aus dem Internet zum Umkreisnetzwerk Port 443 von allen Hosts/IP-Adressen im Internet auf dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>From the perimeter network to trusted network, allow all ports and protocols needed for domain access on the domain-joined NDES server.</source>
+          <target state="translated">Können Sie aus dem Umkreisnetzwerk mit vertrauenswürdigen Netzwerk alle Ports und Protokolle, die für den Zugriff auf die Domäne NDES-Server erforderlich sind.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The NDES server needs access to the certificate servers, DNS servers, Configuration Manager servers and domain controllers.</source>
+          <target state="translated">Der NDES-Server benötigt Zugriff auf den Zertifikatserver, DNS-Server, Configuration Manager-Servern und Domänencontrollern.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>We recommend publishing the NDES server through a proxy, such as the <bpt id="p1">[</bpt>Azure AD application proxy<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/)</ept>, <bpt id="p2">[</bpt>Web Access Proxy<ept id="p2">](https://technet.microsoft.com/en-us/library/dn584107.aspx)</ept>, or a third-party proxy.</source>
+          <target state="translated">Es wird empfohlen, veröffentlichen den NDES-Server über einen Proxy wie z. B. die <bpt id="p1">[</bpt>Azure AD-Anwendungsproxy<ept id="p1">](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-publish/)</ept>, <bpt id="p2">[</bpt>Web Access Proxy<ept id="p2">](https://technet.microsoft.com/en-us/library/dn584107.aspx)</ept>, oder ein Drittanbieter-Proxy.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;&lt;/a&gt;</ph>Certificates and Templates</source>
+          <target state="translated"><ph id="ph1">&lt;a name="BKMK_CertsAndTemplates"&gt;&lt;/a&gt;</ph>Zertifikate und Vorlagen</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Object</source>
+          <target state="translated">Objekt</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Certificate Template</source>
+          <target state="translated">Zertifikatvorlage</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You configure this template on your issuing CA.</source>
+          <target state="translated">Sie konfigurieren diese Vorlage auf der ausstellenden Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Client authentication certificate</source>
+          <target state="translated">Clientauthentifizierungszertifikat</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Requested from your issuing CA or public CA, you install this certificate on the NDES Server.</source>
+          <target state="translated">Angefordert von der ausstellenden Zertifizierungsstelle oder öffentlichen Zertifizierungsstelle installieren Sie dieses Zertifikat auf dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Server authentication certificate</source>
+          <target state="translated">Serverauthentifizierungszertifikat</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Requested from your issuing CA or public CA, you install and bind this SSL certificate in IIS on the NDES server.</source>
+          <target state="translated">Angefordert von der ausstellenden Zertifizierungsstelle oder öffentlichen Zertifizierungsstelle, installieren und Binden dieses SSL-Zertifikat in IIS auf dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Trusted Root CA certificate</source>
+          <target state="translated">Zertifikat der vertrauenswürdigen Stammzertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You export this as a <bpt id="p1">**</bpt>.cer<ept id="p1">**</ept> file from the root CA or any device which trusts the root CA, and deploy it to devices by using the Trusted CA certificate profile.</source>
+          <target state="translated">Sie exportieren dies als eine <bpt id="p1">**</bpt>CER<ept id="p1">**</ept> -Datei von der Stamm-CA oder von Geräten, die die Stammzertifizierungsstelle vertrauen, und mit dem Zertifikatprofil der vertrauenswürdigen Zertifizierungsstelle für Geräte bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You use a single Trusted Root CA certificate per operating system platform, and associate it with each Trusted Root Certificate profile you create.</source>
+          <target state="translated">Sie verwenden ein einzelnes Zertifikat der vertrauenswürdigen Stammzertifizierungsstelle Betriebssystemplattform und verknüpfen diese mit jeder vertrauenswürdige Stammzertifikat-Profil, die Sie erstellen.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can use additional Trusted Root CA certificates when needed.</source>
+          <target state="translated">Sie können zusätzliche vertrauenswürdige Stamm-CA-Zertifikate bei Bedarf verwenden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, you might do this to provide a trust to a CA that signs the server authentication certificates for your Wi-Fi access points.</source>
+          <target state="translated">Angenommen, können Sie dies vornehmen eine Vertrauensstellung zu einer Zertifizierungsstelle bereitstellen, die der Server signiert Authentifizierungszertifikate für Ihre WLAN-Zugriffspunkte.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;&lt;/a&gt;</ph>Accounts</source>
+          <target state="translated"><ph id="ph1">&lt;a name="BKMK_Accounts"&gt;&lt;/a&gt;</ph>Konten</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>NDES service account</source>
+          <target state="translated">Dienstkonto für NDES</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You specify a domain user account to use as the NDES Service account.</source>
+          <target state="translated">Ein Domänenbenutzerkonto, das als NDES-Dienstkonto verwendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;&lt;/a&gt;</ph>Configure your infrastructure</source>
+          <target state="translated"><ph id="ph1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;&lt;/a&gt;</ph>Konfigurieren der Infrastruktur</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Before you can configure certificate profiles you must complete the following tasks, which require knowledge of Windows Server 2012 R2 and Active Directory Certificate Services (ADCS):</source>
+          <target state="translated">Vor dem Konfigurieren von zertifikatprofilen müssen Sie die folgenden Aufgaben ausführen, für die Kenntnisse über Windows Server 2012 R2 und Active Directory-Zertifikatdienste (ADCS) benötigen:</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 1<ept id="p1">**</ept>: Create an NDES service account</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 1<ept id="p1">**</ept>: erstellen ein NDES-Dienstkonto</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 2<ept id="p1">**</ept>: Configure certificate templates on the certification authority</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 2<ept id="p1">**</ept>: Konfigurieren von Zertifikatvorlagen auf der Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 3<ept id="p1">**</ept>: Configure prerequisites on the NDES server</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 3<ept id="p1">**</ept>: Konfigurieren der erforderlichen Komponenten auf dem NDES-Server</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 4<ept id="p1">**</ept>: Configure NDES for use with Intune</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 4<ept id="p1">**</ept>: Konfigurieren von NDES für die Verwendung mit Intune</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Task 5<ept id="p1">**</ept>: Enable, install, and configure the Intune Certificate Connector</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufgabe 5<ept id="p1">**</ept>: aktivieren, installieren und Konfigurieren des Intune-Zertifikatconnectors</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Task 1 - Create an NDES service account</source>
+          <target state="translated">Aufgabe 1: Erstellen eines NDES-Dienstkontos</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Create a domain user account to use as the NDES service account.</source>
+          <target state="translated">Erstellen Sie ein Domänenbenutzerkonto, das als NDES-Dienstkonto verwendet.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You will specify this account when you configure templates on the issuing CA before you install and configure NDES.</source>
+          <target state="translated">Sie müssen dieses Konto angeben, wenn Sie Vorlagen auf der ausstellenden Zertifizierungsstelle konfigurieren, bevor Sie NDES installieren und konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Make sure the user has the default rights, <bpt id="p1">**</bpt>Logon Localy<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Logon as a Service<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Logon as a batch job<ept id="p3">**</ept> rights.</source>
+          <target state="translated">Stellen Sie sicher, dass der Benutzer die Standardrechte <bpt id="p1">**</bpt>Anmeldung lokal<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Anmelden als Dienst<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Anmelden als Stapelverarbeitungsauftrag<ept id="p3">**</ept> Rechte.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Some organizations have hardening policies that disable those rights.</source>
+          <target state="translated">Einige Organisationen haben Absichern von Richtlinien, die diese Rechte zu deaktivieren.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Task 2 - Configure certificate templates on the certification authority</source>
+          <target state="translated">Aufgabe 2: Konfigurieren von Zertifikatvorlagen auf der Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In this task you will:</source>
+          <target state="translated">In dieser Aufgabe führen Sie folgende Aktionen ausführen:</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Configure a certificate template for NDES</source>
+          <target state="translated">Konfigurieren einer Zertifikatvorlage für NDES</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Publish the certificate template for NDES</source>
+          <target state="translated">Veröffentlichen der Zertifikatvorlage für NDES</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To configure the certification authority</source>
+          <target state="translated">Konfigurieren der Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Log on as an enterprise administrator.</source>
+          <target state="translated">Melden Sie sich als Organisationsadministrator an.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>On the issuing CA, use the Certificate Templates snap-in to create a new custom template or copy an existing template and then edit an existing template (like the User template), for use with NDES.</source>
+          <target state="translated">Verwenden Sie auf der ausstellenden Zertifizierungsstelle das Zertifikatsvorlagen-Snap-in auf eine neue benutzerdefinierte Vorlage erstellen oder eine vorhandene Vorlage kopieren und bearbeiten Sie eine vorhandene Vorlage (z. B. die Vorlage "Benutzer"), für die Verwendung mit NDES.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The template must have the following configurations:</source>
+          <target state="translated">Die Vorlage muss wie folgt konfiguriert sein:</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specify a friendly <bpt id="p1">**</bpt>Template display name<ept id="p1">**</ept> for the template.</source>
+          <target state="translated">Geben Sie einen aussagekräftigen <bpt id="p1">**</bpt>Vorlagenanzeigename<ept id="p1">**</ept> für die Vorlage.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Subject Name<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Supply in the request<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Antragstellername<ept id="p1">**</ept> Registerkarte <bpt id="p2">**</bpt>Geben Sie in der Anforderung<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>(Security is enforced by the Intune policy module for NDES).</source>
+          <target state="translated">(Sicherheit wird durch das Intune-Richtlinienmodul für NDES erzwungen).</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> tab, ensure the <bpt id="p2">**</bpt>Description of Application Policies<ept id="p2">**</ept> includes <bpt id="p3">**</bpt>Client Authentication<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> sicher der <bpt id="p2">**</bpt>Beschreibung von Anwendungsrichtlinien<ept id="p2">**</ept> enthält <bpt id="p3">**</bpt>Clientauthentifizierung<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For iOS and Mac OS X certificate templates, on the <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> tab, edit <bpt id="p2">**</bpt>Key Usage<ept id="p2">**</ept> and ensure <bpt id="p3">**</bpt>Signature is proof of origin<ept id="p3">**</ept> is not selected.</source>
+          <target state="translated">Für iOS und Mac OS X Zertifikatvorlagen, auf die <bpt id="p1">**</bpt>Extensions<ept id="p1">**</ept> Registerkarte, bearbeiten Sie <bpt id="p2">**</bpt>Schlüsselverwendung<ept id="p2">**</ept> und stellen Sie sicher <bpt id="p3">**</bpt>Signatur ist Ursprungsnachweis<ept id="p3">**</ept> nicht ausgewählt ist.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Security<ept id="p1">**</ept> tab, add the NDES service account, and give it <bpt id="p2">**</bpt>Enroll<ept id="p2">**</ept> permissions to the template.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Sicherheit<ept id="p1">**</ept> Registerkarte, fügen Sie das Dienstkonto für NDES hinzu, und weisen sie <bpt id="p2">**</bpt>registrieren<ept id="p2">**</ept> Berechtigungen für die Vorlage.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Intune admins who will create SCEP profiles require <bpt id="p1">**</bpt>Read<ept id="p1">**</ept> rights so that they can browse to the template when creating SCEP profiles.</source>
+          <target state="translated">Intune-Administratoren, die zu SCEP-Profile erstellende erfordern <bpt id="p1">**</bpt>Lesen<ept id="p1">**</ept> Rechte, damit sie die Vorlage beim Erstellen von SCEP-Profilen durchsuchen können.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To revoke certificates the NDES service account needs <bpt id="p1">*</bpt>Issue and Manage Certificates<ept id="p1">*</ept> rights for each certificate template used by a certificate profile.</source>
+          <target state="translated">Widerrufen Zertifikate der NDES-service-Konto muss <bpt id="p1">*</bpt>Zertifikate ausstellen und verwalten<ept id="p1">*</ept> Rechte für jede Zertifikatsvorlage, die von einem Zertifikatprofil verwendet.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Review the <bpt id="p1">**</bpt>Validity period<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab of the template.</source>
+          <target state="translated">Überprüfen Sie die <bpt id="p1">**</bpt>Gültigkeitszeitraum<ept id="p1">**</ept> auf die <bpt id="p2">**</bpt>Allgemein<ept id="p2">**</ept> Registerkarte der Vorlage.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>By default, Intune uses the value configured in the template.</source>
+          <target state="translated">Standardmäßig verwendet Intune in der Vorlage konfigurierten Wert.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>However, you have the option to configure the CA to allow the requester to specify a different value, which you can then set from within the Intune Administrator console.</source>
+          <target state="translated">Allerdings haben Sie die Option zum Konfigurieren der Zertifizierungsstelle ermöglichen der anfordernden Gruppe zu einen anderen Wert angeben, die Sie dann innerhalb der Intune-Verwaltungskonsole festlegen können.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you want to always use the value in the template, skip the remainder of this step.</source>
+          <target state="translated">Wenn Sie immer den Wert in der Vorlage verwenden möchten, überspringen Sie den Rest dieses Schritts.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The iOS and Mac OS X platforms always uses the value set in the template regardless of other configurations you make.</source>
+          <target state="translated">Das iOS und Mac OS X-Plattformen immer verwendet, die der Wert in der Vorlage unabhängig von anderen Konfigurationen festlegen.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Here are screenshots of an example template configuration.</source>
+          <target state="translated">Hier erhalten Sie Screenshots der eine Beispielkonfiguration für die Vorlage ein.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Template, request handling tab</source>
+          <target state="translated">Registerkarte für die Verarbeitung von Anforderungen-Vorlage</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Template, subject name tab</source>
+          <target state="translated">Registerkarte "Name" Antragstellers-Vorlage</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Template, security tab</source>
+          <target state="translated">Registerkarte "Sicherheit"-Vorlage</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Template, extensions tab</source>
+          <target state="translated">Registerkarte "Extensions"-Vorlage</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Template, issuance requirements tab</source>
+          <target state="translated">Registerkarte "Anforderungen" Ausstellung-Vorlage</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For Application Policies (in the 4th screenshot), only add the application policies required.</source>
+          <target state="translated">Anwendungsrichtlinien (in der 4. Screenshot) nur fügen Sie die erforderlichen Anwendungsrichtlinien hinzu.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Confirm your choices with your security admins.</source>
+          <target state="translated">Bestätigen Sie Ihre Auswahl mit der Sicherheitsadministratoren.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To configure the CA to allow the requester to specify the validity period, on the CA run the following commands:</source>
+          <target state="translated">Führen Sie zum Konfigurieren der Zertifizierungsstelle, um das ermöglichen der anfordernden Person angeben des Gültigkeitszeitraums für die Zertifizierungsstelle die folgenden Befehle:</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</source>
+          <target state="translated">Certutil - Setreg Policy\EditFlags + EDITF_ATTRIBUTEENDDATE</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>net stop certsvc</source>
+          <target state="translated">net stop certsvc</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>net start certsvc</source>
+          <target state="translated">net start certsvc</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</source>
+          <target state="translated">Verwenden Sie auf der ausstellenden Zertifizierungsstelle das Zertifizierungsstellen-Snap-in auf um die Zertifikatvorlage zu veröffentlichen.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> node, click <bpt id="p2">**</bpt>Action<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>New<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Template to Issue<ept id="p4">**</ept>, and then select the template you created in step 2.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Zertifikatvorlagen<ept id="p1">**</ept> Knoten, klicken Sie auf <bpt id="p2">**</bpt>Aktion<ept id="p2">**</ept><ph id="ph1">-&amp;gt;</ph> <bpt id="p3">**</bpt>Neu<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Auszustellende Zertifikatvorlage<ept id="p4">**</ept>, und wählen Sie dann die Vorlage, die Sie in Schritt 2 erstellt haben.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Validate that the template published by viewing it under the <bpt id="p1">**</bpt>Certificate Templates<ept id="p1">**</ept> folder.</source>
+          <target state="translated">Überprüfen Sie, ob die Vorlage veröffentlicht wurde, durch das Anzeigen von unter den <bpt id="p1">**</bpt>Zertifikatvorlagen<ept id="p1">**</ept> Ordner.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Task 3 - Configure prerequisites on the NDES server</source>
+          <target state="translated">Aufgabe 3: Konfigurieren der erforderlichen Komponenten auf dem NDES-server</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In this task you will:</source>
+          <target state="translated">In dieser Aufgabe führen Sie folgende Aktionen ausführen:</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Add NDES to a Windows Server and configure IIS to support NDES</source>
+          <target state="translated">Hinzufügen von NDES zu einem Windows-Server und Konfigurieren von IIS zur Unterstützung von NDES</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Add the NDES Service account to the IIS_IUSR group</source>
+          <target state="translated">Fügen Sie das NDES-Dienstkonto der Gruppe "IIS_IUSR"</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Set the SPN for the NDES Service account</source>
+          <target state="translated">Festlegen des SPN für das NDES-Dienstkonto</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>On the server that will hosts NDES, you must log on as a an <bpt id="p1">**</bpt>Enterprise Administrator<ept id="p1">**</ept>, and then use the <bpt id="p2">[</bpt>Add Roles and Features Wizard<ept id="p2">](https://technet.microsoft.com/library/hh831809.aspx)</ept> to install NDES:</source>
+          <target state="translated">Auf dem Server, der NDES hosten soll, müssen Sie Anmelden als eine ein <bpt id="p1">**</bpt>Unternehmensadministrator<ept id="p1">**</ept>, und verwenden Sie dann die <bpt id="p2">[</bpt>Hinzufügen von Rollen und Features – Assistent<ept id="p2">](https://technet.microsoft.com/library/hh831809.aspx)</ept> NDES installieren:</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>In the Wizard, select <bpt id="p1">**</bpt>Active Directory Certificate Services<ept id="p1">**</ept> to gain access to the AD CS Role Services.</source>
+          <target state="translated">Wählen Sie im Assistenten <bpt id="p1">**</bpt>Active Directory Certificate Services<ept id="p1">**</ept> für den Zugriff auf die AD CS-Rollendienste.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Network Device Enrollment Service<ept id="p1">**</ept>, uncheck <bpt id="p2">**</bpt>Certification Authority<ept id="p2">**</ept>, and then complete the wizard.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Registrierungsdienst für Netzwerkgeräte<ept id="p1">**</ept>, deaktivieren Sie <bpt id="p2">**</bpt>Zertifizierungsstelle<ept id="p2">**</ept>, und schließen Sie den Assistenten.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Installation progress<ept id="p1">**</ept> page of the wizard, do not click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Installationsstatus<ept id="p1">**</ept> Seite des Assistenten klicken Sie nicht <bpt id="p2">**</bpt>Schließen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Instead, click the link for <bpt id="p1">**</bpt>Configure Active Directory Certificate Services on the destination server<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie stattdessen auf den Link, um <bpt id="p1">**</bpt>Konfigurieren Sie Active Directory-Zertifikatdienste auf dem Zielserver<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This opens the <bpt id="p1">**</bpt>AD CS Configuration<ept id="p1">**</ept> wizard that you use for the next task.</source>
+          <target state="translated">Daraufhin wird die <bpt id="p1">**</bpt>AD CS-Konfiguration<ept id="p1">**</ept> Assistenten, die Sie für die nächste Aufgabe verwenden.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>After AD CS Configuration opens, you can close the Add Roles and Features wizard.</source>
+          <target state="translated">Wenn AD CS-Konfiguration geöffnet wurde, können Sie den Assistenten zum Hinzufügen von Rollen und Features schließen.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When NDES is added to the server, the wizard also installs IIS.</source>
+          <target state="translated">Wenn NDES zum Server hinzugefügt wird, installiert der Assistent ebenfalls IIS.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Ensure IIS has the following configurations:</source>
+          <target state="translated">Stellen Sie sicher, dass IIS wie folgt konfiguriert ist:</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Server<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Request Filtering<ept id="p3">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Webserver<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Anforderungsfilterung<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Server<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Application Development<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ASP.NET 3.5<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Webserver<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Anwendungsentwicklung<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ASP.NET 3.5<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Installing ASP.NET 3.5 will install .NET Framework 3.5.</source>
+          <target state="translated">Installation von ASP.NET 3,5 wird .NET Framework 3.5 installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>When installing .NET Framework 3.5, install both the core <bpt id="p1">**</bpt>.NET Framework 3.5<ept id="p1">**</ept> feature and <bpt id="p2">**</bpt>HTTP Activation<ept id="p2">**</ept>.</source>
+          <target state="translated">Wenn .NET Framework 3.5 zu installieren, installieren Sie Kernfeature <bpt id="p1">**</bpt>.NET Framework 3.5<ept id="p1">**</ept> Feature und <bpt id="p2">**</bpt>HTTP-Aktivierung<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web Server<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Application Development<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ASP.NET 4.5<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Webserver<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Anwendungsentwicklung<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>ASP.NET 4.5<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Installing ASP.NET 4.5 will install .NET Framework 4.5.</source>
+          <target state="translated">Installation von ASP.NET 4.5 wird .NET Framework 4.5 installiert.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When installing .NET Framework 4.5, install the core <bpt id="p1">**</bpt>.NET Framework 4.5<ept id="p1">**</ept> feature, <bpt id="p2">**</bpt>ASP.NET 4.5<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>WCF Services<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>HTTP Activation<ept id="p4">**</ept> feature.</source>
+          <target state="translated">Bei der Installation von .NET Framework 4.5 das Kernfeature <bpt id="p1">**</bpt>.NET Framework 4.5<ept id="p1">**</ept> Feature <bpt id="p2">**</bpt>ASP.NET 4.5<ept id="p2">**</ept>, und die <bpt id="p3">**</bpt>WCF-Dienste<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>HTTP-Aktivierung<ept id="p4">**</ept> Funktion.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Management Tools<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>IIS 6 Management Compatibility<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IIS 6 Metabase Compatibility<ept id="p3">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwaltungstools<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>IIS 6-Verwaltungskompatibilität<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IIS 6-Metabasiskompatibilität<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Management Tools<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>IIS 6 Management Compatibility<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IIS 6 WMI Compatibility<ept id="p3">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwaltungstools<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>IIS 6-Verwaltungskompatibilität<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>IIS 6-WMI-Kompatibilität<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>On the server, add the NDES service account as a member of the <bpt id="p1">**</bpt>IIS_IUSR<ept id="p1">**</ept> group.</source>
+          <target state="translated">Fügen Sie auf dem Server das NDES-Dienstkonto als Mitglied der <bpt id="p1">**</bpt>IIS_IUSR<ept id="p1">**</ept> Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In an elevated command prompt, run the following command to set the SPN of the NDES Service account:</source>
+          <target state="translated">Führen Sie in einem Eingabeaufforderungsfenster mit erhöhten Rechten den folgenden Befehl aus, um den SPN des NDES-Dienstkontos festzulegen:</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For example, if your NDES Server is named <bpt id="p1">**</bpt>Server01<ept id="p1">**</ept>, your domain is <bpt id="p2">**</bpt>Contoso.com<ept id="p2">**</ept>, and the service account is <bpt id="p3">**</bpt>NDESService<ept id="p3">**</ept>, use:</source>
+          <target state="translated">Wenn der NDES-Server lautet z. B. <bpt id="p1">**</bpt>Server01<ept id="p1">**</ept>, die Domäne <bpt id="p2">**</bpt>Contoso.com<ept id="p2">**</ept>, und das Dienstkonto ist <bpt id="p3">**</bpt>NDESService<ept id="p3">**</ept>, verwenden:</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Task 4 - Configure NDES for use with Intune</source>
+          <target state="translated">Aufgabe 4: Konfigurieren von NDES für die Verwendung mit Intune</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>In this task you will:</source>
+          <target state="translated">In dieser Aufgabe führen Sie folgende Aktionen ausführen:</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Configure NDES for use with the issuing CA</source>
+          <target state="translated">Konfigurieren von NDES zur Verwendung mit der ausstellenden Zertifizierungsstelle</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Bind the server authentication (SSL) certificate in IIS</source>
+          <target state="translated">Binden des serverauthentifizierungszertifikats (SSL) in IIS</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Configure Request Filtering in IIS</source>
+          <target state="translated">Konfigurieren der Anforderungsfilterung in IIS</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>To configure NDES for use with Intune</source>
+          <target state="translated">So konfigurieren Sie NDES für die Verwendung mit Intune</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>On the NDES Server, open the AD CS Configuration wizard and then make the following configurations.</source>
+          <target state="translated">Öffnen Sie auf dem NDES-Server den AD CS-Konfigurations-Assistenten zu, und nehmen Sie dann die folgenden Konfigurationen.</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If you clicked the link in the previous task, this wizard is already open.</source>
+          <target state="translated">Dieser Assistent ist bereits geöffnet, wenn Sie den Link in der vorherigen Aufgabe.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Otherwise, open Server Manager to access the post-deployment configuration for Active Directory Certificate Services.</source>
+          <target state="translated">Andernfalls öffnen Sie Server-Manager, um die Konfiguration nach der Bereitstellung für Active Directory-Zertifikatdienste zuzugreifen.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Role Services<ept id="p1">**</ept> Page, select the <bpt id="p2">**</bpt>Network Device Enrollment Service<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Rollendienste<ept id="p1">**</ept> wählen die <bpt id="p2">**</bpt>Registrierungsdienst für Netzwerkgeräte<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Service Account for NDES<ept id="p1">**</ept> page, specify the NDES Service Account.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>-Dienstkonto für NDES<ept id="p1">**</ept> Seite das NDES-Dienstkonto angeben.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>CA for NDES<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Select<ept id="p2">**</ept>, and then select the issuing CA where you configured the certificate template.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>ZS für NDES<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>Wählen Sie<ept id="p2">**</ept>, und wählen Sie dann die ausstellende Zertifizierungsstelle, wo Sie die Zertifikatvorlage konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Cryptography for NDES<ept id="p1">**</ept> page, set the key length to meet your company requirements.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Kryptografie für NDES<ept id="p1">**</ept> Seite, legen Sie die Schlüssellänge entsprechend den Anforderungen Ihres Unternehmens.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Confirmation<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Configure<ept id="p2">**</ept> to complete the wizard.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Bestätigung<ept id="p1">**</ept> auf <bpt id="p2">**</bpt>konfigurieren<ept id="p2">**</ept> um den Assistenten abzuschließen.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>After the wizard completes, edit the following registry key on the NDES Server:</source>
+          <target state="translated">Bearbeiten Sie nach Abschluss des Assistenten die folgenden Registrierungsschlüssel auf dem NDES-Server:</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP</source>
+          <target state="translated">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To edit this key, identify the certificate template's <bpt id="p1">**</bpt>Purpose<ept id="p1">**</ept>, as found on its <bpt id="p2">**</bpt>Request Handling<ept id="p2">**</ept> tab, and then edit the corresponding entry in the registry by replacing the existing data with the name of the certificate template (not the display name of the template) that you specified in Task 1.</source>
+          <target state="translated">Um diesen Schlüssel zu bearbeiten, ermitteln Sie der Zertifikatvorlage <bpt id="p1">**</bpt>Zweck<ept id="p1">**</ept>, wie auf der <bpt id="p2">**</bpt>Anforderungsverarbeitung<ept id="p2">**</ept> Registerkarte und dann den entsprechenden Eintrag in der Registrierung bearbeiten, indem Sie ersetzt die vorhandenen Daten mit dem Namen der Zertifikatvorlage (nicht den Anzeigenamen der Vorlage), die Sie in Aufgabe 1 angegeben.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The following table maps the certificate template purpose to the values in the registry:</source>
+          <target state="translated">Die folgende Tabelle ordnet Zertifikat den Zertifizierungszweck der Vorlage auf die Werte in der Registrierung:</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Certificate template Purpose (On the Request Handling tab)</source>
+          <target state="translated">Zertifikatvorlagenzweck (auf der Registerkarte "Anforderungsverarbeitung")</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Registry value to edit</source>
+          <target state="translated">Zu bearbeitender Registrierungswert</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Value seen in the Intune admin console for the SCEP profile</source>
+          <target state="translated">In der Intune-Verwaltungskonsole für die SCEP-Profil angezeigter Wert</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Signature</source>
+          <target state="translated">Signatur</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>SignatureTemplate</source>
+          <target state="translated">SignatureTemplate</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Digital Signature</source>
+          <target state="translated">Digitale Signatur</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Encryption</source>
+          <target state="translated">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>EncryptionTemplate</source>
+          <target state="translated">EncryptionTemplate</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Key Encipherment</source>
+          <target state="translated">Schlüsselverschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Signature and encryption</source>
+          <target state="translated">Signatur und Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>GeneralPurposeTemplate</source>
+          <target state="translated">GeneralPurposeTemplate</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Key Encipherment</source>
+          <target state="translated">Schlüsselverschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Digital Signature</source>
+          <target state="translated">Digitale Signatur</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For example, if the Purpose of your certificate template is <bpt id="p1">**</bpt>Encryption<ept id="p1">**</ept>, then edit the <bpt id="p2">**</bpt>EncryptionTemplate<ept id="p2">**</ept> value to be the name of your certificate template.</source>
+          <target state="translated">Beispielsweise besteht der Zweck der Zertifikatvorlage <bpt id="p1">**</bpt>Verschlüsselung<ept id="p1">**</ept>, bearbeiten Sie die <bpt id="p2">**</bpt>EncryptionTemplate<ept id="p2">**</ept> Wert ist der Name der Zertifikatvorlage.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The NDES server will receive very long URL’s (queries), which require that you add two registry entries:</source>
+          <target state="translated">NDES-Server erhalten sehr lange URLs (Abfragen), die erfordern, dass Sie zwei Registrierungseinträge hinzufügen:</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="translated">Speicherort</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Value</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="translated">Typ</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Data</source>
+          <target state="translated">Daten</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>HKLM\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</source>
+          <target state="translated">HKLM\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>MaxFieldLength</source>
+          <target state="translated">MaxFieldLength</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>DWORD</source>
+          <target state="translated">DWORD</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>65534 (decimal)</source>
+          <target state="translated">65534 (dezimal)</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>HKLM\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</source>
+          <target state="translated">HKLM\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>MaxRequestBytes</source>
+          <target state="translated">MaxRequestBytes</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>DWORD</source>
+          <target state="translated">DWORD</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>65534 (decimal)</source>
+          <target state="translated">65534 (dezimal)</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>In IIS manager, choose <bpt id="p1">**</bpt>Default Web Site<ept id="p1">**</ept><ph id="ph1"> -&gt; </ph><bpt id="p2">**</bpt>Request Filtering<ept id="p2">**</ept><ph id="ph2"> -&gt; </ph><bpt id="p3">**</bpt>Edit Feature Setting<ept id="p3">**</ept>, and change the <bpt id="p4">**</bpt>Maximum URL length<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Maximum query string<ept id="p5">**</ept> to <bpt id="p6">*</bpt>65534<ept id="p6">*</ept>, as shown.</source>
+          <target state="translated">Wählen Sie im IIS-Manager <bpt id="p1">**</bpt>Default Web Site<ept id="p1">**</ept><ph id="ph1"> -&gt; </ph><bpt id="p2">**</bpt>Anforderungsfilterung<ept id="p2">**</ept><ph id="ph2"> -&gt; </ph><bpt id="p3">**</bpt>Einstellung bearbeiten<ept id="p3">**</ept>, und ändern Sie die <bpt id="p4">**</bpt>Maximale URL-Länge<ept id="p4">**</ept> und <bpt id="p5">**</bpt>maximale Abfragezeichenfolge<ept id="p5">**</ept> zu <bpt id="p6">*</bpt>65534<ept id="p6">*</ept>, (siehe).</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>IIS max URL and query length</source>
+          <target state="translated">IIS-URL und Abfragetyp Länge</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Restart the server.</source>
+          <target state="translated">Starten Sie den Server neu.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Running <bpt id="p1">**</bpt>iisreset<ept id="p1">**</ept> on the server will not be sufficient to finalize these changes.</source>
+          <target state="translated">Ausführen <bpt id="p1">**</bpt>Iisreset<ept id="p1">**</ept> auf dem Server wird nicht ausreichen, um diese Änderungen geschlossen.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Browse to http://<bpt id="p1">*</bpt>FQDN<ept id="p1">*</ept>/certsrv/mscep/mscep.dll.</source>
+          <target state="translated">Navigieren Sie zu http://<bpt id="p1">*</bpt>FQDN<ept id="p1">*</ept>/certsrv/mscep/mscep.dll.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>You should see an NDES page similar to this:</source>
+          <target state="translated">Es sollte eine NDES-Seite, die etwa wie folgt angezeigt:</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Test NDES</source>
+          <target state="translated">Test NDES</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If you get a <bpt id="p1">**</bpt>503 Service unavailable<ept id="p1">**</ept>, check the eventviewer.</source>
+          <target state="translated">Wenn Sie erhalten eine <bpt id="p1">**</bpt>503 Dienst nicht verfügbar<ept id="p1">**</ept>, überprüfen Sie die Ereignisanzeige.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>It's likely that the application pool is stopped due to a missing right for the NDES user.</source>
+          <target state="translated">Es ist wahrscheinlich, dass der Anwendungspool beendet wird, aufgrund eines fehlenden für den NDES-Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Those rights are described in Task 1.</source>
+          <target state="translated">Diese Rechte werden in Aufgabe 1 beschrieben.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>To Install and bind certificates on the NDES Server</source>
+          <target state="translated">Zum Installieren und binden Sie Zertifikate auf dem NDES-Server</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>On your NDES Server, request and install a <bpt id="p1">**</bpt>server authentication<ept id="p1">**</ept> certificate from your internal CA or public CA.</source>
+          <target state="translated">Auf dem NDES-Server anfordern und Installieren einer <bpt id="p1">**</bpt>Serverauthentifizierung<ept id="p1">**</ept> Zertifikat von Ihrer internen Zertifizierungsstelle oder einer öffentlichen Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>You will then bind this SSL certificate in IIS.</source>
+          <target state="translated">Sie binden dieses SSL-Zertifikat anschließend in IIS.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>After you bind the SSL certificate in IIS, you will also install a client authentication certificate.</source>
+          <target state="translated">Nachdem Sie das SSL-Zertifikat in IIS gebunden haben, installieren Sie auch ein Clientauthentifizierungszertifikat.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>This certificate can be issued by any CA that is trusted by the NDES Server.</source>
+          <target state="translated">Dieses Zertifikat kann von jeder Zertifizierungsstelle ausgestellt werden, die vom NDES-Server als vertrauenswürdig eingestuft wird.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Although it is not a best practice, you can use the same certificate for both server and client authentication as long as the certificate has both Enhance Key Usages (EKU’s).</source>
+          <target state="translated">Obwohl es sich nicht um eine bewährte Methode ist, können das gleiche Zertifikat für Server und Client-Authentifizierung Sie solange das Zertifikat über beide erweiterten Schlüsselverwendungen (EKUS) verfügt.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Review the following steps for information about these authentication certificates.</source>
+          <target state="translated">Überprüfen Sie die folgenden Schritte aus, die Informationen zu diesen Authentifizierungszertifikaten.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>After you obtain the server authentication certificate, open <bpt id="p1">**</bpt>IIS Manager<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Default Web Site<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Connections<ept id="p3">**</ept> pane, and then click <bpt id="p4">**</bpt>Bindings<ept id="p4">**</ept> in the <bpt id="p5">**</bpt>Actions<ept id="p5">**</ept> pane.</source>
+          <target state="translated">Nachdem Sie das Serverauthentifizierungszertifikat erhalten, öffnen Sie <bpt id="p1">**</bpt>IIS-Manager<ept id="p1">**</ept>, wählen die <bpt id="p2">**</bpt>Standardwebsite<ept id="p2">**</ept> in die <bpt id="p3">**</bpt>Verbindungen<ept id="p3">**</ept> Bereich, und klicken Sie dann auf <bpt id="p4">**</bpt>Bindungen<ept id="p4">**</ept> in die <bpt id="p5">**</bpt>Aktionen<ept id="p5">**</ept> Bereich.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>, set <bpt id="p2">**</bpt>Type<ept id="p2">**</ept> to <bpt id="p3">**</bpt>https<ept id="p3">**</ept>, and then ensure the port is <bpt id="p4">**</bpt>443<ept id="p4">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept>, legen <bpt id="p2">**</bpt>Typ<ept id="p2">**</ept> zu <bpt id="p3">**</bpt>Https<ept id="p3">**</ept>, und klicken Sie dann sicher, dass der Port <bpt id="p4">**</bpt>443<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>(Only port 443 is supported for standalone Intune.</source>
+          <target state="translated">(Nur Port 443 wird für eigenständige Intune unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>SSL certificate<ept id="p1">**</ept>, specify the server authentication certificate.</source>
+          <target state="translated">Für <bpt id="p1">**</bpt>SSL-Zertifikat<ept id="p1">**</ept>, geben Sie das Serverauthentifizierungszertifikat.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If the NDES server uses both an external and internal name for a single network address, the server authentication certificate must have a <bpt id="p1">**</bpt>Subject Name<ept id="p1">**</ept> with an external public server name, and a <bpt id="p2">**</bpt>Subject Alternative Name<ept id="p2">**</ept> that includes the internal server name.</source>
+          <target state="translated">Wenn der NDES-Server einen externen und internen Namen für eine einzelne Netzwerkadresse verwendet, muss das Serverauthentifizierungszertifikat haben eine <bpt id="p1">**</bpt>Antragstellername<ept id="p1">**</ept> mit einem externen öffentlichen Servernamen und einen <bpt id="p2">**</bpt>Alternativer Antragstellername<ept id="p2">**</ept> die den Namen des internen Servers enthält.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>On your NDES Server, request and install a <bpt id="p1">**</bpt>client authentication<ept id="p1">**</ept> certificate from your internal CA, or a public certificate authority.</source>
+          <target state="translated">Auf dem NDES-Server anfordern und Installieren einer <bpt id="p1">**</bpt>Clientauthentifizierung<ept id="p1">**</ept> Zertifikat von einer internen Zertifizierungsstelle oder von einer öffentlichen Zertifizierungsstelle.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>This can be the same certificate as the server authentication certificate if that certificate has both capabilities.</source>
+          <target state="translated">Dies kann dasselbe Zertifikat wie das Serverauthentifizierungszertifikat sein, wenn das Zertifikat über beide Funktionen verfügt.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The client authentication certificate must have the following properties:</source>
+          <target state="translated">Das Clientauthentifizierungszertifikat muss die folgenden Eigenschaften aufweisen:</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enhanced Key Usage<ept id="p1">**</ept> - This must include <bpt id="p2">**</bpt>Client Authentication<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erweiterte Schlüsselverwendung<ept id="p1">**</ept> – Dies umfasst <bpt id="p2">**</bpt>Clientauthentifizierung<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Subject Name<ept id="p1">**</ept> - This must be equal to the DNS name of the server where you are installing the certificate (the NDES Server).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Antragstellername<ept id="p1">**</ept> – Dies muss gleich der DNS-Name des Servers, auf dem das Zertifikat (NDES-Server) installiert sein.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>To configure IIS Request Filtering</source>
+          <target state="translated">So konfigurieren Sie IIS-Anforderungsfilterung</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>On the NDES Server open <bpt id="p1">**</bpt>IIS Manager<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Default Web Site<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Connections<ept id="p3">**</ept> pane, and then open <bpt id="p4">**</bpt>Request Filtering<ept id="p4">**</ept>.</source>
+          <target state="translated">Öffnen Sie auf dem NDES-Server <bpt id="p1">**</bpt>IIS-Manager<ept id="p1">**</ept>, wählen die <bpt id="p2">**</bpt>Standardwebsite<ept id="p2">**</ept> in die <bpt id="p3">**</bpt>Verbindungen<ept id="p3">**</ept> Bereich, und öffnen Sie <bpt id="p4">**</bpt>Anforderungsfilterung<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Edit Feature Settings<ept id="p1">**</ept>, and then set the following:</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Featureeinstellungen bearbeiten<ept id="p1">**</ept>, und legen Sie dann die folgenden:</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>query string (Bytes)<ept id="p1">**</ept><ph id="ph1"> = </ph><bpt id="p2">**</bpt>65534<ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Abfragezeichenfolge (Bytes)<ept id="p1">**</ept><ph id="ph1"> = </ph><bpt id="p2">**</bpt>65534<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Maximum URL length (Bytes)<ept id="p1">**</ept><ph id="ph1"> = </ph><bpt id="p2">**</bpt>65534<ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Maximale URL-Länge (Bytes)<ept id="p1">**</ept><ph id="ph1"> = </ph><bpt id="p2">**</bpt>65534<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Review the following registry key:</source>
+          <target state="translated">Überprüfen Sie den folgenden Registrierungsschlüssel:</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</source>
+          <target state="translated">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Ensure the following values are set as DWORD entries:</source>
+          <target state="translated">Stellen Sie sicher, dass die folgenden Werte als DWORD-Einträge festgelegt sind:</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Name: <bpt id="p1">**</bpt>MaxFieldLength<ept id="p1">**</ept>, with a decimal value of <bpt id="p2">**</bpt>65534<ept id="p2">**</ept></source>
+          <target state="translated">Name: <bpt id="p1">**</bpt>MaxFieldLength<ept id="p1">**</ept>, mit einem Dezimalwert von <bpt id="p2">**</bpt>65534<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Name: <bpt id="p1">**</bpt>MaxRequestBytes<ept id="p1">**</ept>, with a decimal value of <bpt id="p2">**</bpt>65534<ept id="p2">**</ept></source>
+          <target state="translated">Name: <bpt id="p1">**</bpt>MaxRequestBytes<ept id="p1">**</ept>, mit einem Dezimalwert von <bpt id="p2">**</bpt>65534<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Reboot the NDES server.</source>
+          <target state="translated">Starten Sie den NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The server is now ready to support the Certificate Connector.</source>
+          <target state="translated">Der Server ist jetzt bereit zur Unterstützung des Zertifikatconnectors.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Task 5 - Enable, install, and configure the Intune Certificate Connector</source>
+          <target state="translated">Aufgabe 5: aktivieren, installieren und Konfigurieren des Intune-Zertifikatconnectors</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>In this task you will:</source>
+          <target state="translated">In dieser Aufgabe führen Sie folgende Aktionen ausführen:</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Enable support for NDES in Intune.</source>
+          <target state="translated">Aktivieren der Unterstützung für NDES in Intune.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Download, install, and configure the Certificate Connector on the NDES Server.</source>
+          <target state="translated">Herunterladen Sie, installieren Sie und konfigurieren Sie des Zertifikatconnectors auf dem NDES-Server.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>To enable support for the Certificate Connector</source>
+          <target state="translated">Aktivieren der Unterstützung für den Zertifikatconnector</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Certificate Connector<ept id="p3">**</ept>.</source>
+          <target state="translated">Öffnen Sie die <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, klicken Sie auf <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Zertifikatconnector<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Configure On-Premises Certificate Connector<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>lokalen Zertifikatconnector konfigurieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Enable Certificate Connector<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Zertifikatconnector aktivieren<ept id="p1">**</ept>, und klicken Sie dann auf <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>To download, install and configure the Certificate Connector</source>
+          <target state="translated">Zum Herunterladen, installieren und Konfigurieren des Zertifikatconnectors</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, and then click <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Certificate Connector<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Download Certificate Connector<ept id="p5">**</ept>.</source>
+          <target state="translated">Öffnen Sie die <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, und klicken Sie dann auf <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Verwaltung mobiler Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Zertifikatconnector<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Zertifikatconnector herunterladen<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>After the download completes, run the downloaded installer (<bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept>) on a Windows Server 2012 R2 server.</source>
+          <target state="translated">Nachdem der Download abgeschlossen ist, führen Sie das heruntergeladene Installationsprogramm (<bpt id="p1">**</bpt>ndesconnectorssetup.exe<ept id="p1">**</ept>) auf einem Windows Server 2012 R2-Server.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The installer also installs the policy module for NDES and the CRP Web Service.</source>
+          <target state="translated">Das Installationsprogramm wird auch das Richtlinienmodul für NDES und der CRP-Webdienst installiert.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>(The CRP Web Service, CertificateRegistrationSvc, runs as an application in IIS.)</source>
+          <target state="translated">(Der CRP-Webdienst "certificateregistrationsvc" wird als Anwendung in IIS ausgeführt.)</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>When you install NDES for standalone Intune, the CRP service automatically installs with the Certificate Connector.</source>
+          <target state="translated">Bei der Installation von NDES für eigenständige Intune installiert der CRP-Dienst automatisch mit dem Zertifikat-Connector.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>When you use Intune with Configuration Manager, you install the Certificate Registration Point as a separate site system role.</source>
+          <target state="translated">Wenn Sie Intune mit Configuration Manager verwenden, installieren Sie den Zertifikatregistrierungspunkt als eine separate Standortsystemrolle.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>When prompted for the client certificate for the Certificate Connector, click <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>, and select the <bpt id="p2">**</bpt>client authentication<ept id="p2">**</ept> certificate you installed on your NDES Server in Task 3.</source>
+          <target state="translated">Wenn das Clientzertifikat für den Zertifikatconnector aufgefordert werden, klicken Sie auf <bpt id="p1">**</bpt>Wählen Sie<ept id="p1">**</ept>, und wählen Sie die <bpt id="p2">**</bpt>Clientauthentifizierung<ept id="p2">**</ept> Zertifikat auf dem NDES-Server in Aufgabe 3 installiert.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>After you select the client authentication certificate, you are returned to the <bpt id="p1">**</bpt>Client Certificate for Microsoft Intune Certificate Connector<ept id="p1">**</ept> surface.</source>
+          <target state="translated">Nachdem Sie das Clientauthentifizierungszertifikat ausgewählt haben, kehren Sie zu der <bpt id="p1">**</bpt>Clientzertifikat für Microsoft Intune-Zertifikatconnector<ept id="p1">**</ept> Oberfläche.</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Although the certificate you selected is not shown, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to view the properties of that certificate.</source>
+          <target state="translated">Obwohl das ausgewählte Zertifikat nicht angezeigt wird, klicken Sie auf <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept> zum Anzeigen der Eigenschaften des Zertifikats.</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie dann auf <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept>, und klicken Sie dann auf <bpt id="p2">**</bpt>Installieren<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>After the wizard completes, but before closing the wizard, click <bpt id="p1">**</bpt>Launch the Certificate Connector UI<ept id="p1">**</ept>.</source>
+          <target state="translated">Nach Abschluss des Assistenten, jedoch vor dem Schließen des Assistenten, klicken Sie auf <bpt id="p1">**</bpt>Zertifikat Connector-Benutzeroberfläche starten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</source>
+          <target state="translated">Wenn Sie den Assistenten schließen, bevor Sie die Zertifikat-Connector-Benutzeroberfläche starten, können Sie es erneut öffnen, indem Sie den folgenden Befehl ausführen:</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</source>
+          <target state="translated">Install_Path<ph id="ph1">&amp;gt;</ph>\NDESConnectorUI\NDESConnectorUI.exe</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Certificate Connector<ept id="p1">**</ept> UI:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Zertifikat Connector<ept id="p1">**</ept> Benutzeroberfläche:</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Sign In<ept id="p1">**</ept> and enter your Intune service administrator credentials, or credentials for a tenant administrator with the global administration permission.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Anmelden<ept id="p1">**</ept> und geben Sie Ihre Intune-Dienstadministrator-Anmeldeinformationen oder Anmeldeinformationen für einen mandantenadministrator mit der globalen Administratorberechtigung.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>If your organization uses a proxy server and the proxy is needed for the NDES server to access the Internet, click <bpt id="p1">**</bpt>Use proxy server<ept id="p1">**</ept> and then provide the proxy server name, port, and account credentials to connect.</source>
+          <target state="translated">Wenn Ihre Organisation einen Proxyserver verwendet und der Proxy für den NDES-Server auf das Internet zugreifen kann, klicken Sie auf benötigt <bpt id="p1">**</bpt>Proxyserver<ept id="p1">**</ept> und geben Sie dann den Proxyservernamen, Port und Anmeldeinformationen für die Verbindung.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab, and then provide credentials for an account that has the <bpt id="p2">**</bpt>Issue and Manage Certificates<ept id="p2">**</ept> permission on your issuing Certificate Authority, and then click <bpt id="p3">**</bpt>Apply<ept id="p3">**</ept>.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Erweitert<ept id="p1">**</ept> Registerkarte, und geben Sie Anmeldeinformationen für ein Konto mit der <bpt id="p2">**</bpt>Zertifikate ausstellen und verwalten<ept id="p2">**</ept> Berechtigung auf der ausstellenden Zertifizierungsstelle, und klicken Sie dann auf <bpt id="p3">**</bpt>Übernehmen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>You can now close the Certificate Connector UI.</source>
+          <target state="translated">Sie können jetzt die Benutzeroberfläche schließen.</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Open a command prompt and type <bpt id="p1">**</bpt>services.msc<ept id="p1">**</ept>, and then press <bpt id="p2">**</bpt>Enter<ept id="p2">**</ept>, right-click the <bpt id="p3">**</bpt>Intune Connector Service<ept id="p3">**</ept>, and then click <bpt id="p4">**</bpt>Restart<ept id="p4">**</ept>.</source>
+          <target state="translated">Öffnen Sie ein Eingabeaufforderungsfenster, und geben <bpt id="p1">**</bpt>services.msc<ept id="p1">**</ept>, und drücken Sie dann die <bpt id="p2">**</bpt>EINGABETASTE<ept id="p2">**</ept>, mit der rechten Maustaste die <bpt id="p3">**</bpt>Intune-Connector-Dienst<ept id="p3">**</ept>, und klicken Sie dann auf <bpt id="p4">**</bpt>neu starten<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To validate that the service is running, open a browser and enter the following URL, which should return a <bpt id="p1">**</bpt>403<ept id="p1">**</ept> error:</source>
+          <target state="translated">Zum Überprüfen, ob der Dienst ausgeführt wird, öffnen Sie einen Browser, und geben die folgende URL zurückgeben soll eine <bpt id="p1">**</bpt>403<ept id="p1">**</ept> Fehler:</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>http:// <ph id="ph1">&amp;lt;</ph>FQDN_of_your_NDES_server<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</source>
+          <target state="translated">http:// <ph id="ph1">&amp;lt;</ph>fqdn_ihres_ndes-Servers<ph id="ph2">&amp;gt;</ph>/certsrv/mscep/mscep.dll</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>You are now ready to configure certificate profiles, as described in <bpt id="p1">[</bpt>Configure certificate profiles<ept id="p1">](Configure-Intune-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Sie können nun zum Konfigurieren von zertifikatprofilen, wie in beschrieben <bpt id="p1">[</bpt>Konfigurieren von zertifikatprofilen<ept id="p1">](Configure-Intune-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

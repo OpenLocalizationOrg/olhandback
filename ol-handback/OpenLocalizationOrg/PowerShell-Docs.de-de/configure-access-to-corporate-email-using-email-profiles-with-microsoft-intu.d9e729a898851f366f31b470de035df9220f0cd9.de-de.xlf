@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">629836ef006e1c33c240f9daa373817a685c14bc</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0ad039c22669e7a7608cbac76740acba742ecaf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ecba73b61ea4927c544f46334639204fe1163dc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Access corporate email with email profiles | Microsoft Intune</source>
+          <target state="translated">Zugriff auf Unternehmens-e-Mail mit e-Mail-Profilen | Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Email profile settings can be used to configure email access settings for specific email clients on mobile devices.</source>
+          <target state="translated">Einstellungen von e-Mail-Profilen können verwendet werden, e-Mail-Zugriff für bestimmte e-Mail-Clients auf mobilen Geräten konfigurieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Configure access to corporate email using email profiles with Microsoft Intune</source>
+          <target state="translated">Konfigurieren des Zugriffs auf Unternehmens-e-Mail mithilfe von e-Mail-Profilen mit Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Many mobile platforms include a native email client that ships as part of the operating system.</source>
+          <target state="translated">Viele mobile Plattformen enthalten einen systemeigene e-Mail-Client, der als Teil des Betriebssystems enthalten ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Some of these clients can be set up by using email profiles, as described in this topic.</source>
+          <target state="translated">Einige der Clients können mithilfe von e-Mail-Profilen, eingerichtet werden, wie in diesem Thema beschrieben.</target>
+          
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Email profile settings can be used to set up email access settings for specific email clients on mobile devices.</source>
+          <target state="translated">E-Mail-profileinstellungen können zum Einrichten von e-Mail-zugriffseinstellungen für bestimmte e-Mail-Clients auf mobilen Geräten verwendet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>On supported platforms, the native email clients can be set up by Microsoft Intune to let users access their corporate email on their personal devices, without any additional setup.</source>
+          <target state="translated">Auf unterstützten Plattformen können die systemeigene e-Mail-Clients von Microsoft Intune eingerichtet werden, die Benutzer auf ihre Unternehmens-e-Mail auf ihren persönlichen Geräten, ohne dass eine zusätzliche Konfiguration zugreifen können.</target>
+          
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you need to take additional measures for data loss prevention, use <bpt id="p1">[</bpt>Conditional access<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>, which controls access to the user's mailbox for any email client, including native email clients.</source>
+          <target state="translated">Wenn Sie zusätzliche Maßnahmen zur Verhinderung von Datenverlust treffen müssen, verwenden Sie <bpt id="p1">[</bpt>Zugangsberechtigung<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>, die steuert den Zugriff auf das Postfach des Benutzers für e-Mail-Clients, einschließlich der systemeigene e-Mail-Clients.</target>
+          
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>IT admins or users may also choose to install alternative email clients (for example, Microsoft Outlook for Android or iOS).</source>
+          <target state="translated">IT-Administratoren oder Benutzer können Sie die alternative e-Mail-Clients (z. B. Microsoft Outlook für Android oder iOS) installieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These email clients may not support email profiles, and can't be set up by using Intune email profiles.</source>
+          <target state="translated">Diese e-Mail-Clients unterstützen möglicherweise keine e-Mail-Profile und können nicht mithilfe von Intune e-Mail-Profile eingerichtet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use email profiles to configure the native email client on the following device types:</source>
+          <target state="translated">Sie können e-Mail-Profile verwenden, den systemeigene e-Mail-Client auf die folgenden Gerätetypen zu konfigurieren:</target>
+          
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="translated">Windows Phone 8 und höher</target>
+          
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Windows 10 (for the desktop), Windows 10 Mobile, and later</source>
+          <target state="translated">Windows 10 (für den Desktop), Windows 10 Mobile und höher</target>
+          
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>iOS 8.0 and later</source>
+          <target state="translated">iOS 8.0 und höher</target>
+          
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Samsung KNOX Standard (4.0 and later)</source>
+          <target state="translated">Samsung KNOX Standard (4.0 oder höher)</target>
+          
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In addition to setting up an email account on the device, you can set up how much email to synchronize, and depending on the device type, which content types to synchronize.</source>
+          <target state="translated">Zusätzlich zu einem e-Mail-Konto auf dem Gerät eingerichtet haben, können Sie festlegen wie viele e-Mails synchronisiert werden sollen, und je nach Gerätetyp, Inhaltstypen zu synchronisieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the user has installed an email profile prior to set up of a profile by Intune, the result of the Intune email profile deployment depends on the device platform:</source>
+          <target state="translated">Wenn der Benutzer ein e-Mail-Profil vor installiert hat hängt die Geräteplattform Einrichten eines Profils von Intune, das Ergebnis der Bereitstellung der Intune-e-Mail-Profile:</target>
+          
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>[comment]: &lt;&gt; Passive construction in next three paragraphs is necessary until the process of duplicate detection is made clear by PM.</source>
+          <target state="translated">[Kommentar]: &lt;&gt; passiven Konstruktion in den nächsten drei Absätzen ist erforderlich, bis der Prozess der Erkennung von Duplikaten entfernen, indem Uhr ausgeführt.</target>
+          
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>: An existing, duplicate email profile is detected based on host name and email address.</source>
+          <target state="translated"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>: eine vorhandene, doppelte e-Mail-Profil basierend auf dem Host-Name und e-Mail-Adresse erkannt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The duplicate email profile created by the user blocks the deployment of an Intune admin-created profile.</source>
+          <target state="translated">Doppelte e-Mail-Profil erstellt, indem der Benutzer blockiert die Bereitstellung von einem Intune-Administrator erstellte Profil.</target>
+          
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is a common problem, as iOS users typically create an email profile, then enroll.</source>
+          <target state="translated">Dies ist ein häufiges Problem, als iOS Benutzer in der Regel ein e-Mail-Profil erstellen und registrieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The company portal informs the user that they are not compliant due to their manually-configured email profile, and prompts the user to remove that profile.</source>
+          <target state="translated">Das Unternehmensportal informiert den Benutzer, dass sie nicht aufgrund ihrer manuell konfigurierte e-Mail-Profil kompatibel sind, und der Benutzer aufgefordert, dieses Profil zu entfernen.</target>
+          
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The user should remove their email profile, so the Intune profile can be set up.</source>
+          <target state="translated">Die Benutzer sollten ihre e-Mail-Profil entfernen, damit das Intune-Profil eingerichtet werden kann.</target>
+          
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To prevent the problem, instruct your users to enroll before installing an email profile, and to allow Intune to set up the profile.</source>
+          <target state="translated">Um das Problem zu vermeiden, weisen Sie Ihre Benutzer zum Anmelden vor der Installation von einem e-Mail-Profil und Intune Einrichten des Profils zu ermöglichen.</target>
+          
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows<ept id="p1">**</ept>: An existing, duplicate email profile is detected based on host name and email address.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows<ept id="p1">**</ept>: eine vorhandene, doppelte e-Mail-Profil basierend auf dem Host-Name und e-Mail-Adresse erkannt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Intune overwrites the existing email profile created by the user.</source>
+          <target state="translated">Intune überschreibt das vorhandene e-Mail-Profil, die vom Benutzer erstellt wurden.</target>
+          
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Samsung KNOX<ept id="p1">**</ept>: An existing, duplicate email profile is detected based on the email address, and overwrites it with the Intune profile.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Samsung KNOX<ept id="p1">**</ept>: eine vorhandene, doppelte e-Mail-Profil basierend auf der e-Mail-Adresse erkannt wird, und mit dem Intune-Profil überschrieben.</target>
+          
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the user sets up that account, it is overwritten again by the Intune profile.</source>
+          <target state="translated">Wenn der Benutzer dieses Konto einrichtet, wird sie erneut von der Intune-Profil überschrieben.</target>
+          
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Note that this may cause some confusion to the user.</source>
+          <target state="translated">Beachten Sie, dass dies für dem Benutzer kann zu Verwirrung führen.</target>
+          
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Since Samsung KNOX does not use host name to identify the profile, we recommend that you not create multiple email profiles to use on the same email address on different hosts, as these overwrite each other.</source>
+          <target state="translated">Da Samsung KNOX keine Hostnamen zur Identifizierung des Profils verwendet, empfehlen wir, dass Sie nicht mehrere e-Mail-Profile mit der gleichen e-Mail-Adresse auf unterschiedlichen Hosts erstellen, wie diese gegenseitig überschreiben.</target>
+          
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Secure email profiles</source>
+          <target state="translated">Sichere e-Mail-Profile</target>
+          
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can secure email profiles using one of two methods: through a certificate or a password.</source>
+          <target state="translated">Sie können e-Mail-Profile, die mit einer der beiden Methoden sichern: über ein Zertifikat oder ein Kennwort.</target>
+          
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Certificates</source>
+          <target state="translated">Zertifikate</target>
+          
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you create the email profile, you choose a certificate profile that you have previously created in Intune.</source>
+          <target state="translated">Wenn Sie das e-Mail-Profil erstellen, wählen Sie ein Profil, das Sie zuvor in Intune erstellt haben.</target>
+          
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is known as the identity certificate, and is used to authenticate against a trusted certificate profile (or a root certificate) to establish that the user’s device is allowed to connect.</source>
+          <target state="translated">Dies wird als Identitätszertifikat bezeichnet und dient zur Authentifizierung für das Profil mit einem vertrauenswürdigen Zertifikat (oder eines Stammzertifikats), um sicherzustellen, dass das Gerät des Benutzers eine Verbindung herstellen darf.</target>
+          
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The trusted certificate is deployed to the computer that authenticates the email connection, typically, the native mail server.</source>
+          <target state="translated">Das vertrauenswürdige Zertifikat wird auf dem Computer bereitgestellt, die e-Mail-Verbindung in der Regel die e-Mail-Server authentifiziert.</target>
+          
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information about how to create and use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with  certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zum Erstellen und verwenden zertifikatprofile in Intune finden Sie unter <bpt id="p1">[</bpt>sicheren Zugriff auf Ressourcen mit zertifikatprofilen<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>User name and password</source>
+          <target state="translated">Benutzername und Kennwort</target>
+          
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The user authenticates to the native mail server by providing their user name and password.</source>
+          <target state="translated">Der Benutzer, die durch Angabe seines Benutzername und Kennwort mit dem e-Mail-Server authentifiziert werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The password is not contained in the email profile, so the user needs to supply this when they connect to email.</source>
+          <target state="translated">Das Kennwort ist nicht in der e-Mail-Profil enthalten, damit der Benutzer dieses beim Herstellen Verbindung zum e-Mail-Adresse einer bereitstellen muss.</target>
+          
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Create an email profile</source>
+          <target state="translated">Erstellen Sie ein e-Mail-Profil</target>
+          
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Richtlinie hinzufügen<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Set up one of the following policy types:</source>
+          <target state="translated">Richten Sie eine der folgenden Richtlinientypen:</target>
+          
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Email Profile for Samsung KNOX Standard (4.0 and later)</source>
+          <target state="translated">E-Mail-Profil für Samsung KNOX Standard (4.0 oder höher)</target>
+          
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Email Profile (iOS 8.0 and later)</source>
+          <target state="translated">E-Mail-Profil (iOS 8.0 und höher)</target>
+          
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Email Profile (Windows Phone 8 and later)</source>
+          <target state="translated">E-Mail-Profil (Windows Phone 8 und höher)</target>
+          
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Email Profile (Windows 10 Desktop and Mobile and later)</source>
+          <target state="translated">E-Mail-Profil (Windows 10 Desktop und Mobile und höher)</target>
+          
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can only create and deploy a custom email profile policy.</source>
+          <target state="translated">Sie können nur erstellen und eine benutzerdefinierte e-Mail-Profil bereitgestellt.</target>
+          
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Recommended settings are not available.</source>
+          <target state="translated">Empfohlene Einstellungen sind nicht verfügbar.</target>
+          
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Use the following table to help you set up email profile settings:</source>
+          <target state="translated">Verwenden Sie in der folgenden Tabelle können Sie die Einstellungen für e-Mail-Profil eingerichtet:</target>
+          
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+          
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="translated">Weitere Informationen</target>
+          
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+          
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Unique name for the email profile.</source>
+          <target state="translated">Eindeutiger Name für das e-Mail-Profil.</target>
+          
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+          
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A description that helps you identify this profile.</source>
+          <target state="translated">Eine Beschreibung, die Ihnen helfen identifizieren, dieses Profil.</target>
+          
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Host</source>
+          <target state="translated">Host</target>
+          
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The host name of your company server that hosts your native email service.</source>
+          <target state="translated">Der Hostname der Server Ihres Unternehmens, der den systemeigenen e-Mail-Dienst hostet.</target>
+          
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Account name</source>
+          <target state="translated">Kontoname</target>
+          
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The display name for the email account as it will appear to users on their devices.</source>
+          <target state="translated">Der Anzeigename für das e-Mail-Konto, wird Benutzern auf ihren Geräten angezeigt.</target>
+          
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="translated">Username</target>
+          
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>How the user name for the email account will be obtained.</source>
+          <target state="translated">Wie der Benutzername für das e-Mail-Konto abgerufen wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Username<ept id="p1">**</ept> for an on-premises Exchange server, or select <bpt id="p2">**</bpt>User Principal Name<ept id="p2">**</ept> for Office 365.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Benutzername<ept id="p1">**</ept> für einen lokalen Exchange-Server, oder wählen <bpt id="p2">**</bpt>Benutzerprinzipalname<ept id="p2">**</ept> für Office 365.</target>
+          
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Email address</source>
+          <target state="translated">E-Mail-Adresse</target>
+          
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>How the email address for the user on each device is generated.</source>
+          <target state="translated">Wie die e-Mail-Adresse für den Benutzer auf jedem Gerät generiert wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Primary SMTP Address<ept id="p1">**</ept> to use the primary SMTP address to log into Exchange or use  <bpt id="p2">**</bpt>User Principal Name<ept id="p2">**</ept> to use the full principal name as the email address.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>primäre SMTP-Adresse<ept id="p1">**</ept> melden Sie sich bei Exchange oder verwenden Sie die primäre SMTP-Adresse mit  <bpt id="p2">**</bpt>Benutzerprinzipalname<ept id="p2">**</ept> den vollständigen Benutzerprinzipalnamen als e-Mail-Adresse verwenden.</target>
+          
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authentication method<ept id="p1">**</ept> (Samsung KNOX and iOS)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Authentifizierungsmethode<ept id="p1">**</ept> (Samsung KNOX und iOS)</target>
+          
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Select either <bpt id="p1">**</bpt>Username and Password<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Certificates<ept id="p2">**</ept> as the authentication method used by the email profile.</source>
+          <target state="translated">Wählen Sie entweder <bpt id="p1">**</bpt>Benutzername und Kennwort<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>Zertifikate<ept id="p2">**</ept> als die Authentifizierungsmethode, die vom e-Mail-Profil verwendet wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Select a client certificate for client authentication (Identity Certificate)<ept id="p1">**</ept> (Samsung KNOX and iOS)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wählen Sie ein Clientzertifikat für die Clientauthentifizierung (Identitätszertifikat)<ept id="p1">**</ept> (Samsung KNOX und iOS)</target>
+          
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Select the client SCEP certificate that you previously created that will be used to authenticate the Exchange connection.</source>
+          <target state="translated">Wählen Sie die SCEP-Clientzertifikat, das Sie zuvor erstellt haben, das zur Authentifizierung der Exchange-Verbindung verwendet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about how to use certificate profiles in Intune, see <bpt id="p1">[</bpt>Secure resource access with  certificate profiles<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zur Verwendung von Zertifikatsvorlagen in Intune finden Sie unter <bpt id="p1">[</bpt>sicheren Zugriff auf Ressourcen mit zertifikatprofilen<ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when the authentication method is <bpt id="p1">**</bpt>Certificates<ept id="p1">**</ept>.</source>
+          <target state="translated">Diese Option wird nur angezeigt, wenn die Authentifizierungsmethode <bpt id="p1">**</bpt>Zertifikate<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use S/MIME<ept id="p1">**</ept> (Samsung KNOX and iOS)</source>
+          <target state="translated"><bpt id="p1">**</bpt>S/MIME verwenden<ept id="p1">**</ept> (Samsung KNOX und iOS)</target>
+          
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Send outgoing email using S/MIME encryption.</source>
+          <target state="translated">Ausgehende e-Mails mithilfe von S/MIME-Verschlüsselung gesendet.</target>
+          
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Signing certificate<ept id="p1">**</ept> (Samsung KNOX and iOS)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Signaturzertifikat<ept id="p1">**</ept> (Samsung KNOX und iOS)</target>
+          
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select the signing certificate that will be used to sign outgoing email.</source>
+          <target state="translated">Wählen Sie das Signaturzertifikat aus, das zum Signieren von ausgehenden e-Mails verwendet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This option is displayed only when you select <bpt id="p1">**</bpt>Use S/MIME<ept id="p1">**</ept>.</source>
+          <target state="translated">Diese Option wird nur angezeigt, wenn Sie auswählen, <bpt id="p1">**</bpt>mit S/MIME-<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Number of days of email to synchronize</source>
+          <target state="translated">Anzahl der Tage für die e-Mail-Synchronisierung</target>
+          
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The number of days of email that you want to synchronize, or select <bpt id="p1">**</bpt>Unlimited<ept id="p1">**</ept> to synchronize all available email.</source>
+          <target state="translated">Die Anzahl der Tage von e-Mails, die Sie synchronisieren, oder wählen Sie möchten <bpt id="p1">**</bpt>unbegrenzt<ept id="p1">**</ept> alle verfügbaren e-Mail-Nachrichten zu synchronisieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sync schedule<ept id="p1">**</ept> (Samsung KNOX, Windows Phone 8 and later, Windows 10)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Synchronisierungszeitplan<ept id="p1">**</ept> (Samsung KNOX, Windows Phone 8 und höher, Windows 10)</target>
+          
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Select the schedule by which devices will synchronize data from the Exchange server.</source>
+          <target state="translated">Wählen Sie den Zeitplan, nach dem Geräte Daten vom Exchange-Server synchronisiert werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can also select <bpt id="p1">**</bpt>As Messages arrive<ept id="p1">**</ept>, which synchronizes data as soon as it arrives, or <bpt id="p2">**</bpt>Manual<ept id="p2">**</ept>, where the user of the device must initiate the synchronization.</source>
+          <target state="translated">Sie können auch auswählen, <bpt id="p1">**</bpt>Wenn Nachrichten eintreffen<ept id="p1">**</ept>, die Daten synchronisiert, sobald es ankommt, oder <bpt id="p2">**</bpt>Manuelle<ept id="p2">**</ept>, wobei der Benutzer des Geräts die Synchronisierung initiieren muss.</target>
+          
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use SSL</source>
+          <target state="translated">Verwenden Sie SSL</target>
+          
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange server.</source>
+          <target state="translated">Verwenden Sie Secure Sockets Layer (SSL)-Kommunikation beim Senden und Empfangen von e-Mails sowie die Kommunikation mit dem Exchange-Server.</target>
+          
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For devices that run Samsung KNOX 4.0 or later, you must export your Exchange Server SSL certificate, and deploy it as an Android Trusted Certificate Profile in Intune.</source>
+          <target state="translated">Für Geräte mit Samsung KNOX 4.0 oder höher, Sie Ihr Exchange Server-SSL-Zertifikat exportieren und als ein Android Trusted Certificate Profile in Intune bereitstellen müssen.</target>
+          
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Intune does not support accessing this certificate if it is installed on the Exchange server by other means.</source>
+          <target state="translated">Intune unterstützt nicht den Zugriff auf dieses Zertifikat, wenn es mit anderen Mitteln auf dem Exchange Server installiert ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Content type to synchronize</source>
+          <target state="translated">Zu synchronisierender Inhaltstyp</target>
+          
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Select the content types that you want to synchronize to devices.</source>
+          <target state="translated">Wählen Sie die Inhaltstypen, die auf Geräten synchronisiert werden sollen.</target>
+          
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow email to be sent from third party applications<ept id="p1">**</ept> (iOS only)</source>
+          <target state="translated"><bpt id="p1">**</bpt>E-Mail-Versand aus Anwendungen von Drittanbietern zulassen<ept id="p1">**</ept> (nur iOS)</target>
+          
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Allow the user to select this profile as the default  account for sending email, and allow third-party applications to open email in the native email app, for example, to attach files to email.</source>
+          <target state="translated">Dem Benutzer ermöglichen, wählen Sie dieses Profil, das standardmäßig zum Senden von e-Mails und Zulassen von Drittanbietern, z. B. e-Mail-Adresse in der systemeigenen e-Mail-app öffnen, um das Anfügen von Dateien an e-Mail-Adresse.</target>
+          
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When you are finished, click <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie fertig sind, klicken Sie auf <bpt id="p1">**</bpt>Richtlinie speichern<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The new policy displays in the <bpt id="p1">**</bpt>Configuration Policies<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Die neue Richtlinie wird den <bpt id="p1">**</bpt>Konfigurationsrichtlinien<ept id="p1">**</ept> Knoten der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich.</target>
+          
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Deploy the policy</source>
+          <target state="translated">Bereitstellen der Richtlinie</target>
+          
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Richtlinie, die Sie bereitstellen möchten, und wählen Sie dann <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> (Dialogfeld):</target>
+          
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept> - Select one or more groups to which you want to deploy the policy, and then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Richtlinie bereitstellen<ept id="p1">**</ept> -Wählen Sie eine oder mehrere Gruppen aus, die zum Bereitstellen der Richtlinie, und wählen Sie dann <bpt id="p2">**</bpt>Hinzufügen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To close the dialog box without deploying it<ept id="p1">**</ept> - Choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Um das Dialogfeld zu schließen, ohne es<ept id="p1">**</ept> – Wählen Sie <bpt id="p2">**</bpt>Abbrechen<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace identify issues with the policy that require your attention.</source>
+          <target state="translated">Eine statuszusammenfassung und Warnungen auf die <bpt id="p1">**</bpt>Übersicht über die<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich sind Probleme mit der Richtlinie, die Ihre Aufmerksamkeit erfordern.</target>
+          
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Additionally, a status summary appears in the Dashboard workspace.</source>
+          <target state="translated">Darüber hinaus wird eine Statusübersicht im Arbeitsbereich Dashboard angezeigt.</target>
+          
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you want to remove an email profile from a device, edit the deployment and remove any groups of which the device is a member.</source>
+          <target state="translated">Wenn Sie ein e-Mail-Profil von einem Gerät entfernen möchten, bearbeiten Sie die Bereitstellung, und entfernen Sie alle Gruppen, die das Gerät Mitglied ist.</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

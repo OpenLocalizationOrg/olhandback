@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da881ccb5ed26fbec77e1964ff85f7adccb48d53</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\get-notified-by-alerts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">245800f7c965143e6d9fd398e3039ff4db2aaa4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">394c5b488bc3b92a2565eac0642680cf8c863533</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get notified by alerts | Microsoft Intune</source>
+          <target state="translated">Abrufen von Warnungen benachrichtigt | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how alerts keep you in touch with what's happening in Microsoft Intune.</source>
+          <target state="translated">Erfahren Sie, wie Warnungen bleiben Sie was in Microsoft Intune passiert.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get notified by Microsoft Intune alerts</source>
+          <target state="translated">Benachrichtigung von Microsoft Intune-Warnungen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Alerts keep you in touch with what's happening in Microsoft Intune.</source>
+          <target state="translated">Warnungen, die Sie in Microsoft Intune Woran bleiben.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, alerts can notify you about the following events:</source>
+          <target state="translated">Beispielsweise können Sie über die folgenden Ereignisse benachrichtigt:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A problem with the Exchange Connector which affects mobile device management</source>
+          <target state="translated">Ein Problem mit dem Exchange-Connector der Verwaltung mobiler Geräte auswirkt.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Malware was found on a computer</source>
+          <target state="translated">Malware wurde auf einem Computer gefunden.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A conflict between two Intune policies was detected</source>
+          <target state="translated">Ein Konflikt zwischen zwei Intune-Richtlinien wurde erkannt.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>How alerts work</source>
+          <target state="translated">Funktionsweise von Warnungen</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Alerts are generated based on <bpt id="p1">**</bpt>alert types<ept id="p1">**</ept>, a set of preconfigured rules built into Intune.</source>
+          <target state="translated">Warnungen werden generiert basierend auf <bpt id="p1">**</bpt>Warnungstypen<ept id="p1">**</ept>, einen Satz von vorkonfigurierten Regeln Intune integriert.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, the alert type, <bpt id="p1">**</bpt>Cloud storage has 10% or less free space<ept id="p1">**</ept>, alerts you when you are running out of space to store your apps in the cloud.</source>
+          <target state="translated">Z. B. den Warnungstyp, <bpt id="p1">**</bpt>Cloud-Speicher verfügt über 10 % freier Speicherplatz oder weniger<ept id="p1">**</ept>, warnt Sie, wenn Sie nicht genügend Speicherplatz zum Speichern von apps in der Cloud ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can enable or disable alert types and configure properties for each alert type.</source>
+          <target state="translated">Aktivieren oder Deaktivieren von Warnungstypen, und konfigurieren Sie Eigenschaften für jeden Warnungstyp.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, using the above alert type, you can configure:</source>
+          <target state="translated">Beispielsweise können mit den oben genannten Warnungstyp, Sie konfigurieren:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>State:<ept id="p1">**</ept> Whether this alert type is enabled or disabled</source>
+          <target state="translated"><bpt id="p1">**</bpt>Status:<ept id="p1">**</ept> Gibt an, ob dieser Warnungstyp aktiviert oder deaktiviert ist</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Severity:<ept id="p1">**</ept> How serious is this alert?</source>
+          <target state="translated"><bpt id="p1">**</bpt>Schweregrad:<ept id="p1">**</ept> wie schwerwiegend diese Warnung ist?</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Severity</source>
+          <target state="translated">Schweregrad</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Critical alert</source>
+          <target state="translated">Kritische Warnung</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Indicates a serious issue that you should investigate as soon as possible, for example, if malware was detected on a computer.</source>
+          <target state="translated">Gibt ein schwerwiegendes Problem, das Sie so bald wie möglich, z. B. untersuchen sollten, wenn Malware auf einem Computer erkannt wurde.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Warning alert</source>
+          <target state="translated">Warnung</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Indicates an issue that isn't currently serious but might become serious if you don't attend to it, for example, security updates are waiting to be installed.</source>
+          <target state="translated">Gibt ein Problem, das ist nicht aktuell schwerwiegende aber möglicherweise kritisch, wenn Sie nicht, besuchen Sie sind z. B. Sicherheitsupdates installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Informational alert</source>
+          <target state="translated">Informative Warnung</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates information that isn't critical to your operations, for example, a new version of the Exchange Connector is available.</source>
+          <target state="translated">Gibt an, dass die Informationen, die wichtig für die Vorgänge, z. B. eine neue Version von Exchange Connector ist nicht verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Other alert types might have different items that you can configure, like the percentage of devices that must be affected by an issue before an alert is generated.</source>
+          <target state="translated">Sonstige Benachrichtigungstypen möglicherweise unterschiedliche Elemente, die Sie konfigurieren können, wie der Prozentsatz der Geräte, die durch ein bekanntes Problem betroffen sind, bevor eine Warnung generiert wird.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the criteria in an alert type is met, an alert is generated and shown in the Intune admin console.</source>
+          <target state="translated">Wenn die Kriterien eines Warnungstyps erfüllt wird, wird eine Warnung generiert und in der Intune-Verwaltungskonsole angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Additionally, you can configure Intune to notify you by email when an alert is generated.</source>
+          <target state="translated">Darüber hinaus können Sie konfigurieren, Intune, um Sie per e-Mail benachrichtigen, wenn eine Warnung generiert wird.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Set up alerts</source>
+          <target state="translated">Einrichten von Warnungen</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Alerts and Notifications<ept id="p3">**</ept>, and then choose one of the following tasks:</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Warnungen und Benachrichtigungen<ept id="p3">**</ept>, und wählen Sie dann eine der folgenden Aufgaben:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">Aufgabe</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Alert Types</source>
+          <target state="translated">Warnungstypen</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose the alert type that you want to configure, and then do one of the following:</source>
+          <target state="translated">Wählen Sie den Warnungstyp aus, dem Sie konfigurieren möchten, und führen Sie dann eine der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>konfigurieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Configure Alert Type<ept id="p1">**</ept> dialog box, configure the settings that you want, and then choose <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Warnungstyp konfigurieren<ept id="p1">**</ept> Dialogfeld konfigurieren Sie die Einstellungen, die Sie verwenden möchten, und wählen dann <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Disable<ept id="p2">**</ept> the alert.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aktivieren Sie<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>deaktivieren<ept id="p2">**</ept> der Warnung.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>Alert Types<ept id="p1">**</ept> node, and choose a category to view only the alert types in that category.</source>
+          <target state="translated">Erweitern Sie die <bpt id="p1">**</bpt>Warnungstypen<ept id="p1">**</ept> Knoten, und wählen Sie eine Kategorie aus, um nur die Warnungstypen in dieser Kategorie anzuzeigen.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Recipients</source>
+          <target state="translated">Empfänger</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add a new email address that will receive the email notifications that you set up.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept> eine neue e-Mail-Adresse hinzufügen, die die e-Mail-Benachrichtigungen, die Sie eingerichtet erhalten haben.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept> existing recipients.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>Bearbeiten<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>Löschen<ept id="p2">**</ept> vorhandene Empfänger.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To receive notifications, you must also add this email address as a recipient under <bpt id="p1">**</bpt>Notification Rules<ept id="p1">**</ept>.</source>
+          <target state="translated">Um Benachrichtigungen zu erhalten, müssen Sie auch diese e-Mail-Adresse hinzufügen, als Empfänger unter <bpt id="p1">**</bpt>Benachrichtigungsregeln<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Notification Rules</source>
+          <target state="translated">Benachrichtigungsregeln</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Configures rules that define who an email alert will be sent to.</source>
+          <target state="translated">Konfiguriert Regeln, die definieren, die an eine e-Mail-Benachrichtigung gesendet wird.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can either:</source>
+          <target state="translated">Sie können entweder:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Choose an existing rule<ept id="p1">**</ept> - Choose a rule, and then choose <bpt id="p2">**</bpt>Select Recipients<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wählen Sie eine vorhandene Regel<ept id="p1">**</ept> – Wählen Sie eine Regel, und wählen Sie dann <bpt id="p2">**</bpt>Empfänger<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can then select all recipients who will receive an email when an alert that fulfills this rule is generated.</source>
+          <target state="translated">Sie können dann alle Empfänger auswählen, die erhalten Sie eine e-Mail, wenn eine Warnung, die mit dieser Regel erfüllt generiert wird.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a new rule<ept id="p1">**</ept> - enter a name for the rule, select the alert categories and alert severity that apply to the rules, select the device groups that the rule applies to, and select the users who will receive an email when an alert is generated.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erstellen einer neuen Regel<ept id="p1">**</ept> – Geben Sie einen Namen für die Regel, wählen Sie die Kategorien und den Schweregrad der Warnung, die auf die Regeln anzuwenden, wählen die Gerätegruppen aus, die die Regel gilt, und wählen Sie die Benutzer, die eine e-Mail erhalten, wenn eine Warnung generiert wird.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Disable<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Delete<ept id="p4">**</ept> an existing rule.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>aktivieren<ept id="p1">**</ept>, <bpt id="p2">**</bpt>deaktivieren<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Bearbeiten<ept id="p3">**</ept>, oder <bpt id="p4">**</bpt>Löschen<ept id="p4">**</ept> eine vorhandene Regel.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Working with alerts</source>
+          <target state="translated">Arbeiten mit Warnungen</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Use the following options to help you work with alerts from the Intune admin console.</source>
+          <target state="translated">Verwenden Sie die folgenden Optionen können Sie die Arbeit mit Warnungen aus der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Option</source>
+          <target state="translated">Option</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>View active alerts</source>
+          <target state="translated">Zeigen Sie aktive Warnungen</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose one of:</source>
+          <target state="translated">Wählen Sie eine der folgenden Optionen aus:</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>View an alert summary<ept id="p1">**</ept> - In the <bpt id="p2">**</bpt>Dashboard<ept id="p2">**</ept> workspace, the top errors are shown in the Alerts pane.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anzeigen einer Zusammenfassung Warnung<ept id="p1">**</ept> – In der <bpt id="p2">**</bpt>Dashboard<ept id="p2">**</ept> Arbeitsbereich den oberen Fehler werden im Warnungsfenster angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Choose the pane to see more detailed information.</source>
+          <target state="translated">Wählen Sie den Bereich, um ausführlichere Informationen finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Additionally, you can view an alert summary on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Alerts<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Darüber hinaus können Sie eine Warnung auf Zusammenfassung anzeigen die <bpt id="p1">**</bpt>Übersicht über die<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Warnungen<ept id="p2">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>View all alerts<ept id="p1">**</ept> - In the <bpt id="p2">**</bpt>Alerts<ept id="p2">**</ept> workspace, choose <bpt id="p3">**</bpt>All Alerts<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anzeigen aller Warnungen<ept id="p1">**</ept> – In der <bpt id="p2">**</bpt>Warnungen<ept id="p2">**</ept> Arbeitsbereich wählen <bpt id="p3">**</bpt>Alle Warnungen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>View notices</source>
+          <target state="translated">Ansicht-Hinweise</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Choose one of:</source>
+          <target state="translated">Wählen Sie eine der folgenden Optionen aus:</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace, choose <bpt id="p2">**</bpt>Notices<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> Arbeitsbereich wählen <bpt id="p2">**</bpt>bemerkt<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Alerts<ept id="p1">**</ept> workspace, choose <bpt id="p2">**</bpt>All Alerts<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Notices<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Warnungen<ept id="p1">**</ept> Arbeitsbereich wählen <bpt id="p2">**</bpt>Alle Warnungen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>bemerkt<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Close an alert</source>
+          <target state="translated">Schließen einer Warnung</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the list of alerts, choose the alert to close, and then choose <bpt id="p1">**</bpt>Close Alert<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie in der Liste der Warnungen, die Warnung zu schließen, und wählen Sie dann <bpt id="p1">**</bpt>Warnung schließen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Closed alerts are permanently deleted after 90 days.</source>
+          <target state="translated">Geschlossene Warnungen werden nach 90 Tagen dauerhaft gelöscht.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Reactivate a closed alert</source>
+          <target state="translated">Erneutes Aktivieren einer geschlossenen Warnung</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the list of alerts, set the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down to <bpt id="p2">**</bpt>Closed<ept id="p2">**</ept>.</source>
+          <target state="translated">Legen Sie in der Liste der Warnungen, die <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> Dropdown-Liste für <bpt id="p2">**</bpt>geschlossen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the list of closed alerts, select the alert that you want to reactivate, and then choose <bpt id="p1">**</bpt>Reactivate Alert<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die Warnung, die Sie verwenden möchten, aktivieren Sie erneut, und wählen Sie dann in der Liste geschlossener Warnungen <bpt id="p1">**</bpt>Warnung erneut aktivieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Intune alerts remain active until:</source>
+          <target state="translated">Intune-Warnungen bleiben aktiv, bis:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The issue that caused the alert is fixed</source>
+          <target state="translated">Das Problem, das die Warnung verursacht wurde behoben.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You manually close the alert</source>
+          <target state="translated">Sie schließen die Warnung manuell</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>45 days have passed since the alert was generated</source>
+          <target state="translated">45 Tage vergangen, seit der Generierung der Warnung</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the same alert is generated by devices that run different operating systems, you might see multiple versions of the same alert in the alerts list.</source>
+          <target state="translated">Wenn dieselbe Warnung von Geräten, auf denen andere Betriebssysteme ausgeführt generiert wird, werden möglicherweise mehrere Versionen der gleichen Warnung in der Warnungsliste angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Monitoring and reports with Microsoft Intune</source>
+          <target state="translated">Überwachung und Berichte mit Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

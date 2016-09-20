@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ef18ee054928fcfb12a36fe8ac3ad3c2909f6c1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce9f6526b1ac7f69ed729db7fd8a9cca3b5dde32</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">860bbe12ea48f9f192484399af004c34b8dec95e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Common Windows PC management tasks | Microsoft Intune</source>
+          <target state="translated">Allgemeine Aufgaben zur Verwaltung von Windows-PC | Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Review the tasks in this topic to learn how to manage Windows PCs that run the Intune software client.</source>
+          <target state="translated">Überprüfen Sie die Aufgaben in diesem Thema erfahren Sie, wie Windows-PCs zu verwalten, auf denen der Intune-Software-Client ausgeführt.</target>
+          
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Common Windows PC management tasks with the Intune software client</source>
+          <target state="translated">Allgemeine Windows-PC-Verwaltungsaufgaben mit dem Intune-Software-client</target>
+          
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Review the tasks in this topic to learn how to manage your computers that run the Intune software client.</source>
+          <target state="translated">Überprüfen Sie die Aufgaben in diesem Thema erhalten Sie Informationen zum Verwalten von Computern, auf denen den Intune-Software-Client ausgeführt.</target>
+          
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you have not yet installed the client on your computers, see <bpt id="p1">[</bpt>Install the Intune software client<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Wenn den Client noch nicht auf Ihren Computern installiert haben, finden Sie unter <bpt id="p1">[</bpt>Installieren Sie den Intune-Software-Client<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use policies to simplify PC management</source>
+          <target state="translated">Verwenden Sie Richtlinien zur Vereinfachung der Verwaltung von PCs</target>
+          
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Windows PCs running the Intune software client can be managed using Intune's <bpt id="p1">**</bpt>Computer Management<ept id="p1">**</ept> policies.</source>
+          <target state="translated">Windows-PCs, die mit der Intune Software-Client kann mithilfe von Intune verwaltet werden <bpt id="p1">**</bpt>Computermanagement<ept id="p1">**</ept> Richtlinien.</target>
+          
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Policies template for Windows PCs</source>
+          <target state="translated">Richtlinien-Vorlage für Windows-PCs</target>
+          
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Manage the Microsoft Intune Center</source>
+          <target state="translated">Verwalten des Microsoft Intune Center</target>
+          
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Users see the Intune software client as the <bpt id="p1">**</bpt>Microsoft Intune Center<ept id="p1">**</ept>.</source>
+          <target state="translated">Benutzer sehen den Intune-Software-Client als die <bpt id="p1">**</bpt>Microsoft Intune Center<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune Center lets users:</source>
+          <target state="translated">Microsoft Intune Center können Benutzer:</target>
+          
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Get applications from the company portal.</source>
+          <target state="translated">Abrufen von Anwendungen aus dem Unternehmensportal</target>
+          
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Check for updates.</source>
+          <target state="translated">Suchen nach Updates</target>
+          
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Manage Microsoft Intune Endpoint Protection.</source>
+          <target state="translated">Verwalten von Microsoft Intune Endpoint Protection.</target>
+          
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Request remote assistance.</source>
+          <target state="translated">Anfordern von Remoteunterstützung</target>
+          
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune Center is installed on all managed computers.</source>
+          <target state="translated">Microsoft Intune Center ist auf allen verwalteten Computern installiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can configure the following settings in an Intune policy and these are displayed to users in the Microsoft Intune Center:</source>
+          <target state="translated">Sie können die folgenden Einstellungen in einer Intune-Richtlinie konfigurieren, und diese Benutzer in Microsoft Intune Center angezeigt werden:</target>
+          
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Policy setting</source>
+          <target state="translated">Richtlinieneinstellung</target>
+          
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+          
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+          
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The name of the administrator who manages the computer.</source>
+          <target state="translated">Name des Administrators, der den Computer verwaltet</target>
+          
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Maximum length: 40 characters</source>
+          <target state="translated">Maximale Länge: 40 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Phone number</source>
+          <target state="translated">Telefonnummer</target>
+          
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The telephone number of the administrator who manages the computer.</source>
+          <target state="translated">Telefonnummer des Administrators, der den Computer verwaltet</target>
+          
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Maximum length: 20 characters</source>
+          <target state="translated">Maximale Länge: 20 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Email address</source>
+          <target state="translated">E-Mail-Adresse</target>
+          
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The email address of the administrator who manages the computer.</source>
+          <target state="translated">E-Mail-Adresse des Administrators, der den Computer verwaltet</target>
+          
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Maximum length: 40 characters</source>
+          <target state="translated">Maximale Länge: 40 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Web site name</source>
+          <target state="translated">Name der Website</target>
+          
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of your support website for users.</source>
+          <target state="translated">Name der Supportwebsite für Benutzer</target>
+          
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Maximum length: 40 characters</source>
+          <target state="translated">Maximale Länge: 40 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Web site URL</source>
+          <target state="translated">URL der Website</target>
+          
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The URL of your support website.</source>
+          <target state="translated">URL der Supportwebsite</target>
+          
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Maximum length: 150 characters</source>
+          <target state="translated">Maximale Länge: 150 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="translated">Hinweise</target>
+          
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A note that is displayed to users.</source>
+          <target state="translated">Hinweis, der Benutzern angezeigt wird</target>
+          
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Maximum length: 120 characters</source>
+          <target state="translated">Maximale Länge: 120 Zeichen</target>
+          
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Software updates settings</source>
+          <target state="translated">Einstellungen für Softwareupdates</target>
+          
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Use policies to configure the settings that managed computers use to check for, and download software updates from Microsoft and from third-parties.</source>
+          <target state="translated">Mit Richtlinien können Sie die Einstellungen konfigurieren, mit deren Hilfe von verwalteten Computern nach Softwareupdates von Microsoft und Drittanbietern gesucht und diese heruntergeladen werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>These updates do not include operating system upgrades (i.e.</source>
+          <target state="translated">Diese Updates enthalten Betriebssystem-Upgrades (d. h. keine</target>
+          
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>upgrading from Windows 7 to Windows 10, or upgrades from one Windows 10 version to a later version).</source>
+          <target state="translated">Aktualisieren von Windows 7 auf Windows 10 oder bei Upgrades von einer Windows-10-Version auf eine höhere Version).</target>
+          
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Windows-PCs zu halten, bis zum Datum mit Softwareupdates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Endpoint Protection settings</source>
+          <target state="translated">Endpoint Protection-Einstellungen</target>
+          
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use policies to configure settings for Endpoint Protection that you then deploy to managed computers.</source>
+          <target state="translated">Verwenden Sie Richtlinien für Endpoint Protection konfigurieren, die Sie dann auf verwalteten Computern bereitstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This includes scan schedules, actions to take when malware is detected, and more.</source>
+          <target state="translated">Dies schließt Überprüfungszeitpläne, nach dem Erkennen von Malware durchzuführende Schritte und mehr ein.</target>
+          
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Schützen der Windows-PCs mit Endpoint Protection für Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Windows Firewall settings</source>
+          <target state="translated">Windows-Firewall-Einstellungen</target>
+          
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Policies simplify the administration of Windows Firewall settings on managed computers.</source>
+          <target state="translated">Mit Richtlinien lässt sich die Verwaltung der Einstellungen der Windows-Firewall auf verwalteten Computern vereinfachen.</target>
+          
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Help protect Windows PCs using Windows Firewall policies in Microsoft Intune<ept id="p1">](help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Schützen von Windows-PCs mit Windows-Firewall-Richtlinien in Microsoft Intune<ept id="p1">](help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>View hardware and software inventory</source>
+          <target state="translated">Anzeigen des Hardware- und Softwareinventars</target>
+          
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Intune collects detailed information about the hardware and software of managed computers.</source>
+          <target state="translated">Intune werden ausführliche Informationen über die Hardware und Software der verbreiteten Computer erfasst.</target>
+          
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Use the information in the following procedures to learn how to create:</source>
+          <target state="translated">In den nachfolgend beschriebenen Verfahren lernen Sie, wie Sie</target>
+          
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A report that lists information about the hardware capabilities of your computers.</source>
+          <target state="translated">Einen Bericht erstellen, in dem Informationen zu den Hardwarefunktionen Ihres Computers aufgeführt sind</target>
+          
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A report that lists the software installed on each computer.</source>
+          <target state="translated">Einen Bericht erstellen, in dem die auf den jeweiligen Computern installierte Software aufgeführt ist</target>
+          
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>How to refresh a computers inventory to ensure that the data in the report is current.</source>
+          <target state="translated">Das Inventar eines Computers aktualisieren, um sicherzustellen, dass die im Bericht enthaltenen Daten aktuell sind</target>
+          
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To display information about your computers</source>
+          <target state="translated">So zeigen Sie Informationen zu Ihren Computern an</target>
+          
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Computer Inventory Reports<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Computerinventurberichte<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, accept the default values or customize them to filter the results that will be returned by the report.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite, oder übernehmen Sie die Standardwerte anpassen, um die Ergebnisse zu filtern, die vom Bericht zurückgegeben werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For example, you could select that only computers that run Windows 8.1 will be displayed in the report.</source>
+          <target state="translated">Sie können beispielsweise auswählen, dass nur Computer im Bericht angezeigt werden, auf denen Windows 8.1 ausgeführt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Computer Inventory Report<ept id="p2">**</ept> in a new window.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Bericht anzeigen<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Computerinventurbericht<ept id="p2">**</ept> in einem neuen Fenster.</target>
+          
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can sort the report by any of the columns, like <bpt id="p1">**</bpt>Name<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Chassis Type<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Manufacturer<ept id="p3">**</ept> by selecting each column heading.</source>
+          <target state="translated">Sie können den Bericht wie durch die Spalten sortieren <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Gehäuse<ept id="p2">**</ept> oder <bpt id="p3">**</bpt>Hersteller<ept id="p3">**</ept> durch jede Spaltenüberschrift auswählen.</target>
+          
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To display software installed on your computers</source>
+          <target state="translated">So zeigen Sie die auf Ihren Computern installierte Software an</target>
+          
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Detected Software Reports<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Berichte zu ermittelter Software<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, accept the default values or customize them to filter the results that will be returned by the report.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite, oder übernehmen Sie die Standardwerte anpassen, um die Ergebnisse zu filtern, die vom Bericht zurückgegeben werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, you could select that only software published by Microsoft will be displayed in the report.</source>
+          <target state="translated">Sie können beispielsweise auswählen, dass nur von Microsoft herausgegebene Software im Bericht angezeigt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Detected Software Report<ept id="p2">**</ept> in a new window.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Bericht anzeigen<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Bericht zu ermittelter Software<ept id="p2">**</ept> in einem neuen Fenster.</target>
+          
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can sort the report by any of the columns, like <bpt id="p1">**</bpt>Name<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Publisher<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Category<ept id="p3">**</ept> by selecting each column heading.</source>
+          <target state="translated">Sie können den Bericht wie durch die Spalten sortieren <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Publisher<ept id="p2">**</ept> oder <bpt id="p3">**</bpt>Kategorie<ept id="p3">**</ept> durch jede Spaltenüberschrift auswählen.</target>
+          
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can expand the updates in the list to show more detail (such as the computers on which it is installed) by choosing the directional arrow next to the list item.</source>
+          <target state="translated">Sie können die Updates in der Liste, um weitere Details (z. B. der Computer, auf denen er installiert ist) anzuzeigen, wählen Sie den Pfeil neben dem Listenelement erweitern.</target>
+          
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To refresh computer inventory to ensure it is current</source>
+          <target state="translated">So aktualisieren Sie das Computerinventar, um sicherzustellen, dass es aktuell ist</target>
+          
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> (or another group that contains the computer for which you want to refresh inventory).</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> (oder eine andere Gruppe, die die Computer enthält, für die Sie Inventar aktualisieren möchten).</target>
+          
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Select a computer, or press and hold <bpt id="p1">**</bpt>Ctrl<ept id="p1">**</ept> to select multiple computers.</source>
+          <target state="translated">Wählen Sie einen Computer, oder drücken und halten <bpt id="p1">**</bpt>STRG<ept id="p1">**</ept> um mehrere Computer auszuwählen.</target>
+          
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>On the taskbar, choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Refresh Inventory<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie auf der Taskleiste <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inventar aktualisieren<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To view the task status, choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> in the bottom right corner of the page.</source>
+          <target state="translated">Wählen Sie zum Anzeigen des Taskstatus <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> in der unteren rechten Ecke der Seite.</target>
+          
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Task Status<ept id="p1">**</ept> dialog box displays showing current remote tasks, task status, device name, and any reported errors, and provides a link to troubleshooting information.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Vorgangsstatus<ept id="p1">**</ept> Dialogfeld werden aktuelle Remoteaufgaben, Ihr Status, Gerätename und etwaige berichtete Fehler angezeigt, und enthält einen Link zu Informationen zur Problembehandlung.</target>
+          
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Remotely restart a Windows PC</source>
+          <target state="translated">Einen Remoteneustart für einen Windows-PC</target>
+          
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> (or another group that contains the computer you want to restart).</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> (oder eine andere Gruppe mit dem Computer neu gestartet werden sollen).</target>
+          
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Select one or more computers, and then choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Restart Computer<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie einen oder mehrere Computer aus, und wählen Sie dann <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Computer neu starten<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To view the task status, choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> in the bottom right corner of the page.</source>
+          <target state="translated">Wählen Sie zum Anzeigen des Taskstatus <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> in der unteren rechten Ecke der Seite.</target>
+          
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Task Status<ept id="p1">**</ept> dialog box, review the current remote tasks, task status, device name, and any reported errors.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Vorgangsstatus<ept id="p1">**</ept> Dialogfeld, überprüfen Sie die aktuellen Remoteaufgaben, Ihr Status, Gerätenamen und etwaige gemeldete Fehler.</target>
+          
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Retire a computer</source>
+          <target state="translated">Abkoppeln eines Computers</target>
+          
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> (or another group that contains the computer you want to retire).</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> (oder eine andere Gruppe, die die Computer enthält, die Sie abkoppeln möchten).</target>
+          
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select the devices you want to retire, and then choose <bpt id="p1">**</bpt>Retire/Wipe<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die Geräte abkoppeln, und wählen Sie dann <bpt id="p1">**</bpt>abkoppeln/zurücksetzen<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To re-enroll a computer into Intune, reinstall the software client on the PC using guidance in <bpt id="p1">[</bpt>Install the Windows PC client with Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Um einen Computer erneut in Intune zu registrieren, müssen Sie den Software-Clients auf dem PC mithilfe der Anleitung im <bpt id="p1">[</bpt>Installieren des Windows-PC-Clients mit Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If a computer cannot connect to Intune, a message is displayed in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</source>
+          <target state="translated">Wenn ein Computer mit Intune zugreifen kann, wird eine Meldung angezeigt, dem <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> Arbeitsbereich.</target>
+          
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When you retire a computer:</source>
+          <target state="translated">Wenn Sie einen Computer abkoppeln, werden folgende Aktionen ausgeführt:</target>
+          
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It is removed from the Intune management and inventory, and the license associated with the computer is made available for re-use.</source>
+          <target state="translated">Wird aus der Intune-Verwaltung und Inventar entfernt, und die mit dem Computer verknüpfte Lizenz für die erneute Verwendung zur Verfügung gestellt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Retire/Wipe removes the Intune software client but does not remove apps or data from the computer.</source>
+          <target state="translated">Abkoppeln/zurücksetzen entfernt den Intune-Software-Client jedoch apps oder Daten nicht vom Computer entfernt.</target>
+          
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This retirement does not perform a full wipe on the computer.</source>
+          <target state="translated">Diese Einstellung führt keine vollständigen zurücksetzen auf dem Computer.</target>
+          
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Its status no longer displays in the Intune console.</source>
+          <target state="translated">Der Status ist nicht mehr in der Intune-Konsole angezeigt.</target>
+          
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Intune removes the software client from the computer.</source>
+          <target state="translated">Intune entfernt softwareclient von vom Computer.</target>
+          
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If the computer is not connected to the Intune service, the software client will be removed next time it connects.</source>
+          <target state="translated">Wenn der Computer nicht zum Intune-Dienst verbunden ist, wird der softwareclient beim nächsten entfernt werden, die es verbindet.</target>
+          
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune Endpoint Protection is removed from the computer.</source>
+          <target state="translated">Microsoft Intune Endpoint Protection wird vom Computer entfernt.</target>
+          
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the computer has another endpoint application installed and it is disabled, that application can be re-enabled after Microsoft Intune Endpoint Protection is removed to ensure that your computers are protected.</source>
+          <target state="translated">Verfügt der Computer ist eine andere endpunktschutzanwendung installiert und deaktiviert, Anwendung erneut aktiviert werden kann, nachdem Microsoft Intune Endpoint Protection entfernt wird, um sicherzustellen, dass Ihre Computer geschützt sind.</target>
+          
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Any policies are removed from the computer and the values that were set by the policy will be changed.</source>
+          <target state="translated">Alle vorhandenen Richtlinien werden vom Computer entfernt, und die durch die Richtlinie festgelegten Werte werden geändert.</target>
+          
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The computer no longer receives software updates or malware definition updates from the Intune service.</source>
+          <target state="translated">Der Computer erhält Softwareupdates für oder Malware nicht mehr aus dem Intune-Dienst.</target>
+          
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Depending on how they are configured, retired computers can continue to receive updates by using Windows Server Update Services, Windows Update, or Microsoft Update.</source>
+          <target state="translated">Abgekoppelte Computer können je nach Konfiguration weiterhin Updates über Windows Server Update Services, Windows Update oder Microsoft Update empfangen.</target>
+          
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the client software was installed by using a Group Policy Object (GPO), you must remove the Group Policy Object (GPO) before you can remove the client software to prevent the software from being reinstalled.</source>
+          <target state="translated">Wurde die Clientsoftware mithilfe eines Gruppenrichtlinienobjekts installiert, dann müssen Sie zuerst das Gruppenrichtlinienobjekt entfernen, bevor Sie die Clientsoftware entfernen können. So wird verhindert, dass die Software erneut installiert wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If the client fails to uninstall, read <bpt id="p1">[</bpt>Troubleshoot Endpoint Protection<ept id="p1">](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)</ept> for more help.</source>
+          <target state="translated">Wenn der Client nicht deinstallieren, lesen Sie <bpt id="p1">[</bpt>Problembehandlung bei Endpoint Protection<ept id="p1">](/intune/troubleshoot/troubleshoot-endpoint-protection-in-microsoft-intune)</ept> für weitere Hilfe.</target>
+          
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Manage user-device linking</source>
+          <target state="translated">Verwalten von Benutzern und Geräten verknüpfen</target>
+          
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Before you can deploy software to a user, you must link the user to a computer.</source>
+          <target state="translated">Damit Sie Software für einen Benutzer bereitstellen können, müssen Sie diesen zunächst mit einem Computer verknüpfen.</target>
+          
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You can link a user to multiple computers, but each computer can be linked to only one user.</source>
+          <target state="translated">Sie können einen Benutzer mit mehreren Computern verknüpfen, aber einzelne Computer nur mit jeweils einem Benutzer.</target>
+          
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Users are automatically linked to any computers that they enroll in Intune by using the company portal.</source>
+          <target state="translated">Benutzer werden automatisch mit Computern verknüpft, die sie über das Unternehmensportal in Intune zu registrieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>To link a user to a computer</source>
+          <target state="translated">So verknüpfen Sie einen Benutzer mit einem Computer</target>
+          
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> (or another group that contains the computer you want to link to a user).</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> (oder eine andere Gruppe, die die Computer enthält, die Sie mit einem Benutzer verknüpfen möchten).</target>
+          
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Select the computer that you want to link a user, and then choose <bpt id="p1">**</bpt>Link User<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie den Computer, die zu einem Benutzer verknüpfen, und wählen Sie dann <bpt id="p1">**</bpt>Benutzer verknüpfen<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Link User<ept id="p1">**</ept> dialog box displays a list of available users with their display name, user ID, and the number of computers to which each user is currently linked.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Benutzer verknüpfen<ept id="p1">**</ept> Dialogfeld zeigt eine Liste verfügbarer Benutzer mit ihren Anzeigenamen, Benutzer-ID und die Anzahl der Computer, auf denen die Benutzer jeweils aktuell verknüpft.</target>
+          
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>If a user is already linked to the selected computer, that user’s name and user ID are displayed under <bpt id="p1">**</bpt>Current user<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn ein Benutzer bereits mit dem ausgewählten Computer verknüpft ist, den Benutzernamen und Benutzer-ID wird unter <bpt id="p1">**</bpt>aktuelle Benutzer<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If the computer is not linked to any user, <bpt id="p1">**</bpt>No User<ept id="p1">**</ept> appears under <bpt id="p2">**</bpt>Current User<ept id="p2">**</ept>.</source>
+          <target state="translated">Wenn der Computer mit keinem Benutzer verknüpft ist <bpt id="p1">**</bpt>keine Benutzer<ept id="p1">**</ept> unterhalb <bpt id="p2">**</bpt>Aktueller Benutzer<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Do one of the following:</source>
+          <target state="translated">Führen Sie eines der folgenden Verfahren aus:</target>
+          
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To leave the computer linked to its current user, if there is one, choose <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept>.</source>
+          <target state="translated">So lassen den Computer für den aktuellen Benutzer verknüpft wird, wenn eine vorhanden ist, wählen Sie <bpt id="p1">**</bpt>Abbrechen<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>To remove the link to the current user, if there is one, choose <bpt id="p1">**</bpt>Remove link <ept id="p1">**</ept><ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">Um den Link, um den aktuellen Benutzer zu entfernen, sofern vorhanden, wählen Sie <bpt id="p1">**</bpt>Link entfernen <ept id="p1">**</ept><ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To link the computer to a new user, in the <bpt id="p1">**</bpt>All users<ept id="p1">**</ept> list, select a user.</source>
+          <target state="translated">So verknüpfen Sie den Computer mit einem neuen Benutzer in der <bpt id="p1">**</bpt>alle Benutzer<ept id="p1">**</ept> Wählen Sie einen Benutzer.</target>
+          
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Confirm that the user data is correct, and then choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">Bestätigen Sie, dass die Benutzerdaten korrekt sind, und wählen Sie dann <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If you want to restrict end users ability to link themselves to computers, enable the option <bpt id="p1">**</bpt>Restrict users' ability to link themselves to computers<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Microsoft Intune Agent Settings<ept id="p2">**</ept> policy.</source>
+          <target state="translated">Wenn Sie die Möglichkeit der Endbenutzer, sich mit Computern verknüpfen einschränken möchten, aktivieren Sie die Option <bpt id="p1">**</bpt>Fähigkeit der Benutzer, sich mit Computern verknüpfen einschränken<ept id="p1">**</ept> in die <bpt id="p2">**</bpt>Microsoft Intune-Agent-Einstellungen<ept id="p2">**</ept> Richtlinie.</target>
+          
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Request and provide remote assistance for Windows PCs</source>
+          <target state="translated">Anfordern und Bereitstellen von Remoteunterstützung für Windows-PCs</target>
+          
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can use the <bpt id="p1">[</bpt>TeamViewer<ept id="p1">](https://www.teamviewer.com)</ept> software, purchased separately, to let users of PCs that run the Intune software client get remote assistance help from you.</source>
+          <target state="translated">Microsoft Intune können Sie die <bpt id="p1">[</bpt>TeamViewer<ept id="p1">](https://www.teamviewer.com)</ept> Software, die im Lieferumfang enthalten, damit die Benutzer von PCs können, die die Intune-Software-Client ausgeführt erhalten Sie Hilfe zur Remoteunterstützung von Ihnen.</target>
+          
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When a user requests help from the Microsoft Intune Center, you are informed by an alert, can accept the request, and then provide assistance.</source>
+          <target state="translated">Wenn ein Benutzer Hilfe von Microsoft Intune Center anfordert, werden Sie durch eine Warnung informiert kann, die Anforderung annehmen und leisten.</target>
+          
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This functionality replaces the existing Windows Remote Assistance functionality in Intune.</source>
+          <target state="translated">Diese Funktion ersetzt die Funktionalität der Windows-Remoteunterstützung in Intune.</target>
+          
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Before you start</source>
+          <target state="translated">Bevor Sie beginnen</target>
+          
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Before you begin to establish and respond to remote assistance requests, you must ensure the following prerequisites are in place:</source>
+          <target state="translated">Bevor Sie beginnen, um festzustellen, und reagieren auf Remoteunterstützungsanforderungen, müssen Sie sicherstellen, dass die folgenden erforderlichen Komponenten vorhanden sind:</target>
+          
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You must have <bpt id="p1">[</bpt>signed up for a TeamViewer account<ept id="p1">](https://login.teamviewer.com/LogOn#register)</ept> to log into the TeamViewer website.</source>
+          <target state="translated">Sie benötigen <bpt id="p1">[</bpt>für ein Konto TeamViewer signierte<ept id="p1">](https://login.teamviewer.com/LogOn#register)</ept> TeamViewer bei der Website anmelden.</target>
+          
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Windows PCs that you want to administer must be <bpt id="p1">[</bpt>managed by the Windows PC client<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept></source>
+          <target state="translated">Windows-PCs, die Sie verwalten möchten, muss sein <bpt id="p1">[</bpt>von der Windows-PC-Client verwaltet werden<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>All Windows PC operating systems supported by Intune can be administered.</source>
+          <target state="translated">Alle Windows-PC-Betriebssystemen unterstützt, die von Intune können verwaltet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Configure the TeamViewer Connector</source>
+          <target state="translated">Konfigurieren Sie den TeamViewer Connector</target>
+          
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept> workspace, choose <bpt id="p2">**</bpt>TeamViewer<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept> Arbeitsbereich wählen <bpt id="p2">**</bpt>TeamViewer<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>TeamViewer<ept id="p1">**</ept> page, under <bpt id="p2">**</bpt>TeamViewer Connector<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Enable<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>TeamViewer<ept id="p1">**</ept> Seite <bpt id="p2">**</bpt>TeamViewer Connector<ept id="p2">**</ept>, wählen Sie <bpt id="p3">**</bpt>aktivieren<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Enable TeamViewer<ept id="p1">**</ept> dialog box, view, then <bpt id="p2">**</bpt>Accept<ept id="p2">**</ept> the license terms.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Aktivieren TeamViewer<ept id="p1">**</ept> (Dialogfeld), Ansicht, klicken Sie dann <bpt id="p2">**</bpt>annehmen<ept id="p2">**</ept> dem Lizenzvertrag.</target>
+          
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If you don't already own a TeamViewer license, choose <bpt id="p1">**</bpt>Purchase a TeamViewer license<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie bereits über eine Lizenz TeamViewer besitzen, wählen Sie <bpt id="p1">**</bpt>erwerben einer Lizenz TeamViewer<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>After the TeamViewer browser window opens, sign into the site with your TeamViewer credentials.</source>
+          <target state="translated">Nachdem das TeamViewer Browserfenster geöffnet wird, melden Sie sich bei der Website mit Ihren Anmeldeinformationen TeamViewer.</target>
+          
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>On the TeamViewer site, read, then accept the options to allow Intune to connect with TeamViewer.</source>
+          <target state="translated">Lesen Sie auf der Website TeamViewer und akzeptieren Sie die Optionen zum Intune für die Verbindung mit TeamViewer zu ermöglichen.</target>
+          
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>In the Intune console, verify that the <bpt id="p1">**</bpt>TeamViewer Connector<ept id="p1">**</ept> item shows as <bpt id="p2">**</bpt>Enabled<ept id="p2">**</ept>.</source>
+          <target state="translated">Überprüfen Sie in der Intune-Konsole, ob die <bpt id="p1">**</bpt>TeamViewer Connector<ept id="p1">**</ept> Element wird als <bpt id="p2">**</bpt>aktiviert<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Open a remote assistance request (end user)</source>
+          <target state="translated">Öffnen Sie eine Remoteunterstützungsanforderung (Endbenutzer)</target>
+          
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>On a client Windows PC, open the <bpt id="p1">**</bpt>Microsoft Intune Center<ept id="p1">**</ept>.</source>
+          <target state="translated">Öffnen Sie auf einem Computer mit Windows-Client die <bpt id="p1">**</bpt>Microsoft Intune Center<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Remote Assistance<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Request Remote Assistance<ept id="p2">**</ept>.</source>
+          <target state="translated">Unter <bpt id="p1">**</bpt>Remoteunterstützung<ept id="p1">**</ept>, wählen Sie <bpt id="p2">**</bpt>Remoteunterstützung<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>After you approve the request (see below), TeamViewer opens on the client.</source>
+          <target state="translated">Nach der Genehmigung der Anforderung (siehe unten), TeamViewer auf dem Client wird geöffnet.</target>
+          
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The user must accept any messages indicating that the web browser is trying to open the TeamViewer application.</source>
+          <target state="translated">Der Benutzer muss akzeptieren, Nachrichten, der angibt, dass der Webbrowser die TeamViewer-Anwendung zu öffnen.</target>
+          
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The user sees a message asking if you can control their PC.</source>
+          <target state="translated">Der Benutzer sieht gefragt, ob Sie ihre PCs steuern können.</target>
+          
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>They must accept this message to continue.</source>
+          <target state="translated">Sie müssen diese Meldung weiterhin akzeptieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>During the remote assistance session, the user sees a window that shows them you are connected.</source>
+          <target state="translated">Während der Remoteunterstützungssitzung sieht der Benutzer ein Fenster, das anzeigt, dass Sie verbunden sind.</target>
+          
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>If they close this window, the remote session ends.</source>
+          <target state="translated">Wenn sie dieses Fenster schließen, wird die Remotesitzung beendet.</target>
+          
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Respond to a remote assistance request</source>
+          <target state="translated">Reagieren Sie auf eine Anforderung für Remoteunterstützung</target>
+          
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>When a user submits a remote assistance request, you can view it in the <bpt id="p1">**</bpt>Alerts<ept id="p1">**</ept> workspace, under <bpt id="p2">**</bpt>Monitoring<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Remote Assistance<ept id="p3">**</ept>.</source>
+          <target state="translated">Wenn ein Benutzer eine Remoteunterstützungsanforderung übermittelt, können Sie anzeigen, in dem <bpt id="p1">**</bpt>Warnungen<ept id="p1">**</ept> Arbeitsbereich unter <bpt id="p2">**</bpt>Überwachung<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Remoteunterstützung<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>
+          
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Screenshot of a remote assistance request</source>
+          <target state="translated">Screenshot der eine Anforderung für Remoteunterstützung</target>
+          
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If a request goes unanswered for more than 4 hours, it is removed.</source>
+          <target state="translated">Wenn eine Anforderung für mehr als vier Stunden unbeantwortete gesendet wird, wird es entfernt.</target>
+          
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>To accept the request, choose <bpt id="p1">**</bpt>Approve request and launch Remote Assistance<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie zum Annehmen der Anforderung <bpt id="p1">**</bpt>Anforderung genehmigen und Remoteunterstützung starten<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>A New Remote Assistance Request is Pending<ept id="p1">**</ept> dialog box, choose <bpt id="p2">**</bpt>Accept the remote assistance request<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>neue Remoteunterstützungsanforderungen ein steht<ept id="p1">**</ept> Dialogfeld Wählen Sie <bpt id="p2">**</bpt>die Remoteunterstützungsanforderung akzeptieren<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If it's not already installed, TeamViewer will install any necessary apps on your computer.</source>
+          <target state="translated">Wenn sie noch nicht installiert ist, wird TeamViewer erforderlichen apps, die auf Ihrem Computer installieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>TeamViewer then notifies the end user that you want to take control of their PC.</source>
+          <target state="translated">TeamViewer benachrichtigt dann den Benutzer, dass Sie die Kontrolle über ihren PC übernehmen möchten.</target>
+          
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>After the user has accepted the request, the TeamViewer windows opens, and you can control the PC.</source>
+          <target state="translated">Nachdem der Benutzer die Anforderung akzeptiert wurde, TeamViewer Windows öffnet und können Sie den PC steuern.</target>
+          
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>While in a remote assistance session, you can use all available TeamViewer commands to control the remote PC.</source>
+          <target state="translated">Während einer Remoteunterstützungssitzung können Sie in alle verfügbaren TeamViewer Befehle auf um den remote-PC zu steuern.</target>
+          
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>For help with these commands, download the <bpt id="p1">[</bpt>Manual for remote control<ept id="p1">](http://www.teamviewer.com/en/support/documents/)</ept> from the TeamViewer website.</source>
+          <target state="translated">Für Hilfe mit diesen Befehlen Herunterladen der <bpt id="p1">[</bpt>für die Remotesteuerung manuelle<ept id="p1">](http://www.teamviewer.com/en/support/documents/)</ept> von der TeamViewer-Website.</target>
+          
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Close the remote assistance session</source>
+          <target state="translated">Schließen Sie die Remoteunterstützungssitzung</target>
+          
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> menu of the <bpt id="p2">**</bpt>TeamViewer<ept id="p2">**</ept> window, choose <bpt id="p3">**</bpt>End Session<ept id="p3">**</ept>.</source>
+          <target state="translated">Aus der <bpt id="p1">**</bpt>Aktionen<ept id="p1">**</ept> im Menü der <bpt id="p2">**</bpt>TeamViewer<ept id="p2">**</ept> -Fenster Wählen Sie <bpt id="p3">**</bpt>Sitzung<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

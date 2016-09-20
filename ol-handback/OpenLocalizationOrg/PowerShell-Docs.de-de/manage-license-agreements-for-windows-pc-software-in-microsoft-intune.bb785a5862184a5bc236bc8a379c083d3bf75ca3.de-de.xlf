@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4af08b38716e04766175e2ab55db1a0dba788c20</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">089ab0b547ee1d3d0633a72169903c8f481ee3c4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">82df11b43f8aaf4a090cc507bc4991b57dda39ec</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manage software license agreements for PCs running the Intune software client | Microsoft Intune</source>
+          <target state="translated">Verwalten von Lizenzverträgen für PCs mit dem Intune-Client-Software Software | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune lets you manage license agreements for software purchased through Microsoft Volume Licensing agreements, and for software that was purchased by other means.</source>
+          <target state="translated">Intune können Sie Lizenzverträge für Software, die über Microsoft-Volumenlizenzverträge erworben wurden, und für Software, die andere Weise erworben wurde.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manage license agreements for Windows PC software in Microsoft Intune</source>
+          <target state="translated">Verwalten von Lizenzverträgen für Windows-PC-Software in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune lets you add and manage license agreement information for software that was purchased through Microsoft Volume Licensing agreements.</source>
+          <target state="translated">Microsoft Intune können Sie das Hinzufügen und verwalten Lizenzvertragsinformationen für Software, die über Microsoft-Volumenlizenzverträge erworben wurde.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can also do this for Microsoft or non-Microsoft software that was purchased by other means.</source>
+          <target state="translated">Sie können auch dafür für Microsoft- oder nicht-Microsoft-Software, die andere Weise erworben wurde.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can organize this information into logical groups.</source>
+          <target state="translated">Sie können diese Informationen in logischen Gruppen organisieren.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This feature is provided for convenience only, and accuracy is not guaranteed.</source>
+          <target state="translated">Diese Funktion wird nur ergänzend bereitgestellt, und wird keine Genauigkeit garantiert.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You should not rely on it to confirm compliance with Microsoft Volume Licensing agreements.</source>
+          <target state="translated">Sie sollten sich nicht darauf beziehen, um die Einhaltung von Microsoft-Volumenlizenzverträgen zu bestätigen.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft will not use any data gathered to investigate potential violations of, or compliance with, license agreements you may have with us.</source>
+          <target state="translated">Alle gesammelten Daten, um die potenziellen Verstößen oder Compliance Lizenzverträge, die Sie möglicherweise mit uns mit verwendet Microsoft nicht.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Licenses you add to Intune do not affect your license agreements or entitlements to use your software.</source>
+          <target state="translated">Lizenzen, die Sie Intune hinzufügen wirken sich nicht auf Ihre Lizenzverträge oder Berechtigungen für Ihre Software aus.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if you delete a license/agreement pair from Intune, you do not delete or nullify license agreements that exist between you and Microsoft.</source>
+          <target state="translated">Z. B. Wenn Sie ein Lizenzvertrag /-Paar aus Intune löschen, Sie nicht gelöscht oder annulliert Lizenzverträge zwischen Ihnen und Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Licenses<ept id="p1">**</ept> workspace of the Intune administration console, you can:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzen<ept id="p1">**</ept> Arbeitsbereich der Intune-Verwaltungskonsole können Sie:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Add and edit Microsoft Volume Licensing agreements.</source>
+          <target state="translated">Hinzufügen und Bearbeiten von Microsoft-Volumenlizenzverträge handelt.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Add and edit other software licensing agreements.</source>
+          <target state="translated">Hinzufügen und Bearbeiten von anderen softwarelizenzverträgen.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Manage licenses and groups.</source>
+          <target state="translated">Verwalten von Lizenzen und Gruppen.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Compare the entitlement information that Intune retrieves from the Volume Licensing Service Center (VLSC) to the inventory of Microsoft software that Intune detects on your managed Windows PCs.</source>
+          <target state="translated">Vergleichen der Berechtigungsinformationen, die Intune mit dem Bestand von Microsoft-Software vom Volume Licensing Service Center (VLSC) abruft, die auf den verwalteten PCs mit Windows Intune erkannt wurde.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Additionally, you can generate reports that show installation and license counts for software titles.</source>
+          <target state="translated">Darüber hinaus können Sie Berichte, die Installationen generieren und Anzahl der Lizenzen für Softwaretitel.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>License reports can help you assess your complete license position for Microsoft software and non-Microsoft software titles.</source>
+          <target state="translated">Mit Lizenzberichten können Sie Ihren gesamten Lizenzierungsstand für Microsoft- und Nicht-Microsoft-Softwaretitel beurteilen.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Licenses<ept id="p1">**</ept> workspace is not displayed in the administrator console until you are managing at least one Windows PC with the Intune Windows PC client.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Lizenzen<ept id="p1">**</ept> Arbeitsbereich wird nicht in der Administratorkonsole angezeigt, bis Sie mindestens ein Windows-PC mit dem Computer mit Windows Intune-Client verwalten.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Add Microsoft Volume Licensing agreements</source>
+          <target state="translated">Microsoft-Volumenlizenzverträge hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Intune Volume Licensing agreements provide license information for software that was purchased through Microsoft Volume Licensing agreements.</source>
+          <target state="translated">Intune Volumenlizenzverträge bieten Lizenzinformationen für Software, die über Microsoft-Volumenlizenzverträge erworben wurde.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can add Microsoft Volume Licensing agreements to Intune by providing matched pairs of agreement numbers.</source>
+          <target state="translated">Sie können Microsoft-Volumenlizenzverträge Intune hinzufügen, indem Sie passende Paare von Vertragsnummern angeben.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The agreement or authorization numbers must be matched to the correct license or enrollment numbers.</source>
+          <target state="translated">Die Vertrags- oder Autorisierungsnummern müssen der richtigen Lizenz- oder Registrierungsnummer zugeordnet werden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Agreement number pairs are obtained when you purchase your license agreements from the <bpt id="p1">[</bpt>Volume Licensing Service Center (VLSC)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=223842)</ept>.</source>
+          <target state="translated">Vertragsnummernpaare erhalten Sie beim Erwerb Ihrer Lizenzverträge von der <bpt id="p1">[</bpt>Volume Licensing Service Center (VLSC)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=223842)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administrator console<ept id="p1">](https://account.manage.microsoft.com/admin/default.aspx)</ept>, choose <bpt id="p2">**</bpt>Licenses<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://account.manage.microsoft.com/admin/default.aspx)</ept>, wählen Sie <bpt id="p2">**</bpt>Lizenzen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Add Agreements<ept id="p1">**</ept> page, under <bpt id="p2">**</bpt>Choose Agreement Type<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Volume Licensing agreement<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Volumenlizenzverträge<ept id="p1">**</ept> Seite <bpt id="p2">**</bpt>Vertragstyp auswählen<ept id="p2">**</ept>, Option <bpt id="p3">**</bpt>Volumenlizenzvertrag<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add Agreement Details<ept id="p1">**</ept> section, choose whether you want to upload a file, or manually add the details.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Vertragsdetails hinzufügen<ept id="p1">**</ept> Abschnitt an, ob Sie eine Datei hochladen oder die Details manuell hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Upload a CSV file that contains agreement details<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hochladen eine CSV-Datei, die Vertragsdetails<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> and select the CSV file you want to upload.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Durchsuchen<ept id="p1">**</ept> und wählen Sie die CSV-Datei, die Sie hochladen möchten.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The file can contain either two or three columns; two for agreement pairs alone, or three if you want to add a friendly name for each agreement pair.</source>
+          <target state="translated">Die Datei kann entweder zwei oder drei Spalten enthalten; zwei nur für Vertragsnummernpaare oder drei, wenn Sie für jedes Vertragsnummernpaar einen Anzeigenamen hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The total number of characters in an agreement number pair cannot exceed 16 ASCII characters.</source>
+          <target state="translated">Die Gesamtanzahl der Zeichen in einem vertragsnummernpaar darf 16 ASCII-Zeichen nicht überschreiten.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Only ASCII characters are supported.</source>
+          <target state="translated">Nur ASCII-Zeichen werden unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The following characters are not allowed in the agreement name: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
+          <target state="translated">Die folgenden Zeichen sind im Vertragsnamen nicht zulässig: <bpt id="p1">**</bpt>~! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Spaces are allowed in the name.</source>
+          <target state="translated">Leerzeichen sind im Namen zulässig.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The file name must be no more than 128 characters in length.</source>
+          <target state="translated">Der Dateiname muss nicht mehr als 128 Zeichen lang sein.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The file must contain at least one agreement pair, and cannot contain more than 5,000 agreement pairs.</source>
+          <target state="translated">Die Datei muss mindestens ein vertragsnummernpaar und darf höchstens 5.000 vertragsnummernpaare enthalten.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Format for the file</source>
+          <target state="translated">Format der Datei</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can create this file by adding your agreement pairs to a plain text document in one of the following formats, depending on the organization type that you have registered with the VLSC.</source>
+          <target state="translated">Sie können diese Datei erstellen, indem Sie Ihre vertragsnummernpaare an ein nur-Text-Dokument in einem der folgenden Formate, abhängig vom Unternehmenstyp, den Sie bei VLSC registriert haben.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specify one agreement number pair per line.</source>
+          <target state="translated">Geben Sie einen vertragsnummernpaar pro Zeile.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Open Value customers:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Agreement number<ept id="p2">*</ept>, <bpt id="p3">*</bpt>repeat agreement number<ept id="p3">*</ept>, <bpt id="p4">*</bpt>agreement name<ept id="p4">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Open Value-Kunden:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Vertragsnummer<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Vertragsnummer wiederholen<ept id="p3">*</ept>, <bpt id="p4">*</bpt>Vertragsname<ept id="p4">*</ept></target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Open customers:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Authorization number<ept id="p2">*</ept>, <bpt id="p3">*</bpt>related license number<ept id="p3">*</ept>, <bpt id="p4">*</bpt>agreement name<ept id="p4">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Open-Kunden:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Autorisierungsnummer<ept id="p2">*</ept>, <bpt id="p3">*</bpt>bezogene Lizenznummer<ept id="p3">*</ept>, <bpt id="p4">*</bpt>Vertragsname<ept id="p4">*</ept></target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Select and Enterprise customers:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Agreement number<ept id="p2">*</ept>, <bpt id="p3">*</bpt>related enrollment number<ept id="p3">*</ept>, <bpt id="p4">*</bpt>agreement name<ept id="p4">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>SELECT und Enterprise-Kunden:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Vertragsnummer<ept id="p2">*</ept>, <bpt id="p3">*</bpt>bezogene Registrierungsnummer<ept id="p3">*</ept>, <bpt id="p4">*</bpt>Vertragsname<ept id="p4">*</ept></target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add Agreements<ept id="p1">**</ept> form prompts you to browse for this file when you add a new agreement.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Volumenlizenzverträge<ept id="p1">**</ept> Formular aufgefordert, die für diese Datei zu suchen, wenn Sie einen neuen Vertrag hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following is an example of .csv file content for an Open Value customer.</source>
+          <target state="translated">Dies ist ein Beispiel für den Inhalt einer CSV-Datei für einen Open Value-Kunden.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manually add agreement details<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vertragsdetails manuell hinzufügen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Provide the following information, and then type the agreement number pairs in the <bpt id="p1">**</bpt>Authorization/Agreement number<ept id="p1">**</ept> and <bpt id="p2">**</bpt>License/Enrollment/Customer number<ept id="p2">**</ept> boxes.</source>
+          <target state="translated">Geben Sie die folgenden Informationen ein, und geben Sie die vertragsnummernpaare in die <bpt id="p1">**</bpt>Autorisierungs-/Vertragsnummer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Lizenz-/Registrierungs-/Kundennummer<ept id="p2">**</ept> Felder.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>After you type both numbers, choose the <bpt id="p1">**</bpt>Add pair<ept id="p1">**</ept> icon to save your numbers, and then optionally add a new pair.</source>
+          <target state="translated">Wenn Sie beide Zahlen eingegeben haben, wählen Sie die <bpt id="p1">**</bpt>fügen<ept id="p1">**</ept> Symbol, um die Nummern zu speichern, und fügen Sie ein neues Paar optional.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Agreement name<ept id="p1">**</ept> - Specify a unique name for the agreement.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vertragsname<ept id="p1">**</ept> -Geben Sie einen eindeutigen Namen für die Vereinbarung.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
+          <target state="translated">Der Vertragsname darf höchstens 256 Zeichen umfassen und darf folgenden Zeichen nicht enthalten: <bpt id="p1">**</bpt>~! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Spaces are allowed in the name.</source>
+          <target state="translated">Leerzeichen sind im Namen zulässig.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authorization/Agreement number<ept id="p1">**</ept> - Enter the authorization/agreement number of the license pair.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Autorisierungs-/Vertragsnummer<ept id="p1">**</ept> -Geben Sie die Autorisierungs-/Vertragsnummer des Paars Lizenz.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License/Enrollment/Customer number<ept id="p1">**</ept> - Enter the license/enrollment/customer number of the license pair.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lizenz-/Registrierungs-/Kundennummer<ept id="p1">**</ept> -Geben Sie die Lizenz/Registrierungs-/Kundennummer des Paars Lizenz.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you add several agreement number pairs, Intune creates one agreement with the name that you specify, and all pairs that you added are a part of this agreement.</source>
+          <target state="translated">Wenn Sie mehrere vertragsnummernpaare hinzufügen, erstellt Intune eine Vereinbarung mit dem Namen, den Sie angeben, und alle Paare, die Sie hinzugefügt haben, werden Teil dieses Vertrags.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can choose <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> to add another agreement number pair, or <bpt id="p2">**</bpt><ph id="ph2">-</ph><ept id="p2">**</ept> to remove an agreement number pair you have already entered.</source>
+          <target state="translated">Sie können <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> eine andere vertragsnummernpaar hinzufügen oder <bpt id="p2">**</bpt><ph id="ph2">-</ph><ept id="p2">**</ept> ein paar Vereinbarung entfernen bereits eingegeben haben.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Select License Group<ept id="p1">**</ept> area, do one of the following:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzgruppe auswählen<ept id="p1">**</ept> Bereich, führen Sie einen der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add the agreements to the Unassigned Agreements group<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Verträge der Gruppe nicht zugewiesene Verträge hinzufügen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Select this if you do not want to add the new agreements to a license group.</source>
+          <target state="translated">Wählen Sie diese Option, wenn Sie nicht die neuen Verträge keiner Lizenzgruppe hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add the agreements to a new license group<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Verträge einer neuen Lizenzgruppe hinzufügen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Provide a name for the new license group.</source>
+          <target state="translated">Geben Sie einen Namen für die neue Lizenzgruppe ein.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add the agreements to an existing license group<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Verträge einer vorhandenen Lizenzgruppe hinzufügen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Group name<ept id="p1">**</ept> list, select the license group to which you want to add the agreements.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Gruppenname<ept id="p1">**</ept> Wählen Sie die Lizenzgruppe, die Sie die Verträge hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>All Agreements<ept id="p1">**</ept> view is displayed, and Intune connects to the Microsoft VLSC to validate the agreement number pairs that you provided.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Alle Verträge<ept id="p1">**</ept> Intune hergestellt, die Microsoft-VLSC auf von Ihnen angegebenen vertragsnummernpaare zu überprüfen, und angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To update the volume license information after you have added license agreements in Intune, in the <bpt id="p1">**</bpt>Licenses Overview<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Refresh Now<ept id="p2">**</ept>.</source>
+          <target state="translated">Aktualisieren der Volumenlizenzinformationen, nach dem Hinzufügen von Lizenzverträgen in Intune, in der <bpt id="p1">**</bpt>Übersicht über Lizenzen<ept id="p1">**</ept> Seite <bpt id="p2">**</bpt>Jetzt aktualisieren<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This action retrieves the current license information from the <bpt id="p1">[</bpt>Microsoft Volume Licensing Service Center (VLSC)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=223842)</ept>.</source>
+          <target state="translated">Diese Aktion ruft die aktuellen Lizenzinformationen vom ab dem <bpt id="p1">[</bpt>Microsoft Volume Licensing Service Center (VLSC)<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=223842)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Until you refresh the volume licensing information, you may see different information in the agreements list and the entitlement information on the <bpt id="p1">**</bpt>Agreements Overview<ept id="p1">**</ept> page.</source>
+          <target state="translated">Bis Sie den Volumenlizenz-Informationen aktualisieren, Sie sehen möglicherweise unterschiedliche Informationen in der Vertragsliste und die Berechtigungsinformationen auf der <bpt id="p1">**</bpt>Vertragsübersicht<ept id="p1">**</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>After you refresh the volume license information, you can compare the license information to your detected Microsoft software in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> workspace.</source>
+          <target state="translated">Nach der Aktualisierung der Volumenlizenzinformationen können Sie die Lizenzinformationen mit Ihrer erkannten Microsoft-Software im Vergleichen der <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can also run the following license reports:</source>
+          <target state="translated">Sie können auch die folgenden lizenzberichte ausführen:</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License Purchase Reports<ept id="p1">**</ept> - Lets you view the licensed software in license groups you select to help you find gaps in coverage.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lizenzkaufberichte<ept id="p1">**</ept> -Hier können Sie die lizenzierte Software in Lizenzgruppen, die Sie auswählen, können Sie Lücken bei erkennen.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License Installation Reports<ept id="p1">**</ept> - Helps you determine if you have sufficient license agreement coverage.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lizenzinstallationsberichte<ept id="p1">**</ept> -können Sie bestimmen, ob Sie über genügend Zugriffsrechte Lizenz Garantie.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Product Title<ept id="p1">**</ept> displayed for all Microsoft Volume License agreements is <bpt id="p2">**</bpt>Not available<ept id="p2">**</ept>.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Produkttitel<ept id="p1">**</ept> angezeigt, für alle Microsoft-Volumenlizenzverträge ist <bpt id="p2">**</bpt>nicht verfügbar<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Add and edit other software licensing agreements</source>
+          <target state="translated">Hinzufügen und Bearbeiten von anderen softwarelizenzverträgen</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can also add other types of license agreements to Intune in addition to Microsoft Volume Licensing agreements.</source>
+          <target state="translated">Sie können auch andere Arten von Lizenzverträgen Intune neben Microsoft-Volumenlizenzverträge hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>These agreements can include non-Microsoft software, or Microsoft software that was purchased through a retailer.</source>
+          <target state="translated">Diese Verträge können einschließen, nicht-Microsoft-Software oder Microsoft-Software, die über einen Händler erworben wurde.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You must have at least one Windows PC enrolled in Intune before you can add an agreement.</source>
+          <target state="translated">Sie benötigen mindestens ein Windows-PC in Intune registriert werden, bevor Sie eine Vereinbarung hinzufügen können.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In addition, at least one enrolled computer must have uploaded a licensable software package that you want to use to add a license agreement.</source>
+          <target state="translated">Darüber hinaus muss mit mindestens einem angemeldeten Computer ein lizenzierbares Softwarepaket hochgeladen haben, die Sie verwenden, um einen Lizenzvertrag hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To add other software agreements</source>
+          <target state="translated">So fügen Sie andere Softwareverträge hinzu</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administrator console<ept id="p1">](https://account.manage.microsoft.com/admin/default.aspx)</ept>, choose <bpt id="p2">**</bpt>Licenses<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://account.manage.microsoft.com/admin/default.aspx)</ept>, wählen Sie <bpt id="p2">**</bpt>Lizenzen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add Agreements<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Other Software Licensing Agreements<ept id="p2">**</ept> section.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Volumenlizenzverträge<ept id="p1">**</ept> in der <bpt id="p2">**</bpt>andere Softwarelizenzverträge<ept id="p2">**</ept> Abschnitt.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Other software licensing agreement<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Choose Agreement Type<ept id="p2">**</ept> section of the <bpt id="p3">**</bpt>Add Agreements<ept id="p3">**</ept> page.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>anderer Softwarelizenzvertrag<ept id="p1">**</ept> in die <bpt id="p2">**</bpt>Vertragstyp auswählen<ept id="p2">**</ept> Teil der <bpt id="p3">**</bpt>Verträge hinzufügen<ept id="p3">**</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add Agreement Details<ept id="p1">**</ept> area, specify the following:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Vertragsdetails hinzufügen<ept id="p1">**</ept> Bereich, geben Sie Folgendes:</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Agreement name<ept id="p1">**</ept> (required).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vertragsname<ept id="p1">**</ept> (erforderlich).</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The agreement name can have a maximum of 256 characters, and cannot contain the following characters: <bpt id="p1">**</bpt>~ ! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</source>
+          <target state="translated">Der Vertragsname darf höchstens 256 Zeichen umfassen und darf folgenden Zeichen nicht enthalten: <bpt id="p1">**</bpt>~! @ # $ ^ <ph id="ph1">&amp;amp;</ph> &amp;#42; ( ) = + [ ] { } \ | ; : ' " <ph id="ph2">&amp;lt;</ph> <ph id="ph3">&amp;gt; /</ph><ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Spaces are allowed in the name.</source>
+          <target state="translated">Leerzeichen sind im Namen zulässig.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publisher<ept id="p1">**</ept> (required).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Publisher<ept id="p1">**</ept> (erforderlich).</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you start to type a publisher name, the service retrieves all publisher names that contain the letters that you type.</source>
+          <target state="translated">Wenn Sie mit der Eingabe eines Herausgebers beginnen, werden die Namen aller Herausgeber abgerufen, die die eingegebenen Buchstaben enthalten.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if you type “soft,” the service retrieves all publisher names that contain “soft” as part of the name, such as “Microsoft” and “Microsoft Research.”</source>
+          <target state="translated">Wenn Sie beispielsweise "soft" eingeben, werden alle Herausgebernamen abgerufen, die die Zeichenfolge "soft" im Namen enthalten, z. B. "Microsoft" und "Microsoft Research".</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The publisher names are retrieved from the Software Asset Catalog.</source>
+          <target state="translated">Die Herausgebernamen werden vom Software Asset-Katalog bezogen.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You must select the publisher before you can enter the product title.</source>
+          <target state="translated">Bevor Sie den Produkttitel eingeben, müssen Sie den Herausgeber auswählen.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The company that you want to add might not appear in this list.</source>
+          <target state="translated">Das Unternehmen, das Sie hinzufügen möchten, möglicherweise nicht in dieser Liste angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You can only add software agreements for companies that are already present in the software asset catalog.</source>
+          <target state="translated">Sie können nur Softwareverträge für Unternehmen hinzufügen, die bereits im Software Asset-Katalog vorhanden sind.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, Microsoft continuously works to add the most popular software titles.</source>
+          <target state="translated">Microsoft funktioniert jedoch kontinuierlich um die am häufigsten verwendeten Softwaretitel hinzuzufügen.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If you would like to submit a request to have a company added to this list, you can do so at the <bpt id="p1">[</bpt>Intune Uservoice site<ept id="p1">](https://microsoftintune.uservoice.com/)</ept>.</source>
+          <target state="translated">Wenn Sie eine Anforderung an ein Unternehmen in der Liste zu übermitteln möchten, können Sie hierzu auf die <bpt id="p1">[</bpt>Intune Uservoice-Website<ept id="p1">](https://microsoftintune.uservoice.com/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Product title<ept id="p1">**</ept> (required).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Produkttitel<ept id="p1">**</ept> (erforderlich).</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>When you start to type a product title, the service retrieves all product titles that contain the letters that you type.</source>
+          <target state="translated">Wenn Sie mit der Eingabe eines Produkttitels beginnen, werden die Titel aller Produkte abgerufen, die die eingegebenen Buchstaben enthalten.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You must specify a <bpt id="p1">**</bpt>Publisher<ept id="p1">**</ept> before you can specify a <bpt id="p2">**</bpt>Product title<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie eine <bpt id="p1">**</bpt>Publisher<ept id="p1">**</ept> bevor Sie angeben können, eine <bpt id="p2">**</bpt>Produkttitel<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License count<ept id="p1">**</ept> (required).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lizenzanzahl<ept id="p1">**</ept> (erforderlich).</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enter the number of purchased licenses.</source>
+          <target state="translated">Geben Sie die Anzahl der erworbenen Lizenzen ein.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License start date<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Startdatum der Lizenz<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter the start date of license coverage.</source>
+          <target state="translated">Geben Sie das Startdatum der Lizenzdeckung ein.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>License end date<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lizenzablaufdatum<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Enter the end date of license coverage.</source>
+          <target state="translated">Geben Sie das Enddatum der Lizenzdeckung ein.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Agreement details<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vertragsdetails<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You can optionally specify contact information, registration keys, and other information.</source>
+          <target state="translated">Sie können optional auch Kontaktinformationen, Registrierungsschlüssel und andere Informationen angeben.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Select License Group<ept id="p1">**</ept> area, do one of the following:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzgruppe auswählen<ept id="p1">**</ept> Bereich, führen Sie einen der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add the agreements to the Unassigned Agreements group<ept id="p1">**</ept> if you do not want to add the new agreements to a new or existing license group.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>die Verträge der Gruppe nicht zugewiesene Verträge hinzufügen<ept id="p1">**</ept> wenn Sie nicht die neuen Verträge einer neuen oder vorhandenen Lizenzgruppe hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can add the agreements to user-defined license groups at any time.</source>
+          <target state="translated">Sie können die Verträge jederzeit zu benutzerdefinierten Lizenzgruppen hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add the agreements to a new license group<ept id="p1">**</ept> to add the new agreements to a new license group.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>einer neuen Lizenzgruppe Verträge hinzufügen<ept id="p1">**</ept> die neuen Verträge einer neuen Lizenzgruppe hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You are prompted to provide a name for the new license group.</source>
+          <target state="translated">Sie werden aufgefordert, einen Namen für die neue Lizenzgruppe einzugeben.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add the agreements to an existing license group<ept id="p1">**</ept> to add the new agreements to an existing license group.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Verträge einer vorhandenen Lizenzgruppe hinzufügen<ept id="p1">**</ept> die neuen Verträge einer vorhandenen Lizenzgruppe hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Group name<ept id="p1">**</ept> list, select the license group to which you want to add the agreements.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Gruppenname<ept id="p1">**</ept> Wählen Sie die Lizenzgruppe, die Sie die Verträge hinzufügen möchten.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>All Agreements<ept id="p1">**</ept> list view is displayed.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Alle Verträge<ept id="p1">**</ept> Liste angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Manage license agreements</source>
+          <target state="translated">Verwalten von Lizenzverträgen</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Software licensing agreements can be added to license groups.</source>
+          <target state="translated">Softwarelizenzverträge können zu Lizenzgruppen hinzugefügt werden.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>You can use license groups to organize your license agreements in units that are logical for your organization.</source>
+          <target state="translated">Sie können Lizenzgruppen verwenden, um Ihre Lizenzverträge in Einheiten zu organisieren, die für Ihre Organisation logisch sind.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Additionally, you can delete license agreements you previously created.</source>
+          <target state="translated">Darüber hinaus können Sie Lizenzverträge löschen, die Sie zuvor erstellt haben.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Task</source>
+          <target state="translated">Aufgabe</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Create a license group</source>
+          <target state="translated">Erstellen Sie eine Lizenzgruppe</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Licenses<ept id="p2">**</ept> workspace, choose <bpt id="p3">**</bpt>Create License Group<ept id="p3">**</ept> from the <bpt id="p4">**</bpt>Tasks<ept id="p4">**</ept> menu.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Übersicht über<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Lizenzen<ept id="p2">**</ept> Arbeitsbereich wählen <bpt id="p3">**</bpt>Lizenzgruppe erstellen<ept id="p3">**</ept> aus der <bpt id="p4">**</bpt>Aufgaben<ept id="p4">**</ept> Menü.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> You can create a maximum total of 500 license groups.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> können Sie die maximale insgesamt 500 Lizenzgruppen erstellen.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Rename a license group</source>
+          <target state="translated">Benennen Sie eine Lizenzgruppe</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Licenses<ept id="p1">**</ept> workspace, choose a license group, and then choose <bpt id="p2">**</bpt>Edit License Group<ept id="p2">**</ept> from the <bpt id="p3">**</bpt>Tasks<ept id="p3">**</ept> Menu.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzen<ept id="p1">**</ept> Arbeitsbereich, wählen Sie eine Lizenzgruppe und dann <bpt id="p2">**</bpt>Lizenzgruppe bearbeiten<ept id="p2">**</ept> aus der <bpt id="p3">**</bpt>Aufgaben<ept id="p3">**</ept> Menü.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Delete a license group</source>
+          <target state="translated">Löschen einer Lizenzgruppe</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Licenses<ept id="p1">**</ept> workspace, choose a license group, and then choose <bpt id="p2">**</bpt>Delete License Group<ept id="p2">**</ept> from the <bpt id="p3">**</bpt>Tasks<ept id="p3">**</ept> Menu.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzen<ept id="p1">**</ept> Arbeitsbereich, wählen Sie eine Lizenzgruppe und dann <bpt id="p2">**</bpt>Lizenzgruppe löschen<ept id="p2">**</ept> aus der <bpt id="p3">**</bpt>Aufgaben<ept id="p3">**</ept> Menü.</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept> Any licenses that were in the deleted group are moved to the <bpt id="p2">**</bpt>Unassigned agreements<ept id="p2">**</ept> license group.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tipp:<ept id="p1">**</ept> alle Lizenzen, die in der gelöschten Gruppe waren werden verschoben, um die <bpt id="p2">**</bpt>nicht zugewiesene Verträge<ept id="p2">**</ept> Lizenzgruppe.</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Delete a license agreement</source>
+          <target state="translated">Löschen von Lizenzverträgen</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Licenses<ept id="p1">**</ept> workspace, choose an agreement, and then choose <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Lizenzen<ept id="p1">**</ept> Arbeitsbereich wählen Sie eine Vereinbarung, und wählen Sie dann <bpt id="p2">**</bpt>Löschen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tip:<ept id="p1">**</ept> After you delete Volume Licensing agreements, to update the license information, choose <bpt id="p2">**</bpt>Refresh Now<ept id="p2">**</ept> on the <bpt id="p3">**</bpt>Licenses Overview<ept id="p3">**</ept> page or on the <bpt id="p4">**</bpt>General<ept id="p4">**</ept> tab for a specific license group.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Tipp:<ept id="p1">**</ept> Wählen Sie nach dem Löschen von Volumenlizenzverträgen, beim Aktualisieren der Lizenzinformationen <bpt id="p2">**</bpt>Jetzt aktualisieren<ept id="p2">**</ept> auf die <bpt id="p3">**</bpt>Übersicht über Lizenzen<ept id="p3">**</ept> Seite oder auf die <bpt id="p4">**</bpt>Allgemein<ept id="p4">**</ept> Registerkarte für eine bestimmte Lizenzgruppe.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

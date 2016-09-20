@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aeaa64124384a71126eeca7339416b80d395d07d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">89477e04f8de03f5caf767196a5fae2d4a49f1ad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fbdd18841caef9dd1cee4dd39a5dd0aee7d1fc2b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Get ready to configure MAM policies | Microsoft Intune</source>
+          <target state="translated">Bereiten Sie den MAM-Richtlinien konfigurieren | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes the pre-requisites and setting up users before you can create mobile app management policies.</source>
+          <target state="translated">Dieses Thema beschreibt die erforderlichen Komponenten und Benutzer einzurichten, bevor Sie mobile app Management-Richtlinien erstellen können.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Get ready to configure mobile app management policies with Microsoft Intune</source>
+          <target state="translated">Bereiten Sie sich so konfigurieren Sie Richtlinien zur Verwaltung mobiler Apps mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic describes what you need to do before you can create mobile app management (MAM) policies in the Azure portal.</source>
+          <target state="translated">In diesem Thema wird beschrieben, was Sie tun, bevor Sie mobile app-Verwaltungsrichtlinien (MAM) im Azure-Portal erstellen können.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Azure portal is the new admin console for creating MAM policies.</source>
+          <target state="translated">Azure-Portal ist die neue Admin-Konsole zum Erstellen von MAM-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We recommend that you use this portal to create MAM  policies.</source>
+          <target state="translated">Es wird empfohlen, dass Sie dieses Portal verwenden, um MAM-Richtlinien erstellen.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Azure portal supports the following MAM scenarios:</source>
+          <target state="translated">Azure-Portal unterstützt die folgenden MAM-Szenarios:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Devices that are enrolled in Intune</source>
+          <target state="translated">Geräte, die in Intune angemeldet werden</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Devices that are managed by a third-party MDM solution</source>
+          <target state="translated">Geräte, die von einer Drittanbieter-MDM-Lösung verwaltet werden</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Devices that are not managed by any MDM solution (BYOD)</source>
+          <target state="translated">Geräte, die nicht von einer MDM-Lösung (BYOD) verwaltet werden</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you are new to using the Azure portal, read the <bpt id="p1">[</bpt>Azure portal for Microsoft Intune MAM policies<ept id="p1">](azure-portal-for-microsoft-intune-mam-policies.md)</ept> topic to get a quick overview.</source>
+          <target state="translated">Wenn Sie zur Verwendung von Azure-Portal neu sind, lesen Sie die <bpt id="p1">[</bpt>Azure-Portal für Microsoft Intune MAM Richtlinien<ept id="p1">](azure-portal-for-microsoft-intune-mam-policies.md)</ept> Thema, um eine kurze Übersicht über abzurufen.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you are currently using the Intune admin console to manage your devices, you can create MAM policies that support apps for devices enrolled in Intune by using the Intune admin console.</source>
+          <target state="translated">Wenn Sie derzeit die Intune-Verwaltungskonsole zum Verwalten Ihrer Geräte verwenden, können Sie MAM-Richtlinien erstellen, die für die Unterstützung von apps für Geräte in Intune registriert ist, mithilfe der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>But we recommend that you use the Azure portal, even for devices that are enrolled in Intune.</source>
+          <target state="translated">Aber wir empfehlen die Verwendung von Azure-Portal auch für Geräte, die in Intune registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For instructions on how to create a MAM policy by using the Intune admin console, see <bpt id="p1">[</bpt>Configure and deploy mobile application management policies in the Microsoft Intune console<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept>.</source>
+          <target state="translated">Informationen zum Erstellen einer MAM-Richtlinie mithilfe der Intune-Verwaltungskonsole finden Sie unter <bpt id="p1">[</bpt>Konfigurieren und Bereitstellen von Richtlinien zur mobilen anwendungsverwaltung in der Microsoft Intune-Konsole<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You may not see all MAM policy settings in the Intune admin console.</source>
+          <target state="translated">Sie können nicht alle Einstellungen der MAM-Richtlinie in der Intune-Verwaltungskonsole finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you create MAM policies in both the Intune admin console and the Azure portal, the policy in the Azure portal is applied to the apps and deployed to users.</source>
+          <target state="translated">Wenn Sie eine MAM-Richtlinien in der Intune-Verwaltungskonsole und der Azure-Portal erstellen, wird die Richtlinie im Azure-Portal auf die apps angewendet und für Benutzer bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>MAM policies that are created in the Intune admin console cannot be imported into the Azure portal.</source>
+          <target state="translated">MAM-Richtlinien, die in der Intune-Verwaltungskonsole erstellt werden, können in der Azure-Portal importiert werden.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The MAM policies must be re-created in the Azure portal.</source>
+          <target state="translated">Die MAM-Richtlinien müssen in der Azure-Portal neu erstellt werden.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Supported platforms</source>
+          <target state="translated">Unterstützte Plattformen</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>iOS 8.1 or later</source>
+          <target state="translated">iOS 8.1 oder höher</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Android 4 or later</source>
+          <target state="translated">Android 4 oder höher</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows devices are currently not supported.</source>
+          <target state="translated">Windows-Geräte werden derzeit nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Supported apps</source>
+          <target state="translated">Unterstützte apps</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft apps:<ept id="p1">**</ept> These apps have the Intune App SDK built in and require no further processing before you apply MAM policies.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Microsoft-apps:<ept id="p1">**</ept> diese apps App-SDK erstellt der Intune und erfordern keine weitere Verarbeitung vor dem MAM Richtlinien anwenden.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To see the full list of supported Microsoft apps, go to the <bpt id="p1">[</bpt>Microsoft Intune mobile application gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> on the Microsoft Intune application partners page.</source>
+          <target state="translated">Um die vollständige Liste der unterstützten Microsoft-apps anzuzeigen, wechseln Sie zu der <bpt id="p1">[</bpt>Microsoft Intune mobile Application Gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> auf der Seite Microsoft Intune-Partner.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click an app to see the supported scenarios and platforms, and to see whether the app supports multiple identities.</source>
+          <target state="translated">Klicken Sie auf eine app, die die unterstützten Szenarien und Plattformen finden Sie unter, um festzustellen, ob die Anwendung mehrere Identitäten unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Your organization's line-of-business apps:<ept id="p1">**</ept> These require preparing the apps to include the Intune App SDK before you can apply MAM policies.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ihre Organisation Branchen-apps:<ept id="p1">**</ept> erfordern die Vorbereitung der apps auf das Intune-App-SDK enthalten, bevor Sie MAM-Richtlinien angewendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For devices that are managed by Intune, see <bpt id="p1">[</bpt>Decide how to prepare apps for MAM<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Geräte, die von Intune verwaltet werden, finden Sie unter <bpt id="p1">[</bpt>entscheiden, wie Sie apps für MAM vorbereiten<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For devices that are not managed (like employee-owned devices), or for devices that are managed by a third-party mobile device management solution, see <bpt id="p1">[</bpt>Protect line-of-business apps and data on devices not enrolled in Intune<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Für Geräte, die nicht (z. B. Geräte im Besitz der Mitarbeiter) verwaltet werden, oder für Geräte, die von einer Management-Lösung für mobile Geräte von Drittanbietern verwaltet werden, finden Sie unter <bpt id="p1">[</bpt>schützen Branchen-apps und Daten auf Geräten, die nicht in Intune registriert<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Before<ept id="p1">*</ept> you can configure MAM policies, you need the following:</source>
+          <target state="translated"><bpt id="p1">*</bpt>Bevor Sie<ept id="p1">*</ept> Sie MAM-Richtlinien konfigurieren können, benötigen Sie Folgendes:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A subscription to Microsoft Intune.</source>
+          <target state="translated">Ein Abonnement für Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Users need <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> licenses to get apps that have MAM policies.</source>
+          <target state="translated">Benutzer müssen <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Lizenzen, um apps zu erhalten, MAM-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An Office 365 subscription, which is required for the following:</source>
+          <target state="translated">Office 365-Abonnement, ist Folgendes erforderlich:</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To apply MAM policies to apps with multiple-identity support.</source>
+          <target state="translated">Apps mit Unterstützung von mehreren MAM Richtlinien zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To create  SharePoint Online and Exchange Online work accounts.</source>
+          <target state="translated">SharePoint Online und Exchange Online Geschäftskonten zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Exchange on-premises and SharePoint on-premises are not supported.</source>
+          <target state="translated">Auf lokales Exchange und SharePoint lokal werden nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Skype for Business Online setup for modern authentication.</source>
+          <target state="translated">Skype für Business Online-Setup für moderne Authentifizierung.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enable modern authentication<ept id="p1">](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>moderne Authentifizierung aktivieren<ept id="p1">](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory (Azure AD) to create users.</source>
+          <target state="translated">Azure Active Directory (Azure AD), um Benutzer zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure AD authenticates users when they open the app and enter their work credentials.</source>
+          <target state="translated">Azure AD authentifiziert Benutzer beim Öffnen der Anwendung und ihre Arbeit Anmeldeinformationen eingeben.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you are setting up users by using the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console, be aware that the MAM policy configuration is moving to the Azure portal.</source>
+          <target state="translated">Wenn Sie Benutzer mithilfe von Einrichten der <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> -Konsole, beachten Sie, dass die MAM-Richtlinienkonfiguration in Azure-Portal verschoben wird.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To use this portal, you need to set up Azure AD user groups by using the Office 365 portal.</source>
+          <target state="translated">Wenn dieses Portal verwenden möchten, müssen Sie Azure AD-Benutzergruppen mit Office 365-Portal einrichten.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Create users and assign Microsoft Intune licenses</source>
+          <target state="translated">Erstellen von Benutzern und Zuweisen von Microsoft Intune-Lizenzen</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Make sure that you have an Intune subscription.</source>
+          <target state="translated">Stellen Sie sicher, dass Sie einem Intune-Abonnement verfügen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You   already have an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> subscription if you are currently using <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> to manage your devices.</source>
+          <target state="translated">Bereits ein <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Abonnement, wenn Sie derzeit arbeiten <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> zum Verwalten Ihrer Geräte.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You also have an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> subscription if you have purchased an Enterprise Mobility Suite (EMS) license.</source>
+          <target state="translated">Sie haben auch eine <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Abonnement, wenn Sie eine Lizenz für das Enterprise Mobility Suite (EMS) erworben haben.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you are trying <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> to check out the MAM capabilities, you can get a trial account on the <bpt id="p1">[</bpt>Microsoft Intune webpage<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)</ept>.</source>
+          <target state="translated">Wenn Sie versuchen, <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> checken Sie die MAM-Funktionen erhalten Sie ein Testkonto auf der <bpt id="p1">[</bpt>Microsoft Intune-Webseite<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To check whether you have an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> subscription, in the Office portal, go to the <bpt id="p1">**</bpt>Billing<ept id="p1">**</ept> page.</source>
+          <target state="translated">Überprüft, ob Sie haben ein <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Abonnements im Office-Portal, wechseln Sie zu der <bpt id="p1">**</bpt>Abrechnung<ept id="p1">**</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You should see <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> as <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> in the subscriptions.</source>
+          <target state="translated">Daraufhin sollte <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> als <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> in den Abonnements.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sign in to the   <bpt id="p1">[</bpt>Office portal<ept id="p1">](http://portal.office.com)</ept> with your admin credentials.</source>
+          <target state="translated">Melden Sie sich bei der   <bpt id="p1">[</bpt>Office-Portal<ept id="p1">](http://portal.office.com)</ept> mit Ihren Administratoranmeldeinformationen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Active Users<ept id="p1">**</ept> page to add users and assign <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> licenses.</source>
+          <target state="translated">Wechseln Sie zu der <bpt id="p1">**</bpt>aktive Benutzer<ept id="p1">**</ept> Seite Benutzer hinzufügen und <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Lizenzen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Active Users page in the Office portal</source>
+          <target state="translated">Aktive Benutzerseite im Office-portal</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Edit user page in the Office portal</source>
+          <target state="translated">Bearbeiten Sie die Seite "Benutzer" im Office-portal</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To give a user the ability to access the Office portal, the Azure AD portal, and the Azure  portal, assign the <bpt id="p1">**</bpt>Global administrator<ept id="p1">**</ept> role to the user.</source>
+          <target state="translated">So erteilen Sie einem Benutzer den Zugriff auf Office-Portal, Azure AD-Portal und Azure-Portal, weisen die <bpt id="p1">**</bpt>globaler Administrator<ept id="p1">**</ept> Rolle für den Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Page for editing user roles in the Office portal</source>
+          <target state="translated">Seite zur Bearbeitung von Benutzerrollen in Office-portal</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>MAM policies are deployed to user groups in Azure Active Directory.</source>
+          <target state="translated">MAM-Richtlinien werden für Benutzergruppen in Azure Active Directory bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To create user groups for your MAM policies, go to the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> page in the Office portal and choose the <bpt id="p2">**</bpt>Add a group option<ept id="p2">**</ept> in the top menu to create a new security group.</source>
+          <target state="translated">Um Benutzergruppen für Ihre MAM-Richtlinien erstellen, wechseln Sie zu der <bpt id="p1">**</bpt>Gruppen<ept id="p1">**</ept> Seite im Office-Portal, und wählen Sie die <bpt id="p2">**</bpt>Hinzufügen einer Gruppenoption<ept id="p2">**</ept> im oberen Menü zum Erstellen einer neuen Sicherheitsgruppe.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Type a name and a description, and then click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+          <target state="translated">Geben Sie einen Namen und eine Beschreibung ein, und klicken Sie dann auf <bpt id="p1">**</bpt>Erstellen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When the group is created, you can add users to the group by clicking <bpt id="p1">**</bpt>Edit members<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn die Gruppe erstellt wird, können Sie Benutzer zur Gruppe hinzufügen, durch Klicken auf <bpt id="p1">**</bpt>Elemente bearbeiten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The security group is created in Azure Active Directory.</source>
+          <target state="translated">Die Sicherheitsgruppe ist in Azure Active Directory erstellt.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Page for security groups in the Office portal</source>
+          <target state="translated">Seite für Sicherheitsgruppen im Office-portal</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following table lists the roles and permissions that you can assign to admin users.</source>
+          <target state="translated">Die folgende Tabelle enthält die Rollen und Berechtigungen, die Sie Benutzern Administratorrechte zuweisen können.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Role</source>
+          <target state="translated">Role-Eigenschaft</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
+          <target state="translated">Berechtigungen</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Global administrator (Office 365 portal)</source>
+          <target state="translated">Globaler Administrator (Office 365-Portal)</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Access to the Office 365 portal and the Azure AD portal.</source>
+          <target state="translated">Zugriff auf Office 365-Portal und Azure AD-Portal.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Access to the Azure  portal (can do both role management and mobile app management tasks).</source>
+          <target state="translated">Zugriff auf Azure-Portal (Rollenverwaltung und mobile app-Verwaltungsaufgaben möglich).</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Owner (Azure  portal)</source>
+          <target state="translated">Besitzer (Azure-Portal)</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Access to the Azure  portal (can do both role management and mobile app management tasks).</source>
+          <target state="translated">Zugriff auf Azure-Portal (Rollenverwaltung und mobile app-Verwaltungsaufgaben möglich).</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Contributor (Azure  portal)</source>
+          <target state="translated">Mitwirkender (Azure-Portal)</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Access to the Azure  portal (can do only the mobile app management tasks).</source>
+          <target state="translated">Zugriff auf Azure-Portal (nur der mobilen Anwendung Verwaltungsaufgaben ausführen können).</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Assign the contributor role to a user</source>
+          <target state="translated">Rolle "Mitwirkender" für einen Benutzer zuweisen</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Global administrators have access to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept>.</source>
+          <target state="translated">Globale Administratoren haben Zugriff auf die <bpt id="p1">[</bpt>Azure-Portal<ept id="p1">](https://portal.azure.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you want other admin users to be able to configure policies and do other mobile app management tasks, you can assign the contributor role to the users:</source>
+          <target state="translated">Wenn andere Benutzer Administratorrechte zum Konfigurieren von Richtlinien und andere mobile app Management-Aufgaben ausführen soll, können Sie die Rolle "Mitwirkender" für die Benutzer zuweisen:</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade,  in the <bpt id="p2">**</bpt>Resource management<ept id="p2">**</ept> section, click <bpt id="p3">**</bpt>Users<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept> Blatt in den <bpt id="p2">**</bpt>Ressourcenmanagement<ept id="p2">**</ept> auf <bpt id="p3">**</bpt>Benutzer<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Users blade in the Azure portal</source>
+          <target state="translated">Benutzer-Blatt im Azure-portal</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Add access<ept id="p2">**</ept> blade.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Zugriff hinzufügen<ept id="p2">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Select a role<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Contributor<ept id="p2">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Wählen Sie eine Rolle<ept id="p1">**</ept>, und klicken Sie dann auf <bpt id="p2">**</bpt>Contributor<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Select a role blade in the Azure portal</source>
+          <target state="translated">Wählen Sie ein Blatt für die Rolle in Azure-portal</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add user<ept id="p1">**</ept>, and search for the user by name or email address.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Add User<ept id="p1">**</ept>, und suchen Sie nach dem Benutzer nach Namen oder e-Mail-Adressen.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The users that you see in this list are the first 1,000 users that you previously created in Azure AD by using the Office portal.</source>
+          <target state="translated">Die Benutzer, die Sie in dieser Liste finden Sie unter werden die ersten 1.000 Benutzer, die Sie zuvor in Azure AD erstellt mithilfe des Office-Portals.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Add access<ept id="p2">**</ept> blade to save and assign the role to the user.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> auf die <bpt id="p2">**</bpt>Zugriff hinzufügen<ept id="p2">**</ept> Blatt zu speichern, die Benutzer die Rolle zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Add users blade in the Azure portal</source>
+          <target state="translated">Hinzufügen von Benutzern auf dem Blatt im Azure-portal</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If you select a user who does not have an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> license assigned to them, they will not be able to access the portal.</source>
+          <target state="translated">Wenn Sie einen Benutzer auswählen, die keine <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Lizenz zugewiesen werden, sie sind nicht in der Lage, auf das Portal zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Create and deploy mobile app management policies with Microsoft Intune</source>
+          <target state="translated">Erstellen und Bereitstellen von Richtlinien zur Verwaltung mobiler Apps mit Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

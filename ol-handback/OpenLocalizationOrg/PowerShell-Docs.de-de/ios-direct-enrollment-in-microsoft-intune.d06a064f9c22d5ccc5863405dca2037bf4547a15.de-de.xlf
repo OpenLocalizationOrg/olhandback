@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17836bc826bc89e3f041f7b369be09c1cce9ea4f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-direct-enrollment-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e140302c3df279d2fe41eff9cb857b3412d9bdd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca074791dc6309387a27732bede6f2470d3cb7af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Direct enrollment for iOS devices | Microsoft Intune</source>
+          <target state="translated">Direkte Anmeldung für iOS-Geräte | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the Apple Configurator tool to directly enroll corporate-owned iOS devices with a predefined policy by USB-connecting them to a Mac computer.</source>
+          <target state="translated">Verwenden Sie das Apple Configurator-Tool zum Registrieren von firmeneigenen iOS-Geräte mit einer vordefinierten Richtlinie von USB-Verbindung direkt mit einem Macintosh-Computer.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Directly enroll iOS devices using Apple Configurator</source>
+          <target state="translated">IOS-Geräte mit Apple Configurator direkt zu registrieren</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune supports the enrollment of corporate-owned iOS devices using the <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> tool running on a Mac computer.</source>
+          <target state="translated">Intune unterstützt die Registrierung von firmeneigenen iOS-Geräte mithilfe der <bpt id="p1">[</bpt>Apple Configurator<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> Tool auf einem Macintosh-Computer ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This process does not factory-reset the device and enrolls the device with a predefined policy.</source>
+          <target state="translated">Dieser Prozess wird nicht Factory Zurücksetzen des Geräts und registriert das Gerät mit einer vordefinierten Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This method is for devices with <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept> and requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment.</source>
+          <target state="translated">Diese Methode ist für Geräte mit <bpt id="p1">**</bpt>keine Affinität zwischen Benutzer und<ept id="p1">**</ept> und müssen Sie über USB verbinden das iOS-Gerät auf einem Macintosh-Computer, um Setup unternehmensregistrierung.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When directly enrolling iOS devices, you can enroll a device without acquiring the device's serial number.</source>
+          <target state="translated">Bei der Registrierung von iOS-Geräte direkt, können Sie ein Gerät registrieren, ohne dass die Seriennummer des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also name the device for identification purposes before Intune captures the device name during enrollment.</source>
+          <target state="translated">Sie können auch das Gerät um zu Identifikationszwecken Namen, bevor Intune Name des Geräts während der Registrierung erfasst.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Company Portal app is not supported for direct enrolled devices.</source>
+          <target state="translated">Unternehmensportal-app wird für direkte registrierte Geräte nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This guidance assumes you are using Apple Configurator 2.0 on a Mac computer.</source>
+          <target state="translated">Diese Anleitung wird davon ausgegangen, dass Sie Apple Configurator 2.0 auf einem Macintosh-Computer verwenden.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a profile for devices<ept id="p1">**</ept> A device enrollment profile defines the settings applied to devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erstellen eines Profils für Geräte<ept id="p1">**</ept> ein Registrierungsprofil definiert die Einstellungen für Geräte.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.</source>
+          <target state="translated">Wenn Sie dies noch nicht getan haben, erstellen Sie ein Registrierungsprofil für iOS-Geräte mit Apple Configurator registriert.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Corporate Device Enrollment<ept id="p3">**</ept>, and then choose <bpt id="p4">**</bpt>Add…<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Unternehmensgeräteregistrierung<ept id="p3">**</ept>, und wählen Sie dann <bpt id="p4">**</bpt>hinzufügen...<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create device enrollment profile page</source>
+          <target state="translated">Device Enrollment-Profilseite erstellen</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enter details for the device profiles:</source>
+          <target state="translated">Geben Sie Details für die Geräteprofile ein:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – Name of the device enrollment profile.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namen<ept id="p1">**</ept> – Name des geräteanmeldungsprofils.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Not visible to users.</source>
+          <target state="translated">Für Benutzer nicht sichtbar.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Description of the device enrollment profile.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beschreibung<ept id="p1">**</ept> -Beschreibung des geräteanmeldungsprofils.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Not visible to users.</source>
+          <target state="translated">Für Benutzer nicht sichtbar.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User affiliation<ept id="p1">**</ept> – Specifies how devices are enrolled.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Benutzerzuweisung<ept id="p1">**</ept> – Gibt an, wie Geräte registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For Direct Enrollment, select <bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie für die direkte Registrierung <bpt id="p1">**</bpt>keine Affinität zwischen Benutzer und<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device group pre-assignment<ept id="p1">**</ept> – All devices deployed this profile will initially belong to this group.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gerät vorabzuweisung<ept id="p1">**</ept> – alle Geräte bereitgestellt, das Profil werden, gehören anfänglich zu dieser Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can reassign devices after enrollment.</source>
+          <target state="translated">Sie können die Geräte nach der Registrierung erneut zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Save Profile<ept id="p1">**</ept> to add the profile.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Profil speichern<ept id="p1">**</ept> das Profil hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Export a profile as .mobileconfig to deploy to iOS devices<ept id="p1">**</ept> Select the device profile you created.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Exportieren Sie ein Profil als .mobileconfig zum Bereitstellen auf iOS-Geräten<ept id="p1">**</ept> Wählen Sie das Gerät, das Sie erstellt.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Export…<ept id="p1">**</ept></source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>exportieren...<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>in the taskbar.</source>
+          <target state="translated">in der Taskleiste.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Download profile<ept id="p1">**</ept> and save the downloaded .mobileconfig file.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Profil herunterladen<ept id="p1">**</ept> und speichern Sie die heruntergeladene .mobileconfig-Datei.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transfer the file<ept id="p1">**</ept> Copy the downloaded .mobileconfig file to a Mac computer.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Übertragen Sie die Datei<ept id="p1">**</ept> heruntergeladenen .mobileconfig-Datei auf einem Macintosh-Computer kopieren.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The enrollment profile URL is valid for two weeks from when it is exported.</source>
+          <target state="translated">Die Registrierungs-Profil-URL ist gültig für zwei Wochen aus, wenn es exportiert wird.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After two weeks, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.</source>
+          <target state="translated">Nach zwei Wochen müssen Sie eine neue Registrierung Profil-URL zum Registrieren von iOS-Geräten mit dem Setup-Assistenten exportieren.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prepare the device with Apple Configurator<ept id="p1">**</ept> iOS devices are connected to the Mac computer and enrolled for mobile device management.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vorbereiten des Geräts mit Apple Configurator<ept id="p1">**</ept> iOS-Geräte mit dem Macintosh-Computer verbunden und für die Verwaltung mobiler Geräte registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On a Mac computer, launch <bpt id="p1">**</bpt>Apple Configurator 2.0<ept id="p1">**</ept>.</source>
+          <target state="translated">Starten Sie auf einem Macintosh-Computer <bpt id="p1">**</bpt>Apple Configurator 2.0<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Connect the iOS device to the Mac computer with a USB cord.</source>
+          <target state="translated">Verbinden Sie die iOS-Gerät mit dem Macintosh-Computer mit einem USB-Kabel.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Close <bpt id="p1">**</bpt>Photos<ept id="p1">**</ept>, <bpt id="p2">**</bpt>iTunes<ept id="p2">**</ept>, and other apps that open for the device when the device is detected.</source>
+          <target state="translated">Schließen <bpt id="p1">**</bpt>Fotos<ept id="p1">**</ept>, <bpt id="p2">**</bpt>iTunes<ept id="p2">**</ept>, und anderen apps, die für das Gerät zu öffnen, wenn das Gerät erkannt wird.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In Apple Configurator, single-click the connected iOS device, and then choose the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button.</source>
+          <target state="translated">In Apple Configurator, Einfachklick verbundenen Gerät, und wählen Sie dann die <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept> Schaltfläche.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Options that can be added to the device appear in the drop-down list.</source>
+          <target state="translated">Optionen, die das Gerät hinzugefügt werden können, werden in der Dropdown-Liste angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Profiles<ept id="p1">**</ept> .</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Profile<ept id="p1">**</ept> .</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Use the file picker to select the .mobileconfig file you exported from Intune, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+          <target state="translated">Verwenden Sie die Dateiauswahl .mobileconfig-Datei wählen Sie aus Intune exportiert haben, und wählen Sie dann <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The profile is added to the device.</source>
+          <target state="translated">Das Profil wird auf dem Gerät hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the device is <bpt id="p1">**</bpt>Unsupervised<ept id="p1">**</ept>, the installation will require acceptance on the device.</source>
+          <target state="translated">Wenn das Gerät <bpt id="p1">**</bpt>unbeaufsichtigte<ept id="p1">**</ept>, Zustimmung auf dem Gerät installiert wird.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Install the profile<ept id="p1">**</ept> You are ready to install the profile on the iOS device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Installieren Sie das Profil<ept id="p1">**</ept> können Sie das Profil auf dem iOS-Gerät zu installieren.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The device must have already completed the Setup Assistant and be ready to use.</source>
+          <target state="translated">Das Gerät muss abgeschlossen haben den Setup-Assistenten und einsatzbereit sein.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.</source>
+          <target state="translated">Wenn Registrierungs-app-Bereitstellungen mit sich bringt, sollte das Gerät verfügen, Apple ID einrichten, da die app-Bereitstellungen erforderlich werden, dass Sie keine Apple-ID für den App Store angemeldet haben.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Unlock the iOS device.</source>
+          <target state="translated">Das iOS-Gerät zu entsperren.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Install profile<ept id="p1">**</ept> dialog for <bpt id="p2">**</bpt>Management profile<ept id="p2">**</ept>,  tap <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Profil installieren<ept id="p1">**</ept> Dialogfeld für <bpt id="p2">**</bpt>Management-Profil<ept id="p2">**</ept>,  tippen Sie auf <bpt id="p3">**</bpt>Installieren<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Provide <bpt id="p1">**</bpt>Device Passcode<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Apple ID<ept id="p2">**</ept>, if required.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>Gerätekennung<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>Apple-ID<ept id="p2">**</ept>, falls erforderlich.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Accept the <bpt id="p1">**</bpt>Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+          <target state="translated">Übernehmen Sie die <bpt id="p1">**</bpt>Warnung<ept id="p1">**</ept>, und tippen Sie auf <bpt id="p2">**</bpt>Installieren<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Accept the <bpt id="p1">**</bpt>Remote Warning<ept id="p1">**</ept>, and tap <bpt id="p2">**</bpt>Trust<ept id="p2">**</ept>.</source>
+          <target state="translated">Übernehmen Sie die <bpt id="p1">**</bpt>Remote Warnung<ept id="p1">**</ept>, und tippen Sie auf <bpt id="p2">**</bpt>vertrauen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Profile Installed<ept id="p1">**</ept> box confirms the profile has <bpt id="p2">**</bpt>Installed<ept id="p2">**</ept>, choose <bpt id="p3">**</bpt>Done<ept id="p3">**</ept>.</source>
+          <target state="translated">Wenn die <bpt id="p1">**</bpt>Profil installiert<ept id="p1">**</ept> Feld bestätigt das Profil besitzt <bpt id="p2">**</bpt>installiert<ept id="p2">**</ept>, wählen Sie <bpt id="p3">**</bpt>Fertig<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Verify profile<ept id="p1">**</ept><ph id="ph1">
+</ph> On the iOS device, launch <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> and go <bpt id="p3">**</bpt>General<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Device Management<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Management Profile<ept id="p5">**</ept> <ph id="ph4">&amp;gt;</ph>  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Profil überprüfen<ept id="p1">**</ept><ph id="ph1">
+</ph> Starten Sie auf dem iOS-Gerät <bpt id="p2">**</bpt>Einstellungen<ept id="p2">**</ept> und wechseln Sie <bpt id="p3">**</bpt>Allgemeine<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Device Management<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Verwaltungsprofil<ept id="p5">**</ept> <ph id="ph4">&amp;gt;</ph>  und bestätigen Sie die Profilinstallation aufgeführt wird, überprüfen Sie die iOS-Richtlinie-Einschränkungen und apps installiert.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Policy restrictions and apps may take up to 10 minutes to appear on the device.</source>
+          <target state="translated">Grundsatz und apps dauert bis zu 10 Minuten auf dem Gerät angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Distribute devices<ept id="p1">**</ept> The iOS device is now enrolled with Intune and managed.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verteilen von Geräten<ept id="p1">**</ept> auf dem Gerät wird jetzt bei Intune registriert und verwaltet.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

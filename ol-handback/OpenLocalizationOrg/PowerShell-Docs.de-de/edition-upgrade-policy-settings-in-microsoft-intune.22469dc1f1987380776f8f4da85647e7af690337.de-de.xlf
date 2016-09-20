@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45130e3e12968d9df579a7a9d0cade0343b7c165</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\edition-upgrade-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dbe5758ea823fe6ddca0b7705b9292784137724</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bc50b4474826578dc56b2f3a2ee5435b8ed7f7a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows edition upgrade policy settings | Microsoft Intune</source>
+          <target state="translated">Richtlinien für Windows-Edition aktualisieren | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to automatically upgrade Windows 10 devices to the latest version with Intune.</source>
+          <target state="translated">Erfahren Sie, wie die automatische Aktualisierung von Windows 10-Geräten auf die neueste Version mit Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows edition upgrade policy settings in Microsoft Intune</source>
+          <target state="translated">Windows-Edition Aktualisieren der Einstellungen in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune <bpt id="p1">**</bpt>Edition Upgrade Policy<ept id="p1">**</ept> lets you automatically upgrade devices that run one of the following Windows 10 versions to a newer edition:</source>
+          <target state="translated">Die Microsoft Intune <bpt id="p1">**</bpt>Edition Upgrade Policy<ept id="p1">**</ept> Aktualisierung Geräte, die eine der folgenden Windows 10-Versionen auf eine neuere Version ausführen können:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Windows 10 Desktop</source>
+          <target state="translated">Windows 10 Desktop</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Windows 10 Holographic</source>
+          <target state="translated">Windows 10 Holographic</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Windows 10 Mobile</source>
+          <target state="translated">Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before you start</source>
+          <target state="translated">Bevor Sie beginnen</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Before you begin to upgrade devices to the latest version, you will need one of the following:</source>
+          <target state="translated">Bevor Sie beginnen, Geräte auf die neueste Version zu aktualisieren, benötigen Sie eine der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A product key that is valid to install the new version of Windows on all devices that you target with the policy (for Windows 10 Desktop editions).</source>
+          <target state="translated">Einen Produktschlüssel, der auf die neue Version von Windows auf allen Geräten zu installieren, dass Sie mit der Richtlinie (für Windows 10 Desktop-Editionen) Ziel gültig ist.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use either Multiple Activation Keys (MAK) or Key Management Server (KMS) keys.</source>
+          <target state="translated">Sie können mehrere Activation Keys (MAK) oder (Key Management Server, KMS) verwenden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>or<ept id="p1">**</ept> A license file from Microsoft that contains the licensing information to install the new version of Windows on all devices that you target with the policy (for Windows 10 Mobile and Windows 10 Holographic editions).</source>
+          <target state="translated"><bpt id="p1">**</bpt>oder<ept id="p1">**</ept> eine Lizenzdatei von Microsoft, die die Lizenzinformationen aus, um die neue Version von Windows auf allen Geräten installieren, die Sie mit der Richtlinie (für Windows 10 Mobile und Windows 10 Holographic Editionen) als Ziel enthält.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Windows 10 devices that you target must be enrolled in Microsoft Intune.</source>
+          <target state="translated">Die Windows-10-Geräte, die Sie als Ziel müssen in Microsoft Intune registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You cannot use the edition upgrade policy with PCs that run the Intune PC client software.</source>
+          <target state="translated">Die Richtlinie für editionsaktualisierung können mit PCs nicht, die die Intune-PC-Clientsoftware ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Edition upgrade policy settings</source>
+          <target state="translated">Edition-Upgrade-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enter a name for the edition upgrade policy.</source>
+          <target state="translated">Geben Sie einen Namen für die Richtlinie für editionsaktualisierung.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Optionally, enter a description for the policy that helps you identify it in the Intune console.</source>
+          <target state="translated">Geben Sie optional eine Beschreibung für die Richtlinie, die Sie in der Intune-Konsole erkennen kann.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Edition to upgrade to</source>
+          <target state="translated">Edition zu aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>From the drop-down list, select the version of Windows 10 Desktop, Windows 10 Holographic, or Windows 10 Mobile that you want to upgrade targeted devices to.</source>
+          <target state="translated">Wählen Sie aus der Dropdown-Liste die Version von Windows 10 Desktop, Windows 10 Holographic oder Windows 10 Mobile, die auf den Zielgeräten aktualisieren möchten.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Product Key</source>
+          <target state="translated">Product Key</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specify the product key that you obtained from Microsoft, which can be used to upgrade all targeted Windows 10 Desktop devices.</source>
+          <target state="translated">Geben Sie der Product Key, die Sie von Microsoft erhalten haben, die verwendet werden kann, um alle aktualisieren Windows 10 Desktop-Geräten vorgesehen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After you create a policy that contains a product key, you cannot edit the product key later.</source>
+          <target state="translated">Nachdem Sie eine Richtlinie, die einen Product Key enthält erstellen, können nicht Sie den Product Key später bearbeiten.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This is because the key is obscured for security reasons.</source>
+          <target state="translated">Dies ist der Schlüssel aus Sicherheitsgründen verdeckt wird.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To change the product key, you must enter the entire key again.</source>
+          <target state="translated">Um den Product Key ändern, müssen Sie den gesamten Schlüssel erneut eingeben.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>License File</source>
+          <target state="translated">Lizenzdatei</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> to select the license file you obtained from Microsoft that contains license information for the Windows Holographic, or Windows 10 Mobile edition that you want to upgrade targeted devices to.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Durchsuchen<ept id="p1">**</ept> Ziel Geräte die Lizenzdatei wählen Sie erhalten von Microsoft mit Lizenzinformationen für die Windows-Hologramm oder Windows 10 Mobile Edition, die Sie aktualisieren möchten.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d34bdc9839ea7785a429bc70cba15cc85da56ee1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\how-your-android-users-get-their-apps.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c19aecb647d403d8bf84cdb4eebe8805705553b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8f8d3a8f6beff403d67981a633a7c883e52a8e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How your Android users get their apps | Microsoft Intune</source>
+          <target state="translated">Wie Ihre Android-Benutzer ihre apps abrufen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Methods for making Android apps available to end users</source>
+          <target state="translated">Methoden zum Bereitstellen von Android-apps für Endbenutzer</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How your Android users get their apps</source>
+          <target state="translated">Wie erhalten Sie Ihre Android-Benutzer ihre apps</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use this information to understand how and where your Android end users get the apps that you distribute through Microsoft Intune.</source>
+          <target state="translated">Verwenden Sie diese Informationen, um zu verstehen, wie und wo erhalten Android Benutzern die apps, die Sie verteilen über Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The information can be different for native Android devices versus Samsung Knox devices.</source>
+          <target state="translated">Die Informationen kann für systemeigene Android-Geräte im Vergleich zu Samsung Knox-Geräte unterschiedlich sein.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Native (non-Samsung Knox) Android devices</source>
+          <target state="translated">Android-Geräte systemeigenen (nicht Samsung Knox)</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>App type</source>
+          <target state="translated">App-Typ</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Line-of-business (LOB) apps</source>
+          <target state="translated">Line-of-Business (LOB)-apps</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Play Store apps</source>
+          <target state="translated">Play Store-apps</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Available apps</source>
+          <target state="translated">Verfügbare apps</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Users tap <bpt id="p1">**</bpt>install<ept id="p1">**</ept> in the Company Portal.</source>
+          <target state="translated">Benutzer tippt <bpt id="p1">**</bpt>Installieren<ept id="p1">**</ept> im Unternehmensportal.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A notification appears, which users then tap to start the installation.</source>
+          <target state="translated">Eine Benachrichtigung angezeigt wird, welche Benutzer dann tippen, um die Installation zu starten.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After the installation is successful, the notification disappears.</source>
+          <target state="translated">Nachdem die Installation erfolgreich ist, wird die Benachrichtigung entfernt.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Users tap the app in the Company Portal and are taken to an app page in the Play Store, where they can start the installation.</source>
+          <target state="translated">Benutzer, tippen Sie auf die app im Unternehmensportal und getroffen werden, um eine Anwendungsseite im Play Store, in denen die Installation gestartet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Required apps</source>
+          <target state="translated">Erforderliche apps</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Users are shown a notification, which they cannot dismiss, indicating that they need to install an app.</source>
+          <target state="translated">Benutzern wird eine Benachrichtigung, die sie schließen nicht möglich, gezeigt und gibt an, dass sie eine app installieren müssen.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Users tap the notification to start the installation.</source>
+          <target state="translated">Benutzer, tippen Sie auf die Benachrichtigung, um die Installation zu starten.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>After the installation is successful, the notification disappears.</source>
+          <target state="translated">Nachdem die Installation erfolgreich ist, wird die Benachrichtigung entfernt.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Users are shown a notification, which they cannot dismiss, indicating that they need to install an app.</source>
+          <target state="translated">Benutzern wird eine Benachrichtigung, die sie schließen nicht möglich, gezeigt und gibt an, dass sie eine app installieren müssen.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Users tap the notification and are taken to an app page in the Play Store, where they can start the installation.</source>
+          <target state="translated">Benutzer, tippen Sie auf die Benachrichtigung und getroffen werden, um eine Anwendungsseite im Play Store, in denen die Installation gestartet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>After the installation is successful, the notification disappears.</source>
+          <target state="translated">Nachdem die Installation erfolgreich ist, wird die Benachrichtigung entfernt.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Samsung Knox Android devices</source>
+          <target state="translated">Samsung Knox Android-Geräte</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>App type</source>
+          <target state="translated">App-Typ</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Line-of-business (LOB) apps</source>
+          <target state="translated">Line-of-Business (LOB)-apps</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Play Store apps</source>
+          <target state="translated">Play Store-apps</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Available apps</source>
+          <target state="translated">Verfügbare apps</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Users tap <bpt id="p1">**</bpt>install<ept id="p1">**</ept> in the Company Portal.</source>
+          <target state="translated">Benutzer tippt <bpt id="p1">**</bpt>Installieren<ept id="p1">**</ept> im Unternehmensportal.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The app installs without further user intervention.</source>
+          <target state="translated">Die app ohne weitere Eingriffe des Benutzers installiert wird.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Users tap the app in the Company Portal and are taken to an app page in the Play Store, where they can start the installation.</source>
+          <target state="translated">Benutzer, tippen Sie auf die app im Unternehmensportal und getroffen werden, um eine Anwendungsseite im Play Store, in denen die Installation gestartet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Required apps</source>
+          <target state="translated">Erforderliche apps</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The app is installed without any user intervention.</source>
+          <target state="translated">Die app wird ohne Eingreifen des Benutzers installiert.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Users are shown a notification, which they cannot dismiss, indicating that they need to install an app.</source>
+          <target state="translated">Benutzern wird eine Benachrichtigung, die sie schließen nicht möglich, gezeigt und gibt an, dass sie eine app installieren müssen.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Users tap the notification and are taken to an app page in the Play Store, where they can start the installation.</source>
+          <target state="translated">Benutzer, tippen Sie auf die Benachrichtigung und getroffen werden, um eine Anwendungsseite im Play Store, in denen die Installation gestartet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>After the installation is successful, the notification disappears.</source>
+          <target state="translated">Nachdem die Installation erfolgreich ist, wird die Benachrichtigung entfernt.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Apps can be managed or unmanaged, as described below.</source>
+          <target state="translated">Apps können verwaltet oder nicht verwaltet, wie unten beschrieben werden.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The process of making apps managed is the same for all types of Android devices.</source>
+          <target state="translated">Die Schritte zum Erstellen von verwalteten apps entspricht dem für alle Arten von Android-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Managed apps<ept id="p1">**</ept> - Apps that can be managed through policies and that have been "wrapped" by Intune or have been built with the Intune Mobile Application Management (MAM) Software Development Kit (SDK).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwaltete apps<ept id="p1">**</ept> -Apps durch Richtlinien verwaltet werden kann, und "umschlossen" von Intune oder integriert mit Intune Mobile Application Management (MAM) Software Development Kit (SDK).</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These apps can be managed by Intune, and application policies can be applied to them.</source>
+          <target state="translated">Diese apps können von Intune verwaltet werden, und Anwendungsrichtlinien auf sie angewendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unmanaged apps<ept id="p1">**</ept> - Apps that can be managed through policies and that have not been wrapped by Intune or that do not incorporate the Intune MAM SDK.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nicht verwaltete apps<ept id="p1">**</ept> - Apps, die über Richtlinien und, die verwaltet werden, können nicht von Intune umschlossen, oder führen Sie nicht das Intune MAM SDK integriert.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Application policies cannot be applied to these apps.</source>
+          <target state="translated">Anwendungsrichtlinien können diesen Apps angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Add apps with Microsoft Intune<ept id="p1">](/intune/deploy-use/add-apps)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>How your iOS users get their apps<ept id="p2">](how-your-ios-users-get-their-apps.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>How your Windows users get their apps<ept id="p3">](how-your-windows-users-get-their-apps.md)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Hinzufügen von apps mit Microsoft Intune<ept id="p1">](/intune/deploy-use/add-apps)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>wie Ihre Benutzer von iOS-apps erhalten<ept id="p2">](how-your-ios-users-get-their-apps.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>wie die Windows-Benutzer ihre apps abrufen<ept id="p3">](how-your-windows-users-get-their-apps.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

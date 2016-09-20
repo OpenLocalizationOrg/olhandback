@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3fde6fb88bd929956d18e4dda502071901e4c4b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">930a8e3e2960e211097b768b49dee52da88f435a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac5749504c35232e2effcf7142ed0f92e73769e4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Firewall policies for Windows PCs | Microsoft Intune</source>
+          <target state="translated">Firewall-Richtlinien für Windows-PCs | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune can help you to secure PCs you manage with the Intune client in a number of ways, including helping you to configure Windows Firewall settings.</source>
+          <target state="translated">Intune kann Ihnen helfen, schützen Sie, mit dem Intune-Client eine Reihe von Möglichkeiten verwalten, einschließlich der Ihnen dabei hilft zu Windows-Firewall zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Help protect Windows PCs using Windows Firewall policies in Microsoft Intune</source>
+          <target state="translated">Schützen von Windows-PCs mit Windows-Firewall-Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can help you to secure Windows PCs that you manage with the Intune client in a number of ways.</source>
+          <target state="translated">Microsoft Intune können Sie Windows-PCs zu sichern, die Sie mit dem Intune-Client auf vielfältige Weise zu verwalten.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>One way in which it does this is to provide policies that enable you to configure Windows Firewall settings on PCs.</source>
+          <target state="translated">Eine Möglichkeit, dies diese ist Richtlinien ermöglichen, können Sie Windows-Firewall-Einstellungen auf PCs zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you have not yet installed the Intune Windows PC client on your computers, see <bpt id="p1">[</bpt>Install the Windows PC client with Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Wenn Sie den Computer mit Windows Intune-Client noch nicht auf Ihren Computern installiert haben, finden Sie unter <bpt id="p1">[</bpt>Installieren des Windows-PC-Clients mit Microsoft Intune<ept id="p1">](install-the-windows-pc-client-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the information in the following sections to help you configure, deploy, and monitor Windows Firewall policies on Windows PCs.</source>
+          <target state="translated">Verwenden Sie die Informationen in den folgenden Abschnitten können Sie konfigurieren, bereitstellen und Überwachen von Windows-Firewall-Richtlinien auf Windows-PCs.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use Intune policies to manage Windows Firewall</source>
+          <target state="translated">Verwenden von Intune-Richtlinien zum Verwalten von Windows-Firewall</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Windows Firewall policy lets you create and deploy settings that control Windows Firewall on managed PCs.</source>
+          <target state="translated">Die Windows-Firewall-Richtlinie können Sie die Einstellungen, die Windows-Firewall auf verwalteten PCs steuern erstellen und bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You cannot manage custom exceptions for Windows Firewall, and these settings do not affect third-party firewalls.</source>
+          <target state="translated">Benutzerdefinierte Ausnahmen für die Windows-Firewall können nicht verwaltet werden, und diese Einstellungen wirken sich nicht auf die Firewalls von Drittanbietern.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If Microsoft Intune policy and Group Policy are configured to manage the same setting on the PC, the Group Policy setting overrides the Microsoft Intune policy.</source>
+          <target state="translated">Wenn Microsoft Intune und der Gruppenrichtlinie zum Verwalten derselben Einstellung auf dem Computer konfiguriert sind, überschreibt die Einstellung der Gruppenrichtlinie die Microsoft Intune-Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For information about how to avoid conflicts between Intune policy and Group Policy, see <bpt id="p1">[</bpt>Resolve GPO and Microsoft Intune policy conflicts<ept id="p1">](resolve-gpo-and-microsoft-intune-policy-conflicts.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zur Vermeidung von Konflikten zwischen Intune und der Gruppenrichtlinie finden Sie unter <bpt id="p1">[</bpt>Gruppenrichtlinienobjekt zu beheben und Windows Intune-Richtlinienkonflikte<ept id="p1">](resolve-gpo-and-microsoft-intune-policy-conflicts.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you want to deploy Windows Firewall settings to computers that run Windows Vista, you must first install <bpt id="p1">[</bpt>Hotfix KB971800<ept id="p1">](http://support2.microsoft.com/kb/971800)</ept> on these computers.</source>
+          <target state="translated">Wenn Sie Windows-Firewall-Einstellungen auf Computern bereitstellen, führen Windows Vista, zuerst müssen Sie installieren möchten <bpt id="p1">[</bpt>Hotfix KB971800<ept id="p1">](http://support2.microsoft.com/kb/971800)</ept> auf diesen Computern.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To manage Windows Firewall by using Intune, ensure that the following two services are enabled on the computers that you manage:</source>
+          <target state="translated">Um die Windows-Firewall mit Intune verwalten, stellen Sie sicher, dass die folgenden beiden Dienste auf dem Computer aktiviert sind, die Sie verwalten:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows Firewall</source>
+          <target state="translated">Windows-Firewall</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>IPsec Policy Agent</source>
+          <target state="translated">IPsec-Richtlinien-Agent</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Configure a Windows Firewall policy</source>
+          <target state="translated">Konfigurieren Sie eine Windows-Firewall-Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Add Policy<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Richtlinie hinzufügen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configure and deploy a <bpt id="p1">**</bpt>Windows Firewall Settings<ept id="p1">**</ept> policy.</source>
+          <target state="translated">Konfigurieren und Bereitstellen einer <bpt id="p1">**</bpt>Windows Firewall Settings<ept id="p1">**</ept> Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use the recommended settings or customize the settings.</source>
+          <target state="translated">Sie können die empfohlenen Einstellungen verwenden oder die Einstellungen anpassen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you need more information about how to create and deploy policies, see <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</source>
+          <target state="translated">Wenn Sie weitere Informationen zum Erstellen und Bereitstellen von Richtlinien finden Sie unter benötigen <bpt id="p1">[</bpt>Allgemeine Windows-PC-Verwaltungsaufgaben mit dem Microsoft Intune-computerclient<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following section lists the values that you can configure in the policy and also the default values that will be used if you don’t customize the policy.</source>
+          <target state="translated">Der folgende Abschnitt führt die Werte, die Sie in der Richtlinie konfigurieren können, sowie die Standardwerte, die verwendet werden, wenn Sie die Richtlinie nicht anpassen.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After you deploy a Windows Firewall policy, you can view its status on the <bpt id="p1">**</bpt>All Policies<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Nachdem Sie eine Windows-Firewall-Richtlinie bereitstellen, können Sie seinen Status anzeigen, auf die <bpt id="p1">**</bpt>alle Richtlinien<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Specify policy settings for Windows Firewall</source>
+          <target state="translated">Geben Sie die Einstellungen für die Windows-Firewall</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Turn on Windows Firewall</source>
+          <target state="translated">Windows-Firewall einschalten</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These policy settings enable Windows Firewall on managed computers that are:</source>
+          <target state="translated">Diese Richtlinien werden auf verwalteten Computern, die Windows-Firewall aktivieren:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Connected to a domain (for example, at the workplace)</source>
+          <target state="translated">Mit einer Domäne (z. B. am Arbeitsplatz) verbunden</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Connected to a private (trusted) network (such as a home network)</source>
+          <target state="translated">Mit einem privaten (vertrauenswürdig) Netzwerk (z. B. einem Heimnetzwerk) verbunden</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Connected to an untrusted public network (such as a coffee shop)</source>
+          <target state="translated">Verbindung mit einem nicht vertrauenswürdigen öffentlichen Netzwerk (z. B. Internetcafés)</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default value for each of these settings is <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, which is the most secure value.</source>
+          <target state="translated">Der Standardwert für jede dieser Einstellungen ist <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept>, dies ist der sicherste Wert.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Block all incoming connections, including those in the list of allowed programs</source>
+          <target state="translated">Alle eingehenden Verbindungen, einschließlich der in der Liste der zugelassenen Programme aufgeführten Verbindungen, blockieren</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>These policy settings configure Windows Firewall to block incoming network traffic on managed computers that are:</source>
+          <target state="translated">Mit diesen Richtlinien konfigurieren eingehenden Netzwerkverkehr auf verwalteten Computern zu blockieren, die Windows-Firewall:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Connected to a domain (for example, at the workplace)</source>
+          <target state="translated">Mit einer Domäne (z. B. am Arbeitsplatz) verbunden</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Connected to a private (trusted) network (such as a home network)</source>
+          <target state="translated">Mit einem privaten (vertrauenswürdig) Netzwerk (z. B. einem Heimnetzwerk) verbunden</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Connected to an untrusted public network (such as a coffee shop)</source>
+          <target state="translated">Verbindung mit einem nicht vertrauenswürdigen öffentlichen Netzwerk (z. B. Internetcafés)</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default value for each of these settings is <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, which is the most secure value.</source>
+          <target state="translated">Der Standardwert für jede dieser Einstellungen ist <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept>, dies ist der sicherste Wert.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If your environment includes managed computers that are running Windows Vista with no service packs installed, you must either install the update that's associated with <bpt id="p1">[</bpt>article 971800<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=188405)</ept> in the Microsoft Knowledge Base or disable the <bpt id="p2">**</bpt>Block all incoming connections<ept id="p2">**</ept> policy settings in policies that are deployed to those computers.</source>
+          <target state="translated">Wenn Ihre Umgebung verwaltete Computer, die Windows Vista ohne installierte Service Packs ausgeführt werden enthält, Sie müssen entweder das Update installieren, das zugeordnete <bpt id="p1">[</bpt>Artikel 971800<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=188405)</ept> in der Microsoft Knowledge Base oder Deaktivieren der <bpt id="p2">**</bpt>alle eingehenden Verbindungen blockieren<ept id="p2">**</ept> Einstellungen in Richtlinien, die auf den betreffenden Computern bereitgestellt werden.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Notify the user when Windows Firewall blocks a new program</source>
+          <target state="translated">Benutzer benachrichtigen, wenn ein neues Programm von der Windows-Firewall blockiert wird</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>These policy settings determine whether Windows Firewall notifies a PC user when it blocks incoming network traffic when the managed computer is:</source>
+          <target state="translated">Mit diesen Richtlinien bestimmen, ob die Windows-Firewall einen PC-Benutzer benachrichtigt, wenn es eingehenden Netzwerkverkehr blockiert, wenn der verwaltete Computer ist:</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Connected to a domain (for example, at the workplace)</source>
+          <target state="translated">Mit einer Domäne (z. B. am Arbeitsplatz) verbunden</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Connected to a private (trusted) network (such as a home network)</source>
+          <target state="translated">Mit einem privaten (vertrauenswürdig) Netzwerk (z. B. einem Heimnetzwerk) verbunden</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Connected to an untrusted public network (such as a coffee shop)</source>
+          <target state="translated">Verbindung mit einem nicht vertrauenswürdigen öffentlichen Netzwerk (z. B. Internetcafés)</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value for each of these settings is <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Standardwert für jede dieser Einstellungen ist <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Configure predefined exceptions</source>
+          <target state="translated">Vordefinierte Ausnahmen konfigurieren</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can configure exceptions that allow specific types of network traffic through the firewall regardless of the values that you configured earlier.</source>
+          <target state="translated">Sie können Ausnahmen konfigurieren, mit denen bestimmte Arten von Netzwerkdatenverkehr über die Firewall unabhängig von den Werten, die Sie zuvor konfiguriert haben.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>None of these settings are configured by default.</source>
+          <target state="translated">Keiner dieser Einstellungen sind standardmäßig konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>BranchCache - Content Retrieval</source>
+          <target state="translated">BranchCache–Inhaltsabruf</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Lets BranchCache clients use HTTP to retrieve content from other BranchCache clients while in distributed mode and from the hosted cache while in hosted cache mode.</source>
+          <target state="translated">Kann von BranchCache-Clients HTTP verwenden, um Inhalt von anderen Clients BranchCache im verteilten Modus und aus dem gehosteten Cache im Modus für gehostete Caches abzurufen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This setting uses HTTP.</source>
+          <target state="translated">Bei dieser Einstellung wird HTTP verwendet.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>BranchCache - Hosted Cache Client</source>
+          <target state="translated">BranchCache–Gehosteter Cacheclient</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Lets BranchCache clients use a hosted cache.</source>
+          <target state="translated">Können BranchCache-Clients einen gehosteten Cache verwendet.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This setting uses HTTPS.</source>
+          <target state="translated">Bei dieser Einstellung wird HTTPS verwendet.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>BranchCache - Hosted Cache Server</source>
+          <target state="translated">BranchCache–Gehosteter Cacheserver</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Lets BranchCache clients use a hosted cache to communicate with other clients.</source>
+          <target state="translated">Kann von BranchCache-Clients ein gehosteter Cache zur Kommunikation mit anderen Clients verwendet.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This setting uses HTTPS.</source>
+          <target state="translated">Bei dieser Einstellung wird HTTPS verwendet.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>BranchCache - Peer Discovery</source>
+          <target state="translated">BranchCache–Peerermittlung</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Lets BranchCache clients use the Web Services Dynamic Discovery (WS-Discovery)  protocol to look up content availability on the local subnet.</source>
+          <target state="translated">Können BranchCache-Clients, die das Web Services Dynamic Discovery (WS-Discovery)-Protokoll verwenden, um die Verfügbarkeit der Inhalte im lokalen Subnetz zu suchen.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>BITS Peercaching</source>
+          <target state="translated">BITS-Peercaching</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Lets clients use Background Intelligent Transfer Service (BITS) to find and share files that are stored in the BITS cache on clients in the same subnet.</source>
+          <target state="translated">Ermöglicht Clients das Verwenden der intelligente Hintergrundübertragungsdienst (Background Intelligent Transfer Service, BITS) zum Suchen und Freigeben von Dateien, die im BITS-Cache von Clients im gleichen Subnetz gespeichert sind.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This setting uses Web Services on Devices (WSDAPI) and Remote Procedure Call (RPC).</source>
+          <target state="translated">Diese Einstellung verwendet Webdienste auf Geräten (WSDAPI) und Remoteprozeduraufruf (RPC).</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Connect to a Network Projector</source>
+          <target state="translated">Verbindung mit einem Netzwerkprojektor herstellen</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Lets users connect to projectors over wired or wireless networks to project presentations.</source>
+          <target state="translated">Können Benutzer zum projizieren von Präsentationen über verkabelte oder Drahtlosnetzwerke eine Verbindung zu Projektoren herstellen.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This setting uses WSDAPI.</source>
+          <target state="translated">Bei dieser Einstellung wird WSDAPI verwendet.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Core Networking</source>
+          <target state="translated">Core Networking</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Lets clients use IPv4 and IPv6 to connect to network resources.</source>
+          <target state="translated">Kann von Clients IPv4 und IPv6 verwendet, um auf Netzwerkressourcen zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Distributed Transaction Coordinator</source>
+          <target state="translated">Distributed Transaction Coordinator</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Enables managed computers to coordinate transactions that update transaction-protected resources, such as databases, message queues, and file systems.</source>
+          <target state="translated">Ermöglicht es verwalteten Computern Transaktionen koordiniert werden, durch die transaktionsgeschützte Ressourcen wie Datenbanken, Nachrichtenwarteschlangen und Dateisysteme aktualisiert werden.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>File and Printer Sharing</source>
+          <target state="translated">Datei- und Druckerfreigabe</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Enables users to share local files and printers with other users on the network.</source>
+          <target state="translated">Ermöglicht Benutzern, lokale Dateien und Drucker für andere Benutzer im Netzwerk freigeben.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This setting uses NetBIOS, Link Local Multicast Name Resolution (LLMNR), Server Message Block (SMB) protocol, and RPC.</source>
+          <target state="translated">Dieser Einstellung werden NetBIOS, Link lokale Multicast Name Resolution (LLMNR), Server Message Block (SMB)-Protokoll und RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>HomeGroup</source>
+          <target state="translated">Heimnetzgruppe</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Enables managed computers to participate in a HomeGroup network.</source>
+          <target state="translated">Ermöglicht es verwalteten Computern zur Teilnahme an einem Heimnetzgruppen-Netzwerk.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>iSCSI Service</source>
+          <target state="translated">iSCSI-Dienst</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Enables managed computers to connect to iSCSI servers and devices.</source>
+          <target state="translated">Wodurch verwalteter Computer eine Verbindung zu iSCSI-Servern und-Geräten herstellen.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Key Management Service</source>
+          <target state="translated">Schlüsselverwaltungsdienst</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Lets computers be counted for license compliance in enterprise environments.</source>
+          <target state="translated">Kann von Computern zur lizenzüberprüfung in unternehmensumgebungen gezählt werden.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Media Center Extenders</source>
+          <target state="translated">Media Center Extenders</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enables Media Center Extenders to communicate with computers that are running Windows Media Center.</source>
+          <target state="translated">Ermöglicht Media Center Extendern die Kommunikation mit Computern, auf denen Windows Media Center ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This setting uses Simple Service Discovery Protocol (SSDP) and qWave.</source>
+          <target state="translated">Mit dieser Einstellung werden die Simple Service Discovery-Protokoll (SSDP) und qWave verwendet.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Netlogon Service</source>
+          <target state="translated">Anmeldedienst</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Configures a security channel between domain clients and a domain controller for authenticating users and services.</source>
+          <target state="translated">Konfiguriert einen Sicherheitskanal zwischen Domänenclients und einem Domänencontroller für die Authentifizierung von Benutzern und Diensten.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This setting uses RPC.</source>
+          <target state="translated">Bei dieser Einstellung wird RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Network Discovery</source>
+          <target state="translated">Netzwerkermittlung</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Lets computers discover other devices and be discovered by other devices on the network.</source>
+          <target state="translated">Können Computer erkennen und von anderen Geräten im Netzwerk erkannt werden.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This setting uses Function Discovery Host and Publication Services and SSDP, NetBIOS, LLMNR, and UPnP network protocols.</source>
+          <target state="translated">Bei dieser Einstellung werden Funktionssuchehost und Veröffentlichungsdienste sowie die Netzwerkprotokolle SSDP, NetBIOS, LLMNR und UPnPverwendet.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Performance Logs and Alerts</source>
+          <target state="translated">Leistungsprotokolle und -warnungen</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Enables the Performance Logs and Alerts service to be remotely managed.</source>
+          <target state="translated">Aktiviert den Dienst "Leistungsprotokolle und Warnungen" Remote verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This setting uses RPC.</source>
+          <target state="translated">Bei dieser Einstellung wird RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Remote Administration</source>
+          <target state="translated">Remoteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Enables remote administration of the computer.</source>
+          <target state="translated">Aktiviert die Remoteverwaltung des Computers.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Remote Assistance</source>
+          <target state="translated">Remoteunterstützung</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Lets users of managed computers request remote assistance from other users on the network.</source>
+          <target state="translated">Können Benutzer von verwalteten Computern Remoteunterstützung von anderen Benutzern im Netzwerk.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This setting uses SSDP, Peer Name Resolution Protocol (PNRP), Teredo, and UPnP network protocols.</source>
+          <target state="translated">Dieser Einstellung werden die Netzwerkprotokolle SSDP, Peer Name Resolution Protocol (PNRP), Teredo und UPnP verwendet.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Remote Desktop</source>
+          <target state="translated">Remotedesktop</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Lets the computer use Remote Desktop to access other computers.</source>
+          <target state="translated">Kann vom Computer Remotedesktop verwenden, um auf andere Computer zuzugreifen.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Remote Event Log Management</source>
+          <target state="translated">Remote-Ereignisprotokollverwaltung</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Lets client event logs be viewed and managed remotely.</source>
+          <target state="translated">Können Client-Ereignisprotokollen angezeigt und Remote verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This setting uses Named Pipes and RPC.</source>
+          <target state="translated">Bei dieser Einstellung werden Named Pipes und RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Remote Scheduled Tasks Management</source>
+          <target state="translated">Remoteverwaltung geplanter Aufgaben</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Enables remote management of the task scheduling service.</source>
+          <target state="translated">Aktiviert die Remoteverwaltung des aufgabenplanungsdiensts.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>This setting uses RPC.</source>
+          <target state="translated">Bei dieser Einstellung wird RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Remote Service Management</source>
+          <target state="translated">Remotedienstverwaltung</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Enables remote management of local services on clients.</source>
+          <target state="translated">Aktiviert die Remoteverwaltung lokaler Dienste auf Clients.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>This setting uses Named Pipes and RPC.</source>
+          <target state="translated">Bei dieser Einstellung werden Named Pipes und RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Remote Volume Management</source>
+          <target state="translated">Remotevolumeverwaltung</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Enables remote software and hardware disk volume management.</source>
+          <target state="translated">Ermöglicht die Software- und Remoteverwaltung von Datenträgervolumes.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This setting uses RPC.</source>
+          <target state="translated">Bei dieser Einstellung wird RPC verwendet.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Routing and Remote Access</source>
+          <target state="translated">Routing und RAS</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Enables incoming VPN and remote access connections to computers.</source>
+          <target state="translated">Können eingehende VPN- und RAS-Verbindungen mit Computern.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Secure Socket Tunneling Protocol</source>
+          <target state="translated">Secure Socket Tunneling-Protokoll</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Enables incoming VPN connections to managed computers with Secure Socket Tunneling Protocol (SSTP).</source>
+          <target state="translated">Eingehende VPN-Verbindungen auf verwalteten Computern mit Secure Socket Tunneling-Protokoll (SSTP) aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This setting uses HTTPS.</source>
+          <target state="translated">Bei dieser Einstellung wird HTTPS verwendet.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>SNMP Trap</source>
+          <target state="translated">SNMP-Trap</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Lets managed computers receive Simple Network Management Protocol (SNMP) Trap service traffic.</source>
+          <target state="translated">Ermöglicht es verwaltete Computern das Simple Network Management Protocol (SNMP)-Ablaufverfolgungsdienst-Verkehr empfangen.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>UPnP Framework</source>
+          <target state="translated">UPnP-Framework</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Configures the UPnP Framework service on computers to let them discover and use UPnP certified devices.</source>
+          <target state="translated">Wird der UPnP-frameworkdienst auf Computern können sie erkennen und Verwenden von UPnP-zertifizierten Geräten konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Windows Collaboration Computer Name Registration Service</source>
+          <target state="translated">Computernamen-Registrierungsdienst von Windows-Teamarbeit</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Lets computers find and communicate with other computers by using SSDP and PNRP.</source>
+          <target state="translated">Computern suchen und kommunizieren mit anderen Computern mithilfe von SSDP und PNRP ermöglicht.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Windows Media Player</source>
+          <target state="translated">Windows Media Player</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Lets users receive streaming media over User Datagram Protocol (UDP).</source>
+          <target state="translated">Ermöglicht Benutzern das Empfangen von streaming Media über User Datagram Protocol (UDP).</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Windows Media Player Network Sharing Service</source>
+          <target state="translated">Windows Media Player-Netzwerkfreigabedienst</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Lets users share media over a network.</source>
+          <target state="translated">Können Benutzer Medien über ein Netzwerk freigeben.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>This setting uses the SSDP, qWave, and UPnP network protocols.</source>
+          <target state="translated">Bei dieser Einstellung werden die Netzwerkprotokolle SSDP, qWave und UPnP verwendet.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Windows Media Player Network Sharing Service (Internet)</source>
+          <target state="translated">Windows Media Player-Netzwerkfreigabedienst (Internet)</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Lets users share home media over the Internet.</source>
+          <target state="translated">Können Benutzer Heimmedien über das Internet freigeben.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Windows Meeting Space</source>
+          <target state="translated">Windows-Teamarbeit</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Lets users collaborate over a network to share documents, programs, and their desktops.</source>
+          <target state="translated">Ermöglicht Benutzern, die über ein Netzwerk freigeben Dokumente, Programme und ihre Desktops zusammenarbeiten.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This setting uses Distributed File System Replication (DFSR) and P2P.</source>
+          <target state="translated">Diese Einstellung wird verwendet, verteilt Datei System Replikation (DFSR) und P2P.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Windows Peer to Peer Collaboration Foundation</source>
+          <target state="translated">Windows-Peer-zu-Peer-Zusammenarbeits-Foundation</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Configures various peer-to-peer programs and technologies to enable them to connect.</source>
+          <target state="translated">Wird Peer-to-Peer-Programmen und Technologien, damit sie eine Verbindung herstellen können.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This setting uses SSDP and PNRP.</source>
+          <target state="translated">Bei dieser Einstellung werden SSDP und PNRP verwendet.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Windows Remote Management (Compatibility)</source>
+          <target state="translated">Windows-Remoteverwaltung (Kompatibilität)</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Enables remote management of managed computers with WS-Management, a Web services-based protocol for remote management of operating systems and devices.</source>
+          <target state="translated">Aktiviert die Remoteverwaltung von verwalteten Computern mit WS-Verwaltung, einem auf Webdiensten basierenden Protokoll für die Remoteverwaltung von Betriebssystemen und Geräten.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Windows Remote Management</source>
+          <target state="translated">Windows-Remoteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>(Windows 8 or later)</source>
+          <target state="translated">(Windows 8 oder spätere Versionen)</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enables remote management of managed computers with WS-Management, a Web services-based protocol for remote management of operating systems and devices.</source>
+          <target state="translated">Aktiviert die Remoteverwaltung von verwalteten Computern mit WS-Verwaltung, einem auf Webdiensten basierenden Protokoll für die Remoteverwaltung von Betriebssystemen und Geräten.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Windows Virtual PC</source>
+          <target state="translated">Windows Virtual PC</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>(Windows 7 or later)</source>
+          <target state="translated">(Windows 7 oder höher)</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Lets virtual machines communicate with other computers.</source>
+          <target state="translated">Können virtuelle Computer mit anderen Computern kommunizieren.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Wireless Portable Devices</source>
+          <target state="translated">Tragbare Drahtlosgeräte</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Enables the transfer of media from a network-enabled camera or media device to managed computers with Media Transfer Protocol (MTP).</source>
+          <target state="translated">Ermöglicht die Übertragung von Medien von einer netzwerkfähigen Kamera oder einem Mediengerät Gerät auf verwalteten Computern mit Media Transfer-Protokolls (MTP).</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>This setting uses SSDP and UPnP network protocols.</source>
+          <target state="translated">Bei dieser Einstellung werden die Netzwerkprotokolle SSDP und UPnP verwendet.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Policies to protect Windows PCs</source>
+          <target state="translated">Richtlinien zum Schutz von Windows-PCs</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

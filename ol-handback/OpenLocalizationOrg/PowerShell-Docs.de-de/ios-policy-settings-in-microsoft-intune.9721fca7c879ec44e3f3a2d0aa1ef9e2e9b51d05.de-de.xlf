@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24540a74ce98adbf3f908cbea401328f027867ca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c54e7688b3f4f472b0f896b381617cde115f5017</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">476e8d9fb7781c66832a7e31a6e9ca887a79f7d3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>iOS policy settings | Microsoft Intune</source>
+          <target state="translated">iOS-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create policies that control settings and features on iOS devices that you manage with Intune.</source>
+          <target state="translated">Erstellen Sie Richtlinien, mit denen gesteuert wird, Einstellungen und Features auf iOS-Geräte, die Sie mit Intune verwalten.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>iOS policy settings in Microsoft Intune</source>
+          <target state="translated">iOS-Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune supplies a range of built-in general settings that you can configure on iOS devices.</source>
+          <target state="translated">Intune stellt einen Bereich von integrierten allgemeinen Einstellungen, die Sie auf iOS-Geräten konfigurieren können.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Additionally, you can use the Apple Configurator tool to create custom settings that are not available from Intune.</source>
+          <target state="translated">Darüber hinaus können Sie Apple Configurator-Tool verwenden, um benutzerdefinierte Einstellungen zu erstellen, die nicht von Intune verfügbar sind.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>General configuration policy settings</source>
+          <target state="translated">Allgemeine Konfiguration</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>iOS general configuration policy<ept id="p1">**</ept> to configure settings for:</source>
+          <target state="translated">Verwenden Sie die Microsoft Intune <bpt id="p1">**</bpt>iOS-Konfigurationsrichtlinie<ept id="p1">**</ept> für konfigurieren:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General device, and security settings<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Allgemeine Geräte und Sicherheitseinstellungen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Choose from a list of predefined settings that let you control a range of features and functionality on the device.</source>
+          <target state="translated">Wählen Sie aus einer Liste mit vordefinierten Einstellungen, mit die Sie eine Reihe von Features und Funktionen auf dem Gerät steuern können.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Kiosk mode<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kiosk-Modus<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Lock a device to allow only certain features to work.</source>
+          <target state="translated">Sperren Sie ein Gerät, um nur bestimmte Funktionen funktionieren.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, you can allow a device to run only one managed app that you specify, or you can disable the volume buttons on a device.</source>
+          <target state="translated">Beispielsweise können Sie ein Gerät nur eine verwaltete app ausgeführt, die Sie angeben können, oder Sie können die Lautstärkeregler auf einem Gerät deaktivieren.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These settings might be used for a demonstration model of a device, or a device that is dedicated to performing only one function, such as a point-of-sale device.</source>
+          <target state="translated">Diese Einstellung können verwendet werden, für ein Demomodell eines Geräts oder ein Gerät, das nur eine Funktion, z. B. ein POS-Gerät ausführen.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant and noncompliant apps<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kompatible und nicht kompatible apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that are compliant or not compliant in your company.</source>
+          <target state="translated">Geben Sie eine Liste der apps, die in Ihrem Unternehmen nicht kompatibel sind.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On Android and iOS devices, the <bpt id="p1">**</bpt>Noncompliant Apps Report<ept id="p1">**</ept> can be used to view the compliance of apps that you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).</source>
+          <target state="translated">Für Android und iOS-Geräte die <bpt id="p1">**</bpt>Bericht über nicht kompatible Apps<ept id="p1">**</ept> dienen kann, zeigen Sie die Kompatibilität von apps, die Sie in der Liste Apps, der Benutzer installiert haben angegeben (können jedoch blockiert die Installation der app).</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can configure terms and conditions for users to ensure that they acknowledge that apps on their device (including personal apps) will be evaluated, and noncompliant apps will be either blocked or reported as noncompliant.</source>
+          <target state="translated">Sie können konfigurieren, Bestimmungen für Benutzer, um sicherzustellen, dass sie bestätigen, dass apps auf ihrem Gerät (einschließlich persönlicher apps) ausgewertet werden, und nicht kompatiblen apps entweder blockiert oder als nicht konform gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Users must accept these terms and conditions before they can enroll their device and use the company portal to get apps.</source>
+          <target state="translated">Benutzer müssen diese Bestimmungen akzeptieren, bevor sie ihr Gerät registrieren und verwenden das Unternehmensportal apps abrufen können.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about using terms and conditions, see <bpt id="p1">[</bpt>Terms and conditions policy settings in Microsoft Intune<ept id="p1">](terms-and-condition-policy-settings-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zur Verwendung von Nutzungsbedingungen finden Sie unter <bpt id="p1">[</bpt>Geschäftsbedingungen Richtlinien in Microsoft Intune<ept id="p1">](terms-and-condition-policy-settings-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the setting you are looking for does not appear in this topic, you might be able to create it by using an iOS custom policy that lets you import settings you created by using the <bpt id="p1">[</bpt>Apple Configurator tool<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept>.</source>
+          <target state="translated">Wenn die gesuchte Einstellung nicht in diesem Thema angezeigt wird, ist Sie möglicherweise erstellen mithilfe einer benutzerdefinierten iOS-Richtlinie, mit dem Sie Einstellungen importieren und mit der Erstellung der <bpt id="p1">[</bpt>Apple Configurator-Tool<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see "Custom policy settings" later in this topic.</source>
+          <target state="translated">Weitere Informationen finden Sie unter "Benutzerdefinierte-Richtlinieneinstellungen" weiter unten in diesem Thema.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Security settings</source>
+          <target state="translated">Sicherheitseinstellungen</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Require a password to unlock mobile devices</source>
+          <target state="translated">Kennwort zum Entsperren mobiler Geräte erforderlich</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Specify whether the user is required to enter a password to access their device.</source>
+          <target state="translated">Geben Sie an, ob der Benutzer ein Kennwort für den Zugriff auf ihr Gerät eingeben muss.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="translated">Erforderlicher Kennworttyp</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specify the type of password that will be required, such as numeric only or alphanumeric.</source>
+          <target state="translated">Geben Sie den Typ des Kennworts, die erforderlich sind, z. B. numerisch nur oder alphanumerisch.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Number of complex characters required in password</source>
+          <target state="translated">Anzahl komplexer Zeichen im Kennwort</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specify the number of symbol characters (like <bpt id="p1">**</bpt><ph id="ph1">#</ph><ept id="p1">**</ept> or <bpt id="p2">**</bpt><ph id="ph2">@</ph><ept id="p2">**</ept>) that must be included in the password.</source>
+          <target state="translated">Geben Sie die Anzahl von Symbolzeichen (z. B. <bpt id="p1">**</bpt><ph id="ph1">#</ph><ept id="p1">**</ept> oder <bpt id="p2">**</bpt><ph id="ph2">@</ph><ept id="p2">**</ept>), die im Kennwort enthalten sein müssen.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Minimum password length</source>
+          <target state="translated">Minimale Kennwortlänge</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify the minimum number of characters in the password.</source>
+          <target state="translated">Geben Sie die minimale Anzahl von Zeichen im Kennwort.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords</source>
+          <target state="translated">Einfache Kennwörter zulassen</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords like <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> and <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</source>
+          <target state="translated">Einfache Kennwörter wie zulassen <bpt id="p1">**</bpt>0000<ept id="p1">**</ept> und <bpt id="p2">**</bpt>1234<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
+          <target state="translated">Anzahl der zulässigen wiederholten Anmeldefehler, bevor die Gerätedaten zurückgesetzt werden</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specify the number of failed login attempts before this setting wipes the device.</source>
+          <target state="translated">Geben Sie die Anzahl fehlgeschlagener Anmeldeversuche, bevor diese Einstellung das Gerät zurücksetzen.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Specify how long the device can remain idle before the user must re-enter their password.</source>
+          <target state="translated">Geben Sie an, wie lange das Gerät sich im Leerlauf bleiben kann, bevor der Benutzer sein Kennwort erneut eingeben muss.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="translated">Kennwortablauf (Tage)</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specify the number of days before the device password must be changed.</source>
+          <target state="translated">Geben Sie die Anzahl der Tage, bevor das Gerätekennwort geändert werden muss.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="translated">Kennwortverlauf speichern</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specify whether the user can use passwords that they have previously used.</source>
+          <target state="translated">Geben Sie an, ob der Benutzer Kennwörter verwenden kann, die sie zuvor verwendet haben.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept> – <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortverlauf<ept id="p1">**</ept> – <bpt id="p2">**</bpt>erneute Verwendung früherer Kennwörter verhindern<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Specify the number of previously used passwords that the device remembers.</source>
+          <target state="translated">Geben Sie die Anzahl der zuvor verwendeten Kennwörter ein, denen das Gerät gespeichert.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minuten der Inaktivität, bevor der Bildschirm ausgeschaltet<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specify the number of minutes before the device display is turned off.</source>
+          <target state="translated">Geben Sie die Anzahl der Minuten vor der Anzeige des Geräts deaktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Allow fingerprint unlock</source>
+          <target state="translated">Fingerabdruckentsperrung zulassen</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Allow using a fingerprint to unlock the device.</source>
+          <target state="translated">Zulassen Sie verwenden einen Fingerabdruck zum Entsperren des Geräts</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>1<ph id="ph1">&lt;/sup&gt;</ph> For iOS devices, when you configure the settings <bpt id="p1">**</bpt>Minutes of inactivity before screen turns off<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Minutes of inactivity before password is required<ept id="p2">**</ept>, they are applied in sequence.</source>
+          <target state="translated">1<ph id="ph1">&lt;/sup&gt;</ph> für iOS-Geräte, wenn Sie die Einstellungen konfigurieren <bpt id="p1">**</bpt>Minuten der Inaktivität, bevor der Bildschirm ausgeschaltet<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p2">**</ept>, in der Reihenfolge angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, if you set the value for both settings to <bpt id="p1">**</bpt>5<ept id="p1">**</ept> minutes, the screen will turn off automatically after 5 minutes, and the device will be locked after an additional 5 minutes.</source>
+          <target state="translated">Beispielsweise, wenn Sie für beide Einstellungen auf den Wert festlegen <bpt id="p1">**</bpt>5<ept id="p1">**</ept> Minuten der Bildschirm automatisch nach 5 Minuten deaktiviert, und das Gerät wird nach weiteren 5 Minuten gesperrt.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, if the user turns off the screen manually, the second setting is immediately applied.</source>
+          <target state="translated">Wenn der Benutzer den Bildschirm manuell deaktiviert, ist jedoch die zweite Einstellung sofort angewendet.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the same example, after the user turns off the screen, the device will lock 5 minutes later.</source>
+          <target state="translated">In diesem Beispiel nachdem der Benutzer den Bildschirm deaktiviert wird das Gerät 5 Minuten später gesperrt.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>System settings</source>
+          <target state="translated">Systemeinstellungen</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Allow screenshot</source>
+          <target state="translated">Bildschirmfoto zulassen</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Allow the user to capture the contents of the screen as an image.</source>
+          <target state="translated">Kann der Benutzer die Aufnahme des Bildschirminhalts als Bild zu erfassen.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Allow control center in lock screen</source>
+          <target state="translated">Kontrollcenter auf Sperrbildschirm zulassen</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Allow the user to access the control center app when the device is locked.</source>
+          <target state="translated">Zulassen, dass der Benutzer die Control-Center-app zugreifen, wenn das Gerät gesperrt ist.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Allow notification view in lock screen</source>
+          <target state="translated">Benachrichtigungsansicht auf Sperrbildschirm zulassen</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Allow the user to access the notifications view without unlocking the device.</source>
+          <target state="translated">Kann der Benutzer auf die benachrichtigungsansicht zugreifen, ohne das Gerät zu entsperren.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Allow today view in lock screen</source>
+          <target state="translated">Ansicht "Heute" auf Sperrbildschirm zulassen</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Allow the user to view notifications when the device is locked.</source>
+          <target state="translated">Kann der Benutzer Benachrichtigungen anzeigen, wenn das Gerät gesperrt ist.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Allow untrusted TLS certificates</source>
+          <target state="translated">Nicht vertrauenswürdige TLS-Zertifikate zulassen</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Allow untrusted Transport Layer Security certificates on the device.</source>
+          <target state="translated">Nicht vertrauenswürdige TLS-Zertifikate auf dem Gerät zulassen.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Allow diagnostic data submission</source>
+          <target state="translated">Übermitteln von Diagnosedaten zulassen</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Allow or block the device from submitting diagnostic data to Apple.</source>
+          <target state="translated">Zulassen Sie oder blockieren Sie des Geräts von Diagnosedaten an Apple senden.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Allow passbook while locked</source>
+          <target state="translated">Passbook während Sperrung</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Allow the user to access the Passbook app while the device is locked.</source>
+          <target state="translated">Kann der Benutzer auf die Passbook während das Gerät gesperrt ist.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Cloud settings for documents and data</source>
+          <target state="translated">Cloud-Einstellungen für Dokumente und Daten</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Allow backup to iCloud</source>
+          <target state="translated">Sicherung in iCloud zulassen</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Allow the user to back up the device to iCloud.</source>
+          <target state="translated">Kann der Benutzer das Gerät auf iCloud sichern.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Allow document sync to iCloud</source>
+          <target state="translated">Dokumentsynchronisierung in iCloud zulassen</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Allow document and key-value synchronization to your iCloud storage space.</source>
+          <target state="translated">Dokument und Schlüssel / Wert-Synchronisierung in Ihrem Speicher iCloud zulassen.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Allow Photo Stream sync to iCloud</source>
+          <target state="translated">Photo Stream-Synchronisierung in iCloud zulassen</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Allow photos on the device to sync to iCloud.</source>
+          <target state="translated">Zulassen Sie Fotos auf dem Gerät für die Synchronisierung in iCloud</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Require encrypted backup</source>
+          <target state="translated">Verschlüsselte Sicherung erforderlich</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Require any device backups to be encrypted.</source>
+          <target state="translated">Erfordern Sie Sicherungskopien Gerät verschlüsselt werden.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Allow managed apps to sync data to iCloud</source>
+          <target state="translated">Zulassen Sie verwaltete apps für die Synchronisierung von Daten in iCloud</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Allow apps that you manage with Intune to sync data to the user's iCloud account.</source>
+          <target state="translated">Zulassen Sie apps, die Sie mit Intune, um Daten zu synchronisieren, das Konto des Benutzers iCloud verwalten</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Allow Handoff to continue activities on another device</source>
+          <target state="translated">Zulassen Sie Übergabe fort Aktivitäten auf einem anderen Gerät</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Allow the user to continue work that they started on an iOS device on another iOS or Mac OS X device.</source>
+          <target state="translated">Kann der Benutzer weiterarbeiten, die sie auf einem iOS-Gerät auf einen anderen iOS oder Mac OS X-Gerät gestartet.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Allow iCloud Photo Sharing</source>
+          <target state="translated">Fotofreigabe iCloud zulassen</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Allow use of the iOS shared photo stream feature.</source>
+          <target state="translated">Lassen Sie die Verwendung der iOS freigegebenen Photo Stream-Funktion.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Allow iCloud Photo Library</source>
+          <target state="translated">ICloud Fotobibliothek zulassen</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Allow the user to store photos on iCloud.</source>
+          <target state="translated">Zulassen Sie den Benutzer zum Speichern von Fotos auf iCloud</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If disabled, any photos already stored on iCloud will be removed.</source>
+          <target state="translated">Wenn deaktiviert, werden bereits auf iCloud gespeicherten Fotos entfernt.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Application settings for the browser</source>
+          <target state="translated">Einstellungen für den browser</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Allow Safari</source>
+          <target state="translated">Safari zulassen</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Specify whether the Safari browser can be used on the device.</source>
+          <target state="translated">Geben Sie an, ob es sich bei der Safari-Browser auf dem Gerät verwendet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Allow autofill</source>
+          <target state="translated">AutoAusfüllen zulassen</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Allow the user to change autocomplete settings in the browser.</source>
+          <target state="translated">Kann der Benutzer Autocomplete im Browser ändern.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Allow pop-up blocker</source>
+          <target state="translated">Popupblocker zulassen</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Enable or disable the browser pop-up blocker.</source>
+          <target state="translated">Aktivieren Sie oder deaktivieren Sie den Popupblocker des Webbrowsers.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Allow cookies</source>
+          <target state="translated">Cookies zulassen</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Allow the browser to use cookies.</source>
+          <target state="translated">Ermöglichen des Browsers Cookies verwenden.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Allow Java scripting</source>
+          <target state="translated">JavaScript zulassen</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Allow Java scripts to run in the browser.</source>
+          <target state="translated">Ermöglichen Sie Java-Skripts im Browser ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Allow fraud warning</source>
+          <target state="translated">Betrugswarnung zulassen</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Allow fraud warnings in the browser.</source>
+          <target state="translated">Betrug Warnungen im Browser zulassen</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Application settings for apps</source>
+          <target state="translated">Anwendungseinstellungen für apps</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Allow installing apps</source>
+          <target state="translated">Zulassen Sie Installieren von apps</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Allow the device to access the app store and install apps.</source>
+          <target state="translated">Ermöglichen Sie das Gerät Zugriff auf den app Store und apps zu installieren.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Require a password to access application store</source>
+          <target state="translated">Kennwort für den Zugriff auf den Anwendungsspeicher erforderlich</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Require the user to enter a password before they can visit the app store.</source>
+          <target state="translated">Muss der Benutzer ein Kennwort eingeben, bevor sie den app Store besuchen können.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Allow in-app purchases</source>
+          <target state="translated">In-App-Einkäufe zulassen</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Allow store purchases to be made from within a running app.</source>
+          <target state="translated">Zulassen Sie Store einkaufen von innerhalb einer ausgeführten Anwendung</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Allow managed documents in other unmanaged apps</source>
+          <target state="translated">Verwaltete Dokumente in anderen nicht verwalteten Apps zulassen</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Allow corporate documents to be viewed in any app.</source>
+          <target state="translated">Hiermit wird die Anzeige von Unternehmensdokumenten in beliebigen Apps zugelassen.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> You want to prevent users from saving files from the OneDrive app to Dropbox.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beispiel:<ept id="p1">**</ept> verhindern, dass Benutzer Dateien aus OneDrive-app auf Dropbox gespeichert werden soll.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Configure this setting as no.</source>
+          <target state="translated">Konfigurieren Sie diese Einstellung wird kein.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>After the device receives the policy (for example, after a restart), it will no longer allow saving.</source>
+          <target state="translated">Nachdem das Gerät die Richtlinie (z. B. nach einem Neustart) empfangen hat, kann es nicht mehr speichern.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Allow unmanaged documents in other managed apps</source>
+          <target state="translated">Nicht verwaltete Dokumente in anderen verwalteten Apps zulassen</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Allow any document to be viewed in corporate managed apps.</source>
+          <target state="translated">Können Sie alle Dokumente in Unternehmens-verwalteten apps angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Allow video conferencing</source>
+          <target state="translated">Videokonferenz zulassen</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Allow video conferencing apps such as FaceTime on the device.</source>
+          <target state="translated">Videokonferenz-apps wie FaceTime auf dem Gerät zulassen</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Allow the user to trust new enterprise app authors</source>
+          <target state="translated">Ermöglichen Sie dem Benutzer, neue Enterprise app Autoren vertrauen</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Lets the user select to trust apps that were not downloaded from the app store.</source>
+          <target state="translated">Kann der Benutzer auswählen, um apps zu vertrauen, die nicht aus dem app Store heruntergeladen wurden.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Application settings for games</source>
+          <target state="translated">Einstellungen für Spiele</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Allow adding Game Center friends</source>
+          <target state="translated">Zulassen Sie Hinzufügen von Game Center-Freunde</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Allow the user to add friends in Game Center.</source>
+          <target state="translated">Ermöglichen Sie Benutzern das Hinzufügen von Freunden in Game Center.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Allow multiplayer gaming</source>
+          <target state="translated">Spielen für mehrere Spieler zulassen</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Allow the user to play multiplayer games on the device.</source>
+          <target state="translated">Ermöglichen Sie den Benutzer, Multiplayer-Spiele auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Application settings for media content</source>
+          <target state="translated">Anwendungseinstellungen für Media-Inhalte</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Ratings region</source>
+          <target state="translated">Bewertungsregion</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Select a region, then select the maximum rating that users can download for <bpt id="p1">**</bpt>Movies<ept id="p1">**</ept>, <bpt id="p2">**</bpt>TV Shows<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</source>
+          <target state="translated">Wählen Sie eine Region aus, und wählen Sie die maximale Bewertung, die für die Benutzer herunterladen können <bpt id="p1">**</bpt>Filme<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Fernsehsendungen<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Allow adult content in media store</source>
+          <target state="translated">Nicht jugendfreie Inhalte im Medienstore zulassen</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Allow the device to access content rated as adult from the store.</source>
+          <target state="translated">Ermöglichen Sie das Gerät Zugriff auf Inhalte, die als Erwachsener aus dem Speicher bewertet.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Allow the user to download content from the iBook store flagged as 'Erotica'</source>
+          <target state="translated">Kann der Benutzer zum Herunterladen von Inhalt aus dem iBook-Speicher als erotisches "Material" gekennzeichnet</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Allow the user to download books with the "Erotica" category.</source>
+          <target state="translated">Ermöglichen Sie den Benutzer, die Bücher der Kategorie "Erotisches Material" herunterladen.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings for hardware</source>
+          <target state="translated">Einstellungen für Gerätefunktionen für hardware</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Allow camera</source>
+          <target state="translated">Kamera zulassen</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Specify whether the camera on the device can be used.</source>
+          <target state="translated">Geben Sie an, ob die Kamera auf dem Gerät verwendet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Force paired Apple Watches to use wrist detection</source>
+          <target state="translated">Erzwingen der gekoppelten Apple Überwachungen Handgelenk Erkennung verwenden</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>When enabled, the Apple Watch won't display notifications when it is not being worn.</source>
+          <target state="translated">Wenn aktiviert, nicht die Apple Watch Benachrichtigungen angezeigt, wenn er nicht gerade abgenutzt ist.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Require a pairing password for outgoing AirPlay requests</source>
+          <target state="translated">Für ausgehende AirPlay Anforderungen Kopplung Kennwort erforderlich</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Require a pairing password when the user uses AirPlay to stream content to other Apple devices.</source>
+          <target state="translated">Kopplung Kennwort ist erforderlich, wenn der Benutzer zum Streamen von Inhalten von anderen Geräten Apple AirPlay verwendet.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings for cellular</source>
+          <target state="translated">Einstellungen für Gerätefunktionen für Mobiltelefon</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Allow voice roaming</source>
+          <target state="translated">Sprachroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Allow voice roaming when the device is on a cellular network.</source>
+          <target state="translated">Wenn das Gerät über das Mobilfunknetz sprachroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Allow data roaming</source>
+          <target state="translated">Datenroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Allow data roaming when the device is on a cellular network.</source>
+          <target state="translated">Wenn das Gerät über das Mobilfunknetz roaming Daten zulassen.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Allow global background fetch while roaming</source>
+          <target state="translated">Globales abrufen im Hintergrund beim roaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Allow the device to fetch data such as email while it is roaming on a cellular network.</source>
+          <target state="translated">Zulassen Sie das Gerät Daten wie z. B. e-Mail-Adresse abzurufen, während es über das Mobilfunknetz per roaming</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings for features</source>
+          <target state="translated">Einstellungen für Gerätefunktionen für Funktionen</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Allow Siri</source>
+          <target state="translated">Siri zulassen</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Allow use of the Siri voice assistant on the device.</source>
+          <target state="translated">Verwendung von Siri Sprach-Assistenten auf dem Gerät zulassen.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Allow Siri while device is locked</source>
+          <target state="translated">Zulassen Sie siri bei gesperrtem Gerät</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Allow use of the Siri voice assistant on the device while it is locked.</source>
+          <target state="translated">Zulassen Sie Verwendung von Siri Sprach-Assistenten auf dem Gerät, während er gesperrt ist.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Allow voice dialing</source>
+          <target state="translated">Sprachwahl zulassen</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Allow use of the voice dialing feature on the device.</source>
+          <target state="translated">Verwendung der Sprachwahl-Funktion auf dem Gerät zulassen.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Do not allow Airdrop from managed apps</source>
+          <target state="translated">Airdrop nicht von verwalteten apps zulassen</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Stops managed apps from being able to send data via.</source>
+          <target state="translated">Beendet verwaltete apps kann zum Senden von Daten über.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Airdrop.</source>
+          <target state="translated">Airdrop.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Settings for compliant and noncompliant apps</source>
+          <target state="translated">Einstellungen für kompatible und nicht kompatible apps</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Compliant <ph id="ph1">&amp;amp;</ph> Noncompliant Apps<ept id="p1">**</ept> list, specify a list of compliant or noncompliant apps by using the following information.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>kompatibel <ph id="ph1">&amp;amp;</ph> nicht kompatiblen Apps<ept id="p1">**</ept> Geben eine Liste kompatibler oder nicht kompatibler mit den folgenden Informationen.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A single policy can contain only a list of compliant apps or a list of noncompliant apps.</source>
+          <target state="translated">Eine einzelne Richtlinie kann nur eine Liste der kompatiblen apps oder eine Liste nicht kompatibler Apps enthalten.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>You cannot specify both in the same policy.</source>
+          <target state="translated">Sie können nicht beide in derselben Richtlinie angeben.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Report noncompliance when users install the listed apps</source>
+          <target state="translated">Melden Sie Nichtkompatibilität, wenn der Benutzer die aufgelisteten apps installieren</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>List the apps (not managed by Intune) that users are not allowed to install and run.</source>
+          <target state="translated">Liste der apps (nicht von Intune verwaltet), dass der Benutzer nicht zum Installieren und ausführen dürfen.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Report noncompliance when users install apps which are not listed</source>
+          <target state="translated">Melden Sie Nichtkompatibilität, wenn der Benutzer nicht aufgelisteten apps installieren</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>List the apps that users are allowed to install.</source>
+          <target state="translated">Listet die apps, die Benutzer installieren dürfen.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>To remain compliant, users must not install apps that are not listed.</source>
+          <target state="translated">Um kompatibel sind, müssen Benutzer keine apps installieren, die nicht aufgeführt sind.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Apps that are managed by Intune are automatically allowed.</source>
+          <target state="translated">Apps, die von Intune verwaltet werden, sind automatisch zugelassen.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Add an app to the selected list.</source>
+          <target state="translated">Fügen Sie eine app zur ausgewählten Liste hinzu.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Specify a name of your choice, optionally the app publisher, and the URL to the app in the app store.</source>
+          <target state="translated">Geben Sie einen Namen Ihrer Wahl, optional Herausgeber der app und die URL zur app im app Store.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Read "How to specify URLs to app stores" later in this topic for more help.</source>
+          <target state="translated">"Gewusst wie: Angeben von URLs zu app-Stores" weiter unten in diesem Thema Weitere Informationen zu lesen.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Import Apps</source>
+          <target state="translated">Importieren von Apps</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Import a list of apps you have specified in a comma-separated values file.</source>
+          <target state="translated">Importieren Sie eine Liste von apps, die Sie in eine CSV-Datei angegeben haben.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>In the file, use this format: application name, publisher, app URL.</source>
+          <target state="translated">Verwenden Sie in der Datei Folgendes Format: Anwendungsname, Herausgeber und app-URL.</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated">Bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Edit the name, publisher, and URL of the selected app.</source>
+          <target state="translated">Bearbeiten Sie Name, Herausgeber und URL der ausgewählten app.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">„Löschen“</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Delete the selected app from the list.</source>
+          <target state="translated">Löschen Sie die ausgewählte app aus der Liste aus.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Kiosk mode settings</source>
+          <target state="translated">Einstellungen für den Kioskmodus</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Select a managed app that will be allowed to run when the device is in kiosk mode</source>
+          <target state="translated">Wählen Sie eine verwaltete app, die ausgeführt wird, wenn das Gerät im Kiosk-Modus ist zulässig ist</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Browse<ept id="p1">**</ept>, and then specify the managed app or app from a store that will be allowed to run when the device is in kiosk mode.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Durchsuchen<ept id="p1">**</ept>, und geben Sie dann die verwaltete app oder eine app aus einem Speicher, der ausgeführt wird, wenn das Gerät im Kiosk-Modus ist zulässig ist.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>No other apps will be allowed to run on the device.</source>
+          <target state="translated">Keine andere apps dürfen auf dem Gerät ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For more help, see "How to specify URLs to app stores" later in this topic.</source>
+          <target state="translated">Weitere Informationen finden Sie unter "Gewusst wie: Angeben von URLs zu app-Stores" weiter unten in diesem Thema.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Allow touch</source>
+          <target state="translated">Toucheingabe zulassen</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Enable or disable the touchscreen on the device.</source>
+          <target state="translated">Aktiviert oder deaktiviert den Touchscreen des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Allow screen rotation</source>
+          <target state="translated">Bildschirmdrehung zulassen</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Enable or disable changing the screen orientation when the user rotates the device.</source>
+          <target state="translated">Aktivieren Sie oder deaktivieren Sie, Ändern der bildschirmausrichtung, wenn der Benutzer das Gerät dreht.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Allow volume buttons</source>
+          <target state="translated">Lautstärkeregler zulassen</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Enable or disable the use of the volume buttons on the device.</source>
+          <target state="translated">Aktivieren Sie oder deaktivieren Sie die Verwendung der Lautstärkeregler am Gerät.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Allow ringer switch</source>
+          <target state="translated">Ruftonschalter zulassen</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Enable or disable the ringer (mute) switch on the device.</source>
+          <target state="translated">Aktiviert oder deaktiviert den ruftonschalter (stummschaltung) auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Allow screen sleep wake button</source>
+          <target state="translated">Schaltfläche für Standby und aktivieren zulassen</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Enable or disable the screen sleep wake button on the device.</source>
+          <target state="translated">Aktivieren Sie oder deaktivieren Sie den Bildschirm Standby-Taste auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Allow auto lock</source>
+          <target state="translated">Automatische Sperrung zulassen</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Enable or disable automatic locking of the device.</source>
+          <target state="translated">Aktivieren Sie oder deaktivieren Sie die automatische Sperrung des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Enable mono audio</source>
+          <target state="translated">Mono-/ Audio aktivieren</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Enable or disable the accessibility setting <bpt id="p1">**</bpt>Mono audio<ept id="p1">**</ept>.</source>
+          <target state="translated">Aktivieren oder deaktivieren Sie die Einstellung Zugriff <bpt id="p1">**</bpt>Mono / Audio<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Enable voice over</source>
+          <target state="translated">Voice-over aktivieren</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Enable or disable the accessibility setting <bpt id="p1">**</bpt>VoiceOver<ept id="p1">**</ept>, which reads aloud text on the device display.</source>
+          <target state="translated">Aktivieren oder deaktivieren Sie die Einstellung Zugriff <bpt id="p1">**</bpt>VoiceOver<ept id="p1">**</ept>, die laut vorliest Text auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Enable voice over adjustments</source>
+          <target state="translated">Voice-over-Anpassungen aktivieren</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Enable or disable voiceover adjustments, which let the user adjust the VoiceOver function (for example, how fast on-screen text is read aloud).</source>
+          <target state="translated">Aktivieren oder Deaktivieren von Voice-over Anpassungen, die den Benutzer Anpassen der VoiceOver-Funktion (z. B. wie schnell Bildschirmtext vorgelesen wird).</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Enable zoom</source>
+          <target state="translated">Zoom aktivieren</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Enable or disable the <bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept> accessibility setting, which lets the user use touch to zoom in to the device display.</source>
+          <target state="translated">Aktivieren oder Deaktivieren der <bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept> Eingabehilfe, mit der Benutzer Touch verwenden, um an die vergrößern kann.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Enable zoom adjustments</source>
+          <target state="translated">Zoom-Anpassungen aktivieren</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Enable or disable zoom adjustments, which let the user adjust the zoom function.</source>
+          <target state="translated">Aktivieren oder Deaktivieren von Zoom-Anpassungen, mit die den Benutzer die Zoomfunktion anpassen können.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Enable invert colors</source>
+          <target state="translated">Farben umkehren zulassen</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Enable or disable the <bpt id="p1">**</bpt>Invert Colors<ept id="p1">**</ept> accessibility setting, which adjusts the display to help users with visual impairments.</source>
+          <target state="translated">Aktivieren oder Deaktivieren der <bpt id="p1">**</bpt>Farben umkehren<ept id="p1">**</ept> Eingabehilfe, die die Anzeige zum Benutzer mit eingeschränkter sehfähigkeit anpasst.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Enable invert colors adjustments</source>
+          <target state="translated">Farbumkehr-Anpassungen aktivieren</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Enable or disable invert colors adjustments, which let the user adjust the invert colors function.</source>
+          <target state="translated">Aktiviert oder deaktiviert Farbumkehr-Anpassungen, die den Benutzer die Funktion "Umkehren" anpassen können.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Enable assistive touch</source>
+          <target state="translated">Touch-Unterstützung aktivieren</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Enable or disable the <bpt id="p1">**</bpt>Assistive Touch<ept id="p1">**</ept> accessibility setting, which helps the user perform on-screen gestures that might be difficult for them to perform.</source>
+          <target state="translated">Aktivieren oder Deaktivieren der <bpt id="p1">**</bpt>Touch-Unterstützung<ept id="p1">**</ept> Eingabehilfe, dem den Benutzer auf dem Bildschirm durchführen kann Gesten, die möglicherweise schwierig für sie ausführen.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Enable assistive touch adjustments</source>
+          <target state="translated">Touch-unterstützungsanpassungen aktivieren</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Enable or disable assistive touch adjustments, which let the user adjust the assistive touch function.</source>
+          <target state="translated">Aktivieren oder Deaktivieren von Touch-unterstützungsanpassungen, mit die den Benutzer die Funktion der Touch-Unterstützung anpassen können.</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Enable speech selection</source>
+          <target state="translated">Sprachauswahl aktivieren</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Enable or disable the <bpt id="p1">**</bpt>Speak Selection<ept id="p1">**</ept> accessibility settings, which can read aloud the text that the user selects.</source>
+          <target state="translated">Aktivieren oder Deaktivieren der <bpt id="p1">**</bpt>Sprachauswahl<ept id="p1">**</ept> Eingabehilfen, die den Text vorgelesen werden kann, die der Benutzer auswählt.</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The following notes apply to kiosk mode settings for iOS devices:</source>
+          <target state="translated">Die folgenden Hinweise gelten für Kiosk-moduseinstellungen für iOS-Geräte:</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Before you can configure an iOS device for kiosk mode, you must use the <bpt id="p1">[</bpt>Apple Configurator tool<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept> or the <bpt id="p2">[</bpt>Apple Device Enrollment Program<ept id="p2">](ios-device-enrollment-program-in-microsoft-intune)</ept> to put the device into supervised mode.</source>
+          <target state="translated">Bevor Sie ein iOS-Gerät für den Kiosk-Modus konfigurieren können, verwenden Sie die <bpt id="p1">[</bpt>Apple Configurator-Tool<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept> oder <bpt id="p2">[</bpt>Apple Device Enrollment Program<ept id="p2">](ios-device-enrollment-program-in-microsoft-intune)</ept> auf das Gerät überwachten Modus versetzen.</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>For more information about the Apple Configurator tool, see your Apple documentation.</source>
+          <target state="translated">Weitere Informationen zum Apple Configurator-Tool finden Sie in der Apple-Dokumentation.</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>If the iOS app that you specify is installed after you deploy the configuration policy, the device will not enter kiosk mode until after it is restarted.</source>
+          <target state="translated">Wenn die iOS-app, die Sie angeben, nach der Bereitstellung der Konfigurationsrichtlinie installiert ist, wird das Gerät Kioskmodus, bis Geben Sie nach dem Neustart wird.</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Reference information for compliant and noncompliant apps</source>
+          <target state="translated">Referenzinformationen für kompatible und nicht kompatible apps</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Noncompliant Apps Report<ept id="p1">**</ept> to view the compliance of allowed and blocked apps.</source>
+          <target state="translated">Verwenden der <bpt id="p1">**</bpt>Bericht über nicht kompatible Apps<ept id="p1">**</ept> die Konformität zulässiger und blockierter Apps.</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>To run the Noncompliant Apps Report</source>
+          <target state="translated">Zum Ausführen des Berichts für nicht kompatible Apps</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Noncompliant Apps Report<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Bericht über nicht kompatible Apps<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Select the device groups that you want to check, select whether you want to check for compliant apps, noncompliant apps, or both, and then choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die Gerätegruppen aus, die Sie überprüfen möchten, wählen Sie, ob Sie die Suche nach kompatiblen und/oder nicht kompatiblen apps, und wählen Sie dann möchten <bpt id="p1">**</bpt>Bericht anzeigen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>How to specify URLs to app stores</source>
+          <target state="translated">Gewusst wie: Angeben von URLs zu app-stores</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>To specify an app URL in the compliant and noncompliant apps list, or in the <bpt id="p1">**</bpt>Select a managed app that will be allowed to run when the device is in kiosk mode<ept id="p1">**</ept> option (iOS only), use the following format:</source>
+          <target state="translated">Eine app-URL angeben, in der Liste mit kompatiblen und nicht kompatiblen apps oder in der <bpt id="p1">**</bpt>Wählen Sie eine verwaltete app, der ausgeführt wird, wenn das Gerät im Kiosk-Modus ist zulässig ist<ept id="p1">**</ept> Option (nur iOS), verwenden Sie Folgendes Format:</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Using a search engine, find the app that you want to use in the iTunes App Store and open the page for the app.</source>
+          <target state="translated">Suchen Sie mithilfe einer Suchmaschine die app, die Sie verwenden möchten, verwenden Sie im iTunes App Store, und öffnen Sie die Seite für die app.</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Copy the URL of the page and use this as the URL to configure the compliant or noncompliant apps list or the app that you want to run in kiosk mode.</source>
+          <target state="translated">Kopieren Sie die URL der Seite, und verwenden Sie diese als URL zur Konfiguration der Liste kompatibler oder nicht kompatibler apps oder die Anwendung, die Sie im Kioskmodus ausführen möchten.</target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example:<ept id="p1">**</ept> Search for <bpt id="p2">**</bpt>Microsoft Word for iPad<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beispiel:<ept id="p1">**</ept> Suchen <bpt id="p2">**</bpt>Microsoft Word für iPad<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The URL that you use will be <bpt id="p1">**</bpt>https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8<ept id="p1">**</ept>.</source>
+          <target state="translated">Die URL, mit denen Sie <bpt id="p1">**</bpt>https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>You can also use the iTunes software to find the app and then use the <bpt id="p1">**</bpt>Copy Link<ept id="p1">**</ept> command to get the app URL.</source>
+          <target state="translated">Sie können auch die iTunes-Software suchen und verwenden Sie dann die <bpt id="p1">**</bpt>Link kopieren<ept id="p1">**</ept> Befehl aus, um die app-URL abzurufen.</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Enrollment settings</source>
+          <target state="translated">Anmeldeeinstellungen</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>All settings apply to iOS 8.0 and later.</source>
+          <target state="translated">Alle Einstellungen gelten für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Allow Activation Lock when the device is in supervised mode</source>
+          <target state="translated">Zulassen Sie Aktivierungssperre, wenn das Gerät im überwachten Modus befindet</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Enable Activation Lock on supervised iOS devices.</source>
+          <target state="translated">Aktivieren Sie Aktivierungssperre auf überwachten iOS-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Supervised mode settings</source>
+          <target state="translated">Betreuten Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>You can configure the following settings on devices running iOS 8.0 and later that are in supervised mode.</source>
+          <target state="translated">Sie können die folgenden Einstellungen konfigurieren, auf Geräten mit iOS 8.0 und höher, die betreut werden.</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Supervised mode settings for device restrictions</source>
+          <target state="translated">Betreuten Einstellungen für geräteeinschränkungen</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Allow account modification</source>
+          <target state="translated">Kontoänderung zulassen</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Allow the user to change account settings such as email configurations.</source>
+          <target state="translated">Die Änderung durch zulassen Sie Benutzer kontoeinstellungen wie z. B. e-Mail-Konfigurationen.</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Allow changes to app cellular data usage settings</source>
+          <target state="translated">Änderungen an der app Mobile Datennetzwerke Einstellungen zulassen</target>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Allow the user to control which apps are allowed to use cellular data.</source>
+          <target state="translated">Kann der Benutzer steuern, welche apps cellular Daten zulässig sind.</target>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Allow the use of the erase all content and settings option on the device</source>
+          <target state="translated">Der Verwendung von löschen alle Inhalte und Einstellungsoption auf dem Gerät zulassen</target>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Allow the user to use the option of erasing all content and settings on the device.</source>
+          <target state="translated">Kann der Benutzer die Möglichkeit, löschen alle Inhalte und Einstellungen auf dem Gerät verwenden.</target>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Allow the user to enable restrictions in the device settings</source>
+          <target state="translated">Ermöglichen Sie dem Benutzer, die Einschränkungen in den Einstellungen für Geräte aktivieren</target>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Allow the user to configure device restrictions (parental controls) on the device.</source>
+          <target state="translated">Ermöglichen Sie geräteeinschränkungen (Jugendschutz) auf dem Gerät zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Allow host pairing to control the devices an iOS device can pair with</source>
+          <target state="translated">Koppeln, um die Geräte zu steuern, die mit einem iOS-Gerät ein kann Host zulassen</target>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Allow host pairing to let the administrator control which devices an iOS device can pair with.</source>
+          <target state="translated">Ermöglichen Sie Host koppeln, um dem Administrator steuern können, welche Geräte mit iOS-Geräte verbinden kann.</target>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Allow the user to install configuration profiles and certificates</source>
+          <target state="translated">Ermöglichen Sie dem Benutzer, Konfigurationsprofile und Zertifikate installieren</target>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Allow the user to install configuration profiles and certificates.</source>
+          <target state="translated">Ermöglichen Sie den Benutzer, Konfigurationsprofile und Zertifikate installieren.</target>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Allow device name modification</source>
+          <target state="translated">Namensänderung Gerät zulassen</target>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Allow the user to change the name of the device.</source>
+          <target state="translated">Kann der Benutzer den Namen des Geräts ändern.</target>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Allow passcode modification</source>
+          <target state="translated">Kennung Änderung zulassen</target>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Allow the device password to be added, changed, or removed.</source>
+          <target state="translated">Ermöglichen Sie das Kennwort für das Gerät hinzugefügt, geändert oder entfernt werden.</target>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Allow Apple Watch pairing</source>
+          <target state="translated">Apple Watch Paarung zulassen</target>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Allow the device to pair with an Apple Watch.</source>
+          <target state="translated">Ermöglichen Sie das Gerät mit einem Apple Watch ein.</target>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Allow notification settings modification</source>
+          <target state="translated">Änderung der Benachrichtigung Einstellungen zulassen</target>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Allow the user to change the device notification settings.</source>
+          <target state="translated">Kann der Benutzer das Gerät Benachrichtigung ändern.</target>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Allow wallpaper modification</source>
+          <target state="translated">Hintergrundbild Änderung zulassen</target>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>Allow the user to change the device wallpaper.</source>
+          <target state="translated">Kann der Benutzer das Gerät Hintergrundbild zu ändern.</target>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Supervised mode settings for feature restrictions</source>
+          <target state="translated">Betreuten Einstellungen für featureeinschränkungen</target>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Allow AirDrop</source>
+          <target state="translated">AirDrop zulassen</target>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Allow use of the AirDrop feature to exchange content with nearby devices.</source>
+          <target state="translated">Ermöglichen Sie die Verwendung der Funktion AirDrop Inhalt mit Geräten in Ihrer Nähe austauschen.</target>
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Allow Siri to query user-generated content from the Internet</source>
+          <target state="translated">Siri um benutzergenerierte Inhalte aus dem Internet zulassen</target>
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>Allow Siri to access websites to answer questions.</source>
+          <target state="translated">Siri zulassen auf Websites, um Fragen zu beantworten.</target>
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Use Siri profanity filter</source>
+          <target state="translated">Siri bei anstößigen Inhalten Filter verwenden</target>
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Prevents Siri from dictating, or speaking profane language.</source>
+          <target state="translated">Verhindert, dass Siri diktieren oder anstößige Sprache sprechen.</target>
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Allow Spotlight search to return results from the Internet</source>
+          <target state="translated">Zulassen Sie Spotlight-Suche zum Zurückgeben von Ergebnissen aus dem Internet</target>
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>Let Spotlight search connect to the Internet to provide further results.</source>
+          <target state="translated">Lassen Sie Spotlight suchen, die Verbindung mit dem Internet, um weitere Ergebnisse bereitzustellen.</target>
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Allow word definition lookup</source>
+          <target state="translated">Suche nach Definition Begriffen zulassen</target>
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>Allow the iOS feature that lets you highlight a word and look up it's definition.</source>
+          <target state="translated">Ermöglichen Sie die iOS-Funktion, mit der Sie ein Wort markieren und Nachschlagen der Definition.</target>
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Allow predictive keyboards</source>
+          <target state="translated">Prädiktive Tastaturen zulassen</target>
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Allow the use of predictive keyboards that suggest words the user might want.</source>
+          <target state="translated">Lassen Sie die Verwendung von predictive Tastaturen, die Wörter vorschlagen, die der Benutzer möglicherweise zu.</target>
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Allow auto-correction</source>
+          <target state="translated">Ermöglichen Sie die automatische Korrektur</target>
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Lets the device automatically correct misspelled words.</source>
+          <target state="translated">Können das Gerät automatisch korrigiert, falsch geschriebene Wörter.</target>
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Allow keyboard spell-check</source>
+          <target state="translated">Tastatur Rechtschreibprüfung zulassen</target>
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Allows the device spell checker.</source>
+          <target state="translated">Ermöglicht die Rechtschreibprüfung Gerät.</target>
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Allow keyboard shortcuts</source>
+          <target state="translated">Zulassen von Tastenkombinationen</target>
+        </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Allows use of keyboard shortcuts.</source>
+          <target state="translated">Ermöglicht die Verwendung von Tastenkombinationen.</target>
+        </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Supervised mode settings for app restrictions</source>
+          <target state="translated">Betreuten Einstellungen für app-Einschränkungen</target>
+        </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>Allow enterprise app trust settings modification</source>
+          <target state="translated">Änderung der Enterprise-app Vertrauensstellung Einstellungen zulassen</target>
+        </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Lets users change the trust settings for enterprise apps.</source>
+          <target state="translated">Ermöglicht Benutzern das Ändern der Einstellungen für die Vertrauensstellung für Unternehmens-apps.</target>
+        </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>Allow installing apps using Apple Configuration and iTunes only</source>
+          <target state="translated">Zulassen Sie Installieren von apps, die mit Apple Configuration und iTunes nur</target>
+        </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Enables or disables the App Store from the device home screen.</source>
+          <target state="translated">Aktiviert oder deaktiviert den App Store auf der Startseite.</target>
+        </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>Users can still use iTunes, or the Apple Configurator tool to install and update apps.</source>
+          <target state="translated">Benutzer können weiterhin iTunes oder dem Apple Configurator-Tool installieren und Aktualisieren von apps verwenden.</target>
+        </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Allow automatic app downloads</source>
+          <target state="translated">Automatische app Downloads zulassen</target>
+        </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>Allow apps purchased on other devices to automatically download to this device.</source>
+          <target state="translated">Ermöglichen Sie die apps auf anderen Geräten automatisch auf diesem Gerät herunterladen erworben.</target>
+        </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>This setting does not affect app updates.</source>
+          <target state="translated">Diese Einstellung wirkt sich nicht auf app-Updates aus.</target>
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>Allow changes to the Find My Friends app settings</source>
+          <target state="translated">Änderungen an den app-Einstellungen finden Sie meine Freunde zulassen</target>
+        </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>Allow the user to change settings for the Find My Friends app.</source>
+          <target state="translated">Ermöglichen Sie den Benutzer das Ändern der Einstellungen für die app meine Freunde suchen.</target>
+        </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>Allow access to the iBooks store</source>
+          <target state="translated">Ermöglichen Sie den Zugriff auf den Speicher iBooks</target>
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Allow the user to browse and purchase books from the iBooks store.</source>
+          <target state="translated">Kann der Benutzer durchsuchen und Bücher aus dem Speicher iBooks erwerben.</target>
+        </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>Allow use of the Messages app on the device</source>
+          <target state="translated">Verwendung der Nachrichten-app auf dem Gerät zulassen</target>
+        </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Allow use of the Messages app to send text messages.</source>
+          <target state="translated">Lassen Sie die Verwendung der Nachrichten-app zum Senden von Textnachrichten.</target>
+        </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>Allow use of Podcasts</source>
+          <target state="translated">Zulassen des Podcasts</target>
+        </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>Allow use of the Podcasts app.</source>
+          <target state="translated">Lassen Sie die Verwendung der app Podcasts.</target>
+        </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>Allow use of Music service</source>
+          <target state="translated">Verwendung von Musik-Dienst zulassen</target>
+        </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>Allow use of the Apple Music app.</source>
+          <target state="translated">Lassen Sie die Verwendung der Apple-Musik-app.</target>
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Allow iTunes Radio service</source>
+          <target state="translated">ITunes Radio-Dienst zulassen</target>
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Allow use of the iTunes Radio app.</source>
+          <target state="translated">Lassen Sie die Verwendung der Sender iTunes app.</target>
+        </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Allow Apple News</source>
+          <target state="translated">Apple-Nachrichten zulassen</target>
+        </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Allow use of the Apple News app.</source>
+          <target state="translated">Lassen Sie die Verwendung der Apple-News-app.</target>
+        </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Allow Game Center</source>
+          <target state="translated">Game Center zulassen</target>
+        </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Allow use of the Game Center app.</source>
+          <target state="translated">Lassen Sie die Verwendung der Game Center-app.</target>
+        </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>Show or Hide Apps</source>
+          <target state="translated">Ein- / ausblenden-Apps</target>
+        </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Hidden and shown apps list<ept id="p1">**</ept> to control the following on supervised devices running iOS 9.3 or later:</source>
+          <target state="translated">Verwenden der <bpt id="p1">**</bpt>Ausgeblendete und angezeigte apps-Liste<ept id="p1">**</ept> auf überwachten Geräten iOS 9,3 oder höher ausgeführt wird Folgendes steuern:</target>
+        </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that will be hidden from users.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die vom Benutzer ausgeblendet wird.</target>
+        </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>Users cannot view, or launch these apps.</source>
+          <target state="translated">Benutzer anzeigen oder diese apps zu starten.</target>
+        </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that users can view and launch.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die Benutzer anzeigen und starten können.</target>
+        </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>No other apps can be viewed or launched.</source>
+          <target state="translated">Keine anderen apps können angezeigt oder gestartet werden.</target>
+        </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>How to create a hidden or shown app list</source>
+          <target state="translated">Gewusst wie: Erstellen einer Anwendungsliste ausgeblendet oder angezeigt</target>
+        </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>Specify the following settings:</source>
+          <target state="translated">Geben Sie die folgenden Einstellungen an:</target>
+        </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>Hidden and shown apps list</source>
+          <target state="translated">Und ausgeblendete apps-Liste</target>
+        </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Enable this setting if you want to create a hidden, or shown apps list.</source>
+          <target state="translated">Aktivieren Sie diese Einstellung, wenn Sie eine Liste ausgeblendet oder angezeigt apps erstellen möchten.</target>
+        </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Hide the listed apps from users</source>
+          <target state="translated">Die aufgelisteten apps von Benutzern ausblenden</target>
+        </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Select this option if you want to create a list of apps that will be hidden from users.</source>
+          <target state="translated">Wählen Sie diese Option, wenn Sie eine Liste von apps, die ausgeblendet werden, von Benutzern erstellen möchten.</target>
+        </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Show only the listed apps to users</source>
+          <target state="translated">Zeigen Sie Benutzern nur die aufgelisteten apps</target>
+        </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>Select this option if you want to create a list of apps that are displayed to users.</source>
+          <target state="translated">Wählen Sie diese Option, wenn eine Liste der apps erstellen, die Benutzern angezeigt werden, soll.</target>
+        </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>When you create this list type, all other apps except for the iOS <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Phone<ept id="p2">**</ept> (for iPhones) apps are hidden.</source>
+          <target state="translated">Beim Erstellen dieses Listentyps, alle anderen apps mit Ausnahme von iOS <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Phone<ept id="p2">**</ept> (für iPhones) apps ausgeblendet werden.</target>
+        </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Additionally, you must add the Company Portal, and any apps you have deployed, and manage with Intune to the list.</source>
+          <target state="translated">Sie müssen darüber hinaus das Unternehmensportal und apps, die Sie bereitgestellt haben, die und mit Intune verwalten, zu der Liste hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>Adds an app to the selected list.</source>
+          <target state="translated">Fügt eine app zur ausgewählten Liste hinzu.</target>
+        </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>For the hidden list, you must specify the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Publisher<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>App URL or Bundle ID<ept id="p3">**</ept> of each app you want to hide.</source>
+          <target state="translated">Ausgeblendete Liste, geben Sie den <bpt id="p1">**</bpt>Namen<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Publisher<ept id="p2">**</ept>, und <bpt id="p3">**</bpt>Bundle-ID oder App-URL<ept id="p3">**</ept> jeder App, die Sie ausblenden möchten.</target>
+        </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>For the shown list, you can either <bpt id="p1">**</bpt>Select a managed app<ept id="p1">**</ept> which gives you a list of apps you manage with Intune to select from, or Select a store app, after which you must specify the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Publisher<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>App URL or Bundle ID<ept id="p4">**</ept> of each app you want to display.</source>
+          <target state="translated">Eine Liste angezeigt, können Sie entweder <bpt id="p1">**</bpt>verwaltete app auswählen<ept id="p1">**</ept> die wird eine Liste von apps, die Sie verwalten mit Intune aus, oder wählen eine Store-app nach dem Geben Sie die <bpt id="p2">**</bpt>Name<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Verleger<ept id="p3">**</ept>, und <bpt id="p4">**</bpt>Bundle-ID oder App-URL<ept id="p4">**</ept> jeder App, die Sie anzeigen möchten.</target>
+        </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>Import Apps</source>
+          <target state="translated">Importieren von Apps</target>
+        </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Imports a list of apps you have specified in a comma-separated values file.</source>
+          <target state="translated">Importiert eine Liste von apps, die Sie in eine CSV-Datei angegeben haben.</target>
+        </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>Use the format, application name, publisher, app URL in the file.</source>
+          <target state="translated">Verwenden Sie das Format Anwendungsname, Herausgeber und app-URL in der Datei.</target>
+        </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated">Bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Let’s you edit the name, publisher and URL of the selected app.</source>
+          <target state="translated">Ermöglicht bearbeiten Ihnen der Name, Herausgeber und URL der ausgewählten app.</target>
+        </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">„Löschen“</target>
+        </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>Deletes the selected app from the list.</source>
+          <target state="translated">Löscht die ausgewählte app aus der Liste.</target>
+        </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>App information for built-in iOS apps</source>
+          <target state="translated">App-Informationen für integrierte iOS-apps</target>
+        </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>Use the information in this list to identify the name, publisher, and bundle ID of the built-in iOS apps that you might want to show or hide.</source>
+          <target state="translated">Verwenden Sie die Informationen in dieser Liste zur Identifizierung des Namens, Herausgeber und Paket-ID der integrierten iOS-apps, die Sie ein- oder ausblenden möchten.</target>
+        </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>If you want to show or hide all of the apps in the list, you can copy the data below into a text file with the extension <bpt id="p1">**</bpt>.csv<ept id="p1">**</ept>, then use the <bpt id="p2">**</bpt>Import Apps<ept id="p2">**</ept> option to import all of the apps simultaneously.</source>
+          <target state="translated">Ein- oder Ausblenden aller in der Liste der apps werden sollen, können Sie die nachfolgenden Daten in eine Textdatei mit der Erweiterung kopieren <bpt id="p1">**</bpt>CSV<ept id="p1">**</ept>, verwenden Sie dann die <bpt id="p2">**</bpt>Apps importieren<ept id="p2">**</ept> Option, um alle apps gleichzeitig importieren.</target>
+        </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>Custom policy settings</source>
+          <target state="translated">Benutzerdefinierte Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>iOS custom policy<ept id="p1">**</ept> to deploy settings that you created by using the <bpt id="p2">[</bpt>Apple Configurator tool<ept id="p2">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept> to iOS devices.</source>
+          <target state="translated">Verwenden Sie die Microsoft Intune <bpt id="p1">**</bpt>benutzerdefinierte iOS-Richtlinie<ept id="p1">**</ept> Einstellungen bereitstellen, das Sie erstellt die <bpt id="p2">[</bpt>Apple Configurator-Tool<ept id="p2">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept> für iOS-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>This tool lets you create many settings that control the operation of these devices and export them to a configuration profile.</source>
+          <target state="translated">Mit diesem Tool können Sie zahlreiche Einstellungen erstellen, die diese Geräte zu steuern und in ein Konfigurationsprofil exportieren.</target>
+        </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>You can then import this configuration profile into an Intune iOS custom policy and deploy the settings to users and devices in your organization.</source>
+          <target state="translated">Sie können dieses Konfigurationsprofil in einer benutzerdefinierten Intune iOS-Richtlinie importieren und die Einstellungen für Benutzer und Geräte in Ihrer Organisation bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>This capability allows you to deploy iOS settings that are not configurable with Intune general configuration policies.</source>
+          <target state="translated">Diese Funktion können Sie iOS-Einstellungen bereitzustellen, die nicht mit Intune allgemeine Konfiguration der Richtlinien konfiguriert sind.</target>
+        </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="translated">Voraussetzungen</target>
+        </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>Before you start, you must have installed the Apple Configurator and created a configuration file that contains the settings that you want to deploy to users or devices.</source>
+          <target state="translated">Bevor Sie beginnen, müssen Sie Apple Configurator installiert und erstellt eine Konfigurationsdatei, die die Einstellungen enthält, die Sie für Benutzer oder Geräte bereitstellen möchten.</target>
+        </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>You can download and learn about the Apple Configurator from <bpt id="p1">[</bpt>the Mac App Store<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept>.</source>
+          <target state="translated">Können Sie herunterladen und erfahren Sie mehr über den Apple Configurator <bpt id="p1">[</bpt>Mac App Store<ept id="p1">](https://itunes.apple.com/us/app/apple-configurator/id434433123?mt=12)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>Intune does not report the compliance of individual settings in an iOS custom policy.</source>
+          <target state="translated">Intune meldet die Kompatibilität der einzelnen Einstellungen in einer benutzerdefinierten iOS-Richtlinie nicht.</target>
+        </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>However, the overall compliance of the policy is reported.</source>
+          <target state="translated">Allerdings wird die gesamtkompatibilität der Richtlinie gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>General settings</source>
+          <target state="translated">Allgemeine Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">Name</target>
+        </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for the iOS custom policy to help you identify it in the Intune console.</source>
+          <target state="translated">Geben Sie einen eindeutigen Namen für die benutzerdefinierte iOS-Richtlinie können Sie es in der Intune-Konsole zu identifizieren.</target>
+        </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>Provide a description that gives an overview of the iOS custom policy and other relevant information that helps you to locate it.</source>
+          <target state="translated">Geben Sie eine Beschreibung, die einen Überblick über den iOS benutzerdefinierte Richtlinie bietet, und andere relevante Informationen, mit denen Sie danach suchen kann.</target>
+        </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>Custom settings</source>
+          <target state="translated">Benutzerdefinierte Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>Custom configuration profile name (displayed to users)</source>
+          <target state="translated">Benutzerdefinierter Name des Konfigurationsprofils (wird Benutzern angezeigt)</target>
+        </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>Provide a name for the policy as it will be displayed on the device, and in Intune policy reports.</source>
+          <target state="translated">Geben Sie einen Namen für die Richtlinie, wie er auf dem Gerät und in Berichten Intune angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Configuration profile file</source>
+          <target state="translated">Profil-Konfigurationsdatei</target>
+        </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>, and then browse to the configuration profile that you created by using the Apple Configurator.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>, und navigieren Sie zu der Sie mit Apple Configurator erstellte Konfigurationsprofil.</target>
+        </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Ensure that the settings you export from the Apple Configurator tool are compatible with the version of iOS on the devices to which you deploy the iOS custom policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> Stellen Sie sicher, dass die Einstellungen, die Sie aus dem Apple-Konfigurator-Tool exportieren, mit der Version von iOS auf den Geräten kompatibel sind, dem Sie die benutzerdefinierte iOS-Richtlinie bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>For information about how incompatible settings are resolved, search for <bpt id="p1">**</bpt>Configuration Profile Reference<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Mobile Device Management Protocol Reference<ept id="p2">**</ept> on the <bpt id="p3">[</bpt>Apple Developer<ept id="p3">](https://developer.apple.com/)</ept> website.</source>
+          <target state="translated">Informationen zum Korrigieren inkompatibler Einstellungen zu erhalten, suchen Sie nach <bpt id="p1">**</bpt>Konfigurationsprofilreferenz<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Verwaltungsprotokollreferenz für Mobile Geräte<ept id="p2">**</ept> auf dem <bpt id="p3">[</bpt>Apple Developer<ept id="p3">](https://developer.apple.com/)</ept> Website.</target>
+        </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>Configuration profile details</source>
+          <target state="translated">Details zum Konfigurationsprofil</target>
+        </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>Display the XML code for the configuration profile that you imported.</source>
+          <target state="translated">Anzeigen des XML-Codes für die von Ihnen importierten Konfigurationsprofils an.</target>
+        </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

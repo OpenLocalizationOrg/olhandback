@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8658df1fb9932fb2cab984a13557aad684569df5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\deploy-and-monitor-a-device-compliance-policy-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1f99ee5912597baf43e12971c0e8f4d41f1ef09</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12fdbb1fdde41abd6dab747827c799802b8b5102</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a compliance policy | Microsoft Intune</source>
+          <target state="translated">Bereitstellen und Überwachen der Konformitätsrichtlinie | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the step-by-step instructions in this topic to deploy and monitor a device compliance policy.</source>
+          <target state="translated">Verwenden Sie die Schritte in diesem Thema Bereitstellen und Überwachen der Konformitätsrichtlinie Gerät.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Deploy and monitor a device compliance policy in Microsoft Intune</source>
+          <target state="translated">Bereitstellen Sie und überwachen Sie der Konformitätsrichtlinie Gerät in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Deploy a compliance policy</source>
+          <target state="translated">Bereitstellen einer Konformitätsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deploy the compliance policy you <bpt id="p1">[</bpt>created<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> to one or more groups of users in your organization.</source>
+          <target state="translated">Bereitstellen der Konformitätsrichtlinie Sie <bpt id="p1">[</bpt>erstellt<ept id="p1">](create-a-device-compliance-policy-in-microsoft-intune.md)</ept> für eine oder mehrere Gruppen von Benutzern in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a compliance policy is deployed to a user, the user's devices are checked for compliance.</source>
+          <target state="translated">Wenn eine Konformitätsrichtlinie für einen Benutzer bereitgestellt wird, werden Geräte des Benutzers überprüft.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy you want to deploy, then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Richtlinie, die Sie bereitstellen, und wählen Sie dann möchten <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Screenshot of the compliance policy page showing the Manage Deployment menu option at the top</source>
+          <target state="translated">Screenshot der Seite für die Konformitätsrichtlinie mit der Menüoption Bereitstellung verwalten</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, choose one or more groups to which you want to deploy the policy, then choose <bpt id="p2">**</bpt>Add &gt; OK<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> Dialogfeld Wählen Sie eine oder mehrere Gruppen aus, die zum Bereitstellen der Richtlinie, und wählen Sie dann <bpt id="p2">**</bpt>Hinzufügen &gt; OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot of the manage deployment dialog box<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> You can deploy a compliance policy to users.</source>
+          <target state="translated">Screenshot des Dialogfelds verwalten Bereitstellung<ph id="ph1">](./media/intune-sa-3d-deploy-compliance-policy3-Manage.png)</ph> können Sie eine Konformitätsrichtlinie für Benutzer bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use Active Directory groups that you have already created and synced to Intune, or create these groups manually in the Intune console.</source>
+          <target state="translated">Verwenden Sie Active Directory-Gruppen, die Sie bereits erstellt und mit Intune synchronisiert haben, oder erstellen Sie diese Gruppen manuell, in der Intune-Konsole.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To learn more about how to deploy policies, see <bpt id="p1">[</bpt>deploy a configuration policy<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zum Bereitstellen von Richtlinien finden Sie unter <bpt id="p1">[</bpt>Bereitstellen einer Konfigurationsrichtlinie<ept id="p1">](manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the status summary and alerts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace to identify issues with the policy that require your attention.</source>
+          <target state="translated">Verwenden Sie die statuszusammenfassung und Warnungen auf die <bpt id="p1">**</bpt>Übersicht über die<ept id="p1">**</ept> auf der Seite der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich zum Erkennen von Problemen mit der Richtlinie, die Ihre Aufmerksamkeit erfordern.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Additionally, a status summary appears in the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace.</source>
+          <target state="translated">Darüber hinaus eine Statusübersicht wird der <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.</source>
+          <target state="translated">Wenn Sie keine Konformitätsrichtlinie bereitgestellt haben und dann eine Exchange-Richtlinie für bedingten Zugriff aktivieren, erhalten alle betreffenden Geräte Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How Intune policy conflicts are resolved</source>
+          <target state="translated">Wie Intune-Richtlinienkonflikte gelöst werden</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Policy conflicts  can occur due when multiple Intune policies are applied to a device.</source>
+          <target state="translated">Richtlinienkonflikte können auftreten, fällig, wenn mehrere Intune-Richtlinien auf ein Gerät angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the policy settings overlap, Intune resolves any conflicts using the following rules:</source>
+          <target state="translated">Wenn die Benutzerrichtlinien überschneiden, löst Intune Konflikte anhand der folgenden Regeln:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy, even if the settings in the configuration policy are more secure.</source>
+          <target state="translated">Wenn die in Konflikt stehenden Einstellungen aus einem Intune-Konfigurationsrichtlinie und einer Kompatibilitätsrichtlinie sind, Vorrang die Einstellungen in der Konformitätsrichtlinie die Einstellungen in der Konfigurationsrichtlinie, selbst wenn die Einstellungen in der Konfigurationsrichtlinie sicherer sind.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you have deployed multiple compliance policies, the most secure of these policies will be used.</source>
+          <target state="translated">Wenn Sie mehrere Kompatibilitätsrichtlinien bereitgestellt haben, werden die sichersten dieser Richtlinien verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Monitor the compliance policy</source>
+          <target state="translated">Überwachen der Konformitätsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To view devices that do not conform to a compliance policy</source>
+          <target state="translated">Zum Anzeigen von Geräten, die keiner Konformitätsrichtlinie entsprechen</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Groups &gt; All Devices<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen &gt; alle Geräte<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Double-click the name of a device in the list of devices.</source>
+          <target state="translated">Doppelklicken Sie auf den Namen des Geräts in der Liste der Geräte.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Choose the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> tab to see a list of the policies for that device.</source>
+          <target state="translated">Wählen Sie die <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Registerkarte, um eine Liste der Richtlinien für das Gerät.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list, select <bpt id="p2">**</bpt>Does not conform to compliance policy<ept id="p2">**</ept>.</source>
+          <target state="translated">Aus der <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> Dropdown-Liste <bpt id="p2">**</bpt>Konformitätsrichtlinien entspricht nicht dem<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the list of options in the filters list</source>
+          <target state="translated">Screenshot mit der Liste der Optionen in der Filterliste</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To view the Health Attestation Reports</source>
+          <target state="translated">Zum Anzeigen der Integrität Attestation-Berichte</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Berichte<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Health Attestation Report - Create a new report<ept id="p1">**</ept> page, you can view a report with all the Windows 10 health attestation data collected by Intune.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Beglaubigung Integritätsbericht - Erstellen eines neuen Berichts<ept id="p1">**</ept> Seite können Sie einen Bericht anzeigen, alle Windows 10 Integrität Nachweis gesammelten Daten werden von Intune.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can also create a report with a subset of the data using filters.</source>
+          <target state="translated">Sie können auch einen Bericht mit einer Teilmenge der Daten mithilfe von Filtern erstellen.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The filters can be based on the type of device, operating system, or only a subset of data points.</source>
+          <target state="translated">Die Filter können auf dem Gerät, Betriebssystem oder nur eine Teilmenge der Datenpunkte basieren.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can now use the compliance policy with conditional access policies to control access to services in your organization.</source>
+          <target state="translated">Sie können jetzt die Compliance-Richtlinien mit Richtlinien für bedingten Zugriff verwenden, zum Steuern des Zugriffs auf Dienste in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Restrict access to email and O365 services</source>
+          <target state="translated">Einschränken des Zugriffs auf e-Mail und Office 365-Diensten</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Introduction to device compliance polices in Intune</source>
+          <target state="translated">Einführung in die Gerätekompatibilität in Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

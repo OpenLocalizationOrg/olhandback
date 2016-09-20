@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1059aae1c90e3623201281d4cf14d9db442e3f20</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\control-what-admins-can-see-in-the-microsoft-intune-admin-console.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26ab3371635d003b2ceb80c120fbb71fecad6153</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fbce8f09ec4a67650432ffaa9823a78dd5bbed08</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Customize console views for admin roles | Microsoft Intune</source>
+          <target state="translated">Anpassen von Ansichten für Administratorrollen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use this topic to help you filter the Intune admin console view to allow your admins to see only the items they need for their role.</source>
+          <target state="translated">Verwenden Sie dieses Thema soll Ihnen helfen die Ansicht der Intune-Administrator um Ihre Administratoren nur die Elemente angezeigt, für die jeweilige Rolle sodass, zu ermöglichen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Customize Intune console views according to admin roles</source>
+          <target state="translated">Anpassen von Ansichten von Intune-Konsole entsprechend Administratorrollen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can filter the Microsoft Intune administration console view to allow your admins to see only the items they need to see for their role.</source>
+          <target state="translated">Sie können filtern, die Microsoft Intune Verwaltung können die Administratoren nur die Elemente anzuzeigen, die sie benötigen, um ihre Rolle finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, you can allow only admin console operators to update malware definitions or reset the passcode on devices.</source>
+          <target state="translated">Beispielsweise können Sie nur Admin-Konsole Operatoren Malwaredefinitionen aktualisieren oder Zurücksetzen der Kennung auf Geräten zulassen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You do this by using preset <bpt id="p1">**</bpt>designations<ept id="p1">**</ept> that you assign to specific users.</source>
+          <target state="translated">Dazu verwenden die Voreinstellung <bpt id="p1">**</bpt>Bezeichnung<ept id="p1">**</ept> die Sie bestimmten Benutzern zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When these users access the admin console, they can only see items that are specific to their designation.</source>
+          <target state="translated">Wenn diese Benutzer über die Verwaltungskonsole zugreifen, sehen sie nur Elemente, die für ihre Bezeichnung spezifisch sind.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To create a custom view</source>
+          <target state="translated">Um eine benutzerdefinierte Ansicht erstellen</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Service Administrators<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Dienstadministratoren<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>From the list of service administrators, choose the user whose designation you want to change, and then choose <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie aus der Liste der Dienstadministratoren den Benutzer, dessen Bezeichnung Sie ändern, und wählen Sie dann möchten <bpt id="p1">**</bpt>Zugriff verwalten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept> dialog box, choose the level of access that you want to give the selected user.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Zugriff verwalten<ept id="p1">**</ept> Dialogfeld Wählen Sie die Zugriffsebene, die dem ausgewählten Benutzer zugewiesen werden soll.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can choose from:</source>
+          <target state="translated">Es gibt folgende Auswahlmöglichkeiten:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Full access</source>
+          <target state="translated">Vollzugriff</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Read-only access</source>
+          <target state="translated">Nur-Lese-Zugriff</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Helpdesk - Groups node</source>
+          <target state="translated">Helpdesk – Gruppenknoten</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Full access and read-only access are self-explanatory.</source>
+          <target state="translated">Vollzugriff und nur-Lese-Zugriff sind selbsterklärend.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Helpdesk - Groups Node<ept id="p1">**</ept> restricts what the admin can see and do to the following:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Helpdesk – Gruppenknoten<ept id="p1">**</ept> beschränkt, was der Administrator kann finden Sie unter und führen Sie die folgenden:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>See lists of users and devices.</source>
+          <target state="translated">Listen von Benutzern und Geräten anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The admin cannot use filters to modify the view.</source>
+          <target state="translated">Der Administrator kann nicht Filter verwenden, um die Ansicht zu ändern.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, you can use group filtering to modify what the admin can see.</source>
+          <target state="translated">Allerdings können Sie Filter ändern, was der Administrator anzeigen kann.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use groups to manage users and devices with Microsoft Intune<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Verwenden von Gruppen zum Verwalten von Benutzern und Geräten mit Microsoft Intune<ept id="p1">](use-groups-to-manage-users-and-devices-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Print the list of users and devices</source>
+          <target state="translated">Drucken Sie die Liste der Benutzer und Geräte</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Export the list of users and devices</source>
+          <target state="translated">Exportieren Sie die Liste der Benutzer und Geräte</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>View the properties of a user or device</source>
+          <target state="translated">Anzeigen der Eigenschaften eines Benutzers oder Geräts</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Perform the following remote tasks:</source>
+          <target state="translated">Führen Sie die folgenden Remoteaufgaben:</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Run a full malware scan</source>
+          <target state="translated">Einen vollständigen Malwarescan ausführen</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run a quick malware scan</source>
+          <target state="translated">Malwareschnellüberprüfung ausführen</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Restart a computer</source>
+          <target state="translated">Neustarten eines Computers</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Update malware definitions</source>
+          <target state="translated">Update für Malwaredefinitionen ausführen</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Refresh policies</source>
+          <target state="translated">Aktualisieren von Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Refresh inventory</source>
+          <target state="translated">Inventur aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Lock a device remotely</source>
+          <target state="translated">Ein Gerät Remote Sperren</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Reset a passcode</source>
+          <target state="translated">Eine Kennung zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the admin that you configured next opens the Intune admin console, they will be given the level of access that you designated.</source>
+          <target state="translated">Wenn der Administrator, den Sie als Nächstes konfiguriert die Intune-Verwaltungskonsole geöffnet wird, werden sie die Zugriffsebene erhalten, die Sie festgelegt.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

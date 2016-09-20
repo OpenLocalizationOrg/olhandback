@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cc03b724f8b9b00feb6bf693bd9b420c02e4ed3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\help-protect-ios-devices-with-activation-lock-bypass-for-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2130952c07dda18f545da015908707e37e2d3b92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0c08a591fdde9814a9afb637269778cbea0c2a6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manage iOS Activation Lock on devices | Microsoft Intune</source>
+          <target state="translated">Verwalten von iOS-Aktivierung auf Geräten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can help you manage iOS Activation Lock, a feature of the Find My iPhone app for iOS 7.1 and later devices.</source>
+          <target state="translated">Microsoft Intune hilft Ihnen die Verwaltung von iOS Aktivierungssperre, ein Feature der Suche mein iPhone-app für iOS 7.1 und höher.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Help protect iOS devices with Activation Lock bypass for Microsoft Intune</source>
+          <target state="translated">Schützen Sie iOS, die Geräte mit Aktivierungssperre für Microsoft Intune umgehen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can help you manage iOS Activation Lock, a feature of the Find My iPhone app for iOS 8.0 and later devices.</source>
+          <target state="translated">Microsoft Intune hilft Ihnen die Verwaltung von iOS Aktivierungssperre, ein Feature der Suche mein iPhone-app für iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Activation Lock is enabled automatically when a user opens the Find My iPhone app on a device.</source>
+          <target state="translated">Aktivierung wird automatisch aktiviert, wenn ein Benutzer suchen mein iPhone-app auf einem Gerät öffnet.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>After it is enabled, the user's Apple ID and password must be entered before anyone can:</source>
+          <target state="translated">Nachdem er aktiviert ist, müssen die Apple-ID und das Kennwort des Benutzers eingeben, bevor alle können:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Turn off Find My iPhone</source>
+          <target state="translated">Deaktivieren der Suche mein iPhone</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Erase the device</source>
+          <target state="translated">Löschen Sie das Gerät</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Reactivate the device</source>
+          <target state="translated">Aktivieren Sie das Gerät erneut.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How Activation Lock affects you</source>
+          <target state="translated">Wie Aktivierungssperre betroffen sind</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>While Activation Lock helps secure iOS devices and improves the chances of recovering a lost or stolen device, this capability can present you, as an IT admin, with a number of challenges.</source>
+          <target state="translated">Während der Aktivierung können sichere iOS-Geräte und erhöht die Chancen für ein verlorenes oder Gestohlenes Gerät wiederherstellen, können Sie, durch diese Funktion mit einer Reihe von Problemen wie IT-Administrator darstellen.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A user sets up Activation Lock on a device.</source>
+          <target state="translated">Ein Benutzer wird die Aktivierung auf einem Gerät eingerichtet.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The user then leaves the company and returns the device.</source>
+          <target state="translated">Dann wird der Benutzer das Unternehmen verlässt und gibt das Gerät zurück.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Without the user's Apple ID and password, there is no way to reactivate the device.</source>
+          <target state="translated">Ohne Apple-ID und Kennwort des Benutzers besteht keine Möglichkeit, das Gerät zu reaktivieren.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You need a report of all devices that have Activation Lock enabled.</source>
+          <target state="translated">Sie benötigen einen Bericht über alle Geräte, die Aktivierungssperre aktiviert haben.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You want to reassign some devices to a different department during a device refresh in your organization.</source>
+          <target state="translated">Einige Geräte in eine andere Abteilung während einer Aktualisierung der Geräte in Ihrer Organisation zuweisen möchten.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can only reassign devices that do not have Activation Lock enabled.</source>
+          <target state="translated">Sie können nur Geräte zuweisen, die keine Aktivierungssperre aktiviert haben.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To help solve these problems, Apple introduced Activation Lock bypass in iOS 7.1.</source>
+          <target state="translated">Um diese Probleme zu lösen, Apple Umgehung der Aktivierungssperre in iOS 7.1 eingeführt.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This lets you remove the Activation Lock from supervised devices without the user's Apple ID and password.</source>
+          <target state="translated">Dies können Sie die Aktivierungssperre vom überwachten Geräte ohne Apple-ID und Kennwort des Benutzers zu entfernen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Supervised devices can generate a device-specific Activation Lock bypass code, which is stored on Apple's activation server.</source>
+          <target state="translated">Überwachte Geräte können einen gerätespezifischen Aktivierung Bypass-Code generieren, die Apple Aktivierungsserver gespeichert sind.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Supervised mode for iOS devices lets you use Apple Configurator to lock down a device and limit functionality to specific business purposes.</source>
+          <target state="translated">Überwachter Modus für iOS-Geräte können Sie die Apple Configurator zu verwenden, um ein Gerät, und begrenzen Sie Funktionen für bestimmte geschäftliche Zwecke sperren.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Supervised mode is generally only for corporate-owned devices.</source>
+          <target state="translated">Betreut wird in der Regel nur von firmeneigenen Geräten.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How Intune helps you manage Activation Lock</source>
+          <target state="translated">Wie Intune Aktivierungssperre verwalten können.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Intune can request the Activation Lock status of both supervised and unsupervised devices that run iOS 8.0 and later.</source>
+          <target state="translated">Intune kann der Aktivierung Sperrstatus überwachtes und unüberwachtes Geräte anfordern, die iOS 8.0 und höher.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For supervised devices only, Intune can retrieve the Activation Lock bypass code and directly issue it to the device.</source>
+          <target state="translated">Für überwachte Geräte Intune umgehungscode der Aktivierungssperre abrufen und ihn direkt an das Gerät ausgeben.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the device has been wiped, you can directly access the device by using the code as the user name and a blank password.</source>
+          <target state="translated">Wenn das Gerät zurückgesetzt wurde, können Sie das Gerät direkt zugreifen, mit dem Code als den Benutzernamen und das Kennwort leer ist.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The business benefits of this are<ept id="p1">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Vorteile sind<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The user gets the security benefits of the Find My iPhone app.</source>
+          <target state="translated">Der Benutzer erhält die Sicherheitsvorteile der Suche mein iPhone-app.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can enable users to do their work and know that when a device needs to be repurposed, you can retire or unlock it.</source>
+          <target state="translated">Sie können die Benutzer ihre Arbeit und kennen, wenn ein Gerät muss verwendet werden, können Sie zurückziehen oder Entsperren Sie ihn aktivieren.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How to use Activation Lock bypass from the Intune admin console</source>
+          <target state="translated">Zum Umgehen der Aktivierungssperre aus der Intune-Verwaltungskonsole verwenden</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After you bypass the Activation Lock on a device, a new Activation Lock is automatically applied if the Find My iPhone app is opened.</source>
+          <target state="translated">Nachdem Sie die Aktivierungssperre auf einem Gerät zu umgehen, wird einer neuen Sperre für die Aktivierung automatisch angewendet, wenn mein iPhone-app suchen geöffnet ist.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Because of this, <bpt id="p1">**</bpt>you should be in physical possession of the device before you follow this procedure<ept id="p1">**</ept>.</source>
+          <target state="translated">Aus diesem Grund <bpt id="p1">**</bpt>Sie müssen im Besitz des Geräts befinden, bevor Sie dieses Verfahren ausführen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>All Corporate-owned Devices<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Alle firmeneigenen Geräte<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the device whose Activation Lock you want to bypass.</source>
+          <target state="translated">Wählen Sie das Gerät, dessen Aktivierungssperre umgangen werden soll.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Activation Lock Bypass<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Aktivierungssperre<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Read the warning message.</source>
+          <target state="translated">Lesen Sie die Warnung.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to proceed.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> um den Vorgang fortzusetzen.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can examine the status of the unlock request on the details page for the device.</source>
+          <target state="translated">Sie können den Status der Anforderung entsperren auf der Detailseite für das Gerät überprüfen.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How to see which devices are using Activation Lock</source>
+          <target state="translated">Wie Sie sehen, welche Geräte Aktivierung verwenden</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can see which devices are using Activation Lock in two ways:</source>
+          <target state="translated">Sie können sehen, welche Geräte Aktivierungssperre auf zwei Arten verwenden:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>Mobile Device Inventory Reports<ept id="p1">**</ept>.</source>
+          <target state="translated">Führen Sie die <bpt id="p1">**</bpt>Inventurberichte für Mobile Geräte<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This report displays the <bpt id="p1">**</bpt>Activation Lock Status<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Supervised<ept id="p2">**</ept> columns to indicate the state of devices.</source>
+          <target state="translated">Dieser Bericht zeigt die <bpt id="p1">**</bpt>Sperre Aktivierungsstatus<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Supervised<ept id="p2">**</ept> Spalten an, dass der Status der Geräte.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The values for <bpt id="p1">**</bpt>Supervised<ept id="p1">**</ept> are <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> or <bpt id="p3">**</bpt>No<ept id="p3">**</ept>, and the values for <bpt id="p4">**</bpt>Activation Lock Status<ept id="p4">**</ept> are:</source>
+          <target state="translated">Die Werte für <bpt id="p1">**</bpt>Supervised<ept id="p1">**</ept> sind <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> oder <bpt id="p3">**</bpt>Nr.<ept id="p3">**</ept>, und die Werte für <bpt id="p4">**</bpt>Sperre Aktivierungsstatus<ept id="p4">**</ept> sind:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enabled with bypass code</source>
+          <target state="translated">Aktiviert mit umgehungscode</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Enabled without bypass code (device is not supervised)</source>
+          <target state="translated">Aktiviert ohne umgehungscode (Gerät wird nicht überwacht.)</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enabled without bypass code (device cannot be reached)</source>
+          <target state="translated">Aktiviert ohne umgehungscode (Gerät kann nicht erreicht werden.)</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Not enabled</source>
+          <target state="translated">Nicht aktiviert</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Activation Lock Status<ept id="p1">**</ept> box is blank for devices that do not run iOS 8.0 or later.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Sperre Aktivierungsstatus<ept id="p1">**</ept> Feld ist leer für Geräte, die nicht iOS 8.0 oder höher ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select a device in a groups view to see the Activation Lock status in the device details pane.</source>
+          <target state="translated">Wählen Sie ein Gerät in einer Gruppenansicht, um den Status der Aktivierungssperre im Detailbereich Gerät anzuzeigen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you select a device in the <bpt id="p1">**</bpt>All Corporate-owned Devices<ept id="p1">**</ept> node and Activation Lock is enabled for the device, you can also see the bypass code.</source>
+          <target state="translated">Bei Auswahl von einem Gerät in der <bpt id="p1">**</bpt>Alle firmeneigenen Geräte<ept id="p1">**</ept> Knoten und die Aktivierung für das Gerät aktiviert ist, sehen Sie auch den umgehungscode.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This code can be used to manually issue an Activation Lock bypass.</source>
+          <target state="translated">Dieser Code kann verwendet werden, um manuell eine aktivierungssperre Problem.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Intune takes inventory from devices for Activation Lock every seven days.</source>
+          <target state="translated">Intune nimmt eine Bestandsaufnahme von Geräten für die Aktivierung alle sieben Tage.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because of this, devices might not immediately be displayed with their Activation Lock status in the Intune console.</source>
+          <target state="translated">Aus diesem Grund können Geräte nicht sofort mit dem Status "Aktivierung" in der Intune-Konsole angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Help protect your devices with remote lock and passcode reset<ept id="p2">](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Deaktivieren von Geräten<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Schützen Sie Ihre Geräte mit remote sperren und die Kennung zurücksetzen<ept id="p2">](use-remote-lock-and-passcode-reset-in-microsoft-intune.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

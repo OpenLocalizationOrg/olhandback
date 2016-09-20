@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93c05ecd0154bb637f421dcc5d7ee56ff8d3ab2d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\add-apps.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b24074979c71afbfcaba9ceb264a0b9b05c9dbb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f421486eb308ac88f1f4e8f2e188283dc2a1609a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Add apps | Microsoft Intune</source>
+          <target state="translated">Hinzufügen von apps | Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Before you start deploying apps with Intune, take some time to familiarize yourself with the concepts introduced in this topic.</source>
+          <target state="translated">Vor der Bereitstellung von apps mit Intune dauern Sie etwas, sich mit den in diesem Thema vorgestellten Konzepten vertraut machen konnten.</target>
+          
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Add apps with Microsoft Intune</source>
+          <target state="translated">Hinzufügen von apps mit Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Before you start deploying apps with Microsoft Intune, take some time to familiarize yourself with the concepts introduced in this topic.</source>
+          <target state="translated">Vor der Bereitstellung von apps mit Microsoft Intune dauern Sie etwas, sich mit den in diesem Thema vorgestellten Konzepten vertraut machen konnten.</target>
+          
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These concepts will help you understand which apps you can deploy to which platform.</source>
+          <target state="translated">Diese Konzepte hilft Ihnen welche apps zu verstehen, auf welcher Plattform bereitgestellt werden kann.</target>
+          
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They'll also help you understand the prerequisites that must be in place before you deploy the apps.</source>
+          <target state="translated">Außerdem können Sie die erforderlichen Komponenten zu verstehen, die vorhanden sein müssen, bevor Sie die apps bereitstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>App types that you can deploy</source>
+          <target state="translated">App-Typen, die Sie bereitstellen können</target>
+          
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Software installer</source>
+          <target state="translated">Softwareinstallationsprogramm</target>
+          
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>App type</source>
+          <target state="translated">App-Typ</target>
+          
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+          
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)</source>
+          <target state="translated">Windows Installer (&amp; #42;. EXE-Datei &amp; #42;. MSI-Datei)</target>
+          
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This type of app must support silent installation with no user input.</source>
+          <target state="translated">Diese Art von app muss mit ohne Benutzereingabe automatische Installation unterstützen.</target>
+          
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Your app documentation should include the relevant command-line options to silently install the app (for example, <bpt id="p1">**</bpt>/q<ept id="p1">**</ept>).</source>
+          <target state="translated">Dokumentation Ihrer app sollte so installieren die app im Hintergrund relevanten Befehlszeilenoptionen enthalten (z. B. <bpt id="p1">**</bpt>/q<ept id="p1">**</ept>).</target>
+          
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can find a list of common command-line options in <bpt id="p1">[</bpt>Command-Line Switches for the Microsoft Windows Installer Tool<ept id="p1">](https://support.microsoft.com/en-us/kb/227091)</ept>.</source>
+          <target state="translated">Sie finden eine Liste der gebräuchlichsten Befehlszeilenoptionen in <bpt id="p1">[</bpt>von Befehlszeilenoptionen für das Tool Microsoft Windows Installer<ept id="p1">](https://support.microsoft.com/en-us/kb/227091)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Any additional files and folders that the app’s setup program requires must be available from the location that you specify for the app setup files.</source>
+          <target state="translated">Zusätzliche Dateien und Ordner, in denen die app-Setupprogramm erfordert müssen von dem Speicherort verfügbar, die Sie für die app-Setupdateien angeben.</target>
+          
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In most cases, Windows Installer (.msi) and Windows Installer Patch (.msp) files do not require Intune to install any command-line arguments.</source>
+          <target state="translated">In den meisten Fällen erfordern Windows Installer (MSI) und Windows Installer-Patchdatei (MSP)-Dateien keine Intune Befehlszeilenargumente zu installieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Check your app documentation.</source>
+          <target state="translated">Überprüfen Sie die Dokumentation Ihrer app.</target>
+          
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).</source>
+          <target state="translated">Sind Befehlszeilenargumente erforderlich, müssen sie in "Name=Wert"-Paaren (z. B. TRANSFORMS=custom_transform.mst) eingegeben werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>App Package for Android (&amp;#42;.apk)</source>
+          <target state="translated">App-Paket für Android (&amp; #42;. Apk)</target>
+          
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To deploy Android apps, you must have a valid .apk package.</source>
+          <target state="translated">Um die Android-apps bereitstellen, müssen Sie eine gültige apk-Paket verfügen.</target>
+          
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>App Package for iOS (&amp;#42;.ipa)</source>
+          <target state="translated">App-Paket für iOS (&amp; #42;. IPA)</target>
+          
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To deploy iOS apps, you must have a valid .ipa package.</source>
+          <target state="translated">Zum Bereitstellen von iOS-apps müssen Sie ein gültiges IPA-Paket verfügen.</target>
+          
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The .ipa package must be signed by Apple, and the expiration date in the provisioning profile must be valid.</source>
+          <target state="translated">Das IPA-Paket muss von Apple signiert sein, und das Ablaufdatum im Bereitstellungsprofil muss gültig sein.</target>
+          
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Intune can distribute enterprise certificate iOS applications.</source>
+          <target state="translated">Intune kann iOS-Anwendungen mit Unternehmenszertifikat verteilen.</target>
+          
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Not all Apple developer certificate apps are supported.</source>
+          <target state="translated">Nicht alle Apple Developer apps werden unterstützt.</target>
+          
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Your company must be registered for the iOS Developer Enterprise Program.</source>
+          <target state="translated">Ihr Unternehmen muss für das iOS Developer Enterprise Program registriert sein.</target>
+          
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Make sure that your organization’s firewall allows access to the iOS provisioning and certification websites.</source>
+          <target state="translated">Stellen Sie sicher, dass die Firewall Ihrer Organisation Zugriff auf die iOS-Bereitstellung und Zertifizierung-Websites ermöglicht.</target>
+          
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You don't need to deploy a manifest  file (.plist) with the app.</source>
+          <target state="translated">Sie müssen eine Manifestdatei (.plist) mit der Anwendung bereitstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)</source>
+          <target state="translated">Windows Phone-app-Paket (&amp; #42;. XAP, AppX, appxbundle)</target>
+          
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
+          <target state="translated">Zum Bereitstellen von apps benötigen Sie eine mobile-Codesignaturzertifikat.</target>
+          
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Einrichten der Windows Phone-Verwaltung mit Microsoft Intune<ept id="p1">](set-up-windows-phone-management-with-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Windows app package (.appx, .appxbundle)</source>
+          <target state="translated">Windows-app-Paket (AppX, appxbundle)</target>
+          
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
+          <target state="translated">Zum Bereitstellen von apps benötigen Sie eine mobile-Codesignaturzertifikat.</target>
+          
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Set up Windows device management with Microsoft Intune<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Verwaltung der Windows-Geräte mit Microsoft Intune einrichten<ept id="p1">](set-up-windows-device-management-with-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows Installer through MDM (&amp;#42;.msi)</source>
+          <target state="translated">Windows Installer über MDM (&amp; #42;. MSI-Datei)</target>
+          
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You use this app to create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.</source>
+          <target state="translated">Sie verwenden diese app erstellen und Bereitstellen von Windows Installer-basierte apps, die registrierten PCs mit Windows 10.</target>
+          
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>These PCs are managed through mobile device management (MDM).</source>
+          <target state="translated">Diese PCs werden über die Verwaltung mobiler Geräte (MDM) verwaltet.</target>
+          
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can upload only a single file with the extension .msi.</source>
+          <target state="translated">Sie können nur eine einzelne Datei mit der Erweiterung MSI-Datei hochladen.</target>
+          
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The file's product code and product version are used for app detection.</source>
+          <target state="translated">Produktcode und die Produktversion der Datei werden für die app-Erkennung verwendet.</target>
+          
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default restart behavior of the app will be used.</source>
+          <target state="translated">Das Standardverhalten der Neustart der Anwendung wird verwendet.</target>
+          
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Intune does not control this.</source>
+          <target state="translated">Intune hat dies keinen Einfluss.</target>
+          
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Per-user MSI packages will be installed for a single user.</source>
+          <target state="translated">Einzelbenutzer-MSI-Pakete werden für einen einzelnen Benutzer installiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Per-machine MSI packages will be installed for all users on the device.</source>
+          <target state="translated">Pro Computer MSI-Pakete werden für alle Benutzer auf dem Gerät installiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Dual-mode MSI packages are currently installed only for all users on the device.</source>
+          <target state="translated">MSI-Pakete sind derzeit nur für alle Benutzer auf dem Gerät installiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>App updates are supported when the MSI product code of each version is the same.</source>
+          <target state="translated">App-Updates werden unterstützt, wenn die MSI-Produktcode jeder Version identisch ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>All software installer app types are uploaded to your cloud storage space.</source>
+          <target state="translated">Alle Software Installer app-Typen werden in Ihrem Cloud-Speicher hochgeladen.</target>
+          
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>External Link</source>
+          <target state="translated">Externer Link</target>
+          
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use an external link when you have a:</source>
+          <target state="translated">Verwenden Sie einen externen Link aus, wenn Sie über Folgendes verfügen:</target>
+          
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>URL that lets users download an app from an app store.</source>
+          <target state="translated">Die URL, mit dem Benutzer eine app von einem app Store herunterladen kann.</target>
+          
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Link to a web-based app that runs from the web browser.</source>
+          <target state="translated">Verknüpfen Sie mit einer webbasierten Anwendung, die im Webbrowser ausgeführt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Apps based on external links are not stored in your Intune cloud storage space.</source>
+          <target state="translated">Apps, die basierend auf externe Links werden nicht in Ihrem Intune-cloudspeicher gespeichert.</target>
+          
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Managed iOS app from the app store</source>
+          <target state="translated">Verwaltete iOS-app aus dem app store</target>
+          
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can use managed iOS apps to manage and deploy iOS apps that are free of charge from the app store.</source>
+          <target state="translated">Sie können verwaltete iOS-apps verwenden, verwalten und Bereitstellen von iOS-apps, die kostenlos im app Store erhältlich sind.</target>
+          
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can also use managed iOS apps to associate <bpt id="p1">[</bpt>mobile application management policies<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> with <bpt id="p2">[</bpt>compatible apps<ept id="p2">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> and review their status in the administrator console.</source>
+          <target state="translated">Sie können auch verwaltete iOS-apps zuordnen <bpt id="p1">[</bpt>Verwaltungsrichtlinien für mobile<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> mit <bpt id="p2">[</bpt>kompatiblen apps<ept id="p2">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> und deren Status in der Administratorkonsole überprüfen.</target>
+          
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Managed iOS apps are not stored in your Intune cloud storage space.</source>
+          <target state="translated">Verwaltete iOS apps werden nicht in Ihrem Intune-cloudspeicher gespeichert.</target>
+          
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Options for mobile devices are not available until you <bpt id="p1">[</bpt>set the MDM authority<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept> to Intune.</source>
+          <target state="translated">Optionen für mobile Geräte nicht verfügbar, bis Sie sind <bpt id="p1">[</bpt>die MDM-Autorität<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md)</ept> Intune.</target>
+          
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Intune software publisher</source>
+          <target state="translated">Intune-Softwareherausgeber</target>
+          
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune Software Publisher starts when you add or modify apps from the Intune administrator console.</source>
+          <target state="translated">Der Microsoft Intune Software Publisher beginnt, wenn Sie hinzufügen oder Ändern von apps aus der Intune-Verwaltungskonsole.</target>
+          
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>From the publisher, you select and configure a software installer type that will either:</source>
+          <target state="translated">Vom Verleger auswählen und konfigurieren einen Software-Installer-Typ, der entweder:</target>
+          
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Upload apps (programs for computers or apps for mobile devices) to be stored in Intune cloud storage.</source>
+          <target state="translated">Hochladen von apps (Programme für Computer oder apps für mobile Geräte) in der Intune-Cloud-Speicher gespeichert werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Link to an online store or web application.</source>
+          <target state="translated">Verknüpfen Sie mit einem Onlineshop oder eine Web-Anwendung.</target>
+          
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Before you begin to use the software publisher, you must install the full version of <bpt id="p1">[</bpt>Microsoft .NET Framework 4.0<ept id="p1">](https://www.microsoft.com/download/details.aspx?id=17851)</ept>.</source>
+          <target state="translated">Bevor Sie beginnen, den Herausgeber der Software verwenden, müssen Sie die Vollversion von installieren <bpt id="p1">[</bpt>Microsoft .NET Framework 4.0<ept id="p1">](https://www.microsoft.com/download/details.aspx?id=17851)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>After installation, you might have to restart your computer before the software publisher will open correctly.</source>
+          <target state="translated">Nach der Installation müssen Sie möglicherweise den Computer neu starten, damit der Softwareherausgeber ordnungsgemäß geöffnet wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Cloud storage space</source>
+          <target state="translated">Cloud-Speicher</target>
+          
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>All apps that you create by using the software installer installation type (for example, a line-of-business app) are  packaged and uploaded to Microsoft Intune cloud storage.</source>
+          <target state="translated">Alle apps, die Sie erstellen mithilfe der Software Installer-Installationstyp (z. B. einer Line-of-Business-app) werden gepackt und in Microsoft Intune-Cloud-Speicher hochgeladen.</target>
+          
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A trial subscription of Intune includes 2 gigabytes (GB) of cloud-based storage that is used to store managed apps and updates.</source>
+          <target state="translated">Ein Testabonnement von Intune umfasst 2 Gigabyte (GB) von Cloud-basierten Speicher, der zur Speicherung verwalteter apps und Updates verwendet wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Your full subscription includes 20 GB of storage space.</source>
+          <target state="translated">Ihr vollständige Abonnement umfasst 20 GB Speicherplatz.</target>
+          
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can see how much space you are using in the <bpt id="p1">**</bpt>Storage Use<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Sehen Sie, wie viel Speicherplatz, Sie in verwenden, der <bpt id="p1">**</bpt>Speicher verwenden<ept id="p1">**</ept> Knoten der <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> Arbeitsbereich.</target>
+          
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Requirements for cloud storage space are as follows:</source>
+          <target state="translated">Anforderungen für die Cloud-Speicher sind wie folgt:</target>
+          
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All app installation files must be in the same folder.</source>
+          <target state="translated">Alle app-Installationsdateien muss sich im selben Ordner.</target>
+          
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The maximum file size for any file that you upload is 2 GB.</source>
+          <target state="translated">Die maximale Dateigröße für eine Datei, die Sie hochladen beträgt 2 GB.</target>
+          
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Support for Universal Windows Platform (UWP) apps</source>
+          <target state="translated">Unterstützung für universelle Windows-Plattform (UWP) apps</target>
+          
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Windows 10 PCs do not require a sideloading key to install line-of-business apps.</source>
+          <target state="translated">Windows 10-PCs benötigen keine sideload-Schlüssel, Branchen-apps zu installieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>However, the registry key <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps<ept id="p1">**</ept> must have a value of to <bpt id="p2">**</bpt>1<ept id="p2">**</ept> to enable sideloading.</source>
+          <target state="translated">Allerdings den Registrierungsschlüssel <bpt id="p1">**</bpt>HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps<ept id="p1">**</ept> müssen einen Wert von <bpt id="p2">**</bpt>1<ept id="p2">**</ept> querladen aktivieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If this registry key is not configured, Intune will automatically set this value to <bpt id="p1">**</bpt>1<ept id="p1">**</ept> the first time you deploy an app to the device.</source>
+          <target state="translated">Wenn dieser Registrierungsschlüssel nicht konfiguriert ist, legen Intune dieser Wert auf <bpt id="p1">**</bpt>1<ept id="p1">**</ept> beim ersten Bereitstellen einer app auf dem Gerät.</target>
+          
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If you set this value to <bpt id="p1">**</bpt>0<ept id="p1">**</ept>, Intune cannot automatically change the value, and the deployment of line-of-business apps will fail.</source>
+          <target state="translated">Wenn Sie diesen Wert auf <bpt id="p1">**</bpt>0<ept id="p1">**</ept>, Intune automatisch den Wert nicht ändern und die Bereitstellung von Line-of-Business-apps fehl.</target>
+          
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Universal Windows Platform line-of-business apps must be signed with a code-signing certificate that is trusted on each device to which the app is deployed.</source>
+          <target state="translated">Universelle Windows-Plattform Branchen-apps müssen durch ein codesigniertes Zertifikat signiert werden, die auf jedem Gerät als vertrauenswürdig eingestuft wird, der die Anwendung bereitgestellt wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use a certificate from an in-house public key infrastructure (PKI), or a certificate from a third-party public root certificate installed on the device.</source>
+          <target state="translated">Sie können ein Zertifikat von einer internen public Key-Infrastruktur (PKI) verwenden, oder ein Zertifikat von einem Drittanbieter-öffentliche Stammzertifikat auf dem Gerät installiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On Windows 10 Mobile devices, you can use a non-Symantec code-signing certificate to sign universal <bpt id="p1">**</bpt>.appx<ept id="p1">**</ept> apps.</source>
+          <target state="translated">Auf Windows 10 Mobile-Geräten können Sie ein nicht-Symantec-Codesignaturzertifikat Signieren Universal <bpt id="p1">**</bpt>AppX<ept id="p1">**</ept> apps.</target>
+          
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>.xap<ept id="p1">**</ept> apps, and also <bpt id="p2">**</bpt>.appx<ept id="p2">**</ept> packages built for Windows Phone 8.1 that you want to install on Windows 10 Mobile devices, you must use a Symantec code-signing certificate.</source>
+          <target state="translated">Für <bpt id="p1">**</bpt>XAP<ept id="p1">**</ept> -apps und <bpt id="p2">**</bpt>AppX<ept id="p2">**</ept> Pakete für Windows Phone 8.1 erstellt wurden, auf Windows 10 Mobile-Geräten installieren möchten, müssen Sie ein Symantec-Codesignaturzertifikat verwenden.</target>
+          
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+          
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You'll need to add apps in the Intune console before you can deploy them.</source>
+          <target state="translated">Sie müssen die apps in der Intune-Konsole hinzufügen, bevor Sie sie bereitstellen können.</target>
+          
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can add apps for <bpt id="p1">[</bpt>enrolled devices<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> or for <bpt id="p2">[</bpt>Windows PCs that you manage with the Intune client software<ept id="p2">](add-apps-for-windows-pcs-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Sie können apps für hinzufügen <bpt id="p1">[</bpt>registrierte Geräte<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> oder <bpt id="p2">[</bpt>Windows-PCs, die Sie mit der Clientsoftware verwalten<ept id="p2">](add-apps-for-windows-pcs-in-microsoft-intune.md)</ept>.</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

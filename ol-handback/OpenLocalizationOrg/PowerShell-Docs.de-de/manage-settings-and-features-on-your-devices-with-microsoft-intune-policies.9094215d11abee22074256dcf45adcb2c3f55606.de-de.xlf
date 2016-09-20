@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0dc10ea029d078840a584424f7900f340189b960</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-settings-and-features-on-your-devices-with-microsoft-intune-policies.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07c40cc6feedf03e4001c9e976bf91ec812a74f4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a88ff22d843e6ad64d8515f21df92e529b055ae</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manage device settings with policies | Microsoft Intune</source>
+          <target state="translated">Verwalten von geräteeinstellungen mit Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use Intune to create and deploy policies that control settings and features on enrolled devices that you manage.</source>
+          <target state="translated">Verwenden Sie Intune erstellen und Bereitstellen von Richtlinien, mit denen gesteuert wird, Einstellungen und Features auf registrierte Geräte, die Sie verwalten.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune <bpt id="p1">*</bpt>policies<ept id="p1">*</ept> are groups of settings that control features on mobile devices and computers.</source>
+          <target state="translated">Microsoft Intune <bpt id="p1">*</bpt>Richtlinien<ept id="p1">*</ept> sind Gruppen von Einstellungen zum Steuern der Features auf mobilen Geräten und Computern.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You create policies by using templates that contain recommended or custom settings, and then you deploy them to device or user groups.</source>
+          <target state="translated">Sie erstellen Richtlinien mithilfe von Vorlagen, die empfohlene oder benutzerdefinierte Einstellungen enthalten, und Sie sie dann bereitstellen Geräte- oder Benutzergruppen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Types of policies</source>
+          <target state="translated">Typen von Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Intune policies fall into the following categories.</source>
+          <target state="translated">Intune-Richtlinien werden in die folgenden Kategorien fallen.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The category that you use affects how you create and deploy the policy.</source>
+          <target state="translated">Die Kategorie, die Sie verwenden, wirkt sich auf das Erstellen und Bereitstellen der Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configuration policies<ept id="p1">**</ept>: These are commonly used to manage security settings and features on your devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Konfigurationsrichtlinien<ept id="p1">**</ept>: Diese werden häufig zum Verwalten von Sicherheitsrichtlinien und Funktionen auf Ihren Geräten verwendet.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to learn about how to create and deploy these policies and to explore the available settings.</source>
+          <target state="translated">Verwenden Sie die Informationen in diesem Thema erhalten Sie Informationen zum Erstellen und Bereitstellen dieser Richtlinien und Durchsuchen die verfügbaren Einstellungen.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device compliance policies<ept id="p1">**</ept>: These define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gerätekonformitätsrichtlinien<ept id="p1">**</ept>: Diese definieren die Regeln und Einstellungen, die ein Gerät erfüllen muss, damit Sie kompatibel mit bedingten Richtlinien berücksichtigt werden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also use compliance policies to monitor and remediate  the compliance of devices independent of conditional access.</source>
+          <target state="translated">Sie können auch die Compliance-Richtlinien verwenden, überwachen und Wiederherstellen der Compliance von Geräten, die unabhängig von bedingten Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Device compliance policies in Microsoft Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>gerätekonformitätsrichtlinien in Microsoft Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conditional access polices<ept id="p1">**</ept>: These policies help you secure email and other services, depending on conditions that you specify.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bedingte Zugriffsrichtlinien<ept id="p1">**</ept>: Diese Richtlinien können Sie die sichere e-Mail und anderen Diensten, abhängig von den Bedingungen, die Sie angeben.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Restrict access to email and O365 services with Microsoft Intune<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Beschränken des Zugriffs auf e-Mail und Office 365-Diensten mit Microsoft Intune<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Corporate device enrollment policies<ept id="p1">**</ept>: For information about corporate device enrollment policies, see <bpt id="p2">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id="p2">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unternehmensgerät Registrierungsrichtlinien<ept id="p1">**</ept>: Informationen zu corporate Device Enrollment-Richtlinien finden Sie unter <bpt id="p2">[</bpt>ios- und Mac-Verwaltung mit Microsoft Intune einrichten<ept id="p2">](set-up-ios-and-mac-management-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource access policies<ept id="p1">**</ept>: These policies work together to help your users gain access to the files and resources that they need to do their work successfully, wherever they are.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ressource Zugriffsrichtlinien<ept id="p1">**</ept>: Diese Richtlinien arbeiten zusammen, um den Benutzern Zugriff auf die Dateien und Ressourcen, die sie benötigen für ihre Arbeit erfolgreich, unabhängig von ihrer Position helfen.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Enable access to company resources with Microsoft Intune<ept id="p1">](enable-access-to-company-resources-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>ermöglichen den Zugriff auf Unternehmensressourcen mit Microsoft Intune<ept id="p1">](enable-access-to-company-resources-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For a complete list of Intune policies, see <bpt id="p1">[</bpt>Microsoft Intune policy reference<ept id="p1">](microsoft-intune-policy-reference.md)</ept>.</source>
+          <target state="translated">Eine vollständige Liste der Intune-Richtlinien, finden Sie unter <bpt id="p1">[</bpt>Referenz für Microsoft Intune-Richtlinie<ept id="p1">](microsoft-intune-policy-reference.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create a configuration policy</source>
+          <target state="translated">Erstellen einer Konfigurationsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuration Policies<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Add<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Konfigurationsrichtlinien<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Hinzufügen<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the policy that you want, choose to use the recommended settings for the policy (if available; you can change these settings later), or choose to create a custom policy with your own settings.</source>
+          <target state="translated">Wählen Sie die Richtlinie, die Sie möchten, verwenden die empfohlenen Einstellungen für die Richtlinie (sofern verfügbar; Sie diese Einstellungen später ändern können) oder zum Erstellen einer benutzerdefinierten Richtlinie mit Ihren eigenen Einstellungen auswählen.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For help choosing the right policy, see the <bpt id="p1">[</bpt>Microsoft Intune policy reference<ept id="p1">](microsoft-intune-policy-reference.md)</ept>.</source>
+          <target state="translated">Wählen die richtige Richtlinie finden Sie in der <bpt id="p1">[</bpt>Referenz für Microsoft Intune-Richtlinie<ept id="p1">](microsoft-intune-policy-reference.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you are ready, choose <bpt id="p1">**</bpt>Create Policy<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie bereit sind, wählen Sie <bpt id="p1">**</bpt>Richtlinie erstellen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Policy<ept id="p1">**</ept> page, configure a name and optional description for the policy.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Richtlinie erstellen<ept id="p1">**</ept> Seite, konfigurieren Sie einen Namen und optional eine Beschreibung für die Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Configure the required policy settings, and then choose <bpt id="p1">**</bpt>Save Policy<ept id="p1">**</ept>.</source>
+          <target state="translated">Konfigurieren Sie die erforderlichen Richtlinieneinstellungen, und wählen Sie dann <bpt id="p1">**</bpt>Richtlinie speichern<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you need help with any policy settings, choose your policy type from the following list:</source>
+          <target state="translated">Wenn Sie alle Richtlinien Hilfe benötigen, wählen Sie Ihre Richtlinientyp aus der folgenden Liste:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Settings for iOS devices</source>
+          <target state="translated">Einstellungen für iOS-Geräte</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Settings for Android devices</source>
+          <target state="translated">Einstellungen für Android-Geräte</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Settings for Windows 8 and Windows 8.1 devices</source>
+          <target state="translated">Einstellungen für Windows 8 und Windows 8.1-Geräte</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Settings for Windows Phone 8.1 devices</source>
+          <target state="translated">Einstellungen für Windows Phone 8.1-Geräte</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Settings for Windows 10 desktop and mobile devices</source>
+          <target state="translated">Einstellungen für Windows 10 desktop und mobile Geräte</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Settings for Windows Team devices</source>
+          <target state="translated">Einstellungen für Windows-Team-Geräte</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Settings for Windows edition upgrade</source>
+          <target state="translated">Einstellungen für die Aktualisierung der Windows-edition</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Settings for Mac OS X devices</source>
+          <target state="translated">Einstellungen für Mac OS X-Geräte</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Settings for Exchange ActiveSync</source>
+          <target state="translated">Einstellungen für Exchange ActiveSync</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Settings for the terms and conditions policy</source>
+          <target state="translated">Einstellungen für die Richtlinie Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>General settings for mobile devices (legacy)</source>
+          <target state="translated">Allgemeine Einstellungen für mobile Geräte (Legacy)</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the confirmation dialog box, choose <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to deploy the policy now, or choose <bpt id="p2">**</bpt>No<ept id="p2">**</ept> to create the policy without deploying it.</source>
+          <target state="translated">Wählen Sie im Dialogfeld zur Bestätigung <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept> auf die Richtlinie jetzt bereitzustellen, oder wählen <bpt id="p2">**</bpt>Nr.<ept id="p2">**</ept> um die Richtlinie zu erstellen, ohne Sie bereitzustellen.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can view and edit the new policy by browsing through the sections for each policy type in the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace.</source>
+          <target state="translated">Sie können anzeigen und bearbeiten Sie die neue Richtlinie in den Abschnitten für jeden Richtlinientyp im Durchsuchen der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When you create a policy that uses the recommended settings, the name of the new policy is a combination of the template name, date, and time.</source>
+          <target state="translated">Wenn sie eine Richtlinie erstellen, bei der die empfohlenen Einstellungen verwendet werden, setzt sich der Name der neuen Richtlinie aus dem Vorlagennamen, dem Datum und der Uhrzeit zusammen.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When you edit the policy, the name is updated with the time and date of the edit.</source>
+          <target state="translated">Wenn Sie die Richtlinie bearbeiten, wird der Name mit der Zeit und Datum der Bearbeitung aktualisiert.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>After you create a policy, you will typically want to deploy it to one or more groups of users or devices.</source>
+          <target state="translated">Nachdem Sie eine Richtlinie erstellen, sollten Sie in der Regel eine oder mehrere Gruppen von Benutzern oder Geräten bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You don't deploy all policy types.</source>
+          <target state="translated">Sie bereitstellen nicht alle Typen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, the mobile application management (MAM) policy is not deployed.</source>
+          <target state="translated">Beispielsweise wird die Richtlinie zur mobilen anwendungsverwaltung (MAM) nicht bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This policy type is instead associated with an app, which you then deploy.</source>
+          <target state="translated">Dieser Richtlinientyp kann stattdessen eine app, die Sie dann bereitstellen zugeordnet.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Deploy a configuration policy</source>
+          <target state="translated">Bereitstellen einer Konfigurationsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Richtlinie, die Sie bereitstellen möchten, und wählen Sie dann <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> (Dialogfeld):</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To deploy the policy, select one or more groups to which you want to deploy the policy, and then choose <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">Um die Richtlinie bereitstellen möchten, wählen Sie eine oder mehrere Gruppen aus, die zum Bereitstellen der Richtlinie, und wählen Sie dann <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To close the dialog box without deploying the policy, choose <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept>.</source>
+          <target state="translated">Um das Dialogfeld zu schließen, ohne die Richtlinie bereitstellen, wählen Sie <bpt id="p1">**</bpt>Abbrechen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you select a deployed policy, you can view further information about the deployment in the lower part of the policies list.</source>
+          <target state="translated">Wenn Sie eine bereitgestellte Richtlinie auswählen, können Sie weitere Informationen zur Bereitstellung im unteren Teil der Liste der Richtlinien anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Manage policies</source>
+          <target state="translated">Verwalten von Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept>, and then browse to and select the policy that you want to manage.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept>, und navigieren Sie zu, und wählen Sie die Richtlinie, die Sie verwalten möchten.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Select one of the following actions:</source>
+          <target state="translated">Wählen Sie eine der folgenden Aktionen aus:</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>: Open the properties for the selected policy so that you can make changes.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bearbeiten Sie<ept id="p1">**</ept>: die Eigenschaften für die ausgewählte Richtlinie geöffnet, sodass Sie Änderungen vornehmen können.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>: Delete the selected policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Löschen Sie<ept id="p1">**</ept>: Löscht die ausgewählte Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you delete a policy, it is removed from all groups to which it was deployed.</source>
+          <target state="translated">Wenn Sie eine Richtlinie löschen, wird sie aus allen Gruppen entfernt, für die sie bereitgestellt worden war.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept>: Select the group that you want to deploy the policy to, and then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwalten von Bereitstellungen<ept id="p1">**</ept>: Wählen Sie die Gruppe, die Sie verwenden möchten, Bereitstellen der Richtlinie auf, und wählen Sie dann <bpt id="p2">**</bpt>Hinzufügen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Frequently asked questions about Intune policies</source>
+          <target state="translated">Häufig gestellte Fragen zum Intune-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>How long does it take for mobile devices to get a policy or apps after they have been deployed?</source>
+          <target state="translated">Wie lange dauert es für mobile Geräte eine Richtlinie oder apps abgerufen werden, nachdem sie bereitgestellt wurden?</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When a policy or an app is deployed, Intune immediately begins attempting to notify the device that it should check in with the Intune service.</source>
+          <target state="translated">Bei der Bereitstellung einer Anwendung oder einer Richtlinie sofort Intune versucht, das Gerät zu informieren, das sich mit dem Intune-Dienst überprüft werden soll.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This typically takes less than five minutes.</source>
+          <target state="translated">Dies dauert normalerweise weniger als fünf Minuten.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If a device doesn't check in to get the policy after the first notification is sent, Intune makes three more attempts.</source>
+          <target state="translated">Wenn ein Gerät prüfen nicht der Richtlinie zu erhalten, wenn die erste Benachrichtigung gesendet wird, wird der Intune drei weitere Versuche.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the device is offline (for example, it is turned off or not connected to a network), it might not receive the notifications.</source>
+          <target state="translated">Wenn das Gerät offline ist (z. B. er ist deaktiviert oder nicht mit einem Netzwerk verbunden), die Benachrichtigungen nicht empfangen kann.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In this case, the device will get the policy on its next scheduled check-in with the Intune service as follows:</source>
+          <target state="translated">In diesem Fall wird das Gerät die Richtlinie bei der nächsten geplanten Einchecken mit dem Intune-Dienst wie folgt abrufen:</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>iOS and Mac OS X: Every 6 hours.</source>
+          <target state="translated">iOS und Mac OS X: alle 6 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Android: Every 8 hours.</source>
+          <target state="translated">Android: Alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Windows Phone: Every 8 hours.</source>
+          <target state="translated">Windows Phone: Alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Enrolled Windows RT devices: Every 24 hours.</source>
+          <target state="translated">Windows RT-Geräte registriert: alle 24 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows 10 PCs enrolled as devices: Every 8 hours.</source>
+          <target state="translated">Windows 8.1 und Windows 10-PCs Geräte registriert: alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the device has just enrolled, the check-in frequency will be more frequent, as follows:</source>
+          <target state="translated">Wenn das Gerät gerade erst registriert wurde, wird die Frequenz wie folgt häufigere werden:</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>iOS and Mac OS X: Every 15 minutes for 6 hours, and then every 6 hours.</source>
+          <target state="translated">iOS und Mac OS X: alle 15 Minuten dauern, bis 6 Stunden, und klicken Sie dann alle 6 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Android: Every 3 minutes for 15 minutes, then every 15 minutes for 2 hours, and then every 8 hours.</source>
+          <target state="translated">Android: Alle 3 Minuten für 15 Minuten, dann werden alle 15 Minuten = 2 Stunden und dann alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Windows Phone: Every 5 minutes for 15 minutes, then every 15 minutes for 2 hours, and then every 8 hours.</source>
+          <target state="translated">Windows Phone: Alle 5 Minuten für 15 Minuten, und klicken Sie dann auf alle 15 Minuten 2 Stunden, und klicken Sie dann alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Windows PCs enrolled as devices: Every 3 minutes for 30 minutes, and then every 8 hours.</source>
+          <target state="translated">Windows-PCs, die Geräte registriert: alle 3 Minuten für 30 Minuten, und klicken Sie dann alle 8 Stunden.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Users can also open the Company Portal app and sync the device to immediately check for the policy anytime.</source>
+          <target state="translated">Benutzer können auch die Unternehmensportal-app öffnen und synchronisieren das Gerät sofort für die Richtlinie jederzeit überprüfen.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>What actions cause Intune to immediately send a notification  to a device?</source>
+          <target state="translated">Welche Aktionen Intune sofort eine Benachrichtigung an ein Gerät senden?</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Devices check in with Intune either when they receive a notification that tells them to check in or during their regularly scheduled check-in.</source>
+          <target state="translated">Geräte überprüfen mit Intune entweder beim sie eine Benachrichtigung erhalten, die in oder bei ihrer regelmäßigen Überprüfung überprüfen soll.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>When you target a device or user specifically with an action such as a wipe, lock, passcode reset, app deployment, profile deployment (Wi-Fi, VPN, email, etc.), or policy deployment, Intune will immediately begin trying to notify the device that it should check in with the Intune service to receive these updates.</source>
+          <target state="translated">Wenn Sie ein Gerät oder Benutzer mit einer Aktion, z. B. ein Zurücksetzen, sperren, Zurücksetzen der Kennung, app-Bereitstellung, Bereitstellung des Profils (Wi-Fi, VPN, e-Mail usw.) oder Bereitstellung der Richtlinie, Intune Ziel beginnt sofort versuchen, dem Gerät benachrichtigen, dass sich mit dem Intune-Dienst diese Updates erhalten überprüft werden soll.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Other changes, such as revising the contact information in the company portal, do not cause an immediate notification to devices.</source>
+          <target state="translated">Andere Änderungen, z. B. überarbeiten die Informationen in das Unternehmensportal, führen eine sofortige Benachrichtigung an Geräte nicht.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If multiple policies are deployed to the same user or device, how do I know which settings will get applied?</source>
+          <target state="translated">Wenn mehrere Richtlinien für den gleichen Benutzer oder Gerät bereitgestellt werden, führen Sie wie ich weiß, welche Einstellungen angewendet werden?</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>When two or more policies are deployed to the same user or device, the evaluation for which setting is applied happens at the individual setting level:</source>
+          <target state="translated">Wenn zwei oder mehr Richtlinien für den gleichen Benutzer oder Gerät bereitgestellt werden, geschieht die Bewertung für die Einstellung angewendet wird auf der Ebene einzelner Einstellung:</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings always have precedence over configuration policy settings.</source>
+          <target state="translated">Compliance-Richtlinien haben immer Vorrang vor Konfiguration.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The most restrictive compliance policy setting is applied if it is evaluated against the same setting in a different compliance policy.</source>
+          <target state="translated">Die restriktivste Einstellung der Compliance-Richtlinie wird angewendet, wenn sie die gleiche Einstellung in einer anderen Richtlinie ausgewertet wird.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If a configuration policy setting conflicts with a setting in a different configuration policy, this conflict will be displayed in the Intune console.</source>
+          <target state="translated">Wenn eine Konfigurationsrichtlinie steht in Konflikt mit einer Einstellung in einer anderen Konfiguration-Richtlinie festlegen, wird dieser Konflikt in der Intune-Konsole angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You must manually resolve such conflicts.</source>
+          <target state="translated">Sie müssen diese Konflikte auflösen.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>What happens when mobile application management policies conflict with each other?</source>
+          <target state="translated">Was geschieht, wenn Verwaltungsrichtlinien für mobile Anwendung miteinander in Konflikt stehen?</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Which one will be applied to the app?</source>
+          <target state="translated">Welche wird für die app angewendet werden?</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Conflict values are the most restrictive settings available in a MAM policy, except for the number entry fields (like PIN attempts before reset).</source>
+          <target state="translated">Konflikt-Werte sind die restriktivsten Einstellungen in eine MAM-Richtlinie, mit der Ausnahme für die Anzahl Eintrag Felder (z. B. vor dem Zurücksetzen der PIN versucht).</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The number entry fields will be set the same as the values, as if you created a MAM policy in the console by using the recommended settings option.</source>
+          <target state="translated">Die Anzahl Felder werden dieselbe wie die Werte festgelegt werden, als ob Sie eine MAM-Richtlinie mithilfe der Option empfohlenen Einstellungen in der Konsole erstellt.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Conflicts occur when two policy settings are the same.</source>
+          <target state="translated">Konflikte auftreten, wenn zwei Einstellungen identisch sind.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For example, you configured two MAM policies that are identical except for the copy/paste setting.</source>
+          <target state="translated">Beispielsweise haben Sie zwei MAM Richtlinien, die identisch, abgesehen von der kopieren-Einstellung konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In this scenario, the copy/paste setting will be set to the most restrictive value, but the rest of the settings will be applied as configured.</source>
+          <target state="translated">In diesem Szenario die kopieren-Einstellung wird auf den restriktivsten Wert festgelegt werden, aber der Rest der Einstellungen wird angewendet, wenn konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If one policy is deployed to the app and takes effect, and then a second one is deployed, the first one will take precedence and stay applied, while the second shows in conflict.</source>
+          <target state="translated">Wenn eine Richtlinie für die Anwendung bereitgestellt wird, und wird wirksam, und klicken Sie dann ein weiterer bereitgestellt wird, dauert die ersten Rangfolge und bleiben angewendet, während das zweite in Konflikt stehende zeigt.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If they are both applied at the same time, meaning that there is no preceding policy, then they will both be in conflict.</source>
+          <target state="translated">Wenn sie beide, gleichzeitig angewendet werden, was bedeutet, dass keine vorherigen Richtlinie, werden sie beide in Konflikt stehende sein.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Any conflicting settings will be set to the most restrictive values.</source>
+          <target state="translated">Alle in Konflikt stehenden Einstellungen werden auf die restriktivste Werte festgelegt werden.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>What happens when iOS custom policies conflict?</source>
+          <target state="translated">Was geschieht, wenn benutzerdefinierte iOS-Richtlinien in Konflikt stehen?</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Intune does not evaluate the payload of Apple Configuration files or a custom Open Mobile Alliance Uniform Resource Identifier (OMA-URI) policy.</source>
+          <target state="translated">Die Nutzlast der Apple-Konfigurationsdateien oder eine benutzerdefinierte Open Mobile Alliance Uniform Resource Identifier (OMA-URI) Richtlinie ermitteln Intune keine.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>It merely serves as the delivery mechanism.</source>
+          <target state="translated">Sie dient lediglich als der Mechanismus.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When you deploy a custom policy, ensure that the configured settings do not conflict with compliance, configuration, or other custom policies.</source>
+          <target state="translated">Wenn Sie eine benutzerdefinierte Richtlinie bereitstellen, stellen Sie sicher, dass die konfigurierten Einstellungen nicht mit Compliance, Konfigurations- oder andere benutzerdefinierten Richtlinien in Konflikt stehen.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In the case of a custom policy with settings conflicts, the order in which settings are applied is random.</source>
+          <target state="translated">Im Fall einer benutzerdefinierten Richtlinie mit Einstellungskonflikte ist die Reihenfolge, in der Einstellungen angewendet werden, zufällig.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>What happens when a policy is deleted or no longer applicable?</source>
+          <target state="translated">Was geschieht, wenn eine Richtlinie gelöscht oder nicht mehr anwendbar ist?</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When you delete a policy, or you remove a device from a group to which a policy was deployed, the policy and settings will be removed from the device according to the following lists.</source>
+          <target state="translated">Wenn Sie eine Richtlinie löschen, oder entfernen Sie ein Gerät aus einer Gruppe, auf der eine Richtlinie bereitgestellt wurde, werden die Richtlinie und die Einstellungen entsprechend den folgenden Listen vom Gerät entfernt.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enrolled devices</source>
+          <target state="translated">Registrierte Geräte</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Wi-Fi, VPN, certificate, and email profiles: These profiles are removed from all supported enrolled devices.</source>
+          <target state="translated">Wi-Fi, VPN, Zertifikat und e-Mail-Profile: Diese Profile werden von allen unterstützten registrierten Geräten entfernt.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>All other policy types:</source>
+          <target state="translated">Alle anderen Richtlinientypen:</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows and Android devices<ept id="p1">**</ept>: Settings are not removed from the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows und Android-Geräte<ept id="p1">**</ept>: Einstellungen werden nicht vom Gerät entfernt.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Phone 8.1 devices<ept id="p1">**</ept>: The following settings are removed:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows Phone 8.1-Geräte<ept id="p1">**</ept>: die folgenden Einstellungen wurden entfernt:</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Require a password to unlock mobile devices</source>
+          <target state="translated">Kennwort zum Entsperren mobiler Geräte erforderlich</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Allow simple passwords</source>
+          <target state="translated">Einfache Kennwörter zulassen</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Minimum password length</source>
+          <target state="translated">Minimale Kennwortlänge</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="translated">Erforderlicher Kennworttyp</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="translated">Kennwortablauf (Tage)</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="translated">Kennwortverlauf speichern</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
+          <target state="translated">Anzahl der zulässigen wiederholten Anmeldefehler, bevor die Gerätedaten zurückgesetzt werden</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before password is required</source>
+          <target state="translated">Minuten Inaktivität vor erneuter Anforderung des Kennworts</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Required password type – minimum number of character sets</source>
+          <target state="translated">Erforderlicher Kennworttyp – Mindestanzahl von Zeichensätzen</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Allow camera</source>
+          <target state="translated">Kamera zulassen</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Require encryption on mobile device</source>
+          <target state="translated">Verschlüsselung auf mobilen Geräten vorschreiben</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Allow removable storage</source>
+          <target state="translated">Wechselmedien zulassen</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Allow web browser</source>
+          <target state="translated">Webbrowser zulassen</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Allow application store</source>
+          <target state="translated">Anwendungsspeicher zulassen</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Allow screen capture</source>
+          <target state="translated">Bildschirmaufnahme zulassen</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Allow geolocation</source>
+          <target state="translated">Geolocation zulassen</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Allow Microsoft account</source>
+          <target state="translated">Microsoft-Konto erlauben</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Allow copy and paste</source>
+          <target state="translated">Kopieren und einfügen zulassen</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi tethering</source>
+          <target state="translated">Wi-Fi-tethering zulassen</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Allow automatic connection to free Wi-Fi hotspots</source>
+          <target state="translated">Lassen Sie automatische Verbindung mit WLAN Hotspots zu</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi hotspot reporting</source>
+          <target state="translated">WLAN-hotspotmeldung zulassen</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Allow factory reset</source>
+          <target state="translated">Zurücksetzen auf werkseinstellungen zulassen</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Allow Bluetooth</source>
+          <target state="translated">Bluetooth zulassen</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Allow NFC</source>
+          <target state="translated">NFC zulassen</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Allow Wi-Fi</source>
+          <target state="translated">Wi-Fi zulassen</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>: All settings are removed, except:</source>
+          <target state="translated"><bpt id="p1">**</bpt>iOS<ept id="p1">**</ept>: alle Einstellungen werden entfernt, es sei denn:</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Allow voice roaming</source>
+          <target state="translated">Sprachroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Allow data roaming</source>
+          <target state="translated">Datenroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Allow automatic synchronization while roaming</source>
+          <target state="translated">Automatische Synchronisierung beim Roaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Windows PCs running the Intune client software</source>
+          <target state="translated">Computer mit Windows Intune-Clientsoftware ausgeführt</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Endpoint Protection settings<ept id="p1">**</ept>: Settings are restored to their recommended values.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Endpoint Protection-Einstellungen<ept id="p1">**</ept>: Einstellungen werden auf die empfohlenen Werte zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The only exception is the <bpt id="p1">**</bpt>Join Microsoft Active Protection Service<ept id="p1">**</ept> setting, for which the default value is <bpt id="p2">**</bpt>No<ept id="p2">**</ept>.</source>
+          <target state="translated">Die einzige Ausnahme ist die <bpt id="p1">**</bpt>Microsoft Active Protection Service beitreten<ept id="p1">**</ept> festlegen, für die der Standardwert ist <bpt id="p2">**</bpt>Nr.<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Schützen der Windows-PCs mit Endpoint Protection für Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Software updates settings<ept id="p1">**</ept>: Settings are reset to the default state for the operating system.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Einstellungen für Softwareupdates<ept id="p1">**</ept>: Einstellungen werden auf den Standardstatus für das Betriebssystem zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Windows-PCs zu halten, bis zum Datum mit Softwareupdates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Intune Center settings<ept id="p1">**</ept>: Any support contact information that was configured by the policy is deleted from computers.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Microsoft Intune Center-Einstellungen<ept id="p1">**</ept>: alle Kontaktinformationen für Support, die von der Richtlinie konfiguriert wurde vom Computer gelöscht.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows Firewall settings<ept id="p1">**</ept>: Settings are reset to the default for the computer operating system.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows-Firewall-Einstellungen<ept id="p1">**</ept>: Einstellungen werden auf die Standardeinstellung für das Betriebssystem zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Schützen der Windows-PCs mit Endpoint Protection für Microsoft Intune<ept id="p1">](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>How can I refresh the policies on a device to ensure that they are current (applies to Windows PCs running the Intune client software only)?</source>
+          <target state="translated">Wie können Sie die Richtlinien auf einem Gerät, um sicherzustellen, dass sie aktuell sind aktualisieren (gilt für Windows-PCs, die nur die Intune-Clientsoftware ausgeführt)?</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>In any device group, select the devices on which you want to refresh the policies, and then choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Refresh Policies<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie die Geräte, die Sie auf die Richtlinien aktualisiert, und wählen Sie dann in einer beliebigen Gerätegruppe <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Richtlinien aktualisieren<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept> in the lower-right corner of the Intune administration console to check the task status.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept> in der unteren rechten Ecke der Intune-Verwaltungskonsole zum Überprüfen des Aufgabenstatus.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Where can I find help troubleshooting policies?</source>
+          <target state="translated">Wo finde ich Hilfe zur Problembehandlung bei Richtlinien?</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Troubleshoot policies in Microsoft Intune<ept id="p1">](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)</ept>.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Problembehandlung bei Richtlinien in Microsoft Intune<ept id="p1">](/intune/troubleshoot/troubleshoot-policies-in-microsoft-intune)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

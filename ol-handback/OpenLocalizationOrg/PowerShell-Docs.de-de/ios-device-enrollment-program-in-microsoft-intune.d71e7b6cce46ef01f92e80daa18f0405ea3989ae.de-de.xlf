@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa02292c2cd6a8b627428752d97cf8a04dcc19b0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-device-enrollment-program-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ef8128f75c75ef65331631b0c684c7b70b8e8678</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14abde0d682e6b15a082ab913aa995c964035bd6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Apple DEP management for iOS devices | Microsoft Intune</source>
+          <target state="translated">Apple-DEP-Verwaltung für iOS-Geräten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Deploy an enrollment profile that enrolls iOS devices purchased through the iOS Device Enrollment Program (DEP) “over the air” to manage Apple devices.</source>
+          <target state="translated">Bereitstellen ein Registrierungsprofil, die über den iOS Device Enrollment Program (DEP) "Drahtlos" erworbene iOS-Geräte registriert Apple-Geräte verwalten.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned Device Enrollment Program iOS devices</source>
+          <target state="translated">Registrieren von firmeneigenen Device Enrollment Program-iOS-Geräte</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune can deploy an enrollment profile that enrolls iOS devices purchased through the Device Enrollment Program (DEP) “over the air.”</source>
+          <target state="translated">Microsoft Intune können ein Registrierungsprofil bereitstellen, die über das Device Enrollment Programm (DEP) "per Funk." erworbene iOS-Geräte registriert.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The enrollment package can include setup assistant options for the device.</source>
+          <target state="translated">Das Registrierungspaket zählen Setup-Assistent-Optionen für das Gerät.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Devices enrolled through DEP cannot be un-enrolled by users.</source>
+          <target state="translated">Geräten über DEP können nicht vom Benutzer nicht angemeldet sein.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Apple DEP management for iOS devices with Microsoft Intune</source>
+          <target state="translated">Apple-DEP-Verwaltung für iOS-Geräten mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To manage corporate-owned iOS devices with Apple’s Device Enrollment Program (DEP), your organization must join Apple DEP and acquire devices through that program.</source>
+          <target state="translated">Zum Verwalten von firmeneigenen iOS-Geräten mit Apple Device Enrollment Programm (DEP) muss Ihre Organisation Apple DEP beitreten und Geräte über das Programm beziehen.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Details of that process are available at:  <bpt id="p1">[</bpt>https://deploy.apple.com<ept id="p1">](https://deploy.apple.com)</ept>.</source>
+          <target state="translated">Details zu diesem Prozess finden Sie unter:  <bpt id="p1">[</bpt>https://deploy.apple.com<ept id="p1">](https://deploy.apple.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Advantages of the program include hands-free set up of devices without USB-connecting each device to a computer.</source>
+          <target state="translated">Das Programm Vorteile Headset Satz von Geräte ohne USB-Verbindung jedes Gerät an einen Computer.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Before you can enroll corporate-owned iOS devices with DEP, you need a DEP Token from Apple.</source>
+          <target state="translated">Bevor Sie firmeneigene iOS-Geräte mit DEP registrieren können, benötigen Sie einen DEP-Token von Apple.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This token allows Intune to sync information about DEP-participating devices owned by your corporation.</source>
+          <target state="translated">Dieses Token kann Intune Informationen zu synchronisieren DEP-Geräten, die Ihrem Unternehmen gehören.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It also permits Intune to perform Enrollment Profile uploads to Apple and to assign devices to those profiles.</source>
+          <target state="translated">Es kann auch Intune registrierungsprofile an Apple übermitteln und diesen Profile Geräte zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start managing iOS devices with Microsoft Intune<ept id="p1">**</ept> Before you can enroll iOS Device Enrollment Program (DEP) devices, you must complete enable iOS management for Intune.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Starten der Verwaltung von iOS-Geräten mit Microsoft Intune<ept id="p1">**</ept> Sie iOS-Device Enrollment Program (DEP) Geräte registrieren können, müssen Sie aktivieren iOS-Verwaltung für Intune ausführen.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get an Encryption Key<ept id="p1">**</ept> As an administrative user, open the <bpt id="p2">[</bpt>Microsoft Intune administration console<ept id="p2">](http://manage.microsoft.com)</ept>, go to <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Mobile Device Management<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, and click <bpt id="p7">**</bpt>Download Encryption Key<ept id="p7">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Abrufen eines Verschlüsselungsschlüssels<ept id="p1">**</ept> Öffnen Sie als Administrator die <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](http://manage.microsoft.com)</ept>, besuchen Sie die <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Verwaltung mobiler Geräte<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, und klicken Sie auf <bpt id="p7">**</bpt>Verschlüsselungsschlüssel herunterladen<ept id="p7">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Save the encryption key (.pem) file locally.</source>
+          <target state="translated">Speichern Sie die Verschlüsselungsschlüsseldatei (PEM) lokal.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The .pem file is used to request a trust-relationship certificate from the Apple Device Enrollment Program portal.</source>
+          <target state="translated">Die PEM-Datei wird verwendet, um ein vertrauensstellungszertifikat vom Apple Device Enrollment Program-Portal anzufordern.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Update a device enrollment program token</source>
+          <target state="translated">Ein Token für geräteregistrierungsprogramm aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Get a Device Enrollment Program token<ept id="p1">**</ept> Go to the <bpt id="p2">[</bpt>Device Enrollment Program Portal<ept id="p2">](https://deploy.apple.com)</ept> (https://deploy.apple.com) and sign in with your company Apple ID.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Abrufen eines Device Enrollment Program-Tokens<ept id="p1">**</ept> Wechseln Sie zu der <bpt id="p2">[</bpt>Device Enrollment Program-Portal<ept id="p2">](https://deploy.apple.com)</ept> (https://deploy.apple.com), und melden Sie sich mit Apple ID Ihres Unternehmens</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This Apple ID must be used in future to renew your DEP token.</source>
+          <target state="translated">Diese Apple-ID muss in Zukunft verwendet werden, um das DEP-Token zu erneuern.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Device Enrollment Program Portal<ept id="p1">](https://deploy.apple.com)</ept> portal, go <bpt id="p2">**</bpt>Device Enrollment Program<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Manage Servers<ept id="p3">**</ept>, and then click <bpt id="p4">**</bpt>Add MDM Server<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Device Enrollment Program-Portal<ept id="p1">](https://deploy.apple.com)</ept> wechseln <bpt id="p2">**</bpt>Device Enrollment Program<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Server verwalten<ept id="p3">**</ept>, und klicken Sie dann auf <bpt id="p4">**</bpt>MDM-Server hinzufügen<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enter the <bpt id="p1">**</bpt>MDM Server Name<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie die <bpt id="p1">**</bpt>MDM-Servernamen<ept id="p1">**</ept> und klicken Sie dann auf <bpt id="p2">**</bpt>Weiter<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The server name is for your reference to identify the MDM server.</source>
+          <target state="translated">Der Servername dient als Referenz zum Identifizieren des MDM-Servers.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is not name or URL of the Microsoft Intune server.</source>
+          <target state="translated">Es ist nicht der Name oder die URL des Microsoft Intune-Servers.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept> dialog box opens.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Hinzufügen <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept> das Dialogfeld wird geöffnet.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Choose File…<ept id="p1">**</ept></source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Datei auswählen...<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>to upload the .pem file and then click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="translated">die PEM-Datei hochladen, und klicken Sie auf <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept> dialog box displays a <bpt id="p2">**</bpt>Your Server Token<ept id="p2">**</ept> link.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Hinzufügen <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept> Dialogfeld zeigt eine <bpt id="p2">**</bpt>Ihr Servertoken<ept id="p2">**</ept> Link.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Download the server token (.p7m) file to your computer, and then click <bpt id="p1">**</bpt>Done<ept id="p1">**</ept>.</source>
+          <target state="translated">Die Datei für den Server-Token (. P7M) auf Ihren Computer heruntergeladen, und klicken Sie dann auf <bpt id="p1">**</bpt>Fertig<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This certificate (.p7m) file is used to establish a trust relationship between Intune and Apple’s Device Enrollment Program servers.</source>
+          <target state="translated">Diese Zertifikatdatei (. P7M) wird verwendet, um eine Vertrauensstellung zwischen dem Intune- und Apple Device Enrollment Program-Server herzustellen.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add the DEP token to Intune<ept id="p1">**</ept> In the <bpt id="p2">[</bpt>Microsoft Intune administration console<ept id="p2">](http://manage.microsoft.com)</ept>, go to <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Mobile Device Management<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, and click <bpt id="p7">**</bpt>Upload the DEP Token<ept id="p7">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Intune DEP-Token hinzufügen<ept id="p1">**</ept> In die <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](http://manage.microsoft.com)</ept>, zu <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Verwaltung mobiler Geräte<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, und klicken Sie auf <bpt id="p7">**</bpt>DEP-Token hochladen<ept id="p7">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Browse<ept id="p1">**</ept> to the certificate (.p7m) file, enter your <bpt id="p2">**</bpt>Apple ID<ept id="p2">**</ept>, and click <bpt id="p3">**</bpt>Upload<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Durchsuchen<ept id="p1">**</ept> zur Zertifikatdatei (. P7M), geben Sie Ihre <bpt id="p2">**</bpt>Apple-ID<ept id="p2">**</ept>, und klicken Sie auf <bpt id="p3">**</bpt>Hochladen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add the Corporate Device Enrollment Policy<ept id="p1">**</ept> In the <bpt id="p2">[</bpt>Microsoft Intune administration console<ept id="p2">](http://manage.microsoft.com)</ept>, go to <bpt id="p3">**</bpt>Policy<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Corporate Device Enrollment<ept id="p4">**</ept> and then click <bpt id="p5">**</bpt>Add<ept id="p5">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinzufügen der Corporate Device Enrollment-Richtlinie<ept id="p1">**</ept> In der <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](http://manage.microsoft.com)</ept>, besuchen Sie die <bpt id="p3">**</bpt>Richtlinie<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Unternehmensgeräteregistrierung<ept id="p4">**</ept> und klicken Sie dann auf <bpt id="p5">**</bpt>Hinzufügen<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Provide <bpt id="p1">**</bpt>General<ept id="p1">**</ept> details including <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Description<ept id="p3">**</ept>, specify whether devices assigned to the profile have user affinity or belong to a group.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>Allgemeine<ept id="p1">**</ept> Informationen einschließlich <bpt id="p2">**</bpt>Namen<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Beschreibung<ept id="p3">**</ept>, geben Sie an, ob die Geräte, die dem Profil zugeordneten Benutzer oder einer Gruppe angehören.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prompt for user affinity<ept id="p1">**</ept>: The device must be affiliated with a user during initial setup and could then be permitted to access company data and email as that user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aufforderung zur Affinität zwischen Benutzer und<ept id="p1">**</ept>: das Gerät muss mit einem Benutzer zugewiesen werden, während der ersten Installation und dann berechtigt sein, den Zugriff auf Unternehmensdaten und e-Mail-Namen dieses Benutzers.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User affinity<ept id="p1">**</ept> should be configured for DEP-managed devices that belong to users and need to use the company portal (i.e. to install apps).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Affinität zwischen Benutzer und<ept id="p1">**</ept> sollten für DEP verwalteter Geräte, die Benutzer angehören, und das Unternehmensportal verwenden (d. h., um apps zu installieren) müssen konfiguriert werden.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> DEP devices with user affinity cannot support multifactor authentication.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> DEP-Geräten mit der Affinität zwischen Benutzer und nicht die mehrstufigen Authentifizierung unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>No user affinity<ept id="p1">**</ept>: The device is not affiliated with a user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Keine Affinität zwischen Benutzer und<ept id="p1">**</ept>: das Gerät ist nicht mit einem Benutzer zugeordnet.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Use this affiliation for devices that perform tasks without accessing local user data.</source>
+          <target state="translated">Verwenden Sie diese Zuweisung für Geräte, die Aufgaben ausführen, ohne den Zugriff auf lokale Benutzerdaten.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Apps requiring user affiliation, including the Company Portal app used for installing line-of-business apps, won’t work.</source>
+          <target state="translated">Apps, die eine benutzerzuweisung, einschließlich der Unternehmensportal-app, die für die Installation von Branchen-apps verwendet, funktioniert nicht.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">**</bpt>Assign devices to the following group<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>Geräte folgender Gruppe zuweisen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Select...<ept id="p1">**</ept> to choose a group.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Select...<ept id="p1">**</ept> eine Gruppe auswählen.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Next, enable <bpt id="p1">**</bpt>Configure Device Enrollment Program settings for this policy<ept id="p1">**</ept> to support DEP.</source>
+          <target state="translated">Aktivieren Sie als Nächstes <bpt id="p1">**</bpt>Device Enrollment Program konfigurieren Einstellungen für diese Richtlinie<ept id="p1">**</ept> um DEP zu unterstützen</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Setup assistant pane</source>
+          <target state="translated">Bereich des Setup-Assistenten</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following settings are available for DEP-managed devices:</source>
+          <target state="translated">Die folgenden Einstellungen sind für DEP verwalteter Geräte verfügbar:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Department<ept id="p1">**</ept> - Appears when users tap "About Configuration" during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Abteilung<ept id="p1">**</ept> -wird angezeigt, wenn der Benutzer während der Aktivierung "Zur Konfiguration" tippen</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Support phone number<ept id="p1">**</ept> - Displayed when the user clicks the <bpt id="p2">**</bpt>Need Help<ept id="p2">**</ept> button during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Support-Telefonnummer<ept id="p1">**</ept> -angezeigt, wenn der Benutzer klickt auf die <bpt id="p2">**</bpt>benötigen Sie Hilfe<ept id="p2">**</ept> Schaltfläche während der Aktivierung</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Preparation mode<ept id="p1">**</ept> - This state is set during activation and cannot be changed without factory resetting the device:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vorbereitung Modus<ept id="p1">**</ept> – dieser Status wird während der Aktivierung festgelegt und kann nicht geändert werden, ohne das Gerät zurückzusetzen Factory:</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unsupervised<ept id="p1">**</ept> - Limited management capabilities</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unbeaufsichtigtes<ept id="p1">**</ept> -Managementfunktionen beschränkt</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Supervised<ept id="p1">**</ept> - Enables more management options and disables Activation Lock by default</source>
+          <target state="translated"><bpt id="p1">**</bpt>Überwacht<ept id="p1">**</ept> – können Sie weitere Optionen und Aktivierung standardmäßig deaktiviert</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lock enrollment profile to device<ept id="p1">**</ept> - This state is set during activation and cannot be changed without a factory reset</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anmeldungsprofil für Gerät sperren<ept id="p1">**</ept> – dieser Status wird während der Aktivierung festgelegt und kann nicht geändert werden, ohne die Herstellerstandards</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable<ept id="p1">**</ept> - Allows the management profile to be removed from the <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> menu</source>
+          <target state="translated"><bpt id="p1">**</bpt>Deaktivieren Sie<ept id="p1">**</ept> -ermöglicht das Management-Profil von zu entfernenden der <bpt id="p2">**</bpt>Einstellungen<ept id="p2">**</ept> Menü</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> - (Requires <bpt id="p2">**</bpt>Preparation Mode<ept id="p2">**</ept><ph id="ph1"> = </ph><bpt id="p3">**</bpt>Supervised<ept id="p3">**</ept>) Disables iOS settings that could allow removal of the management profile</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aktivieren Sie<ept id="p1">**</ept> -(erfordert <bpt id="p2">**</bpt>Vorbereitung Modus<ept id="p2">**</ept><ph id="ph1"> = </ph><bpt id="p3">**</bpt>Supervised<ept id="p3">**</ept>) deaktiviert die iOS-Einstellungen, die zum Entfernen des Profils Management können</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Setup Assistant Options<ept id="p1">**</ept> - These settings are optional and can be configured later in the iOS <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> menu</source>
+          <target state="translated"><bpt id="p1">**</bpt>Setup-Assistent-Optionen<ept id="p1">**</ept> -diese Einstellungen sind optional und kann konfiguriert werden, später in der iOS- <bpt id="p2">**</bpt>Einstellungen<ept id="p2">**</ept> Menü</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Passcode<ept id="p1">**</ept> - Prompt for passcode during activation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennung<ept id="p1">**</ept> - Kennung, die während der Aktivierung auffordern.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Always require a passcode unless the device will be secured or have access controlled in some other manner (i.e. kiosk mode that restricts the device to one app).</source>
+          <target state="translated">Fordern Sie immer eine Kennung auf, es sei denn, das Gerät wird gesichert werden, oder haben Zugriff auf andere Weise (d. h. Kiosk-Modus, der das Gerät auf eine Anwendung beschränkt) gesteuert.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location Services<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for the service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Standortdienste<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, den Dienst während der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Restore<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for iCloud backup during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wiederherstellen<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, iCloud Sicherung während der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Apple ID<ept id="p1">**</ept> - An Apple ID is required to download iOS App Store apps, including those installed by Intune.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Apple-ID<ept id="p1">**</ept> -ein Apple-ID ist erforderlich, um die iOS-App Store-apps, einschließlich von Intune installiert herunterladen.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If enabled, iOS will prompt users for an Apple ID when Intune attempts to install an app without an ID.</source>
+          <target state="translated">Wenn aktiviert, fordert iOS Benutzer einen Apple-ID bei Intune versucht, eine app ohne eine ID zu installieren</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Terms and Conditions<ept id="p1">**</ept> - If enabled, Setup Assistant prompts users to accept Apple's terms and conditions during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Geschäftsbedingungen<ept id="p1">**</ept> – Wenn aktiviert, Setup-Assistenten fordert die Benutzer auf der Apple-Bedingungen bei der Aktivierung akzeptieren</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Touch ID<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for this service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Touch-ID<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, diesen Dienst bei der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Apple Pay<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for this service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Achten Sie Apple<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, diesen Dienst bei der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for this service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Zoom<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, diesen Dienst bei der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Siri<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for this service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Siri<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, diesen Dienst bei der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Send diagnostic data to Apple<ept id="p1">**</ept> - If enabled, Setup Assistant prompts for this service during activation</source>
+          <target state="translated"><bpt id="p1">**</bpt>Diagnosedaten an Apple senden<ept id="p1">**</ept> - Setup-Assistenten aufgefordert, diesen Dienst bei der Aktivierung aktiviert,</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enable additional Apple Configurator management<ept id="p1">**</ept> - Set to <bpt id="p2">**</bpt>Disallow<ept id="p2">**</ept> to prevent syncing files with iTunes or management via Apple Configurator.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aktivieren der zusätzlichen Verwaltung mit Apple Configurator<ept id="p1">**</ept> -festgelegt <bpt id="p2">**</bpt>Disallow<ept id="p2">**</ept> zum Synchronisieren von Dateien mit iTunes oder Management über Apple Configurator zu verhindern.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Microsoft recommends you set to <bpt id="p1">**</bpt>Disallow<ept id="p1">**</ept>, export any further configuration from Apple Configurator, and then deploy as a Custom iOS configuration profile via Intune, rather than use this setting to allow manual deployment with or without a certificate.</source>
+          <target state="translated">Microsoft empfiehlt festgelegt <bpt id="p1">**</bpt>Disallow<ept id="p1">**</ept>, keine weitere Konfiguration von Apple Configurator, exportieren und dann als ein benutzerdefiniertes iOS-Konfigurationsprofil über Intune bereitstellen, statt mit dieser Einstellung können Sie die manuelle Bereitstellung mit oder ohne ein Zertifikat.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disallow<ept id="p1">**</ept> - Prevents the device from communicating via USB (disables pairing)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unterbinden<ept id="p1">**</ept> -verhindert, dass das Gerät über USB (deaktiviert Paarung) kommunizieren</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow<ept id="p1">**</ept> - Allows device communicate via USB connection for any PC or Mac</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ermöglichen<ept id="p1">**</ept> -ermöglicht Geräte kommunizieren über ein USB-Anschluss für alle PC oder Mac</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require certificate<ept id="p1">**</ept> - Allows pairing with a Mac with a certificate imported to the enrollment profile</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ist ein Zertifikat erforderlich<ept id="p1">**</ept> -ermöglicht die Verbindung mit einem Mac mit einem Zertifikat in das Registrierungsprofil importiert</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Assign DEP Devices for Management<ept id="p1">**</ept> Go to the <bpt id="p2">[</bpt>Device Enrollment Program Portal<ept id="p2">](https://deploy.apple.com)</ept> (https://deploy.apple.com) and sign in with your company Apple ID.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Zuweisen von DEP-Geräten für die Verwaltung<ept id="p1">**</ept> Wechseln Sie zu der <bpt id="p2">[</bpt>Device Enrollment Program-Portal<ept id="p2">](https://deploy.apple.com)</ept> (https://deploy.apple.com), und melden Sie sich mit Apple ID Ihres Unternehmens</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Go <bpt id="p1">**</bpt>Deployment Program<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Device Enrollment Program<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Manage Devices<ept id="p3">**</ept>.</source>
+          <target state="translated">Wechseln Sie <bpt id="p1">**</bpt>Deployment Program<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Geräteregistrierungsprogramm<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Verwalten von Geräten<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specify how you will <bpt id="p1">**</bpt>Choose Devices<ept id="p1">**</ept>, provide device information and specify details by device <bpt id="p2">**</bpt>Serial Number<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Order Number<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Upload CSV File<ept id="p4">**</ept>.</source>
+          <target state="translated">Geben Sie <bpt id="p1">**</bpt>Geräte<ept id="p1">**</ept>, fügen Sie Geräteinformationen und geben Sie Details Gerät <bpt id="p2">**</bpt>Seriennummer<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Bestellnummer<ept id="p3">**</ept>, oder <bpt id="p4">**</bpt>Hochladen der CSV-Datei<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Next, select <bpt id="p1">**</bpt>Assign to Server<ept id="p1">**</ept> and select the <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph> specified for Microsoft Intune, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie als Nächstes <bpt id="p1">**</bpt>zu Server zuweisen<ept id="p1">**</ept> und wählen Sie die <ph id="ph1">&amp;lt;</ph>ServerName<ph id="ph2">&amp;gt;</ph> für Microsoft Intune angegeben, und klicken Sie dann auf <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Synchronize DEP-Managed Devices<ept id="p1">**</ept> As an administrative user, open the <bpt id="p2">[</bpt>Microsoft Intune administration console<ept id="p2">](http://manage.microsoft.com)</ept>, go to <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Mobile Device Management<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, and click <bpt id="p7">**</bpt>Sync now<ept id="p7">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>DEP-Managed Geräte synchronisieren<ept id="p1">**</ept> Öffnen Sie als Administrator die <bpt id="p2">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p2">](http://manage.microsoft.com)</ept>, besuchen Sie die <bpt id="p3">**</bpt>Admin<ept id="p3">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p4">**</bpt>Verwaltung mobiler Geräte<ept id="p4">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p5">**</bpt>iOS<ept id="p5">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p6">**</bpt>Device Enrollment Program<ept id="p6">**</ept>, und klicken Sie auf <bpt id="p7">**</bpt>Jetzt synchronisieren<ept id="p7">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A sync request is sent to Apple.</source>
+          <target state="translated">Eine synchronisierungsanforderung wird an Apple gesendet.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>To see DEP-managed devices after synchronization, in the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Corporate Pre-enrolled devices<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>By iOS Serial Number<ept id="p5">**</ept>.</source>
+          <target state="translated">Anzeigen von DEP verwalteter Geräte nach der Synchronisierung in der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> go <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Unternehmensgeräte Einschreibung<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>von iOS-Seriennummer<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>By iOS Serial Number<ept id="p1">**</ept> workspace, the <bpt id="p2">**</bpt>State<ept id="p2">**</ept> for managed devices reads “Not contacted” until the device is powered on and runs the Setup Assistant to enroll the device.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>von iOS-Seriennummer<ept id="p1">**</ept> Arbeitsbereich der <bpt id="p2">**</bpt>Zustand<ept id="p2">**</ept> verwalteter Geräte als "Nicht kontaktiert", bis das Gerät eingeschaltet ist und ausgeführt wird der Setup-Assistent das Gerät zu registrieren.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>To comply with Apple’s terms for acceptable DEP traffic, Intune imposes the following restrictions:</source>
+          <target state="translated">Um die Einhaltung der Apple Begriffe für akzeptable DEP-Datenverkehr erzwingt Intune die folgenden Einschränkungen:</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A full DEP sync can run no more than once every 7 days.</source>
+          <target state="translated">Eine vollständige DEP-Synchronisation kann nicht mehr als einmal alle 7 Tage ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>During a full sync, Intune refreshes every serial number Apple has assigned to Intune whether the serial has previously been synced or not.</source>
+          <target state="translated">Während einer vollständigen Synchronisierung aktualisiert Intune jede Seriennummer, Apple Intune zugewiesen wurde, ob die serielle vorher oder nicht synchronisiert wurden.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If a full sync is attempted within 7 days of the previous full sync, Intune only refreshes serial numbers not already listed in Intune.</source>
+          <target state="translated">Wenn eine vollständige Synchronisierung innerhalb von 7 Tagen die vorherige vollständige Synchronisierung versucht wird, aktualisiert Intune nur Seriennummern nicht bereits in Intune aufgeführt.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Any sync request is given 10 minutes to complete.</source>
+          <target state="translated">Jede synchronisierungsanforderung erhält 10 Minuten.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>During this time or until the request succeeds, the Sync button is disabled.</source>
+          <target state="translated">Während dieser Zeit oder bis die Anforderung erfolgreich ist, wird die Schaltfläche Sync deaktiviert.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Distribute devices to users<ept id="p1">**</ept> Your corporate-owned devices can now be distributed to users.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verteilen von Geräten an Benutzern<ept id="p1">**</ept> Ihre firmeneigenen Geräte können jetzt an Benutzer verteilt werden.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When an iOS device is turned on it will be enrolled for management by Intune.</source>
+          <target state="translated">Wenn ein iOS-Gerät eingeschaltet wird auf sie wird für die Verwaltung durch Intune registriert.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Changes to Intune group assignments</source>
+          <target state="translated">Änderungen an den zugewiesenen Intune-Gruppe</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Starting in November, device group management will move to Azure Active Directory.</source>
+          <target state="translated">Ab November wechselt Verwaltung der Geräte-Gruppe in Azure Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>After the transition to Azure Active Directory groups, group assignment will not appear in the <bpt id="p1">**</bpt>Corporate Enrollment Profile<ept id="p1">**</ept> options.</source>
+          <target state="translated">Nach dem Übergang zu Azure Active Directory-Gruppen, die gruppenzuordnung erscheint nicht in der <bpt id="p1">**</bpt>Corporate Registrierungsprofil<ept id="p1">**</ept> Optionen.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Because this change will roll out over a series of months, you might not see the change right away.</source>
+          <target state="translated">Da diese Änderung über eine Reihe von Monaten umgesetzt werden, kann die Änderung nicht sofort angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>After moving to the new portal, dynamic device group assignments can be defined based on the Corporate Enrollment Profile names.</source>
+          <target state="translated">Nach dem Verschieben auf das neue Portal, können dynamische Gerät verwaltungsgruppenzuweisungen basierend auf den Namen des Unternehmens Registrierungsprofil definiert werden.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This process ensures that devices pre-assigned to a device group will automatically enroll in the group with policy and apps deployed.</source>
+          <target state="translated">Dieser Prozess stellt sicher, dass bereits zugeordnet sind, eine Gerätegruppe automatisch in der Gruppe mit der Richtlinie und bereitgestellten apps anmelden.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Learn more about Azure Active Directory groups</source>
+          <target state="translated">Erfahren Sie mehr über Azure Active Directory-Gruppen</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Get ready to enroll devices</source>
+          <target state="translated">Bereiten Sie zum Registrieren von Geräten</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

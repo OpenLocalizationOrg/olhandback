@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c8a658532ba9e7367c12c62581486399ff77840</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\manage-corporate-owned-devices.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d77ffd9dc1569d68ba2e268bdc25d406ac90cad</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d18f366e7e9d8c5fb86196cb57d9f7596c57b2c3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manage corporate-owned devices | Microsoft Intune</source>
+          <target state="translated">Verwalten von firmeneigenen Geräten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Bring corporate-owned devices (COD) into management in a variety of ways depending upon the device, how it was purchased, and organization needs.</source>
+          <target state="translated">Verwaltung in verschiedener Weise, abhängig von dem Gerät, wie es erworben wurde und Organisation benötigt firmeneigenen Geräten (COD) einbinden.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned devices with Microsoft Intune</source>
+          <target state="translated">Registrieren von firmeneigenen Geräten mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Organization or corporate-owned devices (COD) can be brought into management by Intune in a variety of ways depending upon the device, how it was purchased, and the needs of the organization.</source>
+          <target state="translated">Unternehmen oder firmeneigenen Geräten (COD) können geschaltet werden in die Verwaltung von Intune in einer Vielzahl von Methoden, die je nach dem Gerät, wie es erworben wurde und den Bedürfnissen der Organisation.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Corporate-owned devices can also be enrolled and managed by installing the Company Portal app as in "bring your own device" (BYOD) scenarios.</source>
+          <target state="translated">Firmeneigene Geräte auch registriert und verwaltet werden können durch die Installation der Unternehmensportal-app wie "bring your own Device" (BYOD)-Szenarien.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Corporate-owned iOS devices</source>
+          <target state="translated">Firmeneigene iOS-Geräte</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These enrollment methods are good for "Choose your own device" (CYOD) scenarios where the organization purchases the devices for users, but wants to retain management of the device.</source>
+          <target state="translated">Dieser Registrierungsmethoden eignen sich für "Choose your own Device" (CYOD)-Szenarien, in denen die Organisation Geräte der Benutzer erwirbt, möchte jedoch Verwalten des Geräts beibehalten.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If your organization has purchased iOS devices, you can pre-configure enrollment so that the device is managed from the first time its user turns it on.</source>
+          <target state="translated">Wenn Ihre Organisation iOS-Geräte erworben hat, können Sie Anmeldung, damit das Gerät von der ersten verwaltet wird, schaltet durch der Benutzer, vorab konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Intune supports enrollment via <bpt id="p1">[</bpt>Apple's Device Enrollment Program (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept> or using the Apple Configurator tool running on a Mac computer for <bpt id="p2">[</bpt>direct<ept id="p2">](ios-direct-enrollment-in-microsoft-intune.md)</ept> or <bpt id="p3">[</bpt>Setup Assistant<ept id="p3">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept> enrollment.</source>
+          <target state="translated">Intune unterstützt die Registrierung über <bpt id="p1">[</bpt>von Apple Device Enrollment Programm (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept> oder mit dem Apple Configurator-Tool auf einem Macintosh-Computer für <bpt id="p2">[</bpt>direkte<ept id="p2">](ios-direct-enrollment-in-microsoft-intune.md)</ept> oder <bpt id="p3">[</bpt>Setup-Assistenten<ept id="p3">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept> Registrierung.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned iOS devices</source>
+          <target state="translated">Registrieren von firmeneigenen iOS-Geräten</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Device enrollment manager</source>
+          <target state="translated">Geräteregistrierungsmanager</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Organizations can use Intune to manage large numbers of mobile devices with a single user account called a device enrollment manager account.</source>
+          <target state="translated">Intune können Organisationen eine große Anzahl von mobilen Geräten mit einem einzelnen Benutzerkonto bezeichnet ein Konto des geräteregistrierungsmanagers verwalten.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After creating a device enrollment manager account, that account can be used by a manager to enroll more than the standard five devices allowed by default to normal users.</source>
+          <target state="translated">Nach dem Erstellen ein Konto des geräteregistrierungsmanagers, kann dieses Konto von einem Manager verwendet werden, zum Registrieren von mehr als fünf Standardgeräte normale Benutzer standardmäßig zulässig.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enrolling devices with a device enrollment manager only works for devices that aren't used by a specific user.</source>
+          <target state="translated">Registrieren von Geräten mit einem geräteregistrierungs-Manager ist nur für Geräte, die nicht von einem bestimmten Benutzer verwendet.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These devices are good for point-of-sale or utility apps, for example, but bad for users who need access to email or company resources.</source>
+          <target state="translated">Diese Geräte sind gut für POS- oder -Dienstprogramm-apps, z. B. aber für Benutzer, die Zugriff auf e-Mail-Adresse oder Unternehmen Ressourcen benötigen.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned devices with the device enrollment manager</source>
+          <target state="translated">Registrieren von firmeneigenen Geräten mit dem geräteregistrierungs-manager</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Enroll corporate-owned Windows 10 desktops</source>
+          <target state="translated">Registrieren von firmeneigenen Windows 10 desktops</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If your organization has Azure Active Directory Premium (AADP) or Enterprise Management Suite (EMS), you can <bpt id="p1">[</bpt>enroll Windows 10 for enterprise<ept id="p1">](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)</ept> and they will be automatically tagged as "corporate-owned" when users add their work or school account.</source>
+          <target state="translated">Wenn Ihre Organisation Azure Active Directory Premium (AADP) oder Enterprise Management Suite (EMS) verfügt, können Sie <bpt id="p1">[</bpt>Registrieren von Windows 10 für Enterprise<ept id="p1">](https://docs.microsoft.com/active-directory/active-directory-azureadjoin-windows10-devices-overview)</ept> und sie werden automatisch markiert werden als "firmeneigenen" beim Hinzufügen von Benutzern ihrer Geschäfts- oder schulkonto an.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Identify devices as corporate-owned</source>
+          <target state="translated">Identifizieren Sie als firmeneigenen Geräte</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Corporate-owned devices are listed as <bpt id="p1">**</bpt>Corporate<ept id="p1">**</ept>  under <bpt id="p2">**</bpt>Ownership<ept id="p2">**</ept> in lists of devices.</source>
+          <target state="translated">Firmeneigene Geräte aufgeführt sind, als <bpt id="p1">**</bpt>Corporate<ept id="p1">**</ept>  unter <bpt id="p2">**</bpt>Besitz<ept id="p2">**</ept> in Listen von Geräten.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Devices can be identified as corporate-owned in the following ways:</source>
+          <target state="translated">Geräte können wie folgt firmeneigenen identifiziert werden:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Enrolled with device enrollment manager (DEM)</source>
+          <target state="translated">Mit dem geräteregistrierungs-Manager (DEM) registriert</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Enrolled with Apple's <bpt id="p1">[</bpt>device enrollment program (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>  or <bpt id="p2">[</bpt>Apple Configurator<ept id="p2">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></source>
+          <target state="translated">Mit der Apple-registrierte <bpt id="p1">[</bpt>Device Enrollment Programm (DEP)<ept id="p1">](ios-device-enrollment-program-in-microsoft-intune.md)</ept>  oder <bpt id="p2">[</bpt>Apple Configurator<ept id="p2">](ios-setup-assistant-enrollment-in-microsoft-intune.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Predeclare devices with IMEI numbers</source>
+          <target state="translated">Geräte mit IMEI-Nummern predeclare</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory/Enterprise Management Suite registration of Windows 10 devices</source>
+          <target state="translated">Azure Active Directory/Enterprise Management Suite-Registrierung von Windows 10-Geräten</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>International mobile equipment identity (IMEI)</source>
+          <target state="translated">International mobile Equipment Identity (IMEI)</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Unique international mobile equipment identity (IMEI) numbers are a common device property for many mobile device manufacturers.</source>
+          <target state="translated">Eindeutige international mobile Equipment Identity (IMEI) Zahlen sind allgemeine Eigenschaften für Geräte für viele Hersteller von mobilen Geräten.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Intune administrators can import IMEI numbers for devices the company owns.</source>
+          <target state="translated">Intune-Administratoren können IMEI-Nummern für Geräte importieren, die im Besitz des Unternehmens befinden.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When the device becomes managed by Intune, it is tagged as a corporate-owned device.</source>
+          <target state="translated">Wenn das Gerät von Intune verwaltet wird, wird sie als firmeneigenen Gerät markiert.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</source>
+          <target state="translated">Angeben von firmeneigenen Geräten mit international mobile Equipment Identity (IMEI) Zahlen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

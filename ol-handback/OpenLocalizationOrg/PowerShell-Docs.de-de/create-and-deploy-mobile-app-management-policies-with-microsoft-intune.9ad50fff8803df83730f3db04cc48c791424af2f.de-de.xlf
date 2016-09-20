@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">686610249b35f81e9ad7a87fe20d736a32eafb43</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2f51c0b2d6518796b194cb2b875e4feb9a09dd3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0040bc0c22bd5898b433d16e9ca7fcbeb43de0f1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Create and deploy MAM policies | Microsoft Intune</source>
+          <target state="translated">Erstellen und Bereitstellen von MAM-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the step-by-step instructions in this topic to create and deploy mobile app management policies.</source>
+          <target state="translated">Verwenden Sie die Schritte in diesem Thema erstellen und Bereitstellen von Richtlinien zur Verwaltung mobiler Apps.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create and deploy mobile app management policies with Microsoft Intune</source>
+          <target state="translated">Erstellen und Bereitstellen von Richtlinien zur Verwaltung mobiler Apps mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Mobile app management (MAM) policies can be applied to apps running on devices that may or may not be managed by Intune.</source>
+          <target state="translated">Mobile app-Verwaltungsrichtlinien (MAM) können angewendet werden, für apps, die auf Geräten, die möglicherweise nicht von Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For a more detailed description of how MAM policies work and the scenarios supported by Intune MAM policies, read the <bpt id="p1">[</bpt>protect app data using mobile app management policies<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept> topic.</source>
+          <target state="translated">Eine ausführlichere Beschreibung der Funktionsweise von MAM-Richtlinien und die Szenarien, die von Intune MAM-Richtlinien unterstützt, finden Sie in der <bpt id="p1">[</bpt>Schützen Sie die app-Daten mithilfe von Verwaltungsrichtlinien für mobile Anwendung<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept> Thema.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This topic describes the process of creating a MAM policy in the <bpt id="p1">**</bpt>Azure portal<ept id="p1">**</ept>.</source>
+          <target state="translated">In diesem Thema wird beschrieben, erstellen Sie eine MAM-Richtlinie in der <bpt id="p1">**</bpt>Azure-Portal<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Azure portal is the new admin console for creating MAM policies, and we recommend that you use this portal to create MAM  policies.</source>
+          <target state="translated">Azure-Portal wird die neue Admin-Konsole zum Erstellen von MAM-Richtlinien, und es wird empfohlen, dass Sie dieses Portal verwenden, um MAM-Richtlinien erstellen.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure portal supports the following MAM scenarios:</source>
+          <target state="translated">Azure-Portal unterstützt die folgenden MAM-Szenarios:</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Devices enrolled in Intune</source>
+          <target state="translated">Geräte in Intune registriert</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Devices managed by a third-party MDM solution</source>
+          <target state="translated">Geräte von einem Drittanbieter-MDM-Lösung</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Devices that are not managed by any MDM solution (BYOD).</source>
+          <target state="translated">Geräte, die nicht von einer MDM-Lösung (BYOD) verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Consider the following if you are currently using the <bpt id="p1">**</bpt>Intune admin console<ept id="p1">**</ept> to manage your devices:</source>
+          <target state="translated">Beachten Sie Folgendes, wenn Sie derzeit arbeiten die <bpt id="p1">**</bpt>Intune-Verwaltungskonsole<ept id="p1">**</ept> zum Verwalten Ihrer Geräte:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can create a MAM policy that supports apps for devices enrolled in Intune using the <bpt id="p1">[</bpt>Intune admin console<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept>.</source>
+          <target state="translated">Können Sie eine MAM-Richtlinie, die apps für Geräte mit Intune registriert unterstützt die <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>MAM policies created in the Intune admin console cannot be imported into the Azure portal.</source>
+          <target state="translated">MAM-Richtlinien, die in der Intune-Verwaltungskonsole erstellt, können in der Azure-Portal importiert werden.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The MAM policies must be recreated in the Azure portal.</source>
+          <target state="translated">Die MAM-Richtlinien müssen in der Azure-Portal neu erstellt werden.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You may not see all MAM policy settings in the Intune admin console.</source>
+          <target state="translated">Sie können nicht alle Einstellungen der MAM-Richtlinie in der Intune-Verwaltungskonsole finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Azure portal is the new admin console for creating MAM policies.</source>
+          <target state="translated">Azure-Portal ist die neue Admin-Konsole zum Erstellen von MAM-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To deploy manage apps, you must create a MAM policy in the Intune admin console.</source>
+          <target state="translated">Zum Bereitstellen von apps zu verwalten, müssen Sie eine MAM-Richtlinie erstellen, in der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In this case, you may want to create MAM policies in both the Intune admin console and the Azure portal: Intune admin console to make sure you have the ability to deploy managed apps, Azure portal because it is the new admin console that has all the MAM policy settings.</source>
+          <target state="translated">In diesem Fall sollten Sie MAM-Richtlinien in der Intune-Verwaltungskonsole und der Azure-Portal erstellen: Intune-Verwaltungskonsole, stellen Sie sicher, dass die Möglichkeit, verwaltete apps, Azure-Portal bereitgestellt werden, da es die neue Admin-Konsole handelt, die alle Einstellungen der MAM-Richtlinie hat.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you create MAM policies on both Intune admin console and Azure portal, the policy that is created in the Azure portal is applied to the apps.</source>
+          <target state="translated">Wenn Sie eine MAM-Richtlinien auf Intune-Verwaltungskonsole und Azure-Portal erstellen, wird die Richtlinie, die in Azure-Portal erstellt wird auf die apps angewendet.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To see a list of policy settings supported for Android and iOS platforms, select one of the following:</source>
+          <target state="translated">Wählen Sie eine der folgenden finden Sie eine Liste der Einstellungen für Android und iOS-Plattformen unterstützt:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>iOS policies</source>
+          <target state="translated">iOS-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Android policies</source>
+          <target state="translated">Android-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Create a MAM policy</source>
+          <target state="translated">Erstellen Sie eine MAM-Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Before creating a MAM policy, review the <bpt id="p1">[</bpt>pre-requisites and support<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept> information.</source>
+          <target state="translated">Bevor Sie eine MAM-Richtlinie erstellen, überprüfen Sie die <bpt id="p1">[</bpt>erforderlichen Komponenten und Support<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept> Informationen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Intune mobile application management <ph id="ph1">&amp;gt;</ph> Settings<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> blade.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Intune mobile Application Management <ph id="ph1">&amp;gt;</ph> Einstellungen<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Einstellungen<ept id="p2">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Intune mobile application management blade</source>
+          <target state="translated">Screenshot des Blatts Intune mobile Application management</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If this is the first time you are using the Azure portal, read <bpt id="p1">[</bpt>Azure portal for Microsoft Intune MAM policies<ept id="p1">](azure-portal-for-microsoft-intune-mam-policies.md)</ept> first to get familiar with the portal.</source>
+          <target state="translated">Ist dies beim ersten Sie Azure-Portal verwenden, lesen <bpt id="p1">[</bpt>Azure-Portal für Microsoft Intune MAM Richtlinien<ept id="p1">](azure-portal-for-microsoft-intune-mam-policies.md)</ept> zuerst, mit dem Portal vertraut.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade, choose <bpt id="p2">**</bpt>App policy<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept> Blatt wählen <bpt id="p2">**</bpt>App Richtlinie<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This opens the <bpt id="p1">**</bpt>App policy<ept id="p1">**</ept> blade where you'll create new policies and edit existing policies.</source>
+          <target state="translated">Daraufhin wird die <bpt id="p1">**</bpt>App Richtlinie<ept id="p1">**</ept> Fenster, in dem Sie neue Richtlinien erstellen und Bearbeiten von vorhandenen Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add a policy<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Hinzufügen einer Richtlinie<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Screenshot of the App policy blade with the Add a policy menu option highlighted</source>
+          <target state="translated">Screenshot des Blatts Richtlinie App mit der Menüoption Richtlinie hervorgehoben.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Type  a name for the policy, add  a brief description, and select the platform type to create a policy for iOS or Android.</source>
+          <target state="translated">Geben Sie einen Namen für die Richtlinie, eine kurze Beschreibung ein, und wählen Sie den Typ der Plattform zum Erstellen einer Richtlinie für iOS oder Android.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can create more than one policy for each platform.</source>
+          <target state="translated">Sie können mehr als eine Richtlinie für jede Plattform erstellen.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Add a policy blade</source>
+          <target state="translated">Screenshot des Blades Richtlinie hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Apps blade<ept id="p2">**</ept> where a list of available apps is displayed.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Apps-Blatt<ept id="p2">**</ept> in dem eine Liste der verfügbaren apps angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can select one or more apps from the list that you want to associate with the policy that you are creating.</source>
+          <target state="translated">Sie können eine oder mehrere apps aus der Liste auswählen, die Sie mit der Richtlinie verknüpft, die Sie erstellen möchten.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>One you have selected the apps, choose the <bpt id="p1">**</bpt>Select<ept id="p1">**</ept> button at the bottom of the <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> blade to save your selection.</source>
+          <target state="translated">Eine gewählte apps, wählen Sie die <bpt id="p1">**</bpt>auswählen<ept id="p1">**</ept> Schaltfläche am unteren Rand der <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> -Fenster, um die Auswahl zu speichern.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You must select at least one app to create a policy.</source>
+          <target state="translated">Sie müssen mindestens eine app So erstellen Sie eine Richtlinie auswählen.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Add a policy blade<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Configure required settings<ept id="p2">**</ept> to open the policy settings blade.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Blades Richtlinie hinzufügen<ept id="p1">**</ept>, wählen Sie <bpt id="p2">**</bpt>Konfigurieren erforderlichen Einstellungen<ept id="p2">**</ept> Blatt Einstellungen Richtlinie zu öffnen.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>There are two categories of policy settings,<bpt id="p1">**</bpt>Data relocation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Access<ept id="p2">**</ept>.</source>
+          <target state="translated">Es gibt zwei Kategorien von Einstellungen und<bpt id="p1">**</bpt>Hand<ept id="p1">**</ept> und <bpt id="p2">**</bpt>Zugriff<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Data relocation policies are applicable to data movement in and out of the apps, while the access polices determine how the end user accesses the apps in a work context.</source>
+          <target state="translated">Verschiebung Richtlinien gelten für das Verschieben von Daten in und aus den apps, während die Zugriffsrichtlinien bestimmen, wie der Benutzer die apps in einer Arbeitskontexten zugreift.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To get you started the policy settings have default values.</source>
+          <target state="translated">Zum Einstieg haben die Einstellungen der Standardwerte.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You do not have to make any changes if the default values meet your requirements.</source>
+          <target state="translated">Sie müssen keine Änderungen vornehmen, wenn die Standardwerte Ihren Anforderungen entsprechen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These policy settings are enforced only when using apps in the work context.</source>
+          <target state="translated">Diese Richtlinien gelten nur bei Verwendung von apps im Zusammenhang mit Arbeitsaufgaben.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When the end user uses the app to do a personal task, they will not be affected by these policies.</source>
+          <target state="translated">Wenn der Endbenutzer die app für eine persönliche Aufgabe verwendet wird, werden sie durch diese Richtlinien nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Screenshot of the settings blade along with the Add a policy blade</source>
+          <target state="translated">Screenshot des Blatts Einstellungen sowie das Hinzufügen einer Richtlinie Blatt</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to save this configuration.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> um diese Konfiguration zu speichern.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You are now back in the <bpt id="p1">**</bpt>Add a policy<ept id="p1">**</ept> blade.</source>
+          <target state="translated">Sie befinden sich nun wieder in die <bpt id="p1">**</bpt>Hinzufügen einer Richtlinie<ept id="p1">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create the policy and save your settings.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Erstellen<ept id="p1">**</ept> der Richtlinie erstellen und speichern Sie die Einstellungen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Add a policy blade showing that the Apps and Settings have been configured</source>
+          <target state="translated">Screenshot der Add eine Richtlinie auf dem Blatt angezeigt, dass die Apps und Einstellungen konfiguriert wurden</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you finish creating a policy as described in the previous procedure, it is not deployed to any users.</source>
+          <target state="translated">Wenn Sie fertig sind, erstellen eine Richtlinie aus, wie im vorherigen Verfahren beschrieben, wird er nicht für alle Benutzer bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Follow the steps described below to deploy the policy.</source>
+          <target state="translated">Befolgen Sie die Schritte, die unter die Richtlinie bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you create a MAM policy for an app using the Intune admin console and a MAM policy using the Azure portal, the policy you created using the Azure portal takes precedence.</source>
+          <target state="translated">Wenn Sie eine MAM-Richtlinie für eine app mithilfe der Intune-Verwaltungskonsole und eine MAM-Richtlinie mit der Azure-Portal erstellen, hat die Richtlinie, die Sie erstellt haben, mit der Azure-Portal Vorrang vor.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>However, the reporting in the Intune or Configuration Manager console will report the policy settings created from the Azure  portal.</source>
+          <target state="translated">Die Berichterstattung in der Intune oder Configuration Manager-Konsole meldet jedoch Richtlinien, die vom Azure-Portal erstellt.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You created a mobile application management policy in the Intune admin console that blocks copy from an app.</source>
+          <target state="translated">Sie erstellt eine Verwaltungsrichtlinie für mobile Anwendung in der Intune-Verwaltungskonsole, die Blöcke aus einer Anwendung zu kopieren.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You created a mobile app management policy in the Azure console that allows copy from an app</source>
+          <target state="translated">Erstellen eine Richtlinie für die mobile Anwendung in der Azure-Konsole, die Kopie von einer app ermöglicht</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You associate both of these policies to the same app.</source>
+          <target state="translated">Sie ordnen Sie beide Richtlinien mit der gleichen Anwendung.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The result is that the policy you created from the Azure console takes precedence and copy is allowed.</source>
+          <target state="translated">Das Ergebnis ist, dass die Richtlinie, die Sie aus der Azure-Konsole erstellt haben, hat Vorrang vor, und Kopieren zulässig ist.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>However, status and reports in the Intune console will incorrectly indicate that copy is blocked.</source>
+          <target state="translated">Status und Berichte in der Intune-Verwaltungskonsole werden jedoch in der fälschlicherweise angegeben, die Kopie blockiert ist.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Deploy a policy to users</source>
+          <target state="translated">Bereitstellen einer Richtlinie für Benutzer</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> blade, choose  <bpt id="p2">**</bpt>User groups<ept id="p2">**</ept>, which opens the <bpt id="p3">**</bpt>User groups<ept id="p3">**</ept> blade.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Blatt wählen  <bpt id="p2">**</bpt>Benutzergruppen<ept id="p2">**</ept>, daraufhin die <bpt id="p3">**</bpt>Benutzergruppen<ept id="p3">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Add user group<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>User groups<ept id="p2">**</ept> blade to open the <bpt id="p3">**</bpt>Add user group<ept id="p3">**</ept> blade.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Benutzergruppe hinzufügen<ept id="p1">**</ept> in die <bpt id="p2">**</bpt>Benutzergruppen<ept id="p2">**</ept> Blatt zu öffnen der <bpt id="p3">**</bpt>Benutzergruppe hinzufügen<ept id="p3">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Screenshot of the User groups blade with the Add user group menu option highlighted</source>
+          <target state="translated">Screenshot des Blatts Gruppen Benutzer mit der Benutzer Gruppe Menüoption hinzufügen hervorgehoben</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A list of user groups is displayed on the <bpt id="p1">**</bpt>Add user group<ept id="p1">**</ept> blade.</source>
+          <target state="translated">Eine Liste von Benutzergruppen wird angezeigt, auf die <bpt id="p1">**</bpt>Benutzergruppe hinzufügen<ept id="p1">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This is a list of all the security groups in your <bpt id="p1">**</bpt>Azure Active Directory<ept id="p1">**</ept>.</source>
+          <target state="translated">Dies ist eine Liste der Sicherheitsgruppen in Ihrem <bpt id="p1">**</bpt>Azure Active Directory<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can select the user groups you want this policy to apply to and choose <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie können auswählen, die Benutzergruppen, die diese Richtlinie gelten soll, und wählen <bpt id="p1">**</bpt>wählen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Choosing <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>, deploys the policy to users.</source>
+          <target state="translated">Auswählen von <bpt id="p1">**</bpt>Wählen Sie<ept id="p1">**</ept>, die Richtlinie für Benutzer bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Add user group blade showing the list of Azure Active Directory users</source>
+          <target state="translated">Screenshot des Blatts der hinzufügen für Benutzer mit der Liste der Azure Active Directory-Benutzer</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You have now created a policy and deployed it to users.</source>
+          <target state="translated">Sie haben jetzt eine Richtlinie erstellt und es für Benutzer bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Only users with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> licenses assigned to them will be affected by the policy.</source>
+          <target state="translated">Nur Benutzer mit <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Lizenzen zugewiesen von der Richtlinie betroffen.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Users who are in the security group that you selected that don’t have a <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> license assigned to them are not affected.</source>
+          <target state="translated">Benutzer, die in der Sicherheitsgruppe sind, dass Sie ausgewählt haben, die keine <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> ihnen zugewiesene Lizenz, sind nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If you are using Intune with Configuration Manager to manage your iOS and Android devices, the policy is only applied to the users directly in the group that you selected.</source>
+          <target state="translated">Wenn Sie Intune mit Configuration Manager verwenden Ihrer IOS- und Android-Geräte zu verwalten, wird die Richtlinie nur für die Benutzer direkt in der Gruppe angewendet, die Sie ausgewählt haben.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Members of child groups  nested within the group you selected will not be affected.</source>
+          <target state="translated">Mitglieder von untergeordneten Gruppen geschachtelt innerhalb der ausgewählten Gruppe sind nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The end users can download the apps from the App store or Google Play.</source>
+          <target state="translated">Die Endbenutzer können die apps aus dem App Store oder Google Play herunterladen.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For a detailed walkthrough of how MAM protects company data on the device see <bpt id="p1">[</bpt>end user experience with MAM enabled apps<ept id="p1">](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)</ept> topic.</source>
+          <target state="translated">Eine ausführliche exemplarische Vorgehensweise wie MAM Unternehmen schützt Daten auf dem Gerät finden Sie unter <bpt id="p1">[</bpt>Endbenutzers mit MAM aktiviert apps<ept id="p1">](end-user-experience-for-mam-enabled-apps-with-microsoft-intune.md)</ept> Thema.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Change existing policies</source>
+          <target state="translated">Ändern vorhandene Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can edit an existing policy and apply it to the targeted users.</source>
+          <target state="translated">Sie können eine vorhandene Richtlinie bearbeiten und für den Zielbenutzer angewendet.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>However, when you change existing policies,  users who are already signed  in to the apps won’t see the changes for an 8-hour period.</source>
+          <target state="translated">Jedoch wenn Sie vorhandene Richtlinien ändern, wird nicht Benutzer, die bereits für die apps, in angemeldet sind die Änderungen einen 8-Stunden-Zeitraum finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To see the effect of the changes immediately the end user will have to log out of the app, and sign back in.</source>
+          <target state="translated">Die Auswirkung der Änderungen sofort der Endbenutzer müssen die app abmelden und erneut anmelden.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To change the list of apps associated with the policy</source>
+          <target state="translated">So ändern Sie die Liste der apps, die der Richtlinie zugeordnet</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>In  the <bpt id="p1">**</bpt>App policy<ept id="p1">**</ept> blade, choose the policy you want to change.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>App Richtlinie<ept id="p1">**</ept> Blatt, wählen Sie die Richtlinie, die Sie ändern möchten.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This opens a blade specific to the policy you just selected.</source>
+          <target state="translated">Daraufhin wird ein Fenster für die Richtlinie, die Sie soeben ausgewählt.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Screenshot of an existing policy opened in a separate blade</source>
+          <target state="translated">Screenshot einer vorhandenen Richtlinie in einem separaten Fenster geöffnet</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the policy blade, choose <bpt id="p1">**</bpt>Targeted apps<ept id="p1">**</ept> to open the list of apps.</source>
+          <target state="translated">Wählen Sie im Fenster Richtlinie <bpt id="p1">**</bpt>Ziel apps<ept id="p1">**</ept> um die Liste der apps zu öffnen.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Remove or add apps from the list and choose the <bpt id="p1">**</bpt>Save icon<ept id="p1">**</ept> to save your changes.</source>
+          <target state="translated">Entfernen oder Hinzufügen von apps aus der Liste aus, und wählen Sie die <bpt id="p1">**</bpt>Symbol Speichern<ept id="p1">**</ept> zum Speichern der Änderungen.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To change the list of user groups</source>
+          <target state="translated">So ändern Sie die Liste von Benutzergruppen</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In  the <bpt id="p1">**</bpt>App policy<ept id="p1">**</ept> blade, choose the policy you want to change.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>App Richtlinie<ept id="p1">**</ept> Blatt, wählen Sie die Richtlinie, die Sie ändern möchten.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This opens the blade specific to the policy you selected.</source>
+          <target state="translated">Daraufhin wird das Blatt für die Richtlinie, die Sie ausgewählt haben.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In the policy blade, choose <bpt id="p1">**</bpt>User groups<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>User group<ept id="p2">**</ept> blade that shows the list of current user groups who have this policy.</source>
+          <target state="translated">Wählen Sie im Fenster Richtlinie <bpt id="p1">**</bpt>Benutzergruppen<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Benutzergruppe<ept id="p2">**</ept> Blatt mit der Liste der aktuellen Benutzergruppen, die diese Richtlinie haben.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>To <bpt id="p1">**</bpt>add a new user group<ept id="p1">**</ept> to the policy, choose <bpt id="p2">**</bpt>Add user group<ept id="p2">**</ept>, and select the user group.</source>
+          <target state="translated">Zu <bpt id="p1">**</bpt>Hinzufügen eine neue Benutzergruppe<ept id="p1">**</ept> Wählen Sie die Richtlinie <bpt id="p2">**</bpt>Benutzergruppe hinzufügen<ept id="p2">**</ept>, und wählen Sie die Benutzer aus.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Select<ept id="p1">**</ept> to deploy the policy to the group you selected.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>wählen<ept id="p1">**</ept> der Gruppe die Richtlinie bereitstellen Sie ausgewählt haben.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Add user group blade with two users selected</source>
+          <target state="translated">Screenshot des Blatts Gruppe Benutzer hinzufügen, mit zwei Benutzer ausgewählt</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To <bpt id="p1">**</bpt>delete a user group<ept id="p1">**</ept>, highlight the user group you want to remove, choose the ellipses (…), then choose <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept> to remove the user group.</source>
+          <target state="translated">Um <bpt id="p1">**</bpt>Löschen Sie eine Benutzergruppe<ept id="p1">**</ept>, markieren Sie die Benutzergruppe zu entfernen, wählen Sie die Auslassungspunkte (...), und wählen Sie dann <bpt id="p2">**</bpt>Löschen<ept id="p2">**</ept> entfernen die Benutzergruppe.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Screenshot showing a Delete option</source>
+          <target state="translated">Screenshot mit einer Löschoption</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To change policy settings</source>
+          <target state="translated">Ändern von Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>App policy<ept id="p1">**</ept> blade, choose the policy you want to change.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>App Richtlinie<ept id="p1">**</ept> Blatt, wählen Sie die Richtlinie, die Sie ändern möchten.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This opens a blade specific to the policy you just selected.</source>
+          <target state="translated">Daraufhin wird ein Fenster für die Richtlinie, die Sie soeben ausgewählt.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Screenshot of an existing policy open in a separate blade</source>
+          <target state="translated">Screenshot einer vorhandenen Richtlinie in einem separaten Fenster öffnen</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Policy settings<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Policy settings<ept id="p2">**</ept> blade.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Richtlinien<ept id="p1">**</ept> zum Öffnen der <bpt id="p2">**</bpt>Richtlinien<ept id="p2">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Change the settings, and choose the <bpt id="p1">**</bpt>Save icon<ept id="p1">**</ept> to save your changes.</source>
+          <target state="translated">Ändern Sie die Einstellungen, und wählen Sie die <bpt id="p1">**</bpt>Symbol Speichern<ept id="p1">**</ept> zum Speichern der Änderungen.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Policy settings blade showing the save menu option at the top</source>
+          <target state="translated">Screenshot der Richtlinie auf dem Blatt Einstellungen speichern mit Menüoption oben</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Policy settings</source>
+          <target state="translated">Sicherheitsrichtlinien</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To see a full list of the policy setting for iOS and Android, select one of the following:</source>
+          <target state="translated">Eine vollständige Liste der Gruppenrichtlinien-Einstellung für IOS- und Android anzuzeigen, wählen Sie eine der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>iOS policies</source>
+          <target state="translated">iOS-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Android policies</source>
+          <target state="translated">Android-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Monitor compliance and user status</source>
+          <target state="translated">Überwachen des Compliance und Benutzer</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>End user experience for MAM enabled apps</source>
+          <target state="translated">Benutzerfreundlichkeit für MAM aktiviert apps</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

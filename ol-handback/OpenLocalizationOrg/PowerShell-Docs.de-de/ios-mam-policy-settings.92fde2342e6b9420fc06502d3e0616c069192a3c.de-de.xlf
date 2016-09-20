@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba258bfb3140ffc79aa38ef2f46497346cdc6bfa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\ios-mam-policy-settings.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0364559289aba96c206c4dc6eef195c0d41cc39f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5dc355b8a1bafe3d9ed06bb85c21897afaf197a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>iOS MAM policy settings | Microsoft Intune</source>
+          <target state="translated">Richtlinien für iOS MAM | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes the mobile app management policy settings for iOS devices.</source>
+          <target state="translated">Dieses Thema beschreibt die mobile app Management-Richtlinien für iOS-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>iOS mobile app management policy settings</source>
+          <target state="translated">iOS-mobile app Management-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The policy settings described below can be <bpt id="p1">[</bpt>configured<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> for a MAM policy on the <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> blade on the Azure portal.</source>
+          <target state="translated">Die nachfolgend beschriebenen Richtlinieneinstellungen kann <bpt id="p1">[</bpt>konfiguriert<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> für eine MAM-Richtlinie auf die <bpt id="p2">**</bpt>Einstellungen<ept id="p2">**</ept> auf dem Blatt Azure-Portal.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There are two categories of policy settings, Data relocation and Access settings:</source>
+          <target state="translated">Es gibt zwei Kategorien von Richtlinien, Verschiebung von Daten und Einstellungen:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Data relocation settings</source>
+          <target state="translated">Einstellungen für Verschiebung</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The term <bpt id="p1">**</bpt>Policy managed apps<ept id="p1">**</ept> is used to refer to apps that are configured with MAM policies.</source>
+          <target state="translated">Der Begriff <bpt id="p1">**</bpt>richtlinienverwaltete apps<ept id="p1">**</ept> wird verwendet, um apps zu verweisen, die mit MAM-Richtlinien konfiguriert sind.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prevent iTunes and iCloud backups:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to disable, or <bpt id="p3">**</bpt>No<ept id="p3">**</ept> to allow backup of company data from the policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verhindern von iTunes- und iCloud-Sicherungen:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> zu deaktivieren, oder <bpt id="p3">**</bpt>Nr.<ept id="p3">**</ept> backup Unternehmensdaten aus der Richtlinie zu verwalteten apps.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow app to transfer data to other apps:<ept id="p1">**</ept>   Choose one of the options to indicate the apps that can receive data from policy managed apps:</source>
+          <target state="translated"><bpt id="p1">**</bpt>App Übertragung von Daten an andere apps erlauben:<ept id="p1">**</ept>   Wählen Sie eine der Optionen, um die apps anzugeben, die Daten von richtlinienverwalteten apps empfangen kann:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Policy managed apps<ept id="p1">**</ept>: Allow transfer to only apps that have the MAM policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Richtlinienverwaltete apps<ept id="p1">**</ept>: Übertragung nur für Apps, die die MAM-Richtlinie haben zulassen.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All apps<ept id="p1">**</ept>: Allow transfer to any app</source>
+          <target state="translated"><bpt id="p1">**</bpt>Alle apps<ept id="p1">**</ept>: Übertragung an beliebige Apps zulassen</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: Do not allow data transfer to any app including other policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Keine<ept id="p1">**</ept>: die Datenübertragung an jede Anwendung, einschließlich anderer richtlinienverwalteten apps nicht zulassen.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Additionally, if you set this option to <bpt id="p1">**</bpt>Policy Managed Apps<ept id="p1">**</ept> or <bpt id="p2">**</bpt>None<ept id="p2">**</ept>, the iOS 9 feature that allows Spotlight Search to search data within apps will be blocked.</source>
+          <target state="translated">Darüber hinaus, wenn Sie diese Option auf <bpt id="p1">**</bpt>Richtlinienverwaltete Apps<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>keine<ept id="p2">**</ept>, die iOS 9-Funktion, Spotlight-suchen, um Daten in apps suchen können, blockiert werden.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>This setting does not control use of the Open In feature on mobile devices. To manage Open In, see <bpt id="p2">[</bpt>here<ept id="p2">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept><ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Diese Einstellung steuert nicht die Verwendung der Funktion öffnen In auf mobilen Geräten. Öffnen Sie In die Verwaltung Siehe <bpt id="p2">[</bpt>hier<ept id="p2">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept><ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Default value = Policy managed apps</source>
+          <target state="translated">Standardwert = Richtlinienverwalteten apps</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow app to receive data from other apps:<ept id="p1">**</ept>  Specify apps that are allowed to transfer data to the policy managed apps:</source>
+          <target state="translated"><bpt id="p1">**</bpt>App Empfang von Daten aus anderen apps erlauben:<ept id="p1">**</ept>  verwaltete apps geben-apps, die zum Übertragen von Daten an die Richtlinie zulässig sind:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Policy managed apps<ept id="p1">**</ept>: Allow data transfers only from other policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Richtlinienverwaltete apps<ept id="p1">**</ept>: ermöglichen Datenübertragungen nur von anderen verwalteten apps.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All apps<ept id="p1">**</ept>: Allow data transfer from any app</source>
+          <target state="translated"><bpt id="p1">**</bpt>Alle apps<ept id="p1">**</ept>: Datenübertragung aus beliebigen Apps zulassen</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>: Do not allow data transfer from any app.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Keine<ept id="p1">**</ept>: Übertragung von Daten aus beliebigen Apps nicht zulassen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Default value = All apps</source>
+          <target state="translated">Standardwert = alle apps</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prevent Save As:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to disable the use of the Save As option in any app that uses this policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Speichern als verhindern:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> zum Deaktivieren der Verwendung der Option speichern unter in jeder app, die diese Richtlinie verwendet.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>No<ept id="p1">**</ept> if you want to allow the use of Save As.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>keine<ept id="p1">**</ept> Wenn Sie zulassen, die Verwendung von Speichern unter möchten.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Restrict cut, copy and paste with other apps:<ept id="p1">**</ept> Specify when  cut, copy, and paste operations should be restricted.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beschränken von Ausschneiden, kopieren und Einfügen mit anderen apps:<ept id="p1">**</ept> Geben Sie beim Ausschneiden, kopieren und von Einfügeoperationen beschränkt werden soll.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose from:</source>
+          <target state="translated">Es stehen folgende Optionen zur Auswahl:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blocked:<ept id="p1">**</ept> Do not allow cut, copy, and paste operations between policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gesperrt:<ept id="p1">**</ept> Ausschneiden, kopieren und Einfügen zwischen richtlinienverwalteten apps nicht erlauben.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Policy Managed Apps<ept id="p1">**</ept>: Only allow cut, copy, and paste operations between policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Richtlinienverwaltete Apps<ept id="p1">**</ept>: nur zulassen, Ausschneiden, kopieren und Einfügen zwischen richtlinienverwalteten apps.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Policy Managed Apps with paste In<ept id="p1">**</ept>: Allow cut or copy between policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Richtlinienverwaltete Apps mit einfügen<ept id="p1">**</ept>: gewähren Sie Ausschneiden oder Kopieren zwischen richtlinienverwalteten apps.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Allow cut or copied data from any app to be pasted into this app.</source>
+          <target state="translated">Lassen Sie Ausschneiden oder kopierten Daten aus beliebigen Apps in dieser Anwendung eingefügt werden.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Any App<ept id="p1">**</ept>: No restrictions for  cut, copy, and paste operations between any apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Jede Anwendung<ept id="p1">**</ept>: keine Einschränkungen für Ausschneiden, kopieren und Einfügen zwischen apps.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Default value =Policy managed apps with paste in</source>
+          <target state="translated">Standardwert = Policy in verwalteten apps mit einfügen</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Restrict web content to display in the Managed Browser:<ept id="p1">**</ept> When this setting is enabled, any links in the app will be opened in the Managed Browser.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Webinhalt in den verwalteten Browser angezeigt:<ept id="p1">**</ept> wenn diese Einstellung aktiviert ist, werden alle Links in der app im Managed Browser geöffnet werden.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For devices that are not enrolled in Intune, the web links in policy-managed apps can only open in the Managed Browser app using the mobile app management policy.</source>
+          <target state="translated">Für Geräte, die nicht in Intune registriert sind, können die Websites in richtliniengesteuerte apps nur in der Managed Browser-app mit der Richtlinie zur mobilen Anwendung öffnen.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you are using Intune to manage your devices, see <bpt id="p1">[</bpt>manage internet access using managed browser policies with Microsoft Intune<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept>.</source>
+          <target state="translated">Wenn Sie Intune zum Verwalten Ihrer Geräte verwenden, finden Sie unter <bpt id="p1">[</bpt>Verwalten des Internetzugriffs mittels Richtlinien für verwaltete Browser mit Microsoft Intune<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encrypt app data:<ept id="p1">**</ept> For apps that are associated with an <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> mobile app management policy, data is encrypted at rest using device level encryption provided by the OS.</source>
+          <target state="translated"><bpt id="p1">**</bpt>App-Daten verschlüsseln:<ept id="p1">**</ept> für apps, die zugeordnet sind eine <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> mobile app Management, Daten verschlüsselt im Ruhezustand mit Verschlüsselung auf Geräteebene vom Betriebssystem bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When a PIN is required, the data is encrypted per the settings in the mobile app management policy.</source>
+          <target state="translated">Wenn eine PIN erforderlich ist, werden die Daten gemäß den Einstellungen in der Verwaltungsrichtlinie für mobile Anwendung verschlüsselt.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>As stated in Apple documentation, <bpt id="p1">[</bpt>the modules used by iOS 7 are FIPS 140-2 certified<ept id="p1">](http://support.apple.com/en-us/HT202739)</ept>.</source>
+          <target state="translated">Wie in der Apple-Dokumentation erwähnt <bpt id="p1">[</bpt>von iOS 7 verwendeten Module FIPS 140-2-zertifiziert sind<ept id="p1">](http://support.apple.com/en-us/HT202739)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the policy settings, you can specify PIN encryption values.</source>
+          <target state="translated">In den Richtlinien können Sie die PIN-Verschlüsselungswerte angeben.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These values determine when the data is encrypted.</source>
+          <target state="translated">Diese Werte bestimmen, wann die Daten verschlüsselt werden.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The options are:</source>
+          <target state="translated">Folgende Optionen stehen zur Verfügung:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>When device is locked:<ept id="p1">**</ept> All app data associated with this policy is encrypted while the device is locked.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wenn Gerät gesperrt:<ept id="p1">**</ept> Alle app-Daten, die dieser Richtlinie zugeordnet werden verschlüsselt, während das Gerät gesperrt ist.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>When device is locked (except for open files):<ept id="p1">**</ept> All app data associated with this policy is encrypted while the device is locked, except for data that in the files that are currently open in the app.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wenn Gerät gesperrt ist (außer offene Dateien):<ept id="p1">**</ept> Alle app-Daten, die dieser Richtlinie zugeordnet werden verschlüsselt, während das Gerät, mit Ausnahme von Daten gesperrt ist, die in den Dateien, die derzeit in der Anwendung zu öffnen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>After device restart:<ept id="p1">**</ept> All app data associated with this policy is encrypted when the device is restarted, until the device is unlocked for the first time.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nach Gerät neu starten:<ept id="p1">**</ept> Alle app-Daten, die dieser Richtlinie zugeordnet werden verschlüsselt, wenn das Gerät neu gestartet wird, bis das Gerät zum ersten Mal entsperrt wird.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use device settings:<ept id="p1">**</ept> App data is encrypted based on the default settings on the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwenden Sie für Geräte:<ept id="p1">**</ept> App-Daten werden verschlüsselt basierend auf den Standardeinstellungen auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When you enable this setting, the end user is required to setup and use a PIN to access their device.</source>
+          <target state="translated">Wenn Sie diese Einstellung aktivieren, muss der Endbenutzer zum Einrichten und Verwenden einer PIN auf ihr Gerät zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If there is no PIN, the apps will not launch and the end user will be prompted to set a PIN with a message -“Your company has required that you must first enable a device PIN to access this application.”</source>
+          <target state="translated">Ist keine PIN, die apps werden nicht gestartet, und Benutzer werden aufgefordert, eine PIN mit einer Meldung-"Ihres Unternehmens ist erforderlich, müssen Sie zuerst eine Geräte-ID für diese Anwendung aktivieren." festgelegt</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Default value -Encryption option is not selected.</source>
+          <target state="translated">DEFAULT-Wert - Verschlüsselung, die nicht ausgewählt ist.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disable contact sync:<ept id="p1">**</ept>  Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to prevent contact information from synchronizing to the native address book app on the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kontakte synchronisieren deaktivieren:<ept id="p1">**</ept>  auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> um Kontaktinformationen Synchronisieren des an die systemeigene Adressbuch app auf dem Gerät zu verhindern.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you choose <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, the app will save the  contact information to the native address book app on the device.</source>
+          <target state="translated">Auf Wunsch <bpt id="p1">**</bpt>keine<ept id="p1">**</ept>, Speichern der app wird die Kontaktinformationen für die systemeigene Adresse Adressbuch-app auf dem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you do a selective wipe to remove company data, contacts synced directly from the app to the native address book are removed.</source>
+          <target state="translated">In diesem Fall eine selektive Zurücksetzung Unternehmensdaten entfernen werden Kontakte direkt aus der app mit dem Adressbuch synchronisiert entfernt.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Any contacts synced from the native address book to another external source cannot be wiped.</source>
+          <target state="translated">Alle Kontakte mit einer anderen externen Quelle aus dem systemeigenen Adressbuch synchronisiert werden nicht zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Currently this is applicable only to the <bpt id="p1">**</bpt>Microsoft Outlook<ept id="p1">**</ept> app.</source>
+          <target state="translated">Dies ist derzeit nur für die <bpt id="p1">**</bpt>Microsoft Outlook<ept id="p1">**</ept> app.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>iOS Access policy settings</source>
+          <target state="translated">iOS-Access-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The term <bpt id="p1">**</bpt>Policy managed apps<ept id="p1">**</ept> is used to refer to apps that are configured with MAM policies.</source>
+          <target state="translated">Der Begriff <bpt id="p1">**</bpt>richtlinienverwaltete apps<ept id="p1">**</ept> wird verwendet, um apps zu verweisen, die mit MAM-Richtlinien konfiguriert sind.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require PIN for access:<ept id="p1">**</ept>  Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require a PIN to use policy managed apps.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PIN für Zugriff erforderlich:<ept id="p1">**</ept>  auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> verwaltete apps eine PIN Gruppenrichtlinie erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The user is prompted to set this up the first time they run the app in a work context.</source>
+          <target state="translated">Der Benutzer wird aufgefordert, dies erstmalig einrichten, die sie die app in einem Kontext ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow simple PIN:<ept id="p1">**</ept> Specify whether to allow users to use simple PIN sequences such as 1234 or 1111.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Einfache PIN zulassen:<ept id="p1">**</ept> geben an, ob Benutzer einfache PIN-Sequenzen wie z. B. 1234 oder 1111 verwenden.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default value = Yes<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Standardwert = Yes<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PIN Length:<ept id="p1">**</ept> Specify the minimum number of digits in a PIN.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PIN-Länge:<ept id="p1">**</ept> Geben Sie die minimale Anzahl von Ziffern in einer PIN.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Default value = 4</source>
+          <target state="translated">Standardwert = 4</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Number of attempts before PIN reset:<ept id="p1">**</ept> Specify the number of PIN entry attempts that can be made before the user must reset the PIN.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anzahl der Versuche vor dem Zurücksetzen der PIN:<ept id="p1">**</ept> Geben Sie die Anzahl der PIN-Eingabeversuche, die vorgenommen werden können, bevor der Benutzer die PIN zurücksetzen muss.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>There is no default value for this setting<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Es ist kein Standardwert für diese Einstellung<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require fingerprint instead of PIN (iOS 8.0+):<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require a fingerprint identity instead of a numbered PIN for app access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Fingerabdruck statt PIN (iOS 8.0 und höher) erfordern:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> eine Identität Fingerabdruck anstelle einer nummerierten PIN für Zugriff erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>On iOS devices, you can allow the user to identify themselves using fingerprint on iOS devices instead of a numbered PIN.</source>
+          <target state="translated">Auf iOS-Geräten können Sie Benutzer selbst mithilfe der Fingerabdruck auf iOS-Geräten statt einer nummerierten PIN zu identifizieren.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When the end user tries to access this app using their work account, they are prompted to provide their fingerprint identity instead of entering a PIN number.</source>
+          <target state="translated">Wenn der Benutzer versucht, diese app über ihr Geschäftskonto zuzugreifen, müssen sie ihre Identität Fingerabdruck, statt eine PIN-Nummer bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require corporate credentials for access:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require corporate credentials instead of a PIN for app access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unternehmensanmeldeinformationen für Zugriff erforderlich:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> Unternehmensanmeldeinformationen statt eine PIN für Zugriff erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you set this to Yes, this overrides the requirements for PIN or Touch ID.</source>
+          <target state="translated">Wenn Sie diese Option auf Ja festlegen, überschreibt diese die Anforderungen für PIN oder Touch-ID.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The user will be prompted to provide their corporate credentials.</source>
+          <target state="translated">Der Benutzer aufgefordert werden, die Anmeldeinformationen des Unternehmen.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Default value = No</source>
+          <target state="translated">Standardwert = Nein</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block managed apps from running on jailbroken or rooted devices:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to block apps from running on jailbroken or rooted devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Block verwaltete apps auf nutzungsbeschränkungen ausgeführt:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> zu verhindern, dass apps auf nutzungsbeschränkungen ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The user will continue to be able to use the apps for personal tasks, but will have to use a different device for work.</source>
+          <target state="translated">Der Benutzer weiterhin die apps für persönliche Aufgaben verwenden können, jedoch müssen Sie ein anderes Gerät für Arbeit verwenden.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Default value = Yes</source>
+          <target state="translated">Standardwert = Ja</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recheck the access requirements after (minutes)<ept id="p1">**</ept><ph id="ph1">|-   </ph><bpt id="p2">**</bpt>Timeout:<ept id="p2">**</ept> Time (in minutes) before the access requirements for the app are rechecked.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Der zugriffsanforderungen nach (Minuten)<ept id="p1">**</ept><ph id="ph1">|-   </ph><bpt id="p2">**</bpt>Timeout:<ept id="p2">**</ept> Zeit (in Minuten), bevor die zugriffsanforderungen für die app erneut geprüft werden.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Offline grace period:<ept id="p1">**</ept> If the device is offline, specify the time (in minutes) before the access requirements for the app are rechecked.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Offline-Toleranzperiode:<ept id="p1">**</ept> wenn das Gerät offline ist, geben Sie die Zeit (in Minuten) vor der zugriffsanforderungen für die app erneut geprüft werden.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Default value = 30 minute timeout, and 720 minute offline grace period</source>
+          <target state="translated">Standardwert = 30-Minuten-Timeout und 720 Minuten offline-Toleranzperiode</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Offline interval before app data is wiped (days):<ept id="p1">**</ept> You can choose to wipe the company data if a device has been offline for a certain period.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Intervall offline, bevor die app-Daten (Tage) zurückgesetzt werden:<ept id="p1">**</ept> Sie können auch die Unternehmensdaten zurücksetzen, wenn ein Gerät für einen bestimmten Zeitraum offline war.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Specify the number of days a device can be offline before the company data is removed from the device.</source>
+          <target state="translated">Geben Sie die Anzahl der Tage, die ein Gerät offline sein kann, bevor die Unternehmensdaten vom Gerät entfernt werden.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Entering a value of  0 will turn this setting off<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ein Wert von 0 wird Deaktivieren dieser Optionen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Default value = 90 days</source>
+          <target state="translated">Standardwert = 90 Tage</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
