@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">286f159e57820a8c8723004c167ae7296626894c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\resolve-gpo-and-microsoft-intune-policy-conflicts.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe953e72ece4b9b4d6ce087542b545e7c1030bca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ee5489f80211456f6f8b4c7cdc15be2afc3c7bb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Resolve GPO and Intune policy conflicts | Microsoft Intune</source>
+          <target state="translated">Das Gruppenrichtlinienobjekt und Intune-Richtlinienkonflikte zu lösen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to resolve conflicts between Group Policy and Intune configuration policies.</source>
+          <target state="translated">Informationen Sie zum Lösen von Konflikten zwischen Gruppenrichtlinien und Intune Konfigurationsrichtlinien.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Resolve Group Policy Objects (GPO) and Microsoft Intune policy conflicts</source>
+          <target state="translated">Gruppenrichtlinienobjekte (GPO) und Windows Intune-Richtlinienkonflikte zu lösen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune uses policies that help you manage settings on Windows PCs.</source>
+          <target state="translated">Intune verwendet wird, Sie können, Richtlinien zum Verwalten von Einstellungen auf Windows-PCs.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, you can use a policy to control settings for the Windows Firewall on PCs.</source>
+          <target state="translated">Beispielsweise können Sie eine Richtlinie zum Steuern von Einstellungen für die Windows-Firewall auf PCs.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Many Intune settings are similar to settings that you might configure with Windows Group Policy.</source>
+          <target state="translated">Viele Intune-Einstellungen sind mit Einstellungen, die Sie mit Windows-Gruppenrichtlinien konfigurieren können.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, it is possible that, at times, the two methods might conflict with each another.</source>
+          <target state="translated">Es ist jedoch möglich, dass manchmal die beiden Methoden mit jedem anderen in Konflikt stehen.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When conflicts happen, domain-level Group Policy takes precedence over Intune policy, unless the PC can’t sign in to the domain.</source>
+          <target state="translated">Wenn Konflikte auftreten, hat Gruppenrichtlinien auf Domänenebene Vorrang vor Intune-Richtlinie, wenn der PC nicht mit der Domäne anmelden.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this case, Intune policy is applied to the client PC.</source>
+          <target state="translated">In diesem Fall gilt die Intune-Richtlinie für Client-PC.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>What to do if you are using Group Policy</source>
+          <target state="translated">Vorgehensweise bei Verwendung von Gruppenrichtlinien</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Make sure that policies that you apply are not being managed by Group Policy.</source>
+          <target state="translated">Stellen Sie sicher, dass die Richtlinien, die Sie anwenden, nicht durch eine Gruppenrichtlinie verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To help prevent conflicts, you can use one or more of the following methods:</source>
+          <target state="translated">Um Konflikte zu vermeiden, können Sie eine oder mehrere der folgenden Methoden:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Move your PCs to an Active Directory organizational unit (OU) that does not have Group Policy settings applied before you install the Intune client.</source>
+          <target state="translated">Verschieben Sie Ihre PCs mit einer Active Directory Organisationseinheit (OU), die keine Gruppenrichtlinien angewendet werden, bevor Sie die Intune-Client installieren.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also block Group Policy inheritance on OUs that contain PCs enrolled in Intune to which you do not want to apply Group Policy settings.</source>
+          <target state="translated">Sie können auch Gruppenrichtlinien Blockieren der Vererbung bei OUs mit PCs in Intune registriert, nicht von Gruppenrichtlinien-Einstellungen anwenden möchten.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use a security group filter to restrict GPOs only to PCs that are not managed by Intune.</source>
+          <target state="translated">Verwenden Sie einen Sicherheitsfilter für die Gruppe, um Gruppenrichtlinienobjekte auf PCs zu beschränken, die nicht von Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Disable or remove the Group Policy Objects that conflict with the Intune policies.</source>
+          <target state="translated">Deaktivieren Sie oder entfernen Sie die Gruppenrichtlinienobjekte, die in Konflikt mit dem Intune-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information about Active Directory and Windows Group Policy, see your Windows Server Documentation.</source>
+          <target state="translated">Weitere Informationen zu Active Directory und Windows-Gruppenrichtlinien finden Sie in Ihrer Windows Server-Dokumentation.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>How to filter existing GPOs to avoid conflicts with Intune policy</source>
+          <target state="translated">Gewusst wie: Filtern Sie vorhandene Gruppenrichtlinienobjekte, um Konflikte mit Intune-Richtlinien zu vermeiden.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have identified GPOs whose settings conflict with Intune policies, you can use security group filters to restrict those GPOs only to PCs that are not managed by Intune.</source>
+          <target state="translated">Wenn Sie Gruppenrichtlinienobjekte, deren Einstellungen in Konflikt stehen mit Intune-Richtlinien angegeben haben, können Sie Sicherheitsfilter für die Gruppe, um diese Gruppenrichtlinienobjekte auf PCs zu beschränken, die nicht von Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can apply GPOs to only those security groups that are specified in the <bpt id="p1">**</bpt>Security Filtering<ept id="p1">**</ept> area of the Group Policy Management console for a selected GPO.</source>
+          <target state="translated">Sie können nur die Sicherheitsgruppen, die im angegebenen Gruppenrichtlinienobjekte Zuweisen der <bpt id="p1">**</bpt>Security Filtering<ept id="p1">**</ept> Bereich der Gruppenrichtlinien-Verwaltungskonsole für ein ausgewähltes GPO.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>By default, GPOs apply to <bpt id="p1">*</bpt>Authenticated Users<ept id="p1">*</ept>.</source>
+          <target state="translated">Standardmäßig gelten GPOs für <bpt id="p1">*</bpt>Authentifizierte Benutzer<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Active Directory Users and Computers<ept id="p1">**</ept> snap-in, create a new security group that contains computers and user accounts that you do not want Intune to manage.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Active Directory-Benutzer und-Computer<ept id="p1">**</ept> -Snap-in, erstellen Sie eine neue Sicherheitsgruppe mit Computern und Benutzerkonten, dass Sie nicht möchten, dass Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, you might name the group <bpt id="p1">*</bpt>Not In Microsoft Intune<ept id="p1">*</ept>.</source>
+          <target state="translated">Sie können z. B. die Gruppe nennen <bpt id="p1">*</bpt>nicht In Microsoft Intune<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the Group Policy Management console, on the <bpt id="p1">**</bpt>Delegation<ept id="p1">**</ept> tab for the selected GPO, right-click the new security group to delegate appropriate <bpt id="p2">**</bpt>Read<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Apply Group Policy<ept id="p3">**</ept> permissions to both users and computers in the security group.</source>
+          <target state="translated">In der Gruppenrichtlinien-Verwaltungskonsole auf der <bpt id="p1">**</bpt>Delegierung<ept id="p1">**</ept> Registerkarte für das ausgewählte Gruppenrichtlinienobjekt der rechten Maustaste auf die neue Sicherheitsgruppe zum Delegieren von entsprechenden <bpt id="p2">**</bpt>Lesen<ept id="p2">**</ept> und <bpt id="p3">**</bpt>Gruppenrichtlinie übernehmen<ept id="p3">**</ept> Berechtigungen für Benutzer und Computer in der Sicherheitsgruppe.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">**</bpt>Apply Group Policy<ept id="p1">**</ept> permissions are available on the <bpt id="p2">**</bpt>Advanced<ept id="p2">**</ept> dialog box.)</source>
+          <target state="translated">(<bpt id="p1">**</bpt>Gruppenrichtlinie übernehmen<ept id="p1">**</ept> stehen auf der <bpt id="p2">**</bpt>Erweitert<ept id="p2">**</ept> Dialogfeld.)</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Then, apply the new security group filter to a selected GPO, and remove the <bpt id="p1">**</bpt>Authenticated Users<ept id="p1">**</ept> default filter.</source>
+          <target state="translated">Wenden Sie den neuen Sicherheitsgruppenfilter für ein ausgewähltes GPO anschließend, und entfernen Sie die <bpt id="p1">**</bpt>Authentifizierte Benutzer<ept id="p1">**</ept> Standardfilter.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The new security group must be maintained as enrollment in the Intune service changes.</source>
+          <target state="translated">Die neue Sicherheitsgruppe muss als Registrierung in die Intune Änderungen beibehalten werden.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Manage Windows PCs with Microsoft Intune</source>
+          <target state="translated">Verwalten von Windows-PCs mit Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e530960268e8ef7d9c7f5419e7221bec61c0e6ef</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\monitor-mobile-app-management-policies-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dfd16c286b89c8de5e5b92efc10722e836ac1397</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">855a5aa7ca8634fdea2d5cca0b47b720c2c7c1ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitor MAM policies with Microsoft Intune | Microsoft Intune</source>
+          <target state="translated">Überwachen mit Microsoft Intune MAM-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>See how many users have the policy, drill down to find out more details.</source>
+          <target state="translated">Finden Sie, wie viele Benutzer Drilldown erfahren Sie weitere Details die Richtlinie haben.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Monitor mobile app management policies with Microsoft Intune</source>
+          <target state="translated">Überwachen von Richtlinien zur Verwaltung mobiler Apps mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After you have configured a MAM policy and applied it to the users, you can monitor the compliance status on the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept>.</source>
+          <target state="translated">Nachdem Sie eine MAM-Richtlinie konfiguriert und es den Benutzern angewendet haben, können Sie den Kompatibilitätsstatus überwachen, auf die <bpt id="p1">[</bpt>Azure-Portal<ept id="p1">](https://portal.azure.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Azure portal includes information about the users affected by the policy, the compliance status, and any issues that your end users might be experiencing.</source>
+          <target state="translated">Azure-Portal enthält Informationen über die Benutzer betroffen, die Richtlinie, Konformitäts- und alle Probleme, die Ihre Endbenutzer auftreten können.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Summary view</source>
+          <target state="translated">Zusammenfassungsansicht</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Intune mobile application management<ept id="p1">**</ept> blade you can see a summary of the compliance status as described below:</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Intune mobile Application Management<ept id="p1">**</ept> Blatt sehen Sie eine Zusammenfassung des Kompatibilitätsstatus wie unten beschrieben:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Summary tile on the Intune mobile application management blade</source>
+          <target state="translated">Kachel Intune mobile Application Management im Fenster Zusammenfassung</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>USERS:<ept id="p1">**</ept> The total number of users in your company who are using the apps that are associated with the policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Benutzer:<ept id="p1">**</ept> die Gesamtanzahl der Benutzer in Ihrem Unternehmen, die die apps, die der Richtlinie zugeordnet sind.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>MANAGED BY POLICY:<ept id="p1">**</ept>- The number of users who have used at least one of the apps in the work context.</source>
+          <target state="translated"><bpt id="p1">**</bpt>VERWALTET durch GRUPPENRICHTLINIE:<ept id="p1">**</ept>-die Anzahl der Benutzer, die mindestens eine der apps im Zusammenhang mit Arbeitsaufgaben verwendet haben.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NO POLICY:<ept id="p1">**</ept> The number of users who are using the apps associated with the policy, but are not targeted by your policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>KEINE Richtlinie:<ept id="p1">**</ept> die Anzahl der Benutzer, die Verwendung von den apps, die der Richtlinie zugeordnet, jedoch sind nicht Gegenstand der Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You may consider adding these users to your policy.</source>
+          <target state="translated">Sie sollten diese Benutzer zu der Richtlinie hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Flagged users:<ept id="p1">**</ept> The number of users experiencing issues.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gekennzeichnete Benutzer:<ept id="p1">**</ept> die Anzahl der Benutzer, die Probleme.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Currently only users with jailbroken devices are reported under <bpt id="p1">**</bpt>Flagged users<ept id="p1">**</ept>.</source>
+          <target state="translated">Derzeit werden nur Benutzer mit jailbreak Geräten werden unter gemeldet <bpt id="p1">**</bpt>gekennzeichnete Benutzer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Detailed view</source>
+          <target state="translated">Detailansicht</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can get to the detailed view of the summary by clicking on the <bpt id="p1">**</bpt>User status<ept id="p1">**</ept> tile and the <bpt id="p2">**</bpt>Flagged users<ept id="p2">**</ept> tile.</source>
+          <target state="translated">Erhalten Sie detaillierte Ansicht der Zusammenfassung auf der <bpt id="p1">**</bpt>Benutzerstatus<ept id="p1">**</ept> Kachel und <bpt id="p2">**</bpt>gekennzeichnete Benutzer<ept id="p2">**</ept> Kachel.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>User status</source>
+          <target state="translated">Benutzerstatus</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can search for a single user and look at the compliance status for that user.</source>
+          <target state="translated">Sie können für einen einzelnen Benutzer suchen und sehen Sie sich den Kompatibilitätsstatus für diesen Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>App reporting<ept id="p1">**</ept> blade displays the following information for a selected user:</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>App reporting<ept id="p1">**</ept> zeigt die folgende Informationen für einen ausgewählten Benutzer:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Device(s) that are associated with the user account</source>
+          <target state="translated">Geräte, die dem Benutzerkonto zugeordnet sind</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>App(s) with MAM policy on the device</source>
+          <target state="translated">App(s) mit MAM-Richtlinie auf dem Gerät</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Status:</source>
+          <target state="translated">Status:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Checked in:<ept id="p1">**</ept> This means that the policy was deployed to the user, and app was used in work context at least once.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Eingecheckt:<ept id="p1">**</ept> Dies bedeutet, dass für den Benutzer bereitgestellt wurde und die app im Kontext mindestens einmal verwendet wurde.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not checked in:<ept id="p1">**</ept> This means the policy was deployed to the user, but app has not been used in the work context since then.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nicht eingecheckt:<ept id="p1">**</ept> Dies bedeutet, dass die Richtlinie für den Benutzer bereitgestellt wurde, aber die app wurde nicht im Zusammenhang mit Arbeitsaufgaben verwendet wurde, seitdem.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the user you searched for does not have the MAM policy deployed to them, you will see a message informing you that the user is not targeted for any app policies.</source>
+          <target state="translated">Wenn der gesuchte Benutzer keinen MAM-Richtlinie, die bereitgestellt werden, sehen Sie eine Meldung angezeigt, dass der Benutzer nicht für alle app-Richtlinien vorgesehen ist.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To see the reporting for a user, follow these steps:</source>
+          <target state="translated">Um die Berichterstattung für einen Benutzer zu sehen, gehen Sie folgendermaßen vor:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Step 1:<ept id="p1">**</ept>  To select a user, click on the Summary tile or choose the <bpt id="p2">**</bpt>APP REPORTING BY USER<ept id="p2">**</ept> option in the <bpt id="p3">**</bpt>Settings<ept id="p3">**</ept> blade as shown below:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Schritt 1:<ept id="p1">**</ept>  um einen Benutzer auszuwählen, klicken Sie auf die Kachel-Zusammenfassung, oder wählen Sie die <bpt id="p2">**</bpt>APP REPORTING durch Benutzer<ept id="p2">**</ept> option in der <bpt id="p3">**</bpt>Einstellungen<ept id="p3">**</ept> wie unten dargestellt:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>App reporting option on the settings blade</source>
+          <target state="translated">App-Option auf dem Blatt Einstellungen zur Berichterstattung</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Step 2:<ept id="p1">**</ept> This opens the <bpt id="p2">**</bpt>App reporting<ept id="p2">**</ept> blade.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Schritt 2:<ept id="p1">**</ept> daraufhin die <bpt id="p2">**</bpt>App reporting<ept id="p2">**</ept> Blatt.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Select user<ept id="p1">**</ept> to search for an Azure Active Directory user.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Wählen Sie den Benutzer<ept id="p1">**</ept> zum Suchen nach einer Azure Active Directory-Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>select user option on the App reporting blade</source>
+          <target state="translated">Wählen Sie die Benutzeroption auf dem Blatt der App-Berichterstattung</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Step 3:<ept id="p1">**</ept> After selecting the user from the list, you will see the details of the compliance status for that user.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Schritt 3:<ept id="p1">**</ept> nach dem Benutzer aus der Liste auswählen, sehen Sie die Details des Kompatibilitätsstatus für diesen Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>App reporting details</source>
+          <target state="translated">App Berichten von details</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Flagged users</source>
+          <target state="translated">Gekennzeichnete Benutzer</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The detailed view displays the error message, the app that was accessed when the error happened, the platform of the device, and a time stamp.</source>
+          <target state="translated">Die Detailansicht zeigt die Fehlermeldung, die app, auf die zugegriffen wurde, als der Fehler aufgetreten ist, die Plattform des Geräts und einen Zeitstempel.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Manage data transfer between iOS apps</source>
+          <target state="translated">Verwaltet die Datenübertragung zwischen iOS-apps</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>End user experience for MAM enabled app</source>
+          <target state="translated">Benutzerfreundlichkeit für MAM-fähigen Anwendung</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a7c87d915abd6ef4090c1773af3e58b81366998</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\use-remote-lock-and-passcode-reset-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8cb5b27d3d747abae6f4e2ac52449613aed154d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4690025a204db2c6d3a02cc0a4e81b6169b5bd85</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use remote lock and passcode reset | Microsoft Intune</source>
+          <target state="translated">Verwenden Sie remote sperren und die Kennung zurücksetzen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune provides both remote lock and passcode reset capabilities.</source>
+          <target state="translated">Intune bietet remotesperre und Kennung zurücksetzen Funktionen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Help protect your devices with remote lock and passcode reset</source>
+          <target state="translated">Schützen Sie Ihre Geräte mit remote sperren und die Kennung zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune provides both remote lock and passcode reset capabilities.</source>
+          <target state="translated">Microsoft Intune bietet remotesperre und Kennung zurücksetzen Funktionen.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Lock a device remotely</source>
+          <target state="translated">Ein Gerät Remote Sperren</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If a user loses their device you can lock the device remotely.</source>
+          <target state="translated">Wenn ein Benutzer sein Gerät verliert, können Sie es remote sperren.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The table below lists how remote lock works on different mobile platforms.</source>
+          <target state="translated">In der folgenden Tabelle ist die Funktionsweise der Remotesperrung auf verschiedenen mobilen Plattformen aufgeführt.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Remote lock is not supported</source>
+          <target state="translated">Remotesperre wird nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Platform</source>
+          <target state="translated">Plattform</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Remote lock</source>
+          <target state="translated">Remotesperre</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="translated">iOS</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="translated">Android</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows 10 and Windows 10 Mobile</source>
+          <target state="translated">Windows 10 und Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and Windows Phone 8.1</source>
+          <target state="translated">Windows Phone 8 und Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows RT 8.1 and Windows RT</source>
+          <target state="translated">Windows RT 8.1 und Windows RT</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Supported if the current user of the device is the same user who enrolled the device.</source>
+          <target state="translated">Unterstützt, wenn der aktuelle Benutzer des Geräts derjenige ist, der das Gerät registriert hat.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="translated">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Supported if the current user of the device is the same user who enrolled the device.</source>
+          <target state="translated">Unterstützt, wenn der aktuelle Benutzer des Geräts derjenige ist, der das Gerät registriert hat.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Remote lock is not supported for Windows PCs enrolled with the Intune software client.</source>
+          <target state="translated">Remote-Sperre wird für Windows-PCs mit dem Intune-Software-Client registriert nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To lock a mobile device remotely through the Intune console</source>
+          <target state="translated">So sperren Sie ein mobiles Gerät remote über die Intune-Konsole</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administrator  console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>All Mobile Devices<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Intune-Administratorkonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Alle Mobilgeräte<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>All Direct Managed Devices<ept id="p1">**</ept> for devices enrolled in Intune or <bpt id="p2">**</bpt>All Exchange ActiveSync Managed Devices<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>alle direkt verwalteten Geräte<ept id="p1">**</ept> für Geräte in Intune registriert oder <bpt id="p2">**</bpt>alle Exchange ActiveSync verwalteten Geräte<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can also navigate to a device by user.</source>
+          <target state="translated">Sie können auch nach Benutzer zu einem Gerät navigieren.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>alle Benutzer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the user's properties page, choose <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept>, and then choose the name of the mobile device you want to wipe.</source>
+          <target state="translated">Wählen Sie auf der Eigenschaftenseite des Benutzers <bpt id="p1">**</bpt>Geräte<ept id="p1">**</ept>, und wählen Sie dann den Namen des mobilen Geräts, das Sie zurücksetzen möchten.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the list, choose the device or devices that you want to lock.</source>
+          <target state="translated">Wählen Sie in der Liste aus das oder die Geräte, die Sie sperren möchten.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On the taskbar, choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>Remote Lock<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie auf der Taskleiste <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept>, und wählen Sie <bpt id="p2">**</bpt>Remotesperre<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Reset the passcode on a device</source>
+          <target state="translated">Zurücksetzen der Kennung auf einem Gerät</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device.</source>
+          <target state="translated">Wenn ein Benutzer seine Kennung vergisst, können Sie die Kennung von einem Gerät entfernen oder eine neue temporäre Kennung auf einem Gerät erzwingen.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The table below lists how passcode reset works on different mobile platforms.</source>
+          <target state="translated">In der folgenden Tabelle ist die Funktionsweise der Kennungszurücksetzung auf verschiedenen mobilen Plattformen aufgeführt.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Platform</source>
+          <target state="translated">Plattform</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Passcode reset</source>
+          <target state="translated">Zurücksetzen der Kennung</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="translated">iOS</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Supported for clearing the passcode from a device.</source>
+          <target state="translated">Wird für das Löschen der Kennung von einem Gerät unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Does not create a new temporary passcode.</source>
+          <target state="translated">Es wird keine neue temporäre Kennung erstellt.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="translated">Android</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Supported and a temporary passcode is created.</source>
+          <target state="translated">Wird unterstützt. Zudem wird eine temporäre Kennung erstellt.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Windows 10 Mobile</source>
+          <target state="translated">Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and Windows Phone 8.1</source>
+          <target state="translated">Windows Phone 8 und Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Windows RT 8.1 and Windows RT</source>
+          <target state="translated">Windows RT 8.1 und Windows RT</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Not Supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Windows 8.1</source>
+          <target state="translated">Windows 8.1</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Not Supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Passcode reset is not supported for Windows PCs enrolled with the Intune software client.</source>
+          <target state="translated">Zurücksetzen der Kennung wird für Windows-PCs mit dem Intune-Software-Client registriert nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To reset a passcode</source>
+          <target state="translated">Eine Kennung zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administrator console<ept id="p1">](https://manage.microsoft.com/)</ept>, choose <bpt id="p2">**</bpt>Groups<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>All Devices<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>All Mobile Devices<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Intune-Administratorkonsole<ept id="p1">](https://manage.microsoft.com/)</ept>, wählen Sie <bpt id="p2">**</bpt>Gruppen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>alle Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Alle Mobilgeräte<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>All Direct Managed Devices<ept id="p1">**</ept> for devices enrolled in Intune or <bpt id="p2">**</bpt>All Exchange ActiveSync Managed Devices<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>alle direkt verwalteten Geräte<ept id="p1">**</ept> für Geräte in Intune registriert oder <bpt id="p2">**</bpt>alle Exchange ActiveSync verwalteten Geräte<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can also navigate to a device by user.</source>
+          <target state="translated">Sie können auch nach Benutzer zu einem Gerät navigieren.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept>.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>alle Benutzer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>On the user's properties page, click <bpt id="p1">**</bpt>Devices<ept id="p1">**</ept>, and then click the name of the mobile device you want to wipe.</source>
+          <target state="translated">Klicken Sie auf der Eigenschaftenseite des Benutzers auf <bpt id="p1">**</bpt>Geräte<ept id="p1">**</ept>, und klicken Sie dann auf den Namen des mobilen Geräts, das Sie zurücksetzen möchten.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In the list, choose the device or devices that you want to lock.</source>
+          <target state="translated">Wählen Sie in der Liste aus das oder die Geräte, die Sie sperren möchten.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the taskbar, choose <bpt id="p1">**</bpt>Remote Tasks<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>Passcode Reset<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie auf der Taskleiste <bpt id="p1">**</bpt>Remoteaufgaben<ept id="p1">**</ept>, und wählen Sie <bpt id="p2">**</bpt>Zurücksetzen der Kennung<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Retire devices<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p2">](http://technet.microsoft.com/library/dn486874.aspx)</ept></source>
+          <target state="translated"><bpt id="p1">[</bpt>Deaktivieren von Geräten<ept id="p1">](retire-devices-from-microsoft-intune-management.md)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Windows Selective Wipe for Device Data Management<ept id="p2">](http://technet.microsoft.com/library/dn486874.aspx)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">996198a2525dc830d229e7143afda3c71f4276b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\previous-intune-releases.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9aff00eb72a6b101d423ddb237ac4947bf59f279</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">135996437eb70144035583d92b03143b6edae782</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Previous releases | Microsoft Intune</source>
+          <target state="translated">Vorgängerversionen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Previous Intune releases</source>
+          <target state="translated">Vorgängerversionen von Intune</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>August 2016</source>
+          <target state="translated">August 2016</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>August 2016</source>
+          <target state="translated">August 2016</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Hidden and shown apps for iOS 9.3</source>
+          <target state="translated">Und ausgeblendete apps für iOS 9,3</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For supervised devices running iOS 9.3 or later, you can use the hidden and shown apps list in the iOS general configuration policy to:</source>
+          <target state="translated">Für überwachte Geräte iOS 9,3 oder höher ausgeführt wird können Sie die Liste und ausgeblendete apps in der allgemeinen iOS-Konfigurationsrichtlinie an:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that will be hidden from users.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die vom Benutzer ausgeblendet wird.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Users cannot view, or launch these apps.</source>
+          <target state="translated">Benutzer anzeigen oder diese apps zu starten.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that users can view and launch.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die Benutzer anzeigen und starten können.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>No other apps can be viewed or launched.</source>
+          <target state="translated">Keine anderen apps können angezeigt oder gestartet werden.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The apps you can specify include both apps you have deployed, and the built-in iOS apps like Messages and Notes.</source>
+          <target state="translated">Der apps, die Sie angeben können, enthalten beide apps, die Sie bereitgestellt haben, und die integrierte iOS-apps, wie Nachrichten und Notizen.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>iOS policy settings in Microsoft Intune<ept id="p1">]( https://docs.microsoft.com/intune/deploy-use/ios-policy-settings-in-microsoft-intune)</ept></source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>iOS-Richtlinien in Microsoft Intune<ept id="p1">]( https://docs.microsoft.com/intune/deploy-use/ios-policy-settings-in-microsoft-intune)</ept></target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Allowed and blocked apps policy for Samsung KNOX devices</source>
+          <target state="translated">Zulässige und blockierte apps Richtlinie für Samsung KNOX-Geräte</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can now configure a custom policy for Samsung KNOX devices that lets you create one of the following:</source>
+          <target state="translated">Sie können nun eine benutzerdefinierte Richtlinie für Samsung KNOX-Geräte konfigurieren, die einen der folgenden erstellen können:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A list of apps that are blocked from running on the device.</source>
+          <target state="translated">Eine Liste der apps, die auf dem Gerät ausgeführt wird, blockiert werden.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Even if installed, an app defined in the blocked list cannot be activated on the device.</source>
+          <target state="translated">Auch wenn installiert ist, kann eine Anwendung, die in der Liste der blockierten definierten auf dem Gerät aktiviert werden.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A list of apps that users of the device are allowed to install from the Google Play store.</source>
+          <target state="translated">Eine Liste der apps, die Benutzer des Geräts aus dem Google Play Store installieren.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>No other apps can be installed from the store.</source>
+          <target state="translated">Keine anderen apps können aus dem Store installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These settings can only be used by devices that run Samsung KNOX.</source>
+          <target state="translated">Diese Einstellungen können nur von Geräten verwendet werden, die Samsung KNOX ausführen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Use custom policies to allow and block apps for Samsung KNOX devices<ept id="p1">]( custom-policy-to-allow-and-block-samsung-knox-apps.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Zulassen und Blockieren von apps für Samsung KNOX-Geräte mithilfe von benutzerdefinierten Richtlinien<ept id="p1">]( custom-policy-to-allow-and-block-samsung-knox-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>New apps compatible with mobile application management (MAM) policies</source>
+          <target state="translated">Neue apps, die kompatibel mit Richtlinien zur mobilen anwendungsverwaltung (MAM)</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Yammer app for <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/app/yammer/id289559439?mt=8)</ept> and <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.yammer.v1)</ept> is now compatible with <bpt id="p3">[</bpt>Intune mobile application management (MAM) policies<ept id="p3">](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)</ept>, whether or not the device is enrolled.</source>
+          <target state="translated">Yammer-app für <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/app/yammer/id289559439?mt=8)</ept> und <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.yammer.v1)</ept> ist kompatibel mit <bpt id="p3">[</bpt>Intune mobile Application Management (MAM) Richtlinien<ept id="p3">](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)</ept>, unabhängig davon, ob das Gerät registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For a full list of MAM compatible apps, see the <bpt id="p1">[</bpt>Microsoft Intune application partners<ept id="p1">](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)</ept> site.</source>
+          <target state="translated">Eine vollständige Liste der kompatiblen MAM-apps, finden Sie unter der <bpt id="p1">[</bpt>Microsoft Intune Anwendungspartner<ept id="p1">](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)</ept> Standort.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Intune Viewer apps</source>
+          <target state="translated">Intune-Viewer-apps</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>With the release of the new RMS sharing app, we are removing the following Intune Viewer apps, beginning in August, 2016:</source>
+          <target state="translated">Mit der die neue RMS-Freigabe-app entfernen wir die folgenden Intune Viewer apps ab August 2016:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Intune AV Viewer</source>
+          <target state="translated">Intune AV-Viewer</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Intune PDF Viewer</source>
+          <target state="translated">Intune PDF-Viewer</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Intune Image Viewer for Android from Google Play</source>
+          <target state="translated">Intune Image-Viewer für Android aus Google Play</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Instead of using the Intune Viewer apps, we recommend using the new <bpt id="p1">[</bpt>Rights Management app (RMS sharing) for Android<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)</ept>, which allows you to deploy one app instead of three separate apps to securely view corporate files on Android devices.</source>
+          <target state="translated">Anstatt die Intune-Viewer-apps verwenden, empfehlen wir mit dem neuen <bpt id="p1">[</bpt>app-Verwaltung von Informationsrechten (RMS sharing) für Android<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)</ept>, können Sie eine app anstelle von drei separaten apps Unternehmens Dateien auf Android-Geräte sicher anzeigen bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the Intune viewer app is no longer supported, it will be removed from the Google Store and will not be available for future use.</source>
+          <target state="translated">Wenn die app von Intune Viewer nicht mehr unterstützt wird, aus dem Google-Speicher entfernt werden und wird nicht für die zukünftige Verwendung.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Android 7.0 support</source>
+          <target state="translated">Android 7.0-Unterstützung</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Intune provides “day 0” support for the forthcoming Android 7.0 operating system for mobile devices.</source>
+          <target state="translated">Intune unterstützt "Tag 0" das neue Android 7.0-Betriebssystem für mobile Geräte.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Google removal of remote passcode reset capability on Android 7.0 devices</source>
+          <target state="translated">Google Entfernen der Kennung remote zurücksetzen Funktion auf 7.0 Android-Geräte</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Google is removing the ability of IT administrators and end users to remotely reset the passcode of Android 7.0 devices.</source>
+          <target state="translated">Google ist die Fähigkeit von IT-Administratoren und Endbenutzer, die Kennung des 7.0 Android-Geräte Remote zurücksetzen entfernen.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Previously, IT administrators could remotely reset a user’s passcode, and end users could reset their passcodes from the Company Portal website.</source>
+          <target state="translated">IT-Administratoren konnte zuvor Remote Kennung des Benutzers, und Endbenutzer können ihre Passwörter aus dem Unternehmensportal-Website zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Company Portal updates</source>
+          <target state="translated">Unternehmensportal aktualisiert</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Company Portal website</source>
+          <target state="translated">Portal-Unternehmenswebsite</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Feedback link from the Company Portal to Microsoft</source>
+          <target state="translated">Feedbacklink aus dem Unternehmensportal an Microsoft</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Company Portal website enables end users to tap a new "Feedback" link, at the bottom of the page, to send feedback to Microsoft about their experience with the site.</source>
+          <target state="translated">Die Unternehmensportal-Website ermöglicht Endbenutzern einen neuen "Feedback" Link am unteren Rand der Seite, um das Senden von Feedback an Microsoft zu ihrer Erfahrung mit der Website zu tippen.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The collected, anonymized feedback will help Microsoft improve the Company Portal website experience for users.</source>
+          <target state="translated">Die gesammelten, anonymes Feedback hilft Microsoft das Unternehmensportal-Website für Benutzer zu verbessern.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="translated">iOS</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Minimum iOS Managed Browser version updated to 8.0</source>
+          <target state="translated">Minimale iOS Managed Browser-Version 8.0 aktualisiert</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune Managed Browser app for iOS has been updated to support devices running iOS 8.0 or later.</source>
+          <target state="translated">Die Microsoft Intune Managed Browser-app für iOS wurde zur Unterstützung von Geräten unter iOS 8.0 oder höher aktualisiert.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>While iOS 7.1 devices can still use the existing Managed Browser app, encourage your users to update to iOS 8.0 or later to access and take full advantage of new Managed Browser features.</source>
+          <target state="translated">IOS 7.1-Geräte können weiterhin die vorhandene Managed Browser-app verwenden, sollten Sie die Benutzer in iOS 8.0 oder höher für den Zugriff auf und Nutzen der neuen verwalteten Browser-Funktionen.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>What's coming</source>
+          <target state="translated">Was steht an?</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>iOS 10 support</source>
+          <target state="translated">iOS-10-Unterstützung</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Intune will fully support iOS 10.</source>
+          <target state="translated">IOS 10 unterstützt Intune vollständig.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>More information will follow the iOS 10 public release.</source>
+          <target state="translated">Weitere Informationen wird der iOS-10-Veröffentlichung folgen.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Intune Groups transitioning to Azure Active Directory Groups beginning in September 2016</source>
+          <target state="translated">Übergang zu Azure Active Directory-Gruppen ab September 2016 Intune-Gruppen</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Intune is creating a new group management experience that uses Azure Active Directory (AAD) security groups as user and device groups in Intune.</source>
+          <target state="translated">Intune ist das Erstellen einer neuen Gruppe Verwaltungsfunktionen, die Sicherheitsgruppen für Azure Active Directory (AAD) als Gruppen von Benutzern und Geräten in Intune verwendet.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>These groups will be used for all group management, policy deployment, and profile deployment <bpt id="p1">**</bpt>when we introduce the new Azure-based Intune admin portal<ept id="p1">**</ept>.</source>
+          <target state="translated">Diese Gruppen verwendet werden für alle Group Policy Management, Bereitstellung und Bereitstellung des Profils <bpt id="p1">**</bpt>bei der Einführung der neuen Verwaltungsportals von Azure-basierten Intune<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This new experience will keep you from having to duplicate groups between services, <bpt id="p1">**</bpt>allow you access to some new Azure Active Directory Premium (AADP) group features<ept id="p1">**</ept>, and provide extensibility using PowerShell and Graph.</source>
+          <target state="translated">Dieses neue Erfahrung verhindert, dass Sie Gruppen zwischen Diensten, duplizieren müssen <bpt id="p1">**</bpt>ermöglichen Ihnen den Zugriff auf einige neue Gruppenfunktionen in Azure Active Directory Premium (AADP)<ept id="p1">**</ept>, und geben Sie mithilfe von PowerShell und Graph Erweiterbarkeit.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This will also unify the group management experience across enterprise mobility management.</source>
+          <target state="translated">Dies wird auch die Verwaltungsfunktionen für die Gruppe über Enterprise Mobility Management zusammengeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To enable the move to Security Groups, the experience in the <bpt id="p1">**</bpt>current admin console<ept id="p1">**</ept> will undergo some modifications.</source>
+          <target state="translated">So aktivieren Sie die Move-Sicherheitsgruppen, die Erfahrung in der <bpt id="p1">**</bpt>aktuelle Verwaltungskonsole<ept id="p1">**</ept> haben einige Änderungen nach.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>These changes, and the use of AAD security groups, will be recorded in the Intune documentation<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>In der Intune-Dokumentation werden diese Änderungen und die Verwendung von Sicherheitsgruppen AAD aufgezeichnet<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Customers who are new to Intune will see <bpt id="p1">**</bpt>some of the security group changes before current tenants do<ept id="p1">**</ept>.</source>
+          <target state="translated">Kunden, die noch nicht mit Intune sehen <bpt id="p1">**</bpt>einige der Sicherheit die Änderungen vor aktuelle Mandanten gruppieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In addition to changes in group management, <bpt id="p1">**</bpt>the following functionality will be deprecated<ept id="p1">**</ept>:</source>
+          <target state="translated">Zusätzlich zu Änderungen in der gruppenverwaltung <bpt id="p1">**</bpt>die folgende Funktionen sind veraltet,<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Excluding members or groups while creating a new group</source>
+          <target state="translated">Ausschließen von Membern oder Gruppen beim Erstellen einer neuen Gruppe</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ungrouped Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Ungrouped Devices<ept id="p2">**</ept> groups</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gruppierung von Benutzern<ept id="p1">**</ept> und <bpt id="p2">**</bpt>nicht gruppierte Geräte<ept id="p2">**</ept> Gruppen</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manage Groups<ept id="p1">**</ept> in the Service Admin role</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwalten von Gruppen<ept id="p1">**</ept> in Service Admin-Rolle</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Custom group-based alerts for Notification Rules</source>
+          <target state="translated">Benutzerdefinierte Gruppen basierende Benachrichtigungen für Benachrichtigungsregeln</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Pivoting with groups in reports</source>
+          <target state="translated">Mit Gruppen in Berichten Pivotieren</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Addition of 'Notifications' to the Company Portal for Android</source>
+          <target state="translated">Hinzufügen von 'Notifications' für das Unternehmensportal für Android</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>We are releasing an update to the Company Portal for Android in September that will introduce a new <bpt id="p1">**</bpt>Notifications<ept id="p1">**</ept> icon on the homepage.</source>
+          <target state="translated">Veröffentlicht ein Update für das Unternehmensportal für Android im September, die eine neue einführen <bpt id="p1">**</bpt>Benachrichtigungen<ept id="p1">**</ept> Symbol auf der Startseite.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Tapping this icon will access the <bpt id="p1">**</bpt>Notifications<ept id="p1">**</ept> page that will show your end user all the items that require attention in the Company Portal app such as device non-compliance, enrollment update, and enrollment activation.</source>
+          <target state="translated">Tippen auf dieses Symbol wird Zugriff auf die <bpt id="p1">**</bpt>Benachrichtigungen<ept id="p1">**</ept> Seite, die Ihre Endbenutzer alle Elemente angezeigt wird, die in der Unternehmensportal-app z. B. Gerät nicht konform, Registrierungsupdate und Anmeldung Aktivierung erfordern.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you also use the iOS Company Portal app, you’ll already see the notifications experience.</source>
+          <target state="translated">Wenn Sie die iOS-Unternehmensportal-app verwenden, sehen Sie bereits die Benachrichtigungen auftreten.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>With the introduction of the <bpt id="p1">**</bpt>Notifications<ept id="p1">**</ept> page, you will not see the <bpt id="p2">**</bpt>Company Access Setup<ept id="p2">**</ept> page every time you launch or resume the Company Portal for Android as long as the device is already enrolled.</source>
+          <target state="translated">Mit der Einführung der <bpt id="p1">**</bpt>Benachrichtigungen<ept id="p1">**</ept> Seite wird nicht angezeigt, die <bpt id="p2">**</bpt>Einrichten des Unternehmenszugriffs<ept id="p2">**</ept> Seite bei jedem Starten oder fortsetzen das Unternehmensportal für Android, solange das Gerät bereits registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>We hear many of you have created end-user guidance and appreciate advanced notice when your guidance/screen shots may need updating.</source>
+          <target state="translated">Wir hören viele von Ihnen Endbenutzer Anleitung erstellt haben und Vorankündigung schätzen, wenn Ihr Leitfaden/Screenshots möglicherweise aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Please update your documentation to reflect the upcoming change in experience.</source>
+          <target state="translated">Aktualisieren Sie Ihre Dokumentation die Anstehende Änderung Erfahrung entsprechend.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Find updated screenshots here: https://aka.ms/androidcpupdate.</source>
+          <target state="translated">Finden Sie hier die aktualisierte Screenshots: https://aka.ms/androidcpupdate.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Improvements in how iOS end users get their apps</source>
+          <target state="translated">Verbesserungen wie iOS Endbenutzer apps erhalten</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The following changes are being made in September to the apps tiles in the Company Portal app for iOS to point users to different views in a single location, the Company Portal website, for all of their apps.</source>
+          <target state="translated">Die folgenden Änderungen werden im September apps Kacheln im Unternehmensportal-app für iOS, um Benutzer zu anderen Ansichten an einem Ort, der Unternehmensportal-Website für all ihre apps verweisen gemacht wird.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Currently, Apple restrictions prohibit line-of-business and managed app store apps from being listed in the Company Portal app, and require users to visit different views to find all of their apps.</source>
+          <target state="translated">Aktuell Apple Einschränkungen verbieten, Line-of-Business- und verwaltete app store-apps aus, die in der Unternehmensportal-app aufgeführt wird, und die Benutzer besuchen verschiedene Ansichten, um alle ihre apps finden.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Company Apps<ept id="p1">**</ept> tile currently points to a list of all apps in the ALL tab of the Company Portal website, and it will continue to work the same way.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Unternehmens-Apps<ept id="p1">**</ept> Kachel derzeit verweist, um eine Liste aller Apps auf der Registerkarte alle des Unternehmensportal-Website, und er funktioniert weiterhin auf die gleiche Weise funktionieren.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The tile name will change to <bpt id="p1">**</bpt>All Apps<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Name der Kachel ändert sich in <bpt id="p1">**</bpt>Alle Apps<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Other Apps<ept id="p1">**</ept> tile currently points to a view, inside the Company Portal app, that lists all apps that Apple permits the Company Portal app to show.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>andere Apps<ept id="p1">**</ept> Kachel derzeit verweist auf eine Ansicht, in der Unternehmensportal-app, in dem alle apps, die Apple Unternehmensportal-app aufgeführt anzeigen kann.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The tile name will change to <bpt id="p1">**</bpt>Featured Apps<ept id="p1">**</ept>, and tapping the tile will take users to the FEATURED tab of the Company Portal website.</source>
+          <target state="translated">Der Name der Kachel ändert sich in <bpt id="p1">**</bpt>Apps wichtige<ept id="p1">**</ept>, und tippen Sie auf die Kachel gelangen Benutzer auf die ausgewählte Registerkarte der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Categories<ept id="p1">**</ept> tile currently points to a view, inside the Company Portal app, that lists categories of apps.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Kategorien<ept id="p1">**</ept> Kachel derzeit verweist auf eine Ansicht, in der Unternehmensportal-app, die Kategorien von apps aufgeführt.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The tile name will not change, but it will now point to the CATEGORIES tab of the Company Portal website.</source>
+          <target state="translated">Die Kachel-Name wird nicht geändert, aber er verweist jetzt auf der Registerkarte Kategorien die Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can find updated screenshots <bpt id="p1">[</bpt>here<ept id="p1">](https://gallery.technet.microsoft.com/Improvements-in-how-iOS-d1104186)</ept>.</source>
+          <target state="translated">Sie finden die aktualisierten Screenshots <bpt id="p1">[</bpt>hier<ept id="p1">](https://gallery.technet.microsoft.com/Improvements-in-how-iOS-d1104186)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Cloud roadmap</source>
+          <target state="translated">Cloud-roadmap</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Keep informed about upcoming developments for Intune with the <bpt id="p1">[</bpt>Cloud Platform roadmap<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&amp;dropValue=Intune)</ept>.</source>
+          <target state="translated">Informieren Sie sich über zu den anstehenden Entwicklungen für Intune mit den <bpt id="p1">[</bpt>Fahrplan für die Cloudplattform<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&amp;dropValue=Intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Service deprecation</source>
+          <target state="translated">Dienst-Veraltung</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Changes in support for the iOS Company Portal app</source>
+          <target state="translated">Änderungen in der Unterstützung für die iOS-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In September, all users of the Microsoft Intune Company Portal app for iOS will be required to use its latest version.</source>
+          <target state="translated">Im September alle Benutzer des Microsoft Intune-Unternehmensportal-app für iOS müssen die neueste Version verwenden.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>New users will only be able to download the latest version and current users will be required to update to it.</source>
+          <target state="translated">Neue Benutzer werden nur die neueste Version herunterzuladen und aktuelle Benutzer muss zu aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The latest version requires iOS 8.0 or later, so devices running older iOS versions won’t be able to use the Company Portal or enroll until they update their device to iOS 8.0 or later and then update the Company Portal app to the latest version.</source>
+          <target state="translated">Die neueste Version ist iOS 8.0 oder höher, erforderlich, damit unter älteren Versionen von iOS-Geräte keine Unternehmensportal oder registrieren sind, bis sie ihr Gerät IOS 8.0 oder höher aktualisieren, und Sie dann auf die neueste Version der Unternehmensportal-app aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Enrolled devices running versions below iOS 8.0 will continue to be managed and listed in the Intune Admin Console.</source>
+          <target state="translated">Registrierte Geräte, die mit Versionen unter iOS 8.0 weiterhin verwaltet und in der Intune-Verwaltungskonsole aufgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Minimum iOS Managed Browser version updated to 8.0</source>
+          <target state="translated">Minimale iOS Managed Browser-Version 8.0 aktualisiert</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In August, Intune will release an updated Microsoft Intune Managed Browser app for iOS that will only support devices running iOS 8.0 or later.</source>
+          <target state="translated">Im August wird Intune eine aktualisierte Microsoft Intune Managed Browser-app für iOS freigeben, die nur Geräte unter iOS 8.0 oder höher unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>While iOS 7.1 devices will still be able to use the existing Managed Browser app, please encourage your users to update to iOS 8.0 or later to access and take full advantage of new Managed Browser features.</source>
+          <target state="translated">Während iOS 7.1-Geräte weiterhin die vorhandene Managed Browser-app verwenden können, sollten Sie die Benutzer auf iOS 8.0 aktualisieren oder höher zugreifen und Nutzen der neuen Funktionen von Managed Browser.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Company Portal apps for Windows 8 and Windows Phone 8 are being deprecated</source>
+          <target state="translated">Unternehmensportal-apps für Windows 8 und Windows Phone 8 sind veraltet</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Starting in October 2016, Microsoft Intune will deprecate support for Windows 8 and Windows Phone 8 Company Portal apps.</source>
+          <target state="translated">Im Oktober 2016 starten, wird Microsoft Intune-Unterstützung für Windows 8 und Windows Phone 8-Unternehmensportal-apps abgelehnt.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune will also deprecate support for the Windows Phone 8 platform.</source>
+          <target state="translated">Microsoft Intune wird auch Unterstützung für die Windows Phone 8-Plattform als veraltet markiert.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>As a consequence, you will not be able to enroll or update any Windows Phone 8 devices.</source>
+          <target state="translated">Daher werden Sie nicht registrieren oder aktualisieren alle Windows Phone 8-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You can continue to manage Windows Phone 8 and Windows 8 devices that are already enrolled.</source>
+          <target state="translated">Sie können weiterhin Windows Phone 8 und Windows 8-Geräte zu verwalten, die bereits registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Update Windows Phone 8 and Windows 8 devices to Windows 8.1 and Windows Phone 8.1, and use the corresponding Windows 8.1 and Windows Phone 8.1 Company Portal apps to continue distributing apps to these devices without disruptions.</source>
+          <target state="translated">Aktualisieren Sie Windows Phone 8 und Windows 8-Geräten mit Windows 8.1 und Windows Phone 8.1, und wählen Sie die entsprechende Windows 8.1 und Windows Phone 8.1-Unternehmensportal-apps, weiter Verteilen von apps auf diesen Geräten ohne Störungen.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>July 2016</source>
+          <target state="translated">Juli 2016</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Improve the app provisioning profile update experience</source>
+          <target state="translated">Verbessern Sie die app provisioning Profile Update-Erfahrung</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Apple iOS line of business mobile apps are built with a provisioning profile included and code signed with a certificate.</source>
+          <target state="translated">Apple iOS Codezeile Business erstellte mobiler apps mit einem Profil für die Bereitstellung eingeschlossen und Code, die mit einem Zertifikat signiert werden.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When the app runs on an iOS device, iOS confirms the integrity of the iOS app and enforces policies defined by the provisioning profile.</source>
+          <target state="translated">Beim Ausführen der Anwendung auf einem iOS-Gerät iOS bestätigt die Integrität der iOS-app, und erzwingt Richtlinien, die durch das Bereitstellungsprofil definiert.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The enterprise signing certificate you use to sign apps typically lasts for 3 years.</source>
+          <target state="translated">Das Signaturzertifikat aus, die Sie in der Regel zum Signieren von apps verwenden Unternehmen dauert für 3 Jahre.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>However, the provisioning profile expires after 1 year.</source>
+          <target state="translated">Allerdings läuft das Bereitstellungsprofil nach 1 Jahr ab.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>With this update, Intune gives you the tools to proactively deploy a new provisioning profile policy to devices that have apps that are near expiry while the certificate is still valid.</source>
+          <target state="translated">Mit diesem Update stellt Windows Intune Ihnen die Tools, um proaktiv eine neue Richtlinie für die Bereitstellung Profile auf Geräten bereitstellen, apps, die in der Nähe von Ablauf und das Zertifikat noch gültig ist.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Use iOS mobile provisioning profile policies to keep your line of business apps up to date<ept id="p1">](/intune/deploy-use/ios-mobile-app-provisioning-profiles)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>iOS mobilen Bereitstellung von Richtlinien für die Branchen-apps auf dem Laufenden zu bleiben verwenden<ept id="p1">](/intune/deploy-use/ios-mobile-app-provisioning-profiles)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Xamarin SDK for Intune apps is available</source>
+          <target state="translated">Xamarin-SDK für Intune-apps ist verfügbar</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The Intune App SDK Xamarin component allows you to enable the Intune mobile app management features in your mobile iOS and Android apps built with Xamarin.</source>
+          <target state="translated">Die Intune-App-SDK-Xamarin-Komponente können Sie die Intune mobile app-Verwaltungsfunktionen in Ihrer mobilen IOS- und Android-apps mit Xamarin zu aktivieren.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>You can find the component in the <bpt id="p1">[</bpt>Xamarin store<ept id="p1">](https://components.xamarin.com/view/Microsoft.Intune.MAM)</ept> or on the <bpt id="p2">[</bpt>Microsoft Intune Github page<ept id="p2">](https://github.com/msintuneappsdk)</ept>.</source>
+          <target state="translated">Finden Sie die Komponente in der <bpt id="p1">[</bpt>Xamarin Store<ept id="p1">](https://components.xamarin.com/view/Microsoft.Intune.MAM)</ept> oder auf der <bpt id="p2">[</bpt>Microsoft Intune-Github-Seite<ept id="p2">](https://github.com/msintuneappsdk)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Increased device enrollment limits</source>
+          <target state="translated">Verbesserte geräteregistrierungseinschränkungen</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Intune increased the maximum configurable device enrollment limit from 5 to 15 devices per user.</source>
+          <target state="translated">Intune erhöht die maximale konfigurierbare Registrierung Gerätegrenzwert von 5 zu 15 Geräte pro Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>TeamViewer Integration for Windows PCs running the Intune client software</source>
+          <target state="translated">TeamViewer Integration für Windows-PCs mit der Intune-Clientsoftware</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>TeamViewer<ept id="p1">](https://www.teamviewer.com)</ept> integration for Windows PCs that run the Intune client lets you establish remote assistance sessions with Windows PCs to help support end-user helpdesk departments.</source>
+          <target state="translated"><bpt id="p1">[</bpt>TeamViewer<ept id="p1">](https://www.teamviewer.com)</ept> -Integration für Windows PCs mit dem Intune-Client können Sie Remoteunterstützungssitzungen mit Windows-PCs zur Unterstützung von Helpdesk-endbenutzerabteilungen einrichten.</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This includes Windows 7, 8, 8.1 and Windows 10.</source>
+          <target state="translated">Dies schließt Windows 7, 8, 8.1 und Windows 10.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Allgemeine Windows-PC-Verwaltungsaufgaben mit dem Microsoft Intune-computerclient<ept id="p1">](common-windows-pc-management-tasks-with-the-microsoft-intune-computer-client.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Company Portal updates</source>
+          <target state="translated">Unternehmensportal aktualisiert</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Company Portal website</source>
+          <target state="translated">Portal-Unternehmenswebsite</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Improved end-user experience when enrolling Windows devices</source>
+          <target state="translated">Verbesserte endbenutzererfahrung bei der Registrierung von Windows-Geräte</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>When you are using conditional access, the enrollment steps for Windows 8.1, Windows 10 Desktop, and Windows 10 Mobile have been clarified in the Company Portal website.</source>
+          <target state="translated">Wenn Sie den bedingten Zugriff verwenden, wurden die Registrierungsschritte für Windows 8.1, Windows 10 Desktop und Windows 10 Mobile in der Unternehmensportal-Website versehen.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Users will now see separate “Device enrollment” and “Workplace Join” steps, making it easier for them to see the status of their device and to complete the process if they experience a Workplace Join (WPJ) failure.</source>
+          <target state="translated">Benutzer sehen jetzt separate "Device Enrollment" und "Arbeitsbereichverknüpfung" Schritten, erleichtert es den Status des Geräts anzuzeigen und um den Prozess abzuschließen, wenn sie einen Arbeitsbereich verknüpfen (WPJ) Fehler auftreten.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The separate steps are also expected to simplify the troubleshooting process for IT administrators.</source>
+          <target state="translated">Separate Schritte sollten auch die Problembehandlung für IT-Administratoren zu vereinfachen.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Previously, when end users tried to enroll and all enrollment steps succeeded except for WPJ, the enrolled device would not appear on the list of devices for users to identify, causing confusion for users.</source>
+          <target state="translated">Zuvor, wenn Endbenutzer hat versucht, zu registrieren, und alle Registrierungsschritte für die erfolgreich, mit Ausnahme von WPJ war, das registrierte Gerät nicht in der Liste der Geräte für Benutzer zu identifizieren, scheint Verwirrung für Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="translated">Android</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Android Company Portal app</source>
+          <target state="translated">Android-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If Android end users see an error message that says their device is missing a required certificate, they can tap a "How to resolve this" button to get <bpt id="p1">[</bpt>steps<ept id="p1">](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)</ept> for installing the missing certificate.</source>
+          <target state="translated">Wenn Android Endbenutzer eine Fehlermeldung ihres Geräts fehlt ein erforderliches Zertifikat angezeigt wird, können sie eine Schaltfläche "Gewusst wie: Beheben dieses Problems" zum Abrufen tippen <bpt id="p1">[</bpt>Schritte<ept id="p1">](/intune/enduser/your-device-is-missing-a-required-certificate-android#your-device-is-missing-a-certificate-required-by-your-it-administrator)</ept> für die Installation der fehlenden Zertifikats.</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If users complete the steps, but see an additional "missing certificate" error message, they are asked to contact their IT administrator and provide this <bpt id="p1">[</bpt>link<ept id="p1">](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)</ept>, which contains steps that IT administrators can use to fix the certificate issue.</source>
+          <target state="translated">Wenn Benutzer die Schritte finden Sie ein zusätzliches "Fehlendes Zertifikat" Fehlermeldung angezeigt wird, werden aufgefordert, wenden Sie sich an ihren IT-Administrator, und geben Sie diese <bpt id="p1">[</bpt>Link<ept id="p1">](/intune/troubleshoot/troubleshoot-device-enrollment-in-intune#android-certificate-issues)</ept>, die Schritte, mit denen IT-Administratoren können zur Behebung des Problems Zertifikat enthält.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Restrict side-loaded app installations to enrolled devices</source>
+          <target state="translated">Sideloading Anwendungsinstallationen für registrierte Geräte einschränken</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Android devices can no longer install applications through the Company Portal website unless the devices have been enrolled in Intune by using the Intune Company Portal app for Android.</source>
+          <target state="translated">Android-Geräte können nicht mehr Applications über die Unternehmensportal-Website installieren, es sei denn, die Geräte in Intune registriert wurden, mithilfe der Windows Intune-Unternehmensportal-app für Android.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="translated">iOS</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Changes to Device Enrollment Managers accounts in the iOS Company Portal app</source>
+          <target state="translated">Ändert sich der Konten in der iOS-Unternehmensportal-app in Geräteregistrierungsmanager</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>To improve performance and scale, Intune no longer displays all Device Enrollment Managers (DEM) devices in the <bpt id="p1">**</bpt>My Devices<ept id="p1">**</ept> pane of the iOS Company Portal app.</source>
+          <target state="translated">Zum Verbessern der Leistung und Skalierung Intune nicht mehr angezeigt, alle Device Enrollment Manager (DEM) Geräte in der <bpt id="p1">**</bpt>Geräte<ept id="p1">**</ept> Bereich des iOS-Unternehmensportal-app.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Only the local device running the app is displayed, and only if it is enrolled via the Company Portal app.</source>
+          <target state="translated">Nur das lokale Gerät Ausführen der app angezeigt werden, und nur dann, wenn sie über die Unternehmensportal-app registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The DEM user may perform actions on the local device, but remote management of other enrolled devices can only be performed from the Intune admin console.</source>
+          <target state="translated">Der Geräteemulator-Manager-Benutzer kann Aktionen auf dem lokalen Gerät ausführen, aber der anderen registrierten Geräte remote-Verwaltung kann nur aus der Intune-Verwaltungskonsole ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Additionally, Intune is deprecating use of DEM accounts with either the Apple Device Enrollment Program or the Apple Configurator tool.</source>
+          <target state="translated">Intune ist darüber hinaus verwendet der Geräteemulator-Manager-Konten mit dem Apple Device Enrollment Program oder dem Apple-Konfigurator-Tool Außerbetriebnahme.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Both these enrollment methods already support user-less enrollment for shared iOS devices.</source>
+          <target state="translated">Beide dieser Registrierungsmethoden unterstützen benutzerunabhängige Registrierung bereits freigegebenen iOS-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Only use DEM accounts when user-less enrollment for shared devices is unavailable.</source>
+          <target state="translated">Verwenden Sie Geräteemulator-Manager-Konten nur, wenn weniger Benutzer für die Anmeldung für gemeinsam genutzte Geräte nicht verfügbar ist.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Registrieren von firmeneigenen Geräten mit dem Geräteregistrierungs-Manager in Microsoft Intune<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Change of names for Windows features</source>
+          <target state="translated">Ändern von Namen für die Windows-Funktionen</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Passport for Windows<ept id="p1">](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)</ept> is now known as <bpt id="p2">**</bpt>Windows Hello for Business<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Microsoft Passport für Windows<ept id="p1">](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)</ept> bekannt als <bpt id="p2">**</bpt>Windows Hello for Business<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Enterprise data protection<ept id="p1">](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)</ept> is now known as <bpt id="p2">**</bpt>Windows Information Protection<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Enterprise Data Protection<ept id="p1">](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)</ept> bekannt als <bpt id="p2">**</bpt>Windows Informationsschutz<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>June 2016</source>
+          <target state="translated">Juni 2016</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Intune service health</source>
+          <target state="translated">Intune-Dienststatus</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Service health information for Intune has been moved to a central location with other Microsoft services.</source>
+          <target state="translated">Informationen zu Integrität für Intune wurde an einem zentralen Speicherort mit anderen Microsoft-Diensten verschoben.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>You'll now find this information in the Office 365 management portal under Service Health.</source>
+          <target state="translated">Diese Informationen finden Sie jetzt im Office 365-Verwaltungsportal unter den Dienststatus.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/04/28/intune-service-health-is-now-available-in-the-office-365-portal/)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>diesem Blogbeitrag<ept id="p1">](https://blogs.technet.microsoft.com/enterprisemobility/2016/04/28/intune-service-health-is-now-available-in-the-office-365-portal/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Enhanced Windows 10 enterprise data policy configuration experience.</source>
+          <target state="translated">Erweiterte Windows 10 Enterprise Data Richtlinienkonfiguration auftreten.</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>We have made enhancements to the Windows 10 enterprise data protection policy configuration experience around creating app rules, specifying network boundary definition, and other enterprise data protection settings.</source>
+          <target state="translated">Wir haben Verbesserungen der Windows 10 Enterprise Data Protection-Richtlinienkonfiguration auftreten, Erstellen von app-Regeln Grenze Definition von Netzwerken und anderen Enterprise Data Protection-Einstellungen angeben.</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>To learn more, see <bpt id="p1">[</bpt>Create an enterprise data protection (EDP) policy using Microsoft Intune<ept id="p1">](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Erstellen Sie eine Enterprise Data Protection (EDP) Richtlinie mithilfe von Microsoft Intune<ept id="p1">](https://technet.microsoft.com/itpro/windows/keep-secure/create-edp-policy-using-intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Windows Defender policy setting to protect against potentially unwanted apps.</source>
+          <target state="translated">Windows Defender-Richtlinie zum Schutz gegen unerwünschte apps festlegen.</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>A new Windows Defender setting named <bpt id="p1">**</bpt>Potentially Unwanted Application Detection<ept id="p1">**</ept> has been added to the general configuration policy for Windows 10 Desktop and Mobile.</source>
+          <target state="translated">Eine neue Einstellung mit dem Namen Windows-Defender <bpt id="p1">**</bpt>potenziell unerwünschten Anwendung Erkennung<ept id="p1">**</ept> für die allgemeine Konfiguration der Richtlinie für Windows 10 Desktop und Mobile hinzugefügt wurde.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>You can use this setting to protect enrolled Windows desktop computers against running software classed by Windows Defender as potentially unwanted.</source>
+          <target state="translated">Verwenden Sie diese Einstellung, um schützen Windows desktop-Computer gegen das Ausführen von Software, die von Windows Defender als potenziell klassifizierten unerwünschte registriert.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>You can protect against these applications running, or use audit mode to report when a potentially unwanted application is installed.</source>
+          <target state="translated">Sie können Schutz gegen diese Anwendung, die ausgeführt oder Überwachungsmodus Bericht verwenden, bei der Installation einer unerwünschten Anwendung.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Windows 10 policy settings in Microsoft Intune<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)</ept> for more information.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Windows 10-Richtlinien in Microsoft Intune<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)</ept> Weitere Informationen.</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Conditional access</source>
+          <target state="translated">Bedingter Zugriff</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Cisco ISE network access control policy for Intune.</source>
+          <target state="translated">Cisco ISE Netzwerkzugriffsrichtlinie Intune.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Customers who use the Cisco Identity Service Engine (ISE) 2.1 and also use Microsoft Intune can set a network access control policy in ISE.</source>
+          <target state="translated">Kunden, die der Cisco Identität Service Engine (ISE) 2.1 verwenden auch Microsoft Intune können in der ISE eine-Steuerelement Netzwerkzugriffsrichtlinie festlegen.</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Using this policy, devices that need to connect to the network using WiFi or VPN must meet following conditions before they are allowed access:</source>
+          <target state="translated">Mithilfe dieser Richtlinie müssen der Geräte im Netzwerk mit WLAN oder VPN-Verbindung müssen folgende Bedingungen erfüllen, bevor sie Zugriff zulässig sind:</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Must be managed by Intune</source>
+          <target state="translated">Muss von Intune verwaltet werden</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Must be compliant with any deployed Intune compliance policies</source>
+          <target state="translated">Muss mit allen bereitgestellten Intune-Compliance-Richtlinien kompatibel sein</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>End users of noncompliant devices will be prompted to enroll, and remediate any compliance issues to gain access.</source>
+          <target state="translated">Endbenutzer nicht konformer Geräte aufgefordert, zu registrieren, und beheben alle Kompatibilitätsprobleme, um Zugriff zu erhalten.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Conditional access for browser.</source>
+          <target state="translated">Bedingter Zugriff für Browser.</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>You can set a conditional access policy for <bpt id="p1">[</bpt>Exchange Online<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>SharePoint Online<ept id="p2">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept> so that they can only be accessed from supported web browsers on managed and compliant iOS and Android devices.</source>
+          <target state="translated">Sie können festlegen, dass eine Richtlinie für bedingten Zugriff für <bpt id="p1">[</bpt>Exchange Online<ept id="p1">](restrict-access-to-exchange-online-with-microsoft-intune.md)</ept> und <bpt id="p2">[</bpt>SharePoint Online<ept id="p2">](restrict-access-to-sharepoint-online-with-microsoft-intune.md)</ept> damit sie nur von unterstützten Webbrowser auf verwaltete und kompatible IOS- und Android-Geräte zugegriffen werden kann.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>End users who try to sign in to Outlook Web Access (OWA) and SharePoint sites with iOS and Android devices will be prompted to enroll their device with Intune as well as to fix any non-compliance issues before they can complete sign-in.</source>
+          <target state="translated">Benutzer, die versuchen, sich bei Outlook Web Access (OWA) und SharePoint-Sites mit IOS- und Android-Geräte Anmelden aufgefordert, registrieren ihr Gerät mit Intune als auch hinsichtlich der Nichtkompatibilität Probleme zu beheben, bevor Anmeldung abgeschlossen werden kann.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Dynamics CRM Online supports conditional access.</source>
+          <target state="translated">Dynamics CRM Online unterstützt den bedingten Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>You can set a conditional access policy for <bpt id="p1">[</bpt>Dynamics CRM Online<ept id="p1">](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)</ept> so that it can only be accessed by managed and compliant iOS and Android devices.</source>
+          <target state="translated">Sie können festlegen, dass eine Richtlinie für bedingten Zugriff für <bpt id="p1">[</bpt>Dynamics CRM Online<ept id="p1">](restrict-access-to-dynamics-crm-online-with-microsoft-intune.md)</ept> damit nur verwaltete und kompatible IOS- und Android-Geräte darauf zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>End users who try to sign in to the Dynamics CRM mobile app on iOS and Android will be prompted to enroll with Intune as well as remediate any non-compliance issues before sign-in can complete.</source>
+          <target state="translated">Benutzer, die versuchen, die Dynamics CRM mobile-app für iOS und Android Anmelden aufgefordert Registrierung mit Intune als auch alle Kompatibilitätsprobleme zu beheben, vor der Anmeldung abschließen kann.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>E Company Portal updates</source>
+          <target state="translated">E-Unternehmensportal-updates</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Android Company Portal app</source>
+          <target state="translated">Android-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>When IT administrators apply the new "Require that devices disallow installation of apps from unknown sources (Android 4.0+)" policy, end users with Android 4.0 or later devices will see the message, "Installation from Unknown sources must be disabled."</source>
+          <target state="translated">Wenn IT-Administratoren die neue "Erforderlich, die Geräte Installation von apps aus unbekannten Quellen (Android 4.0 und höher) nicht zulässig"-Richtlinie, Endbenutzer mit Android 4.0 oder höher anwenden sehen die Meldung "Installation von unbekannten Quellen muss deaktiviert werden."</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Users will need to go to  <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Security<ept id="p2">**</ept>, and turn off <bpt id="p3">**</bpt>Unknown sources<ept id="p3">**</ept>.</source>
+          <target state="translated">Benutzer benötigen, fahren Sie mit  <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Security<ept id="p2">**</ept>, und deaktivieren Sie <bpt id="p3">**</bpt>unbekannten Quellen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>A link in the compliance message lets users get more <bpt id="p1">[</bpt>information<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-off-unknown-sources-android)</ept> about the message and why they are being required to turn off the setting.</source>
+          <target state="translated">Ein Link in der Nachricht Kompatibilität kann Benutzer, die besser <bpt id="p1">[</bpt>Informationen<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-off-unknown-sources-android)</ept> zur Nachricht und warum sie erforderlich werden sind, die Einstellung zu deaktivieren.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>When IT administrators apply the new "Require that devices have enabled scanning of apps for security threats (Android 4.0+)" policy, end users with Android 4.0 or later devices will see the message, "Scan device for security threats."</source>
+          <target state="translated">Wenn IT-Administratoren die neue Richtlinie "Erfordern, dass Geräte aktiviert haben die Überprüfung von apps für Sicherheitsrisiken (Android 4.0 und höher)" anwenden, wird die Meldung "Überprüfung Gerät für Sicherheitsrisiken." Endbenutzer mit Android 4.0 oder höher angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Users will need to go to <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Google<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Security<ept id="p3">**</ept>, and turn on <bpt id="p4">**</bpt>Scan device for security threats<ept id="p4">**</ept>.</source>
+          <target state="translated">Benutzer benötigen, fahren Sie mit <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Google<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Security<ept id="p3">**</ept>, und schalten Sie <bpt id="p4">**</bpt>Scanner für Sicherheitsrisiken<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A link in the compliance message lets users get more <bpt id="p1">[</bpt>information<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)</ept> about the message and why they are being required to turn on the setting.</source>
+          <target state="translated">Ein Link in der Nachricht Kompatibilität kann Benutzer, die besser <bpt id="p1">[</bpt>Informationen<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)</ept> zur Nachricht und warum sie erforderlich werden sind, um die Einstellung zu aktivieren.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>When IT administrators apply the new "Require that USB debugging is disabled (Android 4.2+)" policy, end users with Android 4.2 or later devices will see the message, "USB debugging must be disabled."</source>
+          <target state="translated">Beim Anwenden von IT-Administratoren die neue "erfordern, dass die USB-debugging ist deaktiviert (Android 4.2 und höher)", die Endbenutzer mit Android 4.2 oder höher wird die Meldung angezeigt, "USB-debugging muss deaktiviert werden."</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Users will need to go to <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Developer options<ept id="p2">**</ept>, and turn off <bpt id="p3">**</bpt>USB debugging<ept id="p3">**</ept>."</source>
+          <target state="translated">Benutzer benötigen, fahren Sie mit <bpt id="p1">**</bpt>Einstellungen<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Entwickleroptionen<ept id="p2">**</ept>, und deaktivieren Sie <bpt id="p3">**</bpt>USB-debugging<ept id="p3">**</ept>. "</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A link in the compliance message lets users get more <bpt id="p1">[</bpt>information<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-off-usb-debugging-android)</ept> about the message and why they are being required to turn off the setting.</source>
+          <target state="translated">Ein Link in der Nachricht Kompatibilität kann Benutzer, die besser <bpt id="p1">[</bpt>Informationen<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-off-usb-debugging-android)</ept> zur Nachricht und warum sie erforderlich werden sind, die Einstellung zu deaktivieren.</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When IT administrators apply the new "Minimum Android security patch level (Android 6.0+)" policy, end users with Android 6.0 or later devices will see the message, "This device does not meet the minimum Android security patch level."</source>
+          <target state="translated">Wenn IT-Administratoren die neue "Minimum Android Security Patchebene (Android 6.0 und höher)"-Richtlinie, Endbenutzer mit Android Version 6.0 oder höher anwenden sehen die Meldung "dieses Gerät erfüllt nicht die Mindestanforderungen an die Sicherheit Android Patchebene."</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Users will need to install the required security patch.</source>
+          <target state="translated">Benutzer müssen zum Installieren der erforderlichen Sicherheitspatches.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>A link in the compliance message lets users get <bpt id="p1">[</bpt>information<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)</ept> about how to install the required security patch and to see which security patch they currently have installed.</source>
+          <target state="translated">Ein Link in der Nachricht Kompatibilität kann Benutzer erhalten <bpt id="p1">[</bpt>Informationen<ept id="p1">](/Intune/EndUser/you-are-asked-to-turn-on-scan-device-for-security-threats-android)</ept> Informationen zum Installieren der erforderlichen Sicherheitspatches und welche Sicherheitspatches finden Sie unter zurzeit installiert.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>iOS Company Portal app</source>
+          <target state="translated">iOS-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>When end users are installing line-of-business apps, they will now see an improved app installation experience.</source>
+          <target state="translated">Wenn Endbenutzer Branchen-apps installieren, sehen sie jetzt eine verbesserte app-Installation auftreten.</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>If the app installation is taking a long time, users can manually sync their device to force the sync process to resume.</source>
+          <target state="translated">Wenn die app-Installation sehr lange dauert, können Benutzer das Gerät zum Erzwingen des Synchronisierungsprozess fortgesetzt manuell synchronisieren.</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>To review the end-user instructions, see <bpt id="p1">[</bpt>Sync your iOS device manually<ept id="p1">](/Intune/EndUser/sync-your-device-manually-ios)</ept>.</source>
+          <target state="translated">Die endbenutzeranweisungen finden Sie unter <bpt id="p1">[</bpt>Ihr iOS-Gerät manuell synchronisieren<ept id="p1">](/Intune/EndUser/sync-your-device-manually-ios)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The Microsoft Intune Company Portal app for iOS has been updated to support iOS version 8.0 and later.</source>
+          <target state="translated">Microsoft Intune-Unternehmensportal-app für iOS wurde aktualisiert, um die iOS-Version 8.0 und höher unterstützen.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>This update means that end users can install the Company Portal app and enroll new devices in Intune only if the device is running iOS version 8.0 or later.</source>
+          <target state="translated">Dieses Update bedeutet, dass Endbenutzer die Unternehmensportal-app installieren können, und neue Geräte in Intune nur registrieren, wenn das Gerät iOS, Version 8.0 oder höher ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Users who have already enrolled devices that are running on an unsupported version of iOS can continue to use the Company Portal app that is on their device.</source>
+          <target state="translated">Benutzer, die bereits Geräte registriert wurden, die auf eine nicht unterstützte Version von iOS ausgeführt werden können weiterhin die Unternehmensportal-app verwenden, die auf ihrem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>May 2016</source>
+          <target state="translated">Mai 2016</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>All of these features are also supported for hybrid deployments (Configuration Manager with Intune).</source>
+          <target state="translated">Alle diese Funktionen werden auch für hybridbereitstellungen (Configuration Manager mit Intune) unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>For more information about new hybrid features, check out the <bpt id="p1">[</bpt>Hybrid What’s New<ept id="p1">](https://technet.microsoft.com/en-us/library/mt718155.aspx)</ept> page.</source>
+          <target state="translated">Weitere Informationen zu neuen Funktionen zur Hybriden, sehen Sie sich die <bpt id="p1">[</bpt>Hybrid neues<ept id="p1">](https://technet.microsoft.com/en-us/library/mt718155.aspx)</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Documentation</source>
+          <target state="translated">Dokumentation</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Welcome to the preview version of <bpt id="p1">[</bpt>docs.microsoft.com<ept id="p1">](https://docs.microsoft.com/en-us/intune)</ept>!</source>
+          <target state="translated">Willkommen bei der Preview-Version von <bpt id="p1">[</bpt>docs.microsoft.com<ept id="p1">](https://docs.microsoft.com/en-us/intune)</ept>!</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>This is a completely new, modern content platform designed to make it easier for you, our customers to understand and use Intune.</source>
+          <target state="translated">Dies ist ein vollständig neues, modernes Content Plattform für die erleichtern Ihnen, unseren Kunden zu verstehen und zu verwenden.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>To read about all of the new features, see <bpt id="p1">[</bpt>Introducing docs.microsoft.com<ept id="p1">](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com/)</ept></source>
+          <target state="translated">Weitere Informationen über alle neuen Funktionen finden Sie unter <bpt id="p1">[</bpt>docs.microsoft.com Einführung<ept id="p1">](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com/)</ept></target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Intune service health</source>
+          <target state="translated">Intune-Dienststatus</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Service health information for Intune has been moved to a central location with other Microsoft services.</source>
+          <target state="translated">Informationen zu Integrität für Intune wurde an einem zentralen Speicherort mit anderen Microsoft-Diensten verschoben.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>You'll now find this information in the <bpt id="p1">[</bpt>Office 365 management portal<ept id="p1">](https://portal.office.com/Admin/Default.aspx)</ept> under <bpt id="p2">**</bpt>Service Health<ept id="p2">**</ept>.</source>
+          <target state="translated">Finden Sie jetzt diese Informationen in der <bpt id="p1">[</bpt>Verwaltungsportal von Office 365<ept id="p1">](https://portal.office.com/Admin/Default.aspx)</ept> unter <bpt id="p2">**</bpt>Dienstintegrität<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://blogs.technet.microsoft.com/microsoftintune/2016/04/28/intune-service-health-is-now-available-in-the-office-365-portal/)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>diesem Blogbeitrag<ept id="p1">](https://blogs.technet.microsoft.com/microsoftintune/2016/04/28/intune-service-health-is-now-available-in-the-office-365-portal/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>MAM SDK: Support PIN length configuration.</source>
+          <target state="translated">MAM SDK: Unterstützung PIN-Länge-Konfiguration.</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You will be able to specify the length of the PIN for MAM apps similar to a device PIN.</source>
+          <target state="translated">Kann die Mindestlänge der PIN für MAM-apps, die ähnlich wie eine Geräte-ID festgelegt werden.</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>This will require end users to comply with the new restrictions you set.</source>
+          <target state="translated">Dies erfordert, dass Endbenutzer mit den neuen Einschränkungen entsprechen, die Sie festlegen.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>They will see a slightly modified PIN screen to account for the longer input.</source>
+          <target state="translated">Sie sehen einen leicht abgewandelte PIN-Bildschirm mehr Eingabe berücksichtigen.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>MAM policy settings for Android<ept id="p1">](android-mam-policy-settings.md)</ept>, and <bpt id="p2">[</bpt>MAM policy settings for iOS<ept id="p2">](ios-mam-policy-settings.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>MAM-Richtlinien für Android<ept id="p1">](android-mam-policy-settings.md)</ept>, und <bpt id="p2">[</bpt>MAM-Richtlinien für iOS<ept id="p2">](ios-mam-policy-settings.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Skype for Business for iOS and Android.</source>
+          <target state="translated">Skype for Business für iOS und Android.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>You can now target Skype for business with <bpt id="p1">[</bpt>MAM without enrollment policies<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Sie können jetzt Skype für Unternehmen mit Ziel <bpt id="p1">[</bpt>MAM ohne Registrierungsrichtlinien<ept id="p1">](get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Once users log in, the MAM policies will be applied.</source>
+          <target state="translated">Sobald der Benutzer angemeldet haben, werden die MAM-Richtlinien angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>New apps available for management with MAM policies.</source>
+          <target state="translated">Neue apps, die für die Verwaltung mit MAM-Richtlinien zur Verfügung.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The Microsoft Word, Excel, and PowerPoint apps for Android can now be associated with MAM policies on devices that are not enrolled with Intune.</source>
+          <target state="translated">Microsoft Word, Excel und PowerPoint-apps für Android können jetzt MAM-Richtlinien auf Geräten zugeordnet werden, die nicht mit Intune registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For a full list of supported apps, go the Microsoft Intune mobile application gallery on the <bpt id="p1">[</bpt>Microsoft Intune application partners<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> page.</source>
+          <target state="translated">Eine vollständige Liste der unterstützten apps, finden Sie in der Microsoft Intune mobile Application-Galerie auf der <bpt id="p1">[</bpt>Microsoft Intune Anwendungspartner<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Company Portal updates</source>
+          <target state="translated">Unternehmensportal aktualisiert</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Android Company Portal app</source>
+          <target state="translated">Android-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>End user toast notifications<ept id="p1">**</ept>: End users will now see toast notifications from the Android Company Portal app when they are enrolling their devices or removing their devices from the Company Portal.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Endbenutzer Popupbenachrichtigungen<ept id="p1">**</ept>: Endbenutzer sehen jetzt Popupbenachrichtigungen von Android-Unternehmensportal-app, bei der Registrierung ihrer Geräte oder ihre Geräte über das Unternehmensportal entfernen.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Changes to Device Enrollment Managers accounts in the Android Company Portal app.</source>
+          <target state="translated">Änderungen an den Geräteregistrierungs-Manager-Konten in der Android-Unternehmensportal-app.</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>To improve performance and scale, Intune is no longer showing all Device Enrollment Managers (DEM) devices in the My Devices pane of the Android Company Portal app.</source>
+          <target state="translated">Zum Verbessern der Leistung und Skalierung wird Intune nicht mehr alle Device Enrollment Manager (DEM) Geräte im Geräte-Bereich des Android-Unternehmensportal-app angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Only the local device running the app is displayed, and only if it is enrolled via the Company Portal app.</source>
+          <target state="translated">Nur das lokale Gerät Ausführen der app angezeigt werden, und nur dann, wenn sie über die Unternehmensportal-app registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The DEM user may perform actions on the local device, but remote management of other enrolled devices can only be performed from the Intune admin console.</source>
+          <target state="translated">Der Geräteemulator-Manager-Benutzer kann Aktionen auf dem lokalen Gerät ausführen, aber der anderen registrierten Geräte remote-Verwaltung kann nur aus der Intune-Verwaltungskonsole ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Company Portal website</source>
+          <target state="translated">Portal-Unternehmenswebsite</target>
+        </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Company Portal website: Device identification banner will provide more information to end users.</source>
+          <target state="translated">Unternehmensportals: Geräte-ID-Banner werden weitere Informationen für Endbenutzer bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>End users can now more easily identify the device they’ve selected when they are using the Company Portal website.</source>
+          <target state="translated">Endbenutzer können jetzt das Gerät leichter finden, das sie bei der Verwendung der Unternehmensportal-Website ausgewählt haben.</target>
+        </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If the wrong device is selected, they will be able to select the correct device by tapping the <bpt id="p1">**</bpt>Tap here<ept id="p1">**</ept> link in the home page banner.</source>
+          <target state="translated">Wenn das falsche Gerät ausgewählt ist, werden durch Tippen auf das richtige Gerät auswählen die <bpt id="p1">**</bpt>Tippen Sie hier<ept id="p1">**</ept> Link im Banner auf Startseite.</target>
+        </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>What's coming</source>
+          <target state="translated">Was steht an?</target>
+        </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Message center UI onboarding<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Message Center UI Onboarding<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>As part of the migration of Intune into the <bpt id="p1">[</bpt>Office 365 Management portal<ept id="p1">](https://portal.office.com/)</ept>, we will begin taking advantage of their Message Center to communicate new features and other notifications.</source>
+          <target state="translated">Im Rahmen der Migration von Intune in der <bpt id="p1">[</bpt>Verwaltungsportal von Office 365<ept id="p1">](https://portal.office.com/)</ept>, beginnen wir mit ihren Message Center neue Funktionen und andere Benachrichtigungen Kommunikation nutzen.</target>
+        </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Also, by installing the companion Office 365 Admin mobile app, you can receive notifications on your mobile phone and easily forward any messages to users or a distribution alias.</source>
+          <target state="translated">Außerdem installieren Sie mobile Companion-app von Office 365-Administrator, können keine Nachrichten an Benutzer oder einen Alias für die Verteilung Sie Benachrichtigung auf Ihrem Mobiltelefon und problemlos weiterleiten.</target>
+        </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>We will begin using the Message Center with our May release to notify you when updates are completed and will include information on new and improved Intune features.</source>
+          <target state="translated">Beginnen wir mit unserem Mai Message Center mit Version, um Sie zu benachrichtigen, wenn Updates abgeschlossen sind, und Informationen zu neuen und verbesserten Features von Intune enthält.</target>
+        </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Check out the Message Center today by logging into the <bpt id="p1">[</bpt>Office 365 Management portal<ept id="p1">](https://portal.office.com/)</ept> and choosing the MESSAGE CENTER option in the left navigation pane.</source>
+          <target state="translated">Sehen Sie sich das Nachrichtencenter heute durch Anmeldung bei der <bpt id="p1">[</bpt>Verwaltungsportal von Office 365<ept id="p1">](https://portal.office.com/)</ept> und mit der Option MESSAGE CENTER im linken Navigationsbereich.</target>
+        </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Changes to Device Enrollment Managers accounts<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Konten für Geräteregistrierungs-Manager wird nun<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>To improve performance and scale, Intune is no longer showing <bpt id="p1">**</bpt>all<ept id="p1">**</ept> Device Enrollment Managers (DEM) devices in the <bpt id="p2">**</bpt>My Devices<ept id="p2">**</ept> pane of the iOS Company Portal app.</source>
+          <target state="translated">Zum Verbessern der Leistung und Skalierung Intune nicht mehr anzeigen <bpt id="p1">**</bpt>alle<ept id="p1">**</ept> Device Enrollment Manager (DEM) Geräte in der <bpt id="p2">**</bpt>Geräte<ept id="p2">**</ept> Bereich des iOS-Unternehmensportal-app.</target>
+        </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Only the local device running the app is displayed, and only if it is enrolled via the Company Portal app.</source>
+          <target state="translated">Nur das lokale Gerät Ausführen der app angezeigt werden, und nur dann, wenn sie über die Unternehmensportal-app registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The DEM user may perform actions on the local device, but remote management of other enrolled devices can only be performed from the Intune admin console.</source>
+          <target state="translated">Der Geräteemulator-Manager-Benutzer kann Aktionen auf dem lokalen Gerät ausführen, aber der anderen registrierten Geräte remote-Verwaltung kann nur aus der Intune-Verwaltungskonsole ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Additionally, Intune is deprecating use of DEM accounts with either the Apple Device Enrollment Program or the Apple Configurator tool.</source>
+          <target state="translated">Intune ist darüber hinaus verwendet der Geräteemulator-Manager-Konten mit dem Apple Device Enrollment Program oder dem Apple-Konfigurator-Tool Außerbetriebnahme.</target>
+        </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Both these enrollment methods already support user-less enrollment for shared iOS devices.</source>
+          <target state="translated">Beide dieser Registrierungsmethoden unterstützen benutzerunabhängige Registrierung bereits freigegebenen iOS-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Only use DEM accounts when user-less enrollment for shared devices is unavailable.</source>
+          <target state="translated">Verwenden Sie Geräteemulator-Manager-Konten nur, wenn weniger Benutzer für die Anmeldung für gemeinsam genutzte Geräte nicht verfügbar ist.</target>
+        </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Cloud roadmap</source>
+          <target state="translated">Cloud-roadmap</target>
+        </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Keep informed about upcoming developments for Intune with the <bpt id="p1">[</bpt>Cloud Platform roadmap<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&amp;dropValue=Intune)</ept>.</source>
+          <target state="translated">Informieren Sie sich über zu den anstehenden Entwicklungen für Intune mit den <bpt id="p1">[</bpt>Fahrplan für die Cloudplattform<ept id="p1">](http://www.microsoft.com/en-us/server-cloud/roadmap/Indevelopment.aspx?TabIndex=0&amp;dropValue=Intune)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Service deprecation</source>
+          <target state="translated">Dienst-Veraltung</target>
+        </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Intune Viewer apps.</source>
+          <target state="translated">Intune-Viewer-apps.</target>
+        </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>With the release of the new RMS sharing app, we are removing the following Intune Viewer apps, beginning August, 2016:</source>
+          <target state="translated">Mit der die neue RMS-Freigabe-app entfernen wir die folgenden Intune Viewer-apps, August 2016 ab:</target>
+        </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Intune AV Viewer</source>
+          <target state="translated">Intune AV-Viewer</target>
+        </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Intune PDF Viewer</source>
+          <target state="translated">Intune PDF-Viewer</target>
+        </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Intune Image Viewer for Android from Google Play</source>
+          <target state="translated">Intune Image-Viewer für Android aus Google Play</target>
+        </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Instead of using the Intune Viewer apps, we recommend using the new Rights Management app (RMS sharing) for Android, which allows you to deploy one app instead of three separate apps to securely view corporate files on Android devices.</source>
+          <target state="translated">Anstatt die Intune-Viewer-apps verwenden, empfehlen wir mithilfe der neuen Anwendung für Rights Management (RMS sharing) für Android, der Sie eine app anstelle von drei separaten apps Unternehmens Dateien auf Android-Geräte sicher anzeigen bereitstellen kann.</target>
+        </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Learn more about the RMS sharing app (with link to documentation).</source>
+          <target state="translated">Weitere Informationen zu den RMS-Freigabe-app (mit Link zur Dokumentation).</target>
+        </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Custom Group Targeting of Notification Rules Removal.</source>
+          <target state="translated">Benutzerdefinierte Gruppe als Ziel der Benachrichtigung Regeln entfernen.</target>
+        </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Intune notification rules define who an email alert will be sent to from Intune.</source>
+          <target state="translated">Intune-Benachrichtigungsregeln definieren, die eine e-Mail-Benachrichtigung von Intune an gesendet wird.</target>
+        </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Currently, you can configure notification rules to send emails to all users of devices in an Intune device group that you created.</source>
+          <target state="translated">Derzeit können Sie Benachrichtigungsregeln zum Senden von e-Mails an alle Benutzer von Geräten in einer Gerätegruppe Intune, die Sie erstellt haben, konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>From around June 1st 2016 moving forward, targeting user-created groups will no longer be supported.</source>
+          <target state="translated">Von wird um 1. Juni-2016 vorwärts Zielgruppenadressierung von Benutzern erstellte Gruppen nicht mehr unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Today, to target a notification rule to a group you created from the Microsoft Intune administration console, you would take the following steps:</source>
+          <target state="translated">Heutzutage würden Sie als Ziel eine Benachrichtigungsregel zu einer Gruppe, dass Sie über die Microsoft Intune-Verwaltungskonsole erstellt, die folgenden Schritte ausführen:</target>
+        </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept> workspace, click <bpt id="p2">**</bpt>Notification Rules<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Create New Rule<ept id="p3">**</ept></source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept> Arbeitsbereich, klicken Sie auf <bpt id="p2">**</bpt>Benachrichtigungsregeln<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>neue Regel erstellen<ept id="p3">**</ept></target>
+        </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>In step two of the Create Notification Rule Wizard, select the device groups which the rule will target.</source>
+          <target state="translated">Wählen Sie in Schritt 2 von den Assistenten zum Erstellen von Benachrichtigungsregeln die Gerätegruppen aus, das die Regel ausrichtet.</target>
+        </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>This step, “select device groups”, is being removed from the Intune Console.</source>
+          <target state="translated">Dieser Schritt, "Gerät auswählen Groups", aus der Intune-Konsole entfernt wird.</target>
+        </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The preliminary timeline for this change is as follows:</source>
+          <target state="translated">Die vorläufige Zeitachse für diese Änderung ist wie folgt:</target>
+        </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>In June, 2016, new tenants will not see step two of the Create Notification Rule Wizard.</source>
+          <target state="translated">Im Juni 2016 werden neue Mandanten nicht Schritt für den Assistenten zum Erstellen von Benachrichtigungsregeln angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Exiting tenants are unaffected.</source>
+          <target state="translated">Vorhandene Mandanten sind nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Around August, 2016, some existing tenants will not see the “select device groups” in the wizard.</source>
+          <target state="translated">Um August 2016 werden einige vorhandenen Mandanten "Gerät auswählen Groups" im Assistenten nicht angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Around October, 2016, we expect that all tenants will not see the “select device groups” in the wizard.</source>
+          <target state="translated">Um Oktober 2016 erwarten wir, dass alle Mandanten "Gerät auswählen Groups" im Assistenten nicht angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Changes in support for the iOS Company Portal app<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Änderungen in der Unterstützung für die iOS-Unternehmensportal-app<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>In the coming months, there will be an update for the Microsoft Intune Company Portal app for iOS that will only support devices running iOS 8.0 or later.</source>
+          <target state="translated">In den nächsten Monaten werden ein Update für Microsoft Intune-Unternehmensportal-app für iOS, die nur Geräte unter iOS 8.0 oder höher unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Users won’t be able to enroll new devices running versions below iOS 8.0.</source>
+          <target state="translated">Benutzer wird nicht um neue Geräte unter iOS 8.0 Versionen ausführen können.</target>
+        </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Enrolled devices running versions below iOS 8.0 will continue to be managed and will, for a limited time, be able to continue using the Company Portal app.</source>
+          <target state="translated">Registrierte Geräte, die mit Versionen unter iOS 8.0 weiterhin verwaltet werden und, für einen begrenzten Zeitraum werden weiterhin die Unternehmensportal-app verwenden können.</target>
+        </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>However, devices must be on iOS 8.0 or later to access the latest versions of the Company Portal app.</source>
+          <target state="translated">Allerdings muss Geräte unter iOS 8.0 oder höher, um die neuesten Versionen der Unternehmensportal-app zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>We encourage you to notify users to update to iOS 8.0 or later to take full advantage of new Intune features.</source>
+          <target state="translated">Wir empfehlen Ihnen, Benachrichtigen von Benutzern so aktualisieren Sie auf iOS 8.0 oder höher der neuen Intune-Funktionen vollständig nutzen.</target>
+        </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>April 2016</source>
+          <target state="translated">April 2016</target>
+        </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>All of these features are also supported for hybrid customers (Configuration Manager integrated with Intune).</source>
+          <target state="translated">Alle diese Funktionen werden auch für Hybrid-Kunden unterstützt (Configuration Manager integriert mit Intune).</target>
+        </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>MAM user compliance.</source>
+          <target state="translated">MAM benutzerkompatibilität.</target>
+        </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>You can now view the <bpt id="p1">[</bpt>status<ept id="p1">](monitor-mobile-app-management-policies-with-Microsoft-Intune.md)</ept> of your application management policies for any user in your Azure Active Directory (AAD) tenant.</source>
+          <target state="translated">Sie können nun Anzeigen der <bpt id="p1">[</bpt>Status<ept id="p1">](monitor-mobile-app-management-policies-with-Microsoft-Intune.md)</ept> von Verwaltungsrichtlinien für Ihre Anwendung für alle Benutzer in Ihrer Azure Active Directory (AD)-Mandanten.</target>
+        </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>This includes:</source>
+          <target state="translated">Dies umfasst Folgendes:</target>
+        </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Devices</source>
+          <target state="translated">zertifizierte Geräte</target>
+        </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Apps on the device</source>
+          <target state="translated">Apps auf dem Gerät</target>
+        </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Status values:</source>
+          <target state="translated">Statuswerte:</target>
+        </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Checked in<ept id="p1">**</ept>: Indicates the policy was deployed to the user, and app was used in work context, and successfully received the policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Einchecken<ept id="p1">**</ept>: Gibt an, für den Benutzer bereitgestellt wurde, und die app im Kontext verwendet wurde, und die Richtlinie erfolgreich empfangen.</target>
+        </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not checked in<ept id="p1">**</ept>: Indicates the policy was deployed to the user, but app has not been used in the work context since then.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nicht eingecheckt<ept id="p1">**</ept>: Gibt an, für den Benutzer bereitgestellt wurde, aber die app wurde nicht im Zusammenhang mit Arbeitsaufgaben verwendet wurde, seitdem.</target>
+        </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>MAM controls to prevent Outlook contacts sync (Android).</source>
+          <target state="translated">MAM-Steuerelemente zum verhindern, dass Outlook-Kontakte-Sync (Android).</target>
+        </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>A new setting is available for <bpt id="p1">[</bpt>mobile application management<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> without device enrollment.</source>
+          <target state="translated">Eine neue Einstellung steht für <bpt id="p1">[</bpt>mobile anwendungsverwaltung<ept id="p1">](create-and-deploy-mobile-app-management-policies-with-microsoft-intune.md)</ept> ohne Registrierung des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>This setting  allows you to prevent an application from syncing contacts to the native address book on Android devices.</source>
+          <target state="translated">Mit dieser Einstellung können Sie verhindern, dass eine Anwendung synchronisieren Kontakte zum systemeigenen Adressbuch auf Android-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>When this setting is enabled, targeted applications will no longer be able to save contacts to the native address book.</source>
+          <target state="translated">Wenn diese Einstellung aktiviert ist, werden zielanwendungen nicht mehr Kontakte auf das Adressbuch speichern.</target>
+        </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>When this setting is disabled, targeted applications will be able to save contacts to the native address book.</source>
+          <target state="translated">Wenn diese Einstellung deaktiviert ist, werden zielanwendungen Kontakte mit dem native-Adressbuch speichern können.</target>
+        </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>When you <bpt id="p1">[</bpt>remotely wipe a device or app<ept id="p1">](wipe-managed-company-app-data-with-Microsoft-Intune.md)</ept>, contacts that have already been saved to the native address book will be removed.</source>
+          <target state="translated">Wenn Sie <bpt id="p1">[</bpt>Remote Zurücksetzen eines Geräts oder app<ept id="p1">](wipe-managed-company-app-data-with-Microsoft-Intune.md)</ept>, Kontakte, die bereits in das systemeigene Adressbuch gespeichert wurden entfernt werden.</target>
+        </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>This new setting is supported initially by the Outlook application on Android devices.</source>
+          <target state="translated">Diese neue Einstellung wird anfänglich von der Outlook-Anwendung für Android-Geräte unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Phone number identification for corporate-owned devices.</source>
+          <target state="translated">Anzahl Telefonidentifikation für firmeneigenen Geräten.</target>
+        </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>Phones that are categorized as "Corporate" are now identified with their full phone number when, for example, you run a mobile device inventory report.</source>
+          <target state="translated">Telefone, die als "Corporate" eingestuft sind werden jetzt die vollständige Telefonnummer identifiziert, Ausführung, z. B. einen mobiles Gerät Inventurbericht.</target>
+        </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>BYOD phone numbers continue to be masked with ****, with only the last 4 digits displayed.</source>
+          <target state="translated">BYOD-Telefonnummern mit maskiert werden weiterhin ***, nur die letzten 4 Ziffern angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>Company portal updates</source>
+          <target state="translated">Unternehmens-Portal-updates</target>
+        </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Android Company portal app<ept id="p1">**</ept> Users who have not enrolled their device in Intune and who do not have the correct certificate installed will not be able to sign in to the Android Company Portal app and will see the message, “You cannot sign in because your device is missing a required certificate.”</source>
+          <target state="translated"><bpt id="p1">**</bpt>Android-Unternehmensportal-app<ept id="p1">**</ept> Benutzer, die nicht ihre Geräte in Intune registriert haben und die nicht über das richtige Zertifikat installiert, werden nicht in der Lage, Android-Unternehmensportal-app anmelden und die Meldung "Kann nicht anmelden, da ein erforderliches Zertifikat nicht das Gerät vorhanden ist."</target>
+        </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The message includes a “How to resolve this” link that users can tap to see instructions for installing the certificate.</source>
+          <target state="translated">Die Meldung enthält einen "Gewusst wie: Beheben dieses Problems"-Link, der Benutzer nutzen können, um eine Anleitung zum Installieren des Zertifikats finden Sie unter.</target>
+        </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>To see the steps that end users follow to resolve the issue, see <bpt id="p1">[</bpt>Your device is missing a required certificate<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_cert_missing)</ept>.</source>
+          <target state="translated">Die Schritte, die Endbenutzer folgen, um das Problem zu beheben, finden Sie unter <bpt id="p1">[</bpt>Ihres Geräts fehlt ein erforderliches Zertifikat<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_cert_missing)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>iOS Company Portal app<ept id="p1">**</ept> Support has been added for the pull-to-refresh action to refresh the content on the home screen, which includes listed apps, listed devices, and IT contact information.</source>
+          <target state="translated"><bpt id="p1">**</bpt>iOS-Unternehmensportal-app<ept id="p1">**</ept> Unterstützung wurde hinzugefügt, für die Aktion Pull-Aktualisierung, um den Inhalt auf dem Startbildschirm aktualisieren die aufgelisteten apps, aufgelisteten Geräte und IT-Support umfasst Informationen.</target>
+        </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The pull-to-refresh action does not check compliance or policy information, which can be done by selecting the tile for your current device and tapping the <bpt id="p1">**</bpt>Sync<ept id="p1">**</ept> button.</source>
+          <target state="translated">Die Pull-Aktualisierung-Aktion überprüft nicht die Kompatibilität oder Richtlinie Informationen ausgeführt werden kann, wählen die Kachel für das aktuelle Gerät, und tippen Sie auf die <bpt id="p1">**</bpt>Sync<ept id="p1">**</ept> Schaltfläche.</target>
+        </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows 10 Mobile and Windows Phone 8.1 Company Portal app<ept id="p1">**</ept> When end users are installing line-of-business apps, they will now see an improved app installation experience.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows 10 Mobile und Windows Phone 8.1-Unternehmensportal-app<ept id="p1">**</ept> Wenn Endbenutzer Branchen-apps installieren, sie sehen jetzt eine verbesserte app-Installation auftreten.</target>
+        </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>If the app installation is taking a long time, users can manually sync their device to force the sync process to resume.</source>
+          <target state="translated">Wenn die app-Installation sehr lange dauert, können Benutzer das Gerät zum Erzwingen des Synchronisierungsprozess fortgesetzt manuell synchronisieren.</target>
+        </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>To review the end-user instructions, see <bpt id="p1">[</bpt>Sync your device manually to speed up app installations<ept id="p1">](https://technet.microsoft.com/library/mt427782.aspx#BKMK_win10m_wp81_sync_manually)</ept>.</source>
+          <target state="translated">Die endbenutzeranweisungen finden Sie unter <bpt id="p1">[</bpt>synchronisieren Sie das Gerät manuell, um Anwendungsinstallationen beschleunigen<ept id="p1">](https://technet.microsoft.com/library/mt427782.aspx#BKMK_win10m_wp81_sync_manually)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Company Portal website<ept id="p1">**</ept> When Windows 10 Mobile and Windows Phone 8.1 users are installing line-of-business apps, they will now see the following new statuses, which provide them with more detail about the status of their installation:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unternehmensportals<ept id="p1">**</ept> beim Windows 10 Mobile und Windows Phone 8.1-Benutzer Branchen-apps installieren, sehen sie jetzt die folgenden neuen Status, die sie weitere Details über den Status ihrer Installation zur Verfügung zu stellen:</target>
+        </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Waiting for device to sync<ept id="p1">**</ept> – the user has tapped “Install” and the device now tries to sync with the Intune infrastructure.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Warten auf Geräten für die Synchronisierung<ept id="p1">**</ept> – der Benutzer "Installieren" getippt hat, und das Gerät nun versucht, eine Synchronisierung mit der Intune-Infrastruktur.</target>
+        </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>The sync is required before the installation can complete.</source>
+          <target state="translated">Die Synchronisierung ist erforderlich, bevor die Installation abgeschlossen werden kann.</target>
+        </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The "Waiting for device to sync" message is also a link that users can tap to see <bpt id="p1">[</bpt>instructions<ept id="p1">](https://technet.microsoft.com/library/mt590895.aspx#BKMK_iwp_sync_manually)</ept> on how to manually sync their device with Intune if the sync process is taking a long time or gets stalled.</source>
+          <target state="translated">Die "Synchronisieren von Gerät auf" Nachricht ist außerdem einen Link, der Benutzer nutzen können, um festzustellen, <bpt id="p1">[</bpt>Anweisungen<ept id="p1">](https://technet.microsoft.com/library/mt590895.aspx#BKMK_iwp_sync_manually)</ept> zum ihr Gerät mit Intune manuell zu synchronisieren, wenn die Synchronisierung sehr lange dauert oder ruft angehalten.</target>
+        </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Downloading<ept id="p1">**</ept> – the user’s download request is being processed and the device is downloading and installing the app.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Herunterladen von<ept id="p1">**</ept> – Download-Anforderung des Benutzers verarbeitet wird und das Gerät herunterladen und Installation der app.</target>
+        </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Before these statuses were added, users got confused if an app installation took a long time, because they saw only an “Installing” status, which might remain on the screen for hours.</source>
+          <target state="translated">Damit von diesen Statuswerten hinzugefügt wurden, haben Benutzer Installation eines sehr lange dauerte verwechselt werden, da sie nur einen Status "Installieren", herausgefunden haben, die auf dem Bildschirm Stunden bleiben möglicherweise.</target>
+        </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Adding the new statuses means that, instead of calling support, users can now tap the "Waiting for device to sync" link and follow the instructions to force the sync process to resume.</source>
+          <target state="translated">Hinzufügen der neuen Status Dies bedeutet, dass Benutzer anstelle von Unterstützung jetzt die "Warten Gerät synchronisieren" tippen können verknüpfen Sie, und folgen Sie zum Erzwingen des Synchronisierungsprozess fortgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>March 2016</source>
+          <target state="translated">März 2016</target>
+        </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>What's new as of March 29, 2016</source>
+          <target state="translated">Was ist neu 29 März 2016</target>
+        </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>With the exception of the update to the Windows 10 general configuration policy, all of the features releasing on March 29, 2016, are also supported for hybrid customers (Configuration Manager integrated with Intune).</source>
+          <target state="translated">Mit Ausnahme des Updates auf Windows 10-Konfigurationsrichtlinie werden alle Funktionen auf 29 März 2016 freigeben auch für Hybrid-Kunden unterstützt (Configuration Manager integriert mit Intune).</target>
+        </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>Hybrid support for the Windows 10 general configuration policy update is coming soon.</source>
+          <target state="translated">Hybrid-Unterstützung für die Aktualisierung der Windows 10 allgemeine Konfiguration der Sicherheitsrichtlinie ist in Kürze verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Please note that some of these features may require the latest version of Configuration Manager.</source>
+          <target state="translated">Bitte beachten Sie, dass einige dieser Funktionen die neueste Version von Configuration Manager erfordern kann.</target>
+        </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>MAM controls to prevent Outlook contacts sync (iOS).</source>
+          <target state="translated">MAM-Steuerelemente, um zu verhindern, dass Outlook-Kontakten synchronisiert werden (iOS).</target>
+        </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>A new setting is available for mobile application management without device enrollment.</source>
+          <target state="translated">Eine neue Einstellung ist für die Verwaltung der mobilen Anwendung ohne Registrierung des Geräts verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>This setting allows you to prevent an application from syncing contacts to the native address book on iOS devices.</source>
+          <target state="translated">Diese Einstellung können Sie verhindern, dass eine Anwendung synchronisieren Kontakte zum systemeigenen Adressbuch auf iOS-Geräten.</target>
+        </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>When this setting is enabled, the app will no longer be able to save contacts to the native address book.</source>
+          <target state="translated">Wenn diese Einstellung aktiviert ist, werden die app nicht mehr Kontakte auf das Adressbuch speichern.</target>
+        </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>When this setting is disabled, the app will be able to save contacts to the native address book.</source>
+          <target state="translated">Wenn diese Einstellung deaktiviert ist, wird die app Kontakte mit dem native-Adressbuch speichern können.</target>
+        </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>When you selectively wipe a device, all contacts that have already been saved to the native address book will be removed.</source>
+          <target state="translated">Wenn Sie ein Gerät selektiv zurücksetzen, werden alle Kontakte, die bereits in das systemeigene Adressbuch gespeichert wurden entfernt.</target>
+        </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>This new setting is supported by the Outlook application on iOS devices.</source>
+          <target state="translated">Diese neue Einstellung wird von der Outlook-Anwendung auf iOS-Geräten unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>For more details about this and other settings, see <bpt id="p1">[</bpt>Create and deploy MAM policies<ept id="p1">](https://technet.microsoft.com/en-us/library/dn292747.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zu diesen und anderen Einstellungen finden Sie unter <bpt id="p1">[</bpt>Erstellen und Bereitstellen von Richtlinien MAM<ept id="p1">](https://technet.microsoft.com/en-us/library/dn292747.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Access control</source>
+          <target state="translated">Zugriffssteuerung</target>
+        </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>Skype for Business Online supports conditional access.</source>
+          <target state="translated">Skype for Business Online unterstützt die bedingten Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>You can set a conditional access policy for Skype for Business Online so that it can only be accessed by managed and compliant iOS and Android devices.</source>
+          <target state="translated">Sie können eine Richtlinie für bedingten Zugriff für Skype für Business Online festlegen, so dass es nur durch verwaltete und kompatible IOS- und Android-Geräte zugegriffen werden kann.</target>
+        </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>End users who try to sign in to the Skype for Business mobile app on iOS and Android will be prompted to enroll with Intune as well as fix any non-compliance issues before sign-in can complete.</source>
+          <target state="translated">Benutzer, die versuchen, zur Anmeldung bei der Skype für mobile Business-app für iOS und Android aufgefordert Registrierung mit Intune als auch alle Kompatibilitätsprobleme zu beheben, vor der Anmeldung abschließen kann.</target>
+        </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Manage access to Skype for Business Online<ept id="p1">](https://technet.microsoft.com/en-us/library/mt695297.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Verwalten des Zugriffs auf Skype for Business Online<ept id="p1">](https://technet.microsoft.com/en-us/library/mt695297.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Intune support for iOS 9.3.</source>
+          <target state="translated">Intune-Support für iOS 9.3.</target>
+        </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>On Monday March 21st, Apple announced the availability of iOS 9.3.</source>
+          <target state="translated">Am Montag am 21. März angekündigt Apple iOS 9.3 die Verfügbarkeit.</target>
+        </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>We have been busy working to ensure that Microsoft Intune is compatible with the latest version of Apple's mobile operating system, and <bpt id="p1">[</bpt>we are pleased to announce that Intune supports managing iOS 9.3 devices<ept id="p1">](https://blogs.technet.microsoft.com/microsoftintune/2016/03/23/microsoft-intune-provides-support-for-ios-9-3/)</ept>.</source>
+          <target state="translated">Es wurde arbeiten, um sicherzustellen, dass Microsoft Intune mit der neuesten Version des Apple mobile-Betriebssystems kompatibel ist und <bpt id="p1">[</bpt>Wir freuen uns bekannt, dass Intune unterstützt die Verwaltung von iOS 9.3 Geräte<ept id="p1">](https://blogs.technet.microsoft.com/microsoftintune/2016/03/23/microsoft-intune-provides-support-for-ios-9-3/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>All existing Intune features currently available for managing iOS devices will continue to work seamlessly as users upgrade their devices to iOS 9.3.</source>
+          <target state="translated">Alle vorhandenen Intune derzeit verfügbare Funktionen zum Verwalten von iOS-Geräte weiterhin reibungslos funktionieren, wie Benutzer ihre Geräte auf iOS 9.3 aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>In addition, iOS 9.3 is also supported today for hybrid customers (Configuration Manager integrated with Intune).</source>
+          <target state="translated">IOS 9.3 wird darüber hinaus auch noch heute für Hybrid-Kunden unterstützt (Configuration Manager integriert mit Intune).</target>
+        </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>The Windows 10 general configuration policy now contains settings to manage Windows Defender on enrolled Windows 10 PC's.</source>
+          <target state="translated">Windows 10-Konfigurationsrichtlinie enthält jetzt Einstellungen zum Verwalten von Windows Defender auf registrierten Windows 10 PC.</target>
+        </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Windows 10 configuration policy settings in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/en-us/library/mt404697.aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Windows 10-Konfiguration der Richtlinien in Microsoft Intune<ept id="p1">](https://technet.microsoft.com/en-us/library/mt404697.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Company portal</source>
+          <target state="translated">Unternehmensportal</target>
+        </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>Windows app packages available directly from the Company Portal website.</source>
+          <target state="translated">Windows-app-Pakete direkt über die Unternehmensportal-Website verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Users of Windows 8, Windows 8.1, and Windows RT PCs can now install Windows app packages (with the .appx extension) directly from the Company Portal website.</source>
+          <target state="translated">Benutzer von Windows 8, Windows 8.1 und Windows RT-PCs können jetzt Windows-app-Pakete (mit der Erweiterung AppX) direkt aus dem Unternehmensportal-Website installieren.</target>
+        </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Previously, you had to deploy, or users had to install the Company Portal app on their devices to install apps.</source>
+          <target state="translated">Zuvor mussten Sie bereitstellen oder mussten die Benutzer die Unternehmensportal-app auf ihren Geräten installieren von apps zu installieren.</target>
+        </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>Users can remotely lock their device from the Company Portal website.</source>
+          <target state="translated">Benutzer können ihr Gerät über die Unternehmensportal-Website Remote sperren.</target>
+        </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>A new Remote Lock option has been added to the Company Portal website to enable users to remotely lock their device from the Portal if their device is lost or stolen.</source>
+          <target state="translated">Eine neue Remotesperre-Option wurde hinzugefügt, um die Unternehmensportal-Website, damit Benutzer ihre Geräte über das Portal Remote zu sperren, wenn das Gerät verloren geht oder gestohlen wird.</target>
+        </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>end-user instructions<ept id="p1">](https://technet.microsoft.com/library/mt590895.aspx/?wt.mc_id=ui#BKMK_iwp_remote_lock)</ept>.</source>
+          <target state="translated">Finden Sie unter der <bpt id="p1">[</bpt>endbenutzeranweisungen<ept id="p1">](https://technet.microsoft.com/library/mt590895.aspx/?wt.mc_id=ui#BKMK_iwp_remote_lock)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The following table lists the platform support for Remote Lock for Intune Standalone and Intune with Configuration Manager.</source>
+          <target state="translated">Die folgende Tabelle enthält die plattformunterstützung für Remote-Sperre für Intune Standalone und Intune mit Configuration Manager.</target>
+        </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Platform</source>
+          <target state="translated">Plattform</target>
+        </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>Support details</source>
+          <target state="translated">Supportinformationen</target>
+        </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>Android</source>
+          <target state="translated">Android</target>
+        </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>iOS</source>
+          <target state="translated">iOS</target>
+        </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>Supported</source>
+          <target state="translated">Unterstützt</target>
+        </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>Windows 10 Mobile</source>
+          <target state="translated">Windows 10 Mobile</target>
+        </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>Supported only if the phone has a passcode set</source>
+          <target state="translated">Unterstützt nur, wenn das Telefon eine Kennung festlegen</target>
+        </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>Windows 10 Desktop</source>
+          <target state="translated">Windows 10 Desktop</target>
+        </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1</source>
+          <target state="translated">Windows Phone 8.1</target>
+        </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Supported only if the phone has a passcode set</source>
+          <target state="translated">Unterstützt nur, wenn das Telefon eine Kennung festlegen</target>
+        </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.0</source>
+          <target state="translated">Windows Phone 8.0</target>
+        </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>PC (Windows 8.0 and earlier)</source>
+          <target state="translated">PC (Windows 8.0 und früher)</target>
+        </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>PC (Windows 8.1)</source>
+          <target state="translated">PC (Windows 8.1)</target>
+        </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>Not supported</source>
+          <target state="translated">Nicht unterstützt</target>
+        </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>What's new as of March 10, 2016</source>
+          <target state="translated">Was ist neu 10 März 2016</target>
+        </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Take advantage of iOS "Open-in" management for devices that are enrolled in a third-party MDM solution<ept id="p1">**</ept> You can use your third-party mobile device management (MDM) vendor to take advantage of iOS "Open-In" management.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Nutzen Sie iOS-öffnen-in"Verwaltung für Geräte, die in einer Drittanbieter-MDM-Lösung angemeldet sind<ept id="p1">**</ept> können Sie Ihre mobile Geräte von Drittanbietern Management (MDM) Hersteller iOS"Öffnen In"Management nutzen.</target>
+        </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>You can set the restrictions in the configuration profile settings and deploy the app using <bpt id="p1">[</bpt>Manage data transfer between iOS apps<ept id="p1">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Sie legen Sie die Einschränkungen in der Konfiguration der profileinstellungen und Bereitstellen der Anwendung mit <bpt id="p1">[</bpt>verwaltet die Datenübertragung zwischen iOS-apps<ept id="p1">](manage-data-transfer-between-ios-apps-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>This approach has two main benefits:</source>
+          <target state="translated">Dieser Ansatz hat zwei Vorteile:</target>
+        </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>Users are required to log in with their work account before they get access to any corporate data from Cloud Services or other apps.</source>
+          <target state="translated">Benutzer müssen ihr Geschäftskonto einloggen, bevor sie Zugriff auf alle Unternehmensdaten von Cloud-Dienste oder andere apps zu erhalten.</target>
+        </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>This ensures that mobile app management (MAM) policies are in place when the data is accessed.</source>
+          <target state="translated">Dadurch wird sichergestellt, dass die mobile app-Verwaltungsrichtlinien (MAM) vorhanden sind, wenn die Daten zugegriffen werden.</target>
+        </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>Managed  email profiles and other managed apps deployed through a third-party MDM solution can share files and data with the apps that have Intune MAM policies.</source>
+          <target state="translated">Verwaltete e-Mail-Profile und anderen verwalteten apps, die über ein Drittanbieter-MDM-Lösung bereitgestellt können Dateien und Daten mit den apps freigeben, die Intune MAM-Richtlinien auf.</target>
+        </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manage the Microsoft Outlook app with MAM policies for devices not enrolled in Intune<ept id="p1">**</ept> You can now manage the Microsoft Outlook app on devices that are not enrolled in Intune with the Intune mobile application management policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwalten der Microsoft Outlook-app mit MAM-Richtlinien für Geräte, die nicht in Intune registriert<ept id="p1">**</ept> Sie können jetzt verwalten, die Microsoft Outlook-app auf Geräten, die nicht mit der Richtlinie Intune mobile Application Management in Intune registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>The updated Microsoft Outlook app with the MAM capabilities is available for both <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/us/app/microsoft-outlook-email-calendar/id951937596?mt=8)</ept> and <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook)</ept> devices.</source>
+          <target state="translated">Der aktualisierte Microsoft Outlook-app mit den Funktionen MAM steht sowohl für <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/us/app/microsoft-outlook-email-calendar/id951937596?mt=8)</ept> und <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook)</ept> Geräte.</target>
+        </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>Use the instructions in the <bpt id="p1">[</bpt>Create and deploy mobile app management policies<ept id="p1">](https://technet.microsoft.com/library/mt627829.aspx)</ept> topic to create a MAM policy.</source>
+          <target state="translated">Verwenden Sie die Anweisungen in der <bpt id="p1">[</bpt>Erstellen und Bereitstellen von Richtlinien zur Verwaltung mobiler Apps<ept id="p1">](https://technet.microsoft.com/library/mt627829.aspx)</ept> Themas, um eine MAM-Richtlinie zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mobile app configuration policies give you more flexibility to specify user details for iOS apps<ept id="p1">**</ept> You can supply user settings that an iOS app might need when it is opened.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Konfigurationsrichtlinien für Mobile Anwendung bieten Ihnen mehr Flexibilität Benutzerdetails für iOS-apps an<ept id="p1">**</ept> können Sie Einstellungen für Benutzer, die beim Öffnen eine iOS-app möglicherweise bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>For example, you can supply a network port, or a user name.</source>
+          <target state="translated">Sie können z. B. einen Netzwerk-Port oder einen Benutzernamen angeben.</target>
+        </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Configure iOS apps with mobile app configuration policies in Microsoft Intune<ept id="p1">](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Konfigurieren Sie iOS-apps mit Konfigurationsrichtlinien für mobile Anwendung in Microsoft Intune<ept id="p1">](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deploy Adobe Reader for Microsoft Intune to Intune-managed iOS devices in your enterprise<ept id="p1">**</ept> The Adobe Reader app for iOS can now be managed on enrolled devices with the Intune mobile application management policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bereitstellen von Adobe Reader für Microsoft Intune auf Intune verwaltete iOS-Geräten in Ihrem Unternehmen<ept id="p1">**</ept> der Adobe Reader-app für iOS kann jetzt auf registrierte Geräte mit der Richtlinie Intune mobile Application Management verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ensure deployed web clips are opened in the managed browser<ept id="p1">**</ept> You can deploy targeted web clips that can only be opened using the managed browser on iOS and Android devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Stellen Sie sicher, bereitgestellten Clips in den verwalteten Browser geöffnet werden<ept id="p1">**</ept> Bereitstellen gezielte Webclips, die nur IOS- und Android-Geräte über den verwalteten Browser geöffnet werden können.</target>
+        </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>For example, you deploy links to corporate resources through the Company Portal, and when users navigate to the links, they open directly into the managed browser where they can be protected by MAM policy.</source>
+          <target state="translated">Angenommen, Sie Links auf Unternehmensressourcen über das Unternehmensportal bereitstellen, und wenn Benutzer auf die Links navigieren, öffnen sie direkt in den verwalteten Browser, in dem sie durch MAM-Richtlinie geschützt werden können.</target>
+        </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Deploy apps <ept id="p1">](deploy-apps.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Bereitstellen von apps <ept id="p1">](deploy-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Find, manage, and distribute Windows Store for Business apps for Windows 10 devices from the Intune administrator console<ept id="p1">**</ept> Support for Windows Store for Business is available in Intune to help you find, manage, and distribute apps to the Windows 10 devices you’re managing.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Suchen, verwalten und Verteilen von Windows Store für Branchen-apps für Windows 10-Geräten in der Intune-Administratorkonsole<ept id="p1">**</ept> Unterstützung für Windows Store für Unternehmen steht in Intune, mit denen Sie suchen, verwalten und Verteilen von apps auf Windows 10-Geräte, die Sie verwalten.</target>
+        </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>Windows Store for Business lets you manage the process of deploying and monitoring these apps from the Intune administrator console—the same console you use to manage your other apps.</source>
+          <target state="translated">Windows Store für Unternehmen können Sie den Prozess der Bereitstellung und Überwachung dieser apps in der Intune-Administratorkonsole zu verwalten – dieselbe Konsole, die Sie zum Verwalten Ihrer anderen apps verwenden.</target>
+        </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>Specifically, Windows Store for Business manages the content and licensing  of “online licensed apps”.</source>
+          <target state="translated">Insbesondere verwaltet Windows Store für Unternehmen, Inhalt und Lizenzierung von "online lizenzierte apps".</target>
+        </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Manage apps you purchased from the Windows Store for Business<ept id="p1">](manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Verwalten von apps, die Sie erworben, aus dem Windows Store für Unternehmen haben<ept id="p1">](manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PFX certificates distribution for iOS devices<ept id="p1">**</ept> Intune administrators can create and deploy iOS PFX certificates for Wi-Fi, email, and VPN authentication on iOS devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PFX-Zertifikate Verteilung der iOS-Geräte<ept id="p1">**</ept> Intune-Administratoren erstellen und Bereitstellen von iOS-PFX-Zertifikate für die WLAN-, VPN- und e-Mail-Authentifizierung auf iOS-Geräten.</target>
+        </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>This feature is already available for Android and Windows 10 devices.</source>
+          <target state="translated">Diese Funktion ist bereits für Android und Windows 10-Geräte verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Enable access to company resources using certificate profiles <ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>ermöglichen den Zugriff auf Unternehmensressourcen mithilfe von zertifikatprofilen <ept id="p1">](secure-resource-access-with-certificate-profiles.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Apply apps and policies to different device groups based on user category selection<ept id="p1">**</ept> Intune administrators can now define custom device categories for users to select from during enrollment.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anwenden von apps und Richtlinien für verschiedene Gerätegruppen, die auf Grundlage der Kategorie Benutzerauswahl<ept id="p1">**</ept> Intune-Administratoren können jetzt benutzerdefinierte Gerätekategorien für Benutzer während der Registrierung aus definieren.</target>
+        </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>For example, administrators might want their users to specify if they're enrolling a device used for the "Cash Register" or "Delivery Truck" or "Inventory Room."</source>
+          <target state="translated">Beispielsweise sollten sich Administratoren auf die Benutzer angeben, wenn sie ein Gerät für die "Kasse" oder "Lieferwagen" oder "Inventar Platz." verwendet Registrierung sind</target>
+        </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>The category selected will cause the device to become a member of an Intune device group, which can be used for deploying different apps and policies to the enrolled device.</source>
+          <target state="translated">Die ausgewählte Kategorie führt dazu, dass das Gerät Mitglied einer Gerätegruppe Intune werden die für die Bereitstellung von anderen apps und Richtlinien für das registrierte Gerät verwendet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Categorize devices with device group mapping<ept id="p1">](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Kategorisieren von Geräten mit der Zuordnung der Device-Gruppe<ept id="p1">](categorize-devices-with-device-group-mapping-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>Changes and updates to Microsoft Company Portal</source>
+          <target state="translated">Änderungen und updates für Microsoft-Unternehmensportal</target>
+        </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>The following changes have been made to the Company Portal in this release.</source>
+          <target state="translated">Die folgenden Unternehmensportal in dieser Version geändert wurde.</target>
+        </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>Android Company Portal app</source>
+          <target state="translated">Android-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</source>
+          <target state="translated">Wenn Ihre Benutzer eine app, die durch die mobile anwendungsverwaltung (MAM) verwaltet wird starten, sehen sie eine Meldung, die besagt, dass die app von ihrem Unternehmen verwaltet wird.</target>
+        </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Users can now tap a “Learn More” link to get <bpt id="p1">[</bpt>more information<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_use_mgd_apps)</ept> here about what “managed apps” means.</source>
+          <target state="translated">Benutzer können jetzt einen "Learn More" Link abgerufen tippen <bpt id="p1">[</bpt>Informationen<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_use_mgd_apps)</ept> hier zu was bedeutet "verwaltete apps".</target>
+        </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</source>
+          <target state="translated">Sie können auch "Nicht mehr anzeigen" tippen, damit die Nachricht nicht mehr angezeigt wird, wenn die app zu starten.</target>
+        </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>New screens have been added to guide users through the enrollment process and provide more information about why users should enroll and what IT administrators can and can’t see on their enrolled devices.</source>
+          <target state="translated">Neue Bildschirme wurden Benutzer durch den Registrierungsprozess und Weitere Informationen, warum Benutzer registriert werden sollen und was IT-Administratoren und nicht auf ihre registrierten Geräte hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>enrollment instructions<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_enroll_devc)</ept> for details.</source>
+          <target state="translated">Finden Sie unter der <bpt id="p1">[</bpt>registrierungsanweisungen<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_enroll_devc)</ept> Details.</target>
+        </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>Enrollment error messages are now displayed in the Company Portal app.</source>
+          <target state="translated">Fehlermeldungen für die Registrierung werden jetzt im Unternehmensportal-app angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>Previously, these messages appeared in the Company Portal website.</source>
+          <target state="translated">Früher wurden diese Nachrichten in der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>Making this change means that all error messages now appear in just one place instead of two different places.</source>
+          <target state="translated">Machen diese Änderung bedeutet, die an einer Stelle anstelle von zwei verschiedenen Stellen jetzt alle Fehlermeldungen angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>iOS Company Portal app</source>
+          <target state="translated">iOS-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</source>
+          <target state="translated">Wenn Ihre Benutzer eine app, die durch die mobile anwendungsverwaltung (MAM) verwaltet wird starten, sehen sie eine Meldung, die besagt, dass die app von ihrem Unternehmen verwaltet wird.</target>
+        </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>Users can now tap a “Learn More” link to get <bpt id="p1">[</bpt>more information<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_ios_use_mgd_apps)</ept> here about what “managed apps” means.</source>
+          <target state="translated">Benutzer können jetzt einen "Learn More" Link abgerufen tippen <bpt id="p1">[</bpt>Informationen<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_ios_use_mgd_apps)</ept> hier zu was bedeutet "verwaltete apps".</target>
+        </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</source>
+          <target state="translated">Sie können auch "Nicht mehr anzeigen" tippen, damit die Nachricht nicht mehr angezeigt wird, wenn die app zu starten.</target>
+        </trans-unit>
+        <trans-unit id="505" translate="yes" xml:space="preserve">
+          <source>New screens have been added to guide users through the enrollment process and provide more information about why users should enroll and what IT administrators can and can’t see on their enrolled devices.</source>
+          <target state="translated">Neue Bildschirme wurden Benutzer durch den Registrierungsprozess und Weitere Informationen, warum Benutzer registriert werden sollen und was IT-Administratoren und nicht auf ihre registrierten Geräte hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="506" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>enrollment instructions<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_enroll_ios_device)</ept> for details.</source>
+          <target state="translated">Finden Sie unter der <bpt id="p1">[</bpt>registrierungsanweisungen<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_enroll_ios_device)</ept> Details.</target>
+        </trans-unit>
+        <trans-unit id="507" translate="yes" xml:space="preserve">
+          <source>Enrollment error messages are now displayed in the Company Portal app.</source>
+          <target state="translated">Fehlermeldungen für die Registrierung werden jetzt im Unternehmensportal-app angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="508" translate="yes" xml:space="preserve">
+          <source>Previously, these messages appeared in the Company Portal website.</source>
+          <target state="translated">Früher wurden diese Nachrichten in der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="509" translate="yes" xml:space="preserve">
+          <source>Making this change means that all error messages now appear in just one place instead of two different places.</source>
+          <target state="translated">Machen diese Änderung bedeutet, die an einer Stelle anstelle von zwei verschiedenen Stellen jetzt alle Fehlermeldungen angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="510" translate="yes" xml:space="preserve">
+          <source>February 2016</source>
+          <target state="translated">Februar 2016</target>
+        </trans-unit>
+        <trans-unit id="511" translate="yes" xml:space="preserve">
+          <source>Changes and updates to Microsoft Company Portal</source>
+          <target state="translated">Änderungen und updates für Microsoft-Unternehmensportal</target>
+        </trans-unit>
+        <trans-unit id="512" translate="yes" xml:space="preserve">
+          <source>The following changes have been made to the Company Portal in this release.</source>
+          <target state="translated">Die folgenden Unternehmensportal in dieser Version geändert wurde.</target>
+        </trans-unit>
+        <trans-unit id="513" translate="yes" xml:space="preserve">
+          <source>Android Company Portal app</source>
+          <target state="translated">Android-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="514" translate="yes" xml:space="preserve">
+          <source>New screens have been added to guide users through the enrollment process and provide more information about why users should enroll and what IT administrators can and can’t see on their enrolled devices.</source>
+          <target state="translated">Neue Bildschirme wurden Benutzer durch den Registrierungsprozess und Weitere Informationen, warum Benutzer registriert werden sollen und was IT-Administratoren und nicht auf ihre registrierten Geräte hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="515" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>enrollment instructions<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_enroll_devc)</ept> for details.</source>
+          <target state="translated">Finden Sie unter der <bpt id="p1">[</bpt>registrierungsanweisungen<ept id="p1">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_enroll_devc)</ept> Details.</target>
+        </trans-unit>
+        <trans-unit id="516" translate="yes" xml:space="preserve">
+          <source>Enrollment error messages are now displayed in the Company Portal app.</source>
+          <target state="translated">Fehlermeldungen für die Registrierung werden jetzt im Unternehmensportal-app angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="517" translate="yes" xml:space="preserve">
+          <source>Previously, these messages appeared in the Company Portal website.</source>
+          <target state="translated">Früher wurden diese Nachrichten in der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="518" translate="yes" xml:space="preserve">
+          <source>Making this change means that all error messages now appear in just one place instead of two different places.</source>
+          <target state="translated">Machen diese Änderung bedeutet, die an einer Stelle anstelle von zwei verschiedenen Stellen jetzt alle Fehlermeldungen angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="519" translate="yes" xml:space="preserve">
+          <source>iOS Company Portal app</source>
+          <target state="translated">iOS-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="520" translate="yes" xml:space="preserve">
+          <source>New screens have been added to guide users through the enrollment process and provide more information about why users should enroll and what IT administrators can and can’t see on their enrolled devices.</source>
+          <target state="translated">Neue Bildschirme wurden Benutzer durch den Registrierungsprozess und Weitere Informationen, warum Benutzer registriert werden sollen und was IT-Administratoren und nicht auf ihre registrierten Geräte hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="521" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>enrollment instructions<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_enroll_ios_device)</ept> for details.</source>
+          <target state="translated">Finden Sie unter der <bpt id="p1">[</bpt>registrierungsanweisungen<ept id="p1">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_enroll_ios_device)</ept> Details.</target>
+        </trans-unit>
+        <trans-unit id="522" translate="yes" xml:space="preserve">
+          <source>Enrollment error messages are now displayed in the Company Portal app.</source>
+          <target state="translated">Fehlermeldungen für die Registrierung werden jetzt im Unternehmensportal-app angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="523" translate="yes" xml:space="preserve">
+          <source>Previously, these messages appeared in the Company Portal website.</source>
+          <target state="translated">Früher wurden diese Nachrichten in der Unternehmensportal-Website.</target>
+        </trans-unit>
+        <trans-unit id="524" translate="yes" xml:space="preserve">
+          <source>Making this change means that all error messages now appear in just one place instead of two different places.</source>
+          <target state="translated">Machen diese Änderung bedeutet, die an einer Stelle anstelle von zwei verschiedenen Stellen jetzt alle Fehlermeldungen angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="525" translate="yes" xml:space="preserve">
+          <source>January 2016</source>
+          <target state="translated">Januar 2016</target>
+        </trans-unit>
+        <trans-unit id="526" translate="yes" xml:space="preserve">
+          <source>Take advantage of Windows 10 features</source>
+          <target state="translated">Windows 10-Features nutzen</target>
+        </trans-unit>
+        <trans-unit id="527" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conditional access with Health Attestation Service<ept id="p1">**</ept> Intune administrators can now view the status of Windows 10 Device Health Attestation in the Intune Admin console.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Bedingter Zugriff mit Integritätsdienst Nachweis<ept id="p1">**</ept> Intune-Administratoren können nun den Status der Bescheinigung für Windows 10-Geräte in Intune Admin-Konsole anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="528" translate="yes" xml:space="preserve">
+          <source>Device health attestation lets the administrator ensure that client computers have trustworthy BIOS, TPM, and boot software configurations.</source>
+          <target state="translated">Gerät Bescheinigung kann der Administrator, der diesen Client sicherstellen über trustworthy BIOS, TPM und Softwarekonfigurationen zu starten.</target>
+        </trans-unit>
+        <trans-unit id="529" translate="yes" xml:space="preserve">
+          <source>To support device health attestation, client devices must be running Windows 10 with TPM 2 enabled.</source>
+          <target state="translated">Zur Unterstützung von Gerät Bescheinigung müssen auf Clientgeräten Windows 10 mit TPM-2-fähige ausgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="530" translate="yes" xml:space="preserve">
+          <source>Device health attestation displays the number of devices enabled for each of the following:</source>
+          <target state="translated">Gerät Bescheinigung zeigt die Anzahl der Geräte, die für jede der folgenden aktiviert:</target>
+        </trans-unit>
+        <trans-unit id="531" translate="yes" xml:space="preserve">
+          <source>Early-launch antimalware</source>
+          <target state="translated">Frühe Launch antimalware</target>
+        </trans-unit>
+        <trans-unit id="532" translate="yes" xml:space="preserve">
+          <source>BitLocker</source>
+          <target state="translated">BitLocker</target>
+        </trans-unit>
+        <trans-unit id="533" translate="yes" xml:space="preserve">
+          <source>Secure Boot</source>
+          <target state="translated">Sicherer Start</target>
+        </trans-unit>
+        <trans-unit id="534" translate="yes" xml:space="preserve">
+          <source>Code Integrity</source>
+          <target state="translated">Integrität des Codes</target>
+        </trans-unit>
+        <trans-unit id="535" translate="yes" xml:space="preserve">
+          <source>Read <bpt id="p1">[</bpt>Introduction to device compliance policies for Microsoft Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> for more details on the device health setting, collected data points, and the health attestation report.</source>
+          <target state="translated">Lesen <bpt id="p1">[</bpt>Einführung in die gerätekonformitätsrichtlinien für Microsoft Intune<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> für weitere Details auf die Integrität-Einstellung gesammelten Datenpunkte und den Nachweis Integritätsbericht.</target>
+        </trans-unit>
+        <trans-unit id="536" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>HAS service details<ept id="p1">](https://msdn.microsoft.com/en-us/library/dn934876.aspx)</ept> explains the service in depth.</source>
+          <target state="translated">Die <bpt id="p1">[</bpt>HAS Dienstdetails<ept id="p1">](https://msdn.microsoft.com/en-us/library/dn934876.aspx)</ept> den Dienst im Detail erläutert.</target>
+        </trans-unit>
+        <trans-unit id="537" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows 10 Passport for Work Policy and certificate management<ept id="p1">**</ept> With Intune, you can <bpt id="p2">[</bpt>integrate with Microsoft Passport for Work<ept id="p2">](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)</ept>, which is an alternative sign-in method for Windows 10 that uses Active Directory or an Azure Active Directory account to replace a password, smart card, or virtual smart card.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Windows 10 Passport für die Richtlinie und Zertifikat<ept id="p1">**</ept> mit Intune können Sie <bpt id="p2">[</bpt>Integration mit Microsoft Passport for Work<ept id="p2">](control-microsoft-passport-settings-on-devices-with-microsoft-intune.md)</ept>, also ein alternative Anmeldemethode für Windows 10, die Active Directory oder Azure Active Directory-Konto wird verwendet, um ein Kennwort, Smartcard oder virtuelle Smartcard ersetzt werden.</target>
+        </trans-unit>
+        <trans-unit id="538" translate="yes" xml:space="preserve">
+          <source>Passport lets you use a user gesture to log in instead of a password.</source>
+          <target state="translated">Passport-Konto können Sie eine Benutzeraktion verwenden, anstelle eines Kennworts anmelden.</target>
+        </trans-unit>
+        <trans-unit id="539" translate="yes" xml:space="preserve">
+          <source>A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.</source>
+          <target state="translated">Eine Benutzeraktion ist möglicherweise eine einfache PIN, biometrische Authentifizierung wie z. B. Windows Hello oder einem externen Gerät wie z. B. einen Fingerabdruckleser.</target>
+        </trans-unit>
+        <trans-unit id="540" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VPN for specific apps<ept id="p1">**</ept> You can select apps that automatically connect to your corporate network over VPN.</source>
+          <target state="translated"><bpt id="p1">**</bpt>VPN für bestimmte apps<ept id="p1">**</ept> können Sie apps, die automatisch mit dem Unternehmensnetzwerk über VPN verbinden auswählen.</target>
+        </trans-unit>
+        <trans-unit id="541" translate="yes" xml:space="preserve">
+          <source>Create the list of apps when you set up the VPN profile, as described in Help users connect to their work using VPN profiles with Microsoft Intune.</source>
+          <target state="translated">Erstellen Sie die Liste der apps bei der Einrichtung der VPN-Profil, wie in der Hilfe beschrieben, die Benutzer mit ihrer Arbeit über VPN-Profilen mit Microsoft Intune zu verbinden.</target>
+        </trans-unit>
+        <trans-unit id="542" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Windows 10 Full Wipe support<ept id="p1">**</ept> You can now issue a remote full wipe of Windows 10 desktop devices enrolled in Intune through the Intune admin console.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Unterstützung für Windows 10 vollständigen zurücksetzen<ept id="p1">**</ept> können Sie jetzt eine vollständige Remotebereinigung von Windows 10 desktop-Geräten in Intune registriert werden, über die Intune-Verwaltungskonsole ausgeben.</target>
+        </trans-unit>
+        <trans-unit id="543" translate="yes" xml:space="preserve">
+          <source>Windows 10 full wipe does a factory reset of the device.</source>
+          <target state="translated">Vollständiges Zurücksetzen von Windows 10 ist einen Factory Zurücksetzen des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="544" translate="yes" xml:space="preserve">
+          <source>Apple Volume Purchase Program (VPP) update</source>
+          <target state="translated">Apple Volume Purchase Program (VPP) aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="545" translate="yes" xml:space="preserve">
+          <source>Intune can now help you <bpt id="p1">[</bpt>manage apps you purchased through the Apple Volume Purchase Program (VPP) for Business<ept id="p1">](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Intune können Sie jedoch jetzt <bpt id="p1">[</bpt>Verwalten von apps, die Sie über Apple Volume Purchase Program (VPP) für Unternehmen erworben<ept id="p1">](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="546" translate="yes" xml:space="preserve">
+          <source>This includes synchronizing license information between Apple and Intune, and tracking how many copies of each app you have deployed.</source>
+          <target state="translated">Dazu gehören Lizenzinformationen zwischen Apple und Intune synchronisieren, und wie viele Kopien jedes app verfolgen Sie bereitgestellt haben.</target>
+        </trans-unit>
+        <trans-unit id="547" translate="yes" xml:space="preserve">
+          <source>Use IMEI numbers to identify corporate-owned devices</source>
+          <target state="translated">Verwenden Sie zum Identifizieren von firmeneigenen Geräten IMEI-Nummern</target>
+        </trans-unit>
+        <trans-unit id="548" translate="yes" xml:space="preserve">
+          <source>You can now <bpt id="p1">[</bpt>import international mobile equipment identity (IMEI) numbers<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept> for mobile device platforms that have an IMEI number to help identify corporate-owned mobile devices.</source>
+          <target state="translated">Sie können jetzt <bpt id="p1">[</bpt>international mobile Equipment Identity (IMEI) Zahlen importieren<ept id="p1">](specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers.md)</ept> für Plattformen für mobile Geräte, die eine IMEI haben Zahl zur Identifizierung von firmeneigenen mobilen Geräten.</target>
+        </trans-unit>
+        <trans-unit id="549" translate="yes" xml:space="preserve">
+          <source>Once enrolled in Intune, devices with imported IMEI numbers are tagged as Corporate, which can be used for applying policies that are different than those applied to personally owned devices.</source>
+          <target state="translated">Nach der Registrierung in Intune werden Geräte mit importierten IMEI-Nummern als Unternehmen, die verwendet werden können, zum Anwenden von Richtlinien, die sich auf Geräte, die persönlich angewendeten unterscheiden, markiert.</target>
+        </trans-unit>
+        <trans-unit id="550" translate="yes" xml:space="preserve">
+          <source>More apps are now compatible with Intune MAM policies</source>
+          <target state="translated">Weitere apps sind jetzt mit Intune MAM-Richtlinien kompatibel.</target>
+        </trans-unit>
+        <trans-unit id="551" translate="yes" xml:space="preserve">
+          <source>Additional apps from Microsoft partners are now compatible with Intune mobile application management (MAM) policies (for devices managed by Intune):</source>
+          <target state="translated">Zusätzliche apps von Microsoft-Partner sind jetzt kompatibel mit Intune mobile Application Management (MAM)-Richtlinien (für Geräte von Intune verwaltet werden):</target>
+        </trans-unit>
+        <trans-unit id="552" translate="yes" xml:space="preserve">
+          <source>Box for EMM (from Box Inc) – iOS only</source>
+          <target state="translated">Feld für EMM (von Feld Inc) – nur iOS</target>
+        </trans-unit>
+        <trans-unit id="553" translate="yes" xml:space="preserve">
+          <source>Adobe Reader (from Adobe) – Android only</source>
+          <target state="translated">Adobe Reader (Adobe) – nur Android</target>
+        </trans-unit>
+        <trans-unit id="554" translate="yes" xml:space="preserve">
+          <source>Foxit PDF Reader (from Foxit Corporation) – iOS and Android</source>
+          <target state="translated">Foxit PDF-Reader (von Foxit Corporation) – iOS und Android</target>
+        </trans-unit>
+        <trans-unit id="555" translate="yes" xml:space="preserve">
+          <source>IE9 support ending in January</source>
+          <target state="translated">IE9 Support endet im Januar</target>
+        </trans-unit>
+        <trans-unit id="556" translate="yes" xml:space="preserve">
+          <source>Starting in February, 2016, Internet Explorer 9 will no longer be supported as an official browser for accessing the Microsoft Intune company portal website, Intune account portal, and Intune administration console.</source>
+          <target state="translated">Ab Februar 2016, wird Internet Explorer 9 nicht mehr als offizielle Browser für den Zugriff auf die Microsoft Intune-Unternehmensportal-Website-Portals und Intune-Verwaltungskonsole unterstützt werden.</target>
+        </trans-unit>
+        <trans-unit id="557" translate="yes" xml:space="preserve">
+          <source>You will need to migrate to Internet Explorer 10 or later.</source>
+          <target state="translated">Sie müssen Internet Explorer 10 oder höher migrieren.</target>
+        </trans-unit>
+        <trans-unit id="558" translate="yes" xml:space="preserve">
+          <source>What's new in Intune</source>
+          <target state="translated">Was ist neu in Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

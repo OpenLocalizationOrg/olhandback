@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b02804f933f8c259ea12efefd0353a7d5ceda25c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\windows-configuration-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">405fc566b26e43a5fe1db0ec3102fde729da2414</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51d4014a749d88ab860c0de5475456a44ec61da6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Windows policy settings | Microsoft Intune</source>
+          <target state="translated">Windows-Richtlinien | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the Intune Windows general configuration policy (Windows 8.1 and later) to configure settings for enrolled Windows 8, and Windows 8.1 devices.</source>
+          <target state="translated">Verwenden Sie die Intune Windows-Konfigurationsrichtlinie (Windows 8.1 und höher), um Einstellungen für registrierte Windows 8- und Windows 8.1-Geräte zu konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Windows policy settings in Microsoft Intune</source>
+          <target state="translated">Windows-Richtlinien in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune <bpt id="p1">**</bpt>Windows general configuration policy (Windows 8.1 and later)<ept id="p1">**</ept> to configure the following settings for enrolled Windows 8 and Windows 8.1 devices:</source>
+          <target state="translated">Verwenden Sie die Microsoft Intune <bpt id="p1">**</bpt>Windows-Konfigurationsrichtlinie (Windows 8.1 und höher)<ept id="p1">**</ept> So konfigurieren Sie die folgenden Einstellungen für registrierte Windows 8 und Windows 8.1-Geräte:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Applicability settings</source>
+          <target state="translated">Anwendbarkeit Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Apply all configurations to Windows 10</source>
+          <target state="translated">Übernehmen Sie alle Konfigurationen für Windows 10</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enables settings in this policy to be applied to Windows 10 devices, in addition to Windows 8 and Windows 8.1 devices.</source>
+          <target state="translated">Aktiviert die Einstellungen in dieser Richtlinie auf Windows 10-Geräte, zusätzlich zu Windows 8 und Windows 8.1-Geräte angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Security settings</source>
+          <target state="translated">Sicherheitseinstellungen</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Required password type</source>
+          <target state="translated">Erforderlicher Kennworttyp</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Specifies the type of password that's required, such as alphanumeric or numeric only.</source>
+          <target state="translated">Gibt den Typ des Kennworts, das erforderlich ist, z. B. alphanumerische oder numerische nur an.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Required password type – Minimum number of character sets</source>
+          <target state="translated">Erforderlicher Kennworttyp – Mindestanzahl von Zeichensätzen</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Specifies how many different character sets must be included in the password.</source>
+          <target state="translated">Gibt an, wie viele Zeichensätze im Kennwort enthalten sein müssen.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>There are four character sets: lowercase letters, uppercase letters, numbers, and symbols.</source>
+          <target state="translated">Es gibt vier Zeichensätze: Kleinbuchstaben, Großbuchstaben, Zahlen und Symbole.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However, for iOS devices, this setting specifies the number of symbols that must be included in the password.</source>
+          <target state="translated">Für iOS-Geräte gibt diese Einstellung jedoch die Anzahl der Symbole, die im Kennwort enthalten sein müssen.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minimale Kennwortlänge<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Configures the minimum required length (in characters) for the password.</source>
+          <target state="translated">Konfiguriert die erforderliche Mindestlänge (in Zeichen) für das Kennwort.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
+          <target state="translated">Anzahl der zulässigen wiederholten Anmeldefehler, bevor die Gerätedaten zurückgesetzt werden</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Wipes the device if the sign-in attempts fail this number of times.</source>
+          <target state="translated">Das Gerät zurücksetzen, wenn der Anmeldeversuche diese Anzahl, wie oft nicht.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Minutes of inactivity before screen turns off</source>
+          <target state="translated">Minuten der Inaktivität, bevor der Bildschirm ausgeschaltet wird</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies the number of minutes a device must be idle before a password is required to unlock it.</source>
+          <target state="translated">Gibt die Anzahl von Minuten an, die ein Gerät inaktiv sein muss, bevor ein Kennwort zum Entsperren erforderlich ist.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Password expiration (days)</source>
+          <target state="translated">Kennwortablauf (Tage)</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days before the device password must be changed.</source>
+          <target state="translated">Gibt die Anzahl der Tage, bevor das Gerätekennwort geändert werden muss.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Remember password history</source>
+          <target state="translated">Kennwortverlauf speichern</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies whether the user can configure previously used passwords.</source>
+          <target state="translated">Gibt an, ob der Benutzer zuvor verwendete Kennwörter konfigurieren kann.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history<ept id="p1">**</ept> – <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortverlauf<ept id="p1">**</ept> – <bpt id="p2">**</bpt>erneute Verwendung früherer Kennwörter verhindern<ept id="p2">**</ept></target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the number of previously used passwords that are remembered by the device.</source>
+          <target state="translated">Gibt die Anzahl der zuvor verwendeten Kennwörter, die von dem Gerät gespeichert sind.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Allow picture password and PIN</source>
+          <target state="translated">Bildkennwort und PIN zulassen</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enables the use of a picture password and PIN.</source>
+          <target state="translated">Ermöglicht die Verwendung eines bildcode und PIN.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A picture password lets the user sign in with gestures on a picture.</source>
+          <target state="translated">Ein bildkennwort kann den Benutzer sich mit Gesten in einem Bild anzumelden.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A PIN lets users quickly sign in with a four-digit code.</source>
+          <target state="translated">Eine PIN kann Benutzer schnell sich mit einem vierstelligen Code anzumelden.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>1<ph id="ph1">&lt;/sup&gt;</ph> When you deploy a password length policy to devices that run Windows RT, users will be forced to reset their passwords, even if their current password complies with the policy requirements.</source>
+          <target state="translated">1<ph id="ph1">&lt;/sup&gt;</ph> beim Bereitstellen einer Kennwortrichtlinie für die Länge für Geräte, auf denen Windows RT ausgeführt, Benutzer ist gezwungen, ihre Kennwörter zurücksetzen, selbst wenn ihr aktuelle Kennwort den richtlinienanforderungen entspricht.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Encryption settings</source>
+          <target state="translated">Verschlüsselungseinstellungen</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verschlüsselung auf Mobilgeräten<ept id="p1">**</ept><ph id="ph1">&lt;sup&gt;</ph>1</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Requires that files on the device are encrypted.</source>
+          <target state="translated">Erfordert, dass Dateien auf dem Gerät verschlüsselt werden.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For Windows Phone 8 devices, you must set this to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+          <target state="translated">Für Windows Phone 8-Geräten, Sie müssen festlegen, um <bpt id="p1">**</bpt>Ja<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>1<ph id="ph1">&lt;/sup&gt;</ph> Additional information for devices that run Windows 8.1</source>
+          <target state="translated">1<ph id="ph1">&lt;/sup&gt;</ph> zusätzliche Informationen für Geräte die Windows 8.1 ausführen</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To enforce encryption on devices that run Windows 8.1, you must install the <bpt id="p1">[</bpt>December 2014 MDM client update for Windows<ept id="p1">](http://support.microsoft.com/kb/3013816)</ept> on each device.</source>
+          <target state="translated">Um die Verschlüsselung auf Geräten zu erzwingen, Windows 8.1 ausführen, müssen Sie installieren die <bpt id="p1">[</bpt>Dezember 2014 MDM Clientupdate für Windows<ept id="p1">](http://support.microsoft.com/kb/3013816)</ept> auf jedem Gerät.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If you enable this setting for Windows 8.1 devices, all users of the device must have a Microsoft account.</source>
+          <target state="translated">Wenn Sie diese Einstellung für Windows 8.1-Geräte aktivieren, müssen alle Benutzer des Geräts ein Microsoft-Konto verfügen.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For encryption to work, the device must meet the Microsoft <bpt id="p1">[</bpt>InstantGo<ept id="p1">](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/)</ept> hardware certification requirements.</source>
+          <target state="translated">Für die Verschlüsselung funktioniert, muss das Gerät erfüllen Microsoft <bpt id="p1">[</bpt>InstantGo<ept id="p1">](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/)</ept> hardwarezertifizierungsanforderungen.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When you enforce encryption on a device, the recovery key is only accessible from the user's Microsoft account, which is accessed from their OneDrive account.</source>
+          <target state="translated">Wenn Sie die Verschlüsselung auf einem Gerät erzwingen, ist der Wiederherstellungsschlüssel nur über das Konto des Benutzers Microsoft, das von ihrem OneDrive-Konto zugegriffen werden kann.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You cannot recover this key on behalf of a user.</source>
+          <target state="translated">Dieser Schlüssel im Auftrag eines Benutzers kann nicht wiederhergestellt werden.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Malware settings</source>
+          <target state="translated">Malware-Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Require network firewall</source>
+          <target state="translated">Netzwerkfirewall erforderlich</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Requires that the Windows Firewall is turned on.</source>
+          <target state="translated">Erfordert, dass die Windows-Firewall aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Enable SmartScreen</source>
+          <target state="translated">SmartScreen aktivieren</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Requires the use of Windows SmartScreen.</source>
+          <target state="translated">Erfordert die Verwendung von Windows SmartScreen.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>System settings</source>
+          <target state="translated">Systemeinstellungen</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Require automatic updates</source>
+          <target state="translated">Automatische Updates erforderlich</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Turns on the automatic updates setting on devices.</source>
+          <target state="translated">Aktiviert die automatische Updates, die auf Geräten festlegen.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Require automatic updates – Minimum classification of updates to install automatically</source>
+          <target state="translated">Automatische Updates erforderlich – mindestklassifizierung von Updates zur automatischen Installation</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Chooses the classification of updates that will be installed automatically:</source>
+          <target state="translated">Wählt die Klassifizierung der Updates, die automatisch installiert werden:</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Important<ept id="p1">**</ept> – Installs all updates that are classified as important.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Wichtige<ept id="p1">**</ept> – installiert alle Updates, die als wichtig klassifiziert sind.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recommended<ept id="p1">**</ept> – Installs all updates that are classified as important or recommended.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Empfohlene<ept id="p1">**</ept> – installiert alle Updates, die als wichtig eingestuft oder empfohlen werden.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>User Account Control</source>
+          <target state="translated">Benutzerkontensteuerung</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Requires the use of User Account Control (UAC) on devices.</source>
+          <target state="translated">Erfordert die Verwendung der Benutzerkontensteuerung (UAC) auf Geräten.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Allow diagnostic data submission</source>
+          <target state="translated">Übermitteln von Diagnosedaten zulassen</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enables the device to submit diagnostic information to Microsoft.</source>
+          <target state="translated">Aktiviert das Gerät Diagnoseinformationen an Microsoft zu übermitteln.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Cloud settings – documents and data</source>
+          <target state="translated">Cloudeinstellungen Sie – Dokumente und Daten</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Work Folders URL</source>
+          <target state="translated">URL der Arbeitsordner</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Sets the URL of the work folder to allow documents to be synchronized across devices.</source>
+          <target state="translated">Legt die URL des Arbeitsordners, Dokumente auf verschiedenen Geräten synchronisiert werden können.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Email settings</source>
+          <target state="translated">E-Mail-Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Make Microsoft account optional in Windows Mail application</source>
+          <target state="translated">Microsoft-Konto in Windows Mail-Anwendung optional machen</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Enables access to the Windows Mail application without a Microsoft account.</source>
+          <target state="translated">Ermöglicht den Zugriff auf die Windows Mail-Anwendung ohne Microsoft-Konto.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Application settings - browser</source>
+          <target state="translated">Anwendungseinstellungen – Browser</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Allow autofill</source>
+          <target state="translated">AutoAusfüllen zulassen</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Enables users to change autocomplete settings in the browser.</source>
+          <target state="translated">Ermöglicht Benutzern das Autocomplete-Einstellungen im Browser zu ändern.</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Allow pop-up blocker</source>
+          <target state="translated">Popupblocker zulassen</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Enables or disables the browser pop-up blocker.</source>
+          <target state="translated">Aktiviert oder deaktiviert den Popupblocker des Webbrowsers.</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Allow plug-ins</source>
+          <target state="translated">Plugins zulassen</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Enables users to add plug-ins to Internet Explorer.</source>
+          <target state="translated">Ermöglicht Benutzern, die Internet Explorer-Plug-ins hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Allow active scripting</source>
+          <target state="translated">Active Scripting zulassen</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Enables the browser to run scripts, such as Active X scripts.</source>
+          <target state="translated">Können den Browser zum Ausführen von Skripts, z. B. ActiveX-Skripts.</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Allow fraud warning</source>
+          <target state="translated">Betrugswarnung zulassen</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Enables or disables warnings for potential fraudulent websites.</source>
+          <target state="translated">Aktiviert oder deaktiviert die Warnungen für mögliche gefälschte Websites.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Allow intranet site for single word entry</source>
+          <target state="translated">Wechsel zu Intranetsite nach Eingabe eines einzelnen Worts zulassen</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Enables use of a single word to direct Internet Explorer to a web site, such as Bing.</source>
+          <target state="translated">Aktiviert die Verwendung eines einzelnen Wortes, um Internet Explorer auf eine Website, z. B. Bing weiterzuleiten.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Allow automatic detection of intranet network</source>
+          <target state="translated">Automatische Erkennung des Intranets zulassen</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Helps configure security for intranet sites in Internet Explorer.</source>
+          <target state="translated">Unterstützt das Konfigurieren von Sicherheit für Intranetsites in Internet Explorer.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Security level for Internet</source>
+          <target state="translated">Sicherheitsstufe für Internet</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Sets the Internet Explorer security level for Internet sites.</source>
+          <target state="translated">Legt fest, die Internet Explorer-Sicherheitsstufe für Internet-Sites.</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Security level for intranet</source>
+          <target state="translated">Sicherheitsstufe für Intranet</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Sets the Internet Explorer security level for intranet sites.</source>
+          <target state="translated">Legt fest, die Internet Explorer-Sicherheitsstufe für Intranetsites.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Security level for trusted sites</source>
+          <target state="translated">Sicherheitsstufe für vertrauenswürdige Sites</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Configures the security level for the trusted sites zone.</source>
+          <target state="translated">Konfiguriert die Sicherheitsstufe für vertrauenswürdige Sites.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Security level for restricted sites</source>
+          <target state="translated">Sicherheitsstufe für eingeschränkte Sites</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Configures the security level for the restricted sites zone.</source>
+          <target state="translated">Konfiguriert die Sicherheitsstufe für eingeschränkte Sites.</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Send Do Not Track header</source>
+          <target state="translated">Header "Nicht nachverfolgen" senden</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Sends  a do not track header to visited sites in Internet Explorer.</source>
+          <target state="translated">Sendet eine Header besuchten Sites in Internet Explorer nicht verfolgen.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Allow Enterprise Mode menu access</source>
+          <target state="translated">Menüzugriff im Enterprise-Modus erlauben</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Lets users access the Enterprise Mode menu options from Internet Explorer.</source>
+          <target state="translated">Können Benutzer die Optionen im Enterprise-Modus von Internet Explorer zugreifen.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>If you select this setting, you can also specify a <bpt id="p1">**</bpt>Logging report location<ept id="p1">**</ept>, which contains a URL to a report that shows websites for which users have turned on Enterprise Mode access.</source>
+          <target state="translated">Wenn Sie diese Einstellung auswählen, können Sie auch angeben einer <bpt id="p1">**</bpt>Protokollieren des berichtsspeicherorts<ept id="p1">**</ept>, enthält eine URL für einen Bericht mit den Websites für den Benutzer im Enterprise-Modus Zugriff aktiviert haben.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Enterprise Mode site list location</source>
+          <target state="translated">Ort der Standortliste für Enterprise-Modus</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Specifies the location of the list of websites that will use Enterprise Mode when it is active.</source>
+          <target state="translated">Gibt den Speicherort der Liste der Websites, die Enterprise-Modus verwendet wird, wenn es aktiv ist.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Device capabilities settings - cellular</source>
+          <target state="translated">Einstellungen für Gerätefunktionen - Mobiltelefon</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Setting name</source>
+          <target state="translated">Einstellungsname</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="translated">Details</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 and Windows RT 8.1</source>
+          <target state="translated">Windows 8.1 und Windows RT 8.1</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Windows RT</source>
+          <target state="translated">Windows RT</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Allow data roaming</source>
+          <target state="translated">Datenroaming zulassen</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Enables data roaming when the device is on a cellular network.</source>
+          <target state="translated">Ermöglicht die roaming, wenn das Gerät über das Mobilfunknetz ist.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Ja</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Nein</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

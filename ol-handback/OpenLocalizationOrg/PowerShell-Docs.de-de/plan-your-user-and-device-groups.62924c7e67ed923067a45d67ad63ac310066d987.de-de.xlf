@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9fc92c7724a9e1f256faa8b028bcf93e354e7997</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\plan-your-user-and-device-groups.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83d747b229aa96f785774432f87cb0551ede488a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfb0b95d3d16950836f4f84a276a86dc77a3ff40</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Plan your user and device groups | Microsoft Intune</source>
+          <target state="translated">Planen Sie die Benutzer- und Gerätegruppen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Plan groups to meet your organizational needs.</source>
+          <target state="translated">Planen von Gruppen, um die Bedürfnisse Ihrer Organisation zu erfüllen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Plan your user and device groups</source>
+          <target state="translated">Planen Sie die Benutzer- und Gerätegruppen</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Groups in Intune give you great flexibility when you're managing your devices and users.</source>
+          <target state="translated">Gruppen in Intune bietet eine hohe Flexibilität beim Verwalten von Geräten und Benutzern.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can set up groups to suit your organizational needs according to:</source>
+          <target state="translated">Sie können Gruppen einrichten, um den Bedürfnissen Ihrer Organisation entsprechend:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>geographic location</source>
+          <target state="translated">geografischen Standort</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>department</source>
+          <target state="translated">Abteilung</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>hardware characteristics</source>
+          <target state="translated">Hardware-Eigenschaften</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>operating system</source>
+          <target state="translated">Betriebssystem</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>whether the device is user-owned or company-owned</source>
+          <target state="translated">Gibt an, ob das Gerät im Besitz des Benutzers oder unternehmenseigene wird</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How Intune groups work</source>
+          <target state="translated">Funktionsweise von Intune-Gruppen</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is the default view of the <bpt id="p1">**</bpt>Groups<ept id="p1">**</ept> node in the Intune admin console:</source>
+          <target state="translated">Dies ist die Standardansicht von der <bpt id="p1">**</bpt>Gruppen<ept id="p1">**</ept> Knoten in der Intune-Verwaltungskonsole:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of the default view of the Groups node in the Intune console</source>
+          <target state="translated">Screenshot der Standardansicht des Knotens "Gruppen" in der Intune-Konsole</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Policies are deployed to groups, so group hierarchy is one of your key design considerations.</source>
+          <target state="translated">Richtlinien sind Gruppen Gruppenhierarchie ist eines der wichtigsten Überlegungen bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's important to know that you cannot change a group’s parent group after you've created the group.</source>
+          <target state="translated">Es ist wichtig zu wissen, dass Sie die übergeordnete Gruppe nicht ändern können, nachdem Sie die Gruppe erstellt haben.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How you design your groups is critically important from the moment you start using the Intune service.</source>
+          <target state="translated">Wie Sie Ihre Gruppen entwerfen ist ausgesprochen wichtig, von dem Moment an, den Sie beginnen, mit dem Intune-Dienst.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Some recommended practices for designing a group hierarchy based on your organizational needs are described here.</source>
+          <target state="translated">Einige empfohlene Methoden zum Entwerfen einer Gruppenhierarchie basierend auf die Bedürfnisse Ihrer Organisation werden im folgenden beschrieben.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Group membership rules</source>
+          <target state="translated">Regeln für Gruppenmitgliedschaft</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A group can contain either users or devices, but not both.</source>
+          <target state="translated">Eine Gruppe kann entweder Benutzer oder Geräte enthalten, aber nicht beides.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Device groups<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gerätegruppen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This includes computers and mobile devices.</source>
+          <target state="translated">Dies umfasst Computer und mobile Geräte.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can add a computer to a group, it must be enrolled.</source>
+          <target state="translated">Bevor Sie einer Gruppe einen Computer hinzufügen können, muss dieser registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before you can add a mobile device to a group, your environment must be configured to support mobile devices, and the device must be enrolled or discovered in Exchange ActiveSync.</source>
+          <target state="translated">Bevor Sie ein mobiles Gerät zu einer Gruppe hinzufügen können, muss Ihre Umgebung zur Unterstützung mobiler Geräte konfiguriert werden, und das Gerät muss registriert werden, oder Exchange ActiveSync ermittelt werden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User groups<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Benutzergruppen<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A group can have users from security groups.</source>
+          <target state="translated">Eine Gruppe kann Benutzer aus Sicherheitsgruppen aufweisen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Security groups sync with your instance of Active Directory.</source>
+          <target state="translated">Sicherheit Gruppen synchronisieren mit Ihrer Instanz von Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you do not sync with Active Directory, you can manually create these groups.</source>
+          <target state="translated">Wenn Sie nicht mit Active Directory synchronisieren, können Sie diese Gruppen manuell erstellen.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A device or a user can belong to more than one group.</source>
+          <target state="translated">Ein Gerät oder ein Benutzer kann zu mehr als einer Gruppe gehören.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A group can include and exclude members based on the following membership rules:</source>
+          <target state="translated">Mitglieder können in einer Gruppe auf Basis folgender Mitgliedschaftsregeln ein- und ausgeschlossen werden:</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Criteria Membership<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mitgliedschaft nach Kriterien<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>These are dynamic rules that Intune runs to include or exclude members.</source>
+          <target state="translated">Hierbei handelt es sich um dynamische Regeln, die von Intune zum einschließen oder Ausschließen von Mitglieder ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>These criteria use security groups and other information synced with your local instance of Active Directory.</source>
+          <target state="translated">Diese Kriterien verwenden, Sicherheitsgruppen und andere Informationen, die mit der lokalen Instanz von Active Directory synchronisiert.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When the security group or data changes, the group membership changes when you sync with Active Directory.</source>
+          <target state="translated">Wenn die Sicherheitsgruppe oder Daten geändert wird, ändert sich die Gruppenmitgliedschaft beim Synchronisieren mit Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct Membership<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Direkte Mitgliedschaft<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These are static rules that explicitly add or exclude members.</source>
+          <target state="translated">Hierbei handelt es sich um statische Regeln, die explizit hinzufügen oder Ausschließen von Mitgliedern.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The membership list is static.</source>
+          <target state="translated">Die Mitgliederliste ist statisch.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Active Directory Domain Services (AD DS) is not required when you create user groups or device groups that include users or computers.</source>
+          <target state="translated">Active Directory-Domänendienste (AD DS) ist nicht erforderlich, beim Erstellen von Benutzergruppen oder Gerätegruppen, die Benutzer oder Computer enthalten.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>But, for device groups to include mobile devices, your environment must be configured to support mobile devices.</source>
+          <target state="translated">Aber für Gerätegruppen, mobile Geräte enthalten sollen, muss Ihre Umgebung zur Unterstützung mobiler Geräte konfiguriert werden.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Additionally, the devices must be discovered and added to Intune.</source>
+          <target state="translated">Darüber hinaus müssen die Geräte ermittelt und Intune hinzugefügt werden.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Group relationship rules</source>
+          <target state="translated">Regeln für die Beziehung von Gruppen</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Each group you create must have a parent group.</source>
+          <target state="translated">Jede Gruppe, die Sie erstellen, muss eine übergeordnete Gruppe haben.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You cannot change a group’s parent group after you've created the group.</source>
+          <target state="translated">Nachdem Sie die Gruppe erstellt haben, können Sie die übergeordnete Gruppe nicht ändern.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you add users or devices to a child group:</source>
+          <target state="translated">Wenn Sie Benutzer oder Geräte einer untergeordneten Gruppe hinzufügen:</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The child group is always a subset of the parent group.</source>
+          <target state="translated">Die untergeordnete Gruppe ist immer eine Teilmenge der übergeordneten Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>New members you add to a child group are automatically added to that group’s parent group.</source>
+          <target state="translated">Neue Elemente, die Sie einer untergeordneten Gruppe hinzugefügt werden, deren übergeordnete Gruppe automatisch hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You cannot add a member to a child group when that member is excluded from the parent group.</source>
+          <target state="translated">Mitglieder, die von der übergeordneten Gruppe ausgeschlossen wurden, können der untergeordneten Gruppe nicht hinzugefügt werden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The membership of a parent group defines the available membership for the child group.</source>
+          <target state="translated">Die verfügbare Mitgliedschaft einer untergeordneten Gruppe wird durch die Mitgliedschaft der übergeordneten Gruppe definiert.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When you delete a parent group, all child groups are deleted.</source>
+          <target state="translated">Beim Löschen einer übergeordneten Gruppe werden alle untergeordneten Gruppen gelöscht.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can deploy content and policies to a parent group but exclude the deployment to child groups.</source>
+          <target state="translated">Bereitstellen von Inhalt und Richtlinien für eine übergeordnete Gruppe können die Bereitstellung für untergeordnete Gruppen ausschließen.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can add a specific user or device to a child group if the user or device is not already a member of the parent group.</source>
+          <target state="translated">Sie können einen bestimmten Benutzer oder ein Gerät zu einer untergeordneten Gruppe hinzufügen, wenn der Benutzer bzw. das Gerät nicht bereits ein Mitglied der übergeordneten Gruppe ist.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you do this, the new member of the child group will be added to the parent group.</source>
+          <target state="translated">Wenn Sie dies tun, wird das neue Mitglied der untergeordneten Gruppe der übergeordneten Gruppe hinzugefügt werden.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, you cannot add a member to a child group if the member is excluded from the parent group.</source>
+          <target state="translated">Sie können jedoch Mitglied zu einer untergeordneten Gruppe hinzufügen, wenn das Element aus der übergeordneten Gruppe ausgeschlossen wird.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Group membership is recursive.</source>
+          <target state="translated">Gruppenmitgliedschaften sind rekursiv.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pat<ept id="p1">**</ept> is a member of only one group, the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> security group.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Pat<ept id="p1">**</ept> ist nur bei einer Gruppe ein Element der <bpt id="p2">**</bpt>Laptopbenutzer<ept id="p2">**</ept> Sicherheitsgruppe.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept> group is a member of the <bpt id="p2">**</bpt>Approved Users<ept id="p2">**</ept> security group.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Laptopbenutzer<ept id="p1">**</ept> Gruppe ist ein Mitglied der <bpt id="p2">**</bpt>genehmigte Benutzer<ept id="p2">**</ept> Sicherheitsgruppe.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You create a group in Intune that uses a dynamic membership query that includes the members of the <bpt id="p1">**</bpt>Approved Users<ept id="p1">**</ept> group.</source>
+          <target state="translated">Erstellen Sie eine Gruppe von Intune, die eine dynamischen Mitgliedschaftsabfrage verwendet, die die Mitglieder enthält die <bpt id="p1">**</bpt>genehmigte Benutzer<ept id="p1">**</ept> Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The result is that your Intune user group includes <bpt id="p1">**</bpt>Pat<ept id="p1">**</ept>.</source>
+          <target state="translated">Das Ergebnis ist, dass Ihre Intune-Benutzergruppe enthält <bpt id="p1">**</bpt>Pat<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When you create groups, think about how you will apply policy.</source>
+          <target state="translated">Wenn Sie Gruppen erstellen, sollten überlegen Sie, wie Sie die Richtlinie angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, you might have policies that are specific to device operating systems, or policies that are specific to different roles or organizational units you've already defined in your Active Directory service.</source>
+          <target state="translated">Beispielsweise müssen Sie möglicherweise Richtlinien, die speziell für das Betriebssystem des Geräts, oder Richtlinien, die für verschiedene Rollen oder Organisationseinheiten, die Sie bereits in Active Directory-Dienst definiert haben.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Some admins find it useful to create device groups that are specific to iOS, Android, and Windows.</source>
+          <target state="translated">Einige Administratoren sinnvoll es, Gerätegruppen erstellen, die spezifisch für iOS, Android und Windows sind.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This is in addition to creating user groups for each organizational role.</source>
+          <target state="translated">Dies erfolgt zusätzlich zum Erstellen von Benutzergruppen für jede Rolle im Unternehmen.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Built-in groups</source>
+          <target state="translated">Integrierte Gruppen</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Intune has nine built-in groups that you cannot edit or delete:</source>
+          <target state="translated">Intune besteht aus neun integrierte Gruppen, die Sie bearbeiten oder löschen können:</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>All Users</source>
+          <target state="translated">Alle Benutzer</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Ungrouped Users</source>
+          <target state="translated">Nicht gruppierte Benutzer</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>All Devices</source>
+          <target state="translated">Alle Geräte</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>All Computers</source>
+          <target state="translated">Alle Computer</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>All Mobile Devices</source>
+          <target state="translated">Alle mobilen Geräte</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>All Direct Managed Devices</source>
+          <target state="translated">Alle direkt verwalteten Geräte</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>All Exchange ActiveSync Managed Devices</source>
+          <target state="translated">Alle mit Exchange ActiveSync verwalteten Geräte</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>All Corporate-owned Devices</source>
+          <target state="translated">Alle firmeneigenen Geräte</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Ungrouped Devices</source>
+          <target state="translated">Nicht gruppierte Geräte</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Let your motto be: <bpt id="p1">*</bpt>keep it simple<ept id="p1">*</ept>.</source>
+          <target state="translated">Lassen Sie Ihre Motto werden: <bpt id="p1">*</bpt>ganz einfach<ept id="p1">*</ept>.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If your organization does not have specific needs like those described in the following sections, keep it simple and go with the default group structure and policies.</source>
+          <target state="translated">Wenn Ihre Organisation keinen speziellen Bedürfnisse wie die in den folgenden Abschnitten beschriebenen, halten Sie es einfach und klicken Sie mit der Struktur der Standard-Gruppen und Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This will make the service more manageable in the long term.</source>
+          <target state="translated">Den Dienst wird in langfristig leichter gemacht.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Maintenance will be easier if you can treat your users uniformly.</source>
+          <target state="translated">Wartung ist einfacher, wenn Ihre Benutzer einheitlich behandelt werden können.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>With little differentiation by group, you'll have fewer policies to maintain.</source>
+          <target state="translated">Mit kleinen unterschieden nach Gruppen müssen Sie weniger Richtlinien zu verwalten.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>All users and devices in your organization</source>
+          <target state="translated">Alle Benutzer und Geräte in Ihrer Organisation</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Define a parent group for all users and devices in your organization.</source>
+          <target state="translated">Definieren Sie eine übergeordnete Gruppe für alle Benutzer und Geräte in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You are likely to have policies that will apply to all.</source>
+          <target state="translated">Sie werden wahrscheinlich über Richtlinien verfügen, die für alle gelten.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can use the Intune default <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> groups for this purpose.</source>
+          <target state="translated">Können Sie die Standardeinstellung Intune <bpt id="p1">**</bpt>alle Benutzer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>alle Geräte<ept id="p2">**</ept> Gruppen für diesen Zweck.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Sub-groups that organize devices by specifics, like a group for bring your own device (BYOD) and one for corporate-owned (CO) devices, can be child groups of the <bpt id="p1">**</bpt>All Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>All devices<ept id="p2">**</ept> parent groups.</source>
+          <target state="translated">Untergruppen, die Geräte nach Informationen zu organisieren, schalten Sie eine Gruppe für Ihre eigenen Device (BYOD) und eine für firmeneigenen (CO) Geräte können untergeordnete Gruppen werden die <bpt id="p1">**</bpt>alle Benutzer<ept id="p1">**</ept> und <bpt id="p2">**</bpt>alle Geräte<ept id="p2">**</ept> übergeordnete Gruppen.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Customize groups for your organization</source>
+          <target state="translated">Anpassen von Gruppen für Ihre Organisation</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>BYOD and corporate-owned devices</source>
+          <target state="translated">BYOD und firmeneigenen Geräten</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>If your organization allows employees to use their own devices, provides company-owned devices, or has a combination of both, we recommend that you apply separate policies for these categories of devices.</source>
+          <target state="translated">Wenn Ihre Organisation Mitarbeiter ihre eigenen Geräte verwenden kann, dem Unternehmen gehörende Geräte bietet oder verfügt über eine Kombination aus beidem, empfehlen wir, dass Sie verschiedene Richtlinien für diese Kategorien von Geräten anwenden.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>In the case of BYOD or a mix, be careful to plan policies that do not infringe on local privacy regulations.</source>
+          <target state="translated">Im Fall von BYOD oder eine Mischung Achten Sie Richtlinien zu planen, die auf lokalen Richtlinien nicht verletzt werden.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Create a parent group for all users who will be bringing their own devices.</source>
+          <target state="translated">Erstellen Sie eine übergeordnete Gruppe für alle Benutzer, die ihre eigenen Geräte verbringen.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can use this group to apply policies that are applicable to all users in this category.</source>
+          <target state="translated">Dieser Gruppe können Sie Richtlinien anwenden, die für alle Benutzer in dieser Kategorie gelten.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Creating a BYOD parent group</source>
+          <target state="translated">Erstellen einer übergeordneten Gruppe für BYOD</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Similarly, you can create a group for the CO device users in your organization:</source>
+          <target state="translated">Auf ähnliche Weise können Sie eine Gruppe für den CO Benutzern in Ihrer Organisation erstellen:</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Sibling user groups for BYOD and CO devices</source>
+          <target state="translated">Gleichgeordnetes Element von Benutzergruppen für BYOD und CO-Geräte</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Groups for geographic regions</source>
+          <target state="translated">Gruppen für geografische Regionen</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If your organization needs policies for specific regions, you can create groups based on geographic region.</source>
+          <target state="translated">Wenn Ihr Unternehmen Richtlinien für bestimmte Regionen benötigt, können Sie Gruppen auf Grundlage der geografischen Region erstellen.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can base them on regional groups that you might have already created in your instance of Active Directory, and sync them with your Azure Active Directory service.</source>
+          <target state="translated">Sie zugrunde regionalen Gruppen, die Sie möglicherweise bereits in Ihrer Instanz von Active Directory erstellt haben, und synchronisieren Sie sie mit Ihrem Azure Active Directory-Dienst.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You also can create regional groups directly in Azure Active Directory.</source>
+          <target state="translated">Sie können auch direkt in Azure Active Directory regionale Gruppen erstellen.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The next screenshots show you how to create Intune groups based on groups synced with your on-premises Active Directory instance.</source>
+          <target state="translated">Die nächste Screenshots zeigen, wie zum Erstellen von Intune-Gruppen anhand von Gruppen, die mit Ihrem lokalen Active Directory-Instanz synchronisiert.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>These examples assume that you have an Active Directory security group called <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept>.</source>
+          <target state="translated">In diesen Beispielen wird vorausgesetzt, dass Sie eine Active Directory-Sicherheitsgruppe namens <bpt id="p1">**</bpt>uns Benutzergruppe<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>First, provide general information.</source>
+          <target state="translated">Geben Sie zuerst die allgemeine Informationen.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group area</source>
+          <target state="translated">Screenshot der Bereich Gruppe bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Membership criteria<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>US Users Group<ept id="p2">**</ept>, synced with Active Directory, as the security group to use under membership rules.</source>
+          <target state="translated">Unter <bpt id="p1">**</bpt>Mitgliedschaftskriterien<ept id="p1">**</ept>, Option <bpt id="p2">**</bpt>uns Benutzergruppe<ept id="p2">**</ept>, synchronisierte mit Active Directory als Sicherheitsgruppe unter Mitgliedschaftsregeln verwenden.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group dialog box</source>
+          <target state="translated">Screenshot des Dialogfelds Gruppe bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the group.</source>
+          <target state="translated">Überprüfen Sie Ihre Eingaben, und wählen Sie dann <bpt id="p1">**</bpt>Fertig stellen<ept id="p1">**</ept> zum Erstellen der Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Edit Group dialog box</source>
+          <target state="translated">Screenshot des Dialogfelds Gruppe bearbeiten</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In our example, we’ve also created a group called <bpt id="p1">**</bpt>MEA<ept id="p1">**</ept>, for the Middle East and Asia.</source>
+          <target state="translated">In unserem Beispiel haben wir auch eine Gruppe namens erstellt <bpt id="p1">**</bpt>hinsichtlich<ept id="p1">**</ept>, für den Nahen Osten und Asien.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If group membership is not populated based on security group membership, make sure that you have assigned Intune licenses to group members.</source>
+          <target state="translated">Stellen Sie die Gruppenmitgliedschaft nicht ausgefüllt ist basierend auf der Mitgliedschaft in Sicherheitsgruppen, sicher, dass Sie Mitglieder der Intune-Lizenzen zugewiesen haben.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Groups for specific hardware</source>
+          <target state="translated">Gruppen für bestimmte hardware</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>If your organization requires policies that apply to specific hardware types, you can create groups based on this requirement.</source>
+          <target state="translated">Wenn Ihre Organisation Richtlinien, die für bestimmte Hardwaretypen gelten erfordert, können Sie Gruppen auf Grundlage dieser Anforderung erstellen.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can base the policies on specific groups that you have already created in your on-premises instance of Active Directory, and then sync them with Azure Active Directory.</source>
+          <target state="translated">Sie können als Grundlage für die Richtlinien für bestimmte Gruppen, die Sie bereits in der lokalen Instanz von Active Directory erstellt haben und diese dann in Azure Active Directory synchronisieren.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You also can create groups directly in Azure Active Directory.</source>
+          <target state="translated">Sie können Gruppen auch direkt in Azure Active Directory erstellen.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In this example, we use <bpt id="p1">**</bpt>US Users Group<ept id="p1">**</ept> as the parent group for the <bpt id="p2">**</bpt>Laptop Users<ept id="p2">**</ept> group.</source>
+          <target state="translated">In diesem Beispiel verwenden wir <bpt id="p1">**</bpt>uns Benutzergruppe<ept id="p1">**</ept> als übergeordnete Gruppe für die <bpt id="p2">**</bpt>Laptopbenutzer<ept id="p2">**</ept> Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Select Security Group dialog box</source>
+          <target state="translated">Wählen Sie Sicherheit Gruppe (Dialogfeld)</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>At this point, your group's hierarchy should look similar to the next screenshot.</source>
+          <target state="translated">An diesem Punkt sollte Ihre Gruppe Hierarchie ähnlich wie im folgenden Screenshot aussehen.</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>You can see that there are now members in the Intune group <bpt id="p1">**</bpt>Laptop Users<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie sehen, dass in der Intune-Gruppe jetzt Mitglieder sind <bpt id="p1">**</bpt>Laptopbenutzer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Any policies applied to this group will be applied to BYOD laptop users from the U.S. region.</source>
+          <target state="translated">Alle Richtlinien für diese Gruppe werden von der Region USA BYOD Laptop-Benutzern angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Display of Laptop Users group</source>
+          <target state="translated">Anzeigen der Laptop-Benutzergruppe</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Groups for specific operating systems</source>
+          <target state="translated">Gruppen für bestimmte Betriebssysteme</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>If your organization requires policies that apply to specific operating systems like Android, iOS, or Windows, you can create groups based on this requirement.</source>
+          <target state="translated">Wenn Ihre Organisation Richtlinien, die für bestimmte Betriebssysteme wie Android, iOS oder Windows gelten erfordert, können Sie Gruppen auf Grundlage dieser Anforderung erstellen.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>As in earlier examples, you can base them on OS-specific groups that you have already created in your on-premises instance of Active Directory, and sync them with Azure Active Directory.</source>
+          <target state="translated">Wie in früheren Beispielen können sie als Grundlage für ein bestimmtes Betriebssystem-Gruppen, die Sie bereits in der lokalen Instanz von Active Directory erstellt haben und mit Azure Active Directory zu synchronisieren.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>You also can create them directly in your instance of Azure Active Directory.</source>
+          <target state="translated">Sie können auch direkt in Ihrer Instanz von Azure Active Directory erstellen.</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>By using the same method from earlier examples, you can create groups based on users <ph id="ph1">&lt;!--devices?--&gt;</ph> who use specific operating system platforms.</source>
+          <target state="translated">Mithilfe derselben Methode von vorherigen Beispielen können Sie Gruppen auf Grundlage der Benutzer erstellen <ph id="ph1">&lt;!--devices?--&gt;</ph> wer bestimmte Betriebssystem-Plattformen verwenden.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If you have users who use multiple mobile platforms or operating systems and you do not have an automated way to categorize users as Android users, iOS users, or Windows users, consider applying policies at the device level.</source>
+          <target state="translated">Wenn Benutzer mehrere mobile Plattformen oder Betriebssystemen, und Sie eine automatisierte Möglichkeit zum Kategorisieren von Benutzern als Android, iOS-Benutzer oder Windows-Benutzern nicht haben, sollten Sie die Richtlinien auf der Geräteebene.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>This will give you more flexibility to apply policies that are specific to an operating system.</source>
+          <target state="translated">Dadurch erhalten Sie mehr Flexibilität, Richtlinien anzuwenden, die spezifisch für ein Betriebssystem installiert sind.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>You cannot provision groups dynamically based on the operating system of the device.</source>
+          <target state="translated">Gruppen, die dynamisch basierend auf dem Betriebssystem des Geräts können nicht bereitgestellt werden.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Instead, do this by using Active Directory or Azure Active Directory security groups.</source>
+          <target state="translated">Stattdessen kann dazu mithilfe von Active Directory oder Azure Active Directory-Sicherheitsgruppen.</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Laptop users group</source>
+          <target state="translated">Gruppe der Laptop-Benutzer</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>After all of your user groups are populated based on your organizational requirements, your group hierarchy should look something like this:</source>
+          <target state="translated">Nachdem alle sollten Benutzer, die Gruppen auf Grundlage der Anforderungen Ihrer Organisation aufgefüllt werden, Ihre Hierarchie wie folgt aussehen:</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Group hierarchy view</source>
+          <target state="translated">Gruppe Hierarchie anzeigen</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>You can use this hierarchy to apply the organization's policies.</source>
+          <target state="translated">Diese Hierarchie können Sie die Richtlinien der Organisation anwenden.</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Device groups</source>
+          <target state="translated">Gerätegruppen</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You also can create similar groups for devices as shown here, starting with a broad group that includes all employee-owned devices, for the BYOD scenario.</source>
+          <target state="translated">Sie können auch ähnliche Gruppen für Geräte erstellen, wie hier gezeigt eine umfassende Gruppe, die alle im Besitz der Mitarbeiter Geräte, für die BYOD-Szenario umfasst ab.</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Create Group dialog box</source>
+          <target state="translated">Gruppe erstellen (Dialogfeld)</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Make sure that you select <bpt id="p1">**</bpt>All devices (computers and mobile)<ept id="p1">**</ept> so that the group will include all BYO devices:</source>
+          <target state="translated">Stellen Sie sicher, dass Sie <bpt id="p1">**</bpt>alle Geräte (Computer und Mobile)<ept id="p1">**</ept> sodass die Gruppe alle BYO-Geräte enthalten wird:</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Define membership criteria page</source>
+          <target state="translated">Definieren Sie die Seite "Mitgliedschaft"</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Review your entries, and then choose <bpt id="p1">**</bpt>Finish<ept id="p1">**</ept> to create the BYOD group.</source>
+          <target state="translated">Überprüfen Sie Ihre Eingaben, und wählen Sie dann <bpt id="p1">**</bpt>Fertig stellen<ept id="p1">**</ept> zum Erstellen der BYOD-Gruppe.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Create Group dialog box</source>
+          <target state="translated">Gruppe erstellen (Dialogfeld)</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Continue to create device groups until you have a device group hierarchy that is similar to the user group hierarchy.</source>
+          <target state="translated">Weiter mit Gerätegruppen erstellen, bis Sie eine Hierarchie verfügen, die der Hierarchie der Gruppe entspricht.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Your group node in the Intune console will look similar to this:</source>
+          <target state="translated">Die Gruppenknoten in der Intune-Konsole wird in etwa wie folgt aussehen:</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Intune groups hierarchy view</source>
+          <target state="translated">Intune-Gruppen Hierarchie anzeigen</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Group hierarchies and naming conventions</source>
+          <target state="translated">Hierarchien und Benennungskonventionen</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>To make policy management easier, we recommend that you name each policy according to the purpose, platform, and scope to which you apply it.</source>
+          <target state="translated">Gruppenrichtlinien-Verwaltungskonsole zu vereinfachen, wird empfohlen, Sie Namen jeder Richtlinie entsprechend den Zweck, Plattform und Bereich für die Sie anwenden.</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Use a naming standard that follows the group structure that you created when you prepared to apply your policies.</source>
+          <target state="translated">Verwenden Sie einen Benennungsstandard, der die Struktur, die Sie erstellt folgt, wenn Sie darauf vorbereitet, Ihre Richtlinien anwenden.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For instance, for an Android policy that applies to all corporate, Android, mobile devices at the U.S. regional level, you might name the policy <bpt id="p1">**</bpt>CO_US_Mob_Android_General<ept id="p1">**</ept>.</source>
+          <target state="translated">Z. B. für eine Android-Richtlinie, die für alle Unternehmen, Android, mobile Geräte auf regionaler Ebene US gilt, könnte, nennen Sie die Richtlinie <bpt id="p1">**</bpt>CO_US_Mob_Android_General<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Create policy for Android</source>
+          <target state="translated">Erstellen Sie für Android</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>When you name your policies this way, you can quickly identify policies and their intended use and scope in the <bpt id="p1">**</bpt>Policies<ept id="p1">**</ept> node, like this:</source>
+          <target state="translated">Wenn Sie die Richtlinien auf diese Weise benennen, können Sie schnell zu identifizieren, Richtlinien und ihres Verwendungszwecks und im Bereich der <bpt id="p1">**</bpt>Richtlinien<ept id="p1">**</ept> Knoten wie folgt:</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Intune policy list</source>
+          <target state="translated">Die Liste der Intune-Richtlinien</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Create groups</source>
+          <target state="translated">Erstellen von Gruppen</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

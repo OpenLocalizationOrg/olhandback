@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2746f2021757ed335be7958f6e7d59b16a3d7649</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\what-to-tell-your-end-users-about-using-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0bf8e8cdf81c5d39805656f0b463ace01688586</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d5ce89bf360504a619c5d0a8da948f09bcef11b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What to tell your end users about using Intune | Microsoft Intune</source>
+          <target state="translated">Informieren Sie Ihre Endbenutzer über die Verwendung von Intune | Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Links to information to share with your end users</source>
+          <target state="translated">Links zu Informationen für Ihre Endbenutzer freigeben</target>
+          
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What to tell your end users about using Microsoft Intune</source>
+          <target state="translated">Informieren Sie Ihre Endbenutzer über die Verwendung von Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use these links and information to:</source>
+          <target state="translated">Verwenden Sie diese Links und Informationen an:</target>
+          
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Understand the steps that your users follow to do different tasks in Intune.</source>
+          <target state="translated">Verstehen Sie die Schritte, die Benutzer verschiedene Aufgaben in Intune ausgeführt.</target>
+          
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Give to your users to help them complete tasks and solve issues they have while using Intune.</source>
+          <target state="translated">Geben Sie für Ihre Benutzer zum Abschließen von Aufgaben und Lösung von Problemen bei der Verwendung von Intune verfügen.</target>
+          
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Be sure that you include the IT administrator's contact information when you <bpt id="p1">[</bpt>customize the Company Portal<ept id="p1">](/Intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7)</ept> so that your users can get help if they need it.</source>
+          <target state="translated">Stellen Sie sicher, dass Sie die Kontaktinformationen der IT-Administrator enthalten Wenn Sie <bpt id="p1">[</bpt>das Unternehmensportal anpassen<ept id="p1">](/Intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-7)</ept> damit Ihre Benutzer Hilfe erhalten können, wenn sie es benötigen.</target>
+          
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Where your end users can find information about common tasks</source>
+          <target state="translated">Wo Ihre Endbenutzer Informationen zu allgemeinen Aufgaben erhalten.</target>
+          
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When enrolled users need help using Intune, they typically see a link in the Company Portal website or Company Portal app that points them to a specific article with steps on how to fix the issue or complete the task.</source>
+          <target state="translated">Wenn registrierte Benutzer mit Intune Hilfe benötigen, sehen sie in der Regel einen Link in der Unternehmensportal-Website oder die Unternehmensportal-app, die sie für einen bestimmten Artikel Schritte zum Beheben des Problems oder führen Sie den Vorgang verweist.</target>
+          
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, if Android users see a message saying that they are missing a required certificate, they can tap a "How to resolve this" link to go to an article with steps on how to get the certificate.</source>
+          <target state="translated">Wenn Android-Benutzer eine Meldung sehen, dass sie ein erforderliches Zertifikat vorhanden sind, können sie z. B. einen "Gewusst wie: Beheben dieses Problems"-Link, um einen Artikel mit den Schritten zum Abrufen des Zertifikats aufzurufen tippen.</target>
+          
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The links below are for IT administrators.</source>
+          <target state="translated">Die folgenden Links sind für IT-Administratoren.</target>
+          
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These pages contain links to all of the articles that users are sent to when from the Company Portal website or app.</source>
+          <target state="translated">Diese Seiten enthalten Links zu allen Artikeln, denen Benutzer über die Unternehmensportal-Website oder eine app an gesendet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The link are divided into sections: Company Portal app installation and Intune enrollment; tasks that users can do on their devices, like using managed apps and manually syncing their devices; and troubleshooting.</source>
+          <target state="translated">Die Links sind in Abschnitte unterteilt: Unternehmensportal-app-Installation und Registrierung von Intune; Aufgaben, die Benutzer auf ihren Geräten, wie mithilfe von verwalteten apps und ihre Geräte manuell synchronisieren können; und zur Problembehandlung.</target>
+          
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using your Android device with Intune</source>
+          <target state="translated">Verwenden Ihr Android-Gerät mit Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using your iOS or Mac OS X device with Intune</source>
+          <target state="translated">Verwenden von iOS oder Mac OS X-Geräte mit Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Using your Windows device with Intune</source>
+          <target state="translated">Verwenden Ihr Windows-Gerät mit Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Using the Intune Company Portal website</source>
+          <target state="translated">Mithilfe der Windows Intune-Unternehmensportal-website</target>
+          
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enrollment guides and templates that you can customize for your users</source>
+          <target state="translated">Registrierung Handbücher und Vorlagen, die Sie für Ihre Benutzer anpassen können</target>
+          
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Customizable, end-user Intune enrollment template for IT administrators<ept id="p1">](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)</ept> - Customizable Word document with detailed steps and screenshots of end-user enrollment for iOS, Mac OS X, and Android devices.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Anpassbare Endbenutzer Intune Enrollment-Vorlage für IT-Administratoren<ept id="p1">](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)</ept> -anpassbare Word-Dokument mit detaillierten Schritte und Screenshots der Endbenutzer für die Anmeldung für iOS, Mac OS X und Android-Geräte.</target>
+          
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use this document as is, or you can customize the instructions before giving this document to your end users.</source>
+          <target state="translated">Können Sie dieses Dokument ist, oder Sie können die Anweisungen anpassen, vor der Übergabe von diesem Dokument an die Endbenutzer.</target>
+          
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Two-page customizable document, with steps and embedded videos on enrolling, unenrolling, getting apps, more<ept id="p1">](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c#content)</ept> - Document that you can customize and give to your end users.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Anpassbare Dokument zwei Seiten mit Schritten und eingebettete Videos auf Registrierung aufheben der Registrierung, erste apps weitere<ept id="p1">](https://gallery.technet.microsoft.com/Intune-End-User-Enrollment-3a0c9b0c#content)</ept> -Dokument, die Sie anpassen, und geben Sie den Endbenutzern.</target>
+          
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Has sections on how to enroll Android, iOS, and Windows devices, get apps, unenroll, what to do if you lose your device, and what IT Pros can and can't see on your device.</source>
+          <target state="translated">Enthält Abschnitte auf wie Android, iOS und Windows-Geräte registrieren, erhalten Sie apps, Abmelden, was zu tun, wenn das Gerät verloren geht und was IT-Experten und nicht auf Ihrem Gerät.</target>
+          
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How your end users get their apps</source>
+          <target state="translated">Wie Ihre Endbenutzer apps erhalten</target>
+          
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To understand how your end users get their apps, choose from the following device platform options:</source>
+          <target state="translated">Um zu verstehen, wie Ihre Endbenutzer apps erhalten, wählen Sie aus den folgenden Optionen des Geräte-Plattform:</target>
+          
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How your Android users get their apps</source>
+          <target state="translated">Wie erhalten Sie Ihre Android-Benutzer ihre apps</target>
+          
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How your iOS users get their apps</source>
+          <target state="translated">Wie Ihre Benutzer von iOS-apps erhalten</target>
+          
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>How your Windows users get their apps</source>
+          <target state="translated">Wie die Windows-Benutzer ihre apps abrufen</target>
+          
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Help end users understand Company Portal app messages</source>
+          <target state="translated">Unterstützen der Endbenutzer, die Unternehmensportal-app-Nachrichten zu verstehen.</target>
+          
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To help your users solve issues that they might have when they are using the Company Portal, you can review a <bpt id="p1">[</bpt>list of messages users might see in the Company Portal<ept id="p1">](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)</ept>.</source>
+          <target state="translated">Können Sie die Benutzern, die Probleme zu lösen, die sie möglicherweise, wenn sie das Unternehmensportal verwenden, können Sie überprüfen einen <bpt id="p1">[</bpt>Liste der Nachrichten, die Benutzer möglicherweise im Unternehmensportal finden Sie unter<ept id="p1">](/Intune/Plan-Design/help-end-users-understand-company-portal-app-messages)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If there is other information that you would like to see covered in this article, please add your suggestion to the Comment box at the bottom of this topic.</source>
+          <target state="translated">Befindet sich andere Informationen, die Sie anzeigen möchten, in diesem Artikel behandelt, müssen Sie Ihren Vorschlag Feld Kommentar am Ende dieses Themas.</target>
+          
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Thanks!</source>
+          <target state="translated">Vielen Dank!</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

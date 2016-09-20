@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e2c71127801afc21d52e08d13dd9099b263e801</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-your-subscription-with-lookout-mtp.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">569d0e608d44d5529b1a535c736edb079840eb52</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cce97edda50074104ce933a4febbc32c445b18fa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Setup your subscription with Lookout MTP | Microsoft Intune</source>
+          <target state="translated">Richten Sie Ihr Abonnement mit Dateinamenerweiterungen MTP | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topics provides details on how to configure Lookout MTP.</source>
+          <target state="translated">Das vorliegende Thema enthält Details zum Dateinamenerweiterungen MTP konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set up your subscription for  Lookout mobile threat protection</source>
+          <target state="translated">Richten Sie Ihr Abonnement für den Schutz von Dateinamenerweiterungen für Mobilgeräte</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To get your subscription ready for the Lookout MTP service, Lookout support (enterprisesupport@lookout.com) will need the following information about your Azure Active Directory (Azure AD).</source>
+          <target state="translated">Um Ihr Abonnement für den Dateinamenerweiterungen MTP-Dienst vorbereiten, benötigen Dateinamenerweiterungen-Unterstützung (enterprisesupport@lookout.com) die folgende Informationen über Ihre Azure Active Directory (Azure AD).</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure AD Tenant ID</source>
+          <target state="translated">Azure AD-Mandanten-ID</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure AD Group Object ID for full Lookout MTP console access</source>
+          <target state="translated">Objekt-ID für Azure AD-Gruppe für den Vollzugriff Dateinamenerweiterungen MTP-Konsole</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure AD Group Object ID for restricted Lookout MTP console access (optional)</source>
+          <target state="translated">Objekt-ID für Azure AD-Gruppe für den Konsolenzugriff mit eingeschränkten Dateinamenerweiterungen MTP (optional)</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the information in the following section to gather the information you need to give to the Lookout support team.</source>
+          <target state="translated">Verwenden Sie die Informationen im folgenden Abschnitt, um die Informationen zu sammeln, müssen Sie das Supportteam von Dateinamenerweiterungen zuweisen.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Getting your Azure AD information</source>
+          <target state="translated">Abrufen der Azure AD-Informationen</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Getting you Azure AD tenant ID</source>
+          <target state="translated">Abrufen von Azure AD-Mandanten-ID</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Log into the Azure AD management portal: https://manage.windowsazure.com and select your subscription.</source>
+          <target state="translated">Melden Sie sich im Azure AD-Verwaltungsportal: https://manage.windowsazure.com und wählen Sie Ihr Abonnement.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>screenshot of the Azure AD page showing the name of the tenant<ph id="ph1">](../media/mtp/aad_tenant_name.png)</ph> When you choose the name of your subscription, the resulting URL  includes the subscription ID.</source>
+          <target state="translated">Screenshot der Azure AD-Seite mit dem Namen des Mandanten<ph id="ph1">](../media/mtp/aad_tenant_name.png)</ph> Wenn Sie den Namen Ihres Abonnements auswählen, enthält die resultierende URL die Abonnement-ID.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you have any issues finding your subscription ID, the <bpt id="p1">[</bpt>Microsoft support article<ept id="p1">](https://support.office.com/en-us/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b?ui=en-US&amp;rs=en-US&amp;ad=US)</ept> provides additional tips.</source>
+          <target state="translated">Wenn Sie Ihre Abonnement-ID suchen Probleme haben die <bpt id="p1">[</bpt>Microsoft Support-Artikel<ept id="p1">](https://support.office.com/en-us/article/Find-your-Office-365-tenant-ID-6891b561-a52d-4ade-9f39-b492285e2c9b?ui=en-US&amp;rs=en-US&amp;ad=US)</ept> enthält zusätzliche Tipps.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Getting your Azure AD Group ID</source>
+          <target state="translated">Ihre Azure AD-Gruppen-ID abrufen</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Lookout MTP console supports 2 levels of access:</source>
+          <target state="translated">Die Dateinamenerweiterungen MTP-Konsole unterstützt 2 Zugriffsebenen:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Full Access:<ept id="p1">**</ept> Azure AD admin can create a group for users that will have Full Access and optionally they may create a group for users that will have Restricted Access.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vollzugriff:<ept id="p1">**</ept> Azure AD-Administrator eine Gruppe von Benutzern mit Vollzugriff für erstellen und optional können sie eine Gruppe von Benutzern mit eingeschränktem Zugriff für erstellen.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Only users in these groups will be able to login to the <bpt id="p1">**</bpt>Lookout MTP Console<ept id="p1">**</ept>.</source>
+          <target state="translated">In diesen Gruppen können nur anmelden, um die <bpt id="p1">**</bpt>Dateinamenerweiterungen MTP-Konsole<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Restricted Access:<ept id="p1">**</ept> No access to several configuration and enrollment related modules of the Lookout MTP console; read-only access to the <bpt id="p2">**</bpt>Security Policy<ept id="p2">**</ept> module of the Lookout MTP console.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Eingeschränkter Zugriff:<ept id="p1">**</ept> keinen Zugriff auf die Reihe von Konfigurations- und Registrierung bezogene Module des Dateinamenerweiterungen MTP-Konsole, die nur-Lese Zugriff auf die <bpt id="p2">**</bpt>Sicherheitsrichtlinie<ept id="p2">**</ept> Modul der Dateinamenerweiterungen MTP-Konsole.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more details on the permissions, read <bpt id="p1">[</bpt>this article<ept id="p1">](https://personal.support.lookout.com/hc/en-us/articles/114094105653)</ept> on the Lookout website.</source>
+          <target state="translated">Weitere Informationen zu den Berechtigungen, finden Sie unter <bpt id="p1">[</bpt>in diesem Artikel<ept id="p1">](https://personal.support.lookout.com/hc/en-us/articles/114094105653)</ept> auf der Website Dateinamenerweiterungen.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Group Object ID<ept id="p1">**</ept> can be found on the properties page of the group in the Azure AD management console.</source>
+          <target state="translated">Das <bpt id="p1">**</bpt>Objekt-ID der Gruppe<ept id="p1">**</ept> finden Sie auf der Eigenschaftenseite der Gruppe in der Azure AD-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>screenshot of the properties page with GroupID field highlighted</source>
+          <target state="translated">Screenshot der Eigenschaftenseite mit GroupID Feld hervorgehoben</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Once you have gathered this information, contact Lookout support (email: enterprisesupport@lookout.com).</source>
+          <target state="translated">Nachdem Sie diese Informationen gesammelt haben, wenden Sie sich an den Dateinamenerweiterungen-Unterstützung (e-Mail-Adresse: enterprisesupport@lookout.com).</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Lookout support will work with your primary contact to onboard your subscription and create your Lookout MTP Enterprise account, using the information that you collected.</source>
+          <target state="translated">Dateinamenerweiterungen-Unterstützung wird arbeiten an den primären Kontakt zum Integrieren Ihres Abonnements und erstellen Sie Ihr Dateinamenerweiterungen MTP Enterprise-Konto, mit den Informationen, den gesammelt wurden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Configure your subscription with Lookout MTP</source>
+          <target state="translated">Konfigurieren Sie Ihr Abonnement mit Dateinamenerweiterungen MTP</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Step 1: Setup your MTP</source>
+          <target state="translated">Schritt 1: Einrichten der MTP</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After Lookout support creates your Lookout MTP Enterprise account, you can login to the Lookout MTP Console.</source>
+          <target state="translated">Nach Dateinamenerweiterungen unterstützt die Dateinamenerweiterungen MTP Enterprise-Konto erstellt hat, können Sie auf der Dateinamenerweiterungen MTP-Konsole anmelden.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An email from Lookout is sent to the primary contact for your company  with a link to the login url:https://aad.lookout.com/les?action=consent</source>
+          <target state="translated">Eine e-Mail von Dateinamenerweiterungen wird an den primären Kontakt für Ihr Unternehmen mit einer Verknüpfung mit der Anmelde-Url: https://aad.lookout.com/les?action=consent gesendet.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You must use a user account with the Azure AD role of Global Admin when you first log in to the Lookout MTP console, since the Lookout MTP requires this to register your Azure AD tenant.</source>
+          <target state="translated">Bei der zuerst auf der Konsole Dateinamenerweiterungen MTP Anmeldung da des Dateinamenerweiterungen MTP erforderlich sind, damit Azure AD-Mandanten zu registrieren, müssen Sie ein Benutzerkonto mit der Azure AD-Rolle des globalen Administrators verwenden.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Subsequent logins will not require the user to have this level of Azure AD privilege.</source>
+          <target state="translated">Nachfolgende Anmeldungen benötigen Sie keine den Benutzer diese Ebene von Azure AD-Berechtigungen verfügen.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In this first login, a consent page will be displayed.</source>
+          <target state="translated">In dieser ersten Anmeldung wird eine zustimmungsseite angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>accept<ept id="p1">**</ept> to complete the registration.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>akzeptieren<ept id="p1">**</ept> um die Registrierung abzuschließen.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>screenshot of the first time login page of the Lookout MTP console<ph id="ph1">](../media/mtp/lookout_mtp_initial_login.png)</ph> Once you have accepted and consented, you are redirected to the Lookout MTP Console.</source>
+          <target state="translated">Screenshot der erste Zeitpunkt Anmeldeseite der Dateinamenerweiterungen MTP-Konsole<ph id="ph1">](../media/mtp/lookout_mtp_initial_login.png)</ph> nachdem Sie zugestimmt haben und zugestimmt hat, werden Sie an die Dateinamenerweiterungen MTP-Konsole weitergeleitet.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Subsequent logins after the initial registration, can be done using the URL:  https://aad.lookout.com</source>
+          <target state="translated">Nachfolgende Anmeldungen nach der ersten Registrierung erfolgen mithilfe der URL: https://aad.lookout.com</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">[</bpt>troubleshooting article<ept id="p1">](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept>  if you run into login issues.</source>
+          <target state="translated">Finden Sie unter den <bpt id="p1">[</bpt>Artikel Problembehandlung<ept id="p1">](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshooting-lookout-integration)</ept>  Wenn Anmeldung Probleme auftreten.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The next steps outline the tasks that must be done to complete the Lookout MTP set up within the <bpt id="p1">[</bpt>Lookout MTP Console<ept id="p1">](https://aad.lookout.com)</ept>.</source>
+          <target state="translated">Die nächsten Schritte beschreiben die Aufgaben, die ausgeführt werden, damit die Dateinamenerweiterungen MTP eingerichtete Abschließen der <bpt id="p1">[</bpt>Dateinamenerweiterungen MTP-Konsole<ept id="p1">](https://aad.lookout.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Step 2: Configure the Intune connector</source>
+          <target state="translated">Schritt 2: Konfigurieren des Intune-Connectors</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the Lookout MTP console, go to the <bpt id="p1">**</bpt>System<ept id="p1">**</ept> module, choose the <bpt id="p2">**</bpt>Connectors<ept id="p2">**</ept> tab, and select <bpt id="p3">**</bpt>Intune<ept id="p3">**</ept>.</source>
+          <target state="translated">In der Dateinamenerweiterungen MTP-Konsole wechseln Sie zu der <bpt id="p1">**</bpt>System<ept id="p1">**</ept> Modul, wählen Sie die <bpt id="p2">**</bpt>Connectors<ept id="p2">**</ept> Registerkarte, und wählen Sie <bpt id="p3">**</bpt>Intune<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>screenshot of the Lookout MTP console with the connectors tab open, and Intune option highlighted</source>
+          <target state="translated">Screenshot der Dateinamenerweiterungen MTP-Konsole mit der geöffneten Registerkarte Connectors und Intune Option hervorgehoben</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the connection settings option, configure the heartbeat frequency in minutes.</source>
+          <target state="translated">Konfigurieren Sie die Takt Häufigkeit in Minuten, in der Settings-Verbindungsoption.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>With completion of this step, your Intune connector is now ready.</source>
+          <target state="translated">Mit Abschluss dieses Schritts ist jetzt Ihre Intune-Connector bereit.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>screenshot of the connection settings tab with showing heartbeat frequency configured</source>
+          <target state="translated">Screenshot der Registerkarte Verbindung Einstellungen mit Takt Häufigkeit konfiguriert anzeigen</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Step 3: Configure enrollment groups</source>
+          <target state="translated">Schritt 3: Konfigurieren von Gruppen</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Enrollment Management<ept id="p1">**</ept> option, define a set of users whose devices should be enrolled with Lookout.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Registrierung Management<ept id="p1">**</ept> option, definieren Sie eine Gruppe von Benutzern, deren Geräte mit Dateinamenerweiterungen registriert werden soll.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Best practice is to start with a small group of users to test and become familiar with how the integration works.</source>
+          <target state="translated">Bewährte Methode ist, beginnen Sie mit einer kleinen Gruppe von Benutzern zu testen, und mit der Funktionsweise der Integrations vertraut zu machen.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Once you are satisfied with your test results, you may extend the enrollment to additional groups of users.</source>
+          <target state="translated">Wenn Sie mit den Testergebnissen zufrieden sind, können Sie die Registrierung für weiteren Gruppen von Benutzern verlängern.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To get started with enrollments groups,  first define an Azure AD security group that would be a good first set of users to enroll in Lookout MTP.</source>
+          <target state="translated">Zum Einstieg in diesen Gruppen definieren Sie zunächst eine Azure AD-Sicherheitsgruppe, die eine gute erste Gruppe von Benutzern für Dateinamenerweiterungen MTP anmelden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Once you have the group created in Azure, AD, in the Lookout MTP Console, go to the <bpt id="p1">**</bpt>Enrollement Management<ept id="p1">**</ept> option and add the Azure AD security group <bpt id="p2">**</bpt>Display Name(s)<ept id="p2">**</ept> for enrollment.</source>
+          <target state="translated">Nachdem Sie die Gruppe in Azure erstellt haben, wechseln Sie AD, in der Dateinamenerweiterungen MTP-Konsole zu den <bpt id="p1">**</bpt>Methodenauswahl Management<ept id="p1">**</ept> aus, und fügen Sie die Sicherheitsgruppe der Azure AD <bpt id="p2">**</bpt>Anzeige Namen<ept id="p2">**</ept> für die Anmeldung.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When a user is in an enrollment group, any of their devices that are identified and supported in Azure AD is enrolled and is eligible for activation in Lookout MTP.</source>
+          <target state="translated">Wenn ein Benutzer in einer Gruppe für die Anmeldung ist, einem ihrer Geräte, die erkannt und in Azure AD unterstützt werden registriert wird und für die Aktivierung in Dateinamenerweiterungen MTP.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first time they open the Lookout for Work app on their supported device, it is activated in Lookout MTP.</source>
+          <target state="translated">Beim ersten Öffnen sie dafür Arbeit app auf ihren Gerät unterstützt, ist es in Dateinamenerweiterungen MTP aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>screenshot of the Intune connector enrollment page</source>
+          <target state="translated">Screenshot von Intune Connector-Registrierung</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Best practice is to leave the increment to check for new devices to be the default 5 minutes.</source>
+          <target state="translated">Bewährte Methode ist das Inkrement auf neue Geräte die Standardeinstellung 5 Minuten überprüfen zu lassen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The display name is case sensitive.</source>
+          <target state="translated">Der Anzeigename ist Groß-/Kleinschreibung beachtet.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Display Name<ept id="p1">**</ept> as shown the in the <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept> page of the security group in the Azure portal.</source>
+          <target state="translated">Verwenden der <bpt id="p1">**</bpt>Anzeigenamen<ept id="p1">**</ept> wie gezeigt die in der <bpt id="p2">**</bpt>Eigenschaften<ept id="p2">**</ept> der Sicherheitsgruppe in der Azure-Portal auf der Seite.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Note in the picture below that the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> page of the security group, the Display Name is camel case.</source>
+          <target state="translated">Beachten Sie in der Abbildung unten, die die <bpt id="p1">**</bpt>Eigenschaften<ept id="p1">**</ept> ist die Camel-Case-Seite der Sicherheitsgruppe, die den Anzeigenamen.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The title however is displayed in all lower case and should not be used to enter into the Lookout MTP console.</source>
+          <target state="translated">Der Titel ist jedoch in Kleinschreibung angezeigt und sollte nicht verwendet werden, in der Konsole Dateinamenerweiterungen MTP eingeben.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>screenshot of the Azure portal, Azure Active Directory service, properties page</source>
+          <target state="translated">Screenshot des Azure-Portal, Azure Active Directory-Dienst, der Eigenschaftenseite</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The current release has the following limitations:</source>
+          <target state="translated">Die aktuelle Version weist die folgenden Nachteile:</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There is no validation for the group diplay names.</source>
+          <target state="translated">Es ist keine Validierung für die Namen der Gruppe anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Make sure to use the value in the <bpt id="p1">**</bpt>DISPLAY NAME<ept id="p1">**</ept> field shown in Azure portal for the Azure AD security group.</source>
+          <target state="translated">Verwenden Sie immer den Wert in der <bpt id="p1">**</bpt>ANZEIGENAMEN<ept id="p1">**</ept> -Feld in der Azure-Portal für die Azure Active Directory-Sicherheitsgruppe.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Creating groups within groups is not currently supported.</source>
+          <target state="translated">Erstellen von Gruppen innerhalb von Gruppen ist derzeit nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure AD security groups specified should only contain users and not nested groups.</source>
+          <target state="translated">Azure AD-Sicherheitsgruppen angegeben sollten nur Benutzer und keine verschachtelten Gruppen enthalten.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Step 4: Configure state sync</source>
+          <target state="translated">Schritt 4: Status Synchronisierung konfigurieren</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>State Sync<ept id="p1">**</ept> option, specify the type of data should be sent to Intune.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Zustand Sync<ept id="p1">**</ept> aktivieren, geben Sie der Typ der Daten an Intune gesendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Currently, you must enable both device status and threat status in order for the Lookout Intune integration to work correctly.</source>
+          <target state="translated">Derzeit müssen Sie Gerätestatus und bedrohungsstatus in der Reihenfolge für die Integration von Dateinamenerweiterungen Intune ordnungsgemäß funktioniert aktivieren.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>These are enabled by default.</source>
+          <target state="translated">Diese Optionen sind standardmäßig aktiviert.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Step 5: Configure error report email recipient information</source>
+          <target state="translated">Schritt 5: Konfigurieren von Bericht e-Mail-Empfänger Fehlerinformationen</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Error Management<ept id="p1">**</ept> option, enter the email address that should receive the error reports.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Fehlerverwaltung<ept id="p1">**</ept> option, geben Sie die e-Mail-Adresse, die die Fehlerberichte empfangen sollen.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>screenshot of the Intune connector error management page</source>
+          <target state="translated">Screenshot der Intune-Connector-Management Fehlerseite</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Step 6: Configure email notifications</source>
+          <target state="translated">Schritt 6: Konfigurieren von e-Mail Benachrichtigungen</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If you would like to receive email alerts for threats, sign in to the <bpt id="p1">[</bpt>Lookout MTP console<ept id="p1">](https://aad.lookout.com)</ept>with the user account that should receive the notifications.</source>
+          <target state="translated">Wenn Sie e-Mail-Benachrichtigungen für Bedrohungen möchten, melden Sie sich bei der <bpt id="p1">[</bpt>Dateinamenerweiterungen MTP-Konsole<ept id="p1">](https://aad.lookout.com)</ept>mit dem Benutzerkonto, das die Benachrichtigung erhalten sollen.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Go to the  <bpt id="p1">**</bpt>System<ept id="p1">**</ept> module, and on the <bpt id="p2">**</bpt>Preferences<ept id="p2">**</ept> tab, choose the desired notifications and set them to <bpt id="p3">**</bpt>ON<ept id="p3">**</ept>.</source>
+          <target state="translated">Wechseln Sie zu der  <bpt id="p1">**</bpt>System<ept id="p1">**</ept> -Modul und die <bpt id="p2">**</bpt>Voreinstellungen<ept id="p2">**</ept> Registerkarte, wählen Sie die gewünschten Benachrichtigungen aus, und setzen Sie sie auf <bpt id="p3">**</bpt>auf<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+          <target state="translated">Speichern Sie die Änderungen.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>screenshot of the preferences page with the user account displayed<ph id="ph1">](../media/mtp/lookout-mtp-email-notifications.png)</ph> If you no longer wish to receive email notifications, set the notifications to <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> and save your changes.</source>
+          <target state="translated">Screenshot der Seite Einstellungen für das Benutzerkonto angezeigt<ph id="ph1">](../media/mtp/lookout-mtp-email-notifications.png)</ph> Wenn Sie nicht mehr e-Mail-Benachrichtigungen erhalten möchten, legen Sie die Benachrichtigungen auf <bpt id="p1">**</bpt>OFF<ept id="p1">**</ept> und Ihre Änderungen zu speichern.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Step 7: Configure threat classification</source>
+          <target state="translated">Schritt 7: Konfigurieren der Klassifizierung</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Lookout MTP classifies mobile threats of various types.</source>
+          <target state="translated">Dateinamenerweiterungen MTP klassifiziert mobile Bedrohungen verschiedener Typen.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Lookout MTP threat classifications<ept id="p1">](http://personal.support.lookout.com/hc/en-us/articles/114094130693)</ept> have default risk levels associated with them.</source>
+          <target state="translated">Die <bpt id="p1">[</bpt>Dateinamenerweiterungen MTP etablieren<ept id="p1">](http://personal.support.lookout.com/hc/en-us/articles/114094130693)</ept> Standard Risiko Ebenen zugeordnet haben.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>These can be changed at any time to suite your company requirements.</source>
+          <target state="translated">Diese können jederzeit auf die Suite die Anforderungen für Ihr Unternehmen geändert werden.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>screenshot of the policy page showing threat and classifications</source>
+          <target state="translated">Screenshot der Richtlinienseite, Bedrohung und Klassifikationen anzeigt</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The risk levels specified here is an important aspect of MTP because the Intune integration calculates device compliance according to these risk levels at runtime.</source>
+          <target state="translated">Hier ist ein wichtiger Aspekt der MTP, da die Intune-Integration Gerätekompatibilität entsprechend dieser Risiken Ebenen zur Laufzeit berechnet das unterschiedliche angegeben.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In other words, Intune Admin sets a rule in policy to determine a device is non-compliant if it has an active threat with a minimum level of: high, medium, or low.</source>
+          <target state="translated">In anderen Worten, Intune-Administrator legt eine Regel in der Richtlinie, um zu bestimmen, ein Gerät ist nicht kompatible verfügt die Bedrohung mit mindestens eine active von: hoch, Mittel oder niedrig.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The threat classification policy in MTP directly drives the device compliance calculation in Intune.</source>
+          <target state="translated">Bedrohung Klassifizierung der Richtlinie unter MTP-Gerät Kompatibilität Berechnung direkt in Intune Laufwerke.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Watching enrollment</source>
+          <target state="translated">Überwachen der Registrierung</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Once the setup is complete, Lookout MTP starts to poll Azure AD for devices that correspond to the specified enrollment groups.</source>
+          <target state="translated">Nachdem das Setup abgeschlossen ist, startet Dateinamenerweiterungen MTP zum Abfragen von Azure AD für Geräte, die die angegebenen Gruppen entsprechen.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Information about the devices enrolled can be found on the Devices module.</source>
+          <target state="translated">Informationen zu den registrierten Geräten finden Sie im Geräte-Modul.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The initial status for devices is shown as pending.</source>
+          <target state="translated">Der anfängliche Status für Geräte wird angezeigt als ausstehend.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The device status will change once the Lookout for work app is installed, opened, and activated on the device.</source>
+          <target state="translated">Der Status des Geräts wird geändert, sobald dafür Arbeit app installiert, geöffnet und auf dem Gerät aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Details on how to get the Lookout for work app pushed to the device can be found in <bpt id="p1">[</bpt>configure and deploy Lookout for work apps<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept> topic.</source>
+          <target state="translated">Details zum Abrufen von Dateinamenerweiterungen für Arbeitsaufgaben-app, die an das Gerät übertragen Sie unter finden <bpt id="p1">[</bpt>Konfigurieren und Bereitstellen von Dateinamenerweiterungen für Arbeit apps<ept id="p1">](configure-and-deploy-lookout-for-work-apps.md)</ept> Thema.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Enable Lookout MTP connection Intune</source>
+          <target state="translated">Aktivieren Sie die Dateinamenerweiterungen MTP Verbindung Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

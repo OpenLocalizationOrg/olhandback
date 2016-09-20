@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38e5155ef9167778e82b913d819088409526e27c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\use-the-sdk-to-enable-apps-for-mobile-application-management.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e153b7433565aa4adada7090ebf65e764e66c318</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c806b1e331a01a715040014caec65a356f3ec486</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Use the SDK to enable apps for MAM | Microsoft Intune</source>
+          <target state="translated">Verwenden Sie das SDK für MAM-apps ermöglichen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the SDK to enable apps for mobile application management</source>
+          <target state="translated">Verwenden des SDK für apps für die Verwaltung der mobilen Anwendung aktivieren</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use the Microsoft Intune App SDK to enable Intune to manage certain features of your iOS or Android mobile apps.</source>
+          <target state="translated">Verwenden Sie das Microsoft Intune App-SDK, um Intune verwalten Sie bestimmte Features des IOS- oder Android mobiler apps zu aktivieren.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After your app is enabled, you can deploy policies to the app.</source>
+          <target state="translated">Nachdem Ihre app aktiviert ist, können Sie Richtlinien für die app bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These policies use those features to protect your corporate data.</source>
+          <target state="translated">Diese Richtlinien verwenden diese Funktionen zum Schutz Ihrer Unternehmensdaten.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Examples of the types of protections that you can implement with the SDK are:</source>
+          <target state="translated">Beispiele für die Schutzmaßnahmen, die Sie, mit dem SDK implementieren können-Typen sind:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Prevent users from copying corporate documents to the cloud</source>
+          <target state="translated">Verhindert, dass Benutzer kopieren von corporate Dokumenten in der cloud</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Require encryption of data that is saved to the device by the app.</source>
+          <target state="translated">Verschlüsselung von Daten, die von der Anwendung auf dem Gerät gespeichert werden.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enforce the use of a managed browser</source>
+          <target state="translated">Erzwingen Sie die Verwendung von einem browser</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Remotely wipe corporate data from the app</source>
+          <target state="translated">Remotezurücksetzung Unternehmensdaten aus der app</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You need access to the app's source code to use the SDK, but you can enable most of the SDK features without having to change the app's behavior.</source>
+          <target state="translated">Benötigen Sie Zugriff auf die app-Quellcode für das SDK verwenden, aber Sie können die meisten SDK-Funktionen aktivieren, ohne die app-Verhalten zu ändern.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For an overview of the SDK, see the <bpt id="p1">[</bpt>Overview<ept id="p1">](/intune/develop/intune-app-sdk)</ept> page.</source>
+          <target state="translated">Eine Übersicht über das SDK, finden Sie unter der <bpt id="p1">[</bpt>Übersicht<ept id="p1">](/intune/develop/intune-app-sdk)</ept> Seite.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To start using the Intune App SDK, see <bpt id="p1">[</bpt>Getting Started With the Microsoft Intune App SDK<ept id="p1">](/intune/develop/intune-app-sdk-get-started)</ept>.</source>
+          <target state="translated">Mit dem Intune-App-SDK finden Sie unter <bpt id="p1">[</bpt>Erste Schritte mit dem Microsoft Intune App SDK<ept id="p1">](/intune/develop/intune-app-sdk-get-started)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
+          <target state="translated">Entscheiden Sie, wie Sie apps für die Verwaltung der mobilen Anwendung mit Microsoft Intune vorbereiten</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

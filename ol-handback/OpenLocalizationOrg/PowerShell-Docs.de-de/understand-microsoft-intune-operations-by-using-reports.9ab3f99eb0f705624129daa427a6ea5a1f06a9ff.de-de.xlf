@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c9df7eddbae77e64cc3b0fdf9ddc158ed2ed2860</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\understand-microsoft-intune-operations-by-using-reports.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ca68b9f6a9d022252b54e2e87ac51803be5af45</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3de3863d6379a04a1552b249919c556be50fc48a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Understand operations by using reports | Microsoft Intune</source>
+          <target state="translated">Verstehen Sie Vorgänge mithilfe von Berichten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create and manage reports about software, hardware, and software licenses in your organization.</source>
+          <target state="translated">Erstellen Sie und verwalten Sie Berichte über Software, Hardware und Softwarelizenzen in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Understand Microsoft Intune operations by using reports</source>
+          <target state="translated">Verstehen von Microsoft Intune-Vorgänge mithilfe von Berichten</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to help you create and manage Microsoft Intune reports that provide information about software, hardware, and software licenses in your organization.</source>
+          <target state="translated">Verwenden Sie die Informationen in diesem Thema können Sie das Erstellen und Verwalten von Microsoft Intune-Berichte, die mit Informationen zu Software, Hardware und Softwarelizenzen in Ihrer Organisation zur Verfügung.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using reports</source>
+          <target state="translated">Verwenden von Berichten</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Intune reports provide information about software, hardware, and software licenses in your organization.</source>
+          <target state="translated">Intune-Berichte enthalten Informationen zu Software, Hardware und Softwarelizenzen in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Reports can help you confirm current needs and forecast future spending.</source>
+          <target state="translated">Mithilfe von Berichten können Sie sich über den aktuellen Stand und den zukünftigen Bedarf informieren.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace gives you the tools to create and manage reports.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Berichte<ept id="p1">**</ept> Arbeitsbereich bietet Ihnen die Tools zum Erstellen und Verwalten von Berichten.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Report types</source>
+          <target state="translated">Berichtstypen</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Report type</source>
+          <target state="translated">Berichttyp</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Update Reports</source>
+          <target state="translated">Updateberichte</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Show the software updates that succeeded on computers in your organization.</source>
+          <target state="translated">Zeigen Sie Softwareupdates an, die erfolgreich auf Computern in Ihrer Organisation.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>They also show the updates that failed, are pending, or are needed.</source>
+          <target state="translated">Außerdem wird gezeigt, die Fehler, ausstehenden oder erforderlichen Updates.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information on software updates, see <bpt id="p1">[</bpt>Keep Windows PCs up to date with software updates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zu Softwareupdates finden Sie unter <bpt id="p1">[</bpt>Windows-PCs zu halten, bis zum Datum mit Softwareupdates in Microsoft Intune<ept id="p1">](keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Detected Software reports</source>
+          <target state="translated">Berichte zu ermittelter Software</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Show software that is installed on computers in your organization.</source>
+          <target state="translated">Zeigen Sie Software, die auf Computern in Ihrer Organisation installiert ist.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Software versions are included.</source>
+          <target state="translated">Softwareversionen sind enthalten.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can filter the information that displays based on the software publisher and the software category.</source>
+          <target state="translated">Sie können die angezeigten Informationen nach Herausgeber und Kategorie der Software filtern.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can expand the updates in the list to show more detail (such as the computers on which an update is installed) by choosing the directional arrow next to the list item.</source>
+          <target state="translated">Sie können die Updates in der Liste, um weitere Details (z. B. der Computer, auf denen ein Update installiert ist) anzuzeigen, wählen Sie den Pfeil neben dem Listenelement erweitern.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you retire computers or change their group memberships in Intune, it can take several minutes for these changes to be reflected in the Detected Software report.</source>
+          <target state="translated">Wenn Sie Computer zurückziehen oder deren Gruppenmitgliedschaft in Intune ändern, dauert es einige Minuten, bis die Änderungen im Bericht über erkannte Software berücksichtigt werden.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For the most accurate software inventory data, wait a few minutes after retiring computers or changing their group memberships before you run a detected software report that includes those computers.</source>
+          <target state="translated">Um möglichst präzise Softwareinventardaten zu erhalten, warten Sie nach dem Abkoppeln von Computern oder Ändern ihrer Gruppenmitgliedschaft einige Minuten, bevor Sie einen Bericht über erkannte Software ausführen, der diese Computer enthält.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Computer Inventory Reports</source>
+          <target state="translated">Computerinventurberichte</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Show information about managed computers in your organization.</source>
+          <target state="translated">Informationen zu verwalteten Computern in Ihrer Organisation angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use this report to plan hardware purchases and to understand more about the hardware needs of users in your organization.</source>
+          <target state="translated">Mithilfe dieses Berichts können Sie den Erwerb von Hardware planen und den Hardwarebedarf der Benutzer in Ihrer Organisation besser nachvollziehen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information on working with managed computers, see <bpt id="p1">[</bpt>Manage Windows PCs with Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen zum Arbeiten mit verwalteten Computern finden Sie unter <bpt id="p1">[</bpt>Verwalten von Windows-PCs mit Microsoft Intune<ept id="p1">](manage-windows-pcs-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Mobile Device Inventory Reports</source>
+          <target state="translated">Inventurberichte für Mobile Geräte</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Show information about the mobile devices in your organization.</source>
+          <target state="translated">Informationen zu den mobilen Geräten in Ihrer Organisation angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can filter the information that displays based on groups, whether the device is a jailbroken or rooted device, and by operating system.</source>
+          <target state="translated">Sie können die angezeigten Informationen nach Gruppen, entfernten Nutzungsbeschränkungen und Betriebssystem filtern.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>License Purchase Reports</source>
+          <target state="translated">Lizenzkaufberichte</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Show the software titles for all licensed software in selected license groups, based on their licensing agreements.</source>
+          <target state="translated">Zeigen Sie die Softwaretitel jeder lizenzierten Software in ausgewählten Lizenzgruppen basierend auf ihren softwarelizenzverträgen angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If software license information has not refreshed in more than 24 hours, it will refresh when you generate a license report.</source>
+          <target state="translated">Wenn die Softwarelizenzinformationen seit mehr als 24 Stunden nicht aktualisiert wurden, werden sie beim Erstellen eines Lizenzberichts aktualisiert.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A license report is not an exact calculation of software titles that are being used, or proof of compliance with agreements.</source>
+          <target state="translated">Ein Lizenzbericht stellt keine genaue Berechnung von verwendeten Softwaretiteln und keinen Nachweis der Erfüllung von Verträgen dar.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The report is a tool to help you make licensing decisions for your organization.</source>
+          <target state="translated">Der Bericht ist ein Tool, das Ihnen dabei hilft, Lizenzierungsentscheidungen für Ihre Organisation zu treffen.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Intune might not detect some products that are able to have a Microsoft volume license.</source>
+          <target state="translated">Intune möglicherweise nicht alle Produkte erkannt, die für die Microsoft-Volumenlizenzen verfügbar sind.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The available filters are:</source>
+          <target state="translated">Folgende Filter sind verfügbar:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Alle Verträge<ept id="p1">**</ept> zeigt alle lizenzierten Softwareprodukte, die von Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only Volume Licensing Service Center (VLSC) software products.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Volumenlizenzen<ept id="p1">**</ept> zeigt nur die Softwareprodukte Volume Licensing Service Center (VLSC).</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Andere Softwarelizenzverträge<ept id="p1">**</ept> zeigt Softwareprodukte an, die außerhalb der VLSC verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>License Installation Reports</source>
+          <target state="translated">Lizenzinstallationsberichte</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Compare installed software on computers in your organization with your current license agreement coverage, according to the VLSC.</source>
+          <target state="translated">Verglichen Sie installierte Software auf Computern in Ihrer Organisation mit Ihrer aktuellen lizenzvertragsabdeckung entsprechend VLSC.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Filters include:</source>
+          <target state="translated">Zu den Filtern gehören:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All agreements<ept id="p1">**</ept> shows all licensed software products that are managed by Intune.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Alle Verträge<ept id="p1">**</ept> zeigt alle lizenzierten Softwareprodukte, die von Intune verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Volume licensing agreements<ept id="p1">**</ept> shows only VLSC software products.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Volumenlizenzen<ept id="p1">**</ept> zeigt nur VLSC-Softwareprodukte.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Other software licensing agreements<ept id="p1">**</ept> shows software products that are managed outside of the VLSC.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Andere Softwarelizenzverträge<ept id="p1">**</ept> zeigt Softwareprodukte an, die außerhalb der VLSC verwaltet werden.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Terms and Conditions Reports</source>
+          <target state="translated">Berichte zu Nutzungsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Show whether users accepted the terms and conditions that you deployed, and which version they accepted.</source>
+          <target state="translated">Anzeigen, ob der Benutzer akzeptiert die Geschäftsbedingungen, die Sie bereitgestellt haben, und welche Version sie akzeptiert haben.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can show the acceptance of any terms and conditions that were deployed for up to 10 users, or show the acceptance status for a particular term that was deployed to them.</source>
+          <target state="translated">Sie können anzeigen den Akzeptanz von Bestimmungen, die für bis zu 10 Benutzer bereitgestellt wurden, oder Sie können den Annahmestatus für einen bestimmten Begriff, der für sie bereitgestellten anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Noncompliant Apps Reports</source>
+          <target state="translated">Berichte zu nicht kompatiblen Apps</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Show information about the users who have apps installed that are on your lists of compliant and noncompliant apps.</source>
+          <target state="translated">Zeigen Sie Informationen zu den Benutzern mit installierten apps, die in Ihren Listen der kompatiblen und nicht kompatible apps sind.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use this report to find users and devices that are not in compliance with your company app policies.</source>
+          <target state="translated">Verwenden Sie diesen Bericht zum Suchen von Benutzern und Geräten, die nicht mit Ihren Unternehmens-app-Richtlinien konform sind.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Certificate Compliance Reports</source>
+          <target state="translated">Berichte zur Zertifikatkompatibilität</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Show which certificates have been issued to users and devices through SCEP or PKCS #12 (.PFX).</source>
+          <target state="translated">Anzeigen, welche Zertifikate für Benutzer und Geräte über SCEP oder PKCS #12 ausgestellt wurden (. (PFX).</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this report to find certificates that are issued, expired, and revoked.</source>
+          <target state="translated">Verwenden Sie diesen Bericht, um ausgestellte, abgelaufene und gesperrte Zertifikate zu suchen.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Device History Reports</source>
+          <target state="translated">Berichte zum Geräteverlauf</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Show a historical log of retire, wipe, and delete actions.</source>
+          <target state="translated">Ein historisches Protokoll von abkoppeln-, zurücksetzen und löschen-Aktionen anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Use this report to see who initiated actions on devices in the past.</source>
+          <target state="translated">Verwenden Sie diesen Bericht, um anzuzeigen, die in der Vergangenheit Aktionen auf Geräten initiiert hat.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Health Attestation Reports</source>
+          <target state="translated">Nachweis Integritätsberichte</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Show the health of mobile devices.</source>
+          <target state="translated">Zeigen Sie die Integrität von mobilen Geräten.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Mac OS X Hardware Report</source>
+          <target state="translated">Mac OS X-Hardware-Bericht</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Displays hardware details for all enrolled Mac OS X devices in the groups that you select.</source>
+          <target state="translated">Zeigt Hardwaredetails für alle registrierten Mac OS X-Geräte in den Gruppen, die Sie auswählen.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For information about the hardware inventory that is collected from these devices, see <bpt id="p1">[</bpt>Understand your devices with inventory in Microsoft Intune<ept id="p1">](understand-your-devices-with-inventory-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Weitere Informationen über die Hardwareinventur, die von diesen Geräten gesammelt werden, finden Sie unter <bpt id="p1">[</bpt>verstehen Sie die Geräte in Microsoft Intune mit<ept id="p1">](understand-your-devices-with-inventory-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Mac OS X Software Report</source>
+          <target state="translated">Bericht für Mac OS X</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Displays the software that is installed on all Mac OS X devices in the groups that you selected.</source>
+          <target state="translated">Zeigt die Software, die auf alle Mac OS X-Geräte in den Gruppen installiert ist, die Sie ausgewählt haben.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The report lists the software name (as a bundle ID), the short version (or friendly) name, the version, and the number of devices with the software installed.</source>
+          <target state="translated">Der Bericht listet den Namen (wie eine Paket-ID), die kurze Version (oder Nutzung) Namen, die Version und die Anzahl der Geräte, die Software installiert.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To create a report</source>
+          <target state="translated">So erstellen Sie einen Bericht</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the Intune admin console, choose <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie in der Intune-Verwaltungskonsole <bpt id="p1">**</bpt>Berichte<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Then choose the report type that you want to generate, as described in the previous table.</source>
+          <target state="translated">Wählen Sie dann den Bericht, die Sie generieren, wie in der vorherigen Tabelle beschrieben möchten.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, accept the default values, or customize them to filter the results that will be returned by the report.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite, die Standardwerte übernehmen oder bearbeiten, um die Ergebnisse zu filtern, die vom Bericht zurückgegeben werden.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, you could select that only software published by Microsoft will be displayed in the Detected Software report.</source>
+          <target state="translated">Sie können beispielsweise auswählen, dass nur die von Microsoft herausgegebene Software im Bericht erkannte Software angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Report<ept id="p1">**</ept> to open the report in a new window.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Bericht anzeigen<ept id="p1">**</ept> den Bericht in einem neuen Fenster zu öffnen.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To sort the report by any of the displayed columns, choose the column heading.</source>
+          <target state="translated">Wählen Sie die Spaltenüberschrift, um den Bericht von einem der angezeigten Spalten zu sortieren.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Additionally, some reports allow you to expand items in the list to show more detail.</source>
+          <target state="translated">Zusätzlich können Sie bei einigen Berichten Listenelemente erweitern, um mehr Details anzeigen zu lassen.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>More report actions</source>
+          <target state="translated">Weitere Berichtsaktionen</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In addition, reports support the following actions:</source>
+          <target state="translated">Zusätzlich werden von Berichten die folgenden Aktionen unterstützt:</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Action</source>
+          <target state="translated">Aktion</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target state="translated">Drucken</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>In an open report, choose the print icon and follow the instructions.</source>
+          <target state="translated">Wählen Sie in einem geöffneten Bericht das Drucken-Symbol, und befolgen Sie die Anweisungen.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Exportieren</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In an open report, choose the export icon and follow the instructions.</source>
+          <target state="translated">Wählen Sie in einem geöffneten Bericht das Exportieren-Symbol, und befolgen Sie die Anweisungen.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can export a report to comma-separated values (.csv) or HTML format.</source>
+          <target state="translated">Sie können einen Bericht mit kommagetrennten Werten (CSV) oder HTML-Format exportieren.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">Speichern</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, each user can save up to 100 reports.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite jeder Benutzer kann bis zu 100 Berichte gespeichert werden.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Configure the report parameters to your requirements, and then choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Save As<ept id="p2">**</ept> (if you want to use a different name).</source>
+          <target state="translated">Konfigurieren der Berichtsparameter, die Ihren Anforderungen, und wählen Sie dann <bpt id="p1">**</bpt>Speichern<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>Speichern unter<ept id="p2">**</ept> (Wenn Sie einen anderen Namen verwenden möchten).</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Load</source>
+          <target state="translated">Laden</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept> to retrieve any previously saved sets of report parameters.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Seite <bpt id="p2">**</bpt>Laden<ept id="p2">**</ept> um zuvor gespeicherte Sätze von Berichtsparametern abzurufen.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">„Löschen“</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Reports<ept id="p1">**</ept> workspace, select the desired report type and choose <bpt id="p2">**</bpt>Load<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Berichte<ept id="p1">**</ept> Arbeitsbereich, wählen Sie den gewünschten Bericht, und wählen Sie <bpt id="p2">**</bpt>Load<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Then, in the list of reports, choose the delete (x) icon next to the report.</source>
+          <target state="translated">Wählen Sie dann in der Liste der Berichte, die das Löschsymbol (X) neben dem Bericht.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Monitoring and reports with Microsoft Intune</source>
+          <target state="translated">Überwachung und Berichte mit Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

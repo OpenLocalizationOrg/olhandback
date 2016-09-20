@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0949172a7b8517b12fb46e8fd1f8a3cd70d93099</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\whats-coming-in-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b40f12a94408004898ac39926ae1d982db99b67</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">113fe17ec6dfa8aaef856e4844fcee52cbb11114</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What's coming | Microsoft Intune</source>
+          <target state="translated">Was kommt | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What's coming in Microsoft Intune - August</source>
+          <target state="translated">Was ist neu bei Microsoft Intune - August</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This information is provided under NDA on an extremely limited basis and is subject to change.</source>
+          <target state="translated">Diese Informationen in einer sehr begrenzten Basis unter Geheimhaltungsvertrag bereitgestellt und sind vorbehalten.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Some features listed here are at risk of not making the cutoff dates and may be delayed until a future release.</source>
+          <target state="translated">Einige der hier aufgeführten Features Risiko nicht versteht man die Umstellungsjahr für Angaben mit Datumsangaben und können bis zu einer späteren Version verzögert werden.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Other features are being tested in a pilot (flighting) to ensure they're customer-ready.</source>
+          <target state="translated">Andere Features sind in einer Pilotphase (flighting), um sicherzustellen, dass diese Vorlagen sind getestet wird.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Please reach out to your Intune/PM buddy if you have any questions or concerns.</source>
+          <target state="translated">Erreichen Sie Ihre Intune/PM-Kontakt Wenn Sie Fragen oder Bedenken haben.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This page is updated periodically.</source>
+          <target state="translated">Diese Seite wird regelmäßig aktualisiert.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Check back for new What’s Coming updates.</source>
+          <target state="translated">Sehen Sie regelmäßig nach neuen was Updates kommt.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following changes are under development for Intune.</source>
+          <target state="translated">Die folgenden Änderungen sind in der Entwicklung für Intune.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>All of these features will eventually be supported for hybrid customers' deployments (Configuration Manager with Intune).</source>
+          <target state="translated">Alle diese Funktionen werden schließlich für die Bereitstellung der Hybrid-Kunden (Configuration Manager mit Intune) unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about new hybrid features, check out our <bpt id="p1">[</bpt>hybrid What’s New page<ept id="p1">](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)</ept>.</source>
+          <target state="translated">Weitere Informationen zu neuen Funktionen zur Hybriden, sehen Sie sich unsere <bpt id="p1">[</bpt>Hybrid, was neue Seite ist<ept id="p1">](https://technet.microsoft.com/en-US/library/mt718155(TechNet.10).aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>App management</source>
+          <target state="translated">App-Verwaltung</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Hidden and shown apps for iOS 9.3</source>
+          <target state="translated">Und ausgeblendete apps für iOS 9.3</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For supervised devices running iOS 9.3 or later, you will be able to use the hidden and shown apps list in the iOS general configuration policy to:</source>
+          <target state="translated">Für überwachte Geräte iOS 9,3 oder höher ausgeführt wird werden Sie die Liste und ausgeblendete apps in der allgemeinen iOS-Konfigurationsrichtlinie zu verwenden:</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that will be hidden from users.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die vom Benutzer ausgeblendet wird.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Users cannot view, or launch these apps.</source>
+          <target state="translated">Benutzer anzeigen oder diese apps zu starten.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specify a list of apps that users can view and launch.</source>
+          <target state="translated">Geben Sie eine Liste von apps, die Benutzer anzeigen und starten können.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>No other apps can be viewed or launched.</source>
+          <target state="translated">Keine anderen apps können angezeigt oder gestartet werden.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The apps you can specify include both apps you have deployed, and the built-in iOS apps like Messages and Notes.</source>
+          <target state="translated">Der apps, die Sie angeben können, enthalten beide apps, die Sie bereitgestellt haben, und die integrierte iOS-apps, wie Nachrichten und Notizen.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Allowed and blocked apps policy for Samsung KNOX devices</source>
+          <target state="translated">Zulässige und blockierte apps Richtlinie für Samsung KNOX-Geräte</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can now configure a custom policy for Samsung KNOX devices that lets you create one of the following:</source>
+          <target state="translated">Sie können nun eine benutzerdefinierte Richtlinie für Samsung KNOX-Geräte konfigurieren, die einen der folgenden erstellen können:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A list of apps that are blocked from running on the device.</source>
+          <target state="translated">Eine Liste der apps, die auf dem Gerät ausgeführt wird, blockiert werden.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Even if installed, an app defined in the blocked list cannot be activated on the device.</source>
+          <target state="translated">Auch wenn installiert ist, kann eine Anwendung, die in der Liste der blockierten definierten auf dem Gerät aktiviert werden.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A list of apps that users of the device are allowed to install from the Google Play store.</source>
+          <target state="translated">Eine Liste der apps, die Benutzer des Geräts aus dem Google Play Store installieren.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>No other apps can be installed from the store.</source>
+          <target state="translated">Keine anderen apps können aus dem Store installiert werden.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These settings can only be used by devices that run Samsung KNOX.</source>
+          <target state="translated">Diese Einstellungen können nur von Geräten verwendet werden, die Samsung KNOX ausführen.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>New apps compatible with mobile application management (MAM) policies</source>
+          <target state="translated">Neue apps, die kompatibel mit Richtlinien zur mobilen anwendungsverwaltung (MAM)</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Yammer app for <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/app/yammer/id289559439?mt=8)</ept> and <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.yammer.v1)</ept> will be compatible with <bpt id="p3">[</bpt>Intune mobile application management (MAM) policies<ept id="p3">](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)</ept>, whether or not the device is enrolled.</source>
+          <target state="translated">Yammer-app für <bpt id="p1">[</bpt>iOS<ept id="p1">](https://itunes.apple.com/app/yammer/id289559439?mt=8)</ept> und <bpt id="p2">[</bpt>Android<ept id="p2">](https://play.google.com/store/apps/details?id=com.yammer.v1)</ept> kompatibel mit <bpt id="p3">[</bpt>Intune mobile Application Management (MAM) Richtlinien<ept id="p3">](/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)</ept>, unabhängig davon, ob das Gerät registriert ist.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For a full list of MAM compatible apps, see the <bpt id="p1">[</bpt>Microsoft Intune application partners<ept id="p1">](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)</ept> site.</source>
+          <target state="translated">Eine vollständige Liste der kompatiblen MAM-apps, finden Sie unter der <bpt id="p1">[</bpt>Microsoft Intune Anwendungspartner<ept id="p1">](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)</ept> Standort.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Device management</source>
+          <target state="translated">Geräteverwaltung</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Android 7.0 support</source>
+          <target state="translated">Android 7.0-Unterstützung</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In August, Intune will provide “day 0” support for the forthcoming Android 7.0 operating system for mobile devices.</source>
+          <target state="translated">Im August wird Intune "Tag 0" das neue Android 7.0-Betriebssystem für mobile Geräte unterstützen.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Google removal of remote passcode reset capability on Android 7.0 devices</source>
+          <target state="translated">Google Entfernen der Kennung remote zurücksetzen Funktion auf 7.0 Android-Geräte</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Google is removing the ability of IT administrators and end users to remotely reset the passcode of Android 7.0 devices.</source>
+          <target state="translated">Google ist die Fähigkeit von IT-Administratoren und Endbenutzer, die Kennung des 7.0 Android-Geräte Remote zurücksetzen entfernen.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Previously, IT administrators could remotely reset a user’s passcode, and end users could reset their passcodes from the Company Portal website.</source>
+          <target state="translated">IT-Administratoren konnte zuvor Remote Kennung des Benutzers, und Endbenutzer können ihre Passwörter aus dem Unternehmensportal-Website zurückgesetzt.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Group management</source>
+          <target state="translated">Verwaltung von Gruppen</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Intune Groups transitioning to Azure Active Directory Groups beginning in September 2016</source>
+          <target state="translated">Übergang zu Azure Active Directory-Gruppen ab September 2016 Intune-Gruppen</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Intune is creating a new group management experience that uses Azure Active Directory (AAD) security groups as user and device groups in Intune.</source>
+          <target state="translated">Intune ist das Erstellen einer neuen Gruppe Verwaltungsfunktionen, die Sicherheitsgruppen für Azure Active Directory (AAD) als Gruppen von Benutzern und Geräten in Intune verwendet.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>These groups will be used for all group management, policy deployment, and profile deployment <bpt id="p1">**</bpt>when we introduce the new Azure-based Intune admin portal<ept id="p1">**</ept>.</source>
+          <target state="translated">Diese Gruppen verwendet werden für alle Group Policy Management, Bereitstellung und Bereitstellung des Profils <bpt id="p1">**</bpt>bei der Einführung der neuen Verwaltungsportals von Azure-basierten Intune<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This new experience will keep you from having to duplicate groups between services, <bpt id="p1">**</bpt>allow you access to some new Azure Active Directory Premium (AADP) group features<ept id="p1">**</ept>, and provide extensibility using PowerShell and Graph.</source>
+          <target state="translated">Dieses neue Erfahrung verhindert, dass Sie Gruppen zwischen Diensten, duplizieren müssen <bpt id="p1">**</bpt>ermöglichen Ihnen den Zugriff auf einige neue Gruppenfunktionen in Azure Active Directory Premium (AADP)<ept id="p1">**</ept>, und geben Sie mithilfe von PowerShell und Graph Erweiterbarkeit.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This will also unify the group management experience across enterprise mobility management.</source>
+          <target state="translated">Dies wird auch die Verwaltungsfunktionen für die Gruppe über Enterprise Mobility Management zusammengeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To enable the move to Security Groups, the experience in the <bpt id="p1">**</bpt>current admin console<ept id="p1">**</ept> will undergo some modifications.</source>
+          <target state="translated">So aktivieren Sie die Move-Sicherheitsgruppen, die Erfahrung in der <bpt id="p1">**</bpt>aktuelle Verwaltungskonsole<ept id="p1">**</ept> haben einige Änderungen nach.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>These changes, and the use of AAD security groups, will be recorded in the Intune documentation<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>In der Intune-Dokumentation werden diese Änderungen und die Verwendung von Sicherheitsgruppen AAD aufgezeichnet<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Customers who are new to Intune will see <bpt id="p1">**</bpt>some of the security group changes before current tenants do<ept id="p1">**</ept>.</source>
+          <target state="translated">Kunden, die noch nicht mit Intune sehen <bpt id="p1">**</bpt>einige der Sicherheit die Änderungen vor aktuelle Mandanten gruppieren<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In addition to changes in group management, <bpt id="p1">**</bpt>the following functionality will be deprecated<ept id="p1">**</ept>:</source>
+          <target state="translated">Zusätzlich zu Änderungen in der gruppenverwaltung <bpt id="p1">**</bpt>die folgende Funktionen sind veraltet,<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Excluding members or groups while creating a new group</source>
+          <target state="translated">Ausschließen von Membern oder Gruppen beim Erstellen einer neuen Gruppe</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ungrouped Users<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Ungrouped Devices<ept id="p2">**</ept> groups</source>
+          <target state="translated"><bpt id="p1">**</bpt>Gruppierung von Benutzern<ept id="p1">**</ept> und <bpt id="p2">**</bpt>nicht gruppierte Geräte<ept id="p2">**</ept> Gruppen</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manage Groups<ept id="p1">**</ept> in the Service Admin role</source>
+          <target state="translated"><bpt id="p1">**</bpt>Verwalten von Gruppen<ept id="p1">**</ept> in Service Admin-Rolle</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Custom group-based alerts for Notification Rules</source>
+          <target state="translated">Benutzerdefinierte Gruppen basierende Benachrichtigungen für Benachrichtigungsregeln</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Pivoting with groups in reports</source>
+          <target state="translated">Mit Gruppen in Berichten Pivotieren</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Service deprecation</source>
+          <target state="translated">Dienst-Veraltung</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Company Portal apps for Windows 8 and Windows Phone 8 are being deprecated starting in September 2016</source>
+          <target state="translated">Unternehmensportal-apps für Windows 8 und Windows Phone 8 sind veraltet ab September 2016</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Starting in October 2016, Microsoft Intune will deprecate support for Windows 8 and Windows Phone 8 Company Portal apps.</source>
+          <target state="translated">Im Oktober 2016 starten, wird Microsoft Intune-Unterstützung für Windows 8 und Windows Phone 8-Unternehmensportal-apps abgelehnt.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune will also deprecate support for the Windows Phone 8 platform.</source>
+          <target state="translated">Microsoft Intune wird auch Unterstützung für die Windows Phone 8-Plattform als veraltet markiert.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>As a consequence, you will not be able to enroll or update any Windows Phone 8 devices.</source>
+          <target state="translated">Daher werden Sie nicht registrieren oder aktualisieren alle Windows Phone 8-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can continue to manage Windows Phone 8 and Windows 8 devices that are already enrolled.</source>
+          <target state="translated">Sie können weiterhin Windows Phone 8 und Windows 8-Geräte zu verwalten, die bereits registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Update Windows Phone 8 and Windows 8 devices to Windows 8.1 and Windows Phone 8.1, and use the corresponding Windows 8.1 and Windows Phone 8.1 Company Portal apps to continue distributing apps to these devices without disruptions.</source>
+          <target state="translated">Aktualisieren Sie Windows Phone 8 und Windows 8-Geräten mit Windows 8.1 und Windows Phone 8.1, und wählen Sie die entsprechende Windows 8.1 und Windows Phone 8.1-Unternehmensportal-apps, weiter Verteilen von apps auf diesen Geräten ohne Störungen.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Custom Group Targeting of Notification Rules Removal</source>
+          <target state="translated">Benutzerdefinierte Gruppe Zielauswahl Benachrichtigung Regeln entfernen</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Intune notification rules define who an email alert will be sent to from Intune.</source>
+          <target state="translated">Intune-Benachrichtigungsregeln definieren, die eine e-Mail-Benachrichtigung von Intune an gesendet wird.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Currently, you can configure notification rules to send emails to all users of devices in an Intune device group that you created.</source>
+          <target state="translated">Derzeit können Sie Benachrichtigungsregeln zum Senden von e-Mails an alle Benutzer von Geräten in einer Gerätegruppe Intune, die Sie erstellt haben, konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Starting in June 2016, targeting user-created groups will no longer be supported.</source>
+          <target state="translated">Ab Juni 2016, Zielgruppenadressierung von Benutzern erstellte Gruppen nicht mehr unterstützt werden.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The preliminary timeline for this change is as follows:</source>
+          <target state="translated">Die vorläufige Zeitachse für diese Änderung ist wie folgt:</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In September 2016, new tenants will not see step two of the Create Notification Rule Wizard.</source>
+          <target state="translated">Im September 2016 werden neue Mandanten nicht Schritt für den Assistenten zum Erstellen von Benachrichtigungsregeln angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Existing tenants are unaffected.</source>
+          <target state="translated">Vorhandene Mandanten sind nicht betroffen.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Around October 2016, some existing tenants will not see the “select device groups” in the wizard.</source>
+          <target state="translated">Um Oktober 2016 werden einige vorhandenen Mandanten "Gerät auswählen Groups" im Assistenten nicht angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>At a later date, we expect that all tenants will not see the “select device groups” in the wizard.</source>
+          <target state="translated">Zu einem späteren Zeitpunkt erwarten wir, dass alle Mandanten "Gerät auswählen Groups" im Assistenten nicht angezeigt werden.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Changes in support for the iOS Company Portal app</source>
+          <target state="translated">Änderungen in der Unterstützung für die iOS-Unternehmensportal-app</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In September, all users of the Microsoft Intune Company Portal app for iOS will be required to use its latest version.</source>
+          <target state="translated">Im September alle Benutzer des Microsoft Intune-Unternehmensportal-app für iOS müssen die neueste Version verwenden.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>New users will only be able to download the latest version and current users will be required to update to it.</source>
+          <target state="translated">Neue Benutzer werden nur die neueste Version herunterzuladen und aktuelle Benutzer muss zu aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The latest version requires iOS 8.0 or later, so devices running older iOS versions won’t be able to use the Company Portal or enroll until they update their device to iOS 8.0 or later and then update the Company Portal app to the latest version.</source>
+          <target state="translated">Die neueste Version ist iOS 8.0 oder höher, erforderlich, damit unter älteren Versionen von iOS-Geräte keine Unternehmensportal oder registrieren sind, bis sie ihr Gerät IOS 8.0 oder höher aktualisieren, und Sie dann auf die neueste Version der Unternehmensportal-app aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Enrolled devices running versions below iOS 8.0 will continue to be managed and listed in the Intune Admin Console.</source>
+          <target state="translated">Registrierte Geräte, die mit Versionen unter iOS 8.0 weiterhin verwaltet und in der Intune-Verwaltungskonsole aufgeführt werden.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Intune Viewer apps</source>
+          <target state="translated">Intune-Viewer-apps</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>With the release of the new RMS sharing app, we will remove the following Intune Viewer apps in August 2016:</source>
+          <target state="translated">Mit der die neue RMS-Freigabe-app entfernen wir die folgenden Intune Viewer apps im August 2016:</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Intune AV Viewer</source>
+          <target state="translated">Intune AV-Viewer</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Intune PDF Viewer</source>
+          <target state="translated">Intune PDF-Viewer</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Intune Image Viewer for Android from Google Play</source>
+          <target state="translated">Intune Image-Viewer für Android aus Google Play</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Instead of using the Intune Viewer apps, we recommend using the new Rights Management app (RMS sharing) for Android, which allows you to deploy one app instead of three separate apps to securely view corporate files on Android devices.</source>
+          <target state="translated">Anstatt die Intune-Viewer-apps verwenden, empfehlen wir mithilfe der neuen Anwendung für Rights Management (RMS sharing) für Android, der Sie eine app anstelle von drei separaten apps Unternehmens Dateien auf Android-Geräte sicher anzeigen bereitstellen kann.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Learn more about the <bpt id="p1">[</bpt>RMS sharing app<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)</ept>.</source>
+          <target state="translated">Erfahren Sie mehr über die <bpt id="p1">[</bpt>RMS-freigabeanwendung<ept id="p1">](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>What’s New in Microsoft Intune<ept id="p1">](whats-new-in-microsoft-intune.md)</ept> for details on recent developments.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Neuigkeiten in Microsoft Intune<ept id="p1">](whats-new-in-microsoft-intune.md)</ept> ausführliche Informationen über die jüngsten Entwicklungen.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

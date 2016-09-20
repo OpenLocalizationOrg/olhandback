@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad95830b37d3b83554b64d2f82fa537e603190d6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\Release-notes-for-Microsoft-Intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d83f2f41376ba6fc41d7ecf3b2d6dac504101b1b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">853f3ad38a56ea090bc69d71105b477694a6371a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Release notes for Microsoft Intune | Microsoft Intune</source>
+          <target state="translated">Versionshinweise für Microsoft Intune | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Intune release notes</source>
+          <target state="translated">Versionshinweise für Intune</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Release notes for Microsoft Intune</source>
+          <target state="translated">Versionshinweise für Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune is an integrated, cloud-based client management solution that provides tools, reports, and upgrade licenses to the latest version of Windows, and helps keep your computers up-to-date and secure.</source>
+          <target state="translated">Microsoft Intune ist eine integrierte, cloudbasierte Lösung, die Tools, Berichte und Upgradelizenzen für die neueste Version von Windows bietet, und schützt Ihre Computer und auf dem neuesten Stand hält.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In addition, Intune lets you manage mobile devices on the network either through Exchange ActiveSync or directly through Intune.</source>
+          <target state="translated">Darüber hinaus können Sie mit Intune mobile Geräte im Netzwerk über Exchange ActiveSync oder direkt über Intune verwalten.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following release notes describe important information and known issues in Microsoft Intune.</source>
+          <target state="translated">Die folgenden Anmerkungen enthalten wichtige Informationen zu bekannten Problemen in Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Android users can’t send email when conditional access for Exchange Online is implemented</source>
+          <target state="translated">Android-Benutzer können keine e-Mail senden, wenn Bedingter Zugriff für Exchange Online implementiert ist</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Users running Samsung Android 5.1.1 and above on their devices are unable to send email when conditional access for Exchange Online has been configured.</source>
+          <target state="translated">Benutzer, die Samsung Android 5.1.1 und oben auf ihren Geräten können nicht zum Senden von e-Mails, beim Bedingter Zugriff für Exchange Online konfiguriert wurde.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Samsung acknowledges that the issue is in their built-in mail client in Android 5.1.1 and above, and is currently investigating a fix.</source>
+          <target state="translated">Samsung bestätigt, dass das Problem in den integrierten e-Mail-Client in Android 5.1.1 und höher, und zurzeit ein Update untersucht.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround 1:<ept id="p1">**</ept> Advise end users to use the Outlook app for Android.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung 1:<ept id="p1">**</ept> empfehlen Endbenutzer Outlook-app für Android verwenden.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround 2:<ept id="p1">**</ept> To enable impacted users to send email, you can follow these steps:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung 2:<ept id="p1">**</ept> um betroffenen Benutzer zum Senden von e-Mails zu aktivieren, folgen Sie diesen Schritten:</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Put the impacted user into a security group in the “exempted groups” section of the conditional access policy for Exchange Online.</source>
+          <target state="translated">Legen Sie den betroffenen Benutzer in eine Sicherheitsgruppe im Abschnitt "ausgenommene Gruppen" der Richtlinie für bedingten Zugriff für Exchange Online.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Allow the user to temporarily sync email on the built-in email client.</source>
+          <target state="translated">Zulassen, dass die Benutzer vorübergehend e-Mails auf dem integrierten e-Mail-Client synchronisieren.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Remove the impacted user from the exempted group, and confirm that user can now send email.</source>
+          <target state="translated">Entfernen Sie den betroffenen Benutzer aus der ausgeschlossenen Gruppe, und bestätigen Sie, dass dieser Benutzer jetzt e-Mail senden kann.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Microsoft will continue to work closely with Samsung on a fix or additional workarounds.</source>
+          <target state="translated">Microsoft wird weiterhin eng mit Samsung auf eine Korrektur oder Methoden zu umgehen.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Changing resource access profiles between groups for iOS and Android may fail</source>
+          <target state="translated">Ändern die Profile für den zwischen Gruppen für iOS und Android fehlschlagen.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> When you change email or Simple Certificate Enrollment Protocol (SCEP) resource access profiles between groups, the profiles may conflict and fail.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> Sie e-Mail-Adresse oder Simple Certificate Enrollment Protocol (SCEP) Profile für den zwischen Gruppen ändern, die Profile können in Konflikt stehen und fehl.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, let’s say that you have an existing email profile pointing to on-premise Exchange server, targeted to Group A, and then you create a new email profile that points to Exchange online, targeted to Group B. When you move users from Group A to Group B, devices will keep the on-premise Exchange email profile and try to install the Exchange online email profile that is targeted to Group B.</source>
+          <target state="translated">Beispielsweise nehmen wir an, Sie haben eine vorhandene e-Mail-Profil auf der lokalen Exchange-Server für Gruppe A, vorgesehenen und erstellen dann ein neues e-Mail-Profil, das auf Exchange online, zeigt für Gruppe b vorgesehenen Wenn Sie Benutzer von A an B verschieben, Geräte beibehalten das lokale Exchange-e-Mail-Profil, und versuchen Sie, installieren das Exchange online-e-Mail-Profil, das das Ziel in Gruppe B.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>At this point, one of the following occurs:</source>
+          <target state="translated">An diesem Punkt geschieht Folgendes:</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If email profiles A and B are identical, the device rejects email profile B because email profile B already contains email profile A.</source>
+          <target state="translated">E-Mail-Profile A und B identisch sind, vom Gerät abgelehnt e-Mail-Profil B da e-Mail-Profil B bereits e-Mail-Profil A enthält.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If email profile A is different from email profile B, as mentioned in the example above, the device ends up with two email profiles.</source>
+          <target state="translated">Wenn e-Mail-Profil ein e-Mail-Profil B unterscheidet wie im obigen Beispiel erwähnt, endet das Gerät mit zwei e-Mail-Profile.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The hostname and the attribute used for username are checked to distinguish one email profile from another.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Hinweis:<ept id="p1">**</ept> werden der Hostname und die Attribute für Benutzernamen, überprüft, um ein e-Mail-Profil voneinander zu unterscheiden.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In both cases above, the resource access profile (email profile) was not removed from the device in order to prevent the unintentional removal of a user’s access to email or client's SCEP certificate.</source>
+          <target state="translated">In beiden Fällen wurde die Unternehmensressource (e-Mail-Profil) nicht vom Gerät entfernt, um das unbeabsichtigte Entfernen von einem Benutzer Zugriff auf e-Mail-Adresse oder SCEP-Zertifikat des Clients zu verhindern.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> None.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you enroll a Windows 8.1 device that must authenticate to a proxy server, the enrollment process fails with no visible indication as to the cause of the failure</source>
+          <target state="translated">Wenn Sie ein Windows 8.1-Gerät, die mit einem Proxyserver authentifiziert werden muss registrieren, tritt bei der Registrierung ohne Angabe über die Ursache des Fehlers</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> When you enroll a Windows 8.1 device and the device must authenticate to a proxy server during the enrollment process, the enrollment fails if the device has not cached the proxy server credentials.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> Registrieren von Windows 8.1-Geräten und das Gerät muss mit einem Proxyserver authentifiziert, während der Registrierung, die Registrierung schlägt fehl, wenn das Gerät die Anmeldeinformationen für den Proxyserver nicht zwischengespeichert wurden.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When the credentials for the proxy server are not cached on the device, the enrollment process must wait for the user to enter the credentials.</source>
+          <target state="translated">Wenn die Anmeldeinformationen für den Proxyserver nicht auf dem Gerät zwischengespeichert werden, muss der Registrierung für den Benutzer zur Eingabe der Anmeldeinformationen eingibt.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>However, the prompt to provide the proxy server credentials does not display during the enrollment process.</source>
+          <target state="translated">Während der Registrierung wird jedoch keine Aufforderung zur Eingabe der Anmeldeinformationen für den Proxyserver angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The result is that the enrollment process cannot authenticate to the proxy server and there is no visible indication of this failure presented to the user.</source>
+          <target state="translated">Das Resultat ist, dass der Registrierungsprozess nicht beim Proxyserver authentifiziert werden kann und dass keine Ursache für diesen Fehler angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> For Windows 8.1 devices that must enroll on a network that requires use of an authenticated proxy server, configure and save the credentials for the proxy server prior to enrollment of the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> für Windows 8.1-Geräte, die in einem Netzwerk registriert müssen, die ein authentifizierter Proxyserver erforderlich ist, konfigurieren und speichern Sie die Anmeldeinformationen für den Proxyserver vor der Registrierung des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To configure and save the credentials on a Windows 8.1 device:</source>
+          <target state="translated">So konfigurieren und speichern Sie die Anmeldeinformationen auf einem Windows 8.1-Gerät:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the Windows 8.1 device, open <bpt id="p1">**</bpt>Internet Explorer<ept id="p1">**</ept>.</source>
+          <target state="translated">Öffnen Sie auf dem Windows 8.1-Gerät <bpt id="p1">**</bpt>Internet Explorer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When prompted for the proxy server credentials, enter the credentials and then select the option <bpt id="p1">**</bpt>Remember my credentials<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie Anmeldeinformationen für den Proxyserver aufgefordert werden, geben Sie die Anmeldeinformationen ein, und wählen Sie die Option <bpt id="p1">**</bpt>Anmeldedaten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enroll the device.</source>
+          <target state="translated">Registrieren Sie das Gerät.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8.1 devices fail to enroll with Microsoft Intune when device authentication is enabled in AD FS</source>
+          <target state="translated">Windows Phone 8.1-Geräte nicht mit Microsoft Intune registrieren, wenn die Geräteauthentifizierung in AD FS aktiviert ist</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> When you enroll a Windows Phone 8.1 device, enrollment fails if the optional setting for device authentication is enabled as part of global authentication policy in Active Directory Federated Services (AD FS).</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> Sie ein Windows Phone 8.1-Gerät registrieren, Registrierung schlägt fehl, wenn die optionale Einstellung für Geräteauthentifizierung als Teil der globalen Authentifizierungsrichtlinie in Active Directory-Verbunddiensten (AD FS) aktiviert ist.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> Disable device authentication on the AD FS server by unchecking <bpt id="p2">**</bpt>Enable device authentication<ept id="p2">**</ept> in <bpt id="p3">**</bpt>Edit Global Authentication Policy<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> Deaktivieren Geräteauthentifizierung auf dem AD FS-Server deaktivieren <bpt id="p2">**</bpt>Geräteauthentifizierung aktivieren<ept id="p2">**</ept> in <bpt id="p3">**</bpt>globale Authentifizierungsrichtlinie bearbeiten<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Configuring Authentication Policies<ept id="p1">](http://technet.microsoft.com/library/dn486781.aspx)</ept></source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>Konfigurieren von Authentifizierungsrichtlinien<ept id="p1">](http://technet.microsoft.com/library/dn486781.aspx)</ept></target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune App Wrapping Tool for Android has no built-in uninstall capability</source>
+          <target state="translated">Microsoft Intune App Wrapping Tool für Android verfügt über keine eigene Deinstallationsfunktion.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> The <bpt id="p2">**</bpt>Microsoft App Wrapping Tool for Android<ept id="p2">**</ept> does not have built-in functionality for uninstalling the tool.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> die <bpt id="p2">**</bpt>Microsoft App Wrapping Tool für Android<ept id="p2">**</ept> besitzt keine integrierte Funktion zum Deinstallieren des Tools.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> Browse to the location where you installed the tool, and delete the directory.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> Navigieren Sie zum Speicherort, in dem Sie das Tool installiert und das Verzeichnis zu löschen.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default installation location is: <bpt id="p1">**</bpt>C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Standardinstallationspfad lautet: <bpt id="p1">**</bpt>C:\Program Files (x86) \Microsoft Intune Mobile Application Management\Android\App Wrapping Tool<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information about the app wrapping tool, see <bpt id="p1">[</bpt>Prepare Android apps for management with App Wrapping Tool<ept id="p1">](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)</ept>.</source>
+          <target state="translated">Weitere Informationen über das app Wrapping Tool finden Sie unter <bpt id="p1">[</bpt>Vorbereiten von Android-apps für die Verwaltung mit App Wrapping Tool<ept id="p1">](/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Remote assistance is not available on computers that run Windows 8 or Windows 8.1</source>
+          <target state="translated">Es ist keine Remoteunterstützung auf Computern mit Windows 8 oder Windows 8.1 verfügbar</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> In this release, the remote assistance feature is not available on computers that run Windows 8 or Windows 8.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> In dieser Version der Funktion "Remoteunterstützung" ist nicht auf Computern mit Windows 8 oder Windows 8.1 verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> None.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> None.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Alert notifications for recipients that are automatically added may not work</source>
+          <target state="translated">Warnbenachrichtigungen sind bei automatisch hinzugefügten Empfängern nicht funktionsfähig</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Issue:<ept id="p1">**</ept> If a recipient is automatically added to an alert notification, they may not always receive a notification.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> wenn ein Empfänger einer warnbenachrichtigung automatisch hinzugefügt wird, können nicht immer erhalten sie eine Benachrichtigung.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Workaround:<ept id="p1">**</ept> To make sure that recipients will receive message notification, you should manually add recipients to alert notifications.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Lösung:<ept id="p1">**</ept> um sicherzustellen, dass der Empfänger erhält eine Benachrichtigung, Sie sollten manuell Empfänger von Benachrichtigungen hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Language support in the Azure preview portal</source>
+          <target state="translated">Sprachunterstützung in Azure-vorschauportal</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Azure preview portal is built on a new platform and supports the following languages - Chinese (Simplified), Chinese (Traditional), Czech, Dutch, English, German, Hungarian, Italian, Japanese, Portuguese (Brazil), Portuguese (Portugal), Russian, Spanish, English, French, Korean, Polish, Swedish, Turkish.</source>
+          <target state="translated">Azure-vorschauportal ist auf eine neue Plattform integriert und unterstützt die folgenden Sprachen – Chinesisch (vereinfacht), Chinesisch (traditionell), Tschechisch, Niederländisch, Englisch, Deutsch, Ungarisch, Italienisch, Japanisch, Portugiesisch (Brasilien), Portugiesisch (Portugal), Russisch, Spanisch, Englisch, Französisch, Koreanisch, Polnisch, Schwedisch, Türkisch.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Intune Admin Console and the end-user facing mobile experiences support Danish, Greek, Finish, Norwegian and Romanian, in addition to all the languages supported by the Azure preview portal.</source>
+          <target state="translated">Der Intune-Verwaltungskonsole und der Endbenutzer nach Erfahrungen auf mobilen Geräten unterstützt Dänisch, Griechisch, Fertig stellen, Norwegisch und Rumänisch, zusätzlich zu den Sprachen, die für die von Azure-vorschauportal unterstützt.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

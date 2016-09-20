@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c93efd43a85c8046c7cfd6aa8341352b75ab0cfd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\overview-of-app-lifecycle-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6473126c7ca31608271b44d70363f8a9884b15b8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16d3ddc1f7153022a9c52c8f88601cf94f44001d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Overview of the app lifecycle | Microsoft Intune</source>
+          <target state="translated">Übersicht über die app-Lebenszyklus | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn about the lifecycle of Intune managed apps, from adding them, to their eventual retirement.</source>
+          <target state="translated">Informationen Sie zu den Lebenszyklus von Intune verwalteten apps hinzugefügt, ihre endgültigen Deaktivierung.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Overview of the app lifecycle</source>
+          <target state="translated">Übersicht über den Lebenszyklus der app</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Intune app lifecycle begins when an app is added and progresses through additional phases until you remove the app.</source>
+          <target state="translated">Intune app-Lebenszyklus beginnt, wenn eine Anwendung hinzugefügt und durchläuft weitere Phasen, bis Sie die app entfernt.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The app lifecycle</source>
+          <target state="translated">App-Lebenszyklus</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The first step in app deployment is to add the apps, which you want to manage and deploy, to Intune.</source>
+          <target state="translated">Der erste Schritt beim app-Bereitstellung ist die apps zu verwalten und Bereitstellen von Intune hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>While you can work with many different app types, the basic procedures are the same.</source>
+          <target state="translated">Wenn Sie mit vielen anderen app-Typen arbeiten können, sind die grundlegenden Verfahren identisch.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With Intune, you can add apps for both <bpt id="p1">[</bpt>enrolled devices<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>Windows PCs you manage with the Intune client software<ept id="p2">](add-apps-for-windows-pcs-in-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Mit Intune können Sie apps für beide hinzufügen <bpt id="p1">[</bpt>registrierte Geräte<ept id="p1">](add-apps-for-mobile-devices-in-microsoft-intune.md)</ept> und <bpt id="p2">[</bpt>Windows-PCs, die Sie mit der Clientsoftware verwalten<ept id="p2">](add-apps-for-windows-pcs-in-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Deploy</source>
+          <target state="translated">Stellen Sie</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After you've added the app to Intune, you can then <bpt id="p1">[</bpt>deploy it to devices that you manage<ept id="p1">](deploy-apps.md)</ept>.</source>
+          <target state="translated">Nachdem Sie die app Intune hinzugefügt haben, können Sie dann <bpt id="p1">[</bpt>auf die verwalteten Geräte bereitstellen<ept id="p1">](deploy-apps.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Intune makes this process easy, and after the app is deployed, you can <bpt id="p1">[</bpt>monitor the success<ept id="p1">](monitor-apps-in-microsoft-intune.md)</ept> of the deployment from the Intune administration console.</source>
+          <target state="translated">Intune vereinfacht diesen Vorgang, und nachdem die Anwendung bereitgestellt wird, können Sie <bpt id="p1">[</bpt>Überwachen Sie den Erfolg<ept id="p1">](monitor-apps-in-microsoft-intune.md)</ept> der Bereitstellung in der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Additionally, in some app stores, like the  <bpt id="p1">[</bpt>Apple<ept id="p1">](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)</ept> and <bpt id="p2">[</bpt>Windows<ept id="p2">](manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)</ept> app stores, you can purchase app licenses in bulk for your company.</source>
+          <target state="translated">Darüber hinaus wird in einigen app gespeichert werden, wie z. B. die  <bpt id="p1">[</bpt>Apple<ept id="p1">](manage-ios-apps-you-purchased-through-a-volume-purchase-program-with-microsoft-intune.md)</ept> und <bpt id="p2">[</bpt>Windows<ept id="p2">](manage-apps-you-purchased-from-the-windows-store-for-business-with-microsoft-intune.md)</ept> app-Stores, Sie können app-Lizenzen in einer Sammeloperation für Ihr Unternehmen erwerben.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Intune can synchronize data with these stores so that you can deploy and track license usage for these types of apps right from the Intune administration console.</source>
+          <target state="translated">Intune kann mithilfe dieser Speicher Daten synchronisieren, sodass Sie bereitstellen, und für diese Typen von apps für die Lizenzverwendung direkt aus der Intune-Verwaltungskonsole.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configure</source>
+          <target state="translated">Konfigurieren</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As part of the app lifecycle, new versions of apps are regularly released.</source>
+          <target state="translated">Neue Versionen von apps sind Bestandteil des Lebenszyklus der Anwendung regelmäßig veröffentlicht.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Intune provides tools to easily <bpt id="p1">[</bpt>update apps<ept id="p1">](update-apps-using-microsoft-intune.md)</ept> that you have deployed to a newer version.</source>
+          <target state="translated">Intune bietet Tools, leicht <bpt id="p1">[</bpt>Aktualisierung von apps<ept id="p1">](update-apps-using-microsoft-intune.md)</ept> die Sie auf eine neuere Version bereitgestellt haben.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Additionally, you can configure extra functionality for some apps, for example:</source>
+          <target state="translated">Darüber hinaus können Sie zusätzliche Funktionen für einige apps, z. B. konfigurieren:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>iOS app configuration policies<ept id="p1">](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)</ept> supply settings for compatible iOS apps that are used when the app is run.</source>
+          <target state="translated"><bpt id="p1">[</bpt>iOS-app-Konfigurationsrichtlinien<ept id="p1">](configure-ios-apps-with-mobile-app-configuration-policies-in-microsoft-intune.md)</ept> Geben Sie Einstellungen für kompatible iOS-apps, die verwendet werden, wenn die Anwendung ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, an app might require specific branding settings or the name of a server to connect to.</source>
+          <target state="translated">Eine app möglicherweise z. B. bestimmte Brandingeinstellungen oder den Namen eines Servers für die Verbindung.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Managed browser policies<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept> help you to configure settings for the Intune managed browser, which replaces the default device browser and lets you restrict the websites that your users can visit.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Richtlinien für Browser verwaltet<ept id="p1">](manage-internet-access-using-managed-browser-policies.md)</ept> finden Sie Informationen zum Konfigurieren der Einstellungen für Intune managed Browser, ersetzt der Standardbrowser für das Gerät und können Sie die Websites einschränken, die die Benutzer besuchen können.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Protect</source>
+          <target state="translated">Schützen</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Intune gives you many ways to help protect the data in your apps.</source>
+          <target state="translated">Intune bietet Ihnen viele Möglichkeiten zum Schutz der Daten in Ihren apps.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The main methods are:</source>
+          <target state="translated">Die wichtigsten Methoden sind:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> controls access to email and other services based on conditions that you specify.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Bedingter Zugriff<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> steuert den Zugriff auf e-Mail und andere Dienste basierend auf Bedingungen, die Sie angeben.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Conditions include device types or compliance with a <bpt id="p1">[</bpt>device compliance policy<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> that you deployed.</source>
+          <target state="translated">Bedingungen umfassen Gerätetypen oder mit einer <bpt id="p1">[</bpt>Gerät Konformitätsrichtlinie<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> die Sie bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Mobile application management (MAM)<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept> works with individual apps to help protect the company data that they use.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Mobile anwendungsverwaltung (MAM)<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept> arbeitet mit einzelnen apps, mit denen die Unternehmensdaten zu schützen, die sie verwenden.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can restrict copying data between unmanaged apps and apps that you manage, or you can prevent apps from running on devices that have been jailbroken or rooted.</source>
+          <target state="translated">Beispielsweise können Sie einschränken, Kopieren von Daten zwischen nicht verwalteten apps und apps, die Sie verwalten, oder Sie können verhindern, dass apps auf Geräten, die als Stamm oder gehackt wurden ausgeführt.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Retire</source>
+          <target state="translated">Außerkraftsetzen</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Eventually, it's likely that apps that you deployed become outdated and need to be removed.</source>
+          <target state="translated">Schließlich ist es wahrscheinlich, dass apps, die Sie bereitgestellt haben, nicht aktuell mehr und müssen entfernt werden.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Intune makes it easy to <bpt id="p1">[</bpt>retire apps from service<ept id="p1">](retire-apps-using-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Intune vereinfacht <bpt id="p1">[</bpt>apps vom Dienst abgekoppelt<ept id="p1">](retire-apps-using-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

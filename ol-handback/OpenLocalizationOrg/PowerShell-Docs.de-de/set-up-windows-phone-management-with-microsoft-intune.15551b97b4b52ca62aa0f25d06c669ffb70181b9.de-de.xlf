@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c3d0b63520b1b49acb29b27d98fd08778e13e62</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\set-up-windows-phone-management-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31ee24258f08d3b0e514cf894c40ae87a14ef451</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3754f575cee63593ce804f9277a7a9608b6558b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Set up Windows 10 Mobile and Windows Phone management | Microsoft Intune</source>
+          <target state="translated">Einrichten der Verwaltung von Windows 10 Mobile und Windows Phone | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enable mobile device management (MDM) for Windows 10 Mobile or Windows Phone devices with Microsoft Intune.</source>
+          <target state="translated">Aktivieren Sie Verwaltung mobiler Geräte (MDM) für Windows 10 Mobile oder Windows Phone-Geräten mit Microsoft Intune.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set up Windows Phone and Windows 10 Mobile management with Microsoft Intune</source>
+          <target state="translated">Einrichten der Windows Phone und Windows 10 Mobile-Verwaltung mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As an Intune administrator, you can enable enrollment and management for Windows 10 Mobile and Windows Phone devices in two ways:</source>
+          <target state="translated">Als Administrator Intune können Sie die Registrierung und Verwaltung für Windows 10 Mobile und Windows Phone-Geräte auf zwei Arten aktivieren:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Automatic enrollment with Azure AD<ept id="p2">](#azure-active-directory-enrollment)</ept><ept id="p1">**</ept> -  Windows 10 and Window 10 Mobile users enroll their devices by adding a work or school account to the device</source>
+          <target state="translated"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Automatische Registrierung bei Azure AD<ept id="p2">](#azure-active-directory-enrollment)</ept><ept id="p1">**</ept> -Windows 10 und Fenster 10 Mobile Geräte durch Hinzufügen von Geschäfts-oder schulkonto an das Gerät registrieren</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Company Portal enrollment<ept id="p2">](#company-portal-app-enrollment)</ept><ept id="p1">**</ept> - Windows Phone 8.1 and later devices are enrolled by downloading and installing the Company Portal app, and then entering their work or school account credentials in the app.</source>
+          <target state="translated"><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Unternehmens-Portal-Registrierung<ept id="p2">](#company-portal-app-enrollment)</ept><ept id="p1">**</ept> – Windows Phone 8.1 und höher herunterladen und Installieren der Unternehmensportal-app registriert sind, und geben Sie ihre Geschäfts- oder schulkonto an Anmeldeinformationen in der app.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Company Portal app enrollment</source>
+          <target state="translated">Company Portal app-Registrierung</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can let users enroll their devices by installing and enrolling their devices with the Intune Company Portal app.</source>
+          <target state="translated">Sie können die Benutzer ihre Geräte registrieren, installieren und registrieren ihre Geräte mit der Windows Intune-Unternehmensportal-app.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creating a DNS CNAME helps users connect and enroll in Intune without entering a server name.</source>
+          <target state="translated">Erstellen eines DNS CNAME kann Benutzer eine Verbindung herstellen und in Intune registrieren, ohne einen Servernamen eingeben.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you manage Windows Phone 8.0 devices or need to deploy the Company Portal to Windows Phone devices, you must also download and sign the Company Portal app.</source>
+          <target state="translated">Wenn Sie Windows Phone 8.0-Geräte zu verwalten oder das Unternehmensportal für Windows Phone-Geräten bereitstellen müssen, müssen Sie auch herunterladen und Signieren der Unternehmensportal-app.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Set up Windows Phone 8.0 management<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Einrichten von Windows Phone 8.0-Management<ept id="p1">](set-up-windows-phone-8.0-management-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set up Intune</source>
+          <target state="translated">Einrichten von Intune</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you haven’t already, prepare for mobile device management by  <bpt id="p1">[</bpt>setting the mobile device management authority<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> as <bpt id="p2">**</bpt>Microsoft Intune<ept id="p2">**</ept> and setting up MDM.</source>
+          <target state="translated">Wenn Sie noch nicht geschehen, Vorbereiten für die Verwaltung mobiler Geräte durch  <bpt id="p1">[</bpt>Festlegen der Verwaltungsautorität für mobile Geräte<ept id="p1">](get-ready-to-enroll-devices-in-microsoft-intune.md#set-mobile-device-management-authority)</ept> als <bpt id="p2">**</bpt>Microsoft Intune<ept id="p2">**</ept> und Einrichten von Mdm.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create CNAMEs<ept id="p1">**</ept> (optional)</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erstellen von CNAMEs<ept id="p1">**</ept> (optional)</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create <bpt id="p1">**</bpt>CNAME<ept id="p1">**</ept> DNS resource records for your company’s domain.</source>
+          <target state="translated">Erstellen Sie <bpt id="p1">**</bpt>CNAME<ept id="p1">**</ept> DNS-Ressourceneinträge für die Domäne des Unternehmens.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, if your company’s website is contoso.com, you would create a CNAME in DNS that redirects EnterpriseEnrollment.contoso.com to manage.microsoft.com.</source>
+          <target state="translated">Z. B. wenn die Website des Unternehmens "contoso.com" lautet, würde erstellen Sie einen CNAME in DNS, die mit dem EnterpriseEnrollment.contoso.com an manage.microsoft.com umgeleitet.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If there is more than one verified domain, create a CNAME record for each domain.</source>
+          <target state="translated">Wenn mehr als eine überprüfte Domäne vorhanden ist, erstellen Sie einen CNAME-Eintrag für jede Domäne.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The CNAME resource records must contain the following information:</source>
+          <target state="translated">Der CNAME-Ressourceneintrag müssen die folgende Informationen enthalten:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>TYPE</source>
+          <target state="translated">TYPE</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Host name</source>
+          <target state="translated">Hostname</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Points to</source>
+          <target state="translated">Verweist auf</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>TTL</source>
+          <target state="translated">TTL</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>CNAME</source>
+          <target state="translated">CNAME</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>EnterpriseEnrollment.company_domain.com</source>
+          <target state="translated">EnterpriseEnrollment.company_domain.com</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>EnterpriseEnrollment-s.manage.microsoft.com</source>
+          <target state="translated">EnterpriseEnrollment-s.manage.microsoft.com</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>1 Hour</source>
+          <target state="translated">1 Stunde</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>CNAME</source>
+          <target state="translated">CNAME</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>EnterpriseRegistration.company_domain.com</source>
+          <target state="translated">EnterpriseRegistration.company_domain.com</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>EnterpriseRegistration.windows.net</source>
+          <target state="translated">EnterpriseRegistration.windows.net</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>1 Hour</source>
+          <target state="translated">1 Stunde</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>DNS record changes might take up to 72 hours to propagate.</source>
+          <target state="translated">DNS-Datensatz Änderungen können verbreiten bis zu 72 Stunden dauern.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You cannot verify the DNS change in Intune until the DNS record propagates.</source>
+          <target state="translated">Sie können die DNS-Änderung in Intune nicht überprüfen, bis der DNS-Eintrag verteilt.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>– Supports a redirect to the Intune service with domain recognition from the email’s domain name</source>
+          <target state="translated">– Unterstützt eine Umleitung zum Intune-Dienst mit domänenerkennung anhand des e-Mail Domänennamens</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>– Supports Windows 8.1 and Windows 10 Mobile devices that will register with Azure Active Directory using their work or school account</source>
+          <target state="translated">– Unterstützt Windows 8.1 und Windows 10 Mobile Geräte, die mit Azure Active Directory mit ihrem Geschäfts- oder schulkonto registrieren</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If your company uses multiple domains for user credentials, create CNAME records for each domain.</source>
+          <target state="translated">Wenn Ihr Unternehmen mehrere Domänen für die Anmeldeinformationen des Benutzers verwendet, erstellen Sie CNAME-Datensätze für jede Domäne.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if your company’s website is contoso.com, you would create a CNAME in DNS that redirects EnterpriseEnrollment.contoso.com to EnterpriseEnrollment-s.manage.microsoft.com.</source>
+          <target state="translated">Z. B. wenn die Website des Unternehmens "contoso.com" lautet, würde erstellen Sie einen CNAME in DNS, die mit dem EnterpriseEnrollment.contoso.com an EnterpriseEnrollment-s.manage.microsoft.com umgeleitet.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>DNS record changes might take up to 72 hours to propagate.</source>
+          <target state="translated">DNS-Datensatz Änderungen können verbreiten bis zu 72 Stunden dauern.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You cannot verify the DNS change in Intune until the DNS record propagates.</source>
+          <target state="translated">Sie können die DNS-Änderung in Intune nicht überprüfen, bis der DNS-Eintrag verteilt.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Verify CNAME</source>
+          <target state="translated">Überprüfen von CNAME</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept>, click <bpt id="p2">**</bpt>Administration<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Mobile Device Management<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept>, klicken Sie auf <bpt id="p2">**</bpt>Verwaltung<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Verwaltung mobiler Geräte<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Windows Phone-<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Type the URL of the verified domain of the company website in the <bpt id="p1">**</bpt>Specify a verified domain name<ept id="p1">**</ept> box and then click <bpt id="p2">**</bpt>Test Auto-Detection<ept id="p2">**</ept>.</source>
+          <target state="translated">Geben Sie die URL der überprüften Domäne der Unternehmenswebsite in das <bpt id="p1">**</bpt>Geben Sie einen verifizierten Domänennamen<ept id="p1">**</ept> ein, und klicken Sie dann auf <bpt id="p2">**</bpt>Automatische Erkennung testen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Set up mobile device management for Windows dialog box</source>
+          <target state="translated">Einrichten der Verwaltung mobiler Geräte für Windows (Dialogfeld)</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Optional steps</source>
+          <target state="translated">Optionale Schritte</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add Sideloading keys<ept id="p1">**</ept> step is not needed for Windows 10.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Sideload-Schlüssel hinzufügen<ept id="p1">**</ept> Schritt ist nicht erforderlich für Windows 10.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Upload Code-Signing Certificate<ept id="p1">**</ept> step is only needed if you will distribute line-of-business (LOB) apps to devices not available from the Windows Store.</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Hochladen Codesignaturzertifikat<ept id="p1">**</ept> Schritt ist nur erforderlich, wenn Sie Line-of-Business (LOB)-apps für Geräte nicht verfügbar, aus dem Windows Store freigeben möchten.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Inform users</source>
+          <target state="translated">Informieren Sie Benutzer</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Your users will need to know how to enroll their devices and what to expect once they're brought into management.</source>
+          <target state="translated">Die Benutzer müssen wissen, wie Sie ihre Geräte registrieren und was Sie erwartet, wenn sie in die Verwaltung eingebunden sind.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>What to tell your end users about using Microsoft Intune</source>
+          <target state="translated">Informieren Sie Ihre Endbenutzer über die Verwendung von Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>End user guidance for Windows devices</source>
+          <target state="translated">Endbenutzer-Anleitung für Windows-Geräte</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>No additional work is required unless you will deploy the Company Portal to devices.</source>
+          <target state="translated">Keine zusätzliche Arbeit ist erforderlich, es sei denn, Sie das Unternehmensportal auf Geräten bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Steps 2 and 3 in the admin console can be safely ignored.</source>
+          <target state="translated">Die Schritte 2 und 3 in der Verwaltungskonsole können ignoriert werden.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

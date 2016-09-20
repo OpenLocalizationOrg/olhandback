@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea1a6ef60b6a9cdd64559f67276280a4f491e30e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2a570fdcaaa427850773fb68a2069c0acd9b66d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b07f481c708540c94af9c007b928e4b90f0f432</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wrap Android apps with App Wrapping Tool | Microsoft Intune</source>
+          <target state="translated">Umschließen von Android-apps mit App Wrapping Tool | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the information in this topic to learn how to wrap your Android apps without modifying the code of the app itself.</source>
+          <target state="translated">Verwenden Sie die Informationen in diesem Thema erfahren Sie, wie Ihre Android-apps zu umschließen, ohne den Code der Anwendung selbst.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Prepare the apps so you can apply mobile app management policies.</source>
+          <target state="translated">Bereiten Sie die apps vor, damit Sie mobile app-Verwaltungsrichtlinien anwenden können.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prepare Android apps for mobile application management with the Intune App Wrapping Tool</source>
+          <target state="translated">Vorbereiten von Android-apps für mobile Application Management mit dem Intune App Wrapping Tool</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool for Android<ept id="p1">**</ept> to modify the behavior of your in-house Android apps to let you configure features of the app without modifying the code of the app itself.</source>
+          <target state="translated">Verwenden der <bpt id="p1">**</bpt>Microsoft Intune App Wrapping Tool für Android<ept id="p1">**</ept> So ändern Sie das Verhalten von internen Android-apps Features der app zu konfigurieren, ohne den Code der eigentlichen app zu können.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The tool is a Windows command-line application that runs in PowerShell and creates a ‘wrapper’ around your app.</source>
+          <target state="translated">Das Tool ist eine Windows-befehlszeilenanwendung, die in PowerShell ausgeführt wird, und erstellt einen Wrapper um die app.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once the app is processed, you can then change the app’s functionality using <bpt id="p1">[</bpt>mobile application management policies<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> that you configure.</source>
+          <target state="translated">Sobald die app verarbeitet wurde, können Sie die Funktionalität der Anwendung ändern mit <bpt id="p1">[</bpt>Verwaltungsrichtlinien für mobile<ept id="p1">](configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console.md)</ept> die Sie konfigurieren.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Before running the tool, review the <bpt id="p1">[</bpt>Security considerations for running the app wrapping tool<ept id="p1">](#security-considerations-for-running-the-app-wrapping-tool)</ept>.</source>
+          <target state="translated">Lesen Sie vor dem Ausführen des Tools die <bpt id="p1">[</bpt>Sicherheitsaspekte für die Ausführung des app wrapping Tools<ept id="p1">](#security-considerations-for-running-the-app-wrapping-tool)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To download the tool, see <bpt id="p1">[</bpt>Microsoft Intune App Wrapping Tool for Android<ept id="p1">](https://www.microsoft.com/download/details.aspx?id=47267)</ept>.</source>
+          <target state="translated">Zum Herunterladen des Tools finden Sie unter <bpt id="p1">[</bpt>Microsoft Intune App Wrapping Tool für Android<ept id="p1">](https://www.microsoft.com/download/details.aspx?id=47267)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The version of the app wrapping tool, which supports devices not enrolled in Intune, is available for public preview.</source>
+          <target state="translated">Die Version des app wrapping Tool, mit dem nicht registrierten Geräte in Intune unterstützt wird, wird als öffentliche Vorschau verfügbar.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you wish to participate in the public preview, you can download the tool from <bpt id="p1">[</bpt>this github page<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)</ept> for Android.</source>
+          <target state="translated">Wenn Sie die public Preview teilnehmen möchten, können Sie das Tool herunterladen <bpt id="p1">[</bpt>dieser Github-Seite<ept id="p1">](https://github.com/msintuneappsdk/intune-app-wrapper-android-preview)</ept> für Android.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The scenario is described in the <bpt id="p1">[</bpt>Protect LOB apps on devices not enrolled in Intune<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> topic.</source>
+          <target state="translated">Das Szenario wird beschrieben, der <bpt id="p1">[</bpt>schützen LOB-apps auf Geräten, die nicht in Intune registriert<ept id="p1">](protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune.md)</ept> Thema.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Step 1 Fulfill the prerequisites for using the app wrapping tool</source>
+          <target state="translated">Schritt 1 erfüllen, die Voraussetzung für die Verwendung des app wrapping Tools</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You must run the app wrapping tool on a Windows computer running Windows 7 or later.</source>
+          <target state="translated">Sie müssen das app wrapping Tool auf einem Windows-Computer unter Windows 7 oder höher ausführen.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Your input app must be a valid Android application package with the extension <bpt id="p1">**</bpt>.apk<ept id="p1">**</ept> file and:</source>
+          <target state="translated">Die Eingabe-app muss ein gültiges Android-Anwendungspaket mit der Erweiterung <bpt id="p1">**</bpt>apk<ept id="p1">**</ept> Datei und:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Cannot be encrypted</source>
+          <target state="translated">Kann nicht verschlüsselt werden</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Must not have already been wrapped by the app wrapping tool</source>
+          <target state="translated">Darf nicht bereits vom app wrapping Tool umschlossen sein</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Must be written for Android 4.0 or later</source>
+          <target state="translated">Muss für Android 4.0 oder höher geschrieben werden</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The app must be developed by, or for your company.</source>
+          <target state="translated">Die app muss von Ihrem oder für Ihr Unternehmen entwickelt werden.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You cannot use this tool to process apps downloaded from the Google Play Store.</source>
+          <target state="translated">Mit diesem Tool können Sie aus dem Google Play Store heruntergeladenen apps bearbeiten.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To run the app wrapping tool, you must install the latest version of the <bpt id="p1">[</bpt>Java Runtime Environment<ept id="p1">](http://java.com/download/)</ept> and then ensure that the Java path variable has been set to <bpt id="p2">**</bpt>C:\ProgramData\Oracle\Java\javapath<ept id="p2">**</ept> in your Windows environment variables.</source>
+          <target state="translated">Um das app wrapping Tool auszuführen, müssen Sie die neueste Version von installieren die <bpt id="p1">[</bpt>Java Runtime Environment<ept id="p1">](http://java.com/download/)</ept> und stellen Sie sicher, dass die Java-Pfadvariable festgelegt wurde, <bpt id="p2">**</bpt>C:\ProgramData\Oracle\Java\javapath<ept id="p2">**</ept> in den Windows-Umgebungsvariablen.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For more help, see your <bpt id="p1">[</bpt>Java documentation<ept id="p1">](http://java.com/download/help/)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter der <bpt id="p1">[</bpt>Java-Dokumentation<ept id="p1">](http://java.com/download/help/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In some cases, the 32-bit version of Java may result in memory issues.</source>
+          <target state="translated">In einigen Fällen kann die 32-Bit-Version von Java zu Speicherproblemen führen.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>We recommend that you install the 64-bit version instead.</source>
+          <target state="translated">Es wird empfohlen, stattdessen die 64-Bit-Version zu installieren.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Step 2 Install the app wrapping tool</source>
+          <target state="translated">Schritt 2 Installieren des app wrapping Tools</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>From the Microsoft Download Center, download and open the installation file for the app wrapping tool to a Windows computer.</source>
+          <target state="translated">Aus dem Microsoft Download Center herunter, und öffnen Sie die Installationsdatei für das app Wrapping Tool auf einem Windows-Computer.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Accept the license agreement, then complete the installation.</source>
+          <target state="translated">Den Lizenzvertrag akzeptieren und die Installation abzuschließen.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Note the folder to which you installed the tool.</source>
+          <target state="translated">Beachten Sie den Ordner, in dem Sie das Tool installiert.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default location is: <bpt id="p1">**</bpt>C:\Program Files (x86)\Microsoft Intune Mobile Application Management\Android\App Wrapping Tool<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Standardpfad lautet: <bpt id="p1">**</bpt>C:\Program Files (x86) \Microsoft Intune Mobile Application Management\Android\App Wrapping Tool<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Step 3 Run the app wrapping tool</source>
+          <target state="translated">Schritt 3 Ausführen des app wrapping tool</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On the Windows computer where you installed the app wrapping tool, open a PowerShell window in administrator mode.</source>
+          <target state="translated">Öffnen Sie ein PowerShell-Fenster im Administratormodus, auf dem Windows-Computer, auf dem Sie das app wrapping Tool installiert.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>From the folder where you installed the tool, import the app wrapping tool PowerShell module:</source>
+          <target state="translated">Importieren Sie aus dem Ordner, in dem Sie das Tool installiert, ist das app wrapping Tool PowerShell-Modul:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Run the tool by using the <bpt id="p1">**</bpt>invoke-AppWrappingTool<ept id="p1">**</ept> command together with the following parameters.</source>
+          <target state="translated">Führen Sie das Tool mithilfe der <bpt id="p1">**</bpt>invoke-AppWrappingTool<ept id="p1">**</ept> Befehl zusammen mit den folgenden Parametern.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Parameter</source>
+          <target state="translated">Parameter</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>More information</source>
+          <target state="translated">Weitere Informationen</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Examples</source>
+          <target state="translated">Beispiele</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
+          <target state="translated"><bpt id="p1">**</bpt>-InputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>Zeichenfolge</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Path of the source Android app (.apk).</source>
+          <target state="translated">Der Pfad der Quelle Android-App (.apk).</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
+          <target state="translated"><bpt id="p1">**</bpt>-OutputPath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>Zeichenfolge</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Path to the "output" Android app.</source>
+          <target state="translated">Pfad zu "Output" Android-app.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If this is the same directory path as InputPath, the packaging will fail.</source>
+          <target state="translated">Ist dies der gleichen Verzeichnispfad als InputPath, schlägt die Verpackung fehl.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
+          <target state="translated"><bpt id="p1">**</bpt>-KeyStorePath<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>Zeichenfolge</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Path to the keystore file that contains the public/private key pair for signing.</source>
+          <target state="translated">Pfad zur Keystore-Datei, die das öffentliche/Private Schlüsselpaar für die Signierung enthält.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
+          <target state="translated"><bpt id="p1">**</bpt>-KeyStorePassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Password used to decrypt the keystore.</source>
+          <target state="translated">Kennwort zum Entschlüsseln des Schlüsselspeichers.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Android requires that all application packages (.apk) to be signed.</source>
+          <target state="translated">Android erfordert, dass alle (.apk) Anwendungspakete signiert sein.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Use the Java Key Tool to generate the KeyStorePassword as shown in the example.</source>
+          <target state="translated">Verwenden Sie Java-Key-Tool, um die KeyStorePassword zu generieren, wie im Beispiel dargestellt.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Read more about <bpt id="p1">[</bpt>keystore<ept id="p1">](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html)</ept>.</source>
+          <target state="translated">Erfahren Sie mehr über <bpt id="p1">[</bpt>Keystore<ept id="p1">](https://docs.oracle.com/javase/7/docs/api/java/security/KeyStore.html)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>keytool.exe -genkey -v -keystore keystorefile -alias ks -keyalg RSA -keysize 2048 -validity 50000</source>
+          <target state="translated">keytool.exe - Genkey - V - Schlüsselspeicher Keystorefile-Alias ks - Keyalg RSA - Keysize 2048 - Gültigkeit 50000</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>String</source>
+          <target state="translated"><bpt id="p1">**</bpt>-KeyAlias<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>Zeichenfolge</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Name of the key to be used for signing.</source>
+          <target state="translated">Der Name des Schlüssels, der zum Signieren verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
+          <target state="translated"><bpt id="p1">**</bpt>-KeyPassword<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Password used to decrypt the private key that will be used for signing.</source>
+          <target state="translated">Kennwort zum Entschlüsseln des privaten Schlüssels, der zum Signieren verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</source>
+          <target state="translated"><bpt id="p1">**</bpt>-SigAlg<ept id="p1">**</ept><ph id="ph1">&amp;lt;</ph>SecureString</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Name of the signature algorithm to be used for signing.</source>
+          <target state="translated">Der Name des Signaturalgorithmus zum Signieren verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The algorithm must be compatible with the private key.</source>
+          <target state="translated">Der Algorithmus muss kompatibel mit dem privaten Schlüssel sein.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Examples: SHA256withRSA, SHA1withRSA, MD5withRSA</source>
+          <target state="translated">Beispiele: SHA256withRSA, SHA1withRSA, MD5withRSA</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>CommonParameters<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept><ph id="ph3">
+</ph>    (optional – supports common PowerShell parameters such as verbose, debug, etc.)</source>
+          <target state="translated"><bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>CommonParameters<ph id="ph2">&amp;gt;</ph><ept id="p1">**</ept><ph id="ph3">
+</ph>    (optional – unterstützt allgemeine PowerShell-Parameter wie verbose, Debug usw..)</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For a list of common parameters, see the <bpt id="p1">[</bpt>Microsoft Script Center<ept id="p1">](https://technet.microsoft.com/library/hh847884.aspx)</ept>.</source>
+          <target state="translated">Eine Liste der allgemeinen Parameter finden Sie in der <bpt id="p1">[</bpt>Microsoft Script Center<ept id="p1">](https://technet.microsoft.com/library/hh847884.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To see help for the tool, enter the command:</source>
+          <target state="translated">Um finden Hilfe für das Tool, geben Sie den Befehl:</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Example:</source>
+          <target state="translated">Beispiel:</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You will then be prompted for the <bpt id="p1">**</bpt>KeyStorePassword<ept id="p1">**</ept> and <bpt id="p2">**</bpt>KeyPassword<ept id="p2">**</ept>.</source>
+          <target state="translated">Anschließend werden Sie aufgefordert für die <bpt id="p1">**</bpt>KeyStorePassword<ept id="p1">**</ept> und <bpt id="p2">**</bpt>KeyPassword<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The wrapped app is generated, and saved, along with a log file, in the output path you specified.</source>
+          <target state="translated">Die umschlossene app wird generiert und zusammen mit einer Protokolldatei im angegebenen Ausgabepfad gespeichert.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Security considerations for running the app wrapping tool</source>
+          <target state="translated">Sicherheitsaspekte für die Ausführung des app wrapping Tools</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To prevent potential spoofing, information disclosure, and elevation of privilege attacks:</source>
+          <target state="translated">Um mögliches spoofing, Offenlegung von Informationen und Angriffe durch rechteerweiterungen zu verhindern:</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Ensure that the input line-of-business application, output application, and Java KeyStore are on the same computer where the app wrapping tool is running.</source>
+          <target state="translated">Sicherstellen Sie, dass die Eingabe Line-of-Business-Anwendung, ausgabeanwendung und Java KeyStore auf demselben Computer, auf dem das app Wrapping Tool ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Import the output application to the Intune console on the same computer where the tool is running.</source>
+          <target state="translated">Importieren Sie die ausgabeanwendung in die Intune-Verwaltungskonsole auf dem gleichen Computer, auf dem das Tool ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>keytool<ept id="p1">](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html)</ept> for more information about the Java keytool.</source>
+          <target state="translated">Finden Sie unter <bpt id="p1">[</bpt>Keytool<ept id="p1">](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html)</ept> Weitere Informationen zu den Java-Keytool.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the output application and the tool are on a Universal Naming Convention (UNC) path and you are not running the tool and input files on the same computer, configure the environment to be secure by using <bpt id="p1">[</bpt>Internet Protocol Security (IPsec)<ept id="p1">](http://en.wikipedia.org/wiki/IPsec)</ept> or <bpt id="p2">[</bpt>Server Message Block (SMB) signing<ept id="p2">](https://support.microsoft.com/en-us/kb/887429)</ept>.</source>
+          <target state="translated">Wenn die ausgabeanwendung und das Tool auf einem Pfad Universal Naming Convention (UNC) und Sie nicht das Tool und die Eingabedateien auf demselben Computer ausführen, konfigurieren Sie die Umgebung sicher mit <bpt id="p1">[</bpt>Internet Protocol Security (IPsec)<ept id="p1">](http://en.wikipedia.org/wiki/IPsec)</ept> oder <bpt id="p2">[</bpt>Signieren von Server Message Block (SMB)<ept id="p2">](https://support.microsoft.com/en-us/kb/887429)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Ensure that the application is coming from a trusted source, which might enable the application to access the AAD token during runtime.</source>
+          <target state="translated">Stellen Sie sicher, dass die Anwendung aus einer vertrauenswürdigen Quelle stammt, da die Anwendung auf das AAD-Token während der Laufzeit zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Secure the output directory that contains the wrapped app.</source>
+          <target state="translated">Sichern Sie das Ausgabeverzeichnis, das die umschlossene Anwendung enthält.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Consider using a user-level directory for the output.</source>
+          <target state="translated">Erwägen Sie ein Verzeichnis auf Benutzerebene für die Ausgabe.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Decide how to prepare apps for mobile application management with Microsoft Intune</source>
+          <target state="translated">Entscheiden Sie, wie Sie apps für die Verwaltung der mobilen Anwendung mit Microsoft Intune vorbereiten</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Use the SDK to enable apps for mobile application management</source>
+          <target state="translated">Verwenden des SDK für apps für die Verwaltung der mobilen Anwendung aktivieren</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

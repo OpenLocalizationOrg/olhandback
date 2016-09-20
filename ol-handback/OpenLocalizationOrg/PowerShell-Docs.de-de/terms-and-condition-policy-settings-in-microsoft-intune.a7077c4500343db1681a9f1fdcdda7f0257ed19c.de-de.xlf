@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">701f6c79b32a3968fd76b441b8f7fd4d9d810df6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\terms-and-condition-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8165b000e6df113e9ece5af11048a9074c53b30e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97a1324638ebf8712fc8820d14eba2b8471bebeb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Terms and condition policy settings | Microsoft Intune</source>
+          <target state="translated">Begriffe und Richtlinien für die Bedingung | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can deploy Intune terms and conditions to user groups to explain how enrollment, access to work resources, and using the Company Portal app affect devices and users.</source>
+          <target state="translated">Bereitstellen von Geschäftsbedingungen Intune für Benutzer zu erklären wie Anmeldung, Zugriff auf Arbeitsressourcen und mithilfe der Unternehmensportal-app auswirken, Geräte und Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Terms and condition policy settings in Microsoft Intune</source>
+          <target state="translated">Begriffe und Einstellungen für die Bedingung in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can deploy Intune terms and conditions to user groups to explain how enrollment, access to work resources, and using the Company Portal app affect devices and users.</source>
+          <target state="translated">Bereitstellen von Geschäftsbedingungen Intune für Benutzer zu erklären wie Anmeldung, Zugriff auf Arbeitsressourcen und mithilfe der Unternehmensportal-app auswirken, Geräte und Benutzer.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Users must accept the terms and conditions before they can use the Company Portal to enroll and access their work.</source>
+          <target state="translated">Benutzer müssen die allgemeinen Geschäftsbedingungen akzeptieren, bevor sie das Unternehmensportal zum Registrieren und Zugriff auf ihre Arbeit verwenden können.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can create and deploy multiple policies containing different terms and conditions.</source>
+          <target state="translated">Sie können erstellen und Bereitstellen mehrerer Richtlinien mit anderen Geschäftsbedingungen.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also produce versions of the same terms and conditions in different languages and then deploy these to their appropriate groups.</source>
+          <target state="translated">Sie können auch Versionen der gleichen Geschäftsbedingungen in verschiedenen Sprachen erstellt und anschließend bereitstellen in ihren jeweiligen Gruppen.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a terms and conditions policy</source>
+          <target state="translated">Erstellen Sie eine Richtlinie Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Terms and Conditions<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> Klicken Sie auf <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Geschäftsbedingungen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Terms and conditions policy screenshot</source>
+          <target state="translated">Geschäftsbedingungen Richtlinie-screenshot</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to create a new terms and conditions policy.</source>
+          <target state="translated">Klicken Sie auf <bpt id="p1">**</bpt>Hinzufügen<ept id="p1">**</ept> zum Erstellen einer neuen Richtlinie Geschäftsbedingungen.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept> an existing policy.</source>
+          <target state="translated">Sie können auch <bpt id="p1">**</bpt>Bearbeiten<ept id="p1">**</ept> oder <bpt id="p2">**</bpt>Löschen<ept id="p2">**</ept> einer vorhandenen Richtlinie.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Terms and Conditions<ept id="p1">**</ept> page, specify the following information:</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Geschäftsbedingungen erstellen<ept id="p1">**</ept> Geben die folgende Informationen:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> - A unique policy name displayed in the Intune console</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namen<ept id="p1">**</ept> -einen eindeutigen Richtliniennamen in der Intune-Konsole angezeigt</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> - Details that help you identify the policy in the Intune console</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beschreibung<ept id="p1">**</ept> -Details, die Ihnen helfen zu identifizieren, die Richtlinie in der Intune-Konsole</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Title<ept id="p1">**</ept> - The title displayed to users in the company portal</source>
+          <target state="translated"><bpt id="p1">**</bpt>Titel<ept id="p1">**</ept> -den Titel, die Benutzern im Unternehmensportal angezeigt</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Text to explain what it means if the user accepts<ept id="p1">**</ept> - Label users see regarding acceptance.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Text zu erklären, was es bedeutet, wenn der Benutzer akzeptiert<ept id="p1">**</ept> -Bezeichnung Benutzer finden Sie in Bezug auf die Annahme.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Example<ept id="p1">**</ept>: “I agree to the terms and conditions.”</source>
+          <target state="translated"><bpt id="p1">**</bpt>Beispiel<ept id="p1">**</ept>: "Ich stimme den Bestimmungen."</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you are finished, click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie fertig sind, klicken Sie auf <bpt id="p1">**</bpt>Speichern<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The new policy is displayed in the <bpt id="p1">**</bpt>Terms and Conditions<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> workspace.</source>
+          <target state="translated">Die neue Richtlinie wird angezeigt, der <bpt id="p1">**</bpt>Geschäftsbedingungen<ept id="p1">**</ept> Knoten der <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> Arbeitsbereich.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Deploy a terms and conditions policy</source>
+          <target state="translated">Bereitstellen einer Richtlinie Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Terms and Conditions<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> Klicken Sie auf <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Geschäftsbedingungen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Terms and Conditions Policies<ept id="p1">**</ept> list, select the policy you want to deploy, and then click <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Nutzungsbedingungen Richtlinien<ept id="p1">**</ept> wählen Sie die Richtlinie, die Sie bereitstellen, und klicken Sie dann auf möchten <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box, select the user groups who you want to deploy the policy to, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> Wählen Sie im Dialogfeld die Benutzergruppen an, die Sie verwenden möchten, die Richtlinie, und klicken Sie auf <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When targeted users access the company portal, Intune displays the terms and conditions you deployed.</source>
+          <target state="translated">Wenn der Zielbenutzer über das Unternehmensportal zugreifen, zeigt Intune den Bestimmungen, die Sie bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Users must accept these terms before they can gain access to company resources.</source>
+          <target state="translated">Benutzer müssen diese Begriffe, bevor diese Zugriff auf Unternehmensressourcen erhalten akzeptieren.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Monitor a terms and conditions policy</source>
+          <target state="translated">Überwachen einer Richtlinie Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Terms and Conditions<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> Klicken Sie auf <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Geschäftsbedingungen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create New Report<ept id="p1">**</ept> window, click <bpt id="p2">**</bpt>View Report<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>neuen Bericht erstellen<ept id="p1">**</ept> Fenster, klicken Sie auf <bpt id="p2">**</bpt>Bericht anzeigen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The report will open detailing which users have accepted the terms and conditions you deployed.</source>
+          <target state="translated">Der Bericht wird geöffnet, mit Informationen, welche Benutzer die Geschäftsbedingungen bereitgestellte akzeptiert haben.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Updates and version control for terms and conditions</source>
+          <target state="translated">Updates und Versionskontrolle für Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When you edit an existing terms and conditions policy, you can choose the behavior when you deploy the policy.</source>
+          <target state="translated">Bearbeiten Sie eine vorhandene Richtlinie Geschäftsbedingungen, können Sie das Verhalten auswählen, wenn Sie die Richtlinie bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Use the following procedure to help you update existing terms and conditions policies.</source>
+          <target state="translated">Verwenden Sie das folgende Verfahren können Sie vorhandene Begriffe und Richtlinien zu aktualisieren.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>How to work with multiple versions of terms and conditions</source>
+          <target state="translated">Gewusst wie: Arbeiten mit mehreren Versionen der Geschäftsbedingungen</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](http://manage.microsoft.com)</ept> click <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Terms and Conditions<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](http://manage.microsoft.com)</ept> Klicken Sie auf <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Geschäftsbedingungen<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select the terms and conditions policy that you want to edit, and then click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie die allgemeinen Geschäftsbedingungen Richtlinie, die Sie verwenden möchten, bearbeiten, und klicken Sie dann auf <bpt id="p1">**</bpt>Bearbeiten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Edit Terms and Conditions<ept id="p1">**</ept> page, make any required edits, and then specify whether this new version requires all users to accept the terms and conditions, or only new users will see the new version.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Geschäftsbedingungen bearbeiten<ept id="p1">**</ept> Seite, alle erforderlichen Änderungen vorzunehmen, und geben Sie dann, ob diese neue Version erfordert, dass alle Benutzer die allgemeinen Geschäftsbedingungen akzeptiert oder nur neue Benutzer werden die neue Version angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>We recommend you increase the version number and require acceptance any time you make significant changes to your terms and conditions policy.</source>
+          <target state="translated">Wir empfehlen Ihnen die Versionsnummer erhöhen erfordern Annahme jedes Mal, wenn Sie signifikante Stellen zur Geschäftsbedingungen Richtlinie ändert.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Keep the current version number if you are fixing typos or changing formatting, for example.</source>
+          <target state="translated">Behalten Sie die aktuelle Versionsnummer bei, wenn Sie Tippfehler beheben oder Ändern der Formatierung, z. B..</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Manage settings and features on your devices with Microsoft Intune policies</source>
+          <target state="translated">Verwalten der Einstellungen und Funktionen auf Ihren Geräten mit Microsoft Intune-Richtlinien</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

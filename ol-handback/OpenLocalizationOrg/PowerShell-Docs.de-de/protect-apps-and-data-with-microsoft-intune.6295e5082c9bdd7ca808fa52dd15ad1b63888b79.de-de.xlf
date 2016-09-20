@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f2127f50750f5b483bd5d9fa2bed31a63b9d65f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\protect-apps-and-data-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54e45e4b376fd543e3202f29dbc2c97143b661cd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2607bb2b64ad36259a1c33518cc844d26bfedc8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Protect apps and data | Microsoft Intune</source>
+          <target state="translated">Schützen von apps und Daten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes the various Intune features and capabilities that are available to you to help protect your company apps and data.</source>
+          <target state="translated">Dieses Thema beschreibt die verschiedenen Intune-Features und Funktionen, die Sie zum Schutz Ihrer Unternehmens-apps und Daten zur Verfügung stehen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Protect apps and data with Microsoft Intune</source>
+          <target state="translated">Schützen von apps und Daten mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune protects company data through multiple technology layers.</source>
+          <target state="translated">Intune schützt Unternehmensdaten über mehrere Technologieebenen.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At the identity layer, conditional access protects access to services by only allowing access from managed and compliant devices.</source>
+          <target state="translated">Auf der Ebene Identität schützt Zugangsberechtigung Zugriff auf Dienste, indem Sie nur Zugriff auf verwaltete und kompatible Geräte zu gestatten.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the client application layer, mobile app management (MAM)  protects data loss by preventing data from moving to non-protected apps or storage locations and by wiping data when a device is lost or stolen.</source>
+          <target state="translated">Auf der Anwendungsebene Client schützt mobile app Management (MAM) Daten verloren gehen, indem Sie verhindern, dass Daten in nicht geschützten apps oder Speicherorte verschieben und Zurücksetzen von Daten, wenn ein Gerät verloren geht oder gestohlen wird.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These two layers of protection should be used together in order to secure data while keeping your mobile workforce productive.</source>
+          <target state="translated">Diese beiden Ebenen des Schutzes sollten zusammen verwendet werden, um Daten zu schützen, während Ihre mobilen Mitarbeiter produktiv bleiben.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An important first step to protecting company data is to implement conditional access by making sure that devices used to access that data are using security protections like strong password, encryption, and are not jailbroken.</source>
+          <target state="translated">Ein wichtiger erster Schritt zum Schutz von Unternehmensdaten wird zum Implementieren von bedingten Zugriffs und sicherstellen, dass Geräte verwendet, um Zugriff auf die Daten die Sicherheitsmaßnahmen wie sicheres Kennwort, Verschlüsselung und sind nicht gehackt verwenden.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft Intune gives you the ability to set conditions that the devices have to comply with, before they are allowed to access your company email and data.</source>
+          <target state="translated">Microsoft Intune können Sie Bedingungen festlegen, die die Geräte mit entsprechen, bevor Sie ihnen Zugriff auf Ihre geschäftlichen e-Mails und Daten.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> is determined by two types of policies you can set in Intune:</source>
+          <target state="translated"><bpt id="p1">[</bpt>Bedingter Zugriff<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> richtet sich nach zwei Arten von Richtlinien, die Sie in Intune festlegen können:</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Compliance policies<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> determine the compliance of a device.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Konformitätsrichtlinien<ept id="p1">](introduction-to-device-compliance-policies-in-microsoft-intune.md)</ept> bestimmen die Kompatibilität eines Geräts.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They evaluate settings and conditions like:</source>
+          <target state="translated">Bewertung Einstellungen, und Situationen wie:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>PIN and passwords: You can create rules to require passwords before unlocking a device, the complexity requirements of the password, and other password settings.</source>
+          <target state="translated">PIN und Kennwörter: Sie können Regeln erstellen, um Kennwörter erforderlich sind, bevor Sie ein Gerät, den komplexitätsanforderungen der das Kennwort und andere kennworteinstellungen entsperren.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Encryption: You can restrict access to devices that are encrypted.</source>
+          <target state="translated">Verschlüsselung: Sie können den Zugriff auf Geräte einschränken, die verschlüsselt werden.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Device is not jailbroken or rooted: Intune can detect if an enrolled device is jailbroken, and you can set the policy to block access on such devices.</source>
+          <target state="translated">Gerät nicht per jailbreak oder Rooting: Intune kann erkennen, ob eine registrierte Gerät gehackt ist und sich die Richtlinie lassen, um den Zugriff auf solche Geräte blockieren.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Conditional access policies<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> are configured for a particular service like Exchange Online or SharePoint Online.</source>
+          <target state="translated"><bpt id="p1">[</bpt>Richtlinien für bedingten Zugriff<ept id="p1">](restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> für einen bestimmten Dienst wie Exchange Online oder SharePoint Online konfiguriert sind.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For each service, you can define which groups of users these policies should apply to.</source>
+          <target state="translated">Für jeden Dienst können Sie definieren, welche Gruppen von Benutzern auf diese Richtlinien angewendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you can make sure that everyone in the finance department can only access company email from enrolled and compliant devices.</source>
+          <target state="translated">Beispielsweise können Sie sicherstellen, dass alle Benutzer in der Abteilung kann nur Zugriff Finanzunternehmen von registriert und kompatiblen Geräten per e-Mail.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Securing access to company resources is just the first step to protecting company data.</source>
+          <target state="translated">Sichern des Zugriffs auf Unternehmensressourcen wird nur der erste Schritt zum Schutz von Unternehmensdaten.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You still need the ability to protect the data once it has been accessed on the device.</source>
+          <target state="translated">Sie benötigen weiterhin die Möglichkeit, die Daten zu schützen, nachdem es auf dem Gerät zugegriffen wurde.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The data can now be copied, moved, saved to a different location, or shared.</source>
+          <target state="translated">Die Daten können jetzt kopiert, verschoben, an einem anderen Speicherort gespeichert, oder freigegeben.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Intune solves this problem by providing you with the ability to restrict data movement by creating a set of rules like:</source>
+          <target state="translated">Intune löst dieses Problem und bietet Ihnen die Möglichkeit zum Verschieben von Daten einschränken, indem Sie einen Satz von Regeln, wie erstellen:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Block copy and paste, or prevent data transfer outside of the work context.</source>
+          <target state="translated">Block kopieren und einfügen oder zu verhindern, dass die Datenübertragung außerhalb des Kontexts arbeiten.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Prevent backup to personal cloud storage, prevent Save as.</source>
+          <target state="translated">Verhindern Sie der Sicherung auf persönliche Cloud-Speicher, verhindern Sie speichern als.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Secure app access by requiring PIN/passcode or corporate credentials.</source>
+          <target state="translated">Sichern Sie app-Zugriff erfordern PIN/Kennung oder Firmennetzwerk Anmeldeinformationen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Have all web links open within the Intune Managed Browser.</source>
+          <target state="translated">Haben Sie alle Weblinks innerhalb der Intune Managed Browser zu öffnen.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>These set of rules are referred to as <bpt id="p1">[</bpt>mobile app management (MAM) policies<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</source>
+          <target state="translated">Dieser Satz von Regeln werden als bezeichnet <bpt id="p1">[</bpt>mobile app-Verwaltungsrichtlinien (MAM)<ept id="p1">](protect-app-data-using-mobile-app-management-policies-with-microsoft-intune.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>MAM policies can be applied to apps running on devices that may or may not be managed by you.</source>
+          <target state="translated">Für apps, die auf Geräten, die möglicherweise nicht von Ihnen verwaltet werden, können MAM-Richtlinien angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can protect your company data using MAM policies for devices that are <bpt id="p1">**</bpt>enrolled in Intune<ept id="p1">**</ept>, devices that are <bpt id="p2">**</bpt>enrolled and managed by another third party MDM<ept id="p2">**</ept>, or a device that is <bpt id="p3">**</bpt>not enrolled in any MDM solution<ept id="p3">**</ept>, like the employee owned devices.</source>
+          <target state="translated">Sie können die Daten Ihres Unternehmens mithilfe von MAM-Richtlinien für Geräte, schützen <bpt id="p1">**</bpt>in Intune registriert<ept id="p1">**</ept>, Geräte, die <bpt id="p2">**</bpt>registriert und verwaltet, die von einem anderen Drittanbieter MDM<ept id="p2">**</ept>, oder ein Gerät <bpt id="p3">**</bpt>MDM-Lösung nicht registriert<ept id="p3">**</ept>, wie die Mitarbeiter, die Geräte.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To associate an app with a MAM policy, the app must incorporate the Microsoft Intune App Software Development Kit (SDK), or use the App wrapping tool.</source>
+          <target state="translated">Um eine app mit einer MAM-Richtlinie zu verknüpfen, muss die app Integrieren von Microsoft Intune App Software Development Kit (SDK), oder verwenden das App Wrapping Tool.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Apps like Microsoft Office apps have the App SDK built-in.</source>
+          <target state="translated">Apps wie Microsoft Office-apps müssen die integrierte App SDK.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The full list of supported apps can be found on the <bpt id="p1">[</bpt>Microsoft Intune mobile application gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> in the Microsoft Intune application partners page.</source>
+          <target state="translated">Die vollständige Liste der unterstützten apps finden Sie auf der <bpt id="p1">[</bpt>Microsoft Intune mobile Application Gallery<ept id="p1">](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/partners.aspx)</ept> auf der Seite Microsoft Intune Anwendung Partner.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choose the app to see the supported scenarios, platforms and whether or not the app supports multi-identity.</source>
+          <target state="translated">Wählen Sie die zu den unterstützten Szenarien finden Sie unter app-Plattformen und davon, ob die Anwendung mehrere Identitäten unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can also <bpt id="p1">[</bpt>enable your custom built line of business apps<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept> to use with MAM policies.</source>
+          <target state="translated">Sie können auch <bpt id="p1">[</bpt>Aktivieren Ihrer individuellen Branchen-apps<ept id="p1">](decide-how-to-prepare-apps-for-mobile-application-management-with-microsoft-intune.md)</ept> mit MAM-Richtlinien verwendet.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In addition to restricting data movement, if a device gets lost or stolen, or if the user is no longer working with your company, you can <bpt id="p1">[</bpt>selectively wipe company data<ept id="p1">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>, leaving only personal data behind.</source>
+          <target state="translated">Zusätzlich zum Verschieben von Daten einschränken, wenn ein Gerät verloren geht oder gestohlen ruft oder wenn der Benutzer nicht mehr mit Ihrem Unternehmen arbeitet, Sie können <bpt id="p1">[</bpt>selektiv Unternehmensdaten<ept id="p1">](wipe-managed-company-app-data-with-microsoft-intune.md)</ept>, nur persönliche Daten hinterlassen.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

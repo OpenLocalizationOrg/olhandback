@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e11d71265f01ae31ab3124a46aaa544ad2f453a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-email-and-o365-services-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e1128277bec9a8392e08801a8ee6f251841d089</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9216ba510e8715417b78b40ab3e0b9f6cd4e90a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict access to email and O365 services | Microsoft Intune</source>
+          <target state="translated">Einschränken des Zugriffs auf e-Mail und Office 365-Diensten | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This topic describes how conditional can be used to allow only compliant devices to access company email and company data on SharePoint Online and other services.</source>
+          <target state="translated">In diesem Thema wird beschrieben, wie bedingte ermöglichen Unternehmen Zugriff auf nur kompatible Geräte-e-Mail und Unternehmen Daten auf SharePoint Online und anderen Diensten verwendet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict access to email, O365, and other services with Microsoft Intune</source>
+          <target state="translated">Einschränken des Zugriffs auf e-Mail, Office 365 und andere Dienste mit Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can restrict access to your company email and O365 services with Intune's conditional access.</source>
+          <target state="translated">Sie können den Zugriff auf Ihre geschäftlichen e-Mails und Office 365-Dienste mit bedingtem Zugriff Intune einschränken.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Intune's conditional access capability allows you to make sure that access to your company email and O365 services is restricted to devices that are compliant with the rules that you set.</source>
+          <target state="translated">Intune Zugangsberechtigung Weise können Sie sicherstellen, dass der Zugriff auf Ihre geschäftlichen e-Mails, und Office 365-Diensten kann nur für Geräte, die den Regeln entsprechen, die Sie festlegen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How does conditional access work?</source>
+          <target state="translated">Wie funktioniert die Bedingter Zugriff?</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings are used to evaluate the compliance of the device.</source>
+          <target state="translated">Compliance-Richtlinien werden für die Bewertung der Kompatibilität des Geräts verwendet.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Conditional access policy uses the evaluation to restrict or allow access to a specific service.</source>
+          <target state="translated">Richtlinie für bedingten Zugriff wird die Auswertung einschränken oder ermöglichen den Zugriff auf einen bestimmten Dienst verwendet.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a conditional access policy is used in combination with a compliance policy, only compliant devices will be allowed to access the service.</source>
+          <target state="translated">Wenn eine Richtlinie für bedingten Zugriff in Kombination mit einer Kompatibilitätsrichtlinie verwendet wird, nur kompatible Geräte kann auf den Dienst zuzugreifen.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The compliance policy and the conditional access policy are deployed to the user.</source>
+          <target state="translated">Dem Benutzer werden der Konformitätsrichtlinien und Richtlinien für bedingten Zugriff bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Any device that the user uses to access the services is checked for compliance with the policies.</source>
+          <target state="translated">Jedes Gerät, das der Benutzer Zugriff auf die Dienste verwendet, wird für die Einhaltung der Richtlinien überprüft.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Keep in mind that the user who is using the device must have a compliance policy deployed to them in order for the device to be evaluated for compliance.</source>
+          <target state="translated">Bedenken Sie, die der Benutzer, der das Gerät verwendet eine Konformitätsrichtlinie bereitgestellt werden in der Reihenfolge für das Gerät ausgewertet werden soll, für die Kompatibilität benötigen.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If no compliance policy is deployed to the user the device is treated as compliant, and no access restrictions will be applied.</source>
+          <target state="translated">Wenn keine Konformitätsrichtlinie für den Benutzer bereitgestellt wird das Gerät wird als kompatibel behandelt und uneingeschränkt Zugriff angewendet werden.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When devices do not meet the conditions set in the policies, the end user is guided though the process of enrolling the device and fixing the issue that prevents the device from being compliant.</source>
+          <target state="translated">Wenn Geräte die Bedingungen in den Richtlinien nicht erfüllen, wird der Endbenutzer geführt, obwohl der Prozess der Registrierung des Geräts und Behebung des Problems, das Gerät verhindert kompatibel.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A typical flow of conditional access:</source>
+          <target state="translated">Ein typischer Ablauf für bedingten Zugriff:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Diagram shows the decision points used to determine whether a device is allowed access to a service or is blocked</source>
+          <target state="translated">Diagramm zeigt die Entscheidungspunkte verwendet, um zu bestimmen, ob ein Gerät Zugriff auf einen Dienst zulässig ist oder blockiert ist</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>How to configure conditional access?</source>
+          <target state="translated">Konfigurieren des bedingten Zugriffs wie?</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use conditional access to manage access to Microsoft <bpt id="p1">**</bpt>Exchange On-premises<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Exchange Online Dedicated<ept id="p3">**</ept>,  <bpt id="p4">**</bpt>SharePoint Online<ept id="p4">**</ept> and <bpt id="p5">**</bpt>Skype for Business Online<ept id="p5">**</ept>.</source>
+          <target state="translated">Verwenden Sie bedingten Zugriff zum Verwalten des Zugriffs auf Microsoft <bpt id="p1">**</bpt>auf lokales Exchange<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Exchange Online<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Exchange Online Dedicated<ept id="p3">**</ept>,  <bpt id="p4">**</bpt>SharePoint Online<ept id="p4">**</ept> und <bpt id="p5">**</bpt>Skype for Business Online<ept id="p5">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To set up conditional access, configure a device compliance policy, and a conditional access policy.</source>
+          <target state="translated">Konfigurieren Sie zum Einrichten des bedingten Zugriffs eine Geräte-Compliance-Richtlinie und eine Richtlinie für bedingten Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The compliance policy includes settings like passcode, encryption, and whether or not a device is jailbroken.</source>
+          <target state="translated">Die Compliance-Richtlinien enthält Einstellungen wie Kennung, Verschlüsselung und ob ein Gerät ist gehackt.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The device must meet these rules in order to be considered compliant.</source>
+          <target state="translated">Das Gerät muss diese Regeln erfüllen, um als kompatibel angesehen werden.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can set a conditional access policy to restrict access based on:</source>
+          <target state="translated">Sie können eine Richtlinie für bedingten Zugriff zum Beschränken des Zugriffs auf der Grundlage festlegen:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The device compliance status.</source>
+          <target state="translated">Der Status des Geräts Kompatibilität.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The platform running on the device.</source>
+          <target state="translated">Die Plattform, die auf dem Gerät ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The type of apps used to access the services.</source>
+          <target state="translated">Der Typ der apps, die Zugriff auf die Dienste verwendet.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Unlike other Intune policies, you do not deploy conditional access policies.</source>
+          <target state="translated">Im Gegensatz zu anderen Intune-Richtlinien denen Sie Richtlinien für bedingten Zugriff nicht bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Instead, once you configure the policy and select the users that should have the policy, the policy is applied to all targeted users.</source>
+          <target state="translated">Sobald Sie die Richtlinie konfigurieren, und wählen Sie die Benutzer, die die Richtlinie haben sollen, wird stattdessen die Richtlinie für alle Zielbenutzer angewendet.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When a user is targeted by a policy, each device they use must be compliant in order to access resources.</source>
+          <target state="translated">Wenn ein Benutzer eine Richtlinie zugewiesen ist, muss jedes von Ihnen verwendete Gerät den Zugriff auf Ressourcen kompatibel sein.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Learn about device compliance policy and how it works</source>
+          <target state="translated">Erfahren Sie mehr über die Konformitätsrichtlinie für Geräte und deren Funktionsweise</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a compliance policy</source>
+          <target state="translated">Erstellen einer Konformitätsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for one of the following:</source>
+          <target state="translated">Erstellen Sie eine Richtlinie für bedingten Zugriff für eines der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for Exchange Online</source>
+          <target state="translated">Erstellen Sie eine Richtlinie für bedingten Zugriff für Exchange Online</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for Exchange On-premises</source>
+          <target state="translated">Erstellen Sie eine Richtlinie für bedingten Zugriff für Exchange lokal</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for new Exchange Online Dedicated</source>
+          <target state="translated">Erstellen Sie eine Richtlinie für bedingten Zugriff für neue Exchange Online Dedicated</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create a conditional access policy for legacy Exchange Online Dedicated</source>
+          <target state="translated">Erstellen Sie eine Richtlinie für bedingten Zugriff für ältere Exchange Online Dedicated</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create conditional access policy for SharePoint Online</source>
+          <target state="translated">Erstellen der Richtlinie für bedingten Zugriff für SharePoint Online</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Create conditional access policy for Skype for Business Online</source>
+          <target state="translated">Erstellen Sie Richtlinie für bedingten Zugriff für Skype for Business Online</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Create conditional access policy for Dynamics CRM Online</source>
+          <target state="translated">Erstellen der Richtlinie für bedingten Zugriff für Dynamics CRM Online</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

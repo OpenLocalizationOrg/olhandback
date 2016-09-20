@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12239464012029e3ffff3a9bed4f4ccb2cebe633</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\windows-compliance-policy-settings-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">494f4e5e915498e073bd87ef735b1708c5be4573</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c7a52c7af9b6fcf3db7cf7de4f87e56b401bce7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows devices| Microsoft Intune</source>
+          <target state="translated">Compliance-Richtlinien für Windows-Geräte | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows devices in Microsoft Intune</source>
+          <target state="translated">Compliance-Richtlinien für Windows-Geräten in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The policy settings described in this topic applies to devices running  the Windows operating system.</source>
+          <target state="translated">Die in diesem Thema beschriebenen Richtlinien gilt für Geräte, die mit dem Windows-Betriebssystem.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The specific Windows version supported is called out in the sections below.</source>
+          <target state="translated">Die spezifische Windows-Version unterstützt wird in den folgenden Abschnitten hervorgehoben.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you are looking for information about other platforms, select one of the following:</source>
+          <target state="translated">Wenn Sie Informationen zu anderen Plattformen suchen, wählen Sie eine der folgenden:</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for iOS devices</source>
+          <target state="translated">Compliance-Richtlinien für iOS-Geräte</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Android devices</source>
+          <target state="translated">Compliance-Richtlinien für Android-Geräte</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows Phone devices</source>
+          <target state="translated">Compliance-Richtlinien für Windows Phone-Geräte</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The settings listed in this section are supported on Windows Phone 8.1 and later.</source>
+          <target state="translated">Die Einstellungen, die in diesem Abschnitt werden unter Windows Phone 8.1 und höher unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>System security settings</source>
+          <target state="translated">Systemeinstellungen für die Sicherheit</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Password</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require a password to unlock mobile devices:<ept id="p1">**</ept>    Set this to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require users to enter a password before they can access their device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anfordern eines Kennworts zum Entsperren mobiler Geräte:<ept id="p1">**</ept>    Legen Sie den <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> Benutzer ein Kennwort eingeben, bevor sie ihr Gerät zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow simple passwords:<ept id="p1">**</ept>    Set this  to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to let users create simple passwords  such as ‘<bpt id="p3">**</bpt>1234<ept id="p3">**</ept>’ or ‘<bpt id="p4">**</bpt>1111<ept id="p4">**</ept>’.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Einfache Kennwörter zulassen:<ept id="p1">**</ept>    Legen Sie den <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> können Benutzer einfache Kennwörter wie z. B. "<bpt id="p3">**</bpt>1234<ept id="p3">**</ept>'oder'<bpt id="p4">**</bpt>1111<ept id="p4">**</ept>'.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum password length:<ept id="p1">**</ept> Specify the minimum number of digits or characters that the user’s password must contain.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minimale Kennwortlänge:<ept id="p1">**</ept> Angeben der Mindestanzahl an Ziffern oder Zeichen, die das Benutzerkennwort enthalten muss.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required password type:<ept id="p1">**</ept> Specify whether users must create an <bpt id="p2">**</bpt>Alphanumeric<ept id="p2">**</ept>, or a <bpt id="p3">**</bpt>Numeric<ept id="p3">**</ept> password.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erforderlicher Kennworttyp:<ept id="p1">**</ept> angeben, ob Benutzer erstellen, müssen ein <bpt id="p2">**</bpt>alphanumerisch<ept id="p2">**</ept>, oder ein <bpt id="p3">**</bpt>numerischen<ept id="p3">**</ept> Kennwort.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For devices that run Windows and accessed with a Microsoft account, the compliance policy will fail to evaluate correctly if minimum password length is greater than eight characters or if minimum number of character sets is more than two.</source>
+          <target state="translated">Für Geräte, auf denen Windows ausgeführt und mit einem Microsoft-Konto zugegriffen, die Compliance-Richtlinien werden nicht ordnungsgemäß ausgewertet, wenn Mindestlänge für Kennwörter mehr als acht Zeichen ist oder die Mindestanzahl von Zeichensätzen mehr als zwei ist.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum number of character sets:<ept id="p1">**</ept> If <bpt id="p2">**</bpt>Required password type<ept id="p2">**</ept> is set to <bpt id="p3">**</bpt>Alphanumeric<ept id="p3">**</ept>, this setting specifies the minimum number of character sets that the password must contain.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mindestanzahl von Zeichensätzen:<ept id="p1">**</ept> Wenn <bpt id="p2">**</bpt>Erforderlicher Kennworttyp<ept id="p2">**</ept> Wert <bpt id="p3">**</bpt>alphanumerisch<ept id="p3">**</ept>, diese Einstellung gibt die Mindestanzahl von Zeichensätzen, die das Kennwort enthalten muss.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The four character sets are:</source>
+          <target state="translated">Die vier Zeichensätze sind:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Lowercase letters</source>
+          <target state="translated">Kleinbuchstaben</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Uppercase letters</source>
+          <target state="translated">Großbuchstaben</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Symbols</source>
+          <target state="translated">Sonderzeichen</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Numbers</source>
+          <target state="translated">Zahlen</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting a higher number for this setting will require users to create passwords that are more complex.</source>
+          <target state="translated">Einen höheren Wert für diese Einstellung festlegen, müssen Benutzer Kennwörter zu erstellen, die komplexer sind.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For devices that run Windows and accessed with a Microsoft account, the compliance policy will fail to evaluate correctly if minimum password length is greater than eight characters or if minimum number of character sets is more than two.</source>
+          <target state="translated">Für Geräte, auf denen Windows ausgeführt und mit einem Microsoft-Konto zugegriffen, die Compliance-Richtlinien werden nicht ordnungsgemäß ausgewertet, wenn Mindestlänge für Kennwörter mehr als acht Zeichen ist oder die Mindestanzahl von Zeichensätzen mehr als zwei ist.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required:<ept id="p1">**</ept>  Specifies the idle time before the user must re-enter their password.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist:<ept id="p1">**</ept>  Gibt die Leerlaufzeit, bevor der Benutzer sein Kennwort erneut eingeben muss.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password expiration (days):<ept id="p1">**</ept> Select the number of days before the user’s password expires and they must create a new one.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortablauf (Tage):<ept id="p1">**</ept> Wählen Sie die Anzahl der Tage, bevor das Kennwort des Benutzers abläuft und sie müssen einen neuen zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history:<ept id="p1">**</ept> Use this setting in conjunction with <bpt id="p2">**</bpt>Prevent reuse of previous passwords<ept id="p2">**</ept> to restrict the user from creating previously used passwords.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortverlauf:<ept id="p1">**</ept> Verwenden Sie diese Einstellung in Verbindung mit <bpt id="p2">**</bpt>zu verhindern, dass erneute Verwendung früherer Kennwörter<ept id="p2">**</ept> verwendet, um zu verhindern, dass den Benutzer zuvor erstellen Kennwörter.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prevent reuse of previous passwords:<ept id="p1">**</ept> If <bpt id="p2">**</bpt>Remember password history<ept id="p2">**</ept> is selected, specify the number of previously used passwords that cannot be re-used.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erneute Verwendung früherer Kennwörter verhindern:<ept id="p1">**</ept> Wenn <bpt id="p2">**</bpt>Kennwortverlauf<ept id="p2">**</ept> ist ausgewählt, geben Sie die Anzahl der zuvor verwendeten Kennwörter, die erneut verwendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require a password when the device returns from an idle state:<ept id="p1">**</ept> This setting should be used together with the <bpt id="p2">**</bpt>Minutes of inactivity before password is required<ept id="p2">**</ept> setting.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anfordern eines Kennworts, wenn das Gerät aus dem Leerlauf zurückkehrt:<ept id="p1">**</ept> diese Einstellung sollte verwendet werden, zusammen mit den <bpt id="p2">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p2">**</ept> festlegen.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The end users are prompted to enter a password to access a device that has been inactive for the time specified in the <bpt id="p1">**</bpt>Minutes of inactivity before password is required<ept id="p1">**</ept> setting.</source>
+          <target state="translated">Die End-Benutzer werden aufgefordert, geben ein Kennwort für den Zugriff auf ein Gerät, das für die angegebene Zeit inaktiv war die <bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist<ept id="p1">**</ept> festlegen.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This setting only applies to Windows 10 Mobile devices.</source>
+          <target state="translated">Diese Einstellung gilt nur für Windows 10 Mobile-Geräte.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Encryption</source>
+          <target state="translated">Verschlüsselung</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require encryption on mobile device:<ept id="p1">**</ept> Set this to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to require the device to be encrypted in order to connect to resources.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erfordert Verschlüsselung auf mobilem Gerät:<ept id="p1">**</ept> Legen Sie den <bpt id="p2">**</bpt>Ja<ept id="p2">**</ept> auf das Gerät verschlüsselt werden, um die Verbindung zwischen Ressourcen erfordern.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Device health settings</source>
+          <target state="translated">Die Integrität für Geräte</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require devices to be reported as healthy:<ept id="p1">**</ept> You can set a rule to require that <bpt id="p2">**</bpt>Windows 10 Mobile<ept id="p2">**</ept> devices must be reported as healthy in new or existing Compliance Policies.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Als fehlerfrei gemeldet werden Geräte erforderlich:<ept id="p1">**</ept> lassen sich eine Regel fordern, dass <bpt id="p2">**</bpt>Windows 10 Mobile<ept id="p2">**</ept> Geräte müssen in neuen oder vorhandenen Compliance-Richtlinien als fehlerfrei gemeldet werden.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If this setting is enabled, Windows 10 devices are evaluated via the Health Attestation Service (HAS) for  the following data points:</source>
+          <target state="translated">Wenn diese Einstellung aktiviert ist, werden Windows-10-Geräten über Health-Nachweis (HAS) für die folgenden Datenpunkte ausgewertet:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>BitLocker is enabled:<ept id="p1">**</ept> When BitLocker is on, the device is able to protect data that is stored on the drive from unauthorized access, when the system is turned off or goes to hibernation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>BitLocker ist aktiviert:<ept id="p1">**</ept> Wenn BitLocker aktiviert ist, das Gerät ist in der Lage, Daten zu schützen, die auf dem Laufwerk vor nicht autorisiertem Zugriff gespeichert wird, wenn das System ausgeschaltet ist oder in den Ruhezustand wechselt.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Windows BitLocker Drive Encryption encrypts all data stored on the Windows operating system volume.</source>
+          <target state="translated">Windows BitLocker Drive Encryption verschlüsselt alle Daten, die auf dem Windows-Betriebssystem-Datenträger gespeichert.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>BitLocker uses the TPM to help protect the Windows operating system and user data and helps to ensure that a computer is not tampered with, even if it is left unattended, lost, or stolen.</source>
+          <target state="translated">BitLocker das TPM verwendet, um die Windows-Betriebssystem und die Benutzerdaten zu schützen und sichergestellt, dass ein Computer nicht manipuliert wird, selbst wenn sie unbeaufsichtigte, verlorenen oder gestohlenen gelassen wird.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the computer is equipped with a compatible TPM, BitLocker uses the TPM to lock the encryption keys that protect the data.</source>
+          <target state="translated">Wenn der Computer mit einem kompatiblen TPM ausgestattet ist, verwendet BitLocker das TPM zum Sperren der Verschlüsselungsschlüssel, die die Daten zu schützen.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>As a result, the keys cannot be accessed until the TPM has verified the state of the computer</source>
+          <target state="translated">Daher können die Schlüssel erst zugegriffen werden das TPM den Zustand des Computers überprüft hat</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code integrity is enabled:<ept id="p1">**</ept> Code integrity is a feature that validates the integrity of a driver or system file each time it is loaded into memory.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Integrität des Codes ist aktiviert:<ept id="p1">**</ept> Codeintegrität ist ein Feature, das die Integrität der einen Treiber oder eine System-Datei jedes Mal überprüft in den Arbeitsspeicher geladen.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Code integrity detects whether an unsigned driver or system file is being loaded into the kernel, or whether a system file has been modified by malicious software that is being run by a user account with administrator privileges.</source>
+          <target state="translated">Codeintegrität erkennt, ob ein nicht signierter Treiber oder eine System-Dateien in den Kernel geladen wird oder ob eine Systemdatei durch böswillige Software geändert wurde, die von einem Benutzerkonto mit Administratorrechten ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Secure Boot is enabled:<ept id="p1">**</ept> When Secure Boot is enabled, the system is forced to boot to a factory trusted state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Der sichere Start aktiviert ist:<ept id="p1">**</ept> beim sicheren Start aktiviert ist, wird das System gezwungen, eine Factory, die vertrauenswürdige Zustand zu starten.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Also, when Secure Boot is enabled, the core components used to boot the machine must have correct cryptographic signatures that are trusted by the organization that manufactured the device.</source>
+          <target state="translated">Auch beim sicheren Start aktiviert ist, müssen die Kernkomponenten, die zum Starten des Computers verwendet richtige kryptografische Signaturen verfügen, die von der Organisation vertraut sind, die das Gerät hergestellt.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The UEFI firmware verifies this before it lets the machine start.</source>
+          <target state="translated">Die UEFI-Firmware wird dadurch überprüft, bevor sie den Computer starten können.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If any files have been tampered with, breaking their signature, the system will not boot.</source>
+          <target state="translated">Wenn Dateien manipuliert wurden, startet unterbrechen ihre Signatur im System nicht.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For information on how the HAS service works, see <bpt id="p1">[</bpt>Health Attestation CSP<ept id="p1">](https://msdn.microsoft.com/library/dn934876.aspx)</ept>.</source>
+          <target state="translated">Informationen zur Funktionsweise des Diensts HAS finden Sie unter <bpt id="p1">[</bpt>Health Nachweis CSP<ept id="p1">](https://msdn.microsoft.com/library/dn934876.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Device property settings</source>
+          <target state="translated">Einstellungen für Geräte-Eigenschaft</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum OS required:<ept id="p1">**</ept> When  a device does not meet the minimum OS version requirement, it is reported as noncompliant.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mindestens erforderliche Betriebssystem:<ept id="p1">**</ept> wenn ein Gerät die OS-Version Mindestanforderungen nicht erfüllt, wird als nicht konform gemeldet.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A link with information on how to upgrade is displayed.</source>
+          <target state="translated">Eine Verknüpfung mit Informationen zum Aktualisieren wird angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The end user can choose to upgrade their device after which they can access company resources.</source>
+          <target state="translated">Endbenutzer können ihre Geräte aktualisieren, nach denen sie auf Unternehmensressourcen zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Maximum OS version allowed:<ept id="p1">**</ept> When a device is using an OS version later than the one specified in the rule, access to company resources is blocked and the user is asked to contact their IT admin.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Maximale Version des Betriebssystems zulässig:<ept id="p1">**</ept> Wenn ein Gerät eine Version des Betriebssystems höher als die in der Regel verwendet, den Zugriff auf Unternehmensressourcen wird blockiert, und der Benutzer wird aufgefordert, wenden Sie sich an ihren IT-Administrator.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Until there is a change in rule to allow the OS version, this device cannot be used to access company resources.</source>
+          <target state="translated">Bis eine Änderung in der Regel zum Zulassen von der Version des Betriebssystems vorliegt, kann das Gerät Zugriff auf Unternehmensressourcen verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Compliance policy settings for Windows PCs</source>
+          <target state="translated">Compliance-Richtlinien für Windows-PCs</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The settings listed in this section are supported on Windows PCs.</source>
+          <target state="translated">Die Einstellungen, die in diesem Abschnitt werden auf Windows-PCs unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>System security settings</source>
+          <target state="translated">Systemeinstellungen für die Sicherheit</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Password</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum password length:<ept id="p1">**</ept> - Supported on Windows 8.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minimale Kennwortlänge:<ept id="p1">**</ept> – auf Windows 8.1 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Specify the minimum number of digits or characters that the user’s password must contain.</source>
+          <target state="translated">Geben Sie die Mindestanzahl an Ziffern oder Zeichen, die das Benutzerkennwort enthalten muss.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For devices that are accessed with a Microsoft Account, the compliance policy will fail to evaluate correctly if <bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept> is greater than 8 characters or if <bpt id="p2">**</bpt>Minimum number of character sets<ept id="p2">**</ept> is more than two characters.</source>
+          <target state="translated">Für Geräte, die mit einer Microsoft Account zugegriffen werden, nicht die Konformitätsrichtlinie ordnungsgemäß ausgewertet, wenn <bpt id="p1">**</bpt>Mindestlänge von Kennwörtern<ept id="p1">**</ept> ist größer als 8 Zeichen oder wenn <bpt id="p2">**</bpt>Mindestanzahl von Zeichensätzen<ept id="p2">**</ept> ist mehr als zwei Zeichen.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Required password type:<ept id="p1">**</ept> - Supported on Windows RT,  Windows RT 8.1, and Windows 8.1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erforderlicher Kennworttyp:<ept id="p1">**</ept> – auf Windows RT, Windows RT 8.1 und Windows 8.1 unterstützt</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Specify whether users must create an <bpt id="p1">**</bpt>Alphanumeric<ept id="p1">**</ept>, or a <bpt id="p2">**</bpt>Numeric<ept id="p2">**</ept> password.</source>
+          <target state="translated">Gibt an, ob Benutzer erstellen, müssen eine <bpt id="p1">**</bpt>alphanumerisch<ept id="p1">**</ept>, oder ein <bpt id="p2">**</bpt>numerischen<ept id="p2">**</ept> Kennwort.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum number of character sets:<ept id="p1">**</ept>  - Supported on Windows RT, Windows RT 8.1, and Windows 8.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mindestanzahl von Zeichensätzen:<ept id="p1">**</ept>  – auf Windows RT, Windows RT 8.1 und Windows 8.1 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Required password type<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Alphanumeric<ept id="p2">**</ept>, this setting specifies the minimum number of character sets that the password must contain.</source>
+          <target state="translated">Wenn <bpt id="p1">**</bpt>Erforderlicher Kennworttyp<ept id="p1">**</ept> Wert <bpt id="p2">**</bpt>alphanumerisch<ept id="p2">**</ept>, diese Einstellung gibt die Mindestanzahl von Zeichensätzen, die das Kennwort enthalten muss.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The four character sets are:</source>
+          <target state="translated">Die vier Zeichensätze sind:</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Lowercase letters</source>
+          <target state="translated">Kleinbuchstaben</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Uppercase letters</source>
+          <target state="translated">Großbuchstaben</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Symbols</source>
+          <target state="translated">Sonderzeichen</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Numbers:     Setting a higher number for this setting will require users to create passwords that are more complex.</source>
+          <target state="translated">Zahlen: Wenn eine höhere Zahl für diese Einstellung müssen Benutzer Kennwörter zu erstellen, die komplexer sind.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For devices that are accessed with a Microsoft Account, the compliance policy will fail to evaluate correctly if <bpt id="p1">**</bpt>Minimum password length<ept id="p1">**</ept> is greater than 8 characters or if <bpt id="p2">**</bpt>Minimum number of character sets<ept id="p2">**</ept> is more than 2 characters.</source>
+          <target state="translated">Für Geräte, die mit einer Microsoft Account zugegriffen werden, nicht die Konformitätsrichtlinie ordnungsgemäß ausgewertet, wenn <bpt id="p1">**</bpt>Mindestlänge von Kennwörtern<ept id="p1">**</ept> ist größer als 8 Zeichen oder wenn <bpt id="p2">**</bpt>Mindestanzahl von Zeichensätzen<ept id="p2">**</ept> mehr als 2 Zeichen lang ist.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minutes of inactivity before password is required:<ept id="p1">**</ept> - Supported on Windows RT, Windows RT 8.1, and Windows 8.1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Minuten der Inaktivität, bevor ein Kennwort erforderlich ist:<ept id="p1">**</ept> - auf Windows RT, Windows RT 8.1 und Windows 8.1 unterstützt</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Specify the idle time before the user must re-enter their password.</source>
+          <target state="translated">Geben Sie die Leerlaufzeit vor der Benutzer sein Kennwort erneut eingeben muss.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password expiration (days):<ept id="p1">**</ept>  -Supported on Windows RT, Windows RT 8.1, and Windows 8.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortablauf (Tage):<ept id="p1">**</ept>  -auf Windows RT, Windows RT 8.1 und Windows 8.1 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Select the number of days before the user’s password expires and they must create a new one.</source>
+          <target state="translated">Wählen Sie die Anzahl der Tage, bevor das Kennwort des Benutzers abläuft und sie müssen einen neuen zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember password history:<ept id="p1">**</ept> - Supported on Windows RT, Windows RT, and Windows 8.1.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kennwortverlauf:<ept id="p1">**</ept> – auf Windows RT, Windows RT und Windows 8.1 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Use this setting in conjunction with <bpt id="p1">**</bpt>Prevent reuse of previous passwords<ept id="p1">**</ept> to restrict the user from creating previously used passwords.</source>
+          <target state="translated">Verwenden Sie diese Einstellung in Verbindung mit <bpt id="p1">**</bpt>zu verhindern, dass erneute Verwendung früherer Kennwörter<ept id="p1">**</ept> verwendet, um zu verhindern, dass den Benutzer zuvor erstellen Kennwörter.</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prevent reuse of previous passwords:<ept id="p1">**</ept> - Supported on Windows RT, Windows RT 8.1, and Windows 8.1</source>
+          <target state="translated"><bpt id="p1">**</bpt>Erneute Verwendung früherer Kennwörter verhindern:<ept id="p1">**</ept> – auf Windows RT, Windows RT 8.1 und Windows 8.1 unterstützt</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>Remember password history:<ept id="p1">**</ept> is selected, specify the number of previously used passwords that cannot be re-used.</source>
+          <target state="translated">Wenn <bpt id="p1">**</bpt>Kennwortverlauf:<ept id="p1">**</ept> ist ausgewählt, geben Sie die Anzahl der zuvor verwendeten Kennwörter, die erneut verwendet werden können.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Device health settings</source>
+          <target state="translated">Die Integrität für Geräte</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Require devices to be reported as healthy:<ept id="p1">**</ept> - Supported on Windows 10 devices.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Als fehlerfrei gemeldet werden Geräte erforderlich:<ept id="p1">**</ept> – auf Windows 10-Geräten unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can set a rule to require that Windows 10 devices must be reported as healthy in new or existing Compliance Policies.</source>
+          <target state="translated">Sie können eine Regel festlegen, dass Windows 10-Geräten berichtet werden als fehlerfrei festlegen, in neue oder vorhandene Compliance-Richtlinien.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If this setting is enabled, Windows 10 devices are evaluated via the Health Attestation Service (HAS) for  the following data points:</source>
+          <target state="translated">Wenn diese Einstellung aktiviert ist, werden Windows-10-Geräten über Health-Nachweis (HAS) für die folgenden Datenpunkte ausgewertet:</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>BitLocker is enabled:<ept id="p1">**</ept> When BitLocker is on, the device is able to protect data that is stored on the drive from unauthorized access, when the system is turned off or goes to hibernation.</source>
+          <target state="translated"><bpt id="p1">**</bpt>BitLocker ist aktiviert:<ept id="p1">**</ept> Wenn BitLocker aktiviert ist, das Gerät ist in der Lage, Daten zu schützen, die auf dem Laufwerk vor nicht autorisiertem Zugriff gespeichert wird, wenn das System ausgeschaltet ist oder in den Ruhezustand wechselt.</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Windows BitLocker Drive Encryption encrypts all data stored on the Windows operating system volume.</source>
+          <target state="translated">Windows BitLocker Drive Encryption verschlüsselt alle Daten, die auf dem Windows-Betriebssystem-Datenträger gespeichert.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>BitLocker uses the TPM to help protect the Windows operating system and user data and helps to ensure that a computer is not tampered with, even if it is left unattended, lost, or stolen.</source>
+          <target state="translated">BitLocker das TPM verwendet, um die Windows-Betriebssystem und die Benutzerdaten zu schützen und sichergestellt, dass ein Computer nicht manipuliert wird, selbst wenn sie unbeaufsichtigte, verlorenen oder gestohlenen gelassen wird.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the computer is equipped with a compatible TPM, BitLocker uses the TPM to lock the encryption keys that protect the data.</source>
+          <target state="translated">Wenn der Computer mit einem kompatiblen TPM ausgestattet ist, verwendet BitLocker das TPM zum Sperren der Verschlüsselungsschlüssel, die die Daten zu schützen.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>As a result, the keys cannot be accessed until the TPM has verified the state of the computer</source>
+          <target state="translated">Daher können die Schlüssel erst zugegriffen werden das TPM den Zustand des Computers überprüft hat</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code integrity is enabled:<ept id="p1">**</ept> Code integrity is a feature that validates the integrity of a driver or system file each time it is loaded into memory.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Integrität des Codes ist aktiviert:<ept id="p1">**</ept> Codeintegrität ist ein Feature, das die Integrität der einen Treiber oder eine System-Datei jedes Mal überprüft in den Arbeitsspeicher geladen.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Code integrity detects whether an unsigned driver or system file is being loaded into the kernel, or whether a system file has been modified by malicious software that is being run by a user account with administrator privileges.</source>
+          <target state="translated">Codeintegrität erkennt, ob ein nicht signierter Treiber oder eine System-Dateien in den Kernel geladen wird oder ob eine Systemdatei durch böswillige Software geändert wurde, die von einem Benutzerkonto mit Administratorrechten ausgeführt wird.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Secure Boot is enabled:<ept id="p1">**</ept> When Secure Boot is enabled, the system is forced to boot to a factory trusted state.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Der sichere Start aktiviert ist:<ept id="p1">**</ept> beim sicheren Start aktiviert ist, wird das System gezwungen, eine Factory, die vertrauenswürdige Zustand zu starten.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Also, when Secure Boot is enabled, the core components used to boot the machine must have correct cryptographic signatures that are trusted by the organization that manufactured the device.</source>
+          <target state="translated">Auch beim sicheren Start aktiviert ist, müssen die Kernkomponenten, die zum Starten des Computers verwendet richtige kryptografische Signaturen verfügen, die von der Organisation vertraut sind, die das Gerät hergestellt.</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The UEFI firmware verifies this before it lets the machine start.</source>
+          <target state="translated">Die UEFI-Firmware wird dadurch überprüft, bevor sie den Computer starten können.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If any files have been tampered with, breaking their signature, the system will not boot.</source>
+          <target state="translated">Wenn Dateien manipuliert wurden, startet unterbrechen ihre Signatur im System nicht.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Early-launch antimalware is enabled:<ept id="p1">**</ept> Early launch anti-malware (ELAM) provides protection for the computers in your network when they start up and before third party drivers initialize.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Early Launch Antimalware ist aktiviert:<ept id="p1">**</ept> Early launch Anti-Malware (ELAM) bietet Schutz für Computer in Ihrem Netzwerk, beim start und Treiber von Drittanbietern initialisieren.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For information on how the HAS service works, see <bpt id="p1">[</bpt>Health Attestation CSP<ept id="p1">](https://msdn.microsoft.com/library/dn934876.aspx)</ept>.</source>
+          <target state="translated">Informationen zur Funktionsweise des Diensts HAS finden Sie unter <bpt id="p1">[</bpt>Health Nachweis CSP<ept id="p1">](https://msdn.microsoft.com/library/dn934876.aspx)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Device property settings</source>
+          <target state="translated">Einstellungen für Geräte-Eigenschaft</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimum OS required:<ept id="p1">**</ept> - Supported on Windows 8.1, and Windows 10.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Mindestens erforderliche Betriebssystem:<ept id="p1">**</ept> – auf Windows 8.1 und Windows 10 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Specify the major.minor.build number here.</source>
+          <target state="translated">Geben Sie hier die Anzahl der Hauptversion.Nebenversion.Build.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The version number must correspond to the version returned by the winver command.</source>
+          <target state="translated">Die Versionsnummer muss durch den Befehl Winver zurückgegebene Version entsprechen.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>When  a device has a earlier version that the specified OS version, it is reported as noncompliant.</source>
+          <target state="translated">Wenn ein Gerät hat eine frühere Version, dass die angegebene Betriebssystemversion als gemeldet ist nicht kompatibel.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A link with information on how to upgrade is displayed.</source>
+          <target state="translated">Eine Verknüpfung mit Informationen zum Aktualisieren wird angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The end user can choose to upgrade their device after which they can access company resources.</source>
+          <target state="translated">Endbenutzer können ihre Geräte aktualisieren, nach denen sie auf Unternehmensressourcen zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Maximum OS version allowed:<ept id="p1">**</ept> - Supported on Windows 8.1, and Windows 10.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Maximale Version des Betriebssystems zulässig:<ept id="p1">**</ept> – auf Windows 8.1 und Windows 10 unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>When a device is using an OS version later than the one specified in the rule, access to company resources is blocked and the user is asked to contact their IT admin.</source>
+          <target state="translated">Wenn ein Gerät eine Version des Betriebssystems höher als die in der Regel verwendet, den Zugriff auf Unternehmensressourcen wird blockiert, und der Benutzer wird aufgefordert, wenden Sie sich an ihren IT-Administrator.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Until there is a change in rule to allow the OS version, this device cannot be used to access company resources.</source>
+          <target state="translated">Bis eine Änderung in der Regel zum Zulassen von der Version des Betriebssystems vorliegt, kann das Gerät Zugriff auf Unternehmensressourcen verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To find the OS version to use for the <bpt id="p1">**</bpt>Minimum OS required<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>Maximum OS version allowed<ept id="p2">**</ept> settings, run the <bpt id="p3">**</bpt>winver<ept id="p3">**</ept> command from the command prompt.</source>
+          <target state="translated">Finden Sie die Version des Betriebssystems für die Verwendung der <bpt id="p1">**</bpt>mindestens OS erforderlich<ept id="p1">**</ept>, und <bpt id="p2">**</bpt>zulässige maximale Betriebssystemversion<ept id="p2">**</ept> Einstellungen, führen Sie die <bpt id="p3">**</bpt>Winver<ept id="p3">**</ept> Befehl über die Befehlszeile.</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The winver command returns the reported version of the OS.</source>
+          <target state="translated">Winver diesem Befehl wird die gemeldete Version des Betriebssystems.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Windows 8.1 PCs return a version of <bpt id="p1">**</bpt>6.3<ept id="p1">**</ept>.</source>
+          <target state="translated">Windows 8.1-PCs Zurückgeben einer Version von <bpt id="p1">**</bpt>6.3<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If the OS version rule is set to Windows 8.1 for Windows, then the device is reported as noncompliant even if the device has Windows 8.1.</source>
+          <target state="translated">Wenn die Regel der BS-Version für Windows 8.1 für Windows festgelegt ist, wird das Gerät als nicht konform gemeldet, auch wenn das Gerät Windows 8.1 verfügt.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>PCs running Windows 10, the version should be set as "10.0"+ the OS Build number returned by the winver command.</source>
+          <target state="translated">PCs mit Windows 10, sollte die Version festgelegt werden, als "10.0" + die OS-Build-Nummer, die vom Befehl Winver zurückgegeben werden.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For example, it could be something like 10.0.10586.</source>
+          <target state="translated">Beispielsweise könnte es etwa 10.0.10586 sein.</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>CA_Win10OSVersion</source>
+          <target state="translated">CA_Win10OSVersion</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

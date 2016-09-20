@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa73c5e2b4e6737377acd206807399b31df37364</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-networks.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e344ed53e3e318c054eb39e10a1473fa2f5d4b4f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8df7b0bace75697ffa1b8f099790831387104887</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict access to networks with Cisco ISE | Microsoft Intune</source>
+          <target state="translated">Einschränken des Zugriffs auf Netzwerke mit Cisco ISE | Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use Cisco ISE with Intune so that devices are Intune enrolled and policy compliant before they access Wi-Fi and VPN that are controlled by Cisco ISE.</source>
+          <target state="translated">Verwenden von Cisco ISE mit Intune, damit Geräte Intune registriert und die Richtlinie kompatibel sind, bevor sie den Zugriff auf WLAN- und VPN, die von Cisco ISE gesteuert werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using Cisco ISE with Microsoft Intune</source>
+          <target state="translated">Mithilfe von Cisco ISE mit Microsoft Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Intune integration with Cisco Identity Services Engine (ISE) allows you to author network policies in your ISE environment by using the Intune device-enrollment and compliance state.</source>
+          <target state="translated">Intune-Integration mit Cisco-Identität-Services-Modul (ISE) können Sie Richtlinien in der ISE-Umgebung mithilfe des Intune-Registrierung Geräte und Compliance-Status zu erstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use these policies to ensure that access to your company network is restricted to devices that are managed by Intune and compliant with Intune policies.</source>
+          <target state="translated">Sie können diese Richtlinien verwenden, um sicherzustellen, dass der Zugriff auf das Netzwerk Ihres Unternehmens auf Geräte beschränkt ist, die von Intune verwaltet werden und mit Intune-Richtlinien kompatibel sind.</target>
+          
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Configuration steps</source>
+          <target state="translated">Konfigurationsschritte</target>
+          
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To enable this integration, you don’t need to do any setup in your Intune tenant.</source>
+          <target state="translated">Um diese Integration zu aktivieren, müssen Sie eine Konfiguration in Ihrem Mandanten Intune führen.</target>
+          
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You will need to provide permissions to your Cisco ISE server to access your Intune tenant.</source>
+          <target state="translated">Sie benötigen Berechtigungen mit dem Cisco ISE-Server auf Ihrem Mandanten Intune bereitstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>After that's done, the rest of the setup happens in your Cisco ISE server.</source>
+          <target state="translated">Nachdem dies erfolgt ist, wird der Rest des Setups in Ihrer Cisco ISE-Server durchgeführt.</target>
+          
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This article gives you instructions on providing your ISE server with permissions to access your Intune tenant.</source>
+          <target state="translated">Dieser Artikel vermittelt Ihnen Anweisungen auf den ISE-Server mit Zugriffsberechtigungen für Ihren Mandanten Intune bereitstellen.</target>
+          
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Step 1: Manage the certificates</source>
+          <target state="translated">Schritt 1: Verwalten der Zertifikate</target>
+          
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Export the certificate from the Azure Active Directory (Azure AD) console, then import it into the Trusted Certificates store of the ISE console:</source>
+          <target state="translated">Exportieren Sie das Zertifikat über die Konsole Azure Active Directory (Azure AD), und importieren Sie es in den Speicher für vertrauenswürdige Zertifikate der ISE-Konsole:</target>
+          
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Internet Explorer 11</source>
+          <target state="translated">Internet Explorer 11</target>
+          
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+          
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Run Internet Explorer as an administrator, and sign in to the Azure AD console.</source>
+          <target state="translated">Führen Sie Internet Explorer als Administrator, und melden Sie sich an die Azure AD-Konsole.</target>
+          
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+          
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Choose the lock icon in the address bar and choose <bpt id="p1">**</bpt>View certificates<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie das Schlosssymbol in der Adressleiste und <bpt id="p1">**</bpt>Anzeigen von Zertifikaten<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>c.</source>
+          <target state="translated">c.</target>
+          
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> tab of the certificate properties, choose <bpt id="p2">**</bpt>Copy to file<ept id="p2">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> Registerkarte wählen Sie die Zertifikateigenschaften <bpt id="p2">**</bpt>in Datei kopieren<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>d.</source>
+          <target state="translated">d.</target>
+          
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Certificate export wizard<ept id="p1">**</ept> welcome page, choose <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Zertifikatexport-Assistent<ept id="p1">**</ept> Willkommen-Seite, und wählen Sie <bpt id="p2">**</bpt>Weiter<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>e.</source>
+          <target state="translated">e.</target>
+          
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Export file format<ept id="p1">**</ept> page, leave the default, <bpt id="p2">**</bpt>DER encoded binary x.509 (.CER)<ept id="p2">**</ept>, and choose <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Exportdateiformat<ept id="p1">**</ept> Seite, übernehmen Sie den Standardwert <bpt id="p2">**</bpt>DER-codiert-binär x. 509 (. CER)<ept id="p2">**</ept>, und wählen Sie <bpt id="p3">**</bpt>Weiter<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>f.</source>
+          <target state="translated">f.</target>
+          
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>File to export<ept id="p1">**</ept> page, choose <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept> to pick a location in which to save the file, and provide a file name.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>zu exportierende Datei<ept id="p1">**</ept> Seite <bpt id="p2">**</bpt>Durchsuchen<ept id="p2">**</ept> wählen Sie einen Speicherort zum Speichern der Datei, und geben Sie einen Namen.</target>
+          
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Though it seems like you’re picking a file to export, you’re actually naming the file that the exported certificate will be saved to.</source>
+          <target state="translated">Obwohl es scheint, Sie haben eine Datei exportieren auswählen, sind Sie tatsächlich die Datei benennen, der das exportierte Zertifikat gespeichert wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Weiter<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fertig stellen<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>g.</source>
+          <target state="translated">g.</target>
+          
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>From within the ISE console, import the Intune certificate (the file you exported) into the  <bpt id="p1">**</bpt>Trusted Certificates<ept id="p1">**</ept> store.</source>
+          <target state="translated">Aus innerhalb der Konsole ISE Importieren des Zertifikats Intune (die Datei, die Sie exportiert haben) in die  <bpt id="p1">**</bpt>vertrauenswürdiger Zertifikate<ept id="p1">**</ept> Speichern.</target>
+          
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Safari</source>
+          <target state="translated">Safari</target>
+          
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+          
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Sign in to the Azure AD console.</source>
+          <target state="translated">Melden Sie sich an die Azure AD-Konsole.</target>
+          
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+          
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Choose the lock icon <ph id="ph1">&amp;gt;</ph>  <bpt id="p1">**</bpt>More information<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie das Schlosssymbol <ph id="ph1">&amp;gt;</ph>  <bpt id="p1">**</bpt>Informationen<ept id="p1">**</ept>.  </target>
+          
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>c.</source>
+          <target state="translated">c.</target>
+          
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View certificate<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Details<ept id="p2">**</ept>.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Zertifikat anzeigen<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Details<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>d.</source>
+          <target state="translated">d.</target>
+          
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Choose the certificate, and then choose <bpt id="p1">**</bpt>Export<ept id="p1">**</ept>.</source>
+          <target state="translated">Wählen Sie das Zertifikat, und wählen Sie dann <bpt id="p1">**</bpt>exportieren<ept id="p1">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>e.</source>
+          <target state="translated">e.</target>
+          
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>From within the ISE console, import the Intune certificate (the file you exported) into the  <bpt id="p1">**</bpt>Trusted Certificates<ept id="p1">**</ept> store.</source>
+          <target state="translated">Aus innerhalb der Konsole ISE Importieren des Zertifikats Intune (die Datei, die Sie exportiert haben) in die  <bpt id="p1">**</bpt>vertrauenswürdiger Zertifikate<ept id="p1">**</ept> Speichern.</target>
+          
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Check the expiration date of the certificate, as you will have to export and import a new certificate when this one expires.</source>
+          <target state="translated">Überprüfen Sie das Ablaufdatum des Zertifikats an, als Sie auf Exportieren und importieren ein neues Zertifikat, wenn diese abläuft.</target>
+          
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Obtain a self-signed cert from ISE</source>
+          <target state="translated">Rufen Sie ein selbst signiertes Zertifikat von ISE</target>
+          
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the ISE console, go to <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Certificates<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>System Certificates<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>Generate Self Signed Certificate<ept id="p4">**</ept>.</source>
+          <target state="translated">Wechseln Sie in der ISE-Konsole zu <bpt id="p1">**</bpt>Verwaltung<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Zertifikate<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Systemzertifikaten<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>generieren selbst signiertes Zertifikat<ept id="p4">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Export the self-signed certificate.</source>
+          <target state="translated">Das selbstsignierte Zertifikat zu exportieren.</target>
+          
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In a text editor, edit the exported certificate: [comment]: &lt;&gt; I'd rather not put a period at the end of these two statements, I think it could be confusing.</source>
+          <target state="translated">In einem Text-Editor, bearbeiten Sie das exportierte Zertifikat: [Kommentar]: &lt;&gt; ich würde lieber keinen Punkt am Ende dieser beiden Anweisungen abgelegt, ich glaube, dass es verwirrend sein kann.</target>
+          
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Delete <bpt id="p1">**</bpt> -----BEGIN CERTIFICATE-----<ept id="p1">**</ept></source>
+          <target state="translated">Löschen Sie <bpt id="p1">**</bpt> ----Begin Certificate-<ept id="p1">**</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Delete <bpt id="p1">**</bpt> -----END CERTIFICATE-----<ept id="p1">**</ept></source>
+          <target state="translated">Löschen Sie <bpt id="p1">**</bpt> ----End Certificate-<ept id="p1">**</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Ensure all of the text is a single line</source>
+          <target state="translated">Sicherstellen, dass der Text ist eine einzelne Zeile</target>
+          
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Step 2: Create an app for ISE in your Azure AD tenant</source>
+          <target state="translated">Schritt 2: Erstellen einer app für die ISE in Azure AD-Mandanten</target>
+          
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the Azure AD console, choose <bpt id="p1">**</bpt>Applications<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Add an Application<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Add an application my organization is developing<ept id="p3">**</ept>.</source>
+          <target state="translated">Wählen Sie in der Konsole Azure AD <bpt id="p1">**</bpt>Anwendungen<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Hinzufügen einer Anwendung<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>eine Anwendung ist das Entwickeln von meinem Unternehmen hinzufügen<ept id="p3">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Provide a name and a URL for the app.</source>
+          <target state="translated">Geben Sie einen Namen und eine URL für die app.</target>
+          
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL could be your company website.</source>
+          <target state="translated">Die URL konnte auf der Website des Unternehmens sein.</target>
+          
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Download the app manifest (a JSON file).</source>
+          <target state="translated">Laden Sie das app-Manifest (JSON-Datei).</target>
+          
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Edit the manifest JSON file.</source>
+          <target state="translated">Bearbeiten Sie die JSON-Manifestdatei.</target>
+          
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the setting called <bpt id="p1">**</bpt>keyCredentials<ept id="p1">**</ept>, provide the edited certificate text from Step 1 as the setting value.</source>
+          <target state="translated">In der Einstellung namens <bpt id="p1">**</bpt>KeyCredentials<ept id="p1">**</ept>, geben Sie den bearbeiteten zertifikattext aus Schritt 1 als Einstellungswert.</target>
+          
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Save the file without changing its name.</source>
+          <target state="translated">Speichern Sie die Datei, ohne ihren Namen ändern.</target>
+          
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Provide your app with permissions to Microsoft Graph and the Microsoft Intune API.</source>
+          <target state="translated">Geben Sie Ihre app mit Berechtigungen zum Microsoft Graph und der Microsoft Intune-API.</target>
+          
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+          
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For Microsoft Graph, choose the following:</source>
+          <target state="translated">Microsoft Graph wählen Sie folgende Schritte aus:</target>
+          
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application permissions<ept id="p1">**</ept>: Read directory data</source>
+          <target state="translated"><bpt id="p1">**</bpt>Anwendungsberechtigungen<ept id="p1">**</ept>: Lesen von Verzeichnisdaten</target>
+          
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Delegated permissions<ept id="p1">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Delegierte Berechtigungen<ept id="p1">**</ept>:</target>
+          
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Access user’s data anytime</source>
+          <target state="translated">Jederzeit Zugriff auf Daten des Benutzers</target>
+          
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Sign users in</source>
+          <target state="translated">Anmelden von Benutzern</target>
+          
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+          
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For the Microsoft Intune API, in <bpt id="p1">**</bpt>Application permissions<ept id="p1">**</ept>, choose <bpt id="p2">**</bpt>Get device state and compliance from Intune<ept id="p2">**</ept>.</source>
+          <target state="translated">Für die Microsoft Intune-API in <bpt id="p1">**</bpt>Anwendungsberechtigungen<ept id="p1">**</ept>, wählen Sie <bpt id="p2">**</bpt>Abrufen des Geräts und die Kompatibilität von Intune<ept id="p2">**</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>View Endpoints<ept id="p1">**</ept> and copy the following values for use in configuring ISE settings:</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>Endpunkte anzeigen<ept id="p1">**</ept> und kopieren Sie die folgenden Werte für die Verwendung in der ISE konfigurieren:</target>
+          
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Value in Azure AD portal</source>
+          <target state="translated">Wert in Azure AD-portal</target>
+          
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Corresponding field in ISE portal</source>
+          <target state="translated">Entsprechende Feld im ISE-portal</target>
+          
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Microsoft Azure AD Graph API endpoint</source>
+          <target state="translated">Microsoft Azure AD Graph-API-Endpunkt</target>
+          
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Auto Discovery URL</source>
+          <target state="translated">URL für automatische Ermittlung</target>
+          
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Oauth 2.0 Token endpoint</source>
+          <target state="translated">OAuth 2.0-Token-Endpunkt</target>
+          
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Token Issuing URL</source>
+          <target state="translated">Ausstellende Zugriffstoken-URL</target>
+          
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Update your code with your Client ID</source>
+          <target state="translated">Aktualisieren Sie den Code durch die Client-ID</target>
+          
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target state="translated">Client-ID</target>
+          
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Step 4: Upload the self-signed certificate from ISE into the ISE app you created in Azure AD</source>
+          <target state="translated">Schritt 4: Hochladen Sie, das selbstsignierte Zertifikat aus ISE in die ISE-app in Azure AD erstellten</target>
+          
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Get the base64 encoded cert value and thumbprint from a .cer X509 public cert file.</source>
+          <target state="translated">Rufen Sie den base64-codierten Zertifikats Wert und den Fingerabdruck aus CER X509 öffentlichen Cert-Datei.</target>
+          
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This example uses PowerShell:</source>
+          <target state="translated">In diesem Beispiel wird PowerShell verwendet:</target>
+          
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Store the values for $base64Thumbprint, $base64Value and $keyid, to be used in the next step.</source>
+          <target state="translated">Speichern Sie die Werte für base64Thumbprint $, $base64Value und $keyid, um im nächsten Schritt verwendet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Upload the certificate through the manifest file.</source>
+          <target state="translated">Hochladen Sie das Zertifikat über die manifest-Datei.</target>
+          
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Log in to the <bpt id="p1">[</bpt>Azure Management Portal<ept id="p1">](https://manage.windowsazure.com)</ept></source>
+          <target state="translated">Melden Sie sich auf die <bpt id="p1">[</bpt>Azure-Verwaltungsportal<ept id="p1">](https://manage.windowsazure.com)</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In to the Azure AD snap-in find the application that you want to configure with an X.509 certificate.</source>
+          <target state="translated">In Azure AD-Snap-in, findet die Anwendung, die mit einem x. 509-Zertifikat konfigurieren möchten.</target>
+          
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Download the application manifest file.</source>
+          <target state="translated">Laden Sie die Anwendungsmanifestdatei.</target>
+          
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Replace the empty “KeyCredentials”: [], property with the following JSON.</source>
+          <target state="translated">Ersetzen Sie die leere "KeyCredentials": [], mit dem folgenden JSON-Eigenschaft.</target>
+          
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The KeyCredentials complex type is documented in<bpt id="p1">[</bpt>Entity and complex type reference<ept id="p1">](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)</ept>.</source>
+          <target state="translated">Der komplexe Typ von KeyCredentials finden Sie unter<bpt id="p1">[</bpt>Entität und komplexer Typverweis<ept id="p1">](https://msdn.microsoft.com/library/azure/ad/graph/api/entity-and-complex-type-reference#KeyCredentialType)</ept>.</target>
+          
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="translated">Beispiel:</target>
+          
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Save the change to the application manifest file.</source>
+          <target state="translated">Speichern Sie die Änderung in die Anwendungsmanifestdatei ein.</target>
+          
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Upload the edited application manifest file through the Azure management mortal.</source>
+          <target state="translated">Hochladen der bearbeiteten Anwendungsmanifestdatei über den ordnungsgemäßen Azure Management.</target>
+          
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Optional:  Download the manifest again, to check that your X.509 cert is present on the application.</source>
+          <target state="translated">Optional: Herunterladen Sie das Manifest erneut, um sicherzustellen, dass die x. 509-Zertifikat für die Anwendung vorhanden ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>KeyCredentials is a collection, so you can upload multiple X.509 certificates for rollover scenarios, or delete certficates in compromise scenarios.</source>
+          <target state="translated">KeyCredentials ist eine Sammlung können mehrere x. 509-Zertifikate für Rollover-Szenarien hochladen oder löschen Zertifikate in Gefährdung Szenarien.</target>
+          
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Step 4: Configure ISE Settings</source>
+          <target state="translated">Schritt 4: Konfigurieren Sie ISE</target>
+          
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In the ISE admin console, provide these setting values:</source>
+          <target state="translated">Bereitstellen Sie in der ISE Admin-Konsole, diese Werte festlegen:</target>
+          
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Server Type<ept id="p1">**</ept>: Mobile Device Manager</source>
+          <target state="translated"><bpt id="p1">**</bpt>Servertyp<ept id="p1">**</ept>: Mobile Device Manager</target>
+          
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authentication type<ept id="p1">**</ept>: OAuth – Client Credentials</source>
+          <target state="translated"><bpt id="p1">**</bpt>Authentifizierungstyp<ept id="p1">**</ept>: OAuth-Anmeldeinformationen des Clients</target>
+          
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Auto Discovery<ept id="p1">**</ept>: Yes</source>
+          <target state="translated"><bpt id="p1">**</bpt>Automatische Ermittlung<ept id="p1">**</ept>: Ja</target>
+          
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Auto Discover URL<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Enter the value from Step 1.<ept id="p2">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Automatische Ermittlung URL<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Geben Sie den Wert aus Schritt 1.<ept id="p2">*</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Client ID<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Enter the value from Step 1.<ept id="p2">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Client-ID<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Geben Sie den Wert aus Schritt 1.<ept id="p2">*</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Token issuing URL<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Enter the value from Step 1.<ept id="p2">*</ept></source>
+          <target state="translated"><bpt id="p1">**</bpt>Token ausstellen URL<ept id="p1">**</ept>: <bpt id="p2">*</bpt>Geben Sie den Wert aus Schritt 1.<ept id="p2">*</ept></target>
+          
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Information shared between your Intune tenant and your Cisco ISE server</source>
+          <target state="translated">Informationen, die gemeinsam mit Ihrem Intune-Mandanten und dem Cisco ISE-server</target>
+          
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This table lists the information that is shared between your Intune tenant and your Cisco ISE server for devices that are managed by Intune.</source>
+          <target state="translated">Diese Tabelle enthält die Informationen, die gemeinsam Ihre Intune-Mandanten und dem Cisco ISE-Server für Geräte, die von Intune verwaltet werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="translated">Eigenschaft</target>
+          
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+          
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>complianceState</source>
+          <target state="translated">Kompatibilitätszustand</target>
+          
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The true or false string that indicates whether the device is compliant or noncompliant.</source>
+          <target state="translated">Die Zeichenfolge true oder false, die angibt, ob das Gerät kompatibel ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>isManaged</source>
+          <target state="translated">isManaged</target>
+          
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The true or false string that indicates whether the client is managed by Intune or not.</source>
+          <target state="translated">Die Zeichenfolge "true" oder "false", die angibt, ob der Client von Intune verwaltet wird.</target>
+          
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>macAddress</source>
+          <target state="translated">macAddress</target>
+          
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The MAC address of the device.</source>
+          <target state="translated">Die MAC-Adresse des Geräts.</target>
+          
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>serialNumber</source>
+          <target state="translated">serialNumber</target>
+          
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The serial number of the device.</source>
+          <target state="translated">Die Seriennummer des Geräts.</target>
+          
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It applies only to iOS devices.</source>
+          <target state="translated">Sie gilt nur für iOS-Geräte.</target>
+          
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>imei</source>
+          <target state="translated">IMEI</target>
+          
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The IMEI (15 decimal digits: 14 digits plus a check digit) or IMEISV (16 digits) number includes information on the origin, model, and serial number of the device.</source>
+          <target state="translated">Die IMEI (15 Dezimalstellen: 14 Ziffern plus eine Ziffer Kontrollkästchen) oder IMEISV (16 Ziffern) zählen auch Informationen über den Ursprung, Modell und Seriennummer des Geräts.</target>
+          
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The structure of this number is specified in 3GPP TS 23.003.</source>
+          <target state="translated">Die Struktur dieser Zahl wird in 3GPP TS 23.003 angegeben.</target>
+          
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It applies only to devices with SIM cards.</source>
+          <target state="translated">Es gilt nur für Geräte mit SIM-Karten.</target>
+          
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>udid</source>
+          <target state="translated">UDID</target>
+          
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The Unique Device Identifier, which is a sequence of 40 letters and numbers.</source>
+          <target state="translated">Die eindeutige Gerät-ID, die eine Sequenz von 40 Buchstaben und Zahlen ist.</target>
+          
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>It is specific to iOS devices.</source>
+          <target state="translated">Es ist nur für iOS-Geräte.</target>
+          
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>meid</source>
+          <target state="translated">meid</target>
+          
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The mobile equipment identifier, which is a globally unique number that identifies a physical piece of CDMA mobile station equipment.</source>
+          <target state="translated">Die mobilen Geräte-ID, eine global eindeutige Zahl handelt, die einem physischen Gerät CDMA mobile Station identifiziert.</target>
+          
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The number format is defined by the 3GPP2 report S. R0048.</source>
+          <target state="translated">Das Zahlenformat wird durch den Bericht 3GPP2 S. R0048 definiert.</target>
+          
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>However, in practical terms, it can be seen as an IMEI, but with hexadecimal digits.</source>
+          <target state="translated">Allerdings kann praktisch es wie ein IMEI, jedoch mit hexadezimalen Ziffern angezeigt werden.</target>
+          
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>An MEID is 56 bits long (14 hex digits).</source>
+          <target state="translated">Ein MEID ist 56-Bit lang (14 hex-Ziffern).</target>
+          
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>It consists of three fields, including an 8-bit regional code (RR), a 24-bit manufacturer code, and a 24-bit manufacturer-assigned serial number.</source>
+          <target state="translated">Es besteht aus drei Felder, einschließlich einer regionalen 8-Bit-Code (RR), ein von 24-Bit-Herstellercode und eine 24-Bit-Hersteller zugewiesene Seriennummer.</target>
+          
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>osVersion</source>
+          <target state="translated">osVersion</target>
+          
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The operating system version for the device.</source>
+          <target state="translated">Die Version des Betriebssystems für das Gerät.</target>
+          
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>model</source>
+          <target state="translated">Modell</target>
+          
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The device model.</source>
+          <target state="translated">Das Gerätemodell.</target>
+          
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>manufacturer</source>
+          <target state="translated">Hersteller</target>
+          
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The device manufacturer.</source>
+          <target state="translated">Der Gerätehersteller.</target>
+          
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>azureDeviceId</source>
+          <target state="translated">azureDeviceId</target>
+          
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The device ID after it has workplace joined with Azure AD.</source>
+          <target state="translated">Die Geräte-ID, nachdem sie dem Arbeitsbereich in Azure AD verknüpft hat.</target>
+          
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>It is an empty GUID for devices that are not joined.</source>
+          <target state="translated">Es ist eine leere GUID für Geräte, die nicht verknüpft sind.</target>
+          
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>lastContactTimeUtc</source>
+          <target state="translated">lastContactTimeUtc</target>
+          
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The date and time when the device last checked in with the Intune management service.</source>
+          <target state="translated">Datum und Uhrzeit, wenn das Gerät zuletzt mit dem Intune-Management-Dienst geprüft.</target>
+          
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>User experience</source>
+          <target state="translated">Benutzererfahrung</target>
+          
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>When a user attempts to access resources by using an unenrolled device, they receive a prompt to enroll, such as the one shown here:</source>
+          <target state="translated">Wenn ein Benutzer versucht, die durch ein nicht registriertes Gerät mit Zugriff auf Ressourcen, erhalten sie eine Aufforderung zum Anmelden, wie hier dargestellt:</target>
+          
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Example of enrollment prompt</source>
+          <target state="translated">Beispiel der Registrierung auffordern</target>
+          
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When a user chooses to enroll, they are redirected to the Intune enrollment process.</source>
+          <target state="translated">Wenn ein Benutzer registrieren, werden sie auf der Intune-Registrierung umgeleitet.</target>
+          
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The user enrollment experience for Intune is described in these topics:</source>
+          <target state="translated">Die benutzerfreundliche Anmeldung für Intune wird in den folgenden Themen beschrieben:</target>
+          
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Enroll your Android device in Intune</source>
+          <target state="translated">Registrieren Sie Ihr Android-Gerät in Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Enroll your iOS device in Intune</source>
+          <target state="translated">Registrieren Sie Ihr iOS-Gerät in Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Enroll your Mac OS X device in Intune</source>
+          <target state="translated">Registrieren Sie Ihres Mac OS X-Geräts in Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Enroll your Windows device in Intune</source>
+          <target state="translated">Registrieren Sie Ihres Windows-Geräts in Intune</target>
+          
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>There is also a <bpt id="p1">[</bpt>downloadable set of enrollment instructions<ept id="p1">](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)</ept> that you can use to create customized guidance for your user experience.</source>
+          <target state="translated">Es gibt auch eine <bpt id="p1">[</bpt>herunterladbare Satz von registrierungsanweisungen<ept id="p1">](https://gallery.technet.microsoft.com/End-user-Intune-enrollment-55dfd64a)</ept> die Sie verwenden können, erstellen angepasst Anleitung für die Benutzeroberfläche.</target>
+          
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+          
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Cisco Identity Services Engine Administrator Guide, Release 2.1</source>
+          <target state="translated">Cisco-Identitätsdienste Engine-Administratorhandbuch, Version 2.1</target>
+          
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9b0f5ec429ff8da8c6c91109b2ddd2184586763</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\monitor-apps-in-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90baa0e22142585e410714d1549e480203fbd1c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a1f805c41388306b765c4bbc122db11822ed7ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitor app deployments| Microsoft Intune</source>
+          <target state="translated">Überwachen der app-Bereitstellungen | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learn how to monitor apps you deployed with Intune.</source>
+          <target state="translated">Informationen Sie zum Überwachen von apps, die Sie mit Intune bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Monitor app deployments in Microsoft Intune</source>
+          <target state="translated">Überwachen der app-Bereitstellung in Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Monitor an app deployment</source>
+          <target state="translated">Überwachen einer app-Bereitstellung</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can see the apps that you manage and the status of any deployments in the Intune administration console.</source>
+          <target state="translated">Sie können die apps, die Sie verwalten und den Status alle Bereitstellungen in der Intune-Verwaltungskonsole anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To view apps that you manage and their status</source>
+          <target state="translated">Apps, die Sie verwalten und ihren Status anzeigen</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> workspace, choose the <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> node, and then choose <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die <bpt id="p2">**</bpt>Apps<ept id="p2">**</ept> Knoten, und wählen Sie dann <bpt id="p3">**</bpt>Apps<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The list of apps that you manage appears.</source>
+          <target state="translated">Die Liste der apps, die Sie verwalten wird angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can choose any app to see an installation status in the lower pane of the console windows.</source>
+          <target state="translated">Sie können jede Anwendung eine Installationsstatus im unteren Bereich der Konsolenfenster angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Choose this status to see further details.</source>
+          <target state="translated">Wählen Sie diesen Status, um weitere Details anzuzeigen.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if the status shows <bpt id="p1">**</bpt>1 user has this software available<ept id="p1">**</ept>, you can choose the message to see the name of the user.</source>
+          <target state="translated">Beispielsweise, wenn der Status lautet <bpt id="p1">**</bpt>1 Benutzer hat diese Software zur Verfügung<ept id="p1">**</ept>, Sie können den Namen des Benutzers angezeigt.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list to show only apps that meet the criteria that you specify, like apps that failed to install or apps that were successfully deployed.</source>
+          <target state="translated">Sie können die <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> Dropdown-Liste nur apps angezeigt, die die Kriterien, die Sie, wie apps, die Fehler bei der Installation oder apps, die erfolgreich bereitgestellt wurden erfüllen angeben,.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>App filters example</source>
+          <target state="translated">Beispiel-App-Filter</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Additionally, the <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> workspace shows an overview of the status of your apps.</source>
+          <target state="translated">Darüber hinaus die <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> Arbeitsbereich zeigt eine Übersicht über den Status Ihrer apps.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you click anywhere in the overview, you'll be taken to the list of apps.</source>
+          <target state="translated">Wenn Sie an einer beliebigen Stelle in der Übersicht klicken, werden Sie zur Liste der apps weitergeleitet.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To view more detailed information about an app</source>
+          <target state="translated">So zeigen Sie ausführlichere Informationen zu einer Anwendung</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the list of apps, select any app, and then choose <bpt id="p1">**</bpt>View Properties<ept id="p1">**</ept>.</source>
+          <target state="translated">In der Liste der apps, wählen Sie eine app, und wählen Sie dann <bpt id="p1">**</bpt>Eigenschaften<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Software Properties<ept id="p1">**</ept> page for the app, choose one of these tabs: <bpt id="p2">**</bpt>General<ept id="p2">**</ept> - Shows general information about the app and its installation status, <bpt id="p3">**</bpt>Devices<ept id="p3">**</ept> - Shows the devices that successfully installed a targeted deployment of the app, and <bpt id="p4">**</bpt>Users<ept id="p4">**</ept> - Shows the users whose devices successfully installed a targeted deployment of the app.</source>
+          <target state="translated">Auf der <bpt id="p1">**</bpt>Eigenschaften von<ept id="p1">**</ept> Seite für die app, wählen Sie eine der folgenden Registerkarten: <bpt id="p2">**</bpt>Allgemeine<ept id="p2">**</ept> -zeigt allgemeine Informationen zu der Anwendung und den Installationsstatus <bpt id="p3">**</bpt>Geräte<ept id="p3">**</ept> -zeigt die Geräte an, die eine gezielte Bereitstellung von der Anwendung erfolgreich installiert und <bpt id="p4">**</bpt>Benutzer<ept id="p4">**</ept> -zeigt die Benutzer, deren Geräte erfolgreich eine gezielte Bereitstellung der Anwendung installiert.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As before, you can use the <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> drop-down list to configure the values shown on each of the tabs.</source>
+          <target state="translated">Wie zuvor, Sie mit der <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> Dropdown-Liste so konfigurieren Sie die Werte auf den Registerkarten angezeigt.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14e43dadc0d7bc20238ec87447f311fdc864d891</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\pre-shared-key-wi-fi-profile.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3dfd8828646d039547c225cb38c25071bda50119</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d9e0e6398eb2e38ac47446e2c28fb5d2638e778</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wi-Fi using PSK | Microsoft Intune</source>
+          <target state="translated">Wi-Fi-PSK mit | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use Custom Configuration to create a Wi-Fi profile with a pre-shared key.</source>
+          <target state="translated">Benutzerdefinierte Konfiguration verwenden, um ein WLAN Profil mit einem vorinstallierten Schlüssel zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a Wi-Fi profile with a pre-shared key</source>
+          <target state="translated">Erstellen Sie ein WLAN-Profil mit einem vorinstallierten Schlüssel</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here's how to use Intune’s <bpt id="p1">**</bpt>Custom Configuration<ept id="p1">**</ept> to create a Wi-Fi profile with a pre-shared key.</source>
+          <target state="translated">Hier wird gezeigt, wie mithilfe von Intune <bpt id="p1">**</bpt>benutzerdefinierte Konfiguration<ept id="p1">**</ept> ein WLAN Profil mit einem vorinstallierten Schlüssel zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This topic also has an example of how to create an EAP-based Wi-Fi profile.</source>
+          <target state="translated">Dieses Thema enthält außerdem ein Beispiel für eine EAP-basierte WLAN-Profil zu erstellen.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You might find it easier to copy the code from a computer that connects to that network, as described below.</source>
+          <target state="translated">Möglicherweise ist es einfacher, kopieren Sie den Code von einem Computer, der mit dem Netzwerk verbunden, wie unten beschrieben.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For Android, you also have the option of using this <bpt id="p1">[</bpt>Android PSK Generator<ept id="p1">](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)</ept> provided by Johnathon Biersack.</source>
+          <target state="translated">Für Android, haben Sie auch die Möglichkeit, mit diesem <bpt id="p1">[</bpt>Android PSK Generator<ept id="p1">](http://johnathonb.com/2015/05/intune-android-pre-shared-key-generator/)</ept> von Johnathon Biersack bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can add multiple networks and keys by adding more OMA-URI settings.</source>
+          <target state="translated">Sie können mehrere Netzwerke und Schlüssel durch Hinzufügen weiterer OMA-URI-Einstellungen hinzufügen.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For iOS, use Apple Configurator on a Mac station to set up the profile.</source>
+          <target state="translated">Verwenden Sie für iOS Apple Configurator auf einem Mac-Station, um das Profil einzurichten.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Alternatively, use this <bpt id="p1">[</bpt>iOS PSK Mobile Config Generator<ept id="p1">](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)</ept> provided by Johnathon Biersack.</source>
+          <target state="translated">Verwenden Sie alternativ diese <bpt id="p1">[</bpt>iOS PSK Mobile Config Generator<ept id="p1">](http://johnathonb.com/2015/05/intune-ios-psk-mobile-config-generator/)</ept> von Johnathon Biersack bereitgestellt.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To create a Wi-Fi profile with a pre-shared key for Android or Windows or an EAP-based Wi-Fi profile, when you create a policy choose <bpt id="p1">**</bpt>Custom Configuration<ept id="p1">**</ept> for that device platform rather than a Wi-Fi profile.</source>
+          <target state="translated">Erstellen wählen Sie ein WLAN-Profil mit einem vorinstallierten Schlüssel für Android oder Windows oder ein EAP-basierte WLAN-Profil, wenn Sie eine Richtlinie erstellen <bpt id="p1">**</bpt>benutzerdefinierte Konfiguration<ept id="p1">**</ept> für diese Plattform statt ein WLAN Profil.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Provide a name and description.</source>
+          <target state="translated">Geben Sie einen Namen und eine Beschreibung ein.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Add a new OMA-URI setting:</source>
+          <target state="translated">Fügen Sie eine neue Einstellung für die OMA-URI:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>a.</source>
+          <target state="translated">ein.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enter a name for this Wi-Fi network setting.</source>
+          <target state="translated">Geben Sie einen Namen für diese Einstellung der Wi-Fi-Netzwerk.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>b.</source>
+          <target state="translated">b.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Enter a description of the OMA-URI setting or leave blank.</source>
+          <target state="translated">Geben Sie eine Beschreibung für die OMA-URI-Einstellung oder lassen Sie leer.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>c.</source>
+          <target state="translated">c.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data Type<ept id="p1">**</ept>: Set to "String(XML)"</source>
+          <target state="translated"><bpt id="p1">**</bpt>Datentyp<ept id="p1">**</ept>: "String(XML)" festgelegt</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>d.</source>
+          <target state="translated">d.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>:</source>
+          <target state="translated"><bpt id="p1">**</bpt>OMA-URI<ept id="p1">**</ept>:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>For Android<ept id="p1">**</ept>: ./Vendor/MSFT/WiFi/Profile/<ph id="ph1">&lt;SSID&gt;</ph>/Settings</source>
+          <target state="translated"><bpt id="p1">**</bpt>Für Android<ept id="p1">**</ept>: ./Vendor/MSFT/WiFi/Profile/<ph id="ph1">&lt;SSID&gt;</ph>/Settings</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>For Windows<ept id="p1">**</ept>: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml</source>
+          <target state="translated"><bpt id="p1">**</bpt>Für Windows<ept id="p1">**</ept>: ./Vendor/MSFT/WiFi/Profile/MyNetwork/WlanXml</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Be sure to include the dot character at the beginning.</source>
+          <target state="translated">Achten Sie darauf, dass der Punkt am Anfang enthalten.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SSID is the SSID for which you’re creating the policy.</source>
+          <target state="translated">SSID ist die SSID, für die Sie die Richtlinie erstellen.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+          <target state="translated">Beispiel:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>e.</source>
+          <target state="translated">e.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Value Field<ept id="p1">**</ept> is where you paste your XML code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Feld Wert<ept id="p1">**</ept> ist, in dem Sie Ihren XML-Code einfügen.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here’s an example.</source>
+          <target state="translated">Es folgt ein Beispiel.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each value should be adapted to your network settings.</source>
+          <target state="translated">Jeder Wert sollte die Netzwerk-Einstellungen angepasst werden.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>See the comments section of the code for some pointers.</source>
+          <target state="translated">Finden Sie im Kommentarabschnitt "Code für einige Hinweise.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, save, and then deploy the policy.</source>
+          <target state="translated">Wählen Sie <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, speichern und anschließend die Richtlinie bereitstellen.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This policy can only be deployed to user groups.</source>
+          <target state="translated">Diese Richtlinie kann nur für Benutzergruppen bereitgestellt werden.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The next time each device checks in, the policy will be applied, and a Wi-Fi profile will be created on the device.</source>
+          <target state="translated">Jedes Gerät überprüft, das nächste Mal die Richtlinie wird angewendet, und auf dem Gerät ein WLAN Profil erstellt werden.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The device will be able to connect to the network automatically.</source>
+          <target state="translated">Das Gerät wird automatisch eine Verbindung mit dem Netzwerk herstellen können.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Android or Windows Wi-Fi profile</source>
+          <target state="translated">Android oder Windows-WLAN-Profil</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Here’s an example of the XML code for an Android or Windows Wi-Fi profile:</source>
+          <target state="translated">Hier ist ein Beispiel für den XML-Code für ein Android oder Windows Wi-Fi-Profil:</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>must be set to <bpt id="p1">**</bpt>false<ept id="p1">**</ept>, as <bpt id="p2">**</bpt>true<ept id="p2">**</ept> could cause device to expect an encrypted password and then try to decrypt it, which may result in a failed connection.</source>
+          <target state="translated">muss <bpt id="p1">**</bpt>false<ept id="p1">**</ept>, als <bpt id="p2">**</bpt>true<ept id="p2">**</ept> konnte Gerät erwarten, dass ein verschlüsseltes Kennwort und wiederholen Sie dann entschlüsseln, die eine fehlgeschlagene Verbindung führen können.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>should be set to the hexadecimal value of <ph id="ph1">`&lt;name&gt;&lt;SSID of wifi profile&gt;&lt;/name&gt;`</ph>.</source>
+          <target state="translated">sollte festgelegt werden, um den hexadezimalen Wert der <ph id="ph1">`&lt;name&gt;&lt;SSID of wifi profile&gt;&lt;/name&gt;`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Windows 10 devices may return a false <bpt id="p1">*</bpt>0x87D1FDE8 Remediation failed<ept id="p1">*</ept> error, but will still be provisioned with the profile.</source>
+          <target state="translated">Windows 10-Geräte können ein False zurückgeben <bpt id="p1">*</bpt>0x87D1FDE8 Fehler bei der Wiederherstellung<ept id="p1">*</ept> Fehler, sondern wird weiterhin mit dem Profil bereitgestellt werden.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>EAP-based Wi-Fi profile</source>
+          <target state="translated">EAP-basierte WLAN-Profil</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Here’s  an example of the XML code for an EAP-based Wi-Fi profile:</source>
+          <target state="translated">Hier ist ein Beispiel für den XML-Code für ein EAP-basierte WLAN-Profil:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Create the XML file from an existing Wi-Fi connection</source>
+          <target state="translated">Erstellen Sie die XML-Datei aus einer vorhandenen Wi-Fi-Verbindung</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also create an XML file from an existing Wi-Fi connection:</source>
+          <target state="translated">Sie können auch eine XML-Datei aus einer vorhandenen Wi-Fi-Verbindung erstellen:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On a computer that is connected to or has recently connected to the wireless network, open the following folder: C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces<ph id="ph1">\{</ph>guid}.</source>
+          <target state="translated">Auf einem Computer, die mit verbunden ist oder vor kurzem mit dem drahtlosen Netzwerk verbunden ist, öffnen Sie den folgenden Ordner: C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces<ph id="ph1">\{</ph>Guid}.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It’s best to use a computer that has not connected to many wireless networks, because you’ll have to search through each profile to find the right one.</source>
+          <target state="translated">Es wird empfohlen, verwenden einen Computer, der nicht mit vielen drahtlosen Netzwerken verbunden ist, da Sie jedes Profil zum finden der richtigen durchsuchen müssen.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Search through the XML files to locate the one with the right name.</source>
+          <target state="translated">Durchsuchen Sie die XML-Dateien mit den richtigen Namen gefunden.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>After you have located the correct XML file, copy and paste the XML code into the Data field of the OMA-URI settings page.</source>
+          <target state="translated">Nachdem Sie die richtige XML-Datei gefunden haben, kopieren Sie den XML-Code in das Feld "Daten" der Einstellungsseite für OMA-URI.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Deploy the policy</source>
+          <target state="translated">Bereitstellen der Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Policy<ept id="p1">**</ept> workspace, select the policy that you want to deploy, and then choose <bpt id="p2">**</bpt>Manage Deployment<ept id="p2">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Richtlinie<ept id="p1">**</ept> Arbeitsbereich, wählen Sie die Richtlinie, die Sie bereitstellen möchten, und wählen Sie dann <bpt id="p2">**</bpt>Bereitstellung verwalten<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Deployment<ept id="p1">**</ept> dialog box:</source>
+          <target state="translated">In der <bpt id="p1">**</bpt>Bereitstellung verwalten<ept id="p1">**</ept> (Dialogfeld):</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To deploy the policy<ept id="p1">**</ept> - Select one or more groups to which you want to deploy the policy, and then choose <bpt id="p2">**</bpt>Add<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Die Richtlinie bereitstellen<ept id="p1">**</ept> -Wählen Sie eine oder mehrere Gruppen aus, die zum Bereitstellen der Richtlinie, und wählen Sie dann <bpt id="p2">**</bpt>Hinzufügen<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>To close the dialog box without deploying it<ept id="p1">**</ept> - Choose <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Um das Dialogfeld zu schließen, ohne es<ept id="p1">**</ept> – Wählen Sie <bpt id="p2">**</bpt>Abbrechen<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>When you select a deployed policy, you can view more information about the deployment in the lower part of the policies list.</source>
+          <target state="translated">Wenn Sie eine bereitgestellte Richtlinie auswählen, können Sie weitere Informationen zur Bereitstellung im unteren Teil der Liste der Richtlinien anzeigen.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>See also</source>
+          <target state="translated">Siehe auch</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Wi-Fi connections in Microsoft Intune</source>
+          <target state="translated">Wi-Fi-Verbindungen in Microsoft Intune</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

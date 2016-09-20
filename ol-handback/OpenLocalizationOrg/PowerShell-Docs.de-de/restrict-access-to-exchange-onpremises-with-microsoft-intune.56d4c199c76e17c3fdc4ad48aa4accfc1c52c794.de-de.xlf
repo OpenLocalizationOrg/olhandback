@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4bd6fc0" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf9a9aae239e4b6feee57dd1bb0ea52ddaed408c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Sonja\restrict-access-to-exchange-onpremises-with-microsoft-intune.md</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" />
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e5c47d121db011c09f26a10bc12c960bdfee8e0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">051f615ef384dc3f2d2a49b703df90cc7991d960</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Exchange On-premises | Microsoft Intune</source>
+          <target state="translated">Einschränken des e-Mail-Zugriffs auf Exchange lokal | Microsoft Intune</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Protect and control access to company email on Exchange On-premises with conditional access.</source>
+          <target state="translated">Schützen Sie und steuern Sie des Zugriffs auf Unternehmens-e-Mail auf Exchange lokal mit bedingtem Zugriff.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Restrict email access to Exchange on-premises and legacy Exchange Online Dedicated with Intune</source>
+          <target state="translated">Beschränken des Zugriffs auf e-Mail-Exchange lokal und ältere Exchange Online Dedicated mit Intune</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you have an Exchange Online Dedicated environment and need to find out whether it is in the new or the legacy configuration, please contact your account manager.</source>
+          <target state="translated">Wenn Sie eine Exchange Online Dedicated-Umgebung und herausfinden, ob es in der neuen oder älteren Konfigurations handelt, wenden Sie sich an Ihren Account Manager.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To control email access to Exchange on-premises or to your legacy Exchange Online Dedicated environment, configure conditional access to Exchange on-premises in Intune.</source>
+          <target state="translated">Konfigurieren von e-Mail-Zugriff auf Exchange lokal oder auf Ihre Exchange Online Dedicated-Legacyumgebung zu steuern, bedingten Zugriff auf lokales Exchange in Intune.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To learn more about how conditional access works, read the <bpt id="p1">[</bpt>restrict access to email and O365 services<ept id="p1">]( restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> article.</source>
+          <target state="translated">Lesen Sie weitere Informationen wie bedingte Access verwendet die <bpt id="p1">[</bpt>Einschränken des Zugriffs auf e-Mail und Office 365-Diensten<ept id="p1">]( restrict-access-to-email-and-o365-services-with-microsoft-intune.md)</ept> Artikel.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Before<ept id="p1">**</ept> you can configure conditional access verify the following:</source>
+          <target state="translated"><bpt id="p1">**</bpt>Vor dem<ept id="p1">**</ept> können Sie bedingten Zugriff konfigurieren, überprüfen Sie Folgendes:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Your Exchange version must be <bpt id="p1">**</bpt>Exchange 2010 or later<ept id="p1">**</ept>.</source>
+          <target state="translated">Die Exchange-Version muss <bpt id="p1">**</bpt>Exchange 2010 oder höher<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Exchange server Client Access Server (CAS) array is supported.</source>
+          <target state="translated">Exchange werden Server (Client Access Server, CAS) unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You must use the <bpt id="p1">**</bpt>on-premises Exchange connector<ept id="p1">**</ept>, which connects <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> to Microsoft Exchange on-premises.</source>
+          <target state="translated">Verwenden Sie die <bpt id="p1">**</bpt>lokale Exchange Connector<ept id="p1">**</ept>, verbindet <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> für Microsoft Exchange auf lokale.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This lets you manage devices through the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> console.</source>
+          <target state="translated">Dies ermöglicht Ihnen die Verwaltung von Geräten über die <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Konsole.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For details on the connector, see <bpt id="p1">[</bpt>Intune on-premises Exchange connector<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</source>
+          <target state="translated">Ausführliche Informationen über den Connector, finden Sie unter <bpt id="p1">[</bpt>Intune lokale Exchange Connector<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The on-premises Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant.</source>
+          <target state="translated">Lokale Exchange Connector in der Intune-Konsole verfügbar ist spezifisch für Ihren Mandanten Intune und nicht mit einem anderen Mandanten verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You should also ensure that the exchange connector for your tenant is installed <bpt id="p1">**</bpt>on only one machine<ept id="p1">**</ept>.</source>
+          <target state="translated">Sie sollten zudem sicherstellen, dass der Exchange-Connector für Ihren Mandanten installiert ist <bpt id="p1">**</bpt>auf nur einem Computer<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This connector should be downloaded from the Intune admin console.</source>
+          <target state="translated">Dieser Connector muss von der Intune-Verwaltungskonsole heruntergeladen werden.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For a walkthrough on how to configure the on-premises Exchange connector, see <bpt id="p1">[</bpt>configure Exchange on-premises connector for on-premises or hosted Exchange<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</source>
+          <target state="translated">Eine exemplarische Vorgehensweise zum Konfigurieren des lokalen Exchange-Connector, finden Sie unter <bpt id="p1">[</bpt>konfigurieren Exchange lokalen Connector für lokales oder gehostetes Exchange<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The connector can be installed on any machine as long as that machine is able to communicate with the Exchange server.</source>
+          <target state="translated">Der Connector kann auf jedem Computer installiert werden, solange dieser Computer mit dem Exchange-Server kommunizieren kann.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The connector supports <bpt id="p1">**</bpt>Exchange CAS environment<ept id="p1">**</ept>.</source>
+          <target state="translated">Der Connector unterstützt <bpt id="p1">**</bpt>Exchange CAS-Umgebung<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can technically install the connector on the Exchange CAS server directly if you wish to, but it is not recommended, as it will increase the load on the server.</source>
+          <target state="translated">Sie können technisch den Connector auf dem Exchange-Clientzugriffsserver direkt installieren, wenn Sie möchten, aber es nicht empfohlen wird, wie dadurch die Last auf dem Server erhöht.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When configuring the connector, you must set it up to communicate to one of the Exchange CAS servers.</source>
+          <target state="translated">Wenn Sie den Connector konfigurieren, müssen Sie es in eines der Exchange-Clientzugriffsserver Kommunikation eingerichtet.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exchange ActiveSync<ept id="p1">**</ept> must be configured with certificate based authentication, or user credential entry.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Exchange ActiveSync<ept id="p1">**</ept> mit zertifikatbasierter Authentifizierung oder Eingabe von Anmeldeinformationen konfiguriert werden müssen.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When conditional access policies are configured and targeted to a user, before a user can connect to their email, the <bpt id="p1">**</bpt>device<ept id="p1">**</ept> they use must be:</source>
+          <target state="translated">Wenn Richtlinien für bedingten Zugriff konfiguriert sind und für einen Benutzer bestimmt werden, bevor ein Benutzer auf ihre e-Mails verbinden kann die <bpt id="p1">**</bpt>Gerät<ept id="p1">**</ept> Verwendung muss sein:</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Either <bpt id="p1">**</bpt>enrolled<ept id="p1">**</ept> with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> or is a domain joined PC.</source>
+          <target state="translated">Entweder <bpt id="p1">**</bpt>registriert<ept id="p1">**</ept> mit <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> oder eine Domäne eingebundenen PC.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Registered in Azure Active Directory<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>In Azure Active Directory registrierten<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory.</source>
+          <target state="translated">Darüber hinaus muss die Client-ID von Exchange ActiveSync mit Azure Active Directory registriert werden.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>AAD DRS will be activated automatically for Intune and Office 365 customers.</source>
+          <target state="translated">AAD DRS wird automatisch für Intune und Office 365-Kunden aktiviert werden.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Customers who have already deployed the ADFS Device Registration Service will not see registered devices in their on-premises Active Directory.</source>
+          <target state="translated">Kunden, die bereits den AD FS Device Registration Service bereitgestellt haben, sehen keine registrierten Geräte in ihrem lokalen Active Directory.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>This does not apply to Windows PCs and Windows Phone devices<ept id="p1">**</ept>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Dies gilt nicht für Windows-PCs und Windows Phone-Geräte<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliant<ept id="p1">**</ept> with any <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> compliance policies deployed to that device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Kompatible<ept id="p1">**</ept> mit einem <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> für das Gerät festgelegten Konformitätsrichtlinien.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following diagram illustrates the  flow that is used by conditional access policies for Exchange on-premises to evaluate whether to allow or block devices.</source>
+          <target state="translated">Das folgende Diagramm veranschaulicht den Ablauf, der von Richtlinien für bedingten Zugriff für Exchange lokal verwendet wird, bewertet, ob Geräte blockiert oder zugelassen.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Diagram that shows the decision points that determine if a device is allowed access to Exchange on-premises or blocked<ph id="ph1">](../media/ConditionalAccess8-2.png)</ph> If a conditional access policy is not met, the user is presented with one of the following messages when they log in:</source>
+          <target state="translated">Diagramm mit den Entscheidungspunkte, die bestimmen, ob ein Gerät Zugriff auf lokales Exchange erlaubt oder blockiert<ph id="ph1">](../media/ConditionalAccess8-2.png)</ph> wenn eine Richtlinie für bedingten Zugriff nicht erfüllt wird, wird dem Benutzer mit einem der folgenden Meldungen angezeigt, bei der Anmeldung:</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the device is not enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the Company Portal  app, enroll the device, and activate email.</source>
+          <target state="translated">Wenn das Gerät nicht registriert <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, oder ist nicht registriert in Azure Active Directory, eine Meldung mit Anweisungen zum Installieren der Unternehmensportal-app, das Gerät zu registrieren und Aktivieren des e-Mail-angezeigt wird.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This process also associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory.</source>
+          <target state="translated">Dabei wird auch Exchange ActiveSync-ID des Geräts mit dem Gerätedatensatz in Azure Active Directory zugeordnet.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the device is not compliant, a message is displayed that directs the user to the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Company Portal   website, or the Company Portal   app where they can find information about the problem and how to remediate it.</source>
+          <target state="translated">Wenn das Gerät nicht kompatibel ist, wird eine Meldung angezeigt, die den Benutzer anweist die <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> Unternehmensportal-Website oder die Unternehmensportal-app, wo sie Informationen über das Problem und dessen Lösung finden können.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Support for mobile devices</source>
+          <target state="translated">Unterstützung für mobile Geräte</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Windows Phone 8 and later</source>
+          <target state="translated">Windows Phone 8 und höher</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Native email app on iOS.</source>
+          <target state="translated">Systemeigene e-Mail-app für iOS.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Native email app on Android 4 or later</source>
+          <target state="translated">Systemeigene e-Mail-app unter Android 4 oder höher</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Microsoft Outlook app for Android and iOS is not supported.</source>
+          <target state="translated">Microsoft Outlook-app für Android und iOS wird nicht unterstützt.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Support for PCs</source>
+          <target state="translated">Unterstützung für PCs</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Mail<ept id="p1">**</ept> application on Windows 8 and later (when enrolled with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>)</source>
+          <target state="translated">Die <bpt id="p1">**</bpt>Mail<ept id="p1">**</ept> Anwendung unter Windows 8 und höher (bei Registrierung mit <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>)</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Configure a conditional access policy</source>
+          <target state="translated">Konfigurieren Sie eine Richtlinie für bedingten Zugriff</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Microsoft Intune administration console<ept id="p1">](https://manage.microsoft.com)</ept>, choose <bpt id="p2">**</bpt>Policy<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Conditional Access<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Exchange on-premises policy<ept id="p4">**</ept>.</source>
+          <target state="translated">In der <bpt id="p1">[</bpt>Microsoft Intune-Verwaltungskonsole<ept id="p1">](https://manage.microsoft.com)</ept>, wählen Sie <bpt id="p2">**</bpt>Richtlinie<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Zugangsberechtigung<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>auf lokales Exchange Richtlinie<ept id="p4">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>IntuneSA5aSelectExchOnPremPolicy</source>
+          <target state="translated">IntuneSA5aSelectExchOnPremPolicy</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Configure the policy with the settings you require: <ph id="ph1">![</ph>Screenshot of the Exchange on-premises policy page</source>
+          <target state="translated">Konfigurieren Sie die Richtlinie mit den Einstellungen, die Sie benötigen: <ph id="ph1">![</ph>Screenshot der Exchange-lokale Richtlinien-Seite</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block email apps from accessing Exchange on-premises if the device is noncompliant or not enrolled to Microsoft Intune:<ept id="p1">**</ept> When you select this option, devices that are not managed by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, or not compliant with a compliance policy are blocked from accessing Exchange services.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Blockieren von e-Mail-apps auf lokales Exchange zugreifen, wenn das Gerät nicht konform oder nicht bei Windows Intune registrierten:<ept id="p1">**</ept> Wenn Sie diese Option aktivieren, Geräte, die nicht von verwaltet werden <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>, oder nicht kompatibel mit einer Kompatibilität Richtlinie Zugriff auf Exchange-Dienste blockiert werden.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default rule override - Always allow  enrolled and compliant devices to access Exchange:<ept id="p1">**</ept> When you check this option, devices that are enrolled in Intune and compliant with the compliant policies are allowed to access Exchange.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Außerkraftsetzung der Regel Standard - immer zulassen registrierte und kompatible Geräte auf Exchange zugreifen:<ept id="p1">**</ept> wenn Sie diese Option aktivieren, Geräte, die in Intune registriert und kompatibel mit den Richtlinien konformen sind auf Exchange zugreifen dürfen.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This rule overrides the <bpt id="p1">**</bpt>Default Rule<ept id="p1">**</ept>, which means that even if you set the <bpt id="p2">**</bpt>Default Rule<ept id="p2">**</ept> to quarantine or block access, enrolled and compliant devices will still be able to access Exchange.</source>
+          <target state="translated">Außerkraftsetzungen für diese die <bpt id="p1">**</bpt>Standardregel<ept id="p1">**</ept>, das bedeutet, dass selbst wenn Sie festlegen, die <bpt id="p2">**</bpt>Standardregel<ept id="p2">**</ept> zu isolieren oder den Zugriff, registrierte und kompatible Geräte werden auf Exchange zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Targeted Groups:<ept id="p1">**</ept> Select the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> user groups that must enroll their device with <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> before they can access Exchange.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Zielgruppen:<ept id="p1">**</ept> Wählen Sie die <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> von Benutzergruppen, die ihr Gerät mit registrieren müssen <ph id="ph2">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> auf Exchange zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exempted Groups:<ept id="p1">**</ept> Select the <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> user groups that are exempt from the conditional access policy.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Ausgenommene Gruppen:<ept id="p1">**</ept> Wählen Sie die <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> von Benutzergruppen, die von der Richtlinie für bedingten Zugriff ausgenommen werden.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Users in this list will be exempt even if they are also in the <bpt id="p1">**</bpt>Targeted Groups<ept id="p1">**</ept> list.</source>
+          <target state="translated">Benutzer in dieser Liste werden ausgenommen werden, auch wenn sie auch in der <bpt id="p1">**</bpt>Zielgruppen<ept id="p1">**</ept> Liste.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Platform Exceptions:<ept id="p1">**</ept> Choose <bpt id="p2">**</bpt>Add Rule<ept id="p2">**</ept> to configure a rule that defines access levels for specified mobile device families and models.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Plattformausnahmen:<ept id="p1">**</ept> auswählen <bpt id="p2">**</bpt>Regel hinzufügen<ept id="p2">**</ept> eine Regel konfigurieren, die definiert die Zugriffsebenen für mobile gerätefamilien und-Modelle.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Because these devices can be of any type, you can also configure device types that are unsupported by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</source>
+          <target state="translated">Da diese Geräte eines beliebigen Typs sein können, können Sie auch konfigurieren, Gerätetypen, die von nicht unterstützt werden <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default Rule:<ept id="p1">**</ept> For a device that is not covered by any of the other rules, you can choose to allow it to access Exchange, block it, or quarantine it.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Standardregel:<ept id="p1">**</ept> für ein Gerät, das durch keine der anderen Regeln abgedeckt wird, können Sie festlegen, dass es auf Exchange zugreifen, blockiert oder unter Quarantäne gestellt wird.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When you set the rule to allow access, for devices that are enrolled and compliant, email access is granted automatically for iOS, Windows, and Samsung KNOX devices.</source>
+          <target state="translated">Wenn Sie festlegen, dass die Regel zum Zulassen von Zugriff für Geräte, die registriert und kompatibel sind e-Mail-Zugriff für iOS, Windows und Samsung KNOX Geräte erhält automatisch.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The end user does not have to go through any process to get their email.</source>
+          <target state="translated">Der Benutzer muss keine Schritte auf ihre e-Mails abrufen.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>On Android devices that do not run Samsung KNOX, end users will get a quarantine email which includes a guided walkthrough to verify enrollment and compliance before they can access email.</source>
+          <target state="translated">Auf Android-Geräte, die nicht Samsung KNOX erhalten Endbenutzer eine Quarantäne-e-Mail enthält eine exemplarische Vorgehensweise zur Registrierung und die Kompatibilität überprüfen, bevor sie die e-Mail-Adresse zugreifen können.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you set the rule to block access or quarantine it, all devices are blocked from getting access to exchange regardless of whether they are already enrolled in Intune or not.</source>
+          <target state="translated">Wenn Sie, die Regel festlegen für den Zugriff blockieren oder unter Quarantäne gestellt wird, werden alle Geräte blockiert Zugriff auf exchange, unabhängig davon, ob sie bereits in Intune registriert sind.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To prevent enrolled and compliant devices from being affected by this rule, check the <bpt id="p1">**</bpt>Default Rule Override.<ept id="p1">**</ept></source>
+          <target state="translated">Um zu verhindern, dass registrierte und kompatible Geräte durch diese Regel beeinträchtigt wird, überprüfen Sie die <bpt id="p1">**</bpt>Standard Regel außer Kraft setzen.<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If your intention is to first block all devices before granting access to email, choose the Block access, or the Quarantine rule.</source>
+          <target state="translated">Wählen Sie zuerst alle Geräte blockieren, vor dem Gewähren des Zugriffs auf e-Mail-Adresse entspricht, blockieren Sie den Zugriff oder die Quarantäne-Regel.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default rule will apply to all device types, so device types you configure as platform exceptions and that are unsupported by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> are also affected.</source>
+          <target state="translated">Die Standardregel gilt für alle Gerätetypen, sodass Gerätetypen, die Sie als plattformausnahmen und das Konfigurieren von nicht unterstützt werden <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> sind ebenfalls betroffen.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User Notification:<ept id="p1">**</ept> In addition to the notification email sent from Exchange, Intune sends an email which contains steps to unblock the device.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Benachrichtigung:<ept id="p1">**</ept> zusätzlich zu den von Exchange gesendeten e-Mail sendet Intune eine e-Mail mit Schritten zum Entsperren des Geräts.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can edit the default message to customize it to your needs.</source>
+          <target state="translated">Sie können die Standardnachricht an Ihre Bedürfnisse anzupassen, bearbeiten.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Because the Intune notification email containing remediation instructions is delivered to the user’s Exchange mailbox, in the event that the user’s device is blocked before they receive the email message, they can use an unblocked device or other method to access Exchange and view the message.</source>
+          <target state="translated">Da die Intune e-Mail mit an Exchange-Postfach des Benutzers gesendet werden, wenn das Gerät des Benutzers blockiert wird, bevor sie die e-Mail-Nachricht empfangen, können sie ein freigeschaltetes Gerät oder eine andere Methode verwenden, auf Exchange zugreifen, und zeigen Sie die Nachricht.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This is especially true when the <bpt id="p1">**</bpt>Default Rule<ept id="p1">**</ept> is set to block or quarantine.</source>
+          <target state="translated">Dies gilt insbesondere, wenn die <bpt id="p1">**</bpt>Standardregel<ept id="p1">**</ept> Blockieren oder unter Quarantäne gestellt festgelegt ist.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In this case, the end user will have to go to their app store, download the Microsoft Company Portal   app and enroll their device.</source>
+          <target state="translated">In diesem Fall müssen die Endbenutzer wechseln zu ihrer app-Store Herunterladen der Microsoft-Unternehmensportal-app und ihr Gerät registrieren.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This is applicable to iOS, Windows, and Samsung KNOX devices.</source>
+          <target state="translated">Dies gilt für iOS, Windows und Samsung KNOX Geräte.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For devices that do not run Samsung KNOX, you will need to send the quarantine email to an alternate email account, which then  the end user has to copy to their blocked device to complete the enrollment and compliance process.|</source>
+          <target state="translated">Für Geräte, die Samsung KNOX nicht benötigen, senden den Quarantäne-e-Mail an eine alternative e-Mail-Adresse Firma, die der Benutzer hat auf ihr Gerät blockiert, um die Registrierung und Compliance abzuschließen kopieren. |</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In order for Exchange to be able to send the notification email, you must specify the account that should be used to send the notification email.</source>
+          <target state="translated">Damit Exchange, um die e-Mail-Benachrichtigung senden zu können müssen Sie das Konto angeben, das verwendet werden soll, um die e-Mail-Benachrichtigung zu senden.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>configure Exchange on-premises connector for on-premises or hosted Exchange<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</source>
+          <target state="translated">Weitere Informationen finden Sie unter <bpt id="p1">[</bpt>konfigurieren Exchange lokalen Connector für lokales oder gehostetes Exchange<ept id="p1">](intune-on-premises-exchange-connector.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>When you are done, choose <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="translated">Wenn Sie fertig sind, wählen Sie <bpt id="p1">**</bpt>Speichern<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You do not have to deploy the conditional access policy, it takes effect immediately.</source>
+          <target state="translated">Sie müssen keine Richtlinie für bedingten Zugriff bereitstellen, wird sofort wirksam.</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>After a user sets up an Exchange ActiveSync profile, it might take from 1-3 hours for the device to be blocked (if it is not managed by <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>).</source>
+          <target state="translated">Nachdem ein Benutzer ein Exchange ActiveSync-Profil eingerichtet hat, kann es 1 bis 3 Stunden für das Gerät blockiert werden bis (wenn es nicht von verwaltet wird <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph>).</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If a blocked user then enrolls the device with <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> and remediates noncompliance), email access will be unblocked within 2 minutes.</source>
+          <target state="translated">Wenn ein blockierter Benutzer das Gerät dann registriert <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> und Nichtkompatibilität), e-Mail-Zugriff werden innerhalb von zwei Minuten entsperrt.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the user un-enrolls from <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> it might take from 1-3 hours for the device to be blocked.</source>
+          <target state="translated">Wenn der Benutzer un-deregistriert <ph id="ph1">[!INCLUDE[wit_nextref](../includes/wit_nextref_md.md)]</ph> es dauern, 1 bis 3 Stunden für das Gerät blockiert wird.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To see some example scenarios of how you would configure conditional access policy to restrict device access, see <bpt id="p1">[</bpt>restrict email access example scenarios<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</source>
+          <target state="translated">Einige Beispielszenarien, wie Sie Richtlinie für bedingten Zugriff zum Einschränken des Gerätezugriffs konfigurieren möchten, finden Sie unter <bpt id="p1">[</bpt>Beispielszenarien für den e-Mail-Zugriff beschränken<ept id="p1">](restrict-email-access-example-scenarios.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Next steps</source>
+          <target state="translated">Nächste Schritte</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Restrict access to SharePoint Online</source>
+          <target state="translated">Einschränken des Zugriffs auf SharePoint Online</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Restrict access to Skype for Business Online</source>
+          <target state="translated">Einschränken des Zugriffs auf Skype for Business Online</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
